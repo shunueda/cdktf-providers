@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/endpoints_edge_generate_key
+// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoints_edge_generate_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EndpointsEdgeGenerateKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/endpoints_edge_generate_key#id EndpointsEdgeGenerateKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoints_edge_generate_key#id EndpointsEdgeGenerateKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface EndpointsEdgeGenerateKeyConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/endpoints_edge_generate_key portainer_endpoints_edge_generate_key}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoints_edge_generate_key portainer_endpoints_edge_generate_key}
 */
 export class EndpointsEdgeGenerateKey extends cdktf.TerraformResource {
 
@@ -33,7 +33,7 @@ export class EndpointsEdgeGenerateKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndpointsEdgeGenerateKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndpointsEdgeGenerateKey to import
-  * @param importFromId The id of the existing EndpointsEdgeGenerateKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/endpoints_edge_generate_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndpointsEdgeGenerateKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoints_edge_generate_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndpointsEdgeGenerateKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class EndpointsEdgeGenerateKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/endpoints_edge_generate_key portainer_endpoints_edge_generate_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/endpoints_edge_generate_key portainer_endpoints_edge_generate_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class EndpointsEdgeGenerateKey extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_endpoints_edge_generate_key',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.1',
-        providerVersionConstraint: '1.16.1'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/data-sources/parse_aws_cgw_configuration
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/parse_aws_cgw_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataVolterraParseAwsCgwConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/data-sources/parse_aws_cgw_configuration#customer_gateway_configuration DataVolterraParseAwsCgwConfiguration#customer_gateway_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/parse_aws_cgw_configuration#customer_gateway_configuration DataVolterraParseAwsCgwConfiguration#customer_gateway_configuration}
   */
   readonly customerGatewayConfiguration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/data-sources/parse_aws_cgw_configuration#id DataVolterraParseAwsCgwConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/parse_aws_cgw_configuration#id DataVolterraParseAwsCgwConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataVolterraParseAwsCgwConfigurationConfig extends cdktf.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/data-sources/parse_aws_cgw_configuration volterra_parse_aws_cgw_configuration}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/parse_aws_cgw_configuration volterra_parse_aws_cgw_configuration}
 */
 export class DataVolterraParseAwsCgwConfiguration extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataVolterraParseAwsCgwConfiguration extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataVolterraParseAwsCgwConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVolterraParseAwsCgwConfiguration to import
-  * @param importFromId The id of the existing DataVolterraParseAwsCgwConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/data-sources/parse_aws_cgw_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVolterraParseAwsCgwConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/parse_aws_cgw_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVolterraParseAwsCgwConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataVolterraParseAwsCgwConfiguration extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/data-sources/parse_aws_cgw_configuration volterra_parse_aws_cgw_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/data-sources/parse_aws_cgw_configuration volterra_parse_aws_cgw_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataVolterraParseAwsCgwConfiguration extends cdktf.TerraformDataSou
       terraformResourceType: 'volterra_parse_aws_cgw_configuration',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

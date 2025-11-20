@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token
+// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TrustTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token#name TrustToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token#name TrustToken#name}
   */
   readonly name: string;
   /**
   * List of projects to restrict the token to. By default, no restriction applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token#projects TrustToken#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token#projects TrustToken#projects}
   */
   readonly projects?: string[];
   /**
   * The remote in which the trust token is created. If not provided, the provider's default remote is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token#remote TrustToken#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token#remote TrustToken#remote}
   */
   readonly remote?: string;
   /**
   * When to trigger the token generation. Possible values are once and always (if missing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token#trigger TrustToken#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token#trigger TrustToken#trigger}
   */
   readonly trigger?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token lxd_trust_token}
+* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token lxd_trust_token}
 */
 export class TrustToken extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TrustToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustToken to import
-  * @param importFromId The id of the existing TrustToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TrustToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/trust_token lxd_trust_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/trust_token lxd_trust_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TrustToken extends cdktf.TerraformResource {
       terraformResourceType: 'lxd_trust_token',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

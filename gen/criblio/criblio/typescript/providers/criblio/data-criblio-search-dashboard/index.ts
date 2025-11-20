@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -975,7 +975,7 @@ export class DataCriblioSearchDashboardScheduleOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard criblio_search_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dashboard criblio_search_dashboard}
 */
 export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
 
@@ -991,7 +991,7 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSearchDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchDashboard to import
-  * @param importFromId The id of the existing DataCriblioSearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1003,7 +1003,7 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard criblio_search_dashboard} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dashboard criblio_search_dashboard} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1014,8 +1014,8 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface PackPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#conf PackPipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#conf PackPipeline#conf}
   */
   readonly conf: PackPipelineConf;
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH for pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#id PackPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#id PackPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface PackPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * pack ID to POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#pack PackPipeline#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#pack PackPipeline#pack}
   */
   readonly pack: string;
 }
@@ -37,43 +37,43 @@ export interface PackPipelineConfFunctions {
   /**
   * Function-specific configuration as a JSON object. Different functions require different configuration fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#conf PackPipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#conf PackPipeline#conf}
   */
   readonly conf: string;
   /**
   * Simple description of this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#description PackPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#description PackPipeline#description}
   */
   readonly description?: string;
   /**
   * If true, data will not be pushed through this function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Filter that selects data to be fed through this Function. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#filter PackPipeline#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#filter PackPipeline#filter}
   */
   readonly filter?: string;
   /**
   * If enabled, stops the results of this Function from being passed to the downstream Functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#final PackPipeline#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#final PackPipeline#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
   */
   readonly groupId?: string;
   /**
   * Function ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#id PackPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#id PackPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -362,17 +362,17 @@ export interface PackPipelineConfGroups {
   /**
   * Short description of this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#description PackPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#description PackPipeline#description}
   */
   readonly description?: string;
   /**
   * Whether this group is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#name PackPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#name PackPipeline#name}
   */
   readonly name: string;
 }
@@ -543,33 +543,33 @@ export interface PackPipelineConf {
   /**
   * Time (in ms) to wait for an async function to complete processing of a data item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#async_func_timeout PackPipeline#async_func_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#async_func_timeout PackPipeline#async_func_timeout}
   */
   readonly asyncFuncTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#description PackPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#description PackPipeline#description}
   */
   readonly description?: string;
   /**
   * List of Functions to pass data through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#functions PackPipeline#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#functions PackPipeline#functions}
   */
   readonly functions?: PackPipelineConfFunctions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#groups PackPipeline#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#groups PackPipeline#groups}
   */
   readonly groups?: { [key: string]: PackPipelineConfGroups } | cdktf.IResolvable;
   /**
   * The output destination for events processed by this Pipeline. Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#output PackPipeline#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#output PackPipeline#output}
   */
   readonly output?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#streamtags PackPipeline#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#streamtags PackPipeline#streamtags}
   */
   readonly streamtags?: string[];
 }
@@ -1189,7 +1189,7 @@ export class PackPipelineItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline criblio_pack_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline criblio_pack_pipeline}
 */
 export class PackPipeline extends cdktf.TerraformResource {
 
@@ -1205,7 +1205,7 @@ export class PackPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackPipeline to import
-  * @param importFromId The id of the existing PackPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1217,7 +1217,7 @@ export class PackPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline criblio_pack_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_pipeline criblio_pack_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1228,8 +1228,8 @@ export class PackPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

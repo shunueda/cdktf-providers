@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,251 @@ import * as cdktf from 'cdktf';
 
 export interface AppSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#annotations AppSetting#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#annotations AppSetting#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#description AppSetting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#anomaly_types AppSetting#anomaly_types}
+  */
+  readonly anomalyTypes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#description AppSetting#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#disable AppSetting#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable AppSetting#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#id AppSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#id AppSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#labels AppSetting#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#labels AppSetting#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#name AppSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#name AppSetting#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#namespace AppSetting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#namespace AppSetting#namespace}
   */
   readonly namespace: string;
   /**
+  * app_type_refs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#app_type_refs AppSetting#app_type_refs}
+  */
+  readonly appTypeRefs?: AppSettingAppTypeRefs[] | cdktf.IResolvable;
+  /**
   * app_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#app_type_settings AppSetting#app_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#app_type_settings AppSetting#app_type_settings}
   */
   readonly appTypeSettings: AppSettingAppTypeSettings[] | cdktf.IResolvable;
 }
-export interface AppSettingAppTypeSettingsAppTypeRef {
+export interface AppSettingAppTypeRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#name AppSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#name AppSetting#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#namespace AppSetting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#namespace AppSetting#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#tenant AppSetting#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#tenant AppSetting#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function appSettingAppTypeRefsToTerraform(struct?: AppSettingAppTypeRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function appSettingAppTypeRefsToHclTerraform(struct?: AppSettingAppTypeRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppSettingAppTypeRefsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AppSettingAppTypeRefs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppSettingAppTypeRefs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class AppSettingAppTypeRefsList extends cdktf.ComplexList {
+  public internalValue? : AppSettingAppTypeRefs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AppSettingAppTypeRefsOutputReference {
+    return new AppSettingAppTypeRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AppSettingAppTypeSettingsAppTypeRef {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#name AppSetting#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#namespace AppSetting#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#tenant AppSetting#tenant}
   */
   readonly tenant?: string;
 }
@@ -234,11 +431,11 @@ export class AppSettingAppTypeSettingsAppTypeRefList extends cdktf.ComplexList {
 }
 export interface AppSettingAppTypeSettingsBusinessLogicMarkupSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#disable AppSetting#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable AppSetting#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#enable AppSetting#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#enable AppSetting#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -351,11 +548,11 @@ export class AppSettingAppTypeSettingsBusinessLogicMarkupSettingOutputReference 
 }
 export interface AppSettingAppTypeSettingsTimeseriesAnalysesSettingMetricSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#metric AppSetting#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#metric AppSetting#metric}
   */
   readonly metric?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#metrics_source AppSetting#metrics_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#metrics_source AppSetting#metrics_source}
   */
   readonly metricsSource?: string;
 }
@@ -502,7 +699,7 @@ export interface AppSettingAppTypeSettingsTimeseriesAnalysesSetting {
   /**
   * metric_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#metric_selectors AppSetting#metric_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#metric_selectors AppSetting#metric_selectors}
   */
   readonly metricSelectors?: AppSettingAppTypeSettingsTimeseriesAnalysesSettingMetricSelectors[] | cdktf.IResolvable;
 }
@@ -584,9 +781,258 @@ export class AppSettingAppTypeSettingsTimeseriesAnalysesSettingOutputReference e
     return this._metricSelectors.internalValue;
   }
 }
+export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_1 AppSetting#threshold_level_1}
+  */
+  readonly thresholdLevel1?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_2 AppSetting#threshold_level_2}
+  */
+  readonly thresholdLevel2?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_3 AppSetting#threshold_level_3}
+  */
+  readonly thresholdLevel3?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_4 AppSetting#threshold_level_4}
+  */
+  readonly thresholdLevel4?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_5 AppSetting#threshold_level_5}
+  */
+  readonly thresholdLevel5?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#threshold_level_6 AppSetting#threshold_level_6}
+  */
+  readonly thresholdLevel6?: boolean | cdktf.IResolvable;
+}
+
+export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualToTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    threshold_level_1: cdktf.booleanToTerraform(struct!.thresholdLevel1),
+    threshold_level_2: cdktf.booleanToTerraform(struct!.thresholdLevel2),
+    threshold_level_3: cdktf.booleanToTerraform(struct!.thresholdLevel3),
+    threshold_level_4: cdktf.booleanToTerraform(struct!.thresholdLevel4),
+    threshold_level_5: cdktf.booleanToTerraform(struct!.thresholdLevel5),
+    threshold_level_6: cdktf.booleanToTerraform(struct!.thresholdLevel6),
+  }
+}
+
+
+export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualToHclTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    threshold_level_1: {
+      value: cdktf.booleanToHclTerraform(struct!.thresholdLevel1),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    threshold_level_2: {
+      value: cdktf.booleanToHclTerraform(struct!.thresholdLevel2),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    threshold_level_3: {
+      value: cdktf.booleanToHclTerraform(struct!.thresholdLevel3),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    threshold_level_4: {
+      value: cdktf.booleanToHclTerraform(struct!.thresholdLevel4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    threshold_level_5: {
+      value: cdktf.booleanToHclTerraform(struct!.thresholdLevel5),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    threshold_level_6: {
+      value: cdktf.booleanToHclTerraform(struct!.thresholdLevel6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._thresholdLevel1 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdLevel1 = this._thresholdLevel1;
+    }
+    if (this._thresholdLevel2 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdLevel2 = this._thresholdLevel2;
+    }
+    if (this._thresholdLevel3 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdLevel3 = this._thresholdLevel3;
+    }
+    if (this._thresholdLevel4 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdLevel4 = this._thresholdLevel4;
+    }
+    if (this._thresholdLevel5 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdLevel5 = this._thresholdLevel5;
+    }
+    if (this._thresholdLevel6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdLevel6 = this._thresholdLevel6;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._thresholdLevel1 = undefined;
+      this._thresholdLevel2 = undefined;
+      this._thresholdLevel3 = undefined;
+      this._thresholdLevel4 = undefined;
+      this._thresholdLevel5 = undefined;
+      this._thresholdLevel6 = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._thresholdLevel1 = value.thresholdLevel1;
+      this._thresholdLevel2 = value.thresholdLevel2;
+      this._thresholdLevel3 = value.thresholdLevel3;
+      this._thresholdLevel4 = value.thresholdLevel4;
+      this._thresholdLevel5 = value.thresholdLevel5;
+      this._thresholdLevel6 = value.thresholdLevel6;
+    }
+  }
+
+  // threshold_level_1 - computed: false, optional: true, required: false
+  private _thresholdLevel1?: boolean | cdktf.IResolvable; 
+  public get thresholdLevel1() {
+    return this.getBooleanAttribute('threshold_level_1');
+  }
+  public set thresholdLevel1(value: boolean | cdktf.IResolvable) {
+    this._thresholdLevel1 = value;
+  }
+  public resetThresholdLevel1() {
+    this._thresholdLevel1 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdLevel1Input() {
+    return this._thresholdLevel1;
+  }
+
+  // threshold_level_2 - computed: false, optional: true, required: false
+  private _thresholdLevel2?: boolean | cdktf.IResolvable; 
+  public get thresholdLevel2() {
+    return this.getBooleanAttribute('threshold_level_2');
+  }
+  public set thresholdLevel2(value: boolean | cdktf.IResolvable) {
+    this._thresholdLevel2 = value;
+  }
+  public resetThresholdLevel2() {
+    this._thresholdLevel2 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdLevel2Input() {
+    return this._thresholdLevel2;
+  }
+
+  // threshold_level_3 - computed: false, optional: true, required: false
+  private _thresholdLevel3?: boolean | cdktf.IResolvable; 
+  public get thresholdLevel3() {
+    return this.getBooleanAttribute('threshold_level_3');
+  }
+  public set thresholdLevel3(value: boolean | cdktf.IResolvable) {
+    this._thresholdLevel3 = value;
+  }
+  public resetThresholdLevel3() {
+    this._thresholdLevel3 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdLevel3Input() {
+    return this._thresholdLevel3;
+  }
+
+  // threshold_level_4 - computed: false, optional: true, required: false
+  private _thresholdLevel4?: boolean | cdktf.IResolvable; 
+  public get thresholdLevel4() {
+    return this.getBooleanAttribute('threshold_level_4');
+  }
+  public set thresholdLevel4(value: boolean | cdktf.IResolvable) {
+    this._thresholdLevel4 = value;
+  }
+  public resetThresholdLevel4() {
+    this._thresholdLevel4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdLevel4Input() {
+    return this._thresholdLevel4;
+  }
+
+  // threshold_level_5 - computed: false, optional: true, required: false
+  private _thresholdLevel5?: boolean | cdktf.IResolvable; 
+  public get thresholdLevel5() {
+    return this.getBooleanAttribute('threshold_level_5');
+  }
+  public set thresholdLevel5(value: boolean | cdktf.IResolvable) {
+    this._thresholdLevel5 = value;
+  }
+  public resetThresholdLevel5() {
+    this._thresholdLevel5 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdLevel5Input() {
+    return this._thresholdLevel5;
+  }
+
+  // threshold_level_6 - computed: false, optional: true, required: false
+  private _thresholdLevel6?: boolean | cdktf.IResolvable; 
+  public get thresholdLevel6() {
+    return this.getBooleanAttribute('threshold_level_6');
+  }
+  public set thresholdLevel6(value: boolean | cdktf.IResolvable) {
+    this._thresholdLevel6 = value;
+  }
+  public resetThresholdLevel6() {
+    this._thresholdLevel6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdLevel6Input() {
+    return this._thresholdLevel6;
+  }
+}
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#login_failures_threshold AppSetting#login_failures_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#login_failures_threshold AppSetting#login_failures_threshold}
   */
   readonly loginFailuresThreshold: number;
 }
@@ -667,7 +1113,7 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeForbiddenActivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#forbidden_requests_threshold AppSetting#forbidden_requests_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#forbidden_requests_threshold AppSetting#forbidden_requests_threshold}
   */
   readonly forbiddenRequestsThreshold: number;
 }
@@ -746,63 +1192,324 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
     return this._forbiddenRequestsThreshold;
   }
 }
+export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#high AppSetting#high}
+  */
+  readonly high?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#low AppSetting#low}
+  */
+  readonly low?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#medium AppSetting#medium}
+  */
+  readonly medium?: boolean | cdktf.IResolvable;
+}
+
+export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticToTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    high: cdktf.booleanToTerraform(struct!.high),
+    low: cdktf.booleanToTerraform(struct!.low),
+    medium: cdktf.booleanToTerraform(struct!.medium),
+  }
+}
+
+
+export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticToHclTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    high: {
+      value: cdktf.booleanToHclTerraform(struct!.high),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    low: {
+      value: cdktf.booleanToHclTerraform(struct!.low),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    medium: {
+      value: cdktf.booleanToHclTerraform(struct!.medium),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._high !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.high = this._high;
+    }
+    if (this._low !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.low = this._low;
+    }
+    if (this._medium !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.medium = this._medium;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._high = undefined;
+      this._low = undefined;
+      this._medium = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._high = value.high;
+      this._low = value.low;
+      this._medium = value.medium;
+    }
+  }
+
+  // high - computed: false, optional: true, required: false
+  private _high?: boolean | cdktf.IResolvable; 
+  public get high() {
+    return this.getBooleanAttribute('high');
+  }
+  public set high(value: boolean | cdktf.IResolvable) {
+    this._high = value;
+  }
+  public resetHigh() {
+    this._high = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get highInput() {
+    return this._high;
+  }
+
+  // low - computed: false, optional: true, required: false
+  private _low?: boolean | cdktf.IResolvable; 
+  public get low() {
+    return this.getBooleanAttribute('low');
+  }
+  public set low(value: boolean | cdktf.IResolvable) {
+    this._low = value;
+  }
+  public resetLow() {
+    this._low = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lowInput() {
+    return this._low;
+  }
+
+  // medium - computed: false, optional: true, required: false
+  private _medium?: boolean | cdktf.IResolvable; 
+  public get medium() {
+    return this.getBooleanAttribute('medium');
+  }
+  public set medium(value: boolean | cdktf.IResolvable) {
+    this._medium = value;
+  }
+  public resetMedium() {
+    this._medium = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mediumInput() {
+    return this._medium;
+  }
+}
+export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#nonexistent_requests_threshold AppSetting#nonexistent_requests_threshold}
+  */
+  readonly nonexistentRequestsThreshold: number;
+}
+
+export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomToTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    nonexistent_requests_threshold: cdktf.numberToTerraform(struct!.nonexistentRequestsThreshold),
+  }
+}
+
+
+export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomToHclTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    nonexistent_requests_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.nonexistentRequestsThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._nonexistentRequestsThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nonexistentRequestsThreshold = this._nonexistentRequestsThreshold;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._nonexistentRequestsThreshold = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._nonexistentRequestsThreshold = value.nonexistentRequestsThreshold;
+    }
+  }
+
+  // nonexistent_requests_threshold - computed: false, optional: false, required: true
+  private _nonexistentRequestsThreshold?: number; 
+  public get nonexistentRequestsThreshold() {
+    return this.getNumberAttribute('nonexistent_requests_threshold');
+  }
+  public set nonexistentRequestsThreshold(value: number) {
+    this._nonexistentRequestsThreshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nonexistentRequestsThresholdInput() {
+    return this._nonexistentRequestsThreshold;
+  }
+}
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#cooling_off_period AppSetting#cooling_off_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#bola_detection_automatic AppSetting#bola_detection_automatic}
+  */
+  readonly bolaDetectionAutomatic?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#cooling_off_period AppSetting#cooling_off_period}
   */
   readonly coolingOffPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#exclude_bot_defense_activity AppSetting#exclude_bot_defense_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_bola_detection AppSetting#exclude_bola_detection}
+  */
+  readonly excludeBolaDetection?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_bot_defense_activity AppSetting#exclude_bot_defense_activity}
   */
   readonly excludeBotDefenseActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#exclude_failed_login_activity AppSetting#exclude_failed_login_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_failed_login_activity AppSetting#exclude_failed_login_activity}
   */
   readonly excludeFailedLoginActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#exclude_forbidden_activity AppSetting#exclude_forbidden_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_forbidden_activity AppSetting#exclude_forbidden_activity}
   */
   readonly excludeForbiddenActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#exclude_ip_reputation AppSetting#exclude_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_ip_reputation AppSetting#exclude_ip_reputation}
   */
   readonly excludeIpReputation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#exclude_rate_limit AppSetting#exclude_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_non_existent_url_activity AppSetting#exclude_non_existent_url_activity}
+  */
+  readonly excludeNonExistentUrlActivity?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_rate_limit AppSetting#exclude_rate_limit}
   */
   readonly excludeRateLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#exclude_waf_activity AppSetting#exclude_waf_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#exclude_waf_activity AppSetting#exclude_waf_activity}
   */
   readonly excludeWafActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#include_bot_defense_activity AppSetting#include_bot_defense_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_bot_defense_activity AppSetting#include_bot_defense_activity}
   */
   readonly includeBotDefenseActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#include_ip_reputation AppSetting#include_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_ip_reputation AppSetting#include_ip_reputation}
   */
   readonly includeIpReputation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#include_rate_limit AppSetting#include_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_rate_limit AppSetting#include_rate_limit}
   */
   readonly includeRateLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#include_waf_activity AppSetting#include_waf_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_waf_activity AppSetting#include_waf_activity}
   */
   readonly includeWafActivity?: boolean | cdktf.IResolvable;
   /**
+  * bola_detection_manual block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#bola_detection_manual AppSetting#bola_detection_manual}
+  */
+  readonly bolaDetectionManual?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual;
+  /**
   * include_failed_login_activity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#include_failed_login_activity AppSetting#include_failed_login_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_failed_login_activity AppSetting#include_failed_login_activity}
   */
   readonly includeFailedLoginActivity?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivity;
   /**
   * include_forbidden_activity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#include_forbidden_activity AppSetting#include_forbidden_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_forbidden_activity AppSetting#include_forbidden_activity}
   */
   readonly includeForbiddenActivity?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeForbiddenActivity;
+  /**
+  * include_non_existent_url_activity_automatic block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_non_existent_url_activity_automatic AppSetting#include_non_existent_url_activity_automatic}
+  */
+  readonly includeNonExistentUrlActivityAutomatic?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic;
+  /**
+  * include_non_existent_url_activity_custom block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#include_non_existent_url_activity_custom AppSetting#include_non_existent_url_activity_custom}
+  */
+  readonly includeNonExistentUrlActivityCustom?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom;
 }
 
 export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionToTerraform(struct?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionOutputReference | AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection): any {
@@ -811,19 +1518,25 @@ export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetect
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    bola_detection_automatic: cdktf.booleanToTerraform(struct!.bolaDetectionAutomatic),
     cooling_off_period: cdktf.numberToTerraform(struct!.coolingOffPeriod),
+    exclude_bola_detection: cdktf.booleanToTerraform(struct!.excludeBolaDetection),
     exclude_bot_defense_activity: cdktf.booleanToTerraform(struct!.excludeBotDefenseActivity),
     exclude_failed_login_activity: cdktf.booleanToTerraform(struct!.excludeFailedLoginActivity),
     exclude_forbidden_activity: cdktf.booleanToTerraform(struct!.excludeForbiddenActivity),
     exclude_ip_reputation: cdktf.booleanToTerraform(struct!.excludeIpReputation),
+    exclude_non_existent_url_activity: cdktf.booleanToTerraform(struct!.excludeNonExistentUrlActivity),
     exclude_rate_limit: cdktf.booleanToTerraform(struct!.excludeRateLimit),
     exclude_waf_activity: cdktf.booleanToTerraform(struct!.excludeWafActivity),
     include_bot_defense_activity: cdktf.booleanToTerraform(struct!.includeBotDefenseActivity),
     include_ip_reputation: cdktf.booleanToTerraform(struct!.includeIpReputation),
     include_rate_limit: cdktf.booleanToTerraform(struct!.includeRateLimit),
     include_waf_activity: cdktf.booleanToTerraform(struct!.includeWafActivity),
+    bola_detection_manual: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualToTerraform(struct!.bolaDetectionManual),
     include_failed_login_activity: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivityToTerraform(struct!.includeFailedLoginActivity),
     include_forbidden_activity: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeForbiddenActivityToTerraform(struct!.includeForbiddenActivity),
+    include_non_existent_url_activity_automatic: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticToTerraform(struct!.includeNonExistentUrlActivityAutomatic),
+    include_non_existent_url_activity_custom: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomToTerraform(struct!.includeNonExistentUrlActivityCustom),
   }
 }
 
@@ -834,11 +1547,23 @@ export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetect
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    bola_detection_automatic: {
+      value: cdktf.booleanToHclTerraform(struct!.bolaDetectionAutomatic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     cooling_off_period: {
       value: cdktf.numberToHclTerraform(struct!.coolingOffPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    exclude_bola_detection: {
+      value: cdktf.booleanToHclTerraform(struct!.excludeBolaDetection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     exclude_bot_defense_activity: {
       value: cdktf.booleanToHclTerraform(struct!.excludeBotDefenseActivity),
@@ -860,6 +1585,12 @@ export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetect
     },
     exclude_ip_reputation: {
       value: cdktf.booleanToHclTerraform(struct!.excludeIpReputation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    exclude_non_existent_url_activity: {
+      value: cdktf.booleanToHclTerraform(struct!.excludeNonExistentUrlActivity),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -900,6 +1631,12 @@ export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetect
       type: "simple",
       storageClassType: "boolean",
     },
+    bola_detection_manual: {
+      value: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualToHclTerraform(struct!.bolaDetectionManual),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualList",
+    },
     include_failed_login_activity: {
       value: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivityToHclTerraform(struct!.includeFailedLoginActivity),
       isBlock: true,
@@ -911,6 +1648,18 @@ export function appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetect
       isBlock: true,
       type: "list",
       storageClassType: "AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeForbiddenActivityList",
+    },
+    include_non_existent_url_activity_automatic: {
+      value: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticToHclTerraform(struct!.includeNonExistentUrlActivityAutomatic),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticList",
+    },
+    include_non_existent_url_activity_custom: {
+      value: appSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomToHclTerraform(struct!.includeNonExistentUrlActivityCustom),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomList",
     },
   };
 
@@ -932,9 +1681,17 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
   public get internalValue(): AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bolaDetectionAutomatic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bolaDetectionAutomatic = this._bolaDetectionAutomatic;
+    }
     if (this._coolingOffPeriod !== undefined) {
       hasAnyValues = true;
       internalValueResult.coolingOffPeriod = this._coolingOffPeriod;
+    }
+    if (this._excludeBolaDetection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeBolaDetection = this._excludeBolaDetection;
     }
     if (this._excludeBotDefenseActivity !== undefined) {
       hasAnyValues = true;
@@ -951,6 +1708,10 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
     if (this._excludeIpReputation !== undefined) {
       hasAnyValues = true;
       internalValueResult.excludeIpReputation = this._excludeIpReputation;
+    }
+    if (this._excludeNonExistentUrlActivity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeNonExistentUrlActivity = this._excludeNonExistentUrlActivity;
     }
     if (this._excludeRateLimit !== undefined) {
       hasAnyValues = true;
@@ -976,6 +1737,10 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
       hasAnyValues = true;
       internalValueResult.includeWafActivity = this._includeWafActivity;
     }
+    if (this._bolaDetectionManual?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bolaDetectionManual = this._bolaDetectionManual?.internalValue;
+    }
     if (this._includeFailedLoginActivity?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.includeFailedLoginActivity = this._includeFailedLoginActivity?.internalValue;
@@ -984,42 +1749,78 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
       hasAnyValues = true;
       internalValueResult.includeForbiddenActivity = this._includeForbiddenActivity?.internalValue;
     }
+    if (this._includeNonExistentUrlActivityAutomatic?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeNonExistentUrlActivityAutomatic = this._includeNonExistentUrlActivityAutomatic?.internalValue;
+    }
+    if (this._includeNonExistentUrlActivityCustom?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeNonExistentUrlActivityCustom = this._includeNonExistentUrlActivityCustom?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bolaDetectionAutomatic = undefined;
       this._coolingOffPeriod = undefined;
+      this._excludeBolaDetection = undefined;
       this._excludeBotDefenseActivity = undefined;
       this._excludeFailedLoginActivity = undefined;
       this._excludeForbiddenActivity = undefined;
       this._excludeIpReputation = undefined;
+      this._excludeNonExistentUrlActivity = undefined;
       this._excludeRateLimit = undefined;
       this._excludeWafActivity = undefined;
       this._includeBotDefenseActivity = undefined;
       this._includeIpReputation = undefined;
       this._includeRateLimit = undefined;
       this._includeWafActivity = undefined;
+      this._bolaDetectionManual.internalValue = undefined;
       this._includeFailedLoginActivity.internalValue = undefined;
       this._includeForbiddenActivity.internalValue = undefined;
+      this._includeNonExistentUrlActivityAutomatic.internalValue = undefined;
+      this._includeNonExistentUrlActivityCustom.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bolaDetectionAutomatic = value.bolaDetectionAutomatic;
       this._coolingOffPeriod = value.coolingOffPeriod;
+      this._excludeBolaDetection = value.excludeBolaDetection;
       this._excludeBotDefenseActivity = value.excludeBotDefenseActivity;
       this._excludeFailedLoginActivity = value.excludeFailedLoginActivity;
       this._excludeForbiddenActivity = value.excludeForbiddenActivity;
       this._excludeIpReputation = value.excludeIpReputation;
+      this._excludeNonExistentUrlActivity = value.excludeNonExistentUrlActivity;
       this._excludeRateLimit = value.excludeRateLimit;
       this._excludeWafActivity = value.excludeWafActivity;
       this._includeBotDefenseActivity = value.includeBotDefenseActivity;
       this._includeIpReputation = value.includeIpReputation;
       this._includeRateLimit = value.includeRateLimit;
       this._includeWafActivity = value.includeWafActivity;
+      this._bolaDetectionManual.internalValue = value.bolaDetectionManual;
       this._includeFailedLoginActivity.internalValue = value.includeFailedLoginActivity;
       this._includeForbiddenActivity.internalValue = value.includeForbiddenActivity;
+      this._includeNonExistentUrlActivityAutomatic.internalValue = value.includeNonExistentUrlActivityAutomatic;
+      this._includeNonExistentUrlActivityCustom.internalValue = value.includeNonExistentUrlActivityCustom;
     }
+  }
+
+  // bola_detection_automatic - computed: false, optional: true, required: false
+  private _bolaDetectionAutomatic?: boolean | cdktf.IResolvable; 
+  public get bolaDetectionAutomatic() {
+    return this.getBooleanAttribute('bola_detection_automatic');
+  }
+  public set bolaDetectionAutomatic(value: boolean | cdktf.IResolvable) {
+    this._bolaDetectionAutomatic = value;
+  }
+  public resetBolaDetectionAutomatic() {
+    this._bolaDetectionAutomatic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bolaDetectionAutomaticInput() {
+    return this._bolaDetectionAutomatic;
   }
 
   // cooling_off_period - computed: false, optional: true, required: false
@@ -1036,6 +1837,22 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
   // Temporarily expose input value. Use with caution.
   public get coolingOffPeriodInput() {
     return this._coolingOffPeriod;
+  }
+
+  // exclude_bola_detection - computed: false, optional: true, required: false
+  private _excludeBolaDetection?: boolean | cdktf.IResolvable; 
+  public get excludeBolaDetection() {
+    return this.getBooleanAttribute('exclude_bola_detection');
+  }
+  public set excludeBolaDetection(value: boolean | cdktf.IResolvable) {
+    this._excludeBolaDetection = value;
+  }
+  public resetExcludeBolaDetection() {
+    this._excludeBolaDetection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeBolaDetectionInput() {
+    return this._excludeBolaDetection;
   }
 
   // exclude_bot_defense_activity - computed: false, optional: true, required: false
@@ -1100,6 +1917,22 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
   // Temporarily expose input value. Use with caution.
   public get excludeIpReputationInput() {
     return this._excludeIpReputation;
+  }
+
+  // exclude_non_existent_url_activity - computed: false, optional: true, required: false
+  private _excludeNonExistentUrlActivity?: boolean | cdktf.IResolvable; 
+  public get excludeNonExistentUrlActivity() {
+    return this.getBooleanAttribute('exclude_non_existent_url_activity');
+  }
+  public set excludeNonExistentUrlActivity(value: boolean | cdktf.IResolvable) {
+    this._excludeNonExistentUrlActivity = value;
+  }
+  public resetExcludeNonExistentUrlActivity() {
+    this._excludeNonExistentUrlActivity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeNonExistentUrlActivityInput() {
+    return this._excludeNonExistentUrlActivity;
   }
 
   // exclude_rate_limit - computed: false, optional: true, required: false
@@ -1198,6 +2031,22 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
     return this._includeWafActivity;
   }
 
+  // bola_detection_manual - computed: false, optional: true, required: false
+  private _bolaDetectionManual = new AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManualOutputReference(this, "bola_detection_manual");
+  public get bolaDetectionManual() {
+    return this._bolaDetectionManual;
+  }
+  public putBolaDetectionManual(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionBolaDetectionManual) {
+    this._bolaDetectionManual.internalValue = value;
+  }
+  public resetBolaDetectionManual() {
+    this._bolaDetectionManual.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bolaDetectionManualInput() {
+    return this._bolaDetectionManual.internalValue;
+  }
+
   // include_failed_login_activity - computed: false, optional: true, required: false
   private _includeFailedLoginActivity = new AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeFailedLoginActivityOutputReference(this, "include_failed_login_activity");
   public get includeFailedLoginActivity() {
@@ -1229,24 +2078,56 @@ export class AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection
   public get includeForbiddenActivityInput() {
     return this._includeForbiddenActivity.internalValue;
   }
+
+  // include_non_existent_url_activity_automatic - computed: false, optional: true, required: false
+  private _includeNonExistentUrlActivityAutomatic = new AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomaticOutputReference(this, "include_non_existent_url_activity_automatic");
+  public get includeNonExistentUrlActivityAutomatic() {
+    return this._includeNonExistentUrlActivityAutomatic;
+  }
+  public putIncludeNonExistentUrlActivityAutomatic(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityAutomatic) {
+    this._includeNonExistentUrlActivityAutomatic.internalValue = value;
+  }
+  public resetIncludeNonExistentUrlActivityAutomatic() {
+    this._includeNonExistentUrlActivityAutomatic.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeNonExistentUrlActivityAutomaticInput() {
+    return this._includeNonExistentUrlActivityAutomatic.internalValue;
+  }
+
+  // include_non_existent_url_activity_custom - computed: false, optional: true, required: false
+  private _includeNonExistentUrlActivityCustom = new AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustomOutputReference(this, "include_non_existent_url_activity_custom");
+  public get includeNonExistentUrlActivityCustom() {
+    return this._includeNonExistentUrlActivityCustom;
+  }
+  public putIncludeNonExistentUrlActivityCustom(value: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetectionIncludeNonExistentUrlActivityCustom) {
+    this._includeNonExistentUrlActivityCustom.internalValue = value;
+  }
+  public resetIncludeNonExistentUrlActivityCustom() {
+    this._includeNonExistentUrlActivityCustom.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeNonExistentUrlActivityCustomInput() {
+    return this._includeNonExistentUrlActivityCustom.internalValue;
+  }
 }
 export interface AppSettingAppTypeSettingsUserBehaviorAnalysisSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#disable_detection AppSetting#disable_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable_detection AppSetting#disable_detection}
   */
   readonly disableDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#disable_learning AppSetting#disable_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#disable_learning AppSetting#disable_learning}
   */
   readonly disableLearning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#enable_learning AppSetting#enable_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#enable_learning AppSetting#enable_learning}
   */
   readonly enableLearning?: boolean | cdktf.IResolvable;
   /**
   * enable_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#enable_detection AppSetting#enable_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#enable_detection AppSetting#enable_detection}
   */
   readonly enableDetection?: AppSettingAppTypeSettingsUserBehaviorAnalysisSettingEnableDetection;
 }
@@ -1419,25 +2300,25 @@ export interface AppSettingAppTypeSettings {
   /**
   * app_type_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#app_type_ref AppSetting#app_type_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#app_type_ref AppSetting#app_type_ref}
   */
   readonly appTypeRef: AppSettingAppTypeSettingsAppTypeRef[] | cdktf.IResolvable;
   /**
   * business_logic_markup_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#business_logic_markup_setting AppSetting#business_logic_markup_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#business_logic_markup_setting AppSetting#business_logic_markup_setting}
   */
   readonly businessLogicMarkupSetting?: AppSettingAppTypeSettingsBusinessLogicMarkupSetting;
   /**
   * timeseries_analyses_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#timeseries_analyses_setting AppSetting#timeseries_analyses_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#timeseries_analyses_setting AppSetting#timeseries_analyses_setting}
   */
   readonly timeseriesAnalysesSetting?: AppSettingAppTypeSettingsTimeseriesAnalysesSetting;
   /**
   * user_behavior_analysis_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#user_behavior_analysis_setting AppSetting#user_behavior_analysis_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#user_behavior_analysis_setting AppSetting#user_behavior_analysis_setting}
   */
   readonly userBehaviorAnalysisSetting?: AppSettingAppTypeSettingsUserBehaviorAnalysisSetting;
 }
@@ -1637,7 +2518,7 @@ export class AppSettingAppTypeSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting volterra_app_setting}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting volterra_app_setting}
 */
 export class AppSetting extends cdktf.TerraformResource {
 
@@ -1653,7 +2534,7 @@ export class AppSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppSetting to import
-  * @param importFromId The id of the existing AppSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1665,7 +2546,7 @@ export class AppSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/app_setting volterra_app_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/app_setting volterra_app_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1676,8 +2557,8 @@ export class AppSetting extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_app_setting',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1688,12 +2569,14 @@ export class AppSetting extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._annotations = config.annotations;
+    this._anomalyTypes = config.anomalyTypes;
     this._description = config.description;
     this._disable = config.disable;
     this._id = config.id;
     this._labels = config.labels;
     this._name = config.name;
     this._namespace = config.namespace;
+    this._appTypeRefs.internalValue = config.appTypeRefs;
     this._appTypeSettings.internalValue = config.appTypeSettings;
   }
 
@@ -1715,6 +2598,22 @@ export class AppSetting extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get annotationsInput() {
     return this._annotations;
+  }
+
+  // anomaly_types - computed: false, optional: true, required: false
+  private _anomalyTypes?: string[]; 
+  public get anomalyTypes() {
+    return this.getListAttribute('anomaly_types');
+  }
+  public set anomalyTypes(value: string[]) {
+    this._anomalyTypes = value;
+  }
+  public resetAnomalyTypes() {
+    this._anomalyTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get anomalyTypesInput() {
+    return this._anomalyTypes;
   }
 
   // description - computed: false, optional: true, required: false
@@ -1807,6 +2706,22 @@ export class AppSetting extends cdktf.TerraformResource {
     return this._namespace;
   }
 
+  // app_type_refs - computed: false, optional: true, required: false
+  private _appTypeRefs = new AppSettingAppTypeRefsList(this, "app_type_refs", false);
+  public get appTypeRefs() {
+    return this._appTypeRefs;
+  }
+  public putAppTypeRefs(value: AppSettingAppTypeRefs[] | cdktf.IResolvable) {
+    this._appTypeRefs.internalValue = value;
+  }
+  public resetAppTypeRefs() {
+    this._appTypeRefs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appTypeRefsInput() {
+    return this._appTypeRefs.internalValue;
+  }
+
   // app_type_settings - computed: false, optional: false, required: true
   private _appTypeSettings = new AppSettingAppTypeSettingsList(this, "app_type_settings", false);
   public get appTypeSettings() {
@@ -1827,12 +2742,14 @@ export class AppSetting extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
+      anomaly_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._anomalyTypes),
       description: cdktf.stringToTerraform(this._description),
       disable: cdktf.booleanToTerraform(this._disable),
       id: cdktf.stringToTerraform(this._id),
       labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
+      app_type_refs: cdktf.listMapper(appSettingAppTypeRefsToTerraform, true)(this._appTypeRefs.internalValue),
       app_type_settings: cdktf.listMapper(appSettingAppTypeSettingsToTerraform, true)(this._appTypeSettings.internalValue),
     };
   }
@@ -1844,6 +2761,12 @@ export class AppSetting extends cdktf.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      anomaly_types: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._anomalyTypes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       description: {
         value: cdktf.stringToHclTerraform(this._description),
@@ -1880,6 +2803,12 @@ export class AppSetting extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      app_type_refs: {
+        value: cdktf.listMapperHcl(appSettingAppTypeRefsToHclTerraform, true)(this._appTypeRefs.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "AppSettingAppTypeRefsList",
       },
       app_type_settings: {
         value: cdktf.listMapperHcl(appSettingAppTypeSettingsToHclTerraform, true)(this._appTypeSettings.internalValue),

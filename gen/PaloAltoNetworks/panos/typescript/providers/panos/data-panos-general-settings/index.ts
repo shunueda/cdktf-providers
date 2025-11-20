@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosGeneralSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#domain DataPanosGeneralSettings#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#domain DataPanosGeneralSettings#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#geo_location DataPanosGeneralSettings#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#geo_location DataPanosGeneralSettings#geo_location}
   */
   readonly geoLocation?: DataPanosGeneralSettingsGeoLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#hostname DataPanosGeneralSettings#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#hostname DataPanosGeneralSettings#hostname}
   */
   readonly hostname?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#location DataPanosGeneralSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#location DataPanosGeneralSettings#location}
   */
   readonly location: DataPanosGeneralSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#login_banner DataPanosGeneralSettings#login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#login_banner DataPanosGeneralSettings#login_banner}
   */
   readonly loginBanner?: string;
   /**
   * SSL TLS service profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#ssl_tls_service_profile DataPanosGeneralSettings#ssl_tls_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#ssl_tls_service_profile DataPanosGeneralSettings#ssl_tls_service_profile}
   */
   readonly sslTlsServiceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#timezone DataPanosGeneralSettings#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#timezone DataPanosGeneralSettings#timezone}
   */
   readonly timezone?: string;
 }
@@ -44,13 +44,13 @@ export interface DataPanosGeneralSettingsGeoLocation {
   /**
   * latitude coordinate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#latitude DataPanosGeneralSettings#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#latitude DataPanosGeneralSettings#latitude}
   */
   readonly latitude?: string;
   /**
   * longitude coordinate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#longitude DataPanosGeneralSettings#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#longitude DataPanosGeneralSettings#longitude}
   */
   readonly longitude?: string;
 }
@@ -175,7 +175,7 @@ export interface DataPanosGeneralSettingsLocationSystem {
   /**
   * Device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#device DataPanosGeneralSettings#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#device DataPanosGeneralSettings#device}
   */
   readonly device?: string;
 }
@@ -271,19 +271,19 @@ export interface DataPanosGeneralSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#name DataPanosGeneralSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#name DataPanosGeneralSettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#ngfw_device DataPanosGeneralSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#ngfw_device DataPanosGeneralSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#panorama_device DataPanosGeneralSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#panorama_device DataPanosGeneralSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -437,19 +437,19 @@ export interface DataPanosGeneralSettingsLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#name DataPanosGeneralSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#name DataPanosGeneralSettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#ngfw_device DataPanosGeneralSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#ngfw_device DataPanosGeneralSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#panorama_device DataPanosGeneralSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#panorama_device DataPanosGeneralSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -603,19 +603,19 @@ export interface DataPanosGeneralSettingsLocation {
   /**
   * System-level configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#system DataPanosGeneralSettings#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#system DataPanosGeneralSettings#system}
   */
   readonly systemAttribute?: DataPanosGeneralSettingsLocationSystem;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#template DataPanosGeneralSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#template DataPanosGeneralSettings#template}
   */
   readonly template?: DataPanosGeneralSettingsLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#template_stack DataPanosGeneralSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#template_stack DataPanosGeneralSettings#template_stack}
   */
   readonly templateStack?: DataPanosGeneralSettingsLocationTemplateStack;
 }
@@ -767,7 +767,7 @@ export class DataPanosGeneralSettingsLocationOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings panos_general_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings panos_general_settings}
 */
 export class DataPanosGeneralSettings extends cdktf.TerraformDataSource {
 
@@ -783,7 +783,7 @@ export class DataPanosGeneralSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosGeneralSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosGeneralSettings to import
-  * @param importFromId The id of the existing DataPanosGeneralSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosGeneralSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosGeneralSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class DataPanosGeneralSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/general_settings panos_general_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/general_settings panos_general_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,8 +806,8 @@ export class DataPanosGeneralSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_general_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

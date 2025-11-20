@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,158 +8,164 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#annotations Cluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#annotations Cluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#auto_http_config Cluster#auto_http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#auto_http_config Cluster#auto_http_config}
   */
   readonly autoHttpConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#connection_timeout Cluster#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#connection_timeout Cluster#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#default_subset Cluster#default_subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#default_subset Cluster#default_subset}
   */
   readonly defaultSubset?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#description Cluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#description Cluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#disable Cluster#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#disable Cluster#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#disable_proxy_protocol Cluster#disable_proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#disable_proxy_protocol Cluster#disable_proxy_protocol}
   */
   readonly disableProxyProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#endpoint_selection Cluster#endpoint_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#endpoint_selection Cluster#endpoint_selection}
   */
   readonly endpointSelection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#fallback_policy Cluster#fallback_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#fallback_policy Cluster#fallback_policy}
   */
   readonly fallbackPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#http_idle_timeout Cluster#http_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#http_idle_timeout Cluster#http_idle_timeout}
   */
   readonly httpIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#id Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#id Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#loadbalancer_algorithm Cluster#loadbalancer_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#loadbalancer_algorithm Cluster#loadbalancer_algorithm}
   */
   readonly loadbalancerAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#namespace Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#namespace Cluster#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#no_panic_threshold Cluster#no_panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#no_panic_threshold Cluster#no_panic_threshold}
   */
   readonly noPanicThreshold?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#panic_threshold Cluster#panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#panic_threshold Cluster#panic_threshold}
   */
   readonly panicThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#proxy_protocol_v1 Cluster#proxy_protocol_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#proxy_protocol_v1 Cluster#proxy_protocol_v1}
   */
   readonly proxyProtocolV1?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#proxy_protocol_v2 Cluster#proxy_protocol_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#proxy_protocol_v2 Cluster#proxy_protocol_v2}
   */
   readonly proxyProtocolV2?: boolean | cdktf.IResolvable;
   /**
   * circuit_breaker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#circuit_breaker Cluster#circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#circuit_breaker Cluster#circuit_breaker}
   */
   readonly circuitBreaker?: ClusterCircuitBreaker;
   /**
   * endpoint_subsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#endpoint_subsets Cluster#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#endpoint_subsets Cluster#endpoint_subsets}
   */
   readonly endpointSubsets?: ClusterEndpointSubsets[] | cdktf.IResolvable;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#endpoints Cluster#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#endpoints Cluster#endpoints}
   */
   readonly endpoints?: ClusterEndpoints[] | cdktf.IResolvable;
   /**
+  * header_transformation_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#header_transformation_type Cluster#header_transformation_type}
+  */
+  readonly headerTransformationType?: ClusterHeaderTransformationType;
+  /**
   * health_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#health_checks Cluster#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#health_checks Cluster#health_checks}
   */
   readonly healthChecks?: ClusterHealthChecks[] | cdktf.IResolvable;
   /**
   * http1_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#http1_config Cluster#http1_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#http1_config Cluster#http1_config}
   */
   readonly http1Config?: ClusterHttp1Config;
   /**
   * http2_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#http2_options Cluster#http2_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#http2_options Cluster#http2_options}
   */
   readonly http2Options?: ClusterHttp2Options;
   /**
   * outlier_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#outlier_detection Cluster#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#outlier_detection Cluster#outlier_detection}
   */
   readonly outlierDetection?: ClusterOutlierDetection;
   /**
   * tls_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tls_parameters Cluster#tls_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tls_parameters Cluster#tls_parameters}
   */
   readonly tlsParameters?: ClusterTlsParameters;
   /**
   * upstream_conn_pool_reuse_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#upstream_conn_pool_reuse_type Cluster#upstream_conn_pool_reuse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#upstream_conn_pool_reuse_type Cluster#upstream_conn_pool_reuse_type}
   */
   readonly upstreamConnPoolReuseType?: ClusterUpstreamConnPoolReuseType;
 }
 export interface ClusterCircuitBreaker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#connection_limit Cluster#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#connection_limit Cluster#connection_limit}
   */
   readonly connectionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#max_requests Cluster#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#max_requests Cluster#max_requests}
   */
   readonly maxRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#pending_requests Cluster#pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#pending_requests Cluster#pending_requests}
   */
   readonly pendingRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#priority Cluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#priority Cluster#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#retries Cluster#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#retries Cluster#retries}
   */
   readonly retries?: number;
 }
@@ -359,7 +365,7 @@ export class ClusterCircuitBreakerOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterEndpointSubsets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#keys Cluster#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#keys Cluster#keys}
   */
   readonly keys: string[];
 }
@@ -472,15 +478,15 @@ export class ClusterEndpointSubsetsList extends cdktf.ComplexList {
 }
 export interface ClusterEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#namespace Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#namespace Cluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tenant Cluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tenant Cluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -657,17 +663,200 @@ export class ClusterEndpointsList extends cdktf.ComplexList {
     return new ClusterEndpointsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ClusterHeaderTransformationType {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#default_header_transformation Cluster#default_header_transformation}
+  */
+  readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#legacy_header_transformation Cluster#legacy_header_transformation}
+  */
+  readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#preserve_case_header_transformation Cluster#preserve_case_header_transformation}
+  */
+  readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#proper_case_header_transformation Cluster#proper_case_header_transformation}
+  */
+  readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
+}
+
+export function clusterHeaderTransformationTypeToTerraform(struct?: ClusterHeaderTransformationTypeOutputReference | ClusterHeaderTransformationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_header_transformation: cdktf.booleanToTerraform(struct!.defaultHeaderTransformation),
+    legacy_header_transformation: cdktf.booleanToTerraform(struct!.legacyHeaderTransformation),
+    preserve_case_header_transformation: cdktf.booleanToTerraform(struct!.preserveCaseHeaderTransformation),
+    proper_case_header_transformation: cdktf.booleanToTerraform(struct!.properCaseHeaderTransformation),
+  }
+}
+
+
+export function clusterHeaderTransformationTypeToHclTerraform(struct?: ClusterHeaderTransformationTypeOutputReference | ClusterHeaderTransformationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    legacy_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.legacyHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    preserve_case_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.preserveCaseHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    proper_case_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.properCaseHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterHeaderTransformationTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterHeaderTransformationType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultHeaderTransformation = this._defaultHeaderTransformation;
+    }
+    if (this._legacyHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.legacyHeaderTransformation = this._legacyHeaderTransformation;
+    }
+    if (this._preserveCaseHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preserveCaseHeaderTransformation = this._preserveCaseHeaderTransformation;
+    }
+    if (this._properCaseHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.properCaseHeaderTransformation = this._properCaseHeaderTransformation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterHeaderTransformationType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultHeaderTransformation = undefined;
+      this._legacyHeaderTransformation = undefined;
+      this._preserveCaseHeaderTransformation = undefined;
+      this._properCaseHeaderTransformation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultHeaderTransformation = value.defaultHeaderTransformation;
+      this._legacyHeaderTransformation = value.legacyHeaderTransformation;
+      this._preserveCaseHeaderTransformation = value.preserveCaseHeaderTransformation;
+      this._properCaseHeaderTransformation = value.properCaseHeaderTransformation;
+    }
+  }
+
+  // default_header_transformation - computed: false, optional: true, required: false
+  private _defaultHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get defaultHeaderTransformation() {
+    return this.getBooleanAttribute('default_header_transformation');
+  }
+  public set defaultHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._defaultHeaderTransformation = value;
+  }
+  public resetDefaultHeaderTransformation() {
+    this._defaultHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultHeaderTransformationInput() {
+    return this._defaultHeaderTransformation;
+  }
+
+  // legacy_header_transformation - computed: false, optional: true, required: false
+  private _legacyHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get legacyHeaderTransformation() {
+    return this.getBooleanAttribute('legacy_header_transformation');
+  }
+  public set legacyHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._legacyHeaderTransformation = value;
+  }
+  public resetLegacyHeaderTransformation() {
+    this._legacyHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legacyHeaderTransformationInput() {
+    return this._legacyHeaderTransformation;
+  }
+
+  // preserve_case_header_transformation - computed: false, optional: true, required: false
+  private _preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get preserveCaseHeaderTransformation() {
+    return this.getBooleanAttribute('preserve_case_header_transformation');
+  }
+  public set preserveCaseHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._preserveCaseHeaderTransformation = value;
+  }
+  public resetPreserveCaseHeaderTransformation() {
+    this._preserveCaseHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preserveCaseHeaderTransformationInput() {
+    return this._preserveCaseHeaderTransformation;
+  }
+
+  // proper_case_header_transformation - computed: false, optional: true, required: false
+  private _properCaseHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get properCaseHeaderTransformation() {
+    return this.getBooleanAttribute('proper_case_header_transformation');
+  }
+  public set properCaseHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._properCaseHeaderTransformation = value;
+  }
+  public resetProperCaseHeaderTransformation() {
+    this._properCaseHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get properCaseHeaderTransformationInput() {
+    return this._properCaseHeaderTransformation;
+  }
+}
 export interface ClusterHealthChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#namespace Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#namespace Cluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tenant Cluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tenant Cluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -846,19 +1035,19 @@ export class ClusterHealthChecksList extends cdktf.ComplexList {
 }
 export interface ClusterHttp1ConfigHeaderTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#default_header_transformation Cluster#default_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#default_header_transformation Cluster#default_header_transformation}
   */
   readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#legacy_header_transformation Cluster#legacy_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#legacy_header_transformation Cluster#legacy_header_transformation}
   */
   readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#preserve_case_header_transformation Cluster#preserve_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#preserve_case_header_transformation Cluster#preserve_case_header_transformation}
   */
   readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#proper_case_header_transformation Cluster#proper_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#proper_case_header_transformation Cluster#proper_case_header_transformation}
   */
   readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
 }
@@ -1031,7 +1220,7 @@ export interface ClusterHttp1Config {
   /**
   * header_transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#header_transformation Cluster#header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#header_transformation Cluster#header_transformation}
   */
   readonly headerTransformation?: ClusterHttp1ConfigHeaderTransformation;
 }
@@ -1115,7 +1304,7 @@ export class ClusterHttp1ConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterHttp2Options {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#enabled Cluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#enabled Cluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1199,23 +1388,23 @@ export class ClusterHttp2OptionsOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterOutlierDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#base_ejection_time Cluster#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#base_ejection_time Cluster#base_ejection_time}
   */
   readonly baseEjectionTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#consecutive_5xx Cluster#consecutive_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#consecutive_5xx Cluster#consecutive_5xx}
   */
   readonly consecutive5Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#consecutive_gateway_failure Cluster#consecutive_gateway_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#consecutive_gateway_failure Cluster#consecutive_gateway_failure}
   */
   readonly consecutiveGatewayFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#interval Cluster#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#interval Cluster#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#max_ejection_percent Cluster#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#max_ejection_percent Cluster#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
 }
@@ -1415,15 +1604,15 @@ export class ClusterOutlierDetectionOutputReference extends cdktf.ComplexObject 
 }
 export interface ClusterTlsParametersCertParamsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#namespace Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#namespace Cluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tenant Cluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tenant Cluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -1602,15 +1791,15 @@ export class ClusterTlsParametersCertParamsCertificatesList extends cdktf.Comple
 }
 export interface ClusterTlsParametersCertParamsValidationParamsTrustedCaTrustedCaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#namespace Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#namespace Cluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tenant Cluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tenant Cluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -1791,7 +1980,7 @@ export interface ClusterTlsParametersCertParamsValidationParamsTrustedCa {
   /**
   * trusted_ca_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#trusted_ca_list Cluster#trusted_ca_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca_list Cluster#trusted_ca_list}
   */
   readonly trustedCaList?: ClusterTlsParametersCertParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
 }
@@ -1875,21 +2064,25 @@ export class ClusterTlsParametersCertParamsValidationParamsTrustedCaOutputRefere
 }
 export interface ClusterTlsParametersCertParamsValidationParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#skip_hostname_verification Cluster#skip_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#skip_hostname_verification Cluster#skip_hostname_verification}
   */
   readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#trusted_ca_url Cluster#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca_url Cluster#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#verify_subject_alt_names Cluster#verify_subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#use_volterra_trusted_ca_url Cluster#use_volterra_trusted_ca_url}
+  */
+  readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#verify_subject_alt_names Cluster#verify_subject_alt_names}
   */
   readonly verifySubjectAltNames?: string[];
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#trusted_ca Cluster#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca Cluster#trusted_ca}
   */
   readonly trustedCa?: ClusterTlsParametersCertParamsValidationParamsTrustedCa;
 }
@@ -1902,6 +2095,7 @@ export function clusterTlsParametersCertParamsValidationParamsToTerraform(struct
   return {
     skip_hostname_verification: cdktf.booleanToTerraform(struct!.skipHostnameVerification),
     trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    use_volterra_trusted_ca_url: cdktf.booleanToTerraform(struct!.useVolterraTrustedCaUrl),
     verify_subject_alt_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.verifySubjectAltNames),
     trusted_ca: clusterTlsParametersCertParamsValidationParamsTrustedCaToTerraform(struct!.trustedCa),
   }
@@ -1925,6 +2119,12 @@ export function clusterTlsParametersCertParamsValidationParamsToHclTerraform(str
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    use_volterra_trusted_ca_url: {
+      value: cdktf.booleanToHclTerraform(struct!.useVolterraTrustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     verify_subject_alt_names: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.verifySubjectAltNames),
@@ -1966,6 +2166,10 @@ export class ClusterTlsParametersCertParamsValidationParamsOutputReference exten
       hasAnyValues = true;
       internalValueResult.trustedCaUrl = this._trustedCaUrl;
     }
+    if (this._useVolterraTrustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useVolterraTrustedCaUrl = this._useVolterraTrustedCaUrl;
+    }
     if (this._verifySubjectAltNames !== undefined) {
       hasAnyValues = true;
       internalValueResult.verifySubjectAltNames = this._verifySubjectAltNames;
@@ -1982,6 +2186,7 @@ export class ClusterTlsParametersCertParamsValidationParamsOutputReference exten
       this.isEmptyObject = false;
       this._skipHostnameVerification = undefined;
       this._trustedCaUrl = undefined;
+      this._useVolterraTrustedCaUrl = undefined;
       this._verifySubjectAltNames = undefined;
       this._trustedCa.internalValue = undefined;
     }
@@ -1989,6 +2194,7 @@ export class ClusterTlsParametersCertParamsValidationParamsOutputReference exten
       this.isEmptyObject = Object.keys(value).length === 0;
       this._skipHostnameVerification = value.skipHostnameVerification;
       this._trustedCaUrl = value.trustedCaUrl;
+      this._useVolterraTrustedCaUrl = value.useVolterraTrustedCaUrl;
       this._verifySubjectAltNames = value.verifySubjectAltNames;
       this._trustedCa.internalValue = value.trustedCa;
     }
@@ -2026,6 +2232,22 @@ export class ClusterTlsParametersCertParamsValidationParamsOutputReference exten
     return this._trustedCaUrl;
   }
 
+  // use_volterra_trusted_ca_url - computed: false, optional: true, required: false
+  private _useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable; 
+  public get useVolterraTrustedCaUrl() {
+    return this.getBooleanAttribute('use_volterra_trusted_ca_url');
+  }
+  public set useVolterraTrustedCaUrl(value: boolean | cdktf.IResolvable) {
+    this._useVolterraTrustedCaUrl = value;
+  }
+  public resetUseVolterraTrustedCaUrl() {
+    this._useVolterraTrustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useVolterraTrustedCaUrlInput() {
+    return this._useVolterraTrustedCaUrl;
+  }
+
   // verify_subject_alt_names - computed: false, optional: true, required: false
   private _verifySubjectAltNames?: string[]; 
   public get verifySubjectAltNames() {
@@ -2060,27 +2282,27 @@ export class ClusterTlsParametersCertParamsValidationParamsOutputReference exten
 }
 export interface ClusterTlsParametersCertParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#cipher_suites Cluster#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#cipher_suites Cluster#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#maximum_protocol_version Cluster#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#maximum_protocol_version Cluster#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#minimum_protocol_version Cluster#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#minimum_protocol_version Cluster#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#certificates Cluster#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#certificates Cluster#certificates}
   */
   readonly certificates: ClusterTlsParametersCertParamsCertificates[] | cdktf.IResolvable;
   /**
   * validation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#validation_params Cluster#validation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#validation_params Cluster#validation_params}
   */
   readonly validationParams?: ClusterTlsParametersCertParamsValidationParams;
 }
@@ -2277,7 +2499,7 @@ export class ClusterTlsParametersCertParamsOutputReference extends cdktf.Complex
 }
 export interface ClusterTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#hash_algorithms Cluster#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#hash_algorithms Cluster#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -2407,15 +2629,15 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingO
 }
 export interface ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#decryption_provider Cluster#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#decryption_provider Cluster#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#location Cluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#location Cluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#store_provider Cluster#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#store_provider Cluster#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2552,13 +2774,160 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldS
     return this._storeProvider;
   }
 }
+export interface ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#decryption_provider Cluster#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#location Cluster#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#store_provider Cluster#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#provider Cluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#provider Cluster#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#url Cluster#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#url Cluster#url}
   */
   readonly url: string;
 }
@@ -2666,19 +3035,332 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecre
     return this._url;
   }
 }
+export interface ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#key Cluster#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#location Cluster#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#provider Cluster#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#secret_encoding Cluster#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#version Cluster#version}
+  */
+  readonly version?: number;
+}
+
+export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
+  */
+  readonly name: string;
+}
+
+export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ClusterTlsParametersCommonParamsTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#secret_encoding_type Cluster#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#blindfold_secret_info Cluster#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#blindfold_secret_info Cluster#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#blindfold_secret_info_internal Cluster#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#clear_secret_info Cluster#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#clear_secret_info Cluster#clear_secret_info}
   */
   readonly clearSecretInfo?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#vault_secret_info Cluster#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#wingman_secret_info Cluster#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyToTerraform(struct?: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputReference | ClusterTlsParametersCommonParamsTlsCertificatesPrivateKey): any {
@@ -2687,8 +3369,12 @@ export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyToTerra
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -2699,17 +3385,41 @@ export function clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyToHclTe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: clusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -2731,13 +3441,29 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputRefe
   public get internalValue(): ClusterTlsParametersCommonParamsTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2745,14 +3471,38 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputRefe
   public set internalValue(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -2771,6 +3521,22 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputRefe
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -2785,6 +3551,38 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputRefe
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface ClusterTlsParametersCommonParamsTlsCertificatesUseSystemDefaults {
@@ -2838,35 +3636,35 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsOut
 }
 export interface ClusterTlsParametersCommonParamsTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#certificate_url Cluster#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#certificate_url Cluster#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#description Cluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#description Cluster#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#custom_hash_algorithms Cluster#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#custom_hash_algorithms Cluster#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: ClusterTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#disable_ocsp_stapling Cluster#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#disable_ocsp_stapling Cluster#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: ClusterTlsParametersCommonParamsTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#private_key Cluster#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#private_key Cluster#private_key}
   */
   readonly privateKey: ClusterTlsParametersCommonParamsTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#use_system_defaults Cluster#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#use_system_defaults Cluster#use_system_defaults}
   */
   readonly useSystemDefaults?: ClusterTlsParametersCommonParamsTlsCertificatesUseSystemDefaults;
 }
@@ -3121,15 +3919,15 @@ export class ClusterTlsParametersCommonParamsTlsCertificatesList extends cdktf.C
 }
 export interface ClusterTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#namespace Cluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#namespace Cluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tenant Cluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tenant Cluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -3310,7 +4108,7 @@ export interface ClusterTlsParametersCommonParamsValidationParamsTrustedCa {
   /**
   * trusted_ca_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#trusted_ca_list Cluster#trusted_ca_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca_list Cluster#trusted_ca_list}
   */
   readonly trustedCaList?: ClusterTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
 }
@@ -3394,21 +4192,25 @@ export class ClusterTlsParametersCommonParamsValidationParamsTrustedCaOutputRefe
 }
 export interface ClusterTlsParametersCommonParamsValidationParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#skip_hostname_verification Cluster#skip_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#skip_hostname_verification Cluster#skip_hostname_verification}
   */
   readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#trusted_ca_url Cluster#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca_url Cluster#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#verify_subject_alt_names Cluster#verify_subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#use_volterra_trusted_ca_url Cluster#use_volterra_trusted_ca_url}
+  */
+  readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#verify_subject_alt_names Cluster#verify_subject_alt_names}
   */
   readonly verifySubjectAltNames?: string[];
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#trusted_ca Cluster#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca Cluster#trusted_ca}
   */
   readonly trustedCa?: ClusterTlsParametersCommonParamsValidationParamsTrustedCa;
 }
@@ -3421,6 +4223,7 @@ export function clusterTlsParametersCommonParamsValidationParamsToTerraform(stru
   return {
     skip_hostname_verification: cdktf.booleanToTerraform(struct!.skipHostnameVerification),
     trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    use_volterra_trusted_ca_url: cdktf.booleanToTerraform(struct!.useVolterraTrustedCaUrl),
     verify_subject_alt_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.verifySubjectAltNames),
     trusted_ca: clusterTlsParametersCommonParamsValidationParamsTrustedCaToTerraform(struct!.trustedCa),
   }
@@ -3444,6 +4247,12 @@ export function clusterTlsParametersCommonParamsValidationParamsToHclTerraform(s
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    use_volterra_trusted_ca_url: {
+      value: cdktf.booleanToHclTerraform(struct!.useVolterraTrustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     verify_subject_alt_names: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.verifySubjectAltNames),
@@ -3485,6 +4294,10 @@ export class ClusterTlsParametersCommonParamsValidationParamsOutputReference ext
       hasAnyValues = true;
       internalValueResult.trustedCaUrl = this._trustedCaUrl;
     }
+    if (this._useVolterraTrustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useVolterraTrustedCaUrl = this._useVolterraTrustedCaUrl;
+    }
     if (this._verifySubjectAltNames !== undefined) {
       hasAnyValues = true;
       internalValueResult.verifySubjectAltNames = this._verifySubjectAltNames;
@@ -3501,6 +4314,7 @@ export class ClusterTlsParametersCommonParamsValidationParamsOutputReference ext
       this.isEmptyObject = false;
       this._skipHostnameVerification = undefined;
       this._trustedCaUrl = undefined;
+      this._useVolterraTrustedCaUrl = undefined;
       this._verifySubjectAltNames = undefined;
       this._trustedCa.internalValue = undefined;
     }
@@ -3508,6 +4322,7 @@ export class ClusterTlsParametersCommonParamsValidationParamsOutputReference ext
       this.isEmptyObject = Object.keys(value).length === 0;
       this._skipHostnameVerification = value.skipHostnameVerification;
       this._trustedCaUrl = value.trustedCaUrl;
+      this._useVolterraTrustedCaUrl = value.useVolterraTrustedCaUrl;
       this._verifySubjectAltNames = value.verifySubjectAltNames;
       this._trustedCa.internalValue = value.trustedCa;
     }
@@ -3545,6 +4360,22 @@ export class ClusterTlsParametersCommonParamsValidationParamsOutputReference ext
     return this._trustedCaUrl;
   }
 
+  // use_volterra_trusted_ca_url - computed: false, optional: true, required: false
+  private _useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable; 
+  public get useVolterraTrustedCaUrl() {
+    return this.getBooleanAttribute('use_volterra_trusted_ca_url');
+  }
+  public set useVolterraTrustedCaUrl(value: boolean | cdktf.IResolvable) {
+    this._useVolterraTrustedCaUrl = value;
+  }
+  public resetUseVolterraTrustedCaUrl() {
+    this._useVolterraTrustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useVolterraTrustedCaUrlInput() {
+    return this._useVolterraTrustedCaUrl;
+  }
+
   // verify_subject_alt_names - computed: false, optional: true, required: false
   private _verifySubjectAltNames?: string[]; 
   public get verifySubjectAltNames() {
@@ -3579,27 +4410,31 @@ export class ClusterTlsParametersCommonParamsValidationParamsOutputReference ext
 }
 export interface ClusterTlsParametersCommonParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#cipher_suites Cluster#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#cipher_suites Cluster#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#maximum_protocol_version Cluster#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#maximum_protocol_version Cluster#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#minimum_protocol_version Cluster#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#minimum_protocol_version Cluster#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#trusted_ca_url Cluster#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#tls_certificates Cluster#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#tls_certificates Cluster#tls_certificates}
   */
   readonly tlsCertificates?: ClusterTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable;
   /**
   * validation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#validation_params Cluster#validation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#validation_params Cluster#validation_params}
   */
   readonly validationParams?: ClusterTlsParametersCommonParamsValidationParams;
 }
@@ -3613,6 +4448,7 @@ export function clusterTlsParametersCommonParamsToTerraform(struct?: ClusterTlsP
     cipher_suites: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cipherSuites),
     maximum_protocol_version: cdktf.stringToTerraform(struct!.maximumProtocolVersion),
     minimum_protocol_version: cdktf.stringToTerraform(struct!.minimumProtocolVersion),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
     tls_certificates: cdktf.listMapper(clusterTlsParametersCommonParamsTlsCertificatesToTerraform, true)(struct!.tlsCertificates),
     validation_params: clusterTlsParametersCommonParamsValidationParamsToTerraform(struct!.validationParams),
   }
@@ -3639,6 +4475,12 @@ export function clusterTlsParametersCommonParamsToHclTerraform(struct?: ClusterT
     },
     minimum_protocol_version: {
       value: cdktf.stringToHclTerraform(struct!.minimumProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3687,6 +4529,10 @@ export class ClusterTlsParametersCommonParamsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.minimumProtocolVersion = this._minimumProtocolVersion;
     }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
     if (this._tlsCertificates?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tlsCertificates = this._tlsCertificates?.internalValue;
@@ -3704,6 +4550,7 @@ export class ClusterTlsParametersCommonParamsOutputReference extends cdktf.Compl
       this._cipherSuites = undefined;
       this._maximumProtocolVersion = undefined;
       this._minimumProtocolVersion = undefined;
+      this._trustedCaUrl = undefined;
       this._tlsCertificates.internalValue = undefined;
       this._validationParams.internalValue = undefined;
     }
@@ -3712,6 +4559,7 @@ export class ClusterTlsParametersCommonParamsOutputReference extends cdktf.Compl
       this._cipherSuites = value.cipherSuites;
       this._maximumProtocolVersion = value.maximumProtocolVersion;
       this._minimumProtocolVersion = value.minimumProtocolVersion;
+      this._trustedCaUrl = value.trustedCaUrl;
       this._tlsCertificates.internalValue = value.tlsCertificates;
       this._validationParams.internalValue = value.validationParams;
     }
@@ -3763,6 +4611,22 @@ export class ClusterTlsParametersCommonParamsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get minimumProtocolVersionInput() {
     return this._minimumProtocolVersion;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
   }
 
   // tls_certificates - computed: false, optional: true, required: false
@@ -3897,43 +4761,43 @@ export class ClusterTlsParametersUseHostHeaderAsSniOutputReference extends cdktf
 }
 export interface ClusterTlsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#default_session_key_caching Cluster#default_session_key_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#default_session_key_caching Cluster#default_session_key_caching}
   */
   readonly defaultSessionKeyCaching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#disable_session_key_caching Cluster#disable_session_key_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#disable_session_key_caching Cluster#disable_session_key_caching}
   */
   readonly disableSessionKeyCaching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#max_session_keys Cluster#max_session_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#max_session_keys Cluster#max_session_keys}
   */
   readonly maxSessionKeys?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#sni Cluster#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#sni Cluster#sni}
   */
   readonly sni?: string;
   /**
   * cert_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#cert_params Cluster#cert_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#cert_params Cluster#cert_params}
   */
   readonly certParams?: ClusterTlsParametersCertParams;
   /**
   * common_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#common_params Cluster#common_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#common_params Cluster#common_params}
   */
   readonly commonParams?: ClusterTlsParametersCommonParams;
   /**
   * disable_sni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#disable_sni Cluster#disable_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#disable_sni Cluster#disable_sni}
   */
   readonly disableSni?: ClusterTlsParametersDisableSni;
   /**
   * use_host_header_as_sni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#use_host_header_as_sni Cluster#use_host_header_as_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#use_host_header_as_sni Cluster#use_host_header_as_sni}
   */
   readonly useHostHeaderAsSni?: ClusterTlsParametersUseHostHeaderAsSni;
 }
@@ -4220,11 +5084,11 @@ export class ClusterTlsParametersOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterUpstreamConnPoolReuseType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#disable_conn_pool_reuse Cluster#disable_conn_pool_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#disable_conn_pool_reuse Cluster#disable_conn_pool_reuse}
   */
   readonly disableConnPoolReuse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#enable_conn_pool_reuse Cluster#enable_conn_pool_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#enable_conn_pool_reuse Cluster#enable_conn_pool_reuse}
   */
   readonly enableConnPoolReuse?: boolean | cdktf.IResolvable;
 }
@@ -4337,7 +5201,7 @@ export class ClusterUpstreamConnPoolReuseTypeOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster volterra_cluster}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster volterra_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -4353,7 +5217,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4365,7 +5229,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cluster volterra_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cluster volterra_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4376,8 +5240,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_cluster',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4409,6 +5273,7 @@ export class Cluster extends cdktf.TerraformResource {
     this._circuitBreaker.internalValue = config.circuitBreaker;
     this._endpointSubsets.internalValue = config.endpointSubsets;
     this._endpoints.internalValue = config.endpoints;
+    this._headerTransformationType.internalValue = config.headerTransformationType;
     this._healthChecks.internalValue = config.healthChecks;
     this._http1Config.internalValue = config.http1Config;
     this._http2Options.internalValue = config.http2Options;
@@ -4767,6 +5632,22 @@ export class Cluster extends cdktf.TerraformResource {
     return this._endpoints.internalValue;
   }
 
+  // header_transformation_type - computed: false, optional: true, required: false
+  private _headerTransformationType = new ClusterHeaderTransformationTypeOutputReference(this, "header_transformation_type");
+  public get headerTransformationType() {
+    return this._headerTransformationType;
+  }
+  public putHeaderTransformationType(value: ClusterHeaderTransformationType) {
+    this._headerTransformationType.internalValue = value;
+  }
+  public resetHeaderTransformationType() {
+    this._headerTransformationType.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get headerTransformationTypeInput() {
+    return this._headerTransformationType.internalValue;
+  }
+
   // health_checks - computed: false, optional: true, required: false
   private _healthChecks = new ClusterHealthChecksList(this, "health_checks", false);
   public get healthChecks() {
@@ -4891,6 +5772,7 @@ export class Cluster extends cdktf.TerraformResource {
       circuit_breaker: clusterCircuitBreakerToTerraform(this._circuitBreaker.internalValue),
       endpoint_subsets: cdktf.listMapper(clusterEndpointSubsetsToTerraform, true)(this._endpointSubsets.internalValue),
       endpoints: cdktf.listMapper(clusterEndpointsToTerraform, true)(this._endpoints.internalValue),
+      header_transformation_type: clusterHeaderTransformationTypeToTerraform(this._headerTransformationType.internalValue),
       health_checks: cdktf.listMapper(clusterHealthChecksToTerraform, true)(this._healthChecks.internalValue),
       http1_config: clusterHttp1ConfigToTerraform(this._http1Config.internalValue),
       http2_options: clusterHttp2OptionsToTerraform(this._http2Options.internalValue),
@@ -5033,6 +5915,12 @@ export class Cluster extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ClusterEndpointsList",
+      },
+      header_transformation_type: {
+        value: clusterHeaderTransformationTypeToHclTerraform(this._headerTransformationType.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterHeaderTransformationTypeList",
       },
       health_checks: {
         value: cdktf.listMapperHcl(clusterHealthChecksToHclTerraform, true)(this._healthChecks.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/group_system_settings
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/group_system_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioGroupSystemSettingsConfig extends cdktf.TerraformMet
   /**
   * The hybrid worker group or edge fleet to which this instance belongs. Defaults to 'defaultHybrid'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/group_system_settings#group_id DataCriblioGroupSystemSettings#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/group_system_settings#group_id DataCriblioGroupSystemSettings#group_id}
   */
   readonly groupId: string;
 }
@@ -1322,7 +1322,7 @@ export class DataCriblioGroupSystemSettingsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/group_system_settings criblio_group_system_settings}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/group_system_settings criblio_group_system_settings}
 */
 export class DataCriblioGroupSystemSettings extends cdktf.TerraformDataSource {
 
@@ -1338,7 +1338,7 @@ export class DataCriblioGroupSystemSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioGroupSystemSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioGroupSystemSettings to import
-  * @param importFromId The id of the existing DataCriblioGroupSystemSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/group_system_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioGroupSystemSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/group_system_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioGroupSystemSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1350,7 +1350,7 @@ export class DataCriblioGroupSystemSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/group_system_settings criblio_group_system_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/group_system_settings criblio_group_system_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1361,8 +1361,8 @@ export class DataCriblioGroupSystemSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_group_system_settings',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

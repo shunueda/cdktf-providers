@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ProtocolPolicerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#annotations ProtocolPolicer#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#annotations ProtocolPolicer#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#description ProtocolPolicer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#description ProtocolPolicer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#disable ProtocolPolicer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#disable ProtocolPolicer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#id ProtocolPolicer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#id ProtocolPolicer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#labels ProtocolPolicer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#labels ProtocolPolicer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#name ProtocolPolicer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#name ProtocolPolicer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#namespace ProtocolPolicer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#namespace ProtocolPolicer#namespace}
   */
   readonly namespace: string;
   /**
   * protocol_policer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#protocol_policer ProtocolPolicer#protocol_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#protocol_policer ProtocolPolicer#protocol_policer}
   */
   readonly protocolPolicer?: ProtocolPolicerProtocolPolicer[] | cdktf.IResolvable;
 }
 export interface ProtocolPolicerProtocolPolicerPolicer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#name ProtocolPolicer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#name ProtocolPolicer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#namespace ProtocolPolicer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#namespace ProtocolPolicer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#tenant ProtocolPolicer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#tenant ProtocolPolicer#tenant}
   */
   readonly tenant?: string;
 }
@@ -283,7 +283,7 @@ export class ProtocolPolicerProtocolPolicerProtocolDnsOutputReference extends cd
 }
 export interface ProtocolPolicerProtocolPolicerProtocolIcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#type ProtocolPolicer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#type ProtocolPolicer#type}
   */
   readonly type?: string[];
 }
@@ -367,7 +367,7 @@ export class ProtocolPolicerProtocolPolicerProtocolIcmpOutputReference extends c
 }
 export interface ProtocolPolicerProtocolPolicerProtocolTcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#flags ProtocolPolicer#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#flags ProtocolPolicer#flags}
   */
   readonly flags?: string[];
 }
@@ -502,25 +502,25 @@ export interface ProtocolPolicerProtocolPolicerProtocol {
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#dns ProtocolPolicer#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#dns ProtocolPolicer#dns}
   */
   readonly dns?: ProtocolPolicerProtocolPolicerProtocolDns;
   /**
   * icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#icmp ProtocolPolicer#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#icmp ProtocolPolicer#icmp}
   */
   readonly icmp?: ProtocolPolicerProtocolPolicerProtocolIcmp;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#tcp ProtocolPolicer#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#tcp ProtocolPolicer#tcp}
   */
   readonly tcp?: ProtocolPolicerProtocolPolicerProtocolTcp;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#udp ProtocolPolicer#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#udp ProtocolPolicer#udp}
   */
   readonly udp?: ProtocolPolicerProtocolPolicerProtocolUdp;
 }
@@ -693,13 +693,13 @@ export interface ProtocolPolicerProtocolPolicer {
   /**
   * policer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#policer ProtocolPolicer#policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#policer ProtocolPolicer#policer}
   */
   readonly policer: ProtocolPolicerProtocolPolicerPolicer[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#protocol ProtocolPolicer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#protocol ProtocolPolicer#protocol}
   */
   readonly protocol: ProtocolPolicerProtocolPolicerProtocol;
 }
@@ -838,7 +838,7 @@ export class ProtocolPolicerProtocolPolicerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer volterra_protocol_policer}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer volterra_protocol_policer}
 */
 export class ProtocolPolicer extends cdktf.TerraformResource {
 
@@ -854,7 +854,7 @@ export class ProtocolPolicer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtocolPolicer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtocolPolicer to import
-  * @param importFromId The id of the existing ProtocolPolicer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtocolPolicer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtocolPolicer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -866,7 +866,7 @@ export class ProtocolPolicer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/protocol_policer volterra_protocol_policer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/protocol_policer volterra_protocol_policer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -877,8 +877,8 @@ export class ProtocolPolicer extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_protocol_policer',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

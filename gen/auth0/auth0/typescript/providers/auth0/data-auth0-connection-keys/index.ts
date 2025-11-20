@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/connection_keys
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAuth0ConnectionKeysConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the connection to retrieve keys for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/connection_keys#connection_id DataAuth0ConnectionKeys#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_keys#connection_id DataAuth0ConnectionKeys#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/connection_keys#id DataAuth0ConnectionKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_keys#id DataAuth0ConnectionKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -164,7 +164,7 @@ export class DataAuth0ConnectionKeysKeysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/connection_keys auth0_connection_keys}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_keys auth0_connection_keys}
 */
 export class DataAuth0ConnectionKeys extends cdktf.TerraformDataSource {
 
@@ -180,7 +180,7 @@ export class DataAuth0ConnectionKeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0ConnectionKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0ConnectionKeys to import
-  * @param importFromId The id of the existing DataAuth0ConnectionKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/connection_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0ConnectionKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0ConnectionKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class DataAuth0ConnectionKeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/connection_keys auth0_connection_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_keys auth0_connection_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class DataAuth0ConnectionKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_connection_keys',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

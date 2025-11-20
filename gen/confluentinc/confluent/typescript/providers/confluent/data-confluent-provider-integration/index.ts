@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration
+// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataConfluentProviderIntegrationConfig extends cdktf.TerraformM
   /**
   * The display name of provider integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration#display_name DataConfluentProviderIntegration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration#display_name DataConfluentProviderIntegration#display_name}
   */
   readonly displayName?: string;
   /**
   * The ID for provider integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration#id DataConfluentProviderIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration#id DataConfluentProviderIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataConfluentProviderIntegrationConfig extends cdktf.TerraformM
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration#environment DataConfluentProviderIntegration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration#environment DataConfluentProviderIntegration#environment}
   */
   readonly environment: DataConfluentProviderIntegrationEnvironment;
 }
@@ -116,7 +116,7 @@ export class DataConfluentProviderIntegrationAwsList extends cdktf.ComplexList {
 }
 export interface DataConfluentProviderIntegrationEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration#id DataConfluentProviderIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration#id DataConfluentProviderIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -200,7 +200,7 @@ export class DataConfluentProviderIntegrationEnvironmentOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration confluent_provider_integration}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration confluent_provider_integration}
 */
 export class DataConfluentProviderIntegration extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataConfluentProviderIntegration extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataConfluentProviderIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentProviderIntegration to import
-  * @param importFromId The id of the existing DataConfluentProviderIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentProviderIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentProviderIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataConfluentProviderIntegration extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/provider_integration confluent_provider_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/data-sources/provider_integration confluent_provider_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataConfluentProviderIntegration extends cdktf.TerraformDataSource 
       terraformResourceType: 'confluent_provider_integration',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.52.0',
-        providerVersionConstraint: '2.52.0'
+        providerVersion: '2.53.0',
+        providerVersionConstraint: '2.53.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface AdminRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#description AdminRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#description AdminRole#description}
   */
   readonly description?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#location AdminRole#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#location AdminRole#location}
   */
   readonly location: AdminRoleLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#name AdminRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#name AdminRole#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#role AdminRole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#role AdminRole#role}
   */
   readonly role?: AdminRoleRole;
 }
@@ -30,13 +30,13 @@ export interface AdminRoleLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#name AdminRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#name AdminRole#name}
   */
   readonly name?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#panorama_device AdminRole#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#panorama_device AdminRole#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -161,7 +161,7 @@ export interface AdminRoleLocation {
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#template AdminRole#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#template AdminRole#template}
   */
   readonly template?: AdminRoleLocationTemplate;
 }
@@ -255,31 +255,31 @@ export class AdminRoleLocationOutputReference extends cdktf.ComplexObject {
 }
 export interface AdminRoleRoleDeviceRestapiDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#email_server_profiles AdminRole#email_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#email_server_profiles AdminRole#email_server_profiles}
   */
   readonly emailServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#http_server_profiles AdminRole#http_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#http_server_profiles AdminRole#http_server_profiles}
   */
   readonly httpServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ldap_server_profiles AdminRole#ldap_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ldap_server_profiles AdminRole#ldap_server_profiles}
   */
   readonly ldapServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_interface_setting AdminRole#log_interface_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_interface_setting AdminRole#log_interface_setting}
   */
   readonly logInterfaceSetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#snmp_trap_server_profiles AdminRole#snmp_trap_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#snmp_trap_server_profiles AdminRole#snmp_trap_server_profiles}
   */
   readonly snmpTrapServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#syslog_server_profiles AdminRole#syslog_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#syslog_server_profiles AdminRole#syslog_server_profiles}
   */
   readonly syslogServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
   */
   readonly virtualSystems?: string;
 }
@@ -547,143 +547,143 @@ export class AdminRoleRoleDeviceRestapiDeviceOutputReference extends cdktf.Compl
 }
 export interface AdminRoleRoleDeviceRestapiNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#aggregate_ethernet_interfaces AdminRole#aggregate_ethernet_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#aggregate_ethernet_interfaces AdminRole#aggregate_ethernet_interfaces}
   */
   readonly aggregateEthernetInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#bfd_network_profiles AdminRole#bfd_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#bfd_network_profiles AdminRole#bfd_network_profiles}
   */
   readonly bfdNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#bgp_routing_profiles AdminRole#bgp_routing_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#bgp_routing_profiles AdminRole#bgp_routing_profiles}
   */
   readonly bgpRoutingProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dhcp_relays AdminRole#dhcp_relays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dhcp_relays AdminRole#dhcp_relays}
   */
   readonly dhcpRelays?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dhcp_servers AdminRole#dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dhcp_servers AdminRole#dhcp_servers}
   */
   readonly dhcpServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dns_proxies AdminRole#dns_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dns_proxies AdminRole#dns_proxies}
   */
   readonly dnsProxies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ethernet_interfaces AdminRole#ethernet_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ethernet_interfaces AdminRole#ethernet_interfaces}
   */
   readonly ethernetInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_clientless_app_groups AdminRole#globalprotect_clientless_app_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_clientless_app_groups AdminRole#globalprotect_clientless_app_groups}
   */
   readonly globalprotectClientlessAppGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_clientless_apps AdminRole#globalprotect_clientless_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_clientless_apps AdminRole#globalprotect_clientless_apps}
   */
   readonly globalprotectClientlessApps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_gateways AdminRole#globalprotect_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_gateways AdminRole#globalprotect_gateways}
   */
   readonly globalprotectGateways?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_ipsec_crypto_network_profiles AdminRole#globalprotect_ipsec_crypto_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_ipsec_crypto_network_profiles AdminRole#globalprotect_ipsec_crypto_network_profiles}
   */
   readonly globalprotectIpsecCryptoNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_mdm_servers AdminRole#globalprotect_mdm_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_mdm_servers AdminRole#globalprotect_mdm_servers}
   */
   readonly globalprotectMdmServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_portals AdminRole#globalprotect_portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_portals AdminRole#globalprotect_portals}
   */
   readonly globalprotectPortals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gre_tunnels AdminRole#gre_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gre_tunnels AdminRole#gre_tunnels}
   */
   readonly greTunnels?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ike_crypto_network_profiles AdminRole#ike_crypto_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ike_crypto_network_profiles AdminRole#ike_crypto_network_profiles}
   */
   readonly ikeCryptoNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ike_gateway_network_profiles AdminRole#ike_gateway_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ike_gateway_network_profiles AdminRole#ike_gateway_network_profiles}
   */
   readonly ikeGatewayNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#interface_management_network_profiles AdminRole#interface_management_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#interface_management_network_profiles AdminRole#interface_management_network_profiles}
   */
   readonly interfaceManagementNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ipsec_crypto_network_profiles AdminRole#ipsec_crypto_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ipsec_crypto_network_profiles AdminRole#ipsec_crypto_network_profiles}
   */
   readonly ipsecCryptoNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ipsec_tunnels AdminRole#ipsec_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ipsec_tunnels AdminRole#ipsec_tunnels}
   */
   readonly ipsecTunnels?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#lldp AdminRole#lldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#lldp AdminRole#lldp}
   */
   readonly lldp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#lldp_network_profiles AdminRole#lldp_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#lldp_network_profiles AdminRole#lldp_network_profiles}
   */
   readonly lldpNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#logical_routers AdminRole#logical_routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#logical_routers AdminRole#logical_routers}
   */
   readonly logicalRouters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#loopback_interfaces AdminRole#loopback_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#loopback_interfaces AdminRole#loopback_interfaces}
   */
   readonly loopbackInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_interfaces AdminRole#qos_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_interfaces AdminRole#qos_interfaces}
   */
   readonly qosInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_network_profiles AdminRole#qos_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_network_profiles AdminRole#qos_network_profiles}
   */
   readonly qosNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_interface_profiles AdminRole#sdwan_interface_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_interface_profiles AdminRole#sdwan_interface_profiles}
   */
   readonly sdwanInterfaceProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_interfaces AdminRole#sdwan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_interfaces AdminRole#sdwan_interfaces}
   */
   readonly sdwanInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_interfaces AdminRole#tunnel_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_interfaces AdminRole#tunnel_interfaces}
   */
   readonly tunnelInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_monitor_network_profiles AdminRole#tunnel_monitor_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_monitor_network_profiles AdminRole#tunnel_monitor_network_profiles}
   */
   readonly tunnelMonitorNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_routers AdminRole#virtual_routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_routers AdminRole#virtual_routers}
   */
   readonly virtualRouters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_wires AdminRole#virtual_wires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_wires AdminRole#virtual_wires}
   */
   readonly virtualWires?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vlan_interfaces AdminRole#vlan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vlan_interfaces AdminRole#vlan_interfaces}
   */
   readonly vlanInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vlans AdminRole#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vlans AdminRole#vlans}
   */
   readonly vlans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#zone_protection_network_profiles AdminRole#zone_protection_network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#zone_protection_network_profiles AdminRole#zone_protection_network_profiles}
   */
   readonly zoneProtectionNetworkProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#zones AdminRole#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#zones AdminRole#zones}
   */
   readonly zones?: string;
 }
@@ -1763,155 +1763,155 @@ export class AdminRoleRoleDeviceRestapiNetworkOutputReference extends cdktf.Comp
 }
 export interface AdminRoleRoleDeviceRestapiObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#address_groups AdminRole#address_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#address_groups AdminRole#address_groups}
   */
   readonly addressGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#addresses AdminRole#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#addresses AdminRole#addresses}
   */
   readonly addresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#anti_spyware_security_profiles AdminRole#anti_spyware_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#anti_spyware_security_profiles AdminRole#anti_spyware_security_profiles}
   */
   readonly antiSpywareSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#antivirus_security_profiles AdminRole#antivirus_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#antivirus_security_profiles AdminRole#antivirus_security_profiles}
   */
   readonly antivirusSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_filters AdminRole#application_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_filters AdminRole#application_filters}
   */
   readonly applicationFilters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_groups AdminRole#application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_groups AdminRole#application_groups}
   */
   readonly applicationGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#applications AdminRole#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#applications AdminRole#applications}
   */
   readonly applications?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_enforcements AdminRole#authentication_enforcements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_enforcements AdminRole#authentication_enforcements}
   */
   readonly authenticationEnforcements?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_data_patterns AdminRole#custom_data_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_data_patterns AdminRole#custom_data_patterns}
   */
   readonly customDataPatterns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_spyware_signatures AdminRole#custom_spyware_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_spyware_signatures AdminRole#custom_spyware_signatures}
   */
   readonly customSpywareSignatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_url_categories AdminRole#custom_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_url_categories AdminRole#custom_url_categories}
   */
   readonly customUrlCategories?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_vulnerability_signatures AdminRole#custom_vulnerability_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_vulnerability_signatures AdminRole#custom_vulnerability_signatures}
   */
   readonly customVulnerabilitySignatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering_security_profiles AdminRole#data_filtering_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering_security_profiles AdminRole#data_filtering_security_profiles}
   */
   readonly dataFilteringSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_profiles AdminRole#decryption_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_profiles AdminRole#decryption_profiles}
   */
   readonly decryptionProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#devices AdminRole#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#devices AdminRole#devices}
   */
   readonly devices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_protection_security_profiles AdminRole#dos_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_protection_security_profiles AdminRole#dos_protection_security_profiles}
   */
   readonly dosProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
   */
   readonly dynamicUserGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#external_dynamic_lists AdminRole#external_dynamic_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#external_dynamic_lists AdminRole#external_dynamic_lists}
   */
   readonly externalDynamicLists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#file_blocking_security_profiles AdminRole#file_blocking_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#file_blocking_security_profiles AdminRole#file_blocking_security_profiles}
   */
   readonly fileBlockingSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_hip_objects AdminRole#globalprotect_hip_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_hip_objects AdminRole#globalprotect_hip_objects}
   */
   readonly globalprotectHipObjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_hip_profiles AdminRole#globalprotect_hip_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_hip_profiles AdminRole#globalprotect_hip_profiles}
   */
   readonly globalprotectHipProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_protection_security_profiles AdminRole#gtp_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_protection_security_profiles AdminRole#gtp_protection_security_profiles}
   */
   readonly gtpProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_forwarding_profiles AdminRole#log_forwarding_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_forwarding_profiles AdminRole#log_forwarding_profiles}
   */
   readonly logForwardingProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#packet_broker_profiles AdminRole#packet_broker_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#packet_broker_profiles AdminRole#packet_broker_profiles}
   */
   readonly packetBrokerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#regions AdminRole#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#regions AdminRole#regions}
   */
   readonly regions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#schedules AdminRole#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#schedules AdminRole#schedules}
   */
   readonly schedules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_protection_security_profiles AdminRole#sctp_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_protection_security_profiles AdminRole#sctp_protection_security_profiles}
   */
   readonly sctpProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_error_correction_profiles AdminRole#sdwan_error_correction_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_error_correction_profiles AdminRole#sdwan_error_correction_profiles}
   */
   readonly sdwanErrorCorrectionProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_path_quality_profiles AdminRole#sdwan_path_quality_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_path_quality_profiles AdminRole#sdwan_path_quality_profiles}
   */
   readonly sdwanPathQualityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_saas_quality_profiles AdminRole#sdwan_saas_quality_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_saas_quality_profiles AdminRole#sdwan_saas_quality_profiles}
   */
   readonly sdwanSaasQualityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_traffic_distribution_profiles AdminRole#sdwan_traffic_distribution_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_traffic_distribution_profiles AdminRole#sdwan_traffic_distribution_profiles}
   */
   readonly sdwanTrafficDistributionProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
   */
   readonly securityProfileGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#service_groups AdminRole#service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#service_groups AdminRole#service_groups}
   */
   readonly serviceGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#services AdminRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#services AdminRole#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tags AdminRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tags AdminRole#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_filtering_security_profiles AdminRole#url_filtering_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_filtering_security_profiles AdminRole#url_filtering_security_profiles}
   */
   readonly urlFilteringSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vulnerability_protection_security_profiles AdminRole#vulnerability_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vulnerability_protection_security_profiles AdminRole#vulnerability_protection_security_profiles}
   */
   readonly vulnerabilityProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire_analysis_security_profiles AdminRole#wildfire_analysis_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire_analysis_security_profiles AdminRole#wildfire_analysis_security_profiles}
   */
   readonly wildfireAnalysisSecurityProfiles?: string;
 }
@@ -3078,47 +3078,47 @@ export class AdminRoleRoleDeviceRestapiObjectsOutputReference extends cdktf.Comp
 }
 export interface AdminRoleRoleDeviceRestapiPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_override_rules AdminRole#application_override_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_override_rules AdminRole#application_override_rules}
   */
   readonly applicationOverrideRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_rules AdminRole#authentication_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_rules AdminRole#authentication_rules}
   */
   readonly authenticationRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_rules AdminRole#decryption_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_rules AdminRole#decryption_rules}
   */
   readonly decryptionRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_rules AdminRole#dos_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_rules AdminRole#dos_rules}
   */
   readonly dosRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#nat_rules AdminRole#nat_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#nat_rules AdminRole#nat_rules}
   */
   readonly natRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network_packet_broker_rules AdminRole#network_packet_broker_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network_packet_broker_rules AdminRole#network_packet_broker_rules}
   */
   readonly networkPacketBrokerRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policy_based_forwarding_rules AdminRole#policy_based_forwarding_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policy_based_forwarding_rules AdminRole#policy_based_forwarding_rules}
   */
   readonly policyBasedForwardingRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_rules AdminRole#qos_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_rules AdminRole#qos_rules}
   */
   readonly qosRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_rules AdminRole#sdwan_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_rules AdminRole#sdwan_rules}
   */
   readonly sdwanRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_rules AdminRole#security_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_rules AdminRole#security_rules}
   */
   readonly securityRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_inspection_rules AdminRole#tunnel_inspection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_inspection_rules AdminRole#tunnel_inspection_rules}
   */
   readonly tunnelInspectionRules?: string;
 }
@@ -3502,7 +3502,7 @@ export class AdminRoleRoleDeviceRestapiPoliciesOutputReference extends cdktf.Com
 }
 export interface AdminRoleRoleDeviceRestapiSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#configuration AdminRole#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#configuration AdminRole#configuration}
   */
   readonly configuration?: string;
 }
@@ -3596,23 +3596,23 @@ export class AdminRoleRoleDeviceRestapiSystemOutputReference extends cdktf.Compl
 }
 export interface AdminRoleRoleDeviceRestapi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device AdminRole#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device AdminRole#device}
   */
   readonly device?: AdminRoleRoleDeviceRestapiDevice;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network AdminRole#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network AdminRole#network}
   */
   readonly network?: AdminRoleRoleDeviceRestapiNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#objects AdminRole#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#objects AdminRole#objects}
   */
   readonly objects?: AdminRoleRoleDeviceRestapiObjects;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policies AdminRole#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policies AdminRole#policies}
   */
   readonly policies?: AdminRoleRoleDeviceRestapiPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#system AdminRole#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#system AdminRole#system}
   */
   readonly systemAttribute?: AdminRoleRoleDeviceRestapiSystem;
 }
@@ -3822,15 +3822,15 @@ export class AdminRoleRoleDeviceRestapiOutputReference extends cdktf.ComplexObje
 }
 export interface AdminRoleRoleDeviceWebuiCommit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#commit_for_other_admins AdminRole#commit_for_other_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#commit_for_other_admins AdminRole#commit_for_other_admins}
   */
   readonly commitForOtherAdmins?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device AdminRole#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device AdminRole#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#object_level_changes AdminRole#object_level_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#object_level_changes AdminRole#object_level_changes}
   */
   readonly objectLevelChanges?: string;
 }
@@ -3982,31 +3982,31 @@ export class AdminRoleRoleDeviceWebuiCommitOutputReference extends cdktf.Complex
 }
 export interface AdminRoleRoleDeviceWebuiDeviceCertificateManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#certificate_profile AdminRole#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#certificate_profile AdminRole#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#certificates AdminRole#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#certificates AdminRole#certificates}
   */
   readonly certificates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ocsp_responder AdminRole#ocsp_responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ocsp_responder AdminRole#ocsp_responder}
   */
   readonly ocspResponder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#scep AdminRole#scep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#scep AdminRole#scep}
   */
   readonly scep?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssh_service_profile AdminRole#ssh_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssh_service_profile AdminRole#ssh_service_profile}
   */
   readonly sshServiceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssl_decryption_exclusion AdminRole#ssl_decryption_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssl_decryption_exclusion AdminRole#ssl_decryption_exclusion}
   */
   readonly sslDecryptionExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssl_tls_service_profile AdminRole#ssl_tls_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssl_tls_service_profile AdminRole#ssl_tls_service_profile}
   */
   readonly sslTlsServiceProfile?: string;
 }
@@ -4274,11 +4274,11 @@ export class AdminRoleRoleDeviceWebuiDeviceCertificateManagementOutputReference 
 }
 export interface AdminRoleRoleDeviceWebuiDeviceLocalUserDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_groups AdminRole#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_groups AdminRole#user_groups}
   */
   readonly userGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#users AdminRole#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#users AdminRole#users}
   */
   readonly users?: string;
 }
@@ -4401,39 +4401,39 @@ export class AdminRoleRoleDeviceWebuiDeviceLocalUserDatabaseOutputReference exte
 }
 export interface AdminRoleRoleDeviceWebuiDeviceLogSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#cc_alarm AdminRole#cc_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#cc_alarm AdminRole#cc_alarm}
   */
   readonly ccAlarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#config AdminRole#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#config AdminRole#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#correlation AdminRole#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#correlation AdminRole#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
   */
   readonly hipmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iptag AdminRole#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iptag AdminRole#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#manage_log AdminRole#manage_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#manage_log AdminRole#manage_log}
   */
   readonly manageLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#system AdminRole#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#system AdminRole#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_id AdminRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_id AdminRole#user_id}
   */
   readonly userId?: string;
 }
@@ -4759,11 +4759,11 @@ export class AdminRoleRoleDeviceWebuiDeviceLogSettingsOutputReference extends cd
 }
 export interface AdminRoleRoleDeviceWebuiDevicePolicyRecommendations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iot AdminRole#iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iot AdminRole#iot}
   */
   readonly iot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#saas AdminRole#saas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#saas AdminRole#saas}
   */
   readonly saas?: string;
 }
@@ -4886,55 +4886,55 @@ export class AdminRoleRoleDeviceWebuiDevicePolicyRecommendationsOutputReference 
 }
 export interface AdminRoleRoleDeviceWebuiDeviceServerProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dns AdminRole#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dns AdminRole#dns}
   */
   readonly dns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#email AdminRole#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#email AdminRole#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#http AdminRole#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#http AdminRole#http}
   */
   readonly http?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#kerberos AdminRole#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#kerberos AdminRole#kerberos}
   */
   readonly kerberos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ldap AdminRole#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ldap AdminRole#ldap}
   */
   readonly ldap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#mfa AdminRole#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#mfa AdminRole#mfa}
   */
   readonly mfa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#netflow AdminRole#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#netflow AdminRole#netflow}
   */
   readonly netflow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#radius AdminRole#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#radius AdminRole#radius}
   */
   readonly radius?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#saml_idp AdminRole#saml_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#saml_idp AdminRole#saml_idp}
   */
   readonly samlIdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#scp AdminRole#scp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#scp AdminRole#scp}
   */
   readonly scp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#snmp_trap AdminRole#snmp_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#snmp_trap AdminRole#snmp_trap}
   */
   readonly snmpTrap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#syslog AdminRole#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#syslog AdminRole#syslog}
   */
   readonly syslog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tacplus AdminRole#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tacplus AdminRole#tacplus}
   */
   readonly tacplus?: string;
 }
@@ -5376,39 +5376,39 @@ export class AdminRoleRoleDeviceWebuiDeviceServerProfileOutputReference extends 
 }
 export interface AdminRoleRoleDeviceWebuiDeviceSetup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#content_id AdminRole#content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#content_id AdminRole#content_id}
   */
   readonly contentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hsm AdminRole#hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hsm AdminRole#hsm}
   */
   readonly hsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#interfaces AdminRole#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#interfaces AdminRole#interfaces}
   */
   readonly interfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#management AdminRole#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#management AdminRole#management}
   */
   readonly management?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#operations AdminRole#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#operations AdminRole#operations}
   */
   readonly operations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#services AdminRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#services AdminRole#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#session AdminRole#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#session AdminRole#session}
   */
   readonly session?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#telemetry AdminRole#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#telemetry AdminRole#telemetry}
   */
   readonly telemetry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire AdminRole#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire AdminRole#wildfire}
   */
   readonly wildfire?: string;
 }
@@ -5734,127 +5734,127 @@ export class AdminRoleRoleDeviceWebuiDeviceSetupOutputReference extends cdktf.Co
 }
 export interface AdminRoleRoleDeviceWebuiDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#access_domain AdminRole#access_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#access_domain AdminRole#access_domain}
   */
   readonly accessDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#admin_roles AdminRole#admin_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#admin_roles AdminRole#admin_roles}
   */
   readonly adminRoles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#administrators AdminRole#administrators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#administrators AdminRole#administrators}
   */
   readonly administrators?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_profile AdminRole#authentication_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_profile AdminRole#authentication_profile}
   */
   readonly authenticationProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_sequence AdminRole#authentication_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_sequence AdminRole#authentication_sequence}
   */
   readonly authenticationSequence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#block_pages AdminRole#block_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#block_pages AdminRole#block_pages}
   */
   readonly blockPages?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#certificate_management AdminRole#certificate_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#certificate_management AdminRole#certificate_management}
   */
   readonly certificateManagement?: AdminRoleRoleDeviceWebuiDeviceCertificateManagement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#config_audit AdminRole#config_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#config_audit AdminRole#config_audit}
   */
   readonly configAudit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_redistribution AdminRole#data_redistribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_redistribution AdminRole#data_redistribution}
   */
   readonly dataRedistribution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device_quarantine AdminRole#device_quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device_quarantine AdminRole#device_quarantine}
   */
   readonly deviceQuarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dhcp_syslog_server AdminRole#dhcp_syslog_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dhcp_syslog_server AdminRole#dhcp_syslog_server}
   */
   readonly dhcpSyslogServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_updates AdminRole#dynamic_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_updates AdminRole#dynamic_updates}
   */
   readonly dynamicUpdates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#global_protect_client AdminRole#global_protect_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#global_protect_client AdminRole#global_protect_client}
   */
   readonly globalProtectClient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#high_availability AdminRole#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#high_availability AdminRole#high_availability}
   */
   readonly highAvailability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#licenses AdminRole#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#licenses AdminRole#licenses}
   */
   readonly licenses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#local_user_database AdminRole#local_user_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#local_user_database AdminRole#local_user_database}
   */
   readonly localUserDatabase?: AdminRoleRoleDeviceWebuiDeviceLocalUserDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_fwd_card AdminRole#log_fwd_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_fwd_card AdminRole#log_fwd_card}
   */
   readonly logFwdCard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_settings AdminRole#log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_settings AdminRole#log_settings}
   */
   readonly logSettings?: AdminRoleRoleDeviceWebuiDeviceLogSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#master_key AdminRole#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#master_key AdminRole#master_key}
   */
   readonly masterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#plugins AdminRole#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#plugins AdminRole#plugins}
   */
   readonly plugins?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policy_recommendations AdminRole#policy_recommendations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policy_recommendations AdminRole#policy_recommendations}
   */
   readonly policyRecommendations?: AdminRoleRoleDeviceWebuiDevicePolicyRecommendations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#scheduled_log_export AdminRole#scheduled_log_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#scheduled_log_export AdminRole#scheduled_log_export}
   */
   readonly scheduledLogExport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#server_profile AdminRole#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#server_profile AdminRole#server_profile}
   */
   readonly serverProfile?: AdminRoleRoleDeviceWebuiDeviceServerProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#setup AdminRole#setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#setup AdminRole#setup}
   */
   readonly setup?: AdminRoleRoleDeviceWebuiDeviceSetup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#shared_gateways AdminRole#shared_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#shared_gateways AdminRole#shared_gateways}
   */
   readonly sharedGateways?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#software AdminRole#software}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#software AdminRole#software}
   */
   readonly softwareAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#support AdminRole#support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#support AdminRole#support}
   */
   readonly support?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#troubleshooting AdminRole#troubleshooting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#troubleshooting AdminRole#troubleshooting}
   */
   readonly troubleshooting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_identification AdminRole#user_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_identification AdminRole#user_identification}
   */
   readonly userIdentification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
   */
   readonly virtualSystems?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vm_info_source AdminRole#vm_info_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vm_info_source AdminRole#vm_info_source}
   */
   readonly vmInfoSource?: string;
 }
@@ -6818,7 +6818,7 @@ export class AdminRoleRoleDeviceWebuiDeviceOutputReference extends cdktf.Complex
 }
 export interface AdminRoleRoleDeviceWebuiGlobal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#system_alarms AdminRole#system_alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#system_alarms AdminRole#system_alarms}
   */
   readonly systemAlarms?: string;
 }
@@ -6912,11 +6912,11 @@ export class AdminRoleRoleDeviceWebuiGlobalOutputReference extends cdktf.Complex
 }
 export interface AdminRoleRoleDeviceWebuiMonitorAutomatedCorrelationEngine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#correlated_events AdminRole#correlated_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#correlated_events AdminRole#correlated_events}
   */
   readonly correlatedEvents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#correlation_objects AdminRole#correlation_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#correlation_objects AdminRole#correlation_objects}
   */
   readonly correlationObjects?: string;
 }
@@ -7039,91 +7039,91 @@ export class AdminRoleRoleDeviceWebuiMonitorAutomatedCorrelationEngineOutputRefe
 }
 export interface AdminRoleRoleDeviceWebuiMonitorCustomReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_statistics AdminRole#application_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_statistics AdminRole#application_statistics}
   */
   readonly applicationStatistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#auth AdminRole#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#auth AdminRole#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering_log AdminRole#data_filtering_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering_log AdminRole#data_filtering_log}
   */
   readonly dataFilteringLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_log AdminRole#decryption_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_log AdminRole#decryption_log}
   */
   readonly decryptionLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_summary AdminRole#decryption_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_summary AdminRole#decryption_summary}
   */
   readonly decryptionSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_log AdminRole#gtp_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_log AdminRole#gtp_log}
   */
   readonly gtpLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_summary AdminRole#gtp_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_summary AdminRole#gtp_summary}
   */
   readonly gtpSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
   */
   readonly hipmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iptag AdminRole#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iptag AdminRole#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_log AdminRole#sctp_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_log AdminRole#sctp_log}
   */
   readonly sctpLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_summary AdminRole#sctp_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_summary AdminRole#sctp_summary}
   */
   readonly sctpSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat_log AdminRole#threat_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat_log AdminRole#threat_log}
   */
   readonly threatLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat_summary AdminRole#threat_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat_summary AdminRole#threat_summary}
   */
   readonly threatSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic_log AdminRole#traffic_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic_log AdminRole#traffic_log}
   */
   readonly trafficLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic_summary AdminRole#traffic_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic_summary AdminRole#traffic_summary}
   */
   readonly trafficSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_log AdminRole#tunnel_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_log AdminRole#tunnel_log}
   */
   readonly tunnelLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_summary AdminRole#tunnel_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_summary AdminRole#tunnel_summary}
   */
   readonly tunnelSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_log AdminRole#url_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_log AdminRole#url_log}
   */
   readonly urlLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_summary AdminRole#url_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_summary AdminRole#url_summary}
   */
   readonly urlSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#userid AdminRole#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#userid AdminRole#userid}
   */
   readonly userid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire_log AdminRole#wildfire_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire_log AdminRole#wildfire_log}
   */
   readonly wildfireLog?: string;
 }
@@ -7826,71 +7826,71 @@ export class AdminRoleRoleDeviceWebuiMonitorCustomReportsOutputReference extends
 }
 export interface AdminRoleRoleDeviceWebuiMonitorLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#alarm AdminRole#alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#alarm AdminRole#alarm}
   */
   readonly alarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication AdminRole#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication AdminRole#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#configuration AdminRole#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#configuration AdminRole#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
   */
   readonly dataFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption AdminRole#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption AdminRole#decryption}
   */
   readonly decryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp AdminRole#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp AdminRole#gtp}
   */
   readonly gtp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
   */
   readonly hipmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iptag AdminRole#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iptag AdminRole#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp AdminRole#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp AdminRole#sctp}
   */
   readonly sctp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#system AdminRole#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#system AdminRole#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat AdminRole#threat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat AdminRole#threat}
   */
   readonly threat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic AdminRole#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic AdminRole#traffic}
   */
   readonly traffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel AdminRole#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel AdminRole#tunnel}
   */
   readonly tunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url AdminRole#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url AdminRole#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#userid AdminRole#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#userid AdminRole#userid}
   */
   readonly userid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire AdminRole#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire AdminRole#wildfire}
   */
   readonly wildfire?: string;
 }
@@ -8448,27 +8448,27 @@ export class AdminRoleRoleDeviceWebuiMonitorLogsOutputReference extends cdktf.Co
 }
 export interface AdminRoleRoleDeviceWebuiMonitorPdfReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#email_scheduler AdminRole#email_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#email_scheduler AdminRole#email_scheduler}
   */
   readonly emailScheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#manage_pdf_summary AdminRole#manage_pdf_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#manage_pdf_summary AdminRole#manage_pdf_summary}
   */
   readonly managePdfSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#pdf_summary_reports AdminRole#pdf_summary_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#pdf_summary_reports AdminRole#pdf_summary_reports}
   */
   readonly pdfSummaryReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#report_groups AdminRole#report_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#report_groups AdminRole#report_groups}
   */
   readonly reportGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#saas_application_usage_report AdminRole#saas_application_usage_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#saas_application_usage_report AdminRole#saas_application_usage_report}
   */
   readonly saasApplicationUsageReport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_activity_report AdminRole#user_activity_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_activity_report AdminRole#user_activity_report}
   */
   readonly userActivityReport?: string;
 }
@@ -8707,71 +8707,71 @@ export class AdminRoleRoleDeviceWebuiMonitorPdfReportsOutputReference extends cd
 }
 export interface AdminRoleRoleDeviceWebuiMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#app_scope AdminRole#app_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#app_scope AdminRole#app_scope}
   */
   readonly appScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_reports AdminRole#application_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_reports AdminRole#application_reports}
   */
   readonly applicationReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#automated_correlation_engine AdminRole#automated_correlation_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#automated_correlation_engine AdminRole#automated_correlation_engine}
   */
   readonly automatedCorrelationEngine?: AdminRoleRoleDeviceWebuiMonitorAutomatedCorrelationEngine;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#block_ip_list AdminRole#block_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#block_ip_list AdminRole#block_ip_list}
   */
   readonly blockIpList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#botnet AdminRole#botnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#botnet AdminRole#botnet}
   */
   readonly botnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_reports AdminRole#custom_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_reports AdminRole#custom_reports}
   */
   readonly customReports?: AdminRoleRoleDeviceWebuiMonitorCustomReports;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#external_logs AdminRole#external_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#external_logs AdminRole#external_logs}
   */
   readonly externalLogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_reports AdminRole#gtp_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_reports AdminRole#gtp_reports}
   */
   readonly gtpReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#logs AdminRole#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#logs AdminRole#logs}
   */
   readonly logs?: AdminRoleRoleDeviceWebuiMonitorLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#packet_capture AdminRole#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#packet_capture AdminRole#packet_capture}
   */
   readonly packetCapture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#pdf_reports AdminRole#pdf_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#pdf_reports AdminRole#pdf_reports}
   */
   readonly pdfReports?: AdminRoleRoleDeviceWebuiMonitorPdfReports;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_reports AdminRole#sctp_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_reports AdminRole#sctp_reports}
   */
   readonly sctpReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#session_browser AdminRole#session_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#session_browser AdminRole#session_browser}
   */
   readonly sessionBrowser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat_reports AdminRole#threat_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat_reports AdminRole#threat_reports}
   */
   readonly threatReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic_reports AdminRole#traffic_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic_reports AdminRole#traffic_reports}
   */
   readonly trafficReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_filtering_reports AdminRole#url_filtering_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_filtering_reports AdminRole#url_filtering_reports}
   */
   readonly urlFilteringReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#view_custom_reports AdminRole#view_custom_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#view_custom_reports AdminRole#view_custom_reports}
   */
   readonly viewCustomReports?: string;
 }
@@ -9329,23 +9329,23 @@ export class AdminRoleRoleDeviceWebuiMonitorOutputReference extends cdktf.Comple
 }
 export interface AdminRoleRoleDeviceWebuiNetworkGlobalProtect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#clientless_app_groups AdminRole#clientless_app_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#clientless_app_groups AdminRole#clientless_app_groups}
   */
   readonly clientlessAppGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#clientless_apps AdminRole#clientless_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#clientless_apps AdminRole#clientless_apps}
   */
   readonly clientlessApps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gateways AdminRole#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gateways AdminRole#gateways}
   */
   readonly gateways?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#mdm AdminRole#mdm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#mdm AdminRole#mdm}
   */
   readonly mdm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#portals AdminRole#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#portals AdminRole#portals}
   */
   readonly portals?: string;
 }
@@ -9555,43 +9555,43 @@ export class AdminRoleRoleDeviceWebuiNetworkGlobalProtectOutputReference extends
 }
 export interface AdminRoleRoleDeviceWebuiNetworkNetworkProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#bfd_profile AdminRole#bfd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#bfd_profile AdminRole#bfd_profile}
   */
   readonly bfdProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gp_app_ipsec_crypto AdminRole#gp_app_ipsec_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gp_app_ipsec_crypto AdminRole#gp_app_ipsec_crypto}
   */
   readonly gpAppIpsecCrypto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ike_crypto AdminRole#ike_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ike_crypto AdminRole#ike_crypto}
   */
   readonly ikeCrypto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ike_gateways AdminRole#ike_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ike_gateways AdminRole#ike_gateways}
   */
   readonly ikeGateways?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#interface_mgmt AdminRole#interface_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#interface_mgmt AdminRole#interface_mgmt}
   */
   readonly interfaceMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ipsec_crypto AdminRole#ipsec_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ipsec_crypto AdminRole#ipsec_crypto}
   */
   readonly ipsecCrypto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#lldp_profile AdminRole#lldp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#lldp_profile AdminRole#lldp_profile}
   */
   readonly lldpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_profile AdminRole#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_profile AdminRole#qos_profile}
   */
   readonly qosProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_monitor AdminRole#tunnel_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_monitor AdminRole#tunnel_monitor}
   */
   readonly tunnelMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#zone_protection AdminRole#zone_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#zone_protection AdminRole#zone_protection}
   */
   readonly zoneProtection?: string;
 }
@@ -9946,31 +9946,31 @@ export class AdminRoleRoleDeviceWebuiNetworkNetworkProfilesOutputReference exten
 }
 export interface AdminRoleRoleDeviceWebuiNetworkRoutingRoutingProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#bfd AdminRole#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#bfd AdminRole#bfd}
   */
   readonly bfd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#bgp AdminRole#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#bgp AdminRole#bgp}
   */
   readonly bgp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#filters AdminRole#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#filters AdminRole#filters}
   */
   readonly filters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#multicast AdminRole#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#multicast AdminRole#multicast}
   */
   readonly multicast?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ospf AdminRole#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ospf AdminRole#ospf}
   */
   readonly ospf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ospfv3 AdminRole#ospfv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ospfv3 AdminRole#ospfv3}
   */
   readonly ospfv3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ripv2 AdminRole#ripv2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ripv2 AdminRole#ripv2}
   */
   readonly ripv2?: string;
 }
@@ -10238,11 +10238,11 @@ export class AdminRoleRoleDeviceWebuiNetworkRoutingRoutingProfilesOutputReferenc
 }
 export interface AdminRoleRoleDeviceWebuiNetworkRouting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#logical_routers AdminRole#logical_routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#logical_routers AdminRole#logical_routers}
   */
   readonly logicalRouters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#routing_profiles AdminRole#routing_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#routing_profiles AdminRole#routing_profiles}
   */
   readonly routingProfiles?: AdminRoleRoleDeviceWebuiNetworkRoutingRoutingProfiles;
 }
@@ -10365,67 +10365,67 @@ export class AdminRoleRoleDeviceWebuiNetworkRoutingOutputReference extends cdktf
 }
 export interface AdminRoleRoleDeviceWebuiNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dhcp AdminRole#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dhcp AdminRole#dhcp}
   */
   readonly dhcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dns_proxy AdminRole#dns_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dns_proxy AdminRole#dns_proxy}
   */
   readonly dnsProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#global_protect AdminRole#global_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#global_protect AdminRole#global_protect}
   */
   readonly globalProtect?: AdminRoleRoleDeviceWebuiNetworkGlobalProtect;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gre_tunnels AdminRole#gre_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gre_tunnels AdminRole#gre_tunnels}
   */
   readonly greTunnels?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#interfaces AdminRole#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#interfaces AdminRole#interfaces}
   */
   readonly interfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ipsec_tunnels AdminRole#ipsec_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ipsec_tunnels AdminRole#ipsec_tunnels}
   */
   readonly ipsecTunnels?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#lldp AdminRole#lldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#lldp AdminRole#lldp}
   */
   readonly lldp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network_profiles AdminRole#network_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network_profiles AdminRole#network_profiles}
   */
   readonly networkProfiles?: AdminRoleRoleDeviceWebuiNetworkNetworkProfiles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos AdminRole#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos AdminRole#qos}
   */
   readonly qos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#routing AdminRole#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#routing AdminRole#routing}
   */
   readonly routing?: AdminRoleRoleDeviceWebuiNetworkRouting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_interface_profile AdminRole#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_interface_profile AdminRole#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#secure_web_gateway AdminRole#secure_web_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#secure_web_gateway AdminRole#secure_web_gateway}
   */
   readonly secureWebGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_routers AdminRole#virtual_routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_routers AdminRole#virtual_routers}
   */
   readonly virtualRouters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_wires AdminRole#virtual_wires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_wires AdminRole#virtual_wires}
   */
   readonly virtualWires?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vlans AdminRole#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vlans AdminRole#vlans}
   */
   readonly vlans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#zones AdminRole#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#zones AdminRole#zones}
   */
   readonly zones?: string;
 }
@@ -10954,19 +10954,19 @@ export class AdminRoleRoleDeviceWebuiNetworkOutputReference extends cdktf.Comple
 }
 export interface AdminRoleRoleDeviceWebuiObjectsCustomObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_patterns AdminRole#data_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_patterns AdminRole#data_patterns}
   */
   readonly dataPatterns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#spyware AdminRole#spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#spyware AdminRole#spyware}
   */
   readonly spyware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_category AdminRole#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_category AdminRole#url_category}
   */
   readonly urlCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vulnerability AdminRole#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vulnerability AdminRole#vulnerability}
   */
   readonly vulnerability?: string;
 }
@@ -11147,7 +11147,7 @@ export class AdminRoleRoleDeviceWebuiObjectsCustomObjectsOutputReference extends
 }
 export interface AdminRoleRoleDeviceWebuiObjectsDecryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_profile AdminRole#decryption_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_profile AdminRole#decryption_profile}
   */
   readonly decryptionProfile?: string;
 }
@@ -11241,11 +11241,11 @@ export class AdminRoleRoleDeviceWebuiObjectsDecryptionOutputReference extends cd
 }
 export interface AdminRoleRoleDeviceWebuiObjectsGlobalProtect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hip_objects AdminRole#hip_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hip_objects AdminRole#hip_objects}
   */
   readonly hipObjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hip_profiles AdminRole#hip_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hip_profiles AdminRole#hip_profiles}
   */
   readonly hipProfiles?: string;
 }
@@ -11368,19 +11368,19 @@ export class AdminRoleRoleDeviceWebuiObjectsGlobalProtectOutputReference extends
 }
 export interface AdminRoleRoleDeviceWebuiObjectsSdwan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_dist_profile AdminRole#sdwan_dist_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_dist_profile AdminRole#sdwan_dist_profile}
   */
   readonly sdwanDistProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_error_correction_profile AdminRole#sdwan_error_correction_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_error_correction_profile AdminRole#sdwan_error_correction_profile}
   */
   readonly sdwanErrorCorrectionProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_profile AdminRole#sdwan_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_profile AdminRole#sdwan_profile}
   */
   readonly sdwanProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_saas_quality_profile AdminRole#sdwan_saas_quality_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_saas_quality_profile AdminRole#sdwan_saas_quality_profile}
   */
   readonly sdwanSaasQualityProfile?: string;
 }
@@ -11561,43 +11561,43 @@ export class AdminRoleRoleDeviceWebuiObjectsSdwanOutputReference extends cdktf.C
 }
 export interface AdminRoleRoleDeviceWebuiObjectsSecurityProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#anti_spyware AdminRole#anti_spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#anti_spyware AdminRole#anti_spyware}
   */
   readonly antiSpyware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#antivirus AdminRole#antivirus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#antivirus AdminRole#antivirus}
   */
   readonly antivirus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
   */
   readonly dataFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_protection AdminRole#dos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_protection AdminRole#dos_protection}
   */
   readonly dosProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#file_blocking AdminRole#file_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#file_blocking AdminRole#file_blocking}
   */
   readonly fileBlocking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_protection AdminRole#gtp_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_protection AdminRole#gtp_protection}
   */
   readonly gtpProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_protection AdminRole#sctp_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_protection AdminRole#sctp_protection}
   */
   readonly sctpProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_filtering AdminRole#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_filtering AdminRole#url_filtering}
   */
   readonly urlFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vulnerability_protection AdminRole#vulnerability_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vulnerability_protection AdminRole#vulnerability_protection}
   */
   readonly vulnerabilityProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire_analysis AdminRole#wildfire_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire_analysis AdminRole#wildfire_analysis}
   */
   readonly wildfireAnalysis?: string;
 }
@@ -11952,91 +11952,91 @@ export class AdminRoleRoleDeviceWebuiObjectsSecurityProfilesOutputReference exte
 }
 export interface AdminRoleRoleDeviceWebuiObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#address_groups AdminRole#address_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#address_groups AdminRole#address_groups}
   */
   readonly addressGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#addresses AdminRole#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#addresses AdminRole#addresses}
   */
   readonly addresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_filters AdminRole#application_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_filters AdminRole#application_filters}
   */
   readonly applicationFilters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_groups AdminRole#application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_groups AdminRole#application_groups}
   */
   readonly applicationGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#applications AdminRole#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#applications AdminRole#applications}
   */
   readonly applications?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication AdminRole#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication AdminRole#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_objects AdminRole#custom_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_objects AdminRole#custom_objects}
   */
   readonly customObjects?: AdminRoleRoleDeviceWebuiObjectsCustomObjects;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption AdminRole#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption AdminRole#decryption}
   */
   readonly decryption?: AdminRoleRoleDeviceWebuiObjectsDecryption;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#devices AdminRole#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#devices AdminRole#devices}
   */
   readonly devices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_block_lists AdminRole#dynamic_block_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_block_lists AdminRole#dynamic_block_lists}
   */
   readonly dynamicBlockLists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
   */
   readonly dynamicUserGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#global_protect AdminRole#global_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#global_protect AdminRole#global_protect}
   */
   readonly globalProtect?: AdminRoleRoleDeviceWebuiObjectsGlobalProtect;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_forwarding AdminRole#log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_forwarding AdminRole#log_forwarding}
   */
   readonly logForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#packet_broker_profile AdminRole#packet_broker_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#packet_broker_profile AdminRole#packet_broker_profile}
   */
   readonly packetBrokerProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#regions AdminRole#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#regions AdminRole#regions}
   */
   readonly regions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#schedules AdminRole#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#schedules AdminRole#schedules}
   */
   readonly schedules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan AdminRole#sdwan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan AdminRole#sdwan}
   */
   readonly sdwan?: AdminRoleRoleDeviceWebuiObjectsSdwan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
   */
   readonly securityProfileGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_profiles AdminRole#security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_profiles AdminRole#security_profiles}
   */
   readonly securityProfiles?: AdminRoleRoleDeviceWebuiObjectsSecurityProfiles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#service_groups AdminRole#service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#service_groups AdminRole#service_groups}
   */
   readonly serviceGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#services AdminRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#services AdminRole#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tags AdminRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tags AdminRole#tags}
   */
   readonly tags?: string;
 }
@@ -12739,23 +12739,23 @@ export class AdminRoleRoleDeviceWebuiObjectsOutputReference extends cdktf.Comple
 }
 export interface AdminRoleRoleDeviceWebuiOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#download_core_files AdminRole#download_core_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#download_core_files AdminRole#download_core_files}
   */
   readonly downloadCoreFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#download_pcap_files AdminRole#download_pcap_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#download_pcap_files AdminRole#download_pcap_files}
   */
   readonly downloadPcapFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#generate_stats_dump_file AdminRole#generate_stats_dump_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#generate_stats_dump_file AdminRole#generate_stats_dump_file}
   */
   readonly generateStatsDumpFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#generate_tech_support_file AdminRole#generate_tech_support_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#generate_tech_support_file AdminRole#generate_tech_support_file}
   */
   readonly generateTechSupportFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#reboot AdminRole#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#reboot AdminRole#reboot}
   */
   readonly reboot?: string;
 }
@@ -12965,51 +12965,51 @@ export class AdminRoleRoleDeviceWebuiOperationsOutputReference extends cdktf.Com
 }
 export interface AdminRoleRoleDeviceWebuiPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_override_rulebase AdminRole#application_override_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_override_rulebase AdminRole#application_override_rulebase}
   */
   readonly applicationOverrideRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_rulebase AdminRole#authentication_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_rulebase AdminRole#authentication_rulebase}
   */
   readonly authenticationRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_rulebase AdminRole#dos_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_rulebase AdminRole#dos_rulebase}
   */
   readonly dosRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#nat_rulebase AdminRole#nat_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#nat_rulebase AdminRole#nat_rulebase}
   */
   readonly natRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network_packet_broker_rulebase AdminRole#network_packet_broker_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network_packet_broker_rulebase AdminRole#network_packet_broker_rulebase}
   */
   readonly networkPacketBrokerRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#pbf_rulebase AdminRole#pbf_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#pbf_rulebase AdminRole#pbf_rulebase}
   */
   readonly pbfRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_rulebase AdminRole#qos_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_rulebase AdminRole#qos_rulebase}
   */
   readonly qosRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#rule_hit_count_reset AdminRole#rule_hit_count_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#rule_hit_count_reset AdminRole#rule_hit_count_reset}
   */
   readonly ruleHitCountReset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_rulebase AdminRole#sdwan_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_rulebase AdminRole#sdwan_rulebase}
   */
   readonly sdwanRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_rulebase AdminRole#security_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_rulebase AdminRole#security_rulebase}
   */
   readonly securityRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssl_decryption_rulebase AdminRole#ssl_decryption_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssl_decryption_rulebase AdminRole#ssl_decryption_rulebase}
   */
   readonly sslDecryptionRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_inspect_rulebase AdminRole#tunnel_inspect_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_inspect_rulebase AdminRole#tunnel_inspect_rulebase}
   */
   readonly tunnelInspectRulebase?: string;
 }
@@ -13422,15 +13422,15 @@ export class AdminRoleRoleDeviceWebuiPoliciesOutputReference extends cdktf.Compl
 }
 export interface AdminRoleRoleDeviceWebuiPrivacy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#show_full_ip_addresses AdminRole#show_full_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#show_full_ip_addresses AdminRole#show_full_ip_addresses}
   */
   readonly showFullIpAddresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#show_user_names_in_logs_and_reports AdminRole#show_user_names_in_logs_and_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#show_user_names_in_logs_and_reports AdminRole#show_user_names_in_logs_and_reports}
   */
   readonly showUserNamesInLogsAndReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#view_pcap_files AdminRole#view_pcap_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#view_pcap_files AdminRole#view_pcap_files}
   */
   readonly viewPcapFiles?: string;
 }
@@ -13582,15 +13582,15 @@ export class AdminRoleRoleDeviceWebuiPrivacyOutputReference extends cdktf.Comple
 }
 export interface AdminRoleRoleDeviceWebuiSave {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#object_level_changes AdminRole#object_level_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#object_level_changes AdminRole#object_level_changes}
   */
   readonly objectLevelChanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#partial_save AdminRole#partial_save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#partial_save AdminRole#partial_save}
   */
   readonly partialSave?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#save_for_other_admins AdminRole#save_for_other_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#save_for_other_admins AdminRole#save_for_other_admins}
   */
   readonly saveForOtherAdmins?: string;
 }
@@ -13742,59 +13742,59 @@ export class AdminRoleRoleDeviceWebuiSaveOutputReference extends cdktf.ComplexOb
 }
 export interface AdminRoleRoleDeviceWebui {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#acc AdminRole#acc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#acc AdminRole#acc}
   */
   readonly acc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#commit AdminRole#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#commit AdminRole#commit}
   */
   readonly commit?: AdminRoleRoleDeviceWebuiCommit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dashboard AdminRole#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dashboard AdminRole#dashboard}
   */
   readonly dashboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device AdminRole#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device AdminRole#device}
   */
   readonly device?: AdminRoleRoleDeviceWebuiDevice;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#global AdminRole#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#global AdminRole#global}
   */
   readonly global?: AdminRoleRoleDeviceWebuiGlobal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#monitor AdminRole#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#monitor AdminRole#monitor}
   */
   readonly monitor?: AdminRoleRoleDeviceWebuiMonitor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network AdminRole#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network AdminRole#network}
   */
   readonly network?: AdminRoleRoleDeviceWebuiNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#objects AdminRole#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#objects AdminRole#objects}
   */
   readonly objects?: AdminRoleRoleDeviceWebuiObjects;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#operations AdminRole#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#operations AdminRole#operations}
   */
   readonly operations?: AdminRoleRoleDeviceWebuiOperations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policies AdminRole#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policies AdminRole#policies}
   */
   readonly policies?: AdminRoleRoleDeviceWebuiPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#privacy AdminRole#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#privacy AdminRole#privacy}
   */
   readonly privacy?: AdminRoleRoleDeviceWebuiPrivacy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#save AdminRole#save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#save AdminRole#save}
   */
   readonly save?: AdminRoleRoleDeviceWebuiSave;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tasks AdminRole#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tasks AdminRole#tasks}
   */
   readonly tasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#validate AdminRole#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#validate AdminRole#validate}
   */
   readonly validate?: string;
 }
@@ -14265,39 +14265,39 @@ export class AdminRoleRoleDeviceWebuiOutputReference extends cdktf.ComplexObject
 }
 export interface AdminRoleRoleDeviceXmlapi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#commit AdminRole#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#commit AdminRole#commit}
   */
   readonly commit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#config AdminRole#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#config AdminRole#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#export AdminRole#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#export AdminRole#export}
   */
   readonly export?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#import AdminRole#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#import AdminRole#import}
   */
   readonly import?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iot AdminRole#iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iot AdminRole#iot}
   */
   readonly iot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log AdminRole#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log AdminRole#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#op AdminRole#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#op AdminRole#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#report AdminRole#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#report AdminRole#report}
   */
   readonly report?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_id AdminRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_id AdminRole#user_id}
   */
   readonly userId?: string;
 }
@@ -14623,19 +14623,19 @@ export class AdminRoleRoleDeviceXmlapiOutputReference extends cdktf.ComplexObjec
 }
 export interface AdminRoleRoleDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#cli AdminRole#cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#cli AdminRole#cli}
   */
   readonly cli?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#restapi AdminRole#restapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#restapi AdminRole#restapi}
   */
   readonly restapi?: AdminRoleRoleDeviceRestapi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#webui AdminRole#webui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#webui AdminRole#webui}
   */
   readonly webui?: AdminRoleRoleDeviceWebui;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#xmlapi AdminRole#xmlapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#xmlapi AdminRole#xmlapi}
   */
   readonly xmlapi?: AdminRoleRoleDeviceXmlapi;
 }
@@ -14816,31 +14816,31 @@ export class AdminRoleRoleDeviceOutputReference extends cdktf.ComplexObject {
 }
 export interface AdminRoleRoleVsysRestapiDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#email_server_profiles AdminRole#email_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#email_server_profiles AdminRole#email_server_profiles}
   */
   readonly emailServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#http_server_profiles AdminRole#http_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#http_server_profiles AdminRole#http_server_profiles}
   */
   readonly httpServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ldap_server_profiles AdminRole#ldap_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ldap_server_profiles AdminRole#ldap_server_profiles}
   */
   readonly ldapServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_interface_setting AdminRole#log_interface_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_interface_setting AdminRole#log_interface_setting}
   */
   readonly logInterfaceSetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#snmp_trap_server_profiles AdminRole#snmp_trap_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#snmp_trap_server_profiles AdminRole#snmp_trap_server_profiles}
   */
   readonly snmpTrapServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#syslog_server_profiles AdminRole#syslog_server_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#syslog_server_profiles AdminRole#syslog_server_profiles}
   */
   readonly syslogServerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
   */
   readonly virtualSystems?: string;
 }
@@ -15108,31 +15108,31 @@ export class AdminRoleRoleVsysRestapiDeviceOutputReference extends cdktf.Complex
 }
 export interface AdminRoleRoleVsysRestapiNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_clientless_app_groups AdminRole#globalprotect_clientless_app_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_clientless_app_groups AdminRole#globalprotect_clientless_app_groups}
   */
   readonly globalprotectClientlessAppGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_clientless_apps AdminRole#globalprotect_clientless_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_clientless_apps AdminRole#globalprotect_clientless_apps}
   */
   readonly globalprotectClientlessApps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_gateways AdminRole#globalprotect_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_gateways AdminRole#globalprotect_gateways}
   */
   readonly globalprotectGateways?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_mdm_servers AdminRole#globalprotect_mdm_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_mdm_servers AdminRole#globalprotect_mdm_servers}
   */
   readonly globalprotectMdmServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_portals AdminRole#globalprotect_portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_portals AdminRole#globalprotect_portals}
   */
   readonly globalprotectPortals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_interface_profiles AdminRole#sdwan_interface_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_interface_profiles AdminRole#sdwan_interface_profiles}
   */
   readonly sdwanInterfaceProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#zones AdminRole#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#zones AdminRole#zones}
   */
   readonly zones?: string;
 }
@@ -15400,155 +15400,155 @@ export class AdminRoleRoleVsysRestapiNetworkOutputReference extends cdktf.Comple
 }
 export interface AdminRoleRoleVsysRestapiObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#address_groups AdminRole#address_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#address_groups AdminRole#address_groups}
   */
   readonly addressGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#addresses AdminRole#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#addresses AdminRole#addresses}
   */
   readonly addresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#anti_spyware_security_profiles AdminRole#anti_spyware_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#anti_spyware_security_profiles AdminRole#anti_spyware_security_profiles}
   */
   readonly antiSpywareSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#antivirus_security_profiles AdminRole#antivirus_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#antivirus_security_profiles AdminRole#antivirus_security_profiles}
   */
   readonly antivirusSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_filters AdminRole#application_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_filters AdminRole#application_filters}
   */
   readonly applicationFilters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_groups AdminRole#application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_groups AdminRole#application_groups}
   */
   readonly applicationGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#applications AdminRole#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#applications AdminRole#applications}
   */
   readonly applications?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_enforcements AdminRole#authentication_enforcements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_enforcements AdminRole#authentication_enforcements}
   */
   readonly authenticationEnforcements?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_data_patterns AdminRole#custom_data_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_data_patterns AdminRole#custom_data_patterns}
   */
   readonly customDataPatterns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_spyware_signatures AdminRole#custom_spyware_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_spyware_signatures AdminRole#custom_spyware_signatures}
   */
   readonly customSpywareSignatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_url_categories AdminRole#custom_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_url_categories AdminRole#custom_url_categories}
   */
   readonly customUrlCategories?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_vulnerability_signatures AdminRole#custom_vulnerability_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_vulnerability_signatures AdminRole#custom_vulnerability_signatures}
   */
   readonly customVulnerabilitySignatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering_security_profiles AdminRole#data_filtering_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering_security_profiles AdminRole#data_filtering_security_profiles}
   */
   readonly dataFilteringSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_profiles AdminRole#decryption_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_profiles AdminRole#decryption_profiles}
   */
   readonly decryptionProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#devices AdminRole#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#devices AdminRole#devices}
   */
   readonly devices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_protection_security_profiles AdminRole#dos_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_protection_security_profiles AdminRole#dos_protection_security_profiles}
   */
   readonly dosProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
   */
   readonly dynamicUserGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#external_dynamic_lists AdminRole#external_dynamic_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#external_dynamic_lists AdminRole#external_dynamic_lists}
   */
   readonly externalDynamicLists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#file_blocking_security_profiles AdminRole#file_blocking_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#file_blocking_security_profiles AdminRole#file_blocking_security_profiles}
   */
   readonly fileBlockingSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_hip_objects AdminRole#globalprotect_hip_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_hip_objects AdminRole#globalprotect_hip_objects}
   */
   readonly globalprotectHipObjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect_hip_profiles AdminRole#globalprotect_hip_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect_hip_profiles AdminRole#globalprotect_hip_profiles}
   */
   readonly globalprotectHipProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_protection_security_profiles AdminRole#gtp_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_protection_security_profiles AdminRole#gtp_protection_security_profiles}
   */
   readonly gtpProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_forwarding_profiles AdminRole#log_forwarding_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_forwarding_profiles AdminRole#log_forwarding_profiles}
   */
   readonly logForwardingProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#packet_broker_profiles AdminRole#packet_broker_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#packet_broker_profiles AdminRole#packet_broker_profiles}
   */
   readonly packetBrokerProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#regions AdminRole#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#regions AdminRole#regions}
   */
   readonly regions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#schedules AdminRole#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#schedules AdminRole#schedules}
   */
   readonly schedules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_protection_security_profiles AdminRole#sctp_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_protection_security_profiles AdminRole#sctp_protection_security_profiles}
   */
   readonly sctpProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_error_correction_profiles AdminRole#sdwan_error_correction_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_error_correction_profiles AdminRole#sdwan_error_correction_profiles}
   */
   readonly sdwanErrorCorrectionProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_path_quality_profiles AdminRole#sdwan_path_quality_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_path_quality_profiles AdminRole#sdwan_path_quality_profiles}
   */
   readonly sdwanPathQualityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_saas_quality_profiles AdminRole#sdwan_saas_quality_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_saas_quality_profiles AdminRole#sdwan_saas_quality_profiles}
   */
   readonly sdwanSaasQualityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_traffic_distribution_profiles AdminRole#sdwan_traffic_distribution_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_traffic_distribution_profiles AdminRole#sdwan_traffic_distribution_profiles}
   */
   readonly sdwanTrafficDistributionProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
   */
   readonly securityProfileGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#service_groups AdminRole#service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#service_groups AdminRole#service_groups}
   */
   readonly serviceGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#services AdminRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#services AdminRole#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tags AdminRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tags AdminRole#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_filtering_security_profiles AdminRole#url_filtering_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_filtering_security_profiles AdminRole#url_filtering_security_profiles}
   */
   readonly urlFilteringSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vulnerability_protection_security_profiles AdminRole#vulnerability_protection_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vulnerability_protection_security_profiles AdminRole#vulnerability_protection_security_profiles}
   */
   readonly vulnerabilityProtectionSecurityProfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire_analysis_security_profiles AdminRole#wildfire_analysis_security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire_analysis_security_profiles AdminRole#wildfire_analysis_security_profiles}
   */
   readonly wildfireAnalysisSecurityProfiles?: string;
 }
@@ -16715,47 +16715,47 @@ export class AdminRoleRoleVsysRestapiObjectsOutputReference extends cdktf.Comple
 }
 export interface AdminRoleRoleVsysRestapiPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_override_rules AdminRole#application_override_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_override_rules AdminRole#application_override_rules}
   */
   readonly applicationOverrideRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_rules AdminRole#authentication_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_rules AdminRole#authentication_rules}
   */
   readonly authenticationRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_rules AdminRole#decryption_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_rules AdminRole#decryption_rules}
   */
   readonly decryptionRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_rules AdminRole#dos_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_rules AdminRole#dos_rules}
   */
   readonly dosRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#nat_rules AdminRole#nat_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#nat_rules AdminRole#nat_rules}
   */
   readonly natRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network_packet_broker_rules AdminRole#network_packet_broker_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network_packet_broker_rules AdminRole#network_packet_broker_rules}
   */
   readonly networkPacketBrokerRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policy_based_forwarding_rules AdminRole#policy_based_forwarding_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policy_based_forwarding_rules AdminRole#policy_based_forwarding_rules}
   */
   readonly policyBasedForwardingRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_rules AdminRole#qos_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_rules AdminRole#qos_rules}
   */
   readonly qosRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_rules AdminRole#sdwan_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_rules AdminRole#sdwan_rules}
   */
   readonly sdwanRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_rules AdminRole#security_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_rules AdminRole#security_rules}
   */
   readonly securityRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_inspection_rules AdminRole#tunnel_inspection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_inspection_rules AdminRole#tunnel_inspection_rules}
   */
   readonly tunnelInspectionRules?: string;
 }
@@ -17139,7 +17139,7 @@ export class AdminRoleRoleVsysRestapiPoliciesOutputReference extends cdktf.Compl
 }
 export interface AdminRoleRoleVsysRestapiSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#configuration AdminRole#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#configuration AdminRole#configuration}
   */
   readonly configuration?: string;
 }
@@ -17233,23 +17233,23 @@ export class AdminRoleRoleVsysRestapiSystemOutputReference extends cdktf.Complex
 }
 export interface AdminRoleRoleVsysRestapi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device AdminRole#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device AdminRole#device}
   */
   readonly device?: AdminRoleRoleVsysRestapiDevice;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network AdminRole#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network AdminRole#network}
   */
   readonly network?: AdminRoleRoleVsysRestapiNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#objects AdminRole#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#objects AdminRole#objects}
   */
   readonly objects?: AdminRoleRoleVsysRestapiObjects;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policies AdminRole#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policies AdminRole#policies}
   */
   readonly policies?: AdminRoleRoleVsysRestapiPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#system AdminRole#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#system AdminRole#system}
   */
   readonly systemAttribute?: AdminRoleRoleVsysRestapiSystem;
 }
@@ -17459,11 +17459,11 @@ export class AdminRoleRoleVsysRestapiOutputReference extends cdktf.ComplexObject
 }
 export interface AdminRoleRoleVsysWebuiCommit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#commit_for_other_admins AdminRole#commit_for_other_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#commit_for_other_admins AdminRole#commit_for_other_admins}
   */
   readonly commitForOtherAdmins?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#virtual_systems AdminRole#virtual_systems}
   */
   readonly virtualSystems?: string;
 }
@@ -17586,31 +17586,31 @@ export class AdminRoleRoleVsysWebuiCommitOutputReference extends cdktf.ComplexOb
 }
 export interface AdminRoleRoleVsysWebuiDeviceCertificateManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#certificate_profile AdminRole#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#certificate_profile AdminRole#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#certificates AdminRole#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#certificates AdminRole#certificates}
   */
   readonly certificates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ocsp_responder AdminRole#ocsp_responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ocsp_responder AdminRole#ocsp_responder}
   */
   readonly ocspResponder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#scep AdminRole#scep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#scep AdminRole#scep}
   */
   readonly scep?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssh_service_profile AdminRole#ssh_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssh_service_profile AdminRole#ssh_service_profile}
   */
   readonly sshServiceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssl_decryption_exclusion AdminRole#ssl_decryption_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssl_decryption_exclusion AdminRole#ssl_decryption_exclusion}
   */
   readonly sslDecryptionExclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssl_tls_service_profile AdminRole#ssl_tls_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssl_tls_service_profile AdminRole#ssl_tls_service_profile}
   */
   readonly sslTlsServiceProfile?: string;
 }
@@ -17878,11 +17878,11 @@ export class AdminRoleRoleVsysWebuiDeviceCertificateManagementOutputReference ex
 }
 export interface AdminRoleRoleVsysWebuiDeviceLocalUserDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_groups AdminRole#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_groups AdminRole#user_groups}
   */
   readonly userGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#users AdminRole#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#users AdminRole#users}
   */
   readonly users?: string;
 }
@@ -18005,31 +18005,31 @@ export class AdminRoleRoleVsysWebuiDeviceLocalUserDatabaseOutputReference extend
 }
 export interface AdminRoleRoleVsysWebuiDeviceLogSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#config AdminRole#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#config AdminRole#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#correlation AdminRole#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#correlation AdminRole#correlation}
   */
   readonly correlation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
   */
   readonly hipmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iptag AdminRole#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iptag AdminRole#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#system AdminRole#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#system AdminRole#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_id AdminRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_id AdminRole#user_id}
   */
   readonly userId?: string;
 }
@@ -18297,11 +18297,11 @@ export class AdminRoleRoleVsysWebuiDeviceLogSettingsOutputReference extends cdkt
 }
 export interface AdminRoleRoleVsysWebuiDevicePolicyRecommendations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iot AdminRole#iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iot AdminRole#iot}
   */
   readonly iot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#saas AdminRole#saas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#saas AdminRole#saas}
   */
   readonly saas?: string;
 }
@@ -18424,55 +18424,55 @@ export class AdminRoleRoleVsysWebuiDevicePolicyRecommendationsOutputReference ex
 }
 export interface AdminRoleRoleVsysWebuiDeviceServerProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dns AdminRole#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dns AdminRole#dns}
   */
   readonly dns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#email AdminRole#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#email AdminRole#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#http AdminRole#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#http AdminRole#http}
   */
   readonly http?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#kerberos AdminRole#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#kerberos AdminRole#kerberos}
   */
   readonly kerberos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ldap AdminRole#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ldap AdminRole#ldap}
   */
   readonly ldap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#mfa AdminRole#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#mfa AdminRole#mfa}
   */
   readonly mfa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#netflow AdminRole#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#netflow AdminRole#netflow}
   */
   readonly netflow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#radius AdminRole#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#radius AdminRole#radius}
   */
   readonly radius?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#saml_idp AdminRole#saml_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#saml_idp AdminRole#saml_idp}
   */
   readonly samlIdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#scp AdminRole#scp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#scp AdminRole#scp}
   */
   readonly scp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#snmp_trap AdminRole#snmp_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#snmp_trap AdminRole#snmp_trap}
   */
   readonly snmpTrap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#syslog AdminRole#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#syslog AdminRole#syslog}
   */
   readonly syslog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tacplus AdminRole#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tacplus AdminRole#tacplus}
   */
   readonly tacplus?: string;
 }
@@ -18914,39 +18914,39 @@ export class AdminRoleRoleVsysWebuiDeviceServerProfileOutputReference extends cd
 }
 export interface AdminRoleRoleVsysWebuiDeviceSetup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#content_id AdminRole#content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#content_id AdminRole#content_id}
   */
   readonly contentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hsm AdminRole#hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hsm AdminRole#hsm}
   */
   readonly hsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#interfaces AdminRole#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#interfaces AdminRole#interfaces}
   */
   readonly interfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#management AdminRole#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#management AdminRole#management}
   */
   readonly management?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#operations AdminRole#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#operations AdminRole#operations}
   */
   readonly operations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#services AdminRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#services AdminRole#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#session AdminRole#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#session AdminRole#session}
   */
   readonly session?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#telemetry AdminRole#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#telemetry AdminRole#telemetry}
   */
   readonly telemetry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire AdminRole#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire AdminRole#wildfire}
   */
   readonly wildfire?: string;
 }
@@ -19272,67 +19272,67 @@ export class AdminRoleRoleVsysWebuiDeviceSetupOutputReference extends cdktf.Comp
 }
 export interface AdminRoleRoleVsysWebuiDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#administrators AdminRole#administrators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#administrators AdminRole#administrators}
   */
   readonly administrators?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_profile AdminRole#authentication_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_profile AdminRole#authentication_profile}
   */
   readonly authenticationProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_sequence AdminRole#authentication_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_sequence AdminRole#authentication_sequence}
   */
   readonly authenticationSequence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#block_pages AdminRole#block_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#block_pages AdminRole#block_pages}
   */
   readonly blockPages?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#certificate_management AdminRole#certificate_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#certificate_management AdminRole#certificate_management}
   */
   readonly certificateManagement?: AdminRoleRoleVsysWebuiDeviceCertificateManagement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_redistribution AdminRole#data_redistribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_redistribution AdminRole#data_redistribution}
   */
   readonly dataRedistribution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device_quarantine AdminRole#device_quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device_quarantine AdminRole#device_quarantine}
   */
   readonly deviceQuarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dhcp_syslog_server AdminRole#dhcp_syslog_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dhcp_syslog_server AdminRole#dhcp_syslog_server}
   */
   readonly dhcpSyslogServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#local_user_database AdminRole#local_user_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#local_user_database AdminRole#local_user_database}
   */
   readonly localUserDatabase?: AdminRoleRoleVsysWebuiDeviceLocalUserDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_settings AdminRole#log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_settings AdminRole#log_settings}
   */
   readonly logSettings?: AdminRoleRoleVsysWebuiDeviceLogSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policy_recommendations AdminRole#policy_recommendations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policy_recommendations AdminRole#policy_recommendations}
   */
   readonly policyRecommendations?: AdminRoleRoleVsysWebuiDevicePolicyRecommendations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#server_profile AdminRole#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#server_profile AdminRole#server_profile}
   */
   readonly serverProfile?: AdminRoleRoleVsysWebuiDeviceServerProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#setup AdminRole#setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#setup AdminRole#setup}
   */
   readonly setup?: AdminRoleRoleVsysWebuiDeviceSetup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#troubleshooting AdminRole#troubleshooting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#troubleshooting AdminRole#troubleshooting}
   */
   readonly troubleshooting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_identification AdminRole#user_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_identification AdminRole#user_identification}
   */
   readonly userIdentification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vm_info_source AdminRole#vm_info_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vm_info_source AdminRole#vm_info_source}
   */
   readonly vmInfoSource?: string;
 }
@@ -19861,11 +19861,11 @@ export class AdminRoleRoleVsysWebuiDeviceOutputReference extends cdktf.ComplexOb
 }
 export interface AdminRoleRoleVsysWebuiMonitorAutomatedCorrelationEngine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#correlated_events AdminRole#correlated_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#correlated_events AdminRole#correlated_events}
   */
   readonly correlatedEvents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#correlation_objects AdminRole#correlation_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#correlation_objects AdminRole#correlation_objects}
   */
   readonly correlationObjects?: string;
 }
@@ -19988,91 +19988,91 @@ export class AdminRoleRoleVsysWebuiMonitorAutomatedCorrelationEngineOutputRefere
 }
 export interface AdminRoleRoleVsysWebuiMonitorCustomReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_statistics AdminRole#application_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_statistics AdminRole#application_statistics}
   */
   readonly applicationStatistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#auth AdminRole#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#auth AdminRole#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering_log AdminRole#data_filtering_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering_log AdminRole#data_filtering_log}
   */
   readonly dataFilteringLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_log AdminRole#decryption_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_log AdminRole#decryption_log}
   */
   readonly decryptionLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_summary AdminRole#decryption_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_summary AdminRole#decryption_summary}
   */
   readonly decryptionSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_log AdminRole#gtp_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_log AdminRole#gtp_log}
   */
   readonly gtpLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_summary AdminRole#gtp_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_summary AdminRole#gtp_summary}
   */
   readonly gtpSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
   */
   readonly hipmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iptag AdminRole#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iptag AdminRole#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_log AdminRole#sctp_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_log AdminRole#sctp_log}
   */
   readonly sctpLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_summary AdminRole#sctp_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_summary AdminRole#sctp_summary}
   */
   readonly sctpSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat_log AdminRole#threat_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat_log AdminRole#threat_log}
   */
   readonly threatLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat_summary AdminRole#threat_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat_summary AdminRole#threat_summary}
   */
   readonly threatSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic_log AdminRole#traffic_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic_log AdminRole#traffic_log}
   */
   readonly trafficLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic_summary AdminRole#traffic_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic_summary AdminRole#traffic_summary}
   */
   readonly trafficSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_log AdminRole#tunnel_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_log AdminRole#tunnel_log}
   */
   readonly tunnelLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_summary AdminRole#tunnel_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_summary AdminRole#tunnel_summary}
   */
   readonly tunnelSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_log AdminRole#url_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_log AdminRole#url_log}
   */
   readonly urlLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_summary AdminRole#url_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_summary AdminRole#url_summary}
   */
   readonly urlSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#userid AdminRole#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#userid AdminRole#userid}
   */
   readonly userid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire_log AdminRole#wildfire_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire_log AdminRole#wildfire_log}
   */
   readonly wildfireLog?: string;
 }
@@ -20775,59 +20775,59 @@ export class AdminRoleRoleVsysWebuiMonitorCustomReportsOutputReference extends c
 }
 export interface AdminRoleRoleVsysWebuiMonitorLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication AdminRole#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication AdminRole#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
   */
   readonly dataFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption AdminRole#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption AdminRole#decryption}
   */
   readonly decryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#globalprotect AdminRole#globalprotect}
   */
   readonly globalprotect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp AdminRole#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp AdminRole#gtp}
   */
   readonly gtp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hipmatch AdminRole#hipmatch}
   */
   readonly hipmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iptag AdminRole#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iptag AdminRole#iptag}
   */
   readonly iptag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp AdminRole#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp AdminRole#sctp}
   */
   readonly sctp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#threat AdminRole#threat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#threat AdminRole#threat}
   */
   readonly threat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#traffic AdminRole#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#traffic AdminRole#traffic}
   */
   readonly traffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel AdminRole#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel AdminRole#tunnel}
   */
   readonly tunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url AdminRole#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url AdminRole#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#userid AdminRole#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#userid AdminRole#userid}
   */
   readonly userid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire AdminRole#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire AdminRole#wildfire}
   */
   readonly wildfire?: string;
 }
@@ -21298,27 +21298,27 @@ export class AdminRoleRoleVsysWebuiMonitorLogsOutputReference extends cdktf.Comp
 }
 export interface AdminRoleRoleVsysWebuiMonitorPdfReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#email_scheduler AdminRole#email_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#email_scheduler AdminRole#email_scheduler}
   */
   readonly emailScheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#manage_pdf_summary AdminRole#manage_pdf_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#manage_pdf_summary AdminRole#manage_pdf_summary}
   */
   readonly managePdfSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#pdf_summary_reports AdminRole#pdf_summary_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#pdf_summary_reports AdminRole#pdf_summary_reports}
   */
   readonly pdfSummaryReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#report_groups AdminRole#report_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#report_groups AdminRole#report_groups}
   */
   readonly reportGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#saas_application_usage_report AdminRole#saas_application_usage_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#saas_application_usage_report AdminRole#saas_application_usage_report}
   */
   readonly saasApplicationUsageReport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_activity_report AdminRole#user_activity_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_activity_report AdminRole#user_activity_report}
   */
   readonly userActivityReport?: string;
 }
@@ -21557,39 +21557,39 @@ export class AdminRoleRoleVsysWebuiMonitorPdfReportsOutputReference extends cdkt
 }
 export interface AdminRoleRoleVsysWebuiMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#app_scope AdminRole#app_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#app_scope AdminRole#app_scope}
   */
   readonly appScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#automated_correlation_engine AdminRole#automated_correlation_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#automated_correlation_engine AdminRole#automated_correlation_engine}
   */
   readonly automatedCorrelationEngine?: AdminRoleRoleVsysWebuiMonitorAutomatedCorrelationEngine;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#block_ip_list AdminRole#block_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#block_ip_list AdminRole#block_ip_list}
   */
   readonly blockIpList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_reports AdminRole#custom_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_reports AdminRole#custom_reports}
   */
   readonly customReports?: AdminRoleRoleVsysWebuiMonitorCustomReports;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#external_logs AdminRole#external_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#external_logs AdminRole#external_logs}
   */
   readonly externalLogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#logs AdminRole#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#logs AdminRole#logs}
   */
   readonly logs?: AdminRoleRoleVsysWebuiMonitorLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#pdf_reports AdminRole#pdf_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#pdf_reports AdminRole#pdf_reports}
   */
   readonly pdfReports?: AdminRoleRoleVsysWebuiMonitorPdfReports;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#session_browser AdminRole#session_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#session_browser AdminRole#session_browser}
   */
   readonly sessionBrowser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#view_custom_reports AdminRole#view_custom_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#view_custom_reports AdminRole#view_custom_reports}
   */
   readonly viewCustomReports?: string;
 }
@@ -21915,23 +21915,23 @@ export class AdminRoleRoleVsysWebuiMonitorOutputReference extends cdktf.ComplexO
 }
 export interface AdminRoleRoleVsysWebuiNetworkGlobalProtect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#clientless_app_groups AdminRole#clientless_app_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#clientless_app_groups AdminRole#clientless_app_groups}
   */
   readonly clientlessAppGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#clientless_apps AdminRole#clientless_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#clientless_apps AdminRole#clientless_apps}
   */
   readonly clientlessApps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gateways AdminRole#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gateways AdminRole#gateways}
   */
   readonly gateways?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#mdm AdminRole#mdm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#mdm AdminRole#mdm}
   */
   readonly mdm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#portals AdminRole#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#portals AdminRole#portals}
   */
   readonly portals?: string;
 }
@@ -22141,15 +22141,15 @@ export class AdminRoleRoleVsysWebuiNetworkGlobalProtectOutputReference extends c
 }
 export interface AdminRoleRoleVsysWebuiNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#global_protect AdminRole#global_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#global_protect AdminRole#global_protect}
   */
   readonly globalProtect?: AdminRoleRoleVsysWebuiNetworkGlobalProtect;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_interface_profile AdminRole#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_interface_profile AdminRole#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#zones AdminRole#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#zones AdminRole#zones}
   */
   readonly zones?: string;
 }
@@ -22301,19 +22301,19 @@ export class AdminRoleRoleVsysWebuiNetworkOutputReference extends cdktf.ComplexO
 }
 export interface AdminRoleRoleVsysWebuiObjectsCustomObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_patterns AdminRole#data_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_patterns AdminRole#data_patterns}
   */
   readonly dataPatterns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#spyware AdminRole#spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#spyware AdminRole#spyware}
   */
   readonly spyware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_category AdminRole#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_category AdminRole#url_category}
   */
   readonly urlCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vulnerability AdminRole#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vulnerability AdminRole#vulnerability}
   */
   readonly vulnerability?: string;
 }
@@ -22494,7 +22494,7 @@ export class AdminRoleRoleVsysWebuiObjectsCustomObjectsOutputReference extends c
 }
 export interface AdminRoleRoleVsysWebuiObjectsDecryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption_profile AdminRole#decryption_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption_profile AdminRole#decryption_profile}
   */
   readonly decryptionProfile?: string;
 }
@@ -22588,11 +22588,11 @@ export class AdminRoleRoleVsysWebuiObjectsDecryptionOutputReference extends cdkt
 }
 export interface AdminRoleRoleVsysWebuiObjectsGlobalProtect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hip_objects AdminRole#hip_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hip_objects AdminRole#hip_objects}
   */
   readonly hipObjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#hip_profiles AdminRole#hip_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#hip_profiles AdminRole#hip_profiles}
   */
   readonly hipProfiles?: string;
 }
@@ -22715,19 +22715,19 @@ export class AdminRoleRoleVsysWebuiObjectsGlobalProtectOutputReference extends c
 }
 export interface AdminRoleRoleVsysWebuiObjectsSdwan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_dist_profile AdminRole#sdwan_dist_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_dist_profile AdminRole#sdwan_dist_profile}
   */
   readonly sdwanDistProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_error_correction_profile AdminRole#sdwan_error_correction_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_error_correction_profile AdminRole#sdwan_error_correction_profile}
   */
   readonly sdwanErrorCorrectionProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_profile AdminRole#sdwan_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_profile AdminRole#sdwan_profile}
   */
   readonly sdwanProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_saas_quality_profile AdminRole#sdwan_saas_quality_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_saas_quality_profile AdminRole#sdwan_saas_quality_profile}
   */
   readonly sdwanSaasQualityProfile?: string;
 }
@@ -22908,43 +22908,43 @@ export class AdminRoleRoleVsysWebuiObjectsSdwanOutputReference extends cdktf.Com
 }
 export interface AdminRoleRoleVsysWebuiObjectsSecurityProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#anti_spyware AdminRole#anti_spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#anti_spyware AdminRole#anti_spyware}
   */
   readonly antiSpyware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#antivirus AdminRole#antivirus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#antivirus AdminRole#antivirus}
   */
   readonly antivirus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#data_filtering AdminRole#data_filtering}
   */
   readonly dataFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_protection AdminRole#dos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_protection AdminRole#dos_protection}
   */
   readonly dosProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#file_blocking AdminRole#file_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#file_blocking AdminRole#file_blocking}
   */
   readonly fileBlocking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#gtp_protection AdminRole#gtp_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#gtp_protection AdminRole#gtp_protection}
   */
   readonly gtpProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sctp_protection AdminRole#sctp_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sctp_protection AdminRole#sctp_protection}
   */
   readonly sctpProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#url_filtering AdminRole#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#url_filtering AdminRole#url_filtering}
   */
   readonly urlFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vulnerability_protection AdminRole#vulnerability_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vulnerability_protection AdminRole#vulnerability_protection}
   */
   readonly vulnerabilityProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#wildfire_analysis AdminRole#wildfire_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#wildfire_analysis AdminRole#wildfire_analysis}
   */
   readonly wildfireAnalysis?: string;
 }
@@ -23299,91 +23299,91 @@ export class AdminRoleRoleVsysWebuiObjectsSecurityProfilesOutputReference extend
 }
 export interface AdminRoleRoleVsysWebuiObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#address_groups AdminRole#address_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#address_groups AdminRole#address_groups}
   */
   readonly addressGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#addresses AdminRole#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#addresses AdminRole#addresses}
   */
   readonly addresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_filters AdminRole#application_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_filters AdminRole#application_filters}
   */
   readonly applicationFilters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_groups AdminRole#application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_groups AdminRole#application_groups}
   */
   readonly applicationGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#applications AdminRole#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#applications AdminRole#applications}
   */
   readonly applications?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication AdminRole#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication AdminRole#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#custom_objects AdminRole#custom_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#custom_objects AdminRole#custom_objects}
   */
   readonly customObjects?: AdminRoleRoleVsysWebuiObjectsCustomObjects;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#decryption AdminRole#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#decryption AdminRole#decryption}
   */
   readonly decryption?: AdminRoleRoleVsysWebuiObjectsDecryption;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#devices AdminRole#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#devices AdminRole#devices}
   */
   readonly devices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_block_lists AdminRole#dynamic_block_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_block_lists AdminRole#dynamic_block_lists}
   */
   readonly dynamicBlockLists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dynamic_user_groups AdminRole#dynamic_user_groups}
   */
   readonly dynamicUserGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#global_protect AdminRole#global_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#global_protect AdminRole#global_protect}
   */
   readonly globalProtect?: AdminRoleRoleVsysWebuiObjectsGlobalProtect;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log_forwarding AdminRole#log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log_forwarding AdminRole#log_forwarding}
   */
   readonly logForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#packet_broker_profile AdminRole#packet_broker_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#packet_broker_profile AdminRole#packet_broker_profile}
   */
   readonly packetBrokerProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#regions AdminRole#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#regions AdminRole#regions}
   */
   readonly regions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#schedules AdminRole#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#schedules AdminRole#schedules}
   */
   readonly schedules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan AdminRole#sdwan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan AdminRole#sdwan}
   */
   readonly sdwan?: AdminRoleRoleVsysWebuiObjectsSdwan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_profile_groups AdminRole#security_profile_groups}
   */
   readonly securityProfileGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_profiles AdminRole#security_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_profiles AdminRole#security_profiles}
   */
   readonly securityProfiles?: AdminRoleRoleVsysWebuiObjectsSecurityProfiles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#service_groups AdminRole#service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#service_groups AdminRole#service_groups}
   */
   readonly serviceGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#services AdminRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#services AdminRole#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tags AdminRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tags AdminRole#tags}
   */
   readonly tags?: string;
 }
@@ -24086,23 +24086,23 @@ export class AdminRoleRoleVsysWebuiObjectsOutputReference extends cdktf.ComplexO
 }
 export interface AdminRoleRoleVsysWebuiOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#download_core_files AdminRole#download_core_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#download_core_files AdminRole#download_core_files}
   */
   readonly downloadCoreFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#download_pcap_files AdminRole#download_pcap_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#download_pcap_files AdminRole#download_pcap_files}
   */
   readonly downloadPcapFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#generate_stats_dump_file AdminRole#generate_stats_dump_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#generate_stats_dump_file AdminRole#generate_stats_dump_file}
   */
   readonly generateStatsDumpFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#generate_tech_support_file AdminRole#generate_tech_support_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#generate_tech_support_file AdminRole#generate_tech_support_file}
   */
   readonly generateTechSupportFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#reboot AdminRole#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#reboot AdminRole#reboot}
   */
   readonly reboot?: string;
 }
@@ -24312,51 +24312,51 @@ export class AdminRoleRoleVsysWebuiOperationsOutputReference extends cdktf.Compl
 }
 export interface AdminRoleRoleVsysWebuiPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#application_override_rulebase AdminRole#application_override_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#application_override_rulebase AdminRole#application_override_rulebase}
   */
   readonly applicationOverrideRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#authentication_rulebase AdminRole#authentication_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#authentication_rulebase AdminRole#authentication_rulebase}
   */
   readonly authenticationRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dos_rulebase AdminRole#dos_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dos_rulebase AdminRole#dos_rulebase}
   */
   readonly dosRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#nat_rulebase AdminRole#nat_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#nat_rulebase AdminRole#nat_rulebase}
   */
   readonly natRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network_packet_broker_rulebase AdminRole#network_packet_broker_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network_packet_broker_rulebase AdminRole#network_packet_broker_rulebase}
   */
   readonly networkPacketBrokerRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#pbf_rulebase AdminRole#pbf_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#pbf_rulebase AdminRole#pbf_rulebase}
   */
   readonly pbfRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#qos_rulebase AdminRole#qos_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#qos_rulebase AdminRole#qos_rulebase}
   */
   readonly qosRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#rule_hit_count_reset AdminRole#rule_hit_count_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#rule_hit_count_reset AdminRole#rule_hit_count_reset}
   */
   readonly ruleHitCountReset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#sdwan_rulebase AdminRole#sdwan_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#sdwan_rulebase AdminRole#sdwan_rulebase}
   */
   readonly sdwanRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#security_rulebase AdminRole#security_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#security_rulebase AdminRole#security_rulebase}
   */
   readonly securityRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#ssl_decryption_rulebase AdminRole#ssl_decryption_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#ssl_decryption_rulebase AdminRole#ssl_decryption_rulebase}
   */
   readonly sslDecryptionRulebase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tunnel_inspect_rulebase AdminRole#tunnel_inspect_rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tunnel_inspect_rulebase AdminRole#tunnel_inspect_rulebase}
   */
   readonly tunnelInspectRulebase?: string;
 }
@@ -24769,15 +24769,15 @@ export class AdminRoleRoleVsysWebuiPoliciesOutputReference extends cdktf.Complex
 }
 export interface AdminRoleRoleVsysWebuiPrivacy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#show_full_ip_addresses AdminRole#show_full_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#show_full_ip_addresses AdminRole#show_full_ip_addresses}
   */
   readonly showFullIpAddresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#show_user_names_in_logs_and_reports AdminRole#show_user_names_in_logs_and_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#show_user_names_in_logs_and_reports AdminRole#show_user_names_in_logs_and_reports}
   */
   readonly showUserNamesInLogsAndReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#view_pcap_files AdminRole#view_pcap_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#view_pcap_files AdminRole#view_pcap_files}
   */
   readonly viewPcapFiles?: string;
 }
@@ -24929,15 +24929,15 @@ export class AdminRoleRoleVsysWebuiPrivacyOutputReference extends cdktf.ComplexO
 }
 export interface AdminRoleRoleVsysWebuiSave {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#object_level_changes AdminRole#object_level_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#object_level_changes AdminRole#object_level_changes}
   */
   readonly objectLevelChanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#partial_save AdminRole#partial_save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#partial_save AdminRole#partial_save}
   */
   readonly partialSave?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#save_for_other_admins AdminRole#save_for_other_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#save_for_other_admins AdminRole#save_for_other_admins}
   */
   readonly saveForOtherAdmins?: string;
 }
@@ -25089,55 +25089,55 @@ export class AdminRoleRoleVsysWebuiSaveOutputReference extends cdktf.ComplexObje
 }
 export interface AdminRoleRoleVsysWebui {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#acc AdminRole#acc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#acc AdminRole#acc}
   */
   readonly acc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#commit AdminRole#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#commit AdminRole#commit}
   */
   readonly commit?: AdminRoleRoleVsysWebuiCommit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#dashboard AdminRole#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#dashboard AdminRole#dashboard}
   */
   readonly dashboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device AdminRole#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device AdminRole#device}
   */
   readonly device?: AdminRoleRoleVsysWebuiDevice;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#monitor AdminRole#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#monitor AdminRole#monitor}
   */
   readonly monitor?: AdminRoleRoleVsysWebuiMonitor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#network AdminRole#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#network AdminRole#network}
   */
   readonly network?: AdminRoleRoleVsysWebuiNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#objects AdminRole#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#objects AdminRole#objects}
   */
   readonly objects?: AdminRoleRoleVsysWebuiObjects;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#operations AdminRole#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#operations AdminRole#operations}
   */
   readonly operations?: AdminRoleRoleVsysWebuiOperations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#policies AdminRole#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#policies AdminRole#policies}
   */
   readonly policies?: AdminRoleRoleVsysWebuiPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#privacy AdminRole#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#privacy AdminRole#privacy}
   */
   readonly privacy?: AdminRoleRoleVsysWebuiPrivacy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#save AdminRole#save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#save AdminRole#save}
   */
   readonly save?: AdminRoleRoleVsysWebuiSave;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#tasks AdminRole#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#tasks AdminRole#tasks}
   */
   readonly tasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#validate AdminRole#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#validate AdminRole#validate}
   */
   readonly validate?: string;
 }
@@ -25579,39 +25579,39 @@ export class AdminRoleRoleVsysWebuiOutputReference extends cdktf.ComplexObject {
 }
 export interface AdminRoleRoleVsysXmlapi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#commit AdminRole#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#commit AdminRole#commit}
   */
   readonly commit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#config AdminRole#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#config AdminRole#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#export AdminRole#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#export AdminRole#export}
   */
   readonly export?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#import AdminRole#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#import AdminRole#import}
   */
   readonly import?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#iot AdminRole#iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#iot AdminRole#iot}
   */
   readonly iot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#log AdminRole#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#log AdminRole#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#op AdminRole#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#op AdminRole#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#report AdminRole#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#report AdminRole#report}
   */
   readonly report?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#user_id AdminRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#user_id AdminRole#user_id}
   */
   readonly userId?: string;
 }
@@ -25937,19 +25937,19 @@ export class AdminRoleRoleVsysXmlapiOutputReference extends cdktf.ComplexObject 
 }
 export interface AdminRoleRoleVsys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#cli AdminRole#cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#cli AdminRole#cli}
   */
   readonly cli?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#restapi AdminRole#restapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#restapi AdminRole#restapi}
   */
   readonly restapi?: AdminRoleRoleVsysRestapi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#webui AdminRole#webui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#webui AdminRole#webui}
   */
   readonly webui?: AdminRoleRoleVsysWebui;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#xmlapi AdminRole#xmlapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#xmlapi AdminRole#xmlapi}
   */
   readonly xmlapi?: AdminRoleRoleVsysXmlapi;
 }
@@ -26130,11 +26130,11 @@ export class AdminRoleRoleVsysOutputReference extends cdktf.ComplexObject {
 }
 export interface AdminRoleRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#device AdminRole#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#device AdminRole#device}
   */
   readonly device?: AdminRoleRoleDevice;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#vsys AdminRole#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#vsys AdminRole#vsys}
   */
   readonly vsys?: AdminRoleRoleVsys;
 }
@@ -26257,7 +26257,7 @@ export class AdminRoleRoleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role panos_admin_role}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role panos_admin_role}
 */
 export class AdminRole extends cdktf.TerraformResource {
 
@@ -26273,7 +26273,7 @@ export class AdminRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdminRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdminRole to import
-  * @param importFromId The id of the existing AdminRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdminRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdminRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -26285,7 +26285,7 @@ export class AdminRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/admin_role panos_admin_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/admin_role panos_admin_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -26296,8 +26296,8 @@ export class AdminRole extends cdktf.TerraformResource {
       terraformResourceType: 'panos_admin_role',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

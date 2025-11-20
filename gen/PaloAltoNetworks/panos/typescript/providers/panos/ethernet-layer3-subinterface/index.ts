@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,93 +8,93 @@ import * as cdktf from 'cdktf';
 
 export interface EthernetLayer3SubinterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#adjust_tcp_mss EthernetLayer3Subinterface#adjust_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#adjust_tcp_mss EthernetLayer3Subinterface#adjust_tcp_mss}
   */
   readonly adjustTcpMss?: EthernetLayer3SubinterfaceAdjustTcpMss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#arp EthernetLayer3Subinterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#arp EthernetLayer3Subinterface#arp}
   */
   readonly arp?: EthernetLayer3SubinterfaceArp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#bonjour EthernetLayer3Subinterface#bonjour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#bonjour EthernetLayer3Subinterface#bonjour}
   */
   readonly bonjour?: EthernetLayer3SubinterfaceBonjour;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#comment EthernetLayer3Subinterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#comment EthernetLayer3Subinterface#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_config EthernetLayer3Subinterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_config EthernetLayer3Subinterface#ddns_config}
   */
   readonly ddnsConfig?: EthernetLayer3SubinterfaceDdnsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#decrypt_forward EthernetLayer3Subinterface#decrypt_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#decrypt_forward EthernetLayer3Subinterface#decrypt_forward}
   */
   readonly decryptForward?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#df_ignore EthernetLayer3Subinterface#df_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#df_ignore EthernetLayer3Subinterface#df_ignore}
   */
   readonly dfIgnore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dhcp_client EthernetLayer3Subinterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dhcp_client EthernetLayer3Subinterface#dhcp_client}
   */
   readonly dhcpClient?: EthernetLayer3SubinterfaceDhcpClient;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#interface_management_profile EthernetLayer3Subinterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#interface_management_profile EthernetLayer3Subinterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ip EthernetLayer3Subinterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ip EthernetLayer3Subinterface#ip}
   */
   readonly ip?: EthernetLayer3SubinterfaceIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ipv6 EthernetLayer3Subinterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ipv6 EthernetLayer3Subinterface#ipv6}
   */
   readonly ipv6?: EthernetLayer3SubinterfaceIpv6;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#location EthernetLayer3Subinterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#location EthernetLayer3Subinterface#location}
   */
   readonly location: EthernetLayer3SubinterfaceLocation;
   /**
   * Maximum Transfer Unit, up to 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#mtu EthernetLayer3Subinterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#mtu EthernetLayer3Subinterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ndp_proxy EthernetLayer3Subinterface#ndp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ndp_proxy EthernetLayer3Subinterface#ndp_proxy}
   */
   readonly ndpProxy?: EthernetLayer3SubinterfaceNdpProxy;
   /**
   * Netflow Server Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#netflow_profile EthernetLayer3Subinterface#netflow_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#netflow_profile EthernetLayer3Subinterface#netflow_profile}
   */
   readonly netflowProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#parent EthernetLayer3Subinterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#parent EthernetLayer3Subinterface#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#pppoe EthernetLayer3Subinterface#pppoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#pppoe EthernetLayer3Subinterface#pppoe}
   */
   readonly pppoe?: EthernetLayer3SubinterfacePppoe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#sdwan_link_settings EthernetLayer3Subinterface#sdwan_link_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#sdwan_link_settings EthernetLayer3Subinterface#sdwan_link_settings}
   */
   readonly sdwanLinkSettings?: EthernetLayer3SubinterfaceSdwanLinkSettings;
   /**
   * 802.1q VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#tag EthernetLayer3Subinterface#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#tag EthernetLayer3Subinterface#tag}
   */
   readonly tag?: number;
 }
@@ -102,19 +102,19 @@ export interface EthernetLayer3SubinterfaceAdjustTcpMss {
   /**
   * Set if TCP MSS value should be reduced based on mtu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IPv4 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ipv4_mss_adjustment EthernetLayer3Subinterface#ipv4_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ipv4_mss_adjustment EthernetLayer3Subinterface#ipv4_mss_adjustment}
   */
   readonly ipv4MssAdjustment?: number;
   /**
   * IPv6 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ipv6_mss_adjustment EthernetLayer3Subinterface#ipv6_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ipv6_mss_adjustment EthernetLayer3Subinterface#ipv6_mss_adjustment}
   */
   readonly ipv6MssAdjustment?: number;
 }
@@ -268,11 +268,11 @@ export interface EthernetLayer3SubinterfaceArp {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -416,19 +416,19 @@ export interface EthernetLayer3SubinterfaceBonjour {
   /**
   * Set to support Bonjour service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * default 0: NO-Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#group_id EthernetLayer3Subinterface#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#group_id EthernetLayer3Subinterface#group_id}
   */
   readonly groupId?: number;
   /**
   * Set to check and update TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ttl_check EthernetLayer3Subinterface#ttl_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ttl_check EthernetLayer3Subinterface#ttl_check}
   */
   readonly ttlCheck?: boolean | cdktf.IResolvable;
 }
@@ -580,11 +580,11 @@ export class EthernetLayer3SubinterfaceBonjourOutputReference extends cdktf.Comp
 }
 export interface EthernetLayer3SubinterfaceDdnsConfigDdnsVendorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#value EthernetLayer3Subinterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#value EthernetLayer3Subinterface#value}
   */
   readonly value?: string;
 }
@@ -726,39 +726,39 @@ export class EthernetLayer3SubinterfaceDdnsConfigDdnsVendorConfigList extends cd
 }
 export interface EthernetLayer3SubinterfaceDdnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_cert_profile EthernetLayer3Subinterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_cert_profile EthernetLayer3Subinterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_enabled EthernetLayer3Subinterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_enabled EthernetLayer3Subinterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * ddns hostname variable or real address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_hostname EthernetLayer3Subinterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_hostname EthernetLayer3Subinterface#ddns_hostname}
   */
   readonly ddnsHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_ip EthernetLayer3Subinterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_ip EthernetLayer3Subinterface#ddns_ip}
   */
   readonly ddnsIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_ipv6 EthernetLayer3Subinterface#ddns_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_ipv6 EthernetLayer3Subinterface#ddns_ipv6}
   */
   readonly ddnsIpv6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_update_interval EthernetLayer3Subinterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_update_interval EthernetLayer3Subinterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * Vendor and product type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_vendor EthernetLayer3Subinterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_vendor EthernetLayer3Subinterface#ddns_vendor}
   */
   readonly ddnsVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns_vendor_config EthernetLayer3Subinterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns_vendor_config EthernetLayer3Subinterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig?: EthernetLayer3SubinterfaceDdnsConfigDdnsVendorConfig[] | cdktf.IResolvable;
 }
@@ -1055,13 +1055,13 @@ export class EthernetLayer3SubinterfaceDdnsConfigOutputReference extends cdktf.C
 }
 export interface EthernetLayer3SubinterfaceDhcpClientSendHostname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set Interface Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hostname EthernetLayer3Subinterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hostname EthernetLayer3Subinterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -1186,21 +1186,21 @@ export interface EthernetLayer3SubinterfaceDhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#create_default_route EthernetLayer3Subinterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#create_default_route EthernetLayer3Subinterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#default_route_metric EthernetLayer3Subinterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#default_route_metric EthernetLayer3Subinterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#send_hostname EthernetLayer3Subinterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#send_hostname EthernetLayer3Subinterface#send_hostname}
   */
   readonly sendHostname?: EthernetLayer3SubinterfaceDhcpClientSendHostname;
 }
@@ -1381,13 +1381,13 @@ export class EthernetLayer3SubinterfaceDhcpClientOutputReference extends cdktf.C
 }
 export interface EthernetLayer3SubinterfaceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
   /**
   * Gateway IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#sdwan_gateway EthernetLayer3Subinterface#sdwan_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#sdwan_gateway EthernetLayer3Subinterface#sdwan_gateway}
   */
   readonly sdwanGateway?: string;
 }
@@ -1531,31 +1531,31 @@ export interface EthernetLayer3SubinterfaceIpv6AddressAdvertise {
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#auto_config_flag EthernetLayer3Subinterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#auto_config_flag EthernetLayer3Subinterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#onlink_flag EthernetLayer3Subinterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#onlink_flag EthernetLayer3Subinterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
   /**
   * Preferred Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#preferred_lifetime EthernetLayer3Subinterface#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#preferred_lifetime EthernetLayer3Subinterface#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * Valid Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#valid_lifetime EthernetLayer3Subinterface#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#valid_lifetime EthernetLayer3Subinterface#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
@@ -1883,25 +1883,25 @@ export class EthernetLayer3SubinterfaceIpv6AddressPrefixOutputReference extends 
 }
 export interface EthernetLayer3SubinterfaceIpv6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#advertise EthernetLayer3Subinterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#advertise EthernetLayer3Subinterface#advertise}
   */
   readonly advertise?: EthernetLayer3SubinterfaceIpv6AddressAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#anycast EthernetLayer3Subinterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#anycast EthernetLayer3Subinterface#anycast}
   */
   readonly anycast?: EthernetLayer3SubinterfaceIpv6AddressAnycast;
   /**
   * configure this address on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_on_interface EthernetLayer3Subinterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_on_interface EthernetLayer3Subinterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix EthernetLayer3Subinterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix EthernetLayer3Subinterface#prefix}
   */
   readonly prefix?: EthernetLayer3SubinterfaceIpv6AddressPrefix;
 }
@@ -2191,11 +2191,11 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSer
   /**
   * (4-3600) Lifetime in Seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -2337,7 +2337,7 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerS
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#server EthernetLayer3Subinterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#server EthernetLayer3Subinterface#server}
   */
   readonly server?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManualServer[] | cdktf.IResolvable;
 }
@@ -2431,11 +2431,11 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerS
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
   */
   readonly manual?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManual;
 }
@@ -2558,11 +2558,11 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerS
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
   */
   readonly source?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSource;
 }
@@ -2746,11 +2746,11 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuf
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -2892,7 +2892,7 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixS
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#suffix EthernetLayer3Subinterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#suffix EthernetLayer3Subinterface#suffix}
   */
   readonly suffix?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManualSuffix[] | cdktf.IResolvable;
 }
@@ -2986,11 +2986,11 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixS
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
   */
   readonly manual?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManual;
 }
@@ -3113,11 +3113,11 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixS
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
   */
   readonly source?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSource;
 }
@@ -3242,11 +3242,11 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryNeighb
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -3390,43 +3390,43 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscovery {
   /**
   * number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dad_attempts EthernetLayer3Subinterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dad_attempts EthernetLayer3Subinterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dns_server EthernetLayer3Subinterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dns_server EthernetLayer3Subinterface#dns_server}
   */
   readonly dnsServer?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dns_suffix EthernetLayer3Subinterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dns_suffix EthernetLayer3Subinterface#dns_suffix}
   */
   readonly dnsSuffix?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix;
   /**
   * Enable Duplicate Address Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_dad EthernetLayer3Subinterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_dad EthernetLayer3Subinterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_ndp_monitor EthernetLayer3Subinterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_ndp_monitor EthernetLayer3Subinterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#neighbor EthernetLayer3Subinterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#neighbor EthernetLayer3Subinterface#neighbor}
   */
   readonly neighbor?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ns_interval EthernetLayer3Subinterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ns_interval EthernetLayer3Subinterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: number;
 }
@@ -3784,19 +3784,19 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableY
   /**
   * Configure unique Prefix Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#pfx_pool_name EthernetLayer3Subinterface#pfx_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#pfx_pool_name EthernetLayer3Subinterface#pfx_pool_name}
   */
   readonly pfxPoolName?: string;
   /**
   * Hint DHCP Prefix Length (bits)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix_len EthernetLayer3Subinterface#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix_len EthernetLayer3Subinterface#prefix_len}
   */
   readonly prefixLen?: number;
   /**
   * Send prefix length hint to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix_len_hint EthernetLayer3Subinterface#prefix_len_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix_len_hint EthernetLayer3Subinterface#prefix_len_hint}
   */
   readonly prefixLenHint?: boolean | cdktf.IResolvable;
 }
@@ -3948,11 +3948,11 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableYesOu
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#no EthernetLayer3Subinterface#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#no EthernetLayer3Subinterface#no}
   */
   readonly no?: EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#yes EthernetLayer3Subinterface#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#yes EthernetLayer3Subinterface#yes}
   */
   readonly yes?: EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableYes;
 }
@@ -4075,7 +4075,7 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableOutpu
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnable;
 }
@@ -4230,13 +4230,13 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableYes {
   /**
   * Request Non-Temporary Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#non_temp_addr EthernetLayer3Subinterface#non_temp_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#non_temp_addr EthernetLayer3Subinterface#non_temp_addr}
   */
   readonly nonTempAddr?: boolean | cdktf.IResolvable;
   /**
   * Request Temporary Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#temp_addr EthernetLayer3Subinterface#temp_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#temp_addr EthernetLayer3Subinterface#temp_addr}
   */
   readonly tempAddr?: boolean | cdktf.IResolvable;
 }
@@ -4359,11 +4359,11 @@ export class EthernetLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableYesOutputRef
 }
 export interface EthernetLayer3SubinterfaceIpv6DhcpClientV6OptionsEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#no EthernetLayer3Subinterface#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#no EthernetLayer3Subinterface#no}
   */
   readonly no?: EthernetLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#yes EthernetLayer3Subinterface#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#yes EthernetLayer3Subinterface#yes}
   */
   readonly yes?: EthernetLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableYes;
 }
@@ -4488,23 +4488,23 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClientV6Options {
   /**
   * Select DUID-LLT/DUID-LL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#duid_type EthernetLayer3Subinterface#duid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#duid_type EthernetLayer3Subinterface#duid_type}
   */
   readonly duidType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: EthernetLayer3SubinterfaceIpv6DhcpClientV6OptionsEnable;
   /**
   * Enable Rapid Commit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#rapid_commit EthernetLayer3Subinterface#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#rapid_commit EthernetLayer3Subinterface#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * Enable DHCPv6 Server Re-Configuration Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#support_srvr_reconfig EthernetLayer3Subinterface#support_srvr_reconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#support_srvr_reconfig EthernetLayer3Subinterface#support_srvr_reconfig}
   */
   readonly supportSrvrReconfig?: boolean | cdktf.IResolvable;
 }
@@ -4687,37 +4687,37 @@ export interface EthernetLayer3SubinterfaceIpv6DhcpClient {
   /**
   * Accept Router Advertised Default Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#accept_ra_route EthernetLayer3Subinterface#accept_ra_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#accept_ra_route EthernetLayer3Subinterface#accept_ra_route}
   */
   readonly acceptRaRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#default_route_metric EthernetLayer3Subinterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#default_route_metric EthernetLayer3Subinterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCPv6 Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#neighbor_discovery EthernetLayer3Subinterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#neighbor_discovery EthernetLayer3Subinterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: EthernetLayer3SubinterfaceIpv6DhcpClientNeighborDiscovery;
   /**
   * Select Low/Medium/High
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#preference EthernetLayer3Subinterface#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#preference EthernetLayer3Subinterface#preference}
   */
   readonly preference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix_delegation EthernetLayer3Subinterface#prefix_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix_delegation EthernetLayer3Subinterface#prefix_delegation}
   */
   readonly prefixDelegation?: EthernetLayer3SubinterfaceIpv6DhcpClientPrefixDelegation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#v6_options EthernetLayer3Subinterface#v6_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#v6_options EthernetLayer3Subinterface#v6_options}
   */
   readonly v6Options?: EthernetLayer3SubinterfaceIpv6DhcpClientV6Options;
 }
@@ -4987,19 +4987,19 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaAdverti
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#auto_config_flag EthernetLayer3Subinterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#auto_config_flag EthernetLayer3Subinterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * Enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#onlink_flag EthernetLayer3Subinterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#onlink_flag EthernetLayer3Subinterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
 }
@@ -5212,7 +5212,7 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTyp
   /**
   * Range [0-4095] must be unqiue for this prefix-pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#identifier EthernetLayer3Subinterface#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#identifier EthernetLayer3Subinterface#identifier}
   */
   readonly identifier?: number;
 }
@@ -5306,11 +5306,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDyn
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dynamic EthernetLayer3Subinterface#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dynamic EthernetLayer3Subinterface#dynamic}
   */
   readonly dynamic?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dynamic_id EthernetLayer3Subinterface#dynamic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dynamic_id EthernetLayer3Subinterface#dynamic_id}
   */
   readonly dynamicId?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamicId;
 }
@@ -5433,23 +5433,23 @@ export class EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeOut
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGua {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#advertise EthernetLayer3Subinterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#advertise EthernetLayer3Subinterface#advertise}
   */
   readonly advertise?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaAdvertise;
   /**
   * Enable on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_on_interface EthernetLayer3Subinterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_on_interface EthernetLayer3Subinterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#pool_type EthernetLayer3Subinterface#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#pool_type EthernetLayer3Subinterface#pool_type}
   */
   readonly poolType?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolType;
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix_pool EthernetLayer3Subinterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix_pool EthernetLayer3Subinterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -5632,31 +5632,31 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeUlaAdverti
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#auto_config_flag EthernetLayer3Subinterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#auto_config_flag EthernetLayer3Subinterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#onlink_flag EthernetLayer3Subinterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#onlink_flag EthernetLayer3Subinterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
   /**
   * Preferred Lifetime (in seconds) of the prefix advertised in Router advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#preferred_lifetime EthernetLayer3Subinterface#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#preferred_lifetime EthernetLayer3Subinterface#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * Valid Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#valid_lifetime EthernetLayer3Subinterface#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#valid_lifetime EthernetLayer3Subinterface#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
@@ -5868,29 +5868,29 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeUla {
   /**
   * Configure ULA (Unique Local Address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#address EthernetLayer3Subinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#address EthernetLayer3Subinterface#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#advertise EthernetLayer3Subinterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#advertise EthernetLayer3Subinterface#advertise}
   */
   readonly advertise?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeUlaAdvertise;
   /**
   * Anycast Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#anycast EthernetLayer3Subinterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#anycast EthernetLayer3Subinterface#anycast}
   */
   readonly anycast?: boolean | cdktf.IResolvable;
   /**
   * Configure this address on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_on_interface EthernetLayer3Subinterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_on_interface EthernetLayer3Subinterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
   * Use this as prefix to form full address with interface id/EUI-64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix EthernetLayer3Subinterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix EthernetLayer3Subinterface#prefix}
   */
   readonly prefix?: boolean | cdktf.IResolvable;
 }
@@ -6100,11 +6100,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeUlaOutputRefer
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddrType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#gua EthernetLayer3Subinterface#gua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#gua EthernetLayer3Subinterface#gua}
   */
   readonly gua?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeGua;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ula EthernetLayer3Subinterface#ula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ula EthernetLayer3Subinterface#ula}
   */
   readonly ula?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeUla;
 }
@@ -6227,11 +6227,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedAssignAddrTypeOutputReferenc
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedAssignAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#type EthernetLayer3Subinterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#type EthernetLayer3Subinterface#type}
   */
   readonly type?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddrType;
 }
@@ -6375,7 +6375,7 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServ
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix_pool EthernetLayer3Subinterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix_pool EthernetLayer3Subinterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -6471,11 +6471,11 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServ
   /**
   * (4-3600) Lifetime in Seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -6617,7 +6617,7 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSo
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#server EthernetLayer3Subinterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#server EthernetLayer3Subinterface#server}
   */
   readonly server?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManualServer[] | cdktf.IResolvable;
 }
@@ -6711,11 +6711,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSo
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
   */
   readonly manual?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManual;
 }
@@ -6838,11 +6838,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSo
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
   */
   readonly source?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSource;
 }
@@ -6967,7 +6967,7 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuff
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#prefix_pool EthernetLayer3Subinterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#prefix_pool EthernetLayer3Subinterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -7063,11 +7063,11 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuff
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -7209,7 +7209,7 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSo
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#suffix EthernetLayer3Subinterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#suffix EthernetLayer3Subinterface#suffix}
   */
   readonly suffix?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManualSuffix[] | cdktf.IResolvable;
 }
@@ -7303,11 +7303,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSo
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dhcpv6 EthernetLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#manual EthernetLayer3Subinterface#manual}
   */
   readonly manual?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManual;
 }
@@ -7430,11 +7430,11 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSo
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#source EthernetLayer3Subinterface#source}
   */
   readonly source?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource;
 }
@@ -7559,11 +7559,11 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryNeighbo
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -7705,71 +7705,71 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryNeighborLis
 }
 export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryRouterAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * check consistency of RA messages from other routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_consistency_check EthernetLayer3Subinterface#enable_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_consistency_check EthernetLayer3Subinterface#enable_consistency_check}
   */
   readonly enableConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Current Hop Limit advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hop_limit EthernetLayer3Subinterface#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hop_limit EthernetLayer3Subinterface#hop_limit}
   */
   readonly hopLimit?: string;
   /**
   * Router Lifetime (in seconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
   * value of MTU option in Router Advertisement messages, upto 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#link_mtu EthernetLayer3Subinterface#link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#link_mtu EthernetLayer3Subinterface#link_mtu}
   */
   readonly linkMtu?: string;
   /**
   * Set the Managed Configuration Flag (M-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#managed_flag EthernetLayer3Subinterface#managed_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#managed_flag EthernetLayer3Subinterface#managed_flag}
   */
   readonly managedFlag?: boolean | cdktf.IResolvable;
   /**
   * Maximum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#max_interval EthernetLayer3Subinterface#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#max_interval EthernetLayer3Subinterface#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Minimum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#min_interval EthernetLayer3Subinterface#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#min_interval EthernetLayer3Subinterface#min_interval}
   */
   readonly minInterval?: number;
   /**
   * Set the Other Stateful Configuration Flag (O-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#other_flag EthernetLayer3Subinterface#other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#other_flag EthernetLayer3Subinterface#other_flag}
   */
   readonly otherFlag?: boolean | cdktf.IResolvable;
   /**
   * Reachable Time (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: string;
   /**
   * Retransmission Timer (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#retransmission_timer EthernetLayer3Subinterface#retransmission_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#retransmission_timer EthernetLayer3Subinterface#retransmission_timer}
   */
   readonly retransmissionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#router_preference EthernetLayer3Subinterface#router_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#router_preference EthernetLayer3Subinterface#router_preference}
   */
   readonly routerPreference?: string;
 }
@@ -8184,47 +8184,47 @@ export interface EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscovery {
   /**
   * Number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dad_attempts EthernetLayer3Subinterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dad_attempts EthernetLayer3Subinterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dns_server EthernetLayer3Subinterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dns_server EthernetLayer3Subinterface#dns_server}
   */
   readonly dnsServer?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dns_suffix EthernetLayer3Subinterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dns_suffix EthernetLayer3Subinterface#dns_suffix}
   */
   readonly dnsSuffix?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffix;
   /**
   * Enable Duplicate Address Detection (DAD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_dad EthernetLayer3Subinterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_dad EthernetLayer3Subinterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_ndp_monitor EthernetLayer3Subinterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_ndp_monitor EthernetLayer3Subinterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#neighbor EthernetLayer3Subinterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#neighbor EthernetLayer3Subinterface#neighbor}
   */
   readonly neighbor?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * Interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ns_interval EthernetLayer3Subinterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ns_interval EthernetLayer3Subinterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * Time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#router_advertisement EthernetLayer3Subinterface#router_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#router_advertisement EthernetLayer3Subinterface#router_advertisement}
   */
   readonly routerAdvertisement?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryRouterAdvertisement;
 }
@@ -8550,17 +8550,17 @@ export class EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscoveryOutputRefer
 }
 export interface EthernetLayer3SubinterfaceIpv6Inherited {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#assign_addr EthernetLayer3Subinterface#assign_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#assign_addr EthernetLayer3Subinterface#assign_addr}
   */
   readonly assignAddr?: EthernetLayer3SubinterfaceIpv6InheritedAssignAddr[] | cdktf.IResolvable;
   /**
   * Enable Inherited Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#neighbor_discovery EthernetLayer3Subinterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#neighbor_discovery EthernetLayer3Subinterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: EthernetLayer3SubinterfaceIpv6InheritedNeighborDiscovery;
 }
@@ -8714,11 +8714,11 @@ export interface EthernetLayer3SubinterfaceIpv6NeighborDiscoveryNeighbor {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hw_address EthernetLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -8862,11 +8862,11 @@ export interface EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisem
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -9010,11 +9010,11 @@ export interface EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisem
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -9156,15 +9156,15 @@ export class EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementD
 }
 export interface EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#server EthernetLayer3Subinterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#server EthernetLayer3Subinterface#server}
   */
   readonly server?: EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupportServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#suffix EthernetLayer3Subinterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#suffix EthernetLayer3Subinterface#suffix}
   */
   readonly suffix?: EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupportSuffix[] | cdktf.IResolvable;
 }
@@ -9316,75 +9316,75 @@ export class EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementD
 }
 export interface EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dns_support EthernetLayer3Subinterface#dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dns_support EthernetLayer3Subinterface#dns_support}
   */
   readonly dnsSupport?: EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * check consistency of RA messages from other routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_consistency_check EthernetLayer3Subinterface#enable_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_consistency_check EthernetLayer3Subinterface#enable_consistency_check}
   */
   readonly enableConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Current Hop Limit advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#hop_limit EthernetLayer3Subinterface#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#hop_limit EthernetLayer3Subinterface#hop_limit}
   */
   readonly hopLimit?: string;
   /**
   * Router Lifetime (in seconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#lifetime EthernetLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
   * value of MTU option in Router Advertisement messages, upto 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#link_mtu EthernetLayer3Subinterface#link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#link_mtu EthernetLayer3Subinterface#link_mtu}
   */
   readonly linkMtu?: string;
   /**
   * Set the Managed Configuration Flag (M-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#managed_flag EthernetLayer3Subinterface#managed_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#managed_flag EthernetLayer3Subinterface#managed_flag}
   */
   readonly managedFlag?: boolean | cdktf.IResolvable;
   /**
   * Maximum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#max_interval EthernetLayer3Subinterface#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#max_interval EthernetLayer3Subinterface#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Minimum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#min_interval EthernetLayer3Subinterface#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#min_interval EthernetLayer3Subinterface#min_interval}
   */
   readonly minInterval?: number;
   /**
   * Set the Other Stateful Configuration Flag (O-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#other_flag EthernetLayer3Subinterface#other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#other_flag EthernetLayer3Subinterface#other_flag}
   */
   readonly otherFlag?: boolean | cdktf.IResolvable;
   /**
   * Reachable Time (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: string;
   /**
   * Retransmission Timer (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#retransmission_timer EthernetLayer3Subinterface#retransmission_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#retransmission_timer EthernetLayer3Subinterface#retransmission_timer}
   */
   readonly retransmissionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#router_preference EthernetLayer3Subinterface#router_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#router_preference EthernetLayer3Subinterface#router_preference}
   */
   readonly routerPreference?: string;
 }
@@ -9828,39 +9828,39 @@ export interface EthernetLayer3SubinterfaceIpv6NeighborDiscovery {
   /**
   * number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dad_attempts EthernetLayer3Subinterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dad_attempts EthernetLayer3Subinterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
   * enable duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_dad EthernetLayer3Subinterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_dad EthernetLayer3Subinterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * enable ndp monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable_ndp_monitor EthernetLayer3Subinterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable_ndp_monitor EthernetLayer3Subinterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#neighbor EthernetLayer3Subinterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#neighbor EthernetLayer3Subinterface#neighbor}
   */
   readonly neighbor?: EthernetLayer3SubinterfaceIpv6NeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ns_interval EthernetLayer3Subinterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ns_interval EthernetLayer3Subinterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#reachable_time EthernetLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#router_advertisement EthernetLayer3Subinterface#router_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#router_advertisement EthernetLayer3Subinterface#router_advertisement}
   */
   readonly routerAdvertisement?: EthernetLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisement;
 }
@@ -10128,29 +10128,29 @@ export class EthernetLayer3SubinterfaceIpv6NeighborDiscoveryOutputReference exte
 }
 export interface EthernetLayer3SubinterfaceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#address EthernetLayer3Subinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#address EthernetLayer3Subinterface#address}
   */
   readonly address?: EthernetLayer3SubinterfaceIpv6Address[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#dhcp_client EthernetLayer3Subinterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#dhcp_client EthernetLayer3Subinterface#dhcp_client}
   */
   readonly dhcpClient?: EthernetLayer3SubinterfaceIpv6DhcpClient;
   /**
   * Enable IPv6 on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enabled EthernetLayer3Subinterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enabled EthernetLayer3Subinterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#inherited EthernetLayer3Subinterface#inherited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#inherited EthernetLayer3Subinterface#inherited}
   */
   readonly inherited?: EthernetLayer3SubinterfaceIpv6Inherited;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#interface_id EthernetLayer3Subinterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#interface_id EthernetLayer3Subinterface#interface_id}
   */
   readonly interfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#neighbor_discovery EthernetLayer3Subinterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#neighbor_discovery EthernetLayer3Subinterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: EthernetLayer3SubinterfaceIpv6NeighborDiscovery;
 }
@@ -10391,7 +10391,7 @@ export interface EthernetLayer3SubinterfaceLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ngfw_device EthernetLayer3Subinterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ngfw_device EthernetLayer3Subinterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -10546,23 +10546,23 @@ export interface EthernetLayer3SubinterfaceLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ngfw_device EthernetLayer3Subinterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ngfw_device EthernetLayer3Subinterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#panorama_device EthernetLayer3Subinterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#panorama_device EthernetLayer3Subinterface#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#vsys EthernetLayer3Subinterface#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#vsys EthernetLayer3Subinterface#vsys}
   */
   readonly vsys?: string;
 }
@@ -10745,19 +10745,19 @@ export interface EthernetLayer3SubinterfaceLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ngfw_device EthernetLayer3Subinterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ngfw_device EthernetLayer3Subinterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#panorama_device EthernetLayer3Subinterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#panorama_device EthernetLayer3Subinterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -10911,25 +10911,25 @@ export interface EthernetLayer3SubinterfaceLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ngfw EthernetLayer3Subinterface#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ngfw EthernetLayer3Subinterface#ngfw}
   */
   readonly ngfw?: EthernetLayer3SubinterfaceLocationNgfw;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#shared EthernetLayer3Subinterface#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#shared EthernetLayer3Subinterface#shared}
   */
   readonly shared?: EthernetLayer3SubinterfaceLocationShared;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#template EthernetLayer3Subinterface#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#template EthernetLayer3Subinterface#template}
   */
   readonly template?: EthernetLayer3SubinterfaceLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#template_stack EthernetLayer3Subinterface#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#template_stack EthernetLayer3Subinterface#template_stack}
   */
   readonly templateStack?: EthernetLayer3SubinterfaceLocationTemplateStack;
 }
@@ -11110,13 +11110,13 @@ export class EthernetLayer3SubinterfaceLocationOutputReference extends cdktf.Com
 }
 export interface EthernetLayer3SubinterfaceNdpProxyAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#name EthernetLayer3Subinterface#name}
   */
   readonly name: string;
   /**
   * put the prefix or address on a block list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#negate EthernetLayer3Subinterface#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#negate EthernetLayer3Subinterface#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
 }
@@ -11258,13 +11258,13 @@ export class EthernetLayer3SubinterfaceNdpProxyAddressList extends cdktf.Complex
 }
 export interface EthernetLayer3SubinterfaceNdpProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#address EthernetLayer3Subinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#address EthernetLayer3Subinterface#address}
   */
   readonly address?: EthernetLayer3SubinterfaceNdpProxyAddress[] | cdktf.IResolvable;
   /**
   * Enable proxy NDP on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enabled EthernetLayer3Subinterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enabled EthernetLayer3Subinterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -11387,7 +11387,7 @@ export class EthernetLayer3SubinterfaceNdpProxyOutputReference extends cdktf.Com
 }
 export interface EthernetLayer3SubinterfacePppoePassive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -11483,7 +11483,7 @@ export interface EthernetLayer3SubinterfacePppoeStaticAddress {
   /**
   * static ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ip EthernetLayer3Subinterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ip EthernetLayer3Subinterface#ip}
   */
   readonly ip?: string;
 }
@@ -11579,55 +11579,55 @@ export interface EthernetLayer3SubinterfacePppoe {
   /**
   * desired access concentrator. The valid characters are [a-zA-Z0-9._~!@#$%^*(){},:?/+=\-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#access_concentrator EthernetLayer3Subinterface#access_concentrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#access_concentrator EthernetLayer3Subinterface#access_concentrator}
   */
   readonly accessConcentrator?: string;
   /**
   * authentication protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#authentication EthernetLayer3Subinterface#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#authentication EthernetLayer3Subinterface#authentication}
   */
   readonly authentication?: string;
   /**
   * automatically create default route pointing to peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#create_default_route EthernetLayer3Subinterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#create_default_route EthernetLayer3Subinterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#default_route_metric EthernetLayer3Subinterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#default_route_metric EthernetLayer3Subinterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#passive EthernetLayer3Subinterface#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#passive EthernetLayer3Subinterface#passive}
   */
   readonly passive?: EthernetLayer3SubinterfacePppoePassive;
   /**
   * password for ppp autentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#password EthernetLayer3Subinterface#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#password EthernetLayer3Subinterface#password}
   */
   readonly password?: string;
   /**
   * desired service. The valid characters are [a-zA-Z0-9._~!@#$%^*(){},:?/+=\-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#service EthernetLayer3Subinterface#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#service EthernetLayer3Subinterface#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#static_address EthernetLayer3Subinterface#static_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#static_address EthernetLayer3Subinterface#static_address}
   */
   readonly staticAddress?: EthernetLayer3SubinterfacePppoeStaticAddress;
   /**
   * username for ppp authentication. The valid characters are [a-zA-Z0-9._~!@#$%^*(){},:?/+=\-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#username EthernetLayer3Subinterface#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#username EthernetLayer3Subinterface#username}
   */
   readonly username?: string;
 }
@@ -12043,13 +12043,13 @@ export interface EthernetLayer3SubinterfaceSdwanLinkSettingsUpstreamNatStaticIp 
   /**
   * Upstream NAT address FQDN name configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#fqdn EthernetLayer3Subinterface#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#fqdn EthernetLayer3Subinterface#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Upstream NAT IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ip_address EthernetLayer3Subinterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ip_address EthernetLayer3Subinterface#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -12172,17 +12172,17 @@ export class EthernetLayer3SubinterfaceSdwanLinkSettingsUpstreamNatStaticIpOutpu
 }
 export interface EthernetLayer3SubinterfaceSdwanLinkSettingsUpstreamNat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#ddns EthernetLayer3Subinterface#ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#ddns EthernetLayer3Subinterface#ddns}
   */
   readonly ddns?: EthernetLayer3SubinterfaceSdwanLinkSettingsUpstreamNatDdns;
   /**
   * Enable upstream NAT IP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#static_ip EthernetLayer3Subinterface#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#static_ip EthernetLayer3Subinterface#static_ip}
   */
   readonly staticIp?: EthernetLayer3SubinterfaceSdwanLinkSettingsUpstreamNatStaticIp;
 }
@@ -12336,17 +12336,17 @@ export interface EthernetLayer3SubinterfaceSdwanLinkSettings {
   /**
   * Enable sdwan on this ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#enable EthernetLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Sdwan link characteristics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#sdwan_interface_profile EthernetLayer3Subinterface#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#sdwan_interface_profile EthernetLayer3Subinterface#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#upstream_nat EthernetLayer3Subinterface#upstream_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#upstream_nat EthernetLayer3Subinterface#upstream_nat}
   */
   readonly upstreamNat?: EthernetLayer3SubinterfaceSdwanLinkSettingsUpstreamNat;
 }
@@ -12498,7 +12498,7 @@ export class EthernetLayer3SubinterfaceSdwanLinkSettingsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface panos_ethernet_layer3_subinterface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface panos_ethernet_layer3_subinterface}
 */
 export class EthernetLayer3Subinterface extends cdktf.TerraformResource {
 
@@ -12514,7 +12514,7 @@ export class EthernetLayer3Subinterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EthernetLayer3Subinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EthernetLayer3Subinterface to import
-  * @param importFromId The id of the existing EthernetLayer3Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EthernetLayer3Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EthernetLayer3Subinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12526,7 +12526,7 @@ export class EthernetLayer3Subinterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ethernet_layer3_subinterface panos_ethernet_layer3_subinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ethernet_layer3_subinterface panos_ethernet_layer3_subinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12537,8 +12537,8 @@ export class EthernetLayer3Subinterface extends cdktf.TerraformResource {
       terraformResourceType: 'panos_ethernet_layer3_subinterface',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

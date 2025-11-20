@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DhcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#location Dhcp#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#location Dhcp#location}
   */
   readonly location: DhcpLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#name Dhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#name Dhcp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#relay Dhcp#relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#relay Dhcp#relay}
   */
   readonly relay?: DhcpRelay;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#server Dhcp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#server Dhcp#server}
   */
   readonly server?: DhcpServer;
 }
@@ -30,7 +30,7 @@ export interface DhcpLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ngfw_device Dhcp#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ngfw_device Dhcp#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -126,19 +126,19 @@ export interface DhcpLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#name Dhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#name Dhcp#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ngfw_device Dhcp#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ngfw_device Dhcp#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#panorama_device Dhcp#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#panorama_device Dhcp#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -292,19 +292,19 @@ export interface DhcpLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#name Dhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#name Dhcp#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ngfw_device Dhcp#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ngfw_device Dhcp#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#panorama_device Dhcp#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#panorama_device Dhcp#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -458,19 +458,19 @@ export interface DhcpLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ngfw Dhcp#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ngfw Dhcp#ngfw}
   */
   readonly ngfw?: DhcpLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#template Dhcp#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#template Dhcp#template}
   */
   readonly template?: DhcpLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#template_stack Dhcp#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#template_stack Dhcp#template_stack}
   */
   readonly templateStack?: DhcpLocationTemplateStack;
 }
@@ -622,11 +622,11 @@ export class DhcpLocationOutputReference extends cdktf.ComplexObject {
 }
 export interface DhcpRelayIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#enabled Dhcp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#enabled Dhcp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#server Dhcp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#server Dhcp#server}
   */
   readonly server?: string[];
 }
@@ -751,11 +751,11 @@ export interface DhcpRelayIpv6Server {
   /**
   * Specify outgoing interface when using an IPv6 multicast address for your DHCPv6 server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#interface Dhcp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#interface Dhcp#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#name Dhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#name Dhcp#name}
   */
   readonly name: string;
 }
@@ -897,11 +897,11 @@ export class DhcpRelayIpv6ServerList extends cdktf.ComplexList {
 }
 export interface DhcpRelayIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#enabled Dhcp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#enabled Dhcp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#server Dhcp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#server Dhcp#server}
   */
   readonly server?: DhcpRelayIpv6Server[] | cdktf.IResolvable;
 }
@@ -1024,11 +1024,11 @@ export class DhcpRelayIpv6OutputReference extends cdktf.ComplexObject {
 }
 export interface DhcpRelay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ip Dhcp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ip Dhcp#ip}
   */
   readonly ip?: DhcpRelayIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ipv6 Dhcp#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ipv6 Dhcp#ipv6}
   */
   readonly ipv6?: DhcpRelayIpv6;
 }
@@ -1153,13 +1153,13 @@ export interface DhcpServerOptionDns {
   /**
   * DNS primary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#primary Dhcp#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#primary Dhcp#primary}
   */
   readonly primary?: string;
   /**
   * DNS secondary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#secondary Dhcp#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#secondary Dhcp#secondary}
   */
   readonly secondary?: string;
 }
@@ -1284,7 +1284,7 @@ export interface DhcpServerOptionInheritance {
   /**
   * Dynamic interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#source Dhcp#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#source Dhcp#source}
   */
   readonly source?: string;
 }
@@ -1439,11 +1439,11 @@ export interface DhcpServerOptionLease {
   /**
   * lease(minute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#timeout Dhcp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#timeout Dhcp#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#unlimited Dhcp#unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#unlimited Dhcp#unlimited}
   */
   readonly unlimited?: DhcpServerOptionLeaseUnlimited;
 }
@@ -1568,13 +1568,13 @@ export interface DhcpServerOptionNis {
   /**
   * NIS primary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#primary Dhcp#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#primary Dhcp#primary}
   */
   readonly primary?: string;
   /**
   * NIS secondary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#secondary Dhcp#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#secondary Dhcp#secondary}
   */
   readonly secondary?: string;
 }
@@ -1699,13 +1699,13 @@ export interface DhcpServerOptionNtp {
   /**
   * NTP primary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#primary Dhcp#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#primary Dhcp#primary}
   */
   readonly primary?: string;
   /**
   * NTP secondary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#secondary Dhcp#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#secondary Dhcp#secondary}
   */
   readonly secondary?: string;
 }
@@ -1828,35 +1828,35 @@ export class DhcpServerOptionNtpOutputReference extends cdktf.ComplexObject {
 }
 export interface DhcpServerOptionUserDefined {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ascii Dhcp#ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ascii Dhcp#ascii}
   */
   readonly ascii?: string[];
   /**
   * option code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#code Dhcp#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#code Dhcp#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#hex Dhcp#hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#hex Dhcp#hex}
   */
   readonly hex?: string[];
   /**
   * Inherited from DHCP server inheritance source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#inherited Dhcp#inherited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#inherited Dhcp#inherited}
   */
   readonly inherited?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ip Dhcp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ip Dhcp#ip}
   */
   readonly ip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#name Dhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#name Dhcp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#vendor_class_identifier Dhcp#vendor_class_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#vendor_class_identifier Dhcp#vendor_class_identifier}
   */
   readonly vendorClassIdentifier?: string;
 }
@@ -2145,13 +2145,13 @@ export interface DhcpServerOptionWins {
   /**
   * WINS primary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#primary Dhcp#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#primary Dhcp#primary}
   */
   readonly primary?: string;
   /**
   * WINS secondary server ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#secondary Dhcp#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#secondary Dhcp#secondary}
   */
   readonly secondary?: string;
 }
@@ -2274,61 +2274,61 @@ export class DhcpServerOptionWinsOutputReference extends cdktf.ComplexObject {
 }
 export interface DhcpServerOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#dns Dhcp#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#dns Dhcp#dns}
   */
   readonly dns?: DhcpServerOptionDns;
   /**
   * domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#dns_suffix Dhcp#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#dns_suffix Dhcp#dns_suffix}
   */
   readonly dnsSuffix?: string;
   /**
   * default gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#gateway Dhcp#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#gateway Dhcp#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#inheritance Dhcp#inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#inheritance Dhcp#inheritance}
   */
   readonly inheritance?: DhcpServerOptionInheritance;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#lease Dhcp#lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#lease Dhcp#lease}
   */
   readonly lease?: DhcpServerOptionLease;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#nis Dhcp#nis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#nis Dhcp#nis}
   */
   readonly nis?: DhcpServerOptionNis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ntp Dhcp#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ntp Dhcp#ntp}
   */
   readonly ntp?: DhcpServerOptionNtp;
   /**
   * POP3 server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#pop3_server Dhcp#pop3_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#pop3_server Dhcp#pop3_server}
   */
   readonly pop3Server?: string;
   /**
   * SMTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#smtp_server Dhcp#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#smtp_server Dhcp#smtp_server}
   */
   readonly smtpServer?: string;
   /**
   * ip pool subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#subnet_mask Dhcp#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#subnet_mask Dhcp#subnet_mask}
   */
   readonly subnetMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#user_defined Dhcp#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#user_defined Dhcp#user_defined}
   */
   readonly userDefined?: DhcpServerOptionUserDefined[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#wins Dhcp#wins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#wins Dhcp#wins}
   */
   readonly wins?: DhcpServerOptionWins;
 }
@@ -2743,17 +2743,17 @@ export interface DhcpServerReserved {
   /**
   * Description of reserved entry, e.g. host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#description Dhcp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#description Dhcp#description}
   */
   readonly description?: string;
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#mac Dhcp#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#mac Dhcp#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#name Dhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#name Dhcp#name}
   */
   readonly name: string;
 }
@@ -2924,25 +2924,25 @@ export class DhcpServerReservedList extends cdktf.ComplexList {
 }
 export interface DhcpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#ip_pool Dhcp#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#ip_pool Dhcp#ip_pool}
   */
   readonly ipPool?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#mode Dhcp#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#mode Dhcp#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#option Dhcp#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#option Dhcp#option}
   */
   readonly option?: DhcpServerOption;
   /**
   * Ping IP when allocating a new IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#probe_ip Dhcp#probe_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#probe_ip Dhcp#probe_ip}
   */
   readonly probeIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#reserved Dhcp#reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#reserved Dhcp#reserved}
   */
   readonly reserved?: DhcpServerReserved[] | cdktf.IResolvable;
 }
@@ -3152,7 +3152,7 @@ export class DhcpServerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp panos_dhcp}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp panos_dhcp}
 */
 export class Dhcp extends cdktf.TerraformResource {
 
@@ -3168,7 +3168,7 @@ export class Dhcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dhcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dhcp to import
-  * @param importFromId The id of the existing Dhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dhcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3180,7 +3180,7 @@ export class Dhcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dhcp panos_dhcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dhcp panos_dhcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3191,8 +3191,8 @@ export class Dhcp extends cdktf.TerraformResource {
       terraformResourceType: 'panos_dhcp',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAuth0ClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the client. If not provided, `name` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client#client_id DataAuth0Client#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client#client_id DataAuth0Client#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client#id DataAuth0Client#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client#id DataAuth0Client#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataAuth0ClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the client. If not provided, `client_id` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client#name DataAuth0Client#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client#name DataAuth0Client#name}
   */
   readonly name?: string;
 }
@@ -3519,6 +3519,197 @@ export class DataAuth0ClientDefaultOrganizationList extends cdktf.ComplexList {
     return new DataAuth0ClientDefaultOrganizationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAuth0ClientExpressConfigurationLinkedClients {
+}
+
+export function dataAuth0ClientExpressConfigurationLinkedClientsToTerraform(struct?: DataAuth0ClientExpressConfigurationLinkedClients): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAuth0ClientExpressConfigurationLinkedClientsToHclTerraform(struct?: DataAuth0ClientExpressConfigurationLinkedClients): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAuth0ClientExpressConfigurationLinkedClientsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAuth0ClientExpressConfigurationLinkedClients | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAuth0ClientExpressConfigurationLinkedClients | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+}
+
+export class DataAuth0ClientExpressConfigurationLinkedClientsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAuth0ClientExpressConfigurationLinkedClientsOutputReference {
+    return new DataAuth0ClientExpressConfigurationLinkedClientsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAuth0ClientExpressConfiguration {
+}
+
+export function dataAuth0ClientExpressConfigurationToTerraform(struct?: DataAuth0ClientExpressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAuth0ClientExpressConfigurationToHclTerraform(struct?: DataAuth0ClientExpressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAuth0ClientExpressConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAuth0ClientExpressConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAuth0ClientExpressConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // admin_login_domain - computed: true, optional: false, required: false
+  public get adminLoginDomain() {
+    return this.getStringAttribute('admin_login_domain');
+  }
+
+  // connection_profile_id - computed: true, optional: false, required: false
+  public get connectionProfileId() {
+    return this.getStringAttribute('connection_profile_id');
+  }
+
+  // enable_client - computed: true, optional: false, required: false
+  public get enableClient() {
+    return this.getBooleanAttribute('enable_client');
+  }
+
+  // enable_organization - computed: true, optional: false, required: false
+  public get enableOrganization() {
+    return this.getBooleanAttribute('enable_organization');
+  }
+
+  // initiate_login_uri_template - computed: true, optional: false, required: false
+  public get initiateLoginUriTemplate() {
+    return this.getStringAttribute('initiate_login_uri_template');
+  }
+
+  // linked_clients - computed: true, optional: false, required: false
+  private _linkedClients = new DataAuth0ClientExpressConfigurationLinkedClientsList(this, "linked_clients", false);
+  public get linkedClients() {
+    return this._linkedClients;
+  }
+
+  // oin_submission_id - computed: true, optional: false, required: false
+  public get oinSubmissionId() {
+    return this.getStringAttribute('oin_submission_id');
+  }
+
+  // okta_oin_client_id - computed: true, optional: false, required: false
+  public get oktaOinClientId() {
+    return this.getStringAttribute('okta_oin_client_id');
+  }
+
+  // user_attribute_profile_id - computed: true, optional: false, required: false
+  public get userAttributeProfileId() {
+    return this.getStringAttribute('user_attribute_profile_id');
+  }
+}
+
+export class DataAuth0ClientExpressConfigurationList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAuth0ClientExpressConfigurationOutputReference {
+    return new DataAuth0ClientExpressConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAuth0ClientJwtConfiguration {
 }
 
@@ -5046,7 +5237,7 @@ export class DataAuth0ClientTokenQuotaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client auth0_client}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client auth0_client}
 */
 export class DataAuth0Client extends cdktf.TerraformDataSource {
 
@@ -5062,7 +5253,7 @@ export class DataAuth0Client extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0Client resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0Client to import
-  * @param importFromId The id of the existing DataAuth0Client that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0Client that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0Client to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5074,7 +5265,7 @@ export class DataAuth0Client extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client auth0_client} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/client auth0_client} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5085,8 +5276,8 @@ export class DataAuth0Client extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_client',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5219,6 +5410,12 @@ export class DataAuth0Client extends cdktf.TerraformDataSource {
   private _encryptionKey = new cdktf.StringMap(this, "encryption_key");
   public get encryptionKey() {
     return this._encryptionKey;
+  }
+
+  // express_configuration - computed: true, optional: false, required: false
+  private _expressConfiguration = new DataAuth0ClientExpressConfigurationList(this, "express_configuration", false);
+  public get expressConfiguration() {
+    return this._expressConfiguration;
   }
 
   // form_template - computed: true, optional: false, required: false

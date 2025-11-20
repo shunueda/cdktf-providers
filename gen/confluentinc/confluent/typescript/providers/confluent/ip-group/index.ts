@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group
+// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IpGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group#cidr_blocks IpGroup#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group#cidr_blocks IpGroup#cidr_blocks}
   */
   readonly cidrBlocks: string[];
   /**
   * A human readable name for an IP Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group#group_name IpGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group#group_name IpGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group#id IpGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group#id IpGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface IpGroupConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group confluent_ip_group}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group confluent_ip_group}
 */
 export class IpGroup extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IpGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpGroup to import
-  * @param importFromId The id of the existing IpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IpGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/ip_group confluent_ip_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/ip_group confluent_ip_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IpGroup extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_ip_group',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.52.0',
-        providerVersionConstraint: '2.52.0'
+        providerVersion: '2.53.0',
+        providerVersionConstraint: '2.53.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

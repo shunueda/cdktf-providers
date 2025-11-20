@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface FilterSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#annotations FilterSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#annotations FilterSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#context_key FilterSet#context_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#context_key FilterSet#context_key}
   */
   readonly contextKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#description FilterSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#description FilterSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#disable FilterSet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#disable FilterSet#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#id FilterSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#id FilterSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#labels FilterSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#labels FilterSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#name FilterSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#name FilterSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#namespace FilterSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#namespace FilterSet#namespace}
   */
   readonly namespace: string;
   /**
   * filter_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#filter_fields FilterSet#filter_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#filter_fields FilterSet#filter_fields}
   */
   readonly filterFields: FilterSetFilterFields[] | cdktf.IResolvable;
 }
 export interface FilterSetFilterFieldsDateFieldAbsolute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#end_date FilterSet#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#end_date FilterSet#end_date}
   */
   readonly endDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#start_date FilterSet#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#start_date FilterSet#start_date}
   */
   readonly startDate: string;
 }
@@ -162,13 +162,13 @@ export class FilterSetFilterFieldsDateFieldAbsoluteOutputReference extends cdktf
 }
 export interface FilterSetFilterFieldsDateField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#relative FilterSet#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#relative FilterSet#relative}
   */
   readonly relative?: string;
   /**
   * absolute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#absolute FilterSet#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#absolute FilterSet#absolute}
   */
   readonly absolute?: FilterSetFilterFieldsDateFieldAbsolute;
 }
@@ -281,7 +281,7 @@ export class FilterSetFilterFieldsDateFieldOutputReference extends cdktf.Complex
 }
 export interface FilterSetFilterFieldsFilterExpressionField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#expression FilterSet#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#expression FilterSet#expression}
   */
   readonly expression: string;
 }
@@ -360,9 +360,90 @@ export class FilterSetFilterFieldsFilterExpressionFieldOutputReference extends c
     return this._expression;
   }
 }
+export interface FilterSetFilterFieldsLabelSelectorField {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#expressions FilterSet#expressions}
+  */
+  readonly expressions: string[];
+}
+
+export function filterSetFilterFieldsLabelSelectorFieldToTerraform(struct?: FilterSetFilterFieldsLabelSelectorFieldOutputReference | FilterSetFilterFieldsLabelSelectorField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    expressions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.expressions),
+  }
+}
+
+
+export function filterSetFilterFieldsLabelSelectorFieldToHclTerraform(struct?: FilterSetFilterFieldsLabelSelectorFieldOutputReference | FilterSetFilterFieldsLabelSelectorField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    expressions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.expressions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FilterSetFilterFieldsLabelSelectorFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FilterSetFilterFieldsLabelSelectorField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expressions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expressions = this._expressions;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FilterSetFilterFieldsLabelSelectorField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._expressions = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._expressions = value.expressions;
+    }
+  }
+
+  // expressions - computed: false, optional: false, required: true
+  private _expressions?: string[]; 
+  public get expressions() {
+    return this.getListAttribute('expressions');
+  }
+  public set expressions(value: string[]) {
+    this._expressions = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expressionsInput() {
+    return this._expressions;
+  }
+}
 export interface FilterSetFilterFieldsStringField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#field_values FilterSet#field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#field_values FilterSet#field_values}
   */
   readonly fieldValues: string[];
 }
@@ -443,25 +524,31 @@ export class FilterSetFilterFieldsStringFieldOutputReference extends cdktf.Compl
 }
 export interface FilterSetFilterFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#field_id FilterSet#field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#field_id FilterSet#field_id}
   */
   readonly fieldId: string;
   /**
   * date_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#date_field FilterSet#date_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#date_field FilterSet#date_field}
   */
   readonly dateField?: FilterSetFilterFieldsDateField;
   /**
   * filter_expression_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#filter_expression_field FilterSet#filter_expression_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#filter_expression_field FilterSet#filter_expression_field}
   */
   readonly filterExpressionField?: FilterSetFilterFieldsFilterExpressionField;
   /**
+  * label_selector_field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#label_selector_field FilterSet#label_selector_field}
+  */
+  readonly labelSelectorField?: FilterSetFilterFieldsLabelSelectorField;
+  /**
   * string_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#string_field FilterSet#string_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#string_field FilterSet#string_field}
   */
   readonly stringField?: FilterSetFilterFieldsStringField;
 }
@@ -475,6 +562,7 @@ export function filterSetFilterFieldsToTerraform(struct?: FilterSetFilterFields 
     field_id: cdktf.stringToTerraform(struct!.fieldId),
     date_field: filterSetFilterFieldsDateFieldToTerraform(struct!.dateField),
     filter_expression_field: filterSetFilterFieldsFilterExpressionFieldToTerraform(struct!.filterExpressionField),
+    label_selector_field: filterSetFilterFieldsLabelSelectorFieldToTerraform(struct!.labelSelectorField),
     string_field: filterSetFilterFieldsStringFieldToTerraform(struct!.stringField),
   }
 }
@@ -503,6 +591,12 @@ export function filterSetFilterFieldsToHclTerraform(struct?: FilterSetFilterFiel
       isBlock: true,
       type: "list",
       storageClassType: "FilterSetFilterFieldsFilterExpressionFieldList",
+    },
+    label_selector_field: {
+      value: filterSetFilterFieldsLabelSelectorFieldToHclTerraform(struct!.labelSelectorField),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FilterSetFilterFieldsLabelSelectorFieldList",
     },
     string_field: {
       value: filterSetFilterFieldsStringFieldToHclTerraform(struct!.stringField),
@@ -548,6 +642,10 @@ export class FilterSetFilterFieldsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.filterExpressionField = this._filterExpressionField?.internalValue;
     }
+    if (this._labelSelectorField?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labelSelectorField = this._labelSelectorField?.internalValue;
+    }
     if (this._stringField?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.stringField = this._stringField?.internalValue;
@@ -562,6 +660,7 @@ export class FilterSetFilterFieldsOutputReference extends cdktf.ComplexObject {
       this._fieldId = undefined;
       this._dateField.internalValue = undefined;
       this._filterExpressionField.internalValue = undefined;
+      this._labelSelectorField.internalValue = undefined;
       this._stringField.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -574,6 +673,7 @@ export class FilterSetFilterFieldsOutputReference extends cdktf.ComplexObject {
       this._fieldId = value.fieldId;
       this._dateField.internalValue = value.dateField;
       this._filterExpressionField.internalValue = value.filterExpressionField;
+      this._labelSelectorField.internalValue = value.labelSelectorField;
       this._stringField.internalValue = value.stringField;
     }
   }
@@ -623,6 +723,22 @@ export class FilterSetFilterFieldsOutputReference extends cdktf.ComplexObject {
     return this._filterExpressionField.internalValue;
   }
 
+  // label_selector_field - computed: false, optional: true, required: false
+  private _labelSelectorField = new FilterSetFilterFieldsLabelSelectorFieldOutputReference(this, "label_selector_field");
+  public get labelSelectorField() {
+    return this._labelSelectorField;
+  }
+  public putLabelSelectorField(value: FilterSetFilterFieldsLabelSelectorField) {
+    this._labelSelectorField.internalValue = value;
+  }
+  public resetLabelSelectorField() {
+    this._labelSelectorField.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelSelectorFieldInput() {
+    return this._labelSelectorField.internalValue;
+  }
+
   // string_field - computed: false, optional: true, required: false
   private _stringField = new FilterSetFilterFieldsStringFieldOutputReference(this, "string_field");
   public get stringField() {
@@ -661,7 +777,7 @@ export class FilterSetFilterFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set volterra_filter_set}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set volterra_filter_set}
 */
 export class FilterSet extends cdktf.TerraformResource {
 
@@ -677,7 +793,7 @@ export class FilterSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FilterSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FilterSet to import
-  * @param importFromId The id of the existing FilterSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FilterSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FilterSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -689,7 +805,7 @@ export class FilterSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/filter_set volterra_filter_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/filter_set volterra_filter_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -700,8 +816,8 @@ export class FilterSet extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_filter_set',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

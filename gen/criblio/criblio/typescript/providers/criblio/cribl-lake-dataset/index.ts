@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface CriblLakeDatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#accelerated_fields CriblLakeDataset#accelerated_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#accelerated_fields CriblLakeDataset#accelerated_fields}
   */
   readonly acceleratedFields?: string[];
   /**
   * Default: "lake-${workspaceName}-${organizationId}"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#bucket_name CriblLakeDataset#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#bucket_name CriblLakeDataset#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#description CriblLakeDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#description CriblLakeDataset#description}
   */
   readonly description?: string;
   /**
   * must be one of ["json", "ddss", "parquet"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#format CriblLakeDataset#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#format CriblLakeDataset#format}
   */
   readonly format?: string;
   /**
   * dataset id to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#id CriblLakeDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#id CriblLakeDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,15 +39,15 @@ export interface CriblLakeDatasetConfig extends cdktf.TerraformMetaArguments {
   /**
   * lake id that contains the Datasets. must be "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#lake_id CriblLakeDataset#lake_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#lake_id CriblLakeDataset#lake_id}
   */
   readonly lakeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#retention_period_in_days CriblLakeDataset#retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#retention_period_in_days CriblLakeDataset#retention_period_in_days}
   */
   readonly retentionPeriodInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#search_config CriblLakeDataset#search_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#search_config CriblLakeDataset#search_config}
   */
   readonly searchConfig?: CriblLakeDatasetSearchConfig;
 }
@@ -55,25 +55,25 @@ export interface CriblLakeDatasetSearchConfigMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#created CriblLakeDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#created CriblLakeDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#enable_acceleration CriblLakeDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#enable_acceleration CriblLakeDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#modified CriblLakeDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#modified CriblLakeDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#tags CriblLakeDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#tags CriblLakeDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -254,11 +254,11 @@ export class CriblLakeDatasetSearchConfigMetadataOutputReference extends cdktf.C
 }
 export interface CriblLakeDatasetSearchConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#datatypes CriblLakeDataset#datatypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#datatypes CriblLakeDataset#datatypes}
   */
   readonly datatypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#metadata CriblLakeDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#metadata CriblLakeDataset#metadata}
   */
   readonly metadata?: CriblLakeDatasetSearchConfigMetadata;
 }
@@ -381,7 +381,7 @@ export class CriblLakeDatasetSearchConfigOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset criblio_cribl_lake_dataset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset criblio_cribl_lake_dataset}
 */
 export class CriblLakeDataset extends cdktf.TerraformResource {
 
@@ -397,7 +397,7 @@ export class CriblLakeDataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CriblLakeDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CriblLakeDataset to import
-  * @param importFromId The id of the existing CriblLakeDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CriblLakeDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CriblLakeDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class CriblLakeDataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/cribl_lake_dataset criblio_cribl_lake_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/cribl_lake_dataset criblio_cribl_lake_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class CriblLakeDataset extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_cribl_lake_dataset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

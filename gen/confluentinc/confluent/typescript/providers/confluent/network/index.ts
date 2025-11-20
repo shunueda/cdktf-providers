@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network
+// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv4 CIDR block to used for this network. Must be /16. Required for VPC peering and AWS TransitGateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#cidr Network#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#cidr Network#cidr}
   */
   readonly cidr?: string;
   /**
   * The cloud service provider in which the network exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#cloud Network#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#cloud Network#cloud}
   */
   readonly cloud: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#connection_types Network#connection_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#connection_types Network#connection_types}
   */
   readonly connectionTypes: string[];
   /**
   * The name of the Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#display_name Network#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#display_name Network#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#id Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#id Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,61 +39,61 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud service provider region where the network exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#region Network#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#region Network#region}
   */
   readonly region: string;
   /**
   * The IPv4 CIDR block reserved for Confluent Cloud Network. Must be /24. If not specified, Confluent Cloud Network uses 172.20.255.0/24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#reserved_cidr Network#reserved_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#reserved_cidr Network#reserved_cidr}
   */
   readonly reservedCidr?: string;
   /**
   * The 3 availability zones for this network. They can optionally be specified for only AWS networks used with PrivateLink. Otherwise, they are automatically chosen by Confluent Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#zones Network#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#zones Network#zones}
   */
   readonly zones?: string[];
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#aws Network#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#aws Network#aws}
   */
   readonly aws?: NetworkAws[] | cdktf.IResolvable;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#azure Network#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#azure Network#azure}
   */
   readonly azure?: NetworkAzure[] | cdktf.IResolvable;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#dns_config Network#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#dns_config Network#dns_config}
   */
   readonly dnsConfig?: NetworkDnsConfig;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#environment Network#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#environment Network#environment}
   */
   readonly environment: NetworkEnvironment;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#gcp Network#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#gcp Network#gcp}
   */
   readonly gcp?: NetworkGcp[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#timeouts Network#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#timeouts Network#timeouts}
   */
   readonly timeouts?: NetworkTimeouts;
   /**
   * zone_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#zone_info Network#zone_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#zone_info Network#zone_info}
   */
   readonly zoneInfo?: NetworkZoneInfo[] | cdktf.IResolvable;
 }
@@ -359,7 +359,7 @@ export interface NetworkDnsConfig {
   /**
   * Network DNS resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#resolution Network#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#resolution Network#resolution}
   */
   readonly resolution: string;
 }
@@ -442,7 +442,7 @@ export interface NetworkEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#id Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#id Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -623,11 +623,11 @@ export class NetworkGcpList extends cdktf.ComplexList {
 }
 export interface NetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#create Network#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#create Network#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#delete Network#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#delete Network#delete}
   */
   readonly delete?: string;
 }
@@ -750,11 +750,11 @@ export class NetworkTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface NetworkZoneInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#cidr Network#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#cidr Network#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#zone_id Network#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#zone_id Network#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -899,7 +899,7 @@ export class NetworkZoneInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network confluent_network}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network confluent_network}
 */
 export class Network extends cdktf.TerraformResource {
 
@@ -915,7 +915,7 @@ export class Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Network to import
-  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -927,7 +927,7 @@ export class Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/network confluent_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/network confluent_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -938,8 +938,8 @@ export class Network extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_network',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.52.0',
-        providerVersionConstraint: '2.52.0'
+        providerVersion: '2.53.0',
+        providerVersionConstraint: '2.53.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

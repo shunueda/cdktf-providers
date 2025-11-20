@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ChainguardProviderConfig {
   /**
   * URL of Chainguard console API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#console_api ChainguardProvider#console_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#console_api ChainguardProvider#console_api}
   */
   readonly consoleApi?: string;
   /**
@@ -30,19 +30,19 @@ export interface ChainguardProviderConfig {
   * version streams, and also affects the computed "is_latest" field to
   * only consider the filtered versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#version_stream_allows ChainguardProvider#version_stream_allows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#version_stream_allows ChainguardProvider#version_stream_allows}
   */
   readonly versionStreamAllows?: string[];
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#alias ChainguardProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#alias ChainguardProvider#alias}
   */
   readonly alias?: string;
   /**
   * login_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#login_options ChainguardProvider#login_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#login_options ChainguardProvider#login_options}
   */
   readonly loginOptions?: ChainguardProviderLoginOptions;
 }
@@ -50,43 +50,43 @@ export interface ChainguardProviderLoginOptions {
   /**
   * Auth0 social connection to use by default for OIDC token. Must be one of: google-oauth2, gitlab, github
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#auth0_connection ChainguardProvider#auth0_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#auth0_connection ChainguardProvider#auth0_connection}
   */
   readonly auth0Connection?: string;
   /**
   * Disable automatic login when Chainguard token is expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#disabled ChainguardProvider#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#disabled ChainguardProvider#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Enable to use of refresh tokens when authenticating with an IdP (not compatible with identity_token authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#enable_refresh_tokens ChainguardProvider#enable_refresh_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#enable_refresh_tokens ChainguardProvider#enable_refresh_tokens}
   */
   readonly enableRefreshTokens?: boolean | cdktf.IResolvable;
   /**
   * UIDP of the identity to assume when exchanging OIDC token for Chainguard token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#identity_id ChainguardProvider#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#identity_id ChainguardProvider#identity_id}
   */
   readonly identityId?: string;
   /**
   * UIDP of the identity provider authenticate with for OIDC token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#identity_provider_id ChainguardProvider#identity_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#identity_provider_id ChainguardProvider#identity_provider_id}
   */
   readonly identityProviderId?: string;
   /**
   * A path to an OIDC identity token, or explicit identity token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#identity_token ChainguardProvider#identity_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#identity_token ChainguardProvider#identity_token}
   */
   readonly identityToken?: string;
   /**
   * Verified organization name for determining identity provider to obtain OIDC token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#organization_name ChainguardProvider#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#organization_name ChainguardProvider#organization_name}
   */
   readonly organizationName?: string;
 }
@@ -164,7 +164,7 @@ export function chainguardProviderLoginOptionsToHclTerraform(struct?: Chainguard
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs chainguard}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs chainguard}
 */
 export class ChainguardProvider extends cdktf.TerraformProvider {
 
@@ -180,7 +180,7 @@ export class ChainguardProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ChainguardProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChainguardProvider to import
-  * @param importFromId The id of the existing ChainguardProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChainguardProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChainguardProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class ChainguardProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs chainguard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs chainguard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class ChainguardProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'chainguard',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.38',
-        providerVersionConstraint: '0.1.38'
+        providerVersion: '0.1.40',
+        providerVersionConstraint: '0.1.40'
       },
       terraformProviderSource: 'chainguard-dev/chainguard'
     });

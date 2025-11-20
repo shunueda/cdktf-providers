@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface IkeCryptoProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * IKEv2 SA reauthentication interval equals authetication-multiple * rekey-lifetime; 0 means reauthentication disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#authentication_multiple IkeCryptoProfile#authentication_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#authentication_multiple IkeCryptoProfile#authentication_multiple}
   */
   readonly authenticationMultiple?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#dh_group IkeCryptoProfile#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#dh_group IkeCryptoProfile#dh_group}
   */
   readonly dhGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#encryption IkeCryptoProfile#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#encryption IkeCryptoProfile#encryption}
   */
   readonly encryption?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#hash IkeCryptoProfile#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#hash IkeCryptoProfile#hash}
   */
   readonly hash?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#lifetime IkeCryptoProfile#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#lifetime IkeCryptoProfile#lifetime}
   */
   readonly lifetime?: IkeCryptoProfileLifetime;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#location IkeCryptoProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#location IkeCryptoProfile#location}
   */
   readonly location: IkeCryptoProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#name IkeCryptoProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#name IkeCryptoProfile#name}
   */
   readonly name: string;
 }
@@ -44,25 +44,25 @@ export interface IkeCryptoProfileLifetime {
   /**
   * specify lifetime in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#days IkeCryptoProfile#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#days IkeCryptoProfile#days}
   */
   readonly days?: number;
   /**
   * specify lifetime in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#hours IkeCryptoProfile#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#hours IkeCryptoProfile#hours}
   */
   readonly hours?: number;
   /**
   * specify lifetime in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#minutes IkeCryptoProfile#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#minutes IkeCryptoProfile#minutes}
   */
   readonly minutes?: number;
   /**
   * specify lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#seconds IkeCryptoProfile#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#seconds IkeCryptoProfile#seconds}
   */
   readonly seconds?: number;
 }
@@ -245,7 +245,7 @@ export interface IkeCryptoProfileLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#ngfw_device IkeCryptoProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#ngfw_device IkeCryptoProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -341,19 +341,19 @@ export interface IkeCryptoProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#name IkeCryptoProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#name IkeCryptoProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#ngfw_device IkeCryptoProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#ngfw_device IkeCryptoProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#panorama_device IkeCryptoProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#panorama_device IkeCryptoProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -507,19 +507,19 @@ export interface IkeCryptoProfileLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#name IkeCryptoProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#name IkeCryptoProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#ngfw_device IkeCryptoProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#ngfw_device IkeCryptoProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#panorama_device IkeCryptoProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#panorama_device IkeCryptoProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -673,19 +673,19 @@ export interface IkeCryptoProfileLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#ngfw IkeCryptoProfile#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#ngfw IkeCryptoProfile#ngfw}
   */
   readonly ngfw?: IkeCryptoProfileLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#template IkeCryptoProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#template IkeCryptoProfile#template}
   */
   readonly template?: IkeCryptoProfileLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#template_stack IkeCryptoProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#template_stack IkeCryptoProfile#template_stack}
   */
   readonly templateStack?: IkeCryptoProfileLocationTemplateStack;
 }
@@ -837,7 +837,7 @@ export class IkeCryptoProfileLocationOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile panos_ike_crypto_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile panos_ike_crypto_profile}
 */
 export class IkeCryptoProfile extends cdktf.TerraformResource {
 
@@ -853,7 +853,7 @@ export class IkeCryptoProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IkeCryptoProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IkeCryptoProfile to import
-  * @param importFromId The id of the existing IkeCryptoProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IkeCryptoProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IkeCryptoProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -865,7 +865,7 @@ export class IkeCryptoProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/ike_crypto_profile panos_ike_crypto_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/ike_crypto_profile panos_ike_crypto_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -876,8 +876,8 @@ export class IkeCryptoProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_ike_crypto_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

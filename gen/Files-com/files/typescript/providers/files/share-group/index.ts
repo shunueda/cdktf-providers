@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group
+// https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ShareGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of share group members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group#members ShareGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group#members ShareGroup#members}
   */
   readonly members: { [key: string]: any };
   /**
   * Name of the share group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group#name ShareGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group#name ShareGroup#name}
   */
   readonly name: string;
   /**
   * Additional notes of the share group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group#notes ShareGroup#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group#notes ShareGroup#notes}
   */
   readonly notes?: string;
   /**
   * Owner User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group#user_id ShareGroup#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group#user_id ShareGroup#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group files_share_group}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group files_share_group}
 */
 export class ShareGroup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ShareGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ShareGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ShareGroup to import
-  * @param importFromId The id of the existing ShareGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ShareGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ShareGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ShareGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/share_group files_share_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/share_group files_share_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ShareGroup extends cdktf.TerraformResource {
       terraformResourceType: 'files_share_group',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.388',
-        providerVersionConstraint: '0.1.388'
+        providerVersion: '0.1.391',
+        providerVersionConstraint: '0.1.391'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationMemberRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role#id OrganizationMemberRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role#id OrganizationMemberRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface OrganizationMemberRoleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role#organization_id OrganizationMemberRole#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role#organization_id OrganizationMemberRole#organization_id}
   */
   readonly organizationId: string;
   /**
   * The role ID to assign to the organization member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role#role_id OrganizationMemberRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role#role_id OrganizationMemberRole#role_id}
   */
   readonly roleId: string;
   /**
   * The user ID of the organization member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role#user_id OrganizationMemberRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role#user_id OrganizationMemberRole#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role auth0_organization_member_role}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role auth0_organization_member_role}
 */
 export class OrganizationMemberRole extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class OrganizationMemberRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationMemberRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationMemberRole to import
-  * @param importFromId The id of the existing OrganizationMemberRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationMemberRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationMemberRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class OrganizationMemberRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_member_role auth0_organization_member_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_member_role auth0_organization_member_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class OrganizationMemberRole extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_organization_member_role',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

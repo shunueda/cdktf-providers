@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CloudTransitGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#annotations CloudTransitGateway#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#annotations CloudTransitGateway#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#description CloudTransitGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#description CloudTransitGateway#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#disable CloudTransitGateway#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#disable CloudTransitGateway#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#id CloudTransitGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#id CloudTransitGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#labels CloudTransitGateway#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#labels CloudTransitGateway#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#name CloudTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#name CloudTransitGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#namespace CloudTransitGateway#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#namespace CloudTransitGateway#namespace}
   */
   readonly namespace: string;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#aws CloudTransitGateway#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#aws CloudTransitGateway#aws}
   */
   readonly aws?: CloudTransitGatewayAws;
 }
 export interface CloudTransitGatewayAwsCloudCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#name CloudTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#name CloudTransitGateway#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#namespace CloudTransitGateway#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#namespace CloudTransitGateway#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#tenant CloudTransitGateway#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tenant CloudTransitGateway#tenant}
   */
   readonly tenant?: string;
 }
@@ -197,15 +197,15 @@ export class CloudTransitGatewayAwsCloudCredentialsOutputReference extends cdktf
 }
 export interface CloudTransitGatewayAwsExistingTgw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#tgw_asn CloudTransitGateway#tgw_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tgw_asn CloudTransitGateway#tgw_asn}
   */
   readonly tgwAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#tgw_id CloudTransitGateway#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tgw_id CloudTransitGateway#tgw_id}
   */
   readonly tgwId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#volterra_site_asn CloudTransitGateway#volterra_site_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#volterra_site_asn CloudTransitGateway#volterra_site_asn}
   */
   readonly volterraSiteAsn?: number;
 }
@@ -347,11 +347,11 @@ export class CloudTransitGatewayAwsExistingTgwOutputReference extends cdktf.Comp
 }
 export interface CloudTransitGatewayAwsNewTgwUserAssigned {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#tgw_asn CloudTransitGateway#tgw_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tgw_asn CloudTransitGateway#tgw_asn}
   */
   readonly tgwAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#volterra_site_asn CloudTransitGateway#volterra_site_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#volterra_site_asn CloudTransitGateway#volterra_site_asn}
   */
   readonly volterraSiteAsn?: number;
 }
@@ -464,13 +464,13 @@ export class CloudTransitGatewayAwsNewTgwUserAssignedOutputReference extends cdk
 }
 export interface CloudTransitGatewayAwsNewTgw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#system_generated CloudTransitGateway#system_generated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#system_generated CloudTransitGateway#system_generated}
   */
   readonly systemGenerated?: boolean | cdktf.IResolvable;
   /**
   * user_assigned block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#user_assigned CloudTransitGateway#user_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#user_assigned CloudTransitGateway#user_assigned}
   */
   readonly userAssigned?: CloudTransitGatewayAwsNewTgwUserAssigned;
 }
@@ -583,15 +583,15 @@ export class CloudTransitGatewayAwsNewTgwOutputReference extends cdktf.ComplexOb
 }
 export interface CloudTransitGatewayAwsPrimarySecureMeshSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#name CloudTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#name CloudTransitGateway#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#namespace CloudTransitGateway#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#namespace CloudTransitGateway#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#tenant CloudTransitGateway#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tenant CloudTransitGateway#tenant}
   */
   readonly tenant?: string;
 }
@@ -733,11 +733,11 @@ export class CloudTransitGatewayAwsPrimarySecureMeshSiteOutputReference extends 
 }
 export interface CloudTransitGatewayAwsServiceVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#subnet_ids CloudTransitGateway#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#subnet_ids CloudTransitGateway#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#vpc_id CloudTransitGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#vpc_id CloudTransitGateway#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -844,11 +844,11 @@ export class CloudTransitGatewayAwsServiceVpcOutputReference extends cdktf.Compl
 }
 export interface CloudTransitGatewayAwsTgwCidr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#ipv4 CloudTransitGateway#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#ipv4 CloudTransitGateway#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#ipv6 CloudTransitGateway#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#ipv6 CloudTransitGateway#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -958,47 +958,59 @@ export class CloudTransitGatewayAwsTgwCidrOutputReference extends cdktf.ComplexO
 }
 export interface CloudTransitGatewayAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#aws_region CloudTransitGateway#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#aws_region CloudTransitGateway#aws_region}
   */
   readonly awsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#reserved_tgw_cidr CloudTransitGateway#reserved_tgw_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#reserved_tgw_cidr CloudTransitGateway#reserved_tgw_cidr}
   */
   readonly reservedTgwCidr?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tgw_asn CloudTransitGateway#tgw_asn}
+  */
+  readonly tgwAsn?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tgw_cidr_ipv4 CloudTransitGateway#tgw_cidr_ipv4}
+  */
+  readonly tgwCidrIpv4?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#volterra_site_asn CloudTransitGateway#volterra_site_asn}
+  */
+  readonly volterraSiteAsn?: number;
+  /**
   * cloud_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#cloud_credentials CloudTransitGateway#cloud_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#cloud_credentials CloudTransitGateway#cloud_credentials}
   */
   readonly cloudCredentials?: CloudTransitGatewayAwsCloudCredentials;
   /**
   * existing_tgw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#existing_tgw CloudTransitGateway#existing_tgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#existing_tgw CloudTransitGateway#existing_tgw}
   */
   readonly existingTgw?: CloudTransitGatewayAwsExistingTgw;
   /**
   * new_tgw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#new_tgw CloudTransitGateway#new_tgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#new_tgw CloudTransitGateway#new_tgw}
   */
   readonly newTgw?: CloudTransitGatewayAwsNewTgw;
   /**
   * primary_secure_mesh_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#primary_secure_mesh_site CloudTransitGateway#primary_secure_mesh_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#primary_secure_mesh_site CloudTransitGateway#primary_secure_mesh_site}
   */
   readonly primarySecureMeshSite?: CloudTransitGatewayAwsPrimarySecureMeshSite;
   /**
   * service_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#service_vpc CloudTransitGateway#service_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#service_vpc CloudTransitGateway#service_vpc}
   */
   readonly serviceVpc: CloudTransitGatewayAwsServiceVpc;
   /**
   * tgw_cidr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#tgw_cidr CloudTransitGateway#tgw_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#tgw_cidr CloudTransitGateway#tgw_cidr}
   */
   readonly tgwCidr?: CloudTransitGatewayAwsTgwCidr;
 }
@@ -1011,6 +1023,9 @@ export function cloudTransitGatewayAwsToTerraform(struct?: CloudTransitGatewayAw
   return {
     aws_region: cdktf.stringToTerraform(struct!.awsRegion),
     reserved_tgw_cidr: cdktf.booleanToTerraform(struct!.reservedTgwCidr),
+    tgw_asn: cdktf.numberToTerraform(struct!.tgwAsn),
+    tgw_cidr_ipv4: cdktf.stringToTerraform(struct!.tgwCidrIpv4),
+    volterra_site_asn: cdktf.numberToTerraform(struct!.volterraSiteAsn),
     cloud_credentials: cloudTransitGatewayAwsCloudCredentialsToTerraform(struct!.cloudCredentials),
     existing_tgw: cloudTransitGatewayAwsExistingTgwToTerraform(struct!.existingTgw),
     new_tgw: cloudTransitGatewayAwsNewTgwToTerraform(struct!.newTgw),
@@ -1038,6 +1053,24 @@ export function cloudTransitGatewayAwsToHclTerraform(struct?: CloudTransitGatewa
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    tgw_asn: {
+      value: cdktf.numberToHclTerraform(struct!.tgwAsn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tgw_cidr_ipv4: {
+      value: cdktf.stringToHclTerraform(struct!.tgwCidrIpv4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    volterra_site_asn: {
+      value: cdktf.numberToHclTerraform(struct!.volterraSiteAsn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     cloud_credentials: {
       value: cloudTransitGatewayAwsCloudCredentialsToHclTerraform(struct!.cloudCredentials),
@@ -1103,6 +1136,18 @@ export class CloudTransitGatewayAwsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.reservedTgwCidr = this._reservedTgwCidr;
     }
+    if (this._tgwAsn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tgwAsn = this._tgwAsn;
+    }
+    if (this._tgwCidrIpv4 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tgwCidrIpv4 = this._tgwCidrIpv4;
+    }
+    if (this._volterraSiteAsn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraSiteAsn = this._volterraSiteAsn;
+    }
     if (this._cloudCredentials?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.cloudCredentials = this._cloudCredentials?.internalValue;
@@ -1135,6 +1180,9 @@ export class CloudTransitGatewayAwsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this._awsRegion = undefined;
       this._reservedTgwCidr = undefined;
+      this._tgwAsn = undefined;
+      this._tgwCidrIpv4 = undefined;
+      this._volterraSiteAsn = undefined;
       this._cloudCredentials.internalValue = undefined;
       this._existingTgw.internalValue = undefined;
       this._newTgw.internalValue = undefined;
@@ -1146,6 +1194,9 @@ export class CloudTransitGatewayAwsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._awsRegion = value.awsRegion;
       this._reservedTgwCidr = value.reservedTgwCidr;
+      this._tgwAsn = value.tgwAsn;
+      this._tgwCidrIpv4 = value.tgwCidrIpv4;
+      this._volterraSiteAsn = value.volterraSiteAsn;
       this._cloudCredentials.internalValue = value.cloudCredentials;
       this._existingTgw.internalValue = value.existingTgw;
       this._newTgw.internalValue = value.newTgw;
@@ -1182,6 +1233,54 @@ export class CloudTransitGatewayAwsOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get reservedTgwCidrInput() {
     return this._reservedTgwCidr;
+  }
+
+  // tgw_asn - computed: false, optional: true, required: false
+  private _tgwAsn?: number; 
+  public get tgwAsn() {
+    return this.getNumberAttribute('tgw_asn');
+  }
+  public set tgwAsn(value: number) {
+    this._tgwAsn = value;
+  }
+  public resetTgwAsn() {
+    this._tgwAsn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tgwAsnInput() {
+    return this._tgwAsn;
+  }
+
+  // tgw_cidr_ipv4 - computed: false, optional: true, required: false
+  private _tgwCidrIpv4?: string; 
+  public get tgwCidrIpv4() {
+    return this.getStringAttribute('tgw_cidr_ipv4');
+  }
+  public set tgwCidrIpv4(value: string) {
+    this._tgwCidrIpv4 = value;
+  }
+  public resetTgwCidrIpv4() {
+    this._tgwCidrIpv4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tgwCidrIpv4Input() {
+    return this._tgwCidrIpv4;
+  }
+
+  // volterra_site_asn - computed: false, optional: true, required: false
+  private _volterraSiteAsn?: number; 
+  public get volterraSiteAsn() {
+    return this.getNumberAttribute('volterra_site_asn');
+  }
+  public set volterraSiteAsn(value: number) {
+    this._volterraSiteAsn = value;
+  }
+  public resetVolterraSiteAsn() {
+    this._volterraSiteAsn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraSiteAsnInput() {
+    return this._volterraSiteAsn;
   }
 
   // cloud_credentials - computed: false, optional: true, required: false
@@ -1279,7 +1378,7 @@ export class CloudTransitGatewayAwsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway volterra_cloud_transit_gateway}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway volterra_cloud_transit_gateway}
 */
 export class CloudTransitGateway extends cdktf.TerraformResource {
 
@@ -1295,7 +1394,7 @@ export class CloudTransitGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudTransitGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudTransitGateway to import
-  * @param importFromId The id of the existing CloudTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudTransitGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1307,7 +1406,7 @@ export class CloudTransitGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/cloud_transit_gateway volterra_cloud_transit_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/cloud_transit_gateway volterra_cloud_transit_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1318,8 +1417,8 @@ export class CloudTransitGateway extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_cloud_transit_gateway',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

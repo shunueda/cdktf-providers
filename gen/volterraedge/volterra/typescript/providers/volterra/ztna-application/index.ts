@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ZtnaApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#annotations ZtnaApplication#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#annotations ZtnaApplication#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#description ZtnaApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#description ZtnaApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#disable ZtnaApplication#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#disable ZtnaApplication#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#domain_name ZtnaApplication#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#domain_name ZtnaApplication#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#id ZtnaApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#id ZtnaApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#labels ZtnaApplication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#labels ZtnaApplication#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#transport_type ZtnaApplication#transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#transport_type ZtnaApplication#transport_type}
   */
   readonly transportType: string;
   /**
   * msg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#msg ZtnaApplication#msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#msg ZtnaApplication#msg}
   */
   readonly msg?: ZtnaApplicationMsg;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#policies ZtnaApplication#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#policies ZtnaApplication#policies}
   */
   readonly policies?: ZtnaApplicationPolicies;
   /**
   * proxy_advertisement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#proxy_advertisement ZtnaApplication#proxy_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#proxy_advertisement ZtnaApplication#proxy_advertisement}
   */
   readonly proxyAdvertisement?: ZtnaApplicationProxyAdvertisement;
 }
 export interface ZtnaApplicationMsgIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#addr ZtnaApplication#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#addr ZtnaApplication#addr}
   */
   readonly addr?: string;
 }
@@ -151,7 +151,7 @@ export class ZtnaApplicationMsgIpIpv4OutputReference extends cdktf.ComplexObject
 }
 export interface ZtnaApplicationMsgIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#addr ZtnaApplication#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#addr ZtnaApplication#addr}
   */
   readonly addr?: string;
 }
@@ -237,13 +237,13 @@ export interface ZtnaApplicationMsgIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ipv4 ZtnaApplication#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv4 ZtnaApplication#ipv4}
   */
   readonly ipv4?: ZtnaApplicationMsgIpIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
   */
   readonly ipv6?: ZtnaApplicationMsgIpIpv6;
 }
@@ -356,13 +356,13 @@ export class ZtnaApplicationMsgIpOutputReference extends cdktf.ComplexObject {
 }
 export interface ZtnaApplicationMsg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#port ZtnaApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#port ZtnaApplication#port}
   */
   readonly port?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ip ZtnaApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ip ZtnaApplication#ip}
   */
   readonly ip?: ZtnaApplicationMsgIp;
 }
@@ -475,15 +475,15 @@ export class ZtnaApplicationMsgOutputReference extends cdktf.ComplexObject {
 }
 export interface ZtnaApplicationPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#connectivity_policy_name ZtnaApplication#connectivity_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#connectivity_policy_name ZtnaApplication#connectivity_policy_name}
   */
   readonly connectivityPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#message_policy_name ZtnaApplication#message_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#message_policy_name ZtnaApplication#message_policy_name}
   */
   readonly messagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#session_policy_name ZtnaApplication#session_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#session_policy_name ZtnaApplication#session_policy_name}
   */
   readonly sessionPolicyName?: string;
 }
@@ -625,15 +625,15 @@ export class ZtnaApplicationPoliciesOutputReference extends cdktf.ComplexObject 
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -782,7 +782,7 @@ export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereA
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#public_ip ZtnaApplication#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#public_ip ZtnaApplication#public_ip}
   */
   readonly publicIp: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp;
 }
@@ -861,17 +861,806 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereAdver
     return this._publicIp.internalValue;
   }
 }
-export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSite {
+export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToHclTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToHclTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ip ZtnaApplication#ip}
+  */
+  readonly ip: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
+  */
+  readonly ipv6?: string;
+  /**
+  * cloud_edge block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#cloud_edge ZtnaApplication#cloud_edge}
+  */
+  readonly cloudEdge: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge;
+  /**
+  * segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#segment ZtnaApplication#segment}
+  */
+  readonly segment: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment;
+}
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ip: cdktf.stringToTerraform(struct!.ip),
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
+    cloud_edge: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToTerraform(struct!.cloudEdge),
+    segment: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToTerraform(struct!.segment),
+  }
+}
+
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToHclTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ip: {
+      value: cdktf.stringToHclTerraform(struct!.ip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cloud_edge: {
+      value: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToHclTerraform(struct!.cloudEdge),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeList",
+    },
+    segment: {
+      value: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToHclTerraform(struct!.segment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ip = this._ip;
+    }
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    if (this._cloudEdge?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudEdge = this._cloudEdge?.internalValue;
+    }
+    if (this._segment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ip = undefined;
+      this._ipv6 = undefined;
+      this._cloudEdge.internalValue = undefined;
+      this._segment.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ip = value.ip;
+      this._ipv6 = value.ipv6;
+      this._cloudEdge.internalValue = value.cloudEdge;
+      this._segment.internalValue = value.segment;
+    }
+  }
+
+  // ip - computed: false, optional: false, required: true
+  private _ip?: string; 
+  public get ip() {
+    return this.getStringAttribute('ip');
+  }
+  public set ip(value: string) {
+    this._ip = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipInput() {
+    return this._ip;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+
+  // cloud_edge - computed: false, optional: false, required: true
+  private _cloudEdge = new ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference(this, "cloud_edge");
+  public get cloudEdge() {
+    return this._cloudEdge;
+  }
+  public putCloudEdge(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge) {
+    this._cloudEdge.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudEdgeInput() {
+    return this._cloudEdge.internalValue;
+  }
+
+  // segment - computed: false, optional: false, required: true
+  private _segment = new ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference(this, "segment");
+  public get segment() {
+    return this._segment;
+  }
+  public putSegment(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment) {
+    this._segment.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment.internalValue;
+  }
+}
+export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentToTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentToHclTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv4_vip ZtnaApplication#ipv4_vip}
+  */
+  readonly ipv4Vip: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6_vip ZtnaApplication#ipv6_vip}
+  */
+  readonly ipv6Vip?: string;
+  /**
+  * segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#segment ZtnaApplication#segment}
+  */
+  readonly segment: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment;
+}
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentToTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv4_vip: cdktf.stringToTerraform(struct!.ipv4Vip),
+    ipv6_vip: cdktf.stringToTerraform(struct!.ipv6Vip),
+    segment: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentToTerraform(struct!.segment),
+  }
+}
+
+
+export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentToHclTerraform(struct?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentOutputReference | ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv4_vip: {
+      value: cdktf.stringToHclTerraform(struct!.ipv4Vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_vip: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    segment: {
+      value: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentToHclTerraform(struct!.segment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv4Vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4Vip = this._ipv4Vip;
+    }
+    if (this._ipv6Vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Vip = this._ipv6Vip;
+    }
+    if (this._segment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ipv4Vip = undefined;
+      this._ipv6Vip = undefined;
+      this._segment.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ipv4Vip = value.ipv4Vip;
+      this._ipv6Vip = value.ipv6Vip;
+      this._segment.internalValue = value.segment;
+    }
+  }
+
+  // ipv4_vip - computed: false, optional: false, required: true
+  private _ipv4Vip?: string; 
+  public get ipv4Vip() {
+    return this.getStringAttribute('ipv4_vip');
+  }
+  public set ipv4Vip(value: string) {
+    this._ipv4Vip = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4VipInput() {
+    return this._ipv4Vip;
+  }
+
+  // ipv6_vip - computed: false, optional: true, required: false
+  private _ipv6Vip?: string; 
+  public get ipv6Vip() {
+    return this.getStringAttribute('ipv6_vip');
+  }
+  public set ipv6Vip(value: string) {
+    this._ipv6Vip = value;
+  }
+  public resetIpv6Vip() {
+    this._ipv6Vip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6VipInput() {
+    return this._ipv6Vip;
+  }
+
+  // segment - computed: false, optional: false, required: true
+  private _segment = new ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference(this, "segment");
+  public get segment() {
+    return this._segment;
+  }
+  public putSegment(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentSegment) {
+    this._segment.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment.internalValue;
+  }
+}
+export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSite {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -1018,21 +1807,21 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteS
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ip ZtnaApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ip ZtnaApplication#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#network ZtnaApplication#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#network ZtnaApplication#network}
   */
   readonly network: string;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#site ZtnaApplication#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#site ZtnaApplication#site}
   */
   readonly site: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSite;
 }
@@ -1197,15 +1986,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteO
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -1352,15 +2141,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteS
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -1507,23 +2296,23 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteS
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ip ZtnaApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ip ZtnaApplication#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#segment ZtnaApplication#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#segment ZtnaApplication#segment}
   */
   readonly segment: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSegment;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#site ZtnaApplication#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#site ZtnaApplication#site}
   */
   readonly site: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentSite;
 }
@@ -1685,15 +2474,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteS
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -1840,25 +2629,25 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#default_v6_vip ZtnaApplication#default_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#default_v6_vip ZtnaApplication#default_v6_vip}
   */
   readonly defaultV6Vip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#default_vip ZtnaApplication#default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#default_vip ZtnaApplication#default_vip}
   */
   readonly defaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#specific_v6_vip ZtnaApplication#specific_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#specific_v6_vip ZtnaApplication#specific_v6_vip}
   */
   readonly specificV6Vip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#specific_vip ZtnaApplication#specific_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#specific_vip ZtnaApplication#specific_vip}
   */
   readonly specificVip?: string;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_network ZtnaApplication#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_network ZtnaApplication#virtual_network}
   */
   readonly virtualNetwork: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork;
 }
@@ -2055,15 +2844,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -2210,13 +2999,13 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#network ZtnaApplication#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#network ZtnaApplication#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
   */
   readonly virtualSite: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite;
 }
@@ -2323,15 +3112,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -2478,15 +3267,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -2633,23 +3422,23 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ip ZtnaApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ip ZtnaApplication#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#segment ZtnaApplication#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#segment ZtnaApplication#segment}
   */
   readonly segment: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
   */
   readonly virtualSite: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite;
 }
@@ -2811,15 +3600,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -2966,21 +3755,21 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ip ZtnaApplication#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ip ZtnaApplication#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#ipv6 ZtnaApplication#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#network ZtnaApplication#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#network ZtnaApplication#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
   */
   readonly virtualSite: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite;
 }
@@ -3145,15 +3934,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtu
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -3300,15 +4089,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SS
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -3457,13 +4246,13 @@ export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereV
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#site ZtnaApplication#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#site ZtnaApplication#site}
   */
   readonly site?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
   */
   readonly virtualSite?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite;
 }
@@ -3576,63 +4365,75 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SS
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhere {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#port ZtnaApplication#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#port ZtnaApplication#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#port_ranges ZtnaApplication#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#port_ranges ZtnaApplication#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#use_default_port ZtnaApplication#use_default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#use_default_port ZtnaApplication#use_default_port}
   */
   readonly useDefaultPort?: boolean | cdktf.IResolvable;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#advertise_on_public ZtnaApplication#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#advertise_on_public ZtnaApplication#advertise_on_public}
   */
   readonly advertiseOnPublic?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublic;
   /**
+  * cloud_edge_segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#cloud_edge_segment ZtnaApplication#cloud_edge_segment}
+  */
+  readonly cloudEdgeSegment?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment;
+  /**
+  * segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#segment ZtnaApplication#segment}
+  */
+  readonly segment?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment;
+  /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#site ZtnaApplication#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#site ZtnaApplication#site}
   */
   readonly site?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSite;
   /**
   * site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#site_segment ZtnaApplication#site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#site_segment ZtnaApplication#site_segment}
   */
   readonly siteSegment?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegment;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_network ZtnaApplication#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_network ZtnaApplication#virtual_network}
   */
   readonly virtualNetwork?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site ZtnaApplication#virtual_site}
   */
   readonly virtualSite?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSite;
   /**
   * virtual_site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site_segment ZtnaApplication#virtual_site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site_segment ZtnaApplication#virtual_site_segment}
   */
   readonly virtualSiteSegment?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteSegment;
   /**
   * virtual_site_with_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#virtual_site_with_vip ZtnaApplication#virtual_site_with_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#virtual_site_with_vip ZtnaApplication#virtual_site_with_vip}
   */
   readonly virtualSiteWithVip?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualSiteWithVip;
   /**
   * vk8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#vk8s_service ZtnaApplication#vk8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#vk8s_service ZtnaApplication#vk8s_service}
   */
   readonly vk8SService?: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVk8SService;
 }
@@ -3647,6 +4448,8 @@ export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereTo
     port_ranges: cdktf.stringToTerraform(struct!.portRanges),
     use_default_port: cdktf.booleanToTerraform(struct!.useDefaultPort),
     advertise_on_public: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublicToTerraform(struct!.advertiseOnPublic),
+    cloud_edge_segment: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToTerraform(struct!.cloudEdgeSegment),
+    segment: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentToTerraform(struct!.segment),
     site: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteToTerraform(struct!.site),
     site_segment: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteSegmentToTerraform(struct!.siteSegment),
     virtual_network: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereVirtualNetworkToTerraform(struct!.virtualNetwork),
@@ -3687,6 +4490,18 @@ export function ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereTo
       isBlock: true,
       type: "list",
       storageClassType: "ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereAdvertiseOnPublicList",
+    },
+    cloud_edge_segment: {
+      value: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToHclTerraform(struct!.cloudEdgeSegment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentList",
+    },
+    segment: {
+      value: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentToHclTerraform(struct!.segment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentList",
     },
     site: {
       value: ztnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSiteToHclTerraform(struct!.site),
@@ -3772,6 +4587,14 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereOutpu
       hasAnyValues = true;
       internalValueResult.advertiseOnPublic = this._advertiseOnPublic?.internalValue;
     }
+    if (this._cloudEdgeSegment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudEdgeSegment = this._cloudEdgeSegment?.internalValue;
+    }
+    if (this._segment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment?.internalValue;
+    }
     if (this._site?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.site = this._site?.internalValue;
@@ -3811,6 +4634,8 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereOutpu
       this._portRanges = undefined;
       this._useDefaultPort = undefined;
       this._advertiseOnPublic.internalValue = undefined;
+      this._cloudEdgeSegment.internalValue = undefined;
+      this._segment.internalValue = undefined;
       this._site.internalValue = undefined;
       this._siteSegment.internalValue = undefined;
       this._virtualNetwork.internalValue = undefined;
@@ -3830,6 +4655,8 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereOutpu
       this._portRanges = value.portRanges;
       this._useDefaultPort = value.useDefaultPort;
       this._advertiseOnPublic.internalValue = value.advertiseOnPublic;
+      this._cloudEdgeSegment.internalValue = value.cloudEdgeSegment;
+      this._segment.internalValue = value.segment;
       this._site.internalValue = value.site;
       this._siteSegment.internalValue = value.siteSegment;
       this._virtualNetwork.internalValue = value.virtualNetwork;
@@ -3902,6 +4729,38 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereOutpu
   // Temporarily expose input value. Use with caution.
   public get advertiseOnPublicInput() {
     return this._advertiseOnPublic.internalValue;
+  }
+
+  // cloud_edge_segment - computed: false, optional: true, required: false
+  private _cloudEdgeSegment = new ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference(this, "cloud_edge_segment");
+  public get cloudEdgeSegment() {
+    return this._cloudEdgeSegment;
+  }
+  public putCloudEdgeSegment(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereCloudEdgeSegment) {
+    this._cloudEdgeSegment.internalValue = value;
+  }
+  public resetCloudEdgeSegment() {
+    this._cloudEdgeSegment.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudEdgeSegmentInput() {
+    return this._cloudEdgeSegment.internalValue;
+  }
+
+  // segment - computed: false, optional: true, required: false
+  private _segment = new ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegmentOutputReference(this, "segment");
+  public get segment() {
+    return this._segment;
+  }
+  public putSegment(value: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhereSegment) {
+    this._segment.internalValue = value;
+  }
+  public resetSegment() {
+    this._segment.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment.internalValue;
   }
 
   // site - computed: false, optional: true, required: false
@@ -4040,7 +4899,7 @@ export interface ZtnaApplicationProxyAdvertisementAdvertiseCustom {
   /**
   * advertise_where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#advertise_where ZtnaApplication#advertise_where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#advertise_where ZtnaApplication#advertise_where}
   */
   readonly advertiseWhere: ZtnaApplicationProxyAdvertisementAdvertiseCustomAdvertiseWhere[] | cdktf.IResolvable;
 }
@@ -4121,15 +4980,15 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseCustomOutputReference ext
 }
 export interface ZtnaApplicationProxyAdvertisementAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#name ZtnaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#name ZtnaApplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#namespace ZtnaApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#tenant ZtnaApplication#tenant}
   */
   readonly tenant?: string;
 }
@@ -4278,7 +5137,7 @@ export interface ZtnaApplicationProxyAdvertisementAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#public_ip ZtnaApplication#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#public_ip ZtnaApplication#public_ip}
   */
   readonly publicIp: ZtnaApplicationProxyAdvertisementAdvertiseOnPublicPublicIp;
 }
@@ -4359,23 +5218,23 @@ export class ZtnaApplicationProxyAdvertisementAdvertiseOnPublicOutputReference e
 }
 export interface ZtnaApplicationProxyAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#advertise_on_public_default_vip ZtnaApplication#advertise_on_public_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#advertise_on_public_default_vip ZtnaApplication#advertise_on_public_default_vip}
   */
   readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#do_not_advertise ZtnaApplication#do_not_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#do_not_advertise ZtnaApplication#do_not_advertise}
   */
   readonly doNotAdvertise?: boolean | cdktf.IResolvable;
   /**
   * advertise_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#advertise_custom ZtnaApplication#advertise_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#advertise_custom ZtnaApplication#advertise_custom}
   */
   readonly advertiseCustom?: ZtnaApplicationProxyAdvertisementAdvertiseCustom;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#advertise_on_public ZtnaApplication#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#advertise_on_public ZtnaApplication#advertise_on_public}
   */
   readonly advertiseOnPublic?: ZtnaApplicationProxyAdvertisementAdvertiseOnPublic;
 }
@@ -4546,7 +5405,7 @@ export class ZtnaApplicationProxyAdvertisementOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application volterra_ztna_application}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application volterra_ztna_application}
 */
 export class ZtnaApplication extends cdktf.TerraformResource {
 
@@ -4562,7 +5421,7 @@ export class ZtnaApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZtnaApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZtnaApplication to import
-  * @param importFromId The id of the existing ZtnaApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZtnaApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZtnaApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4574,7 +5433,7 @@ export class ZtnaApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna_application volterra_ztna_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna_application volterra_ztna_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4585,8 +5444,8 @@ export class ZtnaApplication extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ztna_application',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

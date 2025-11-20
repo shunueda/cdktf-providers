@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface AdvertisePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#address AdvertisePolicy#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#address AdvertisePolicy#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#annotations AdvertisePolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#annotations AdvertisePolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#description AdvertisePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#description AdvertisePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#disable AdvertisePolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable AdvertisePolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#id AdvertisePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#id AdvertisePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#labels AdvertisePolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#labels AdvertisePolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#port AdvertisePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#port AdvertisePolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#port_ranges AdvertisePolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#port_ranges AdvertisePolicy#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#protocol AdvertisePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#protocol AdvertisePolicy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#skip_xff_append AdvertisePolicy#skip_xff_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#skip_xff_append AdvertisePolicy#skip_xff_append}
   */
   readonly skipXffAppend?: boolean | cdktf.IResolvable;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#public_ip AdvertisePolicy#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#public_ip AdvertisePolicy#public_ip}
   */
   readonly publicIp?: AdvertisePolicyPublicIp[] | cdktf.IResolvable;
   /**
   * tls_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tls_parameters AdvertisePolicy#tls_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tls_parameters AdvertisePolicy#tls_parameters}
   */
   readonly tlsParameters?: AdvertisePolicyTlsParameters;
   /**
   * where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#where AdvertisePolicy#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#where AdvertisePolicy#where}
   */
   readonly where?: AdvertisePolicyWhere;
 }
 export interface AdvertisePolicyPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -364,7 +364,7 @@ export class AdvertisePolicyTlsParametersClientCertificateRequiredOutputReferenc
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#hash_algorithms AdvertisePolicy#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#hash_algorithms AdvertisePolicy#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -494,15 +494,15 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesDisableOcspS
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#location AdvertisePolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#location AdvertisePolicy#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -639,13 +639,160 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBl
     return this._storeProvider;
   }
 }
+export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#decryption_provider AdvertisePolicy#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#location AdvertisePolicy#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#store_provider AdvertisePolicy#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#url AdvertisePolicy#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#url AdvertisePolicy#url}
   */
   readonly url: string;
 }
@@ -753,19 +900,332 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyCl
     return this._url;
   }
 }
+export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#key AdvertisePolicy#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#location AdvertisePolicy#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#provider AdvertisePolicy#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#secret_encoding AdvertisePolicy#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#version AdvertisePolicy#version}
+  */
+  readonly version?: number;
+}
+
+export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  */
+  readonly name: string;
+}
+
+export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#secret_encoding_type AdvertisePolicy#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#blindfold_secret_info AdvertisePolicy#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#blindfold_secret_info AdvertisePolicy#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#blindfold_secret_info_internal AdvertisePolicy#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#clear_secret_info AdvertisePolicy#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#clear_secret_info AdvertisePolicy#clear_secret_info}
   */
   readonly clearSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#vault_secret_info AdvertisePolicy#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#wingman_secret_info AdvertisePolicy#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyToTerraform(struct?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputReference | AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey): any {
@@ -774,8 +1234,12 @@ export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -786,17 +1250,41 @@ export function advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: advertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -818,13 +1306,29 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyOu
   public get internalValue(): AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -832,14 +1336,38 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyOu
   public set internalValue(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -858,6 +1386,22 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyOu
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -872,6 +1416,38 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyOu
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificatesUseSystemDefaults {
@@ -925,35 +1501,35 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesUseSystemDef
 }
 export interface AdvertisePolicyTlsParametersCommonParamsTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#certificate_url AdvertisePolicy#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#certificate_url AdvertisePolicy#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#description AdvertisePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#description AdvertisePolicy#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#custom_hash_algorithms AdvertisePolicy#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#custom_hash_algorithms AdvertisePolicy#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#disable_ocsp_stapling AdvertisePolicy#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable_ocsp_stapling AdvertisePolicy#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#private_key AdvertisePolicy#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#private_key AdvertisePolicy#private_key}
   */
   readonly privateKey: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#use_system_defaults AdvertisePolicy#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#use_system_defaults AdvertisePolicy#use_system_defaults}
   */
   readonly useSystemDefaults?: AdvertisePolicyTlsParametersCommonParamsTlsCertificatesUseSystemDefaults;
 }
@@ -1208,15 +1784,15 @@ export class AdvertisePolicyTlsParametersCommonParamsTlsCertificatesList extends
 }
 export interface AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1397,7 +1973,7 @@ export interface AdvertisePolicyTlsParametersCommonParamsValidationParamsTrusted
   /**
   * trusted_ca_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#trusted_ca_list AdvertisePolicy#trusted_ca_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca_list AdvertisePolicy#trusted_ca_list}
   */
   readonly trustedCaList?: AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
 }
@@ -1481,21 +2057,25 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaOu
 }
 export interface AdvertisePolicyTlsParametersCommonParamsValidationParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#skip_hostname_verification AdvertisePolicy#skip_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#skip_hostname_verification AdvertisePolicy#skip_hostname_verification}
   */
   readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#verify_subject_alt_names AdvertisePolicy#verify_subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#use_volterra_trusted_ca_url AdvertisePolicy#use_volterra_trusted_ca_url}
+  */
+  readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#verify_subject_alt_names AdvertisePolicy#verify_subject_alt_names}
   */
   readonly verifySubjectAltNames?: string[];
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#trusted_ca AdvertisePolicy#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca AdvertisePolicy#trusted_ca}
   */
   readonly trustedCa?: AdvertisePolicyTlsParametersCommonParamsValidationParamsTrustedCa;
 }
@@ -1508,6 +2088,7 @@ export function advertisePolicyTlsParametersCommonParamsValidationParamsToTerraf
   return {
     skip_hostname_verification: cdktf.booleanToTerraform(struct!.skipHostnameVerification),
     trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    use_volterra_trusted_ca_url: cdktf.booleanToTerraform(struct!.useVolterraTrustedCaUrl),
     verify_subject_alt_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.verifySubjectAltNames),
     trusted_ca: advertisePolicyTlsParametersCommonParamsValidationParamsTrustedCaToTerraform(struct!.trustedCa),
   }
@@ -1531,6 +2112,12 @@ export function advertisePolicyTlsParametersCommonParamsValidationParamsToHclTer
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    use_volterra_trusted_ca_url: {
+      value: cdktf.booleanToHclTerraform(struct!.useVolterraTrustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     verify_subject_alt_names: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.verifySubjectAltNames),
@@ -1572,6 +2159,10 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsOutputRefer
       hasAnyValues = true;
       internalValueResult.trustedCaUrl = this._trustedCaUrl;
     }
+    if (this._useVolterraTrustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useVolterraTrustedCaUrl = this._useVolterraTrustedCaUrl;
+    }
     if (this._verifySubjectAltNames !== undefined) {
       hasAnyValues = true;
       internalValueResult.verifySubjectAltNames = this._verifySubjectAltNames;
@@ -1588,6 +2179,7 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsOutputRefer
       this.isEmptyObject = false;
       this._skipHostnameVerification = undefined;
       this._trustedCaUrl = undefined;
+      this._useVolterraTrustedCaUrl = undefined;
       this._verifySubjectAltNames = undefined;
       this._trustedCa.internalValue = undefined;
     }
@@ -1595,6 +2187,7 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsOutputRefer
       this.isEmptyObject = Object.keys(value).length === 0;
       this._skipHostnameVerification = value.skipHostnameVerification;
       this._trustedCaUrl = value.trustedCaUrl;
+      this._useVolterraTrustedCaUrl = value.useVolterraTrustedCaUrl;
       this._verifySubjectAltNames = value.verifySubjectAltNames;
       this._trustedCa.internalValue = value.trustedCa;
     }
@@ -1632,6 +2225,22 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsOutputRefer
     return this._trustedCaUrl;
   }
 
+  // use_volterra_trusted_ca_url - computed: false, optional: true, required: false
+  private _useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable; 
+  public get useVolterraTrustedCaUrl() {
+    return this.getBooleanAttribute('use_volterra_trusted_ca_url');
+  }
+  public set useVolterraTrustedCaUrl(value: boolean | cdktf.IResolvable) {
+    this._useVolterraTrustedCaUrl = value;
+  }
+  public resetUseVolterraTrustedCaUrl() {
+    this._useVolterraTrustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useVolterraTrustedCaUrlInput() {
+    return this._useVolterraTrustedCaUrl;
+  }
+
   // verify_subject_alt_names - computed: false, optional: true, required: false
   private _verifySubjectAltNames?: string[]; 
   public get verifySubjectAltNames() {
@@ -1666,27 +2275,31 @@ export class AdvertisePolicyTlsParametersCommonParamsValidationParamsOutputRefer
 }
 export interface AdvertisePolicyTlsParametersCommonParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#cipher_suites AdvertisePolicy#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#cipher_suites AdvertisePolicy#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#maximum_protocol_version AdvertisePolicy#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#maximum_protocol_version AdvertisePolicy#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#minimum_protocol_version AdvertisePolicy#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#minimum_protocol_version AdvertisePolicy#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#trusted_ca_url AdvertisePolicy#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tls_certificates AdvertisePolicy#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tls_certificates AdvertisePolicy#tls_certificates}
   */
   readonly tlsCertificates?: AdvertisePolicyTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable;
   /**
   * validation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#validation_params AdvertisePolicy#validation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#validation_params AdvertisePolicy#validation_params}
   */
   readonly validationParams?: AdvertisePolicyTlsParametersCommonParamsValidationParams;
 }
@@ -1700,6 +2313,7 @@ export function advertisePolicyTlsParametersCommonParamsToTerraform(struct?: Adv
     cipher_suites: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cipherSuites),
     maximum_protocol_version: cdktf.stringToTerraform(struct!.maximumProtocolVersion),
     minimum_protocol_version: cdktf.stringToTerraform(struct!.minimumProtocolVersion),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
     tls_certificates: cdktf.listMapper(advertisePolicyTlsParametersCommonParamsTlsCertificatesToTerraform, true)(struct!.tlsCertificates),
     validation_params: advertisePolicyTlsParametersCommonParamsValidationParamsToTerraform(struct!.validationParams),
   }
@@ -1726,6 +2340,12 @@ export function advertisePolicyTlsParametersCommonParamsToHclTerraform(struct?: 
     },
     minimum_protocol_version: {
       value: cdktf.stringToHclTerraform(struct!.minimumProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1774,6 +2394,10 @@ export class AdvertisePolicyTlsParametersCommonParamsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.minimumProtocolVersion = this._minimumProtocolVersion;
     }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
     if (this._tlsCertificates?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tlsCertificates = this._tlsCertificates?.internalValue;
@@ -1791,6 +2415,7 @@ export class AdvertisePolicyTlsParametersCommonParamsOutputReference extends cdk
       this._cipherSuites = undefined;
       this._maximumProtocolVersion = undefined;
       this._minimumProtocolVersion = undefined;
+      this._trustedCaUrl = undefined;
       this._tlsCertificates.internalValue = undefined;
       this._validationParams.internalValue = undefined;
     }
@@ -1799,6 +2424,7 @@ export class AdvertisePolicyTlsParametersCommonParamsOutputReference extends cdk
       this._cipherSuites = value.cipherSuites;
       this._maximumProtocolVersion = value.maximumProtocolVersion;
       this._minimumProtocolVersion = value.minimumProtocolVersion;
+      this._trustedCaUrl = value.trustedCaUrl;
       this._tlsCertificates.internalValue = value.tlsCertificates;
       this._validationParams.internalValue = value.validationParams;
     }
@@ -1852,6 +2478,22 @@ export class AdvertisePolicyTlsParametersCommonParamsOutputReference extends cdk
     return this._minimumProtocolVersion;
   }
 
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
   // tls_certificates - computed: false, optional: true, required: false
   private _tlsCertificates = new AdvertisePolicyTlsParametersCommonParamsTlsCertificatesList(this, "tls_certificates", false);
   public get tlsCertificates() {
@@ -1882,6 +2524,193 @@ export class AdvertisePolicyTlsParametersCommonParamsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get validationParamsInput() {
     return this._validationParams.internalValue;
+  }
+}
+export interface AdvertisePolicyTlsParametersCrl {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function advertisePolicyTlsParametersCrlToTerraform(struct?: AdvertisePolicyTlsParametersCrl | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function advertisePolicyTlsParametersCrlToHclTerraform(struct?: AdvertisePolicyTlsParametersCrl | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AdvertisePolicyTlsParametersCrlOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AdvertisePolicyTlsParametersCrl | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AdvertisePolicyTlsParametersCrl | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class AdvertisePolicyTlsParametersCrlList extends cdktf.ComplexList {
+  public internalValue? : AdvertisePolicyTlsParametersCrl[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AdvertisePolicyTlsParametersCrlOutputReference {
+    return new AdvertisePolicyTlsParametersCrlOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface AdvertisePolicyTlsParametersNoClientCertificate {
@@ -1935,31 +2764,41 @@ export class AdvertisePolicyTlsParametersNoClientCertificateOutputReference exte
 }
 export interface AdvertisePolicyTlsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#xfcc_header_elements AdvertisePolicy#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#require_client_certificate AdvertisePolicy#require_client_certificate}
+  */
+  readonly requireClientCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#xfcc_header_elements AdvertisePolicy#xfcc_header_elements}
   */
   readonly xfccHeaderElements?: string[];
   /**
   * client_certificate_optional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#client_certificate_optional AdvertisePolicy#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#client_certificate_optional AdvertisePolicy#client_certificate_optional}
   */
   readonly clientCertificateOptional?: AdvertisePolicyTlsParametersClientCertificateOptional;
   /**
   * client_certificate_required block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#client_certificate_required AdvertisePolicy#client_certificate_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#client_certificate_required AdvertisePolicy#client_certificate_required}
   */
   readonly clientCertificateRequired?: AdvertisePolicyTlsParametersClientCertificateRequired;
   /**
   * common_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#common_params AdvertisePolicy#common_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#common_params AdvertisePolicy#common_params}
   */
   readonly commonParams?: AdvertisePolicyTlsParametersCommonParams;
   /**
+  * crl block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#crl AdvertisePolicy#crl}
+  */
+  readonly crl?: AdvertisePolicyTlsParametersCrl[] | cdktf.IResolvable;
+  /**
   * no_client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#no_client_certificate AdvertisePolicy#no_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#no_client_certificate AdvertisePolicy#no_client_certificate}
   */
   readonly noClientCertificate?: AdvertisePolicyTlsParametersNoClientCertificate;
 }
@@ -1970,10 +2809,12 @@ export function advertisePolicyTlsParametersToTerraform(struct?: AdvertisePolicy
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    require_client_certificate: cdktf.booleanToTerraform(struct!.requireClientCertificate),
     xfcc_header_elements: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.xfccHeaderElements),
     client_certificate_optional: advertisePolicyTlsParametersClientCertificateOptionalToTerraform(struct!.clientCertificateOptional),
     client_certificate_required: advertisePolicyTlsParametersClientCertificateRequiredToTerraform(struct!.clientCertificateRequired),
     common_params: advertisePolicyTlsParametersCommonParamsToTerraform(struct!.commonParams),
+    crl: cdktf.listMapper(advertisePolicyTlsParametersCrlToTerraform, true)(struct!.crl),
     no_client_certificate: advertisePolicyTlsParametersNoClientCertificateToTerraform(struct!.noClientCertificate),
   }
 }
@@ -1985,6 +2826,12 @@ export function advertisePolicyTlsParametersToHclTerraform(struct?: AdvertisePol
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    require_client_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.requireClientCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     xfcc_header_elements: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.xfccHeaderElements),
       isBlock: false,
@@ -2008,6 +2855,12 @@ export function advertisePolicyTlsParametersToHclTerraform(struct?: AdvertisePol
       isBlock: true,
       type: "list",
       storageClassType: "AdvertisePolicyTlsParametersCommonParamsList",
+    },
+    crl: {
+      value: cdktf.listMapperHcl(advertisePolicyTlsParametersCrlToHclTerraform, true)(struct!.crl),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AdvertisePolicyTlsParametersCrlList",
     },
     no_client_certificate: {
       value: advertisePolicyTlsParametersNoClientCertificateToHclTerraform(struct!.noClientCertificate),
@@ -2035,6 +2888,10 @@ export class AdvertisePolicyTlsParametersOutputReference extends cdktf.ComplexOb
   public get internalValue(): AdvertisePolicyTlsParameters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._requireClientCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requireClientCertificate = this._requireClientCertificate;
+    }
     if (this._xfccHeaderElements !== undefined) {
       hasAnyValues = true;
       internalValueResult.xfccHeaderElements = this._xfccHeaderElements;
@@ -2051,6 +2908,10 @@ export class AdvertisePolicyTlsParametersOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.commonParams = this._commonParams?.internalValue;
     }
+    if (this._crl?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.crl = this._crl?.internalValue;
+    }
     if (this._noClientCertificate?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.noClientCertificate = this._noClientCertificate?.internalValue;
@@ -2061,20 +2922,40 @@ export class AdvertisePolicyTlsParametersOutputReference extends cdktf.ComplexOb
   public set internalValue(value: AdvertisePolicyTlsParameters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._requireClientCertificate = undefined;
       this._xfccHeaderElements = undefined;
       this._clientCertificateOptional.internalValue = undefined;
       this._clientCertificateRequired.internalValue = undefined;
       this._commonParams.internalValue = undefined;
+      this._crl.internalValue = undefined;
       this._noClientCertificate.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._requireClientCertificate = value.requireClientCertificate;
       this._xfccHeaderElements = value.xfccHeaderElements;
       this._clientCertificateOptional.internalValue = value.clientCertificateOptional;
       this._clientCertificateRequired.internalValue = value.clientCertificateRequired;
       this._commonParams.internalValue = value.commonParams;
+      this._crl.internalValue = value.crl;
       this._noClientCertificate.internalValue = value.noClientCertificate;
     }
+  }
+
+  // require_client_certificate - computed: false, optional: true, required: false
+  private _requireClientCertificate?: boolean | cdktf.IResolvable; 
+  public get requireClientCertificate() {
+    return this.getBooleanAttribute('require_client_certificate');
+  }
+  public set requireClientCertificate(value: boolean | cdktf.IResolvable) {
+    this._requireClientCertificate = value;
+  }
+  public resetRequireClientCertificate() {
+    this._requireClientCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requireClientCertificateInput() {
+    return this._requireClientCertificate;
   }
 
   // xfcc_header_elements - computed: false, optional: true, required: false
@@ -2141,6 +3022,22 @@ export class AdvertisePolicyTlsParametersOutputReference extends cdktf.ComplexOb
     return this._commonParams.internalValue;
   }
 
+  // crl - computed: false, optional: true, required: false
+  private _crl = new AdvertisePolicyTlsParametersCrlList(this, "crl", false);
+  public get crl() {
+    return this._crl;
+  }
+  public putCrl(value: AdvertisePolicyTlsParametersCrl[] | cdktf.IResolvable) {
+    this._crl.internalValue = value;
+  }
+  public resetCrl() {
+    this._crl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get crlInput() {
+    return this._crl.internalValue;
+  }
+
   // no_client_certificate - computed: false, optional: true, required: false
   private _noClientCertificate = new AdvertisePolicyTlsParametersNoClientCertificateOutputReference(this, "no_client_certificate");
   public get noClientCertificate() {
@@ -2159,15 +3056,15 @@ export class AdvertisePolicyTlsParametersOutputReference extends cdktf.ComplexOb
 }
 export interface AdvertisePolicyWhereSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2344,25 +3241,218 @@ export class AdvertisePolicyWhereSiteRefList extends cdktf.ComplexList {
     return new AdvertisePolicyWhereSiteRefOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface AdvertisePolicyWhereSiteRefs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function advertisePolicyWhereSiteRefsToTerraform(struct?: AdvertisePolicyWhereSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function advertisePolicyWhereSiteRefsToHclTerraform(struct?: AdvertisePolicyWhereSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AdvertisePolicyWhereSiteRefsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AdvertisePolicyWhereSiteRefs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AdvertisePolicyWhereSiteRefs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class AdvertisePolicyWhereSiteRefsList extends cdktf.ComplexList {
+  public internalValue? : AdvertisePolicyWhereSiteRefs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AdvertisePolicyWhereSiteRefsOutputReference {
+    return new AdvertisePolicyWhereSiteRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface AdvertisePolicyWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
   */
   readonly ref: AdvertisePolicyWhereSiteRef[] | cdktf.IResolvable;
+  /**
+  * refs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#refs AdvertisePolicy#refs}
+  */
+  readonly refs?: AdvertisePolicyWhereSiteRefs[] | cdktf.IResolvable;
 }
 
 export function advertisePolicyWhereSiteToTerraform(struct?: AdvertisePolicyWhereSiteOutputReference | AdvertisePolicyWhereSite): any {
@@ -2375,6 +3465,7 @@ export function advertisePolicyWhereSiteToTerraform(struct?: AdvertisePolicyWher
     enable_internet_vip: cdktf.booleanToTerraform(struct!.enableInternetVip),
     network_type: cdktf.stringToTerraform(struct!.networkType),
     ref: cdktf.listMapper(advertisePolicyWhereSiteRefToTerraform, true)(struct!.ref),
+    refs: cdktf.listMapper(advertisePolicyWhereSiteRefsToTerraform, true)(struct!.refs),
   }
 }
 
@@ -2408,6 +3499,12 @@ export function advertisePolicyWhereSiteToHclTerraform(struct?: AdvertisePolicyW
       isBlock: true,
       type: "list",
       storageClassType: "AdvertisePolicyWhereSiteRefList",
+    },
+    refs: {
+      value: cdktf.listMapperHcl(advertisePolicyWhereSiteRefsToHclTerraform, true)(struct!.refs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AdvertisePolicyWhereSiteRefsList",
     },
   };
 
@@ -2445,6 +3542,10 @@ export class AdvertisePolicyWhereSiteOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.ref = this._ref?.internalValue;
     }
+    if (this._refs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refs = this._refs?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2455,6 +3556,7 @@ export class AdvertisePolicyWhereSiteOutputReference extends cdktf.ComplexObject
       this._enableInternetVip = undefined;
       this._networkType = undefined;
       this._ref.internalValue = undefined;
+      this._refs.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -2462,6 +3564,7 @@ export class AdvertisePolicyWhereSiteOutputReference extends cdktf.ComplexObject
       this._enableInternetVip = value.enableInternetVip;
       this._networkType = value.networkType;
       this._ref.internalValue = value.ref;
+      this._refs.internalValue = value.refs;
     }
   }
 
@@ -2525,18 +3628,34 @@ export class AdvertisePolicyWhereSiteOutputReference extends cdktf.ComplexObject
   public get refInput() {
     return this._ref.internalValue;
   }
+
+  // refs - computed: false, optional: true, required: false
+  private _refs = new AdvertisePolicyWhereSiteRefsList(this, "refs", false);
+  public get refs() {
+    return this._refs;
+  }
+  public putRefs(value: AdvertisePolicyWhereSiteRefs[] | cdktf.IResolvable) {
+    this._refs.internalValue = value;
+  }
+  public resetRefs() {
+    this._refs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refsInput() {
+    return this._refs.internalValue;
+  }
 }
 export interface AdvertisePolicyWhereVirtualNetworkRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2717,7 +3836,7 @@ export interface AdvertisePolicyWhereVirtualNetwork {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
   */
   readonly ref: AdvertisePolicyWhereVirtualNetworkRef[] | cdktf.IResolvable;
 }
@@ -2798,15 +3917,15 @@ export class AdvertisePolicyWhereVirtualNetworkOutputReference extends cdktf.Com
 }
 export interface AdvertisePolicyWhereVirtualSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2983,25 +4102,218 @@ export class AdvertisePolicyWhereVirtualSiteRefList extends cdktf.ComplexList {
     return new AdvertisePolicyWhereVirtualSiteRefOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface AdvertisePolicyWhereVirtualSiteRefs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#name AdvertisePolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#namespace AdvertisePolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#tenant AdvertisePolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function advertisePolicyWhereVirtualSiteRefsToTerraform(struct?: AdvertisePolicyWhereVirtualSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function advertisePolicyWhereVirtualSiteRefsToHclTerraform(struct?: AdvertisePolicyWhereVirtualSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AdvertisePolicyWhereVirtualSiteRefsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AdvertisePolicyWhereVirtualSiteRefs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AdvertisePolicyWhereVirtualSiteRefs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class AdvertisePolicyWhereVirtualSiteRefsList extends cdktf.ComplexList {
+  public internalValue? : AdvertisePolicyWhereVirtualSiteRefs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AdvertisePolicyWhereVirtualSiteRefsOutputReference {
+    return new AdvertisePolicyWhereVirtualSiteRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface AdvertisePolicyWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#disable_internet_vip AdvertisePolicy#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#enable_internet_vip AdvertisePolicy#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#network_type AdvertisePolicy#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#ref AdvertisePolicy#ref}
   */
   readonly ref: AdvertisePolicyWhereVirtualSiteRef[] | cdktf.IResolvable;
+  /**
+  * refs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#refs AdvertisePolicy#refs}
+  */
+  readonly refs?: AdvertisePolicyWhereVirtualSiteRefs[] | cdktf.IResolvable;
 }
 
 export function advertisePolicyWhereVirtualSiteToTerraform(struct?: AdvertisePolicyWhereVirtualSiteOutputReference | AdvertisePolicyWhereVirtualSite): any {
@@ -3014,6 +4326,7 @@ export function advertisePolicyWhereVirtualSiteToTerraform(struct?: AdvertisePol
     enable_internet_vip: cdktf.booleanToTerraform(struct!.enableInternetVip),
     network_type: cdktf.stringToTerraform(struct!.networkType),
     ref: cdktf.listMapper(advertisePolicyWhereVirtualSiteRefToTerraform, true)(struct!.ref),
+    refs: cdktf.listMapper(advertisePolicyWhereVirtualSiteRefsToTerraform, true)(struct!.refs),
   }
 }
 
@@ -3047,6 +4360,12 @@ export function advertisePolicyWhereVirtualSiteToHclTerraform(struct?: Advertise
       isBlock: true,
       type: "list",
       storageClassType: "AdvertisePolicyWhereVirtualSiteRefList",
+    },
+    refs: {
+      value: cdktf.listMapperHcl(advertisePolicyWhereVirtualSiteRefsToHclTerraform, true)(struct!.refs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AdvertisePolicyWhereVirtualSiteRefsList",
     },
   };
 
@@ -3084,6 +4403,10 @@ export class AdvertisePolicyWhereVirtualSiteOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.ref = this._ref?.internalValue;
     }
+    if (this._refs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refs = this._refs?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3094,6 +4417,7 @@ export class AdvertisePolicyWhereVirtualSiteOutputReference extends cdktf.Comple
       this._enableInternetVip = undefined;
       this._networkType = undefined;
       this._ref.internalValue = undefined;
+      this._refs.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -3101,6 +4425,7 @@ export class AdvertisePolicyWhereVirtualSiteOutputReference extends cdktf.Comple
       this._enableInternetVip = value.enableInternetVip;
       this._networkType = value.networkType;
       this._ref.internalValue = value.ref;
+      this._refs.internalValue = value.refs;
     }
   }
 
@@ -3164,24 +4489,40 @@ export class AdvertisePolicyWhereVirtualSiteOutputReference extends cdktf.Comple
   public get refInput() {
     return this._ref.internalValue;
   }
+
+  // refs - computed: false, optional: true, required: false
+  private _refs = new AdvertisePolicyWhereVirtualSiteRefsList(this, "refs", false);
+  public get refs() {
+    return this._refs;
+  }
+  public putRefs(value: AdvertisePolicyWhereVirtualSiteRefs[] | cdktf.IResolvable) {
+    this._refs.internalValue = value;
+  }
+  public resetRefs() {
+    this._refs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refsInput() {
+    return this._refs.internalValue;
+  }
 }
 export interface AdvertisePolicyWhere {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#site AdvertisePolicy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#site AdvertisePolicy#site}
   */
   readonly site?: AdvertisePolicyWhereSite;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#virtual_network AdvertisePolicy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#virtual_network AdvertisePolicy#virtual_network}
   */
   readonly virtualNetwork?: AdvertisePolicyWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#virtual_site AdvertisePolicy#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#virtual_site AdvertisePolicy#virtual_site}
   */
   readonly virtualSite?: AdvertisePolicyWhereVirtualSite;
 }
@@ -3323,7 +4664,7 @@ export class AdvertisePolicyWhereOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy volterra_advertise_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy volterra_advertise_policy}
 */
 export class AdvertisePolicy extends cdktf.TerraformResource {
 
@@ -3339,7 +4680,7 @@ export class AdvertisePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdvertisePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdvertisePolicy to import
-  * @param importFromId The id of the existing AdvertisePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdvertisePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdvertisePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3351,7 +4692,7 @@ export class AdvertisePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/advertise_policy volterra_advertise_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/advertise_policy volterra_advertise_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3362,8 +4703,8 @@ export class AdvertisePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_advertise_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

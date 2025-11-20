@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ImageRepoConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of active tags for this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#active_tags ImageRepo#active_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#active_tags ImageRepo#active_tags}
   */
   readonly activeTags?: string[];
   /**
   * Known aliases for a given image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#aliases ImageRepo#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#aliases ImageRepo#aliases}
   */
   readonly aliases?: string[];
   /**
   * List of bundles associated with this repo (valid ones: `application|base|byol|ai|ai-gpu|featured|fips`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#bundles ImageRepo#bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#bundles ImageRepo#bundles}
   */
   readonly bundles?: string[];
   /**
   * The name of this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#name ImageRepo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#name ImageRepo#name}
   */
   readonly name: string;
   /**
   * The group that owns the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#parent_id ImageRepo#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#parent_id ImageRepo#parent_id}
   */
   readonly parentId: string;
   /**
   * The README for this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#readme ImageRepo#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#readme ImageRepo#readme}
   */
   readonly readme?: string;
   /**
   * Image tier associated with this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#tier ImageRepo#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#tier ImageRepo#tier}
   */
   readonly tier?: string;
   /**
   * sync_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#sync_config ImageRepo#sync_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#sync_config ImageRepo#sync_config}
   */
   readonly syncConfig?: ImageRepoSyncConfig;
 }
@@ -60,43 +60,43 @@ export interface ImageRepoSyncConfig {
   /**
   * The Amazon repository under which to create a new repository with the same name as the source repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#amazon ImageRepo#amazon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#amazon ImageRepo#amazon}
   */
   readonly amazon?: string;
   /**
   * A json-encoded APKO configuration to overlay on rebuilds of images being synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#apko_overlay ImageRepo#apko_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#apko_overlay ImageRepo#apko_overlay}
   */
   readonly apkoOverlay?: string;
   /**
   * The Azure repository under which to create a new repository with the same name as the source repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#azure ImageRepo#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#azure ImageRepo#azure}
   */
   readonly azure?: string;
   /**
-  * The RFC3339 encoded date and time at which this entitlement will expire.
+  * The RFC3339 encoded date and time at which this entitlement will expire. Computed by API if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#expiration ImageRepo#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#expiration ImageRepo#expiration}
   */
   readonly expiration?: string;
   /**
   * The Google repository under which to create a new repository with the same name as the source repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#google ImageRepo#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#google ImageRepo#google}
   */
   readonly google?: string;
   /**
-  * Controls whether the image grace period functionality is enabled or not.
+  * Controls whether the image grace period functionality is enabled or not. Defaults to false if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#grace_period ImageRepo#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#grace_period ImageRepo#grace_period}
   */
   readonly gracePeriod?: boolean | cdktf.IResolvable;
   /**
   * The source repository to sync images from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#source ImageRepo#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#source ImageRepo#source}
   */
   readonly source?: string;
 }
@@ -298,7 +298,7 @@ export class ImageRepoSyncConfigOutputReference extends cdktf.ComplexObject {
     return this._azure;
   }
 
-  // expiration - computed: false, optional: true, required: false
+  // expiration - computed: true, optional: true, required: false
   private _expiration?: string; 
   public get expiration() {
     return this.getStringAttribute('expiration');
@@ -330,7 +330,7 @@ export class ImageRepoSyncConfigOutputReference extends cdktf.ComplexObject {
     return this._google;
   }
 
-  // grace_period - computed: false, optional: true, required: false
+  // grace_period - computed: true, optional: true, required: false
   private _gracePeriod?: boolean | cdktf.IResolvable; 
   public get gracePeriod() {
     return this.getBooleanAttribute('grace_period');
@@ -369,7 +369,7 @@ export class ImageRepoSyncConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo chainguard_image_repo}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo chainguard_image_repo}
 */
 export class ImageRepo extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class ImageRepo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImageRepo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImageRepo to import
-  * @param importFromId The id of the existing ImageRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImageRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImageRepo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class ImageRepo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/image_repo chainguard_image_repo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.40/docs/resources/image_repo chainguard_image_repo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class ImageRepo extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_image_repo',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.38',
-        providerVersionConstraint: '0.1.38'
+        providerVersion: '0.1.40',
+        providerVersionConstraint: '0.1.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

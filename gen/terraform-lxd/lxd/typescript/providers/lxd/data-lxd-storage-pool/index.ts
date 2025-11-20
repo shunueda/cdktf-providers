@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool
+// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataLxdStoragePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool#name DataLxdStoragePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool#name DataLxdStoragePool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool#project DataLxdStoragePool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool#project DataLxdStoragePool#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool#remote DataLxdStoragePool#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool#remote DataLxdStoragePool#remote}
   */
   readonly remote?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool lxd_storage_pool}
+* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool lxd_storage_pool}
 */
 export class DataLxdStoragePool extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataLxdStoragePool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLxdStoragePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLxdStoragePool to import
-  * @param importFromId The id of the existing DataLxdStoragePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLxdStoragePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLxdStoragePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataLxdStoragePool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/storage_pool lxd_storage_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/storage_pool lxd_storage_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataLxdStoragePool extends cdktf.TerraformDataSource {
       terraformResourceType: 'lxd_storage_pool',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

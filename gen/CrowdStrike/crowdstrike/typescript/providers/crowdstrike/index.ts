@@ -3,6 +3,7 @@ export * as cloudAwsAccount from './cloud-aws-account';
 export * as cloudAzureTenant from './cloud-azure-tenant';
 export * as cloudAzureTenantEventhubSettings from './cloud-azure-tenant-eventhub-settings';
 export * as cloudComplianceCustomFramework from './cloud-compliance-custom-framework';
+export * as cloudGroup from './cloud-group';
 export * as cloudSecurityCustomRule from './cloud-security-custom-rule';
 export * as contentUpdatePolicy from './content-update-policy';
 export * as contentUpdatePolicyPrecedence from './content-update-policy-precedence';

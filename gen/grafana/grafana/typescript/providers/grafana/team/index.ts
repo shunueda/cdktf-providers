@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team
+// https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * An email address for the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#email Team#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#email Team#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#id Team#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#id Team#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,38 +25,38 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   * Team Sync can be provisioned using [grafana_team_external_group resource](https://registry.terraform.io/providers/grafana/grafana/latest/docs/resources/team_external_group).
   *  Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#ignore_externally_synced_members Team#ignore_externally_synced_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#ignore_externally_synced_members Team#ignore_externally_synced_members}
   */
   readonly ignoreExternallySyncedMembers?: boolean | cdktf.IResolvable;
   /**
   * A set of email addresses corresponding to users who should be given membership
   * to the team. Note: users specified here must already exist in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#members Team#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#members Team#members}
   */
   readonly members?: string[];
   /**
   * The display name for the Grafana team created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#name Team#name}
   */
   readonly name: string;
   /**
   * The Organization ID. If not set, the Org ID defined in the provider block will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#org_id Team#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#org_id Team#org_id}
   */
   readonly orgId?: string;
   /**
   * preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#preferences Team#preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#preferences Team#preferences}
   */
   readonly preferences?: TeamPreferences;
   /**
   * team_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#team_sync Team#team_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#team_sync Team#team_sync}
   */
   readonly teamSync?: TeamTeamSync;
 }
@@ -64,25 +64,25 @@ export interface TeamPreferences {
   /**
   * The UID of the dashboard to display when a team member logs in. Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#home_dashboard_uid Team#home_dashboard_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#home_dashboard_uid Team#home_dashboard_uid}
   */
   readonly homeDashboardUid?: string;
   /**
   * The default theme for this team. Available themes are `light`, `dark`, `system`, or an empty string for the default theme. Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#theme Team#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#theme Team#theme}
   */
   readonly theme?: string;
   /**
   * The default timezone for this team. Available values are `utc`, `browser`, or an empty string for the default. Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#timezone Team#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#timezone Team#timezone}
   */
   readonly timezone?: string;
   /**
   * The default week start day for this team. Available values are `sunday`, `monday`, `saturday`, or an empty string for the default. Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#week_start Team#week_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#week_start Team#week_start}
   */
   readonly weekStart?: string;
 }
@@ -253,7 +253,7 @@ export class TeamPreferencesOutputReference extends cdktf.ComplexObject {
 }
 export interface TeamTeamSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#groups Team#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#groups Team#groups}
   */
   readonly groups?: string[];
 }
@@ -337,7 +337,7 @@ export class TeamTeamSyncOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team grafana_team}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team grafana_team}
 */
 export class Team extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class Team extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
-  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class Team extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/team grafana_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/resources/team grafana_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'grafana_team',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.14.0',
-        providerVersionConstraint: '4.14.0'
+        providerVersion: '4.17.0',
+        providerVersionConstraint: '4.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

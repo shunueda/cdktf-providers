@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ZtnaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#annotations Ztna#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#annotations Ztna#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#description Ztna#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#description Ztna#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#disable Ztna#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#disable Ztna#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#id Ztna#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#id Ztna#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#labels Ztna#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#labels Ztna#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#name Ztna#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#name Ztna#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#namespace Ztna#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#namespace Ztna#namespace}
   */
   readonly namespace: string;
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#connectivity Ztna#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#connectivity Ztna#connectivity}
   */
   readonly connectivity?: ZtnaConnectivity;
   /**
   * per_session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#per_session Ztna#per_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#per_session Ztna#per_session}
   */
   readonly perSession?: ZtnaPerSession;
 }
 export interface ZtnaConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#connectivities Ztna#connectivities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#connectivities Ztna#connectivities}
   */
   readonly connectivities?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#connectivity_policy_name Ztna#connectivity_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#connectivity_policy_name Ztna#connectivity_policy_name}
   */
   readonly connectivityPolicyName?: string;
 }
@@ -170,15 +170,15 @@ export class ZtnaConnectivityOutputReference extends cdktf.ComplexObject {
 }
 export interface ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#decryption_provider Ztna#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#decryption_provider Ztna#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#location Ztna#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#location Ztna#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#store_provider Ztna#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#store_provider Ztna#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -315,13 +315,160 @@ export class ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoOu
     return this._storeProvider;
   }
 }
+export interface ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#decryption_provider Ztna#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#location Ztna#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#store_provider Ztna#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function ztnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalOutputReference | ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function ztnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalOutputReference | ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ZtnaPerSessionExternalServerValueAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#provider Ztna#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#provider Ztna#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#url Ztna#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#url Ztna#url}
   */
   readonly url: string;
 }
@@ -429,19 +576,332 @@ export class ZtnaPerSessionExternalServerValueAdminPasswordClearSecretInfoOutput
     return this._url;
   }
 }
+export interface ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#key Ztna#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#location Ztna#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#provider Ztna#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#secret_encoding Ztna#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#version Ztna#version}
+  */
+  readonly version?: number;
+}
+
+export function ztnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoToTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoOutputReference | ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function ztnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoToHclTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoOutputReference | ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#name Ztna#name}
+  */
+  readonly name: string;
+}
+
+export function ztnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoToTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoOutputReference | ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function ztnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoToHclTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoOutputReference | ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ZtnaPerSessionExternalServerValueAdminPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#secret_encoding_type Ztna#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#blindfold_secret_info Ztna#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#blindfold_secret_info Ztna#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#blindfold_secret_info_internal Ztna#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#clear_secret_info Ztna#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#clear_secret_info Ztna#clear_secret_info}
   */
   readonly clearSecretInfo?: ZtnaPerSessionExternalServerValueAdminPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#vault_secret_info Ztna#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#wingman_secret_info Ztna#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo;
 }
 
 export function ztnaPerSessionExternalServerValueAdminPasswordToTerraform(struct?: ZtnaPerSessionExternalServerValueAdminPasswordOutputReference | ZtnaPerSessionExternalServerValueAdminPassword): any {
@@ -450,8 +910,12 @@ export function ztnaPerSessionExternalServerValueAdminPasswordToTerraform(struct
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: ztnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: ztnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: ztnaPerSessionExternalServerValueAdminPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: ztnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: ztnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -462,17 +926,41 @@ export function ztnaPerSessionExternalServerValueAdminPasswordToHclTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: ztnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: ztnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: ztnaPerSessionExternalServerValueAdminPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ZtnaPerSessionExternalServerValueAdminPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: ztnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: ztnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoList",
     },
   };
 
@@ -494,13 +982,29 @@ export class ZtnaPerSessionExternalServerValueAdminPasswordOutputReference exten
   public get internalValue(): ZtnaPerSessionExternalServerValueAdminPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -508,14 +1012,38 @@ export class ZtnaPerSessionExternalServerValueAdminPasswordOutputReference exten
   public set internalValue(value: ZtnaPerSessionExternalServerValueAdminPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -534,6 +1062,22 @@ export class ZtnaPerSessionExternalServerValueAdminPasswordOutputReference exten
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ZtnaPerSessionExternalServerValueAdminPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ZtnaPerSessionExternalServerValueAdminPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -549,24 +1093,56 @@ export class ZtnaPerSessionExternalServerValueAdminPasswordOutputReference exten
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ZtnaPerSessionExternalServerValueAdminPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ZtnaPerSessionExternalServerValueAdminPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface ZtnaPerSessionExternalServerValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#admin_username Ztna#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#admin_username Ztna#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#domain Ztna#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#domain Ztna#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server_type Ztna#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server_type Ztna#server_type}
   */
   readonly serverType?: string;
   /**
   * admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#admin_password Ztna#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#admin_password Ztna#admin_password}
   */
   readonly adminPassword?: ZtnaPerSessionExternalServerValueAdminPassword;
 }
@@ -737,13 +1313,13 @@ export class ZtnaPerSessionExternalServerValueOutputReference extends cdktf.Comp
 }
 export interface ZtnaPerSessionExternalServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#name Ztna#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#name Ztna#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#value Ztna#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#value Ztna#value}
   */
   readonly value: ZtnaPerSessionExternalServerValue;
 }
@@ -850,7 +1426,7 @@ export class ZtnaPerSessionExternalServerOutputReference extends cdktf.ComplexOb
 }
 export interface ZtnaPerSessionLeasePoolMemberValueEndAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#addr Ztna#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#addr Ztna#addr}
   */
   readonly addr?: string;
 }
@@ -934,7 +1510,7 @@ export class ZtnaPerSessionLeasePoolMemberValueEndAddressIpv4OutputReference ext
 }
 export interface ZtnaPerSessionLeasePoolMemberValueEndAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#addr Ztna#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#addr Ztna#addr}
   */
   readonly addr?: string;
 }
@@ -1020,13 +1596,13 @@ export interface ZtnaPerSessionLeasePoolMemberValueEndAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#ipv4 Ztna#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#ipv4 Ztna#ipv4}
   */
   readonly ipv4?: ZtnaPerSessionLeasePoolMemberValueEndAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#ipv6 Ztna#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#ipv6 Ztna#ipv6}
   */
   readonly ipv6?: ZtnaPerSessionLeasePoolMemberValueEndAddressIpv6;
 }
@@ -1139,7 +1715,7 @@ export class ZtnaPerSessionLeasePoolMemberValueEndAddressOutputReference extends
 }
 export interface ZtnaPerSessionLeasePoolMemberValueStartAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#addr Ztna#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#addr Ztna#addr}
   */
   readonly addr?: string;
 }
@@ -1223,7 +1799,7 @@ export class ZtnaPerSessionLeasePoolMemberValueStartAddressIpv4OutputReference e
 }
 export interface ZtnaPerSessionLeasePoolMemberValueStartAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#addr Ztna#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#addr Ztna#addr}
   */
   readonly addr?: string;
 }
@@ -1309,13 +1885,13 @@ export interface ZtnaPerSessionLeasePoolMemberValueStartAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#ipv4 Ztna#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#ipv4 Ztna#ipv4}
   */
   readonly ipv4?: ZtnaPerSessionLeasePoolMemberValueStartAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#ipv6 Ztna#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#ipv6 Ztna#ipv6}
   */
   readonly ipv6?: ZtnaPerSessionLeasePoolMemberValueStartAddressIpv6;
 }
@@ -1430,13 +2006,13 @@ export interface ZtnaPerSessionLeasePoolMemberValue {
   /**
   * end_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#end_address Ztna#end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#end_address Ztna#end_address}
   */
   readonly endAddress?: ZtnaPerSessionLeasePoolMemberValueEndAddress;
   /**
   * start_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#start_address Ztna#start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#start_address Ztna#start_address}
   */
   readonly startAddress?: ZtnaPerSessionLeasePoolMemberValueStartAddress;
 }
@@ -1549,13 +2125,13 @@ export class ZtnaPerSessionLeasePoolMemberValueOutputReference extends cdktf.Com
 }
 export interface ZtnaPerSessionLeasePoolMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#name Ztna#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#name Ztna#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#value Ztna#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#value Ztna#value}
   */
   readonly value: ZtnaPerSessionLeasePoolMemberValue;
 }
@@ -1662,7 +2238,7 @@ export class ZtnaPerSessionLeasePoolMemberOutputReference extends cdktf.ComplexO
 }
 export interface ZtnaPerSessionResourcesValueAclEntriesDestinationIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#addr Ztna#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#addr Ztna#addr}
   */
   readonly addr?: string;
 }
@@ -1746,7 +2322,7 @@ export class ZtnaPerSessionResourcesValueAclEntriesDestinationIpIpv4OutputRefere
 }
 export interface ZtnaPerSessionResourcesValueAclEntriesDestinationIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#addr Ztna#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#addr Ztna#addr}
   */
   readonly addr?: string;
 }
@@ -1832,13 +2408,13 @@ export interface ZtnaPerSessionResourcesValueAclEntriesDestinationIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#ipv4 Ztna#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#ipv4 Ztna#ipv4}
   */
   readonly ipv4?: ZtnaPerSessionResourcesValueAclEntriesDestinationIpIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#ipv6 Ztna#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#ipv6 Ztna#ipv6}
   */
   readonly ipv6?: ZtnaPerSessionResourcesValueAclEntriesDestinationIpIpv6;
 }
@@ -1951,21 +2527,21 @@ export class ZtnaPerSessionResourcesValueAclEntriesDestinationIpOutputReference 
 }
 export interface ZtnaPerSessionResourcesValueAclEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#action Ztna#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#action Ztna#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#destination_end_port Ztna#destination_end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#destination_end_port Ztna#destination_end_port}
   */
   readonly destinationEndPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#destination_start_port Ztna#destination_start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#destination_start_port Ztna#destination_start_port}
   */
   readonly destinationStartPort?: number;
   /**
   * destination_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#destination_ip Ztna#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#destination_ip Ztna#destination_ip}
   */
   readonly destinationIp?: ZtnaPerSessionResourcesValueAclEntriesDestinationIp;
 }
@@ -2170,7 +2746,7 @@ export interface ZtnaPerSessionResourcesValueAcl {
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#entries Ztna#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#entries Ztna#entries}
   */
   readonly entries?: ZtnaPerSessionResourcesValueAclEntries[] | cdktf.IResolvable;
 }
@@ -2254,17 +2830,17 @@ export class ZtnaPerSessionResourcesValueAclOutputReference extends cdktf.Comple
 }
 export interface ZtnaPerSessionResourcesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#connectivity Ztna#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#connectivity Ztna#connectivity}
   */
   readonly connectivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#web Ztna#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#web Ztna#web}
   */
   readonly web?: boolean | cdktf.IResolvable;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#acl Ztna#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#acl Ztna#acl}
   */
   readonly acl?: ZtnaPerSessionResourcesValueAcl;
 }
@@ -2406,13 +2982,13 @@ export class ZtnaPerSessionResourcesValueOutputReference extends cdktf.ComplexOb
 }
 export interface ZtnaPerSessionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#name Ztna#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#name Ztna#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#value Ztna#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#value Ztna#value}
   */
   readonly value: ZtnaPerSessionResourcesValue;
 }
@@ -2519,15 +3095,15 @@ export class ZtnaPerSessionResourcesOutputReference extends cdktf.ComplexObject 
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllowRulesResourceAssign {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#acls Ztna#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#acls Ztna#acls}
   */
   readonly acls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
   */
   readonly networkAccessRule?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#web_top_name Ztna#web_top_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#web_top_name Ztna#web_top_name}
   */
   readonly webTopName?: string;
 }
@@ -2701,21 +3277,21 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDire
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow_name Ztna#allow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow_name Ztna#allow_name}
   */
   readonly allowName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * rules_resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
   */
   readonly rulesResourceAssign?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllowRulesResourceAssign[] | cdktf.IResolvable;
 }
@@ -2920,7 +3496,7 @@ export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActive
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow Ztna#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow Ztna#allow}
   */
   readonly allow?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllow[] | cdktf.IResolvable;
 }
@@ -3004,21 +3580,21 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDire
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#filter Ztna#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#filter Ztna#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#resource_assign Ztna#resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#resource_assign Ztna#resource_assign}
   */
   readonly resourceAssign?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQueryResourceAssign;
 }
@@ -3221,21 +3797,21 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDire
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#expression Ztna#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#expression Ztna#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * active_directory_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#active_directory_query Ztna#active_directory_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#active_directory_query Ztna#active_directory_query}
   */
   readonly activeDirectoryQuery?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthActiveDirectoryQuery[] | cdktf.IResolvable;
 }
@@ -3406,15 +3982,15 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuthOutputRefe
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceAssignAllowRulesResourceAssign {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#acls Ztna#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#acls Ztna#acls}
   */
   readonly acls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
   */
   readonly networkAccessRule?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#web_top_name Ztna#web_top_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#web_top_name Ztna#web_top_name}
   */
   readonly webTopName?: string;
 }
@@ -3588,21 +4164,21 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceA
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceAssignAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow_name Ztna#allow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow_name Ztna#allow_name}
   */
   readonly allowName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * rules_resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
   */
   readonly rulesResourceAssign?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceAssignAllowRulesResourceAssign[] | cdktf.IResolvable;
 }
@@ -3807,7 +4383,7 @@ export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResou
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow Ztna#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow Ztna#allow}
   */
   readonly allow?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceAssignAllow[] | cdktf.IResolvable;
 }
@@ -3891,21 +4467,21 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceA
 }
 export interface ZtnaPerSessionSequenceActionNextActionActiveDirectoryQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#filter Ztna#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#filter Ztna#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#resource_assign Ztna#resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#resource_assign Ztna#resource_assign}
   */
   readonly resourceAssign?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryResourceAssign;
 }
@@ -4076,15 +4652,15 @@ export class ZtnaPerSessionSequenceActionNextActionActiveDirectoryQueryOutputRef
 }
 export interface ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllowRulesResourceAssign {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#acls Ztna#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#acls Ztna#acls}
   */
   readonly acls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
   */
   readonly networkAccessRule?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#web_top_name Ztna#web_top_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#web_top_name Ztna#web_top_name}
   */
   readonly webTopName?: string;
 }
@@ -4258,21 +4834,21 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiv
 }
 export interface ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow_name Ztna#allow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow_name Ztna#allow_name}
   */
   readonly allowName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * rules_resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
   */
   readonly rulesResourceAssign?: ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllowRulesResourceAssign[] | cdktf.IResolvable;
 }
@@ -4477,7 +5053,7 @@ export interface ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthA
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow Ztna#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow Ztna#allow}
   */
   readonly allow?: ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQueryResourceAssignAllow[] | cdktf.IResolvable;
 }
@@ -4561,21 +5137,21 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiv
 }
 export interface ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#filter Ztna#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#filter Ztna#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#resource_assign Ztna#resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#resource_assign Ztna#resource_assign}
   */
   readonly resourceAssign?: ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQueryResourceAssign;
 }
@@ -4778,21 +5354,21 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiv
 }
 export interface ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#expression Ztna#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#expression Ztna#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * active_directory_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#active_directory_query Ztna#active_directory_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#active_directory_query Ztna#active_directory_query}
   */
   readonly activeDirectoryQuery?: ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthActiveDirectoryQuery[] | cdktf.IResolvable;
 }
@@ -4995,15 +5571,15 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuthList 
 }
 export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#decryption_provider Ztna#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#decryption_provider Ztna#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#location Ztna#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#location Ztna#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#store_provider Ztna#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#store_provider Ztna#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5140,13 +5716,160 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBli
     return this._storeProvider;
   }
 }
+export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#decryption_provider Ztna#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#location Ztna#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#store_provider Ztna#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalToTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#provider Ztna#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#provider Ztna#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#url Ztna#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#url Ztna#url}
   */
   readonly url: string;
 }
@@ -5254,19 +5977,332 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordCle
     return this._url;
   }
 }
+export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#key Ztna#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#location Ztna#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#provider Ztna#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#secret_encoding Ztna#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#version Ztna#version}
+  */
+  readonly version?: number;
+}
+
+export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoToTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoToHclTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#name Ztna#name}
+  */
+  readonly name: string;
+}
+
+export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoToTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoToHclTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#secret_encoding_type Ztna#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#blindfold_secret_info Ztna#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#blindfold_secret_info Ztna#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#blindfold_secret_info_internal Ztna#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#clear_secret_info Ztna#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#clear_secret_info Ztna#clear_secret_info}
   */
   readonly clearSecretInfo?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#vault_secret_info Ztna#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#wingman_secret_info Ztna#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo;
 }
 
 export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordToTerraform(struct?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordOutputReference | ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPassword): any {
@@ -5275,8 +6311,12 @@ export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPassword
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -5287,17 +6327,41 @@ export function ztnaPerSessionSequenceActionNextActionLogOnCustomizationPassword
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: ztnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoList",
     },
   };
 
@@ -5319,13 +6383,29 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordOut
   public get internalValue(): ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -5333,14 +6413,38 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordOut
   public set internalValue(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -5359,6 +6463,22 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordOut
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -5374,16 +6494,48 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordOut
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface ZtnaPerSessionSequenceActionNextActionLogOnCustomization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#user_name Ztna#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#user_name Ztna#user_name}
   */
   readonly userName?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#password Ztna#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#password Ztna#password}
   */
   readonly password?: ZtnaPerSessionSequenceActionNextActionLogOnCustomizationPassword;
 }
@@ -5530,13 +6682,13 @@ export interface ZtnaPerSessionSequenceActionNextActionLogOn {
   /**
   * active_directory_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#active_directory_auth Ztna#active_directory_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#active_directory_auth Ztna#active_directory_auth}
   */
   readonly activeDirectoryAuth?: ZtnaPerSessionSequenceActionNextActionLogOnActiveDirectoryAuth[] | cdktf.IResolvable;
   /**
   * customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#customization Ztna#customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#customization Ztna#customization}
   */
   readonly customization?: ZtnaPerSessionSequenceActionNextActionLogOnCustomization[] | cdktf.IResolvable;
 }
@@ -5649,15 +6801,15 @@ export class ZtnaPerSessionSequenceActionNextActionLogOnOutputReference extends 
 }
 export interface ZtnaPerSessionSequenceActionNextActionResourceAssignAllowRulesResourceAssign {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#acls Ztna#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#acls Ztna#acls}
   */
   readonly acls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#network_access_rule Ztna#network_access_rule}
   */
   readonly networkAccessRule?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#web_top_name Ztna#web_top_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#web_top_name Ztna#web_top_name}
   */
   readonly webTopName?: string;
 }
@@ -5831,21 +6983,21 @@ export class ZtnaPerSessionSequenceActionNextActionResourceAssignAllowRulesResou
 }
 export interface ZtnaPerSessionSequenceActionNextActionResourceAssignAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow_name Ztna#allow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow_name Ztna#allow_name}
   */
   readonly allowName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#deny_name Ztna#deny_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#deny_name Ztna#deny_name}
   */
   readonly denyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#server Ztna#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#server Ztna#server}
   */
   readonly server?: string;
   /**
   * rules_resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#rules_resource_assign Ztna#rules_resource_assign}
   */
   readonly rulesResourceAssign?: ZtnaPerSessionSequenceActionNextActionResourceAssignAllowRulesResourceAssign[] | cdktf.IResolvable;
 }
@@ -6050,7 +7202,7 @@ export interface ZtnaPerSessionSequenceActionNextActionResourceAssign {
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#allow Ztna#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#allow Ztna#allow}
   */
   readonly allow?: ZtnaPerSessionSequenceActionNextActionResourceAssignAllow[] | cdktf.IResolvable;
 }
@@ -6136,25 +7288,25 @@ export interface ZtnaPerSessionSequenceActionNextAction {
   /**
   * active_directory_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#active_directory_auth Ztna#active_directory_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#active_directory_auth Ztna#active_directory_auth}
   */
   readonly activeDirectoryAuth?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryAuth;
   /**
   * active_directory_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#active_directory_query Ztna#active_directory_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#active_directory_query Ztna#active_directory_query}
   */
   readonly activeDirectoryQuery?: ZtnaPerSessionSequenceActionNextActionActiveDirectoryQuery;
   /**
   * log_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#log_on Ztna#log_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#log_on Ztna#log_on}
   */
   readonly logOn?: ZtnaPerSessionSequenceActionNextActionLogOn;
   /**
   * resource_assign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#resource_assign Ztna#resource_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#resource_assign Ztna#resource_assign}
   */
   readonly resourceAssign?: ZtnaPerSessionSequenceActionNextActionResourceAssign;
 }
@@ -6325,13 +7477,13 @@ export class ZtnaPerSessionSequenceActionNextActionOutputReference extends cdktf
 }
 export interface ZtnaPerSessionSequenceAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#connectivity_access_policy_name Ztna#connectivity_access_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#connectivity_access_policy_name Ztna#connectivity_access_policy_name}
   */
   readonly connectivityAccessPolicyName?: string;
   /**
   * next_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#next_action Ztna#next_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#next_action Ztna#next_action}
   */
   readonly nextAction?: ZtnaPerSessionSequenceActionNextAction;
 }
@@ -6444,31 +7596,31 @@ export class ZtnaPerSessionSequenceActionOutputReference extends cdktf.ComplexOb
 }
 export interface ZtnaPerSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#per_session_policy_name Ztna#per_session_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#per_session_policy_name Ztna#per_session_policy_name}
   */
   readonly perSessionPolicyName?: string;
   /**
   * external_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#external_server Ztna#external_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#external_server Ztna#external_server}
   */
   readonly externalServer?: ZtnaPerSessionExternalServer;
   /**
   * lease_pool_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#lease_pool_member Ztna#lease_pool_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#lease_pool_member Ztna#lease_pool_member}
   */
   readonly leasePoolMember?: ZtnaPerSessionLeasePoolMember;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#resources Ztna#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#resources Ztna#resources}
   */
   readonly resources?: ZtnaPerSessionResources;
   /**
   * sequence_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#sequence_action Ztna#sequence_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#sequence_action Ztna#sequence_action}
   */
   readonly sequenceAction?: ZtnaPerSessionSequenceAction;
 }
@@ -6668,7 +7820,7 @@ export class ZtnaPerSessionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna volterra_ztna}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna volterra_ztna}
 */
 export class Ztna extends cdktf.TerraformResource {
 
@@ -6684,7 +7836,7 @@ export class Ztna extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ztna resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ztna to import
-  * @param importFromId The id of the existing Ztna that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ztna that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ztna to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6696,7 +7848,7 @@ export class Ztna extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ztna volterra_ztna} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ztna volterra_ztna} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6707,8 +7859,8 @@ export class Ztna extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ztna',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

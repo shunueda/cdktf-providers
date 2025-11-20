@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile
+// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataLxdProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile#name DataLxdProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile#name DataLxdProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile#project DataLxdProfile#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile#project DataLxdProfile#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile#remote DataLxdProfile#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile#remote DataLxdProfile#remote}
   */
   readonly remote?: string;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile#device DataLxdProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile#device DataLxdProfile#device}
   */
   readonly device?: DataLxdProfileDevice[] | cdktf.IResolvable;
 }
@@ -125,7 +125,7 @@ export class DataLxdProfileDeviceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile lxd_profile}
+* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile lxd_profile}
 */
 export class DataLxdProfile extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataLxdProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLxdProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLxdProfile to import
-  * @param importFromId The id of the existing DataLxdProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLxdProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLxdProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataLxdProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/data-sources/profile lxd_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/data-sources/profile lxd_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataLxdProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'lxd_profile',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#annotations DnsZone#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#annotations DnsZone#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#description DnsZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#description DnsZone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#disable DnsZone#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#disable DnsZone#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#id DnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#id DnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#labels DnsZone#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#labels DnsZone#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#namespace DnsZone#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#namespace DnsZone#namespace}
   */
   readonly namespace: string;
   /**
   * primary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#primary DnsZone#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#primary DnsZone#primary}
   */
   readonly primary?: DnsZonePrimary;
   /**
   * secondary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#secondary DnsZone#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#secondary DnsZone#secondary}
   */
   readonly secondary?: DnsZoneSecondary;
 }
 export interface DnsZonePrimaryDefaultRrSetGroupARecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -167,11 +167,11 @@ export class DnsZonePrimaryDefaultRrSetGroupARecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryDefaultRrSetGroupAaaaRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -281,11 +281,11 @@ export class DnsZonePrimaryDefaultRrSetGroupAaaaRecordOutputReference extends cd
 }
 export interface DnsZonePrimaryDefaultRrSetGroupAfsdbRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#hostname DnsZone#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#hostname DnsZone#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#subtype DnsZone#subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#subtype DnsZone#subtype}
   */
   readonly subtype: string;
 }
@@ -424,13 +424,13 @@ export class DnsZonePrimaryDefaultRrSetGroupAfsdbRecordValuesList extends cdktf.
 }
 export interface DnsZonePrimaryDefaultRrSetGroupAfsdbRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupAfsdbRecordValues[] | cdktf.IResolvable;
 }
@@ -540,7 +540,11 @@ export class DnsZonePrimaryDefaultRrSetGroupAfsdbRecordOutputReference extends c
 }
 export interface DnsZonePrimaryDefaultRrSetGroupAliasRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: string;
 }
@@ -551,6 +555,7 @@ export function dnsZonePrimaryDefaultRrSetGroupAliasRecordToTerraform(struct?: D
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    name: cdktf.stringToTerraform(struct!.name),
     value: cdktf.stringToTerraform(struct!.value),
   }
 }
@@ -562,6 +567,12 @@ export function dnsZonePrimaryDefaultRrSetGroupAliasRecordToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     value: {
       value: cdktf.stringToHclTerraform(struct!.value),
       isBlock: false,
@@ -588,6 +599,10 @@ export class DnsZonePrimaryDefaultRrSetGroupAliasRecordOutputReference extends c
   public get internalValue(): DnsZonePrimaryDefaultRrSetGroupAliasRecord | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -598,12 +613,30 @@ export class DnsZonePrimaryDefaultRrSetGroupAliasRecordOutputReference extends c
   public set internalValue(value: DnsZonePrimaryDefaultRrSetGroupAliasRecord | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._name = undefined;
       this._value = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
       this._value = value.value;
     }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
   }
 
   // value - computed: false, optional: true, required: false
@@ -624,15 +657,15 @@ export class DnsZonePrimaryDefaultRrSetGroupAliasRecordOutputReference extends c
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCaaRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#flags DnsZone#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#flags DnsZone#flags}
   */
   readonly flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tag DnsZone#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tag DnsZone#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: string;
 }
@@ -806,13 +839,13 @@ export class DnsZonePrimaryDefaultRrSetGroupCaaRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCaaRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values?: DnsZonePrimaryDefaultRrSetGroupCaaRecordValues[] | cdktf.IResolvable;
 }
@@ -925,7 +958,7 @@ export class DnsZonePrimaryDefaultRrSetGroupCaaRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha1Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -1006,7 +1039,7 @@ export class DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha1DigestOutputRefer
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha256Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -1087,7 +1120,7 @@ export class DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha256DigestOutputRef
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha384Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -1168,29 +1201,29 @@ export class DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha384DigestOutputRef
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCdsRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
   */
   readonly dsKeyAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#key_tag DnsZone#key_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key_tag DnsZone#key_tag}
   */
   readonly keyTag: number;
   /**
   * sha1_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
   */
   readonly sha1Digest?: DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha1Digest;
   /**
   * sha256_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
   */
   readonly sha256Digest?: DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha256Digest;
   /**
   * sha384_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
   */
   readonly sha384Digest?: DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesSha384Digest;
 }
@@ -1416,13 +1449,13 @@ export class DnsZonePrimaryDefaultRrSetGroupCdsRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCdsRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupCdsRecordValues[] | cdktf.IResolvable;
 }
@@ -1532,19 +1565,19 @@ export class DnsZonePrimaryDefaultRrSetGroupCdsRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCertRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#algorithm DnsZone#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#algorithm DnsZone#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cert_key_tag DnsZone#cert_key_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cert_key_tag DnsZone#cert_key_tag}
   */
   readonly certKeyTag: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cert_type DnsZone#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cert_type DnsZone#cert_type}
   */
   readonly certType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#certificate DnsZone#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#certificate DnsZone#certificate}
   */
   readonly certificate: string;
 }
@@ -1735,13 +1768,13 @@ export class DnsZonePrimaryDefaultRrSetGroupCertRecordValuesList extends cdktf.C
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCertRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupCertRecordValues[] | cdktf.IResolvable;
 }
@@ -1851,11 +1884,11 @@ export class DnsZonePrimaryDefaultRrSetGroupCertRecordOutputReference extends cd
 }
 export interface DnsZonePrimaryDefaultRrSetGroupCnameRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: string;
 }
@@ -1963,9 +1996,616 @@ export class DnsZonePrimaryDefaultRrSetGroupCnameRecordOutputReference extends c
     return this._value;
   }
 }
+export interface DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
+  */
+  readonly digest: string;
+}
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestToTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digest: cdktf.stringToTerraform(struct!.digest),
+  }
+}
+
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestToHclTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digest: {
+      value: cdktf.stringToHclTerraform(struct!.digest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digest = this._digest;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digest = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digest = value.digest;
+    }
+  }
+
+  // digest - computed: false, optional: false, required: true
+  private _digest?: string; 
+  public get digest() {
+    return this.getStringAttribute('digest');
+  }
+  public set digest(value: string) {
+    this._digest = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestInput() {
+    return this._digest;
+  }
+}
+export interface DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
+  */
+  readonly digest: string;
+}
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestToTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digest: cdktf.stringToTerraform(struct!.digest),
+  }
+}
+
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestToHclTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digest: {
+      value: cdktf.stringToHclTerraform(struct!.digest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digest = this._digest;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digest = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digest = value.digest;
+    }
+  }
+
+  // digest - computed: false, optional: false, required: true
+  private _digest?: string; 
+  public get digest() {
+    return this.getStringAttribute('digest');
+  }
+  public set digest(value: string) {
+    this._digest = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestInput() {
+    return this._digest;
+  }
+}
+export interface DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
+  */
+  readonly digest: string;
+}
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestToTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digest: cdktf.stringToTerraform(struct!.digest),
+  }
+}
+
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestToHclTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digest: {
+      value: cdktf.stringToHclTerraform(struct!.digest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digest = this._digest;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digest = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digest = value.digest;
+    }
+  }
+
+  // digest - computed: false, optional: false, required: true
+  private _digest?: string; 
+  public get digest() {
+    return this.getStringAttribute('digest');
+  }
+  public set digest(value: string) {
+    this._digest = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestInput() {
+    return this._digest;
+  }
+}
+export interface DnsZonePrimaryDefaultRrSetGroupDlvRecordValues {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
+  */
+  readonly dsKeyAlgorithm: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key_tag DnsZone#key_tag}
+  */
+  readonly keyTag: number;
+  /**
+  * sha1_digest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
+  */
+  readonly sha1Digest?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest;
+  /**
+  * sha256_digest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
+  */
+  readonly sha256Digest?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest;
+  /**
+  * sha384_digest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
+  */
+  readonly sha384Digest?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest;
+}
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesToTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValues | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ds_key_algorithm: cdktf.stringToTerraform(struct!.dsKeyAlgorithm),
+    key_tag: cdktf.numberToTerraform(struct!.keyTag),
+    sha1_digest: dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestToTerraform(struct!.sha1Digest),
+    sha256_digest: dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestToTerraform(struct!.sha256Digest),
+    sha384_digest: dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestToTerraform(struct!.sha384Digest),
+  }
+}
+
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesToHclTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordValues | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ds_key_algorithm: {
+      value: cdktf.stringToHclTerraform(struct!.dsKeyAlgorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key_tag: {
+      value: cdktf.numberToHclTerraform(struct!.keyTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sha1_digest: {
+      value: dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestToHclTerraform(struct!.sha1Digest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestList",
+    },
+    sha256_digest: {
+      value: dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestToHclTerraform(struct!.sha256Digest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestList",
+    },
+    sha384_digest: {
+      value: dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestToHclTerraform(struct!.sha384Digest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DnsZonePrimaryDefaultRrSetGroupDlvRecordValues | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dsKeyAlgorithm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsKeyAlgorithm = this._dsKeyAlgorithm;
+    }
+    if (this._keyTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyTag = this._keyTag;
+    }
+    if (this._sha1Digest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sha1Digest = this._sha1Digest?.internalValue;
+    }
+    if (this._sha256Digest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sha256Digest = this._sha256Digest?.internalValue;
+    }
+    if (this._sha384Digest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sha384Digest = this._sha384Digest?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValues | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dsKeyAlgorithm = undefined;
+      this._keyTag = undefined;
+      this._sha1Digest.internalValue = undefined;
+      this._sha256Digest.internalValue = undefined;
+      this._sha384Digest.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dsKeyAlgorithm = value.dsKeyAlgorithm;
+      this._keyTag = value.keyTag;
+      this._sha1Digest.internalValue = value.sha1Digest;
+      this._sha256Digest.internalValue = value.sha256Digest;
+      this._sha384Digest.internalValue = value.sha384Digest;
+    }
+  }
+
+  // ds_key_algorithm - computed: false, optional: false, required: true
+  private _dsKeyAlgorithm?: string; 
+  public get dsKeyAlgorithm() {
+    return this.getStringAttribute('ds_key_algorithm');
+  }
+  public set dsKeyAlgorithm(value: string) {
+    this._dsKeyAlgorithm = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsKeyAlgorithmInput() {
+    return this._dsKeyAlgorithm;
+  }
+
+  // key_tag - computed: false, optional: false, required: true
+  private _keyTag?: number; 
+  public get keyTag() {
+    return this.getNumberAttribute('key_tag');
+  }
+  public set keyTag(value: number) {
+    this._keyTag = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyTagInput() {
+    return this._keyTag;
+  }
+
+  // sha1_digest - computed: false, optional: true, required: false
+  private _sha1Digest = new DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1DigestOutputReference(this, "sha1_digest");
+  public get sha1Digest() {
+    return this._sha1Digest;
+  }
+  public putSha1Digest(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha1Digest) {
+    this._sha1Digest.internalValue = value;
+  }
+  public resetSha1Digest() {
+    this._sha1Digest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sha1DigestInput() {
+    return this._sha1Digest.internalValue;
+  }
+
+  // sha256_digest - computed: false, optional: true, required: false
+  private _sha256Digest = new DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256DigestOutputReference(this, "sha256_digest");
+  public get sha256Digest() {
+    return this._sha256Digest;
+  }
+  public putSha256Digest(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha256Digest) {
+    this._sha256Digest.internalValue = value;
+  }
+  public resetSha256Digest() {
+    this._sha256Digest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sha256DigestInput() {
+    return this._sha256Digest.internalValue;
+  }
+
+  // sha384_digest - computed: false, optional: true, required: false
+  private _sha384Digest = new DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384DigestOutputReference(this, "sha384_digest");
+  public get sha384Digest() {
+    return this._sha384Digest;
+  }
+  public putSha384Digest(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesSha384Digest) {
+    this._sha384Digest.internalValue = value;
+  }
+  public resetSha384Digest() {
+    this._sha384Digest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sha384DigestInput() {
+    return this._sha384Digest.internalValue;
+  }
+}
+
+export class DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesList extends cdktf.ComplexList {
+  public internalValue? : DnsZonePrimaryDefaultRrSetGroupDlvRecordValues[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesOutputReference {
+    return new DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DnsZonePrimaryDefaultRrSetGroupDlvRecord {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
+  */
+  readonly name?: string;
+  /**
+  * values block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
+  */
+  readonly values: DnsZonePrimaryDefaultRrSetGroupDlvRecordValues[] | cdktf.IResolvable;
+}
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordToTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecord): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    values: cdktf.listMapper(dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesToTerraform, true)(struct!.values),
+  }
+}
+
+
+export function dnsZonePrimaryDefaultRrSetGroupDlvRecordToHclTerraform(struct?: DnsZonePrimaryDefaultRrSetGroupDlvRecordOutputReference | DnsZonePrimaryDefaultRrSetGroupDlvRecord): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(dnsZonePrimaryDefaultRrSetGroupDlvRecordValuesToHclTerraform, true)(struct!.values),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryDefaultRrSetGroupDlvRecordOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryDefaultRrSetGroupDlvRecord | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._values?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryDefaultRrSetGroupDlvRecord | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._values.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._values.internalValue = value.values;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // values - computed: false, optional: false, required: true
+  private _values = new DnsZonePrimaryDefaultRrSetGroupDlvRecordValuesList(this, "values", false);
+  public get values() {
+    return this._values;
+  }
+  public putValues(value: DnsZonePrimaryDefaultRrSetGroupDlvRecordValues[] | cdktf.IResolvable) {
+    this._values.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values.internalValue;
+  }
+}
 export interface DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha1Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -2046,7 +2686,7 @@ export class DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha1DigestOutputRefere
 }
 export interface DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha256Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -2127,7 +2767,7 @@ export class DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha256DigestOutputRefe
 }
 export interface DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha384Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -2208,29 +2848,29 @@ export class DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha384DigestOutputRefe
 }
 export interface DnsZonePrimaryDefaultRrSetGroupDsRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
   */
   readonly dsKeyAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#key_tag DnsZone#key_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key_tag DnsZone#key_tag}
   */
   readonly keyTag: number;
   /**
   * sha1_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
   */
   readonly sha1Digest?: DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha1Digest;
   /**
   * sha256_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
   */
   readonly sha256Digest?: DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha256Digest;
   /**
   * sha384_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
   */
   readonly sha384Digest?: DnsZonePrimaryDefaultRrSetGroupDsRecordValuesSha384Digest;
 }
@@ -2456,13 +3096,13 @@ export class DnsZonePrimaryDefaultRrSetGroupDsRecordValuesList extends cdktf.Com
 }
 export interface DnsZonePrimaryDefaultRrSetGroupDsRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupDsRecordValues[] | cdktf.IResolvable;
 }
@@ -2572,11 +3212,11 @@ export class DnsZonePrimaryDefaultRrSetGroupDsRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryDefaultRrSetGroupEui48Record {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value: string;
 }
@@ -2686,11 +3326,11 @@ export class DnsZonePrimaryDefaultRrSetGroupEui48RecordOutputReference extends c
 }
 export interface DnsZonePrimaryDefaultRrSetGroupEui64Record {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value: string;
 }
@@ -2800,15 +3440,15 @@ export class DnsZonePrimaryDefaultRrSetGroupEui64RecordOutputReference extends c
 }
 export interface DnsZonePrimaryDefaultRrSetGroupLbRecordValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#namespace DnsZone#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#namespace DnsZone#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tenant DnsZone#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tenant DnsZone#tenant}
   */
   readonly tenant?: string;
 }
@@ -2950,13 +3590,13 @@ export class DnsZonePrimaryDefaultRrSetGroupLbRecordValueOutputReference extends
 }
 export interface DnsZonePrimaryDefaultRrSetGroupLbRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: DnsZonePrimaryDefaultRrSetGroupLbRecordValue;
 }
@@ -3069,51 +3709,51 @@ export class DnsZonePrimaryDefaultRrSetGroupLbRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryDefaultRrSetGroupLocRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#altitude DnsZone#altitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#altitude DnsZone#altitude}
   */
   readonly altitude: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#horizontal_precision DnsZone#horizontal_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#horizontal_precision DnsZone#horizontal_precision}
   */
   readonly horizontalPrecision?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_degree DnsZone#latitude_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_degree DnsZone#latitude_degree}
   */
   readonly latitudeDegree: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_hemisphere DnsZone#latitude_hemisphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_hemisphere DnsZone#latitude_hemisphere}
   */
   readonly latitudeHemisphere: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_minute DnsZone#latitude_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_minute DnsZone#latitude_minute}
   */
   readonly latitudeMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_second DnsZone#latitude_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_second DnsZone#latitude_second}
   */
   readonly latitudeSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#location_diameter DnsZone#location_diameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#location_diameter DnsZone#location_diameter}
   */
   readonly locationDiameter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_degree DnsZone#longitude_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_degree DnsZone#longitude_degree}
   */
   readonly longitudeDegree: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_hemisphere DnsZone#longitude_hemisphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_hemisphere DnsZone#longitude_hemisphere}
   */
   readonly longitudeHemisphere: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_minute DnsZone#longitude_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_minute DnsZone#longitude_minute}
   */
   readonly longitudeMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_second DnsZone#longitude_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_second DnsZone#longitude_second}
   */
   readonly longitudeSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#vertical_precision DnsZone#vertical_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#vertical_precision DnsZone#vertical_precision}
   */
   readonly verticalPrecision?: number;
 }
@@ -3533,13 +4173,13 @@ export class DnsZonePrimaryDefaultRrSetGroupLocRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryDefaultRrSetGroupLocRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupLocRecordValues[] | cdktf.IResolvable;
 }
@@ -3649,11 +4289,11 @@ export class DnsZonePrimaryDefaultRrSetGroupLocRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryDefaultRrSetGroupMxRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#domain DnsZone#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#domain DnsZone#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#priority DnsZone#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#priority DnsZone#priority}
   */
   readonly priority?: number;
 }
@@ -3798,13 +4438,13 @@ export class DnsZonePrimaryDefaultRrSetGroupMxRecordValuesList extends cdktf.Com
 }
 export interface DnsZonePrimaryDefaultRrSetGroupMxRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupMxRecordValues[] | cdktf.IResolvable;
 }
@@ -3914,27 +4554,27 @@ export class DnsZonePrimaryDefaultRrSetGroupMxRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryDefaultRrSetGroupNaptrRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#flags DnsZone#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#flags DnsZone#flags}
   */
   readonly flags: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#order DnsZone#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#order DnsZone#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#preference DnsZone#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#preference DnsZone#preference}
   */
   readonly preference: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#regexp DnsZone#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#regexp DnsZone#regexp}
   */
   readonly regexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#replacement DnsZone#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#replacement DnsZone#replacement}
   */
   readonly replacement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#service DnsZone#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#service DnsZone#service}
   */
   readonly service?: string;
 }
@@ -4186,13 +4826,13 @@ export class DnsZonePrimaryDefaultRrSetGroupNaptrRecordValuesList extends cdktf.
 }
 export interface DnsZonePrimaryDefaultRrSetGroupNaptrRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupNaptrRecordValues[] | cdktf.IResolvable;
 }
@@ -4302,11 +4942,11 @@ export class DnsZonePrimaryDefaultRrSetGroupNaptrRecordOutputReference extends c
 }
 export interface DnsZonePrimaryDefaultRrSetGroupNsRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -4416,11 +5056,11 @@ export class DnsZonePrimaryDefaultRrSetGroupNsRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryDefaultRrSetGroupPtrRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -4530,19 +5170,19 @@ export class DnsZonePrimaryDefaultRrSetGroupPtrRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryDefaultRrSetGroupSrvRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#port DnsZone#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#port DnsZone#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#priority DnsZone#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#priority DnsZone#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#target DnsZone#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#target DnsZone#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#weight DnsZone#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#weight DnsZone#weight}
   */
   readonly weight?: number;
 }
@@ -4745,13 +5385,13 @@ export class DnsZonePrimaryDefaultRrSetGroupSrvRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryDefaultRrSetGroupSrvRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupSrvRecordValues[] | cdktf.IResolvable;
 }
@@ -4858,7 +5498,7 @@ export class DnsZonePrimaryDefaultRrSetGroupSrvRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha1Fingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
   */
   readonly fingerprint: string;
 }
@@ -4939,7 +5579,7 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha1FingerprintOutp
 }
 export interface DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha256Fingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
   */
   readonly fingerprint: string;
 }
@@ -5020,19 +5660,27 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha256FingerprintOu
 }
 export interface DnsZonePrimaryDefaultRrSetGroupSshfpRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#algorithm DnsZone#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#algorithm DnsZone#algorithm}
   */
   readonly algorithm: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
+  */
+  readonly fingerprint?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprinttype DnsZone#fingerprinttype}
+  */
+  readonly fingerprinttype: string;
+  /**
   * sha1_fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha1_fingerprint DnsZone#sha1_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_fingerprint DnsZone#sha1_fingerprint}
   */
   readonly sha1Fingerprint?: DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha1Fingerprint;
   /**
   * sha256_fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha256_fingerprint DnsZone#sha256_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_fingerprint DnsZone#sha256_fingerprint}
   */
   readonly sha256Fingerprint?: DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha256Fingerprint;
 }
@@ -5044,6 +5692,8 @@ export function dnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesToTerraform(stru
   }
   return {
     algorithm: cdktf.stringToTerraform(struct!.algorithm),
+    fingerprint: cdktf.stringToTerraform(struct!.fingerprint),
+    fingerprinttype: cdktf.stringToTerraform(struct!.fingerprinttype),
     sha1_fingerprint: dnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha1FingerprintToTerraform(struct!.sha1Fingerprint),
     sha256_fingerprint: dnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesSha256FingerprintToTerraform(struct!.sha256Fingerprint),
   }
@@ -5058,6 +5708,18 @@ export function dnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesToHclTerraform(s
   const attrs = {
     algorithm: {
       value: cdktf.stringToHclTerraform(struct!.algorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fingerprint: {
+      value: cdktf.stringToHclTerraform(struct!.fingerprint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fingerprinttype: {
+      value: cdktf.stringToHclTerraform(struct!.fingerprinttype),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5104,6 +5766,14 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesOutputReference ext
       hasAnyValues = true;
       internalValueResult.algorithm = this._algorithm;
     }
+    if (this._fingerprint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fingerprint = this._fingerprint;
+    }
+    if (this._fingerprinttype !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fingerprinttype = this._fingerprinttype;
+    }
     if (this._sha1Fingerprint?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sha1Fingerprint = this._sha1Fingerprint?.internalValue;
@@ -5120,6 +5790,8 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesOutputReference ext
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._algorithm = undefined;
+      this._fingerprint = undefined;
+      this._fingerprinttype = undefined;
       this._sha1Fingerprint.internalValue = undefined;
       this._sha256Fingerprint.internalValue = undefined;
     }
@@ -5131,6 +5803,8 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesOutputReference ext
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._algorithm = value.algorithm;
+      this._fingerprint = value.fingerprint;
+      this._fingerprinttype = value.fingerprinttype;
       this._sha1Fingerprint.internalValue = value.sha1Fingerprint;
       this._sha256Fingerprint.internalValue = value.sha256Fingerprint;
     }
@@ -5147,6 +5821,35 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get algorithmInput() {
     return this._algorithm;
+  }
+
+  // fingerprint - computed: false, optional: true, required: false
+  private _fingerprint?: string; 
+  public get fingerprint() {
+    return this.getStringAttribute('fingerprint');
+  }
+  public set fingerprint(value: string) {
+    this._fingerprint = value;
+  }
+  public resetFingerprint() {
+    this._fingerprint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fingerprintInput() {
+    return this._fingerprint;
+  }
+
+  // fingerprinttype - computed: false, optional: false, required: true
+  private _fingerprinttype?: string; 
+  public get fingerprinttype() {
+    return this.getStringAttribute('fingerprinttype');
+  }
+  public set fingerprinttype(value: string) {
+    this._fingerprinttype = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fingerprinttypeInput() {
+    return this._fingerprinttype;
   }
 
   // sha1_fingerprint - computed: false, optional: true, required: false
@@ -5203,13 +5906,13 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordValuesList extends cdktf.
 }
 export interface DnsZonePrimaryDefaultRrSetGroupSshfpRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupSshfpRecordValues[] | cdktf.IResolvable;
 }
@@ -5319,19 +6022,19 @@ export class DnsZonePrimaryDefaultRrSetGroupSshfpRecordOutputReference extends c
 }
 export interface DnsZonePrimaryDefaultRrSetGroupTlsaRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#certificate_association_data DnsZone#certificate_association_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#certificate_association_data DnsZone#certificate_association_data}
   */
   readonly certificateAssociationData: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#certificate_usage DnsZone#certificate_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#certificate_usage DnsZone#certificate_usage}
   */
   readonly certificateUsage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#matching_type DnsZone#matching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#matching_type DnsZone#matching_type}
   */
   readonly matchingType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#selector DnsZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#selector DnsZone#selector}
   */
   readonly selector: string;
 }
@@ -5522,13 +6225,13 @@ export class DnsZonePrimaryDefaultRrSetGroupTlsaRecordValuesList extends cdktf.C
 }
 export interface DnsZonePrimaryDefaultRrSetGroupTlsaRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryDefaultRrSetGroupTlsaRecordValues[] | cdktf.IResolvable;
 }
@@ -5638,11 +6341,11 @@ export class DnsZonePrimaryDefaultRrSetGroupTlsaRecordOutputReference extends cd
 }
 export interface DnsZonePrimaryDefaultRrSetGroupTxtRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -5752,137 +6455,143 @@ export class DnsZonePrimaryDefaultRrSetGroupTxtRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryDefaultRrSetGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#description DnsZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#description DnsZone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ttl DnsZone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ttl DnsZone#ttl}
   */
   readonly ttl?: number;
   /**
   * a_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#a_record DnsZone#a_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#a_record DnsZone#a_record}
   */
   readonly aRecord?: DnsZonePrimaryDefaultRrSetGroupARecord;
   /**
   * aaaa_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#aaaa_record DnsZone#aaaa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#aaaa_record DnsZone#aaaa_record}
   */
   readonly aaaaRecord?: DnsZonePrimaryDefaultRrSetGroupAaaaRecord;
   /**
   * afsdb_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#afsdb_record DnsZone#afsdb_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#afsdb_record DnsZone#afsdb_record}
   */
   readonly afsdbRecord?: DnsZonePrimaryDefaultRrSetGroupAfsdbRecord;
   /**
   * alias_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#alias_record DnsZone#alias_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#alias_record DnsZone#alias_record}
   */
   readonly aliasRecord?: DnsZonePrimaryDefaultRrSetGroupAliasRecord;
   /**
   * caa_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#caa_record DnsZone#caa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#caa_record DnsZone#caa_record}
   */
   readonly caaRecord?: DnsZonePrimaryDefaultRrSetGroupCaaRecord;
   /**
   * cds_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cds_record DnsZone#cds_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cds_record DnsZone#cds_record}
   */
   readonly cdsRecord?: DnsZonePrimaryDefaultRrSetGroupCdsRecord;
   /**
   * cert_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cert_record DnsZone#cert_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cert_record DnsZone#cert_record}
   */
   readonly certRecord?: DnsZonePrimaryDefaultRrSetGroupCertRecord;
   /**
   * cname_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cname_record DnsZone#cname_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cname_record DnsZone#cname_record}
   */
   readonly cnameRecord?: DnsZonePrimaryDefaultRrSetGroupCnameRecord;
   /**
+  * dlv_record block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#dlv_record DnsZone#dlv_record}
+  */
+  readonly dlvRecord?: DnsZonePrimaryDefaultRrSetGroupDlvRecord;
+  /**
   * ds_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ds_record DnsZone#ds_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_record DnsZone#ds_record}
   */
   readonly dsRecord?: DnsZonePrimaryDefaultRrSetGroupDsRecord;
   /**
   * eui48_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#eui48_record DnsZone#eui48_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#eui48_record DnsZone#eui48_record}
   */
   readonly eui48Record?: DnsZonePrimaryDefaultRrSetGroupEui48Record;
   /**
   * eui64_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#eui64_record DnsZone#eui64_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#eui64_record DnsZone#eui64_record}
   */
   readonly eui64Record?: DnsZonePrimaryDefaultRrSetGroupEui64Record;
   /**
   * lb_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#lb_record DnsZone#lb_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#lb_record DnsZone#lb_record}
   */
   readonly lbRecord?: DnsZonePrimaryDefaultRrSetGroupLbRecord;
   /**
   * loc_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#loc_record DnsZone#loc_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#loc_record DnsZone#loc_record}
   */
   readonly locRecord?: DnsZonePrimaryDefaultRrSetGroupLocRecord;
   /**
   * mx_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#mx_record DnsZone#mx_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#mx_record DnsZone#mx_record}
   */
   readonly mxRecord?: DnsZonePrimaryDefaultRrSetGroupMxRecord;
   /**
   * naptr_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#naptr_record DnsZone#naptr_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#naptr_record DnsZone#naptr_record}
   */
   readonly naptrRecord?: DnsZonePrimaryDefaultRrSetGroupNaptrRecord;
   /**
   * ns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ns_record DnsZone#ns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ns_record DnsZone#ns_record}
   */
   readonly nsRecord?: DnsZonePrimaryDefaultRrSetGroupNsRecord;
   /**
   * ptr_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ptr_record DnsZone#ptr_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ptr_record DnsZone#ptr_record}
   */
   readonly ptrRecord?: DnsZonePrimaryDefaultRrSetGroupPtrRecord;
   /**
   * srv_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#srv_record DnsZone#srv_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#srv_record DnsZone#srv_record}
   */
   readonly srvRecord?: DnsZonePrimaryDefaultRrSetGroupSrvRecord;
   /**
   * sshfp_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sshfp_record DnsZone#sshfp_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sshfp_record DnsZone#sshfp_record}
   */
   readonly sshfpRecord?: DnsZonePrimaryDefaultRrSetGroupSshfpRecord;
   /**
   * tlsa_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tlsa_record DnsZone#tlsa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tlsa_record DnsZone#tlsa_record}
   */
   readonly tlsaRecord?: DnsZonePrimaryDefaultRrSetGroupTlsaRecord;
   /**
   * txt_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#txt_record DnsZone#txt_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#txt_record DnsZone#txt_record}
   */
   readonly txtRecord?: DnsZonePrimaryDefaultRrSetGroupTxtRecord;
 }
@@ -5903,6 +6612,7 @@ export function dnsZonePrimaryDefaultRrSetGroupToTerraform(struct?: DnsZonePrima
     cds_record: dnsZonePrimaryDefaultRrSetGroupCdsRecordToTerraform(struct!.cdsRecord),
     cert_record: dnsZonePrimaryDefaultRrSetGroupCertRecordToTerraform(struct!.certRecord),
     cname_record: dnsZonePrimaryDefaultRrSetGroupCnameRecordToTerraform(struct!.cnameRecord),
+    dlv_record: dnsZonePrimaryDefaultRrSetGroupDlvRecordToTerraform(struct!.dlvRecord),
     ds_record: dnsZonePrimaryDefaultRrSetGroupDsRecordToTerraform(struct!.dsRecord),
     eui48_record: dnsZonePrimaryDefaultRrSetGroupEui48RecordToTerraform(struct!.eui48Record),
     eui64_record: dnsZonePrimaryDefaultRrSetGroupEui64RecordToTerraform(struct!.eui64Record),
@@ -5985,6 +6695,12 @@ export function dnsZonePrimaryDefaultRrSetGroupToHclTerraform(struct?: DnsZonePr
       isBlock: true,
       type: "list",
       storageClassType: "DnsZonePrimaryDefaultRrSetGroupCnameRecordList",
+    },
+    dlv_record: {
+      value: dnsZonePrimaryDefaultRrSetGroupDlvRecordToHclTerraform(struct!.dlvRecord),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryDefaultRrSetGroupDlvRecordList",
     },
     ds_record: {
       value: dnsZonePrimaryDefaultRrSetGroupDsRecordToHclTerraform(struct!.dsRecord),
@@ -6130,6 +6846,10 @@ export class DnsZonePrimaryDefaultRrSetGroupOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.cnameRecord = this._cnameRecord?.internalValue;
     }
+    if (this._dlvRecord?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dlvRecord = this._dlvRecord?.internalValue;
+    }
     if (this._dsRecord?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.dsRecord = this._dsRecord?.internalValue;
@@ -6199,6 +6919,7 @@ export class DnsZonePrimaryDefaultRrSetGroupOutputReference extends cdktf.Comple
       this._cdsRecord.internalValue = undefined;
       this._certRecord.internalValue = undefined;
       this._cnameRecord.internalValue = undefined;
+      this._dlvRecord.internalValue = undefined;
       this._dsRecord.internalValue = undefined;
       this._eui48Record.internalValue = undefined;
       this._eui64Record.internalValue = undefined;
@@ -6230,6 +6951,7 @@ export class DnsZonePrimaryDefaultRrSetGroupOutputReference extends cdktf.Comple
       this._cdsRecord.internalValue = value.cdsRecord;
       this._certRecord.internalValue = value.certRecord;
       this._cnameRecord.internalValue = value.cnameRecord;
+      this._dlvRecord.internalValue = value.dlvRecord;
       this._dsRecord.internalValue = value.dsRecord;
       this._eui48Record.internalValue = value.eui48Record;
       this._eui64Record.internalValue = value.eui64Record;
@@ -6404,6 +7126,22 @@ export class DnsZonePrimaryDefaultRrSetGroupOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get cnameRecordInput() {
     return this._cnameRecord.internalValue;
+  }
+
+  // dlv_record - computed: false, optional: true, required: false
+  private _dlvRecord = new DnsZonePrimaryDefaultRrSetGroupDlvRecordOutputReference(this, "dlv_record");
+  public get dlvRecord() {
+    return this._dlvRecord;
+  }
+  public putDlvRecord(value: DnsZonePrimaryDefaultRrSetGroupDlvRecord) {
+    this._dlvRecord.internalValue = value;
+  }
+  public resetDlvRecord() {
+    this._dlvRecord.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dlvRecordInput() {
+    return this._dlvRecord.internalValue;
   }
 
   // ds_record - computed: false, optional: true, required: false
@@ -6685,13 +7423,13 @@ export class DnsZonePrimaryDnssecModeEnableOutputReference extends cdktf.Complex
 }
 export interface DnsZonePrimaryDnssecMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#disable DnsZone#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#disable DnsZone#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#enable DnsZone#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#enable DnsZone#enable}
   */
   readonly enable?: DnsZonePrimaryDnssecModeEnable;
 }
@@ -6804,11 +7542,15 @@ export class DnsZonePrimaryDnssecModeOutputReference extends cdktf.ComplexObject
 }
 export interface DnsZonePrimaryRrSetGroupMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#description DnsZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#description DnsZone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#disable DnsZone#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
 }
@@ -6820,6 +7562,7 @@ export function dnsZonePrimaryRrSetGroupMetadataToTerraform(struct?: DnsZonePrim
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -6836,6 +7579,12 @@ export function dnsZonePrimaryRrSetGroupMetadataToHclTerraform(struct?: DnsZoneP
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -6867,6 +7616,10 @@ export class DnsZonePrimaryRrSetGroupMetadataOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -6878,11 +7631,13 @@ export class DnsZonePrimaryRrSetGroupMetadataOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -6903,6 +7658,22 @@ export class DnsZonePrimaryRrSetGroupMetadataOutputReference extends cdktf.Compl
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -6918,11 +7689,11 @@ export class DnsZonePrimaryRrSetGroupMetadataOutputReference extends cdktf.Compl
 }
 export interface DnsZonePrimaryRrSetGroupRrSetARecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -7032,11 +7803,11 @@ export class DnsZonePrimaryRrSetGroupRrSetARecordOutputReference extends cdktf.C
 }
 export interface DnsZonePrimaryRrSetGroupRrSetAaaaRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -7146,11 +7917,11 @@ export class DnsZonePrimaryRrSetGroupRrSetAaaaRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryRrSetGroupRrSetAfsdbRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#hostname DnsZone#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#hostname DnsZone#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#subtype DnsZone#subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#subtype DnsZone#subtype}
   */
   readonly subtype: string;
 }
@@ -7289,13 +8060,13 @@ export class DnsZonePrimaryRrSetGroupRrSetAfsdbRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryRrSetGroupRrSetAfsdbRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetAfsdbRecordValues[] | cdktf.IResolvable;
 }
@@ -7405,7 +8176,11 @@ export class DnsZonePrimaryRrSetGroupRrSetAfsdbRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryRrSetGroupRrSetAliasRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: string;
 }
@@ -7416,6 +8191,7 @@ export function dnsZonePrimaryRrSetGroupRrSetAliasRecordToTerraform(struct?: Dns
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    name: cdktf.stringToTerraform(struct!.name),
     value: cdktf.stringToTerraform(struct!.value),
   }
 }
@@ -7427,6 +8203,12 @@ export function dnsZonePrimaryRrSetGroupRrSetAliasRecordToHclTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     value: {
       value: cdktf.stringToHclTerraform(struct!.value),
       isBlock: false,
@@ -7453,6 +8235,10 @@ export class DnsZonePrimaryRrSetGroupRrSetAliasRecordOutputReference extends cdk
   public get internalValue(): DnsZonePrimaryRrSetGroupRrSetAliasRecord | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -7463,12 +8249,30 @@ export class DnsZonePrimaryRrSetGroupRrSetAliasRecordOutputReference extends cdk
   public set internalValue(value: DnsZonePrimaryRrSetGroupRrSetAliasRecord | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._name = undefined;
       this._value = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
       this._value = value.value;
     }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
   }
 
   // value - computed: false, optional: true, required: false
@@ -7489,15 +8293,15 @@ export class DnsZonePrimaryRrSetGroupRrSetAliasRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCaaRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#flags DnsZone#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#flags DnsZone#flags}
   */
   readonly flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tag DnsZone#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tag DnsZone#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: string;
 }
@@ -7671,13 +8475,13 @@ export class DnsZonePrimaryRrSetGroupRrSetCaaRecordValuesList extends cdktf.Comp
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCaaRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values?: DnsZonePrimaryRrSetGroupRrSetCaaRecordValues[] | cdktf.IResolvable;
 }
@@ -7790,7 +8594,7 @@ export class DnsZonePrimaryRrSetGroupRrSetCaaRecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha1Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -7871,7 +8675,7 @@ export class DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha1DigestOutputReferen
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha256Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -7952,7 +8756,7 @@ export class DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha256DigestOutputRefer
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha384Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -8033,29 +8837,29 @@ export class DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha384DigestOutputRefer
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCdsRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
   */
   readonly dsKeyAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#key_tag DnsZone#key_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key_tag DnsZone#key_tag}
   */
   readonly keyTag: number;
   /**
   * sha1_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
   */
   readonly sha1Digest?: DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha1Digest;
   /**
   * sha256_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
   */
   readonly sha256Digest?: DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha256Digest;
   /**
   * sha384_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
   */
   readonly sha384Digest?: DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesSha384Digest;
 }
@@ -8281,13 +9085,13 @@ export class DnsZonePrimaryRrSetGroupRrSetCdsRecordValuesList extends cdktf.Comp
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCdsRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetCdsRecordValues[] | cdktf.IResolvable;
 }
@@ -8397,19 +9201,19 @@ export class DnsZonePrimaryRrSetGroupRrSetCdsRecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCertRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#algorithm DnsZone#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#algorithm DnsZone#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cert_key_tag DnsZone#cert_key_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cert_key_tag DnsZone#cert_key_tag}
   */
   readonly certKeyTag: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cert_type DnsZone#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cert_type DnsZone#cert_type}
   */
   readonly certType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#certificate DnsZone#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#certificate DnsZone#certificate}
   */
   readonly certificate: string;
 }
@@ -8600,13 +9404,13 @@ export class DnsZonePrimaryRrSetGroupRrSetCertRecordValuesList extends cdktf.Com
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCertRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetCertRecordValues[] | cdktf.IResolvable;
 }
@@ -8716,11 +9520,11 @@ export class DnsZonePrimaryRrSetGroupRrSetCertRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryRrSetGroupRrSetCnameRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: string;
 }
@@ -8828,9 +9632,616 @@ export class DnsZonePrimaryRrSetGroupRrSetCnameRecordOutputReference extends cdk
     return this._value;
   }
 }
+export interface DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
+  */
+  readonly digest: string;
+}
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestToTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digest: cdktf.stringToTerraform(struct!.digest),
+  }
+}
+
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestToHclTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digest: {
+      value: cdktf.stringToHclTerraform(struct!.digest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digest = this._digest;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digest = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digest = value.digest;
+    }
+  }
+
+  // digest - computed: false, optional: false, required: true
+  private _digest?: string; 
+  public get digest() {
+    return this.getStringAttribute('digest');
+  }
+  public set digest(value: string) {
+    this._digest = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestInput() {
+    return this._digest;
+  }
+}
+export interface DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
+  */
+  readonly digest: string;
+}
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestToTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digest: cdktf.stringToTerraform(struct!.digest),
+  }
+}
+
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestToHclTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digest: {
+      value: cdktf.stringToHclTerraform(struct!.digest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digest = this._digest;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digest = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digest = value.digest;
+    }
+  }
+
+  // digest - computed: false, optional: false, required: true
+  private _digest?: string; 
+  public get digest() {
+    return this.getStringAttribute('digest');
+  }
+  public set digest(value: string) {
+    this._digest = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestInput() {
+    return this._digest;
+  }
+}
+export interface DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
+  */
+  readonly digest: string;
+}
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestToTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digest: cdktf.stringToTerraform(struct!.digest),
+  }
+}
+
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestToHclTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digest: {
+      value: cdktf.stringToHclTerraform(struct!.digest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digest = this._digest;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digest = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digest = value.digest;
+    }
+  }
+
+  // digest - computed: false, optional: false, required: true
+  private _digest?: string; 
+  public get digest() {
+    return this.getStringAttribute('digest');
+  }
+  public set digest(value: string) {
+    this._digest = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestInput() {
+    return this._digest;
+  }
+}
+export interface DnsZonePrimaryRrSetGroupRrSetDlvRecordValues {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
+  */
+  readonly dsKeyAlgorithm: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key_tag DnsZone#key_tag}
+  */
+  readonly keyTag: number;
+  /**
+  * sha1_digest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
+  */
+  readonly sha1Digest?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest;
+  /**
+  * sha256_digest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
+  */
+  readonly sha256Digest?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest;
+  /**
+  * sha384_digest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
+  */
+  readonly sha384Digest?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest;
+}
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesToTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValues | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ds_key_algorithm: cdktf.stringToTerraform(struct!.dsKeyAlgorithm),
+    key_tag: cdktf.numberToTerraform(struct!.keyTag),
+    sha1_digest: dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestToTerraform(struct!.sha1Digest),
+    sha256_digest: dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestToTerraform(struct!.sha256Digest),
+    sha384_digest: dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestToTerraform(struct!.sha384Digest),
+  }
+}
+
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesToHclTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordValues | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ds_key_algorithm: {
+      value: cdktf.stringToHclTerraform(struct!.dsKeyAlgorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key_tag: {
+      value: cdktf.numberToHclTerraform(struct!.keyTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sha1_digest: {
+      value: dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestToHclTerraform(struct!.sha1Digest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestList",
+    },
+    sha256_digest: {
+      value: dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestToHclTerraform(struct!.sha256Digest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestList",
+    },
+    sha384_digest: {
+      value: dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestToHclTerraform(struct!.sha384Digest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DnsZonePrimaryRrSetGroupRrSetDlvRecordValues | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dsKeyAlgorithm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsKeyAlgorithm = this._dsKeyAlgorithm;
+    }
+    if (this._keyTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyTag = this._keyTag;
+    }
+    if (this._sha1Digest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sha1Digest = this._sha1Digest?.internalValue;
+    }
+    if (this._sha256Digest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sha256Digest = this._sha256Digest?.internalValue;
+    }
+    if (this._sha384Digest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sha384Digest = this._sha384Digest?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValues | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dsKeyAlgorithm = undefined;
+      this._keyTag = undefined;
+      this._sha1Digest.internalValue = undefined;
+      this._sha256Digest.internalValue = undefined;
+      this._sha384Digest.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dsKeyAlgorithm = value.dsKeyAlgorithm;
+      this._keyTag = value.keyTag;
+      this._sha1Digest.internalValue = value.sha1Digest;
+      this._sha256Digest.internalValue = value.sha256Digest;
+      this._sha384Digest.internalValue = value.sha384Digest;
+    }
+  }
+
+  // ds_key_algorithm - computed: false, optional: false, required: true
+  private _dsKeyAlgorithm?: string; 
+  public get dsKeyAlgorithm() {
+    return this.getStringAttribute('ds_key_algorithm');
+  }
+  public set dsKeyAlgorithm(value: string) {
+    this._dsKeyAlgorithm = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsKeyAlgorithmInput() {
+    return this._dsKeyAlgorithm;
+  }
+
+  // key_tag - computed: false, optional: false, required: true
+  private _keyTag?: number; 
+  public get keyTag() {
+    return this.getNumberAttribute('key_tag');
+  }
+  public set keyTag(value: number) {
+    this._keyTag = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyTagInput() {
+    return this._keyTag;
+  }
+
+  // sha1_digest - computed: false, optional: true, required: false
+  private _sha1Digest = new DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1DigestOutputReference(this, "sha1_digest");
+  public get sha1Digest() {
+    return this._sha1Digest;
+  }
+  public putSha1Digest(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha1Digest) {
+    this._sha1Digest.internalValue = value;
+  }
+  public resetSha1Digest() {
+    this._sha1Digest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sha1DigestInput() {
+    return this._sha1Digest.internalValue;
+  }
+
+  // sha256_digest - computed: false, optional: true, required: false
+  private _sha256Digest = new DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256DigestOutputReference(this, "sha256_digest");
+  public get sha256Digest() {
+    return this._sha256Digest;
+  }
+  public putSha256Digest(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha256Digest) {
+    this._sha256Digest.internalValue = value;
+  }
+  public resetSha256Digest() {
+    this._sha256Digest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sha256DigestInput() {
+    return this._sha256Digest.internalValue;
+  }
+
+  // sha384_digest - computed: false, optional: true, required: false
+  private _sha384Digest = new DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384DigestOutputReference(this, "sha384_digest");
+  public get sha384Digest() {
+    return this._sha384Digest;
+  }
+  public putSha384Digest(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesSha384Digest) {
+    this._sha384Digest.internalValue = value;
+  }
+  public resetSha384Digest() {
+    this._sha384Digest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sha384DigestInput() {
+    return this._sha384Digest.internalValue;
+  }
+}
+
+export class DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesList extends cdktf.ComplexList {
+  public internalValue? : DnsZonePrimaryRrSetGroupRrSetDlvRecordValues[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesOutputReference {
+    return new DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DnsZonePrimaryRrSetGroupRrSetDlvRecord {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
+  */
+  readonly name?: string;
+  /**
+  * values block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
+  */
+  readonly values: DnsZonePrimaryRrSetGroupRrSetDlvRecordValues[] | cdktf.IResolvable;
+}
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordToTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecord): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    values: cdktf.listMapper(dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesToTerraform, true)(struct!.values),
+  }
+}
+
+
+export function dnsZonePrimaryRrSetGroupRrSetDlvRecordToHclTerraform(struct?: DnsZonePrimaryRrSetGroupRrSetDlvRecordOutputReference | DnsZonePrimaryRrSetGroupRrSetDlvRecord): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(dnsZonePrimaryRrSetGroupRrSetDlvRecordValuesToHclTerraform, true)(struct!.values),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZonePrimaryRrSetGroupRrSetDlvRecordOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZonePrimaryRrSetGroupRrSetDlvRecord | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._values?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZonePrimaryRrSetGroupRrSetDlvRecord | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._values.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._values.internalValue = value.values;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // values - computed: false, optional: false, required: true
+  private _values = new DnsZonePrimaryRrSetGroupRrSetDlvRecordValuesList(this, "values", false);
+  public get values() {
+    return this._values;
+  }
+  public putValues(value: DnsZonePrimaryRrSetGroupRrSetDlvRecordValues[] | cdktf.IResolvable) {
+    this._values.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values.internalValue;
+  }
+}
 export interface DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha1Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -8911,7 +10322,7 @@ export class DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha1DigestOutputReferenc
 }
 export interface DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha256Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -8992,7 +10403,7 @@ export class DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha256DigestOutputRefere
 }
 export interface DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha384Digest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#digest DnsZone#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#digest DnsZone#digest}
   */
   readonly digest: string;
 }
@@ -9073,29 +10484,29 @@ export class DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha384DigestOutputRefere
 }
 export interface DnsZonePrimaryRrSetGroupRrSetDsRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_key_algorithm DnsZone#ds_key_algorithm}
   */
   readonly dsKeyAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#key_tag DnsZone#key_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key_tag DnsZone#key_tag}
   */
   readonly keyTag: number;
   /**
   * sha1_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_digest DnsZone#sha1_digest}
   */
   readonly sha1Digest?: DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha1Digest;
   /**
   * sha256_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_digest DnsZone#sha256_digest}
   */
   readonly sha256Digest?: DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha256Digest;
   /**
   * sha384_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha384_digest DnsZone#sha384_digest}
   */
   readonly sha384Digest?: DnsZonePrimaryRrSetGroupRrSetDsRecordValuesSha384Digest;
 }
@@ -9321,13 +10732,13 @@ export class DnsZonePrimaryRrSetGroupRrSetDsRecordValuesList extends cdktf.Compl
 }
 export interface DnsZonePrimaryRrSetGroupRrSetDsRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetDsRecordValues[] | cdktf.IResolvable;
 }
@@ -9437,11 +10848,11 @@ export class DnsZonePrimaryRrSetGroupRrSetDsRecordOutputReference extends cdktf.
 }
 export interface DnsZonePrimaryRrSetGroupRrSetEui48Record {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value: string;
 }
@@ -9551,11 +10962,11 @@ export class DnsZonePrimaryRrSetGroupRrSetEui48RecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryRrSetGroupRrSetEui64Record {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value: string;
 }
@@ -9665,15 +11076,15 @@ export class DnsZonePrimaryRrSetGroupRrSetEui64RecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryRrSetGroupRrSetLbRecordValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#namespace DnsZone#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#namespace DnsZone#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tenant DnsZone#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tenant DnsZone#tenant}
   */
   readonly tenant?: string;
 }
@@ -9815,13 +11226,13 @@ export class DnsZonePrimaryRrSetGroupRrSetLbRecordValueOutputReference extends c
 }
 export interface DnsZonePrimaryRrSetGroupRrSetLbRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#value DnsZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#value DnsZone#value}
   */
   readonly value?: DnsZonePrimaryRrSetGroupRrSetLbRecordValue;
 }
@@ -9934,51 +11345,51 @@ export class DnsZonePrimaryRrSetGroupRrSetLbRecordOutputReference extends cdktf.
 }
 export interface DnsZonePrimaryRrSetGroupRrSetLocRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#altitude DnsZone#altitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#altitude DnsZone#altitude}
   */
   readonly altitude: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#horizontal_precision DnsZone#horizontal_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#horizontal_precision DnsZone#horizontal_precision}
   */
   readonly horizontalPrecision?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_degree DnsZone#latitude_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_degree DnsZone#latitude_degree}
   */
   readonly latitudeDegree: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_hemisphere DnsZone#latitude_hemisphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_hemisphere DnsZone#latitude_hemisphere}
   */
   readonly latitudeHemisphere: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_minute DnsZone#latitude_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_minute DnsZone#latitude_minute}
   */
   readonly latitudeMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#latitude_second DnsZone#latitude_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#latitude_second DnsZone#latitude_second}
   */
   readonly latitudeSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#location_diameter DnsZone#location_diameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#location_diameter DnsZone#location_diameter}
   */
   readonly locationDiameter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_degree DnsZone#longitude_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_degree DnsZone#longitude_degree}
   */
   readonly longitudeDegree: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_hemisphere DnsZone#longitude_hemisphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_hemisphere DnsZone#longitude_hemisphere}
   */
   readonly longitudeHemisphere: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_minute DnsZone#longitude_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_minute DnsZone#longitude_minute}
   */
   readonly longitudeMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#longitude_second DnsZone#longitude_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#longitude_second DnsZone#longitude_second}
   */
   readonly longitudeSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#vertical_precision DnsZone#vertical_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#vertical_precision DnsZone#vertical_precision}
   */
   readonly verticalPrecision?: number;
 }
@@ -10398,13 +11809,13 @@ export class DnsZonePrimaryRrSetGroupRrSetLocRecordValuesList extends cdktf.Comp
 }
 export interface DnsZonePrimaryRrSetGroupRrSetLocRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetLocRecordValues[] | cdktf.IResolvable;
 }
@@ -10514,11 +11925,11 @@ export class DnsZonePrimaryRrSetGroupRrSetLocRecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryRrSetGroupRrSetMxRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#domain DnsZone#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#domain DnsZone#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#priority DnsZone#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#priority DnsZone#priority}
   */
   readonly priority?: number;
 }
@@ -10663,13 +12074,13 @@ export class DnsZonePrimaryRrSetGroupRrSetMxRecordValuesList extends cdktf.Compl
 }
 export interface DnsZonePrimaryRrSetGroupRrSetMxRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetMxRecordValues[] | cdktf.IResolvable;
 }
@@ -10779,27 +12190,27 @@ export class DnsZonePrimaryRrSetGroupRrSetMxRecordOutputReference extends cdktf.
 }
 export interface DnsZonePrimaryRrSetGroupRrSetNaptrRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#flags DnsZone#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#flags DnsZone#flags}
   */
   readonly flags: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#order DnsZone#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#order DnsZone#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#preference DnsZone#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#preference DnsZone#preference}
   */
   readonly preference: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#regexp DnsZone#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#regexp DnsZone#regexp}
   */
   readonly regexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#replacement DnsZone#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#replacement DnsZone#replacement}
   */
   readonly replacement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#service DnsZone#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#service DnsZone#service}
   */
   readonly service?: string;
 }
@@ -11051,13 +12462,13 @@ export class DnsZonePrimaryRrSetGroupRrSetNaptrRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryRrSetGroupRrSetNaptrRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetNaptrRecordValues[] | cdktf.IResolvable;
 }
@@ -11167,11 +12578,11 @@ export class DnsZonePrimaryRrSetGroupRrSetNaptrRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryRrSetGroupRrSetNsRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -11281,11 +12692,11 @@ export class DnsZonePrimaryRrSetGroupRrSetNsRecordOutputReference extends cdktf.
 }
 export interface DnsZonePrimaryRrSetGroupRrSetPtrRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -11395,19 +12806,19 @@ export class DnsZonePrimaryRrSetGroupRrSetPtrRecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryRrSetGroupRrSetSrvRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#port DnsZone#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#port DnsZone#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#priority DnsZone#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#priority DnsZone#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#target DnsZone#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#target DnsZone#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#weight DnsZone#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#weight DnsZone#weight}
   */
   readonly weight?: number;
 }
@@ -11610,13 +13021,13 @@ export class DnsZonePrimaryRrSetGroupRrSetSrvRecordValuesList extends cdktf.Comp
 }
 export interface DnsZonePrimaryRrSetGroupRrSetSrvRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetSrvRecordValues[] | cdktf.IResolvable;
 }
@@ -11723,7 +13134,7 @@ export class DnsZonePrimaryRrSetGroupRrSetSrvRecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha1Fingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
   */
   readonly fingerprint: string;
 }
@@ -11804,7 +13215,7 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha1FingerprintOutput
 }
 export interface DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha256Fingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
   */
   readonly fingerprint: string;
 }
@@ -11885,19 +13296,27 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha256FingerprintOutp
 }
 export interface DnsZonePrimaryRrSetGroupRrSetSshfpRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#algorithm DnsZone#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#algorithm DnsZone#algorithm}
   */
   readonly algorithm: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprint DnsZone#fingerprint}
+  */
+  readonly fingerprint?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#fingerprinttype DnsZone#fingerprinttype}
+  */
+  readonly fingerprinttype: string;
+  /**
   * sha1_fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha1_fingerprint DnsZone#sha1_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha1_fingerprint DnsZone#sha1_fingerprint}
   */
   readonly sha1Fingerprint?: DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha1Fingerprint;
   /**
   * sha256_fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sha256_fingerprint DnsZone#sha256_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sha256_fingerprint DnsZone#sha256_fingerprint}
   */
   readonly sha256Fingerprint?: DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha256Fingerprint;
 }
@@ -11909,6 +13328,8 @@ export function dnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesToTerraform(struct
   }
   return {
     algorithm: cdktf.stringToTerraform(struct!.algorithm),
+    fingerprint: cdktf.stringToTerraform(struct!.fingerprint),
+    fingerprinttype: cdktf.stringToTerraform(struct!.fingerprinttype),
     sha1_fingerprint: dnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha1FingerprintToTerraform(struct!.sha1Fingerprint),
     sha256_fingerprint: dnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesSha256FingerprintToTerraform(struct!.sha256Fingerprint),
   }
@@ -11923,6 +13344,18 @@ export function dnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesToHclTerraform(str
   const attrs = {
     algorithm: {
       value: cdktf.stringToHclTerraform(struct!.algorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fingerprint: {
+      value: cdktf.stringToHclTerraform(struct!.fingerprint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fingerprinttype: {
+      value: cdktf.stringToHclTerraform(struct!.fingerprinttype),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -11969,6 +13402,14 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesOutputReference exten
       hasAnyValues = true;
       internalValueResult.algorithm = this._algorithm;
     }
+    if (this._fingerprint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fingerprint = this._fingerprint;
+    }
+    if (this._fingerprinttype !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fingerprinttype = this._fingerprinttype;
+    }
     if (this._sha1Fingerprint?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sha1Fingerprint = this._sha1Fingerprint?.internalValue;
@@ -11985,6 +13426,8 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesOutputReference exten
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._algorithm = undefined;
+      this._fingerprint = undefined;
+      this._fingerprinttype = undefined;
       this._sha1Fingerprint.internalValue = undefined;
       this._sha256Fingerprint.internalValue = undefined;
     }
@@ -11996,6 +13439,8 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesOutputReference exten
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._algorithm = value.algorithm;
+      this._fingerprint = value.fingerprint;
+      this._fingerprinttype = value.fingerprinttype;
       this._sha1Fingerprint.internalValue = value.sha1Fingerprint;
       this._sha256Fingerprint.internalValue = value.sha256Fingerprint;
     }
@@ -12012,6 +13457,35 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesOutputReference exten
   // Temporarily expose input value. Use with caution.
   public get algorithmInput() {
     return this._algorithm;
+  }
+
+  // fingerprint - computed: false, optional: true, required: false
+  private _fingerprint?: string; 
+  public get fingerprint() {
+    return this.getStringAttribute('fingerprint');
+  }
+  public set fingerprint(value: string) {
+    this._fingerprint = value;
+  }
+  public resetFingerprint() {
+    this._fingerprint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fingerprintInput() {
+    return this._fingerprint;
+  }
+
+  // fingerprinttype - computed: false, optional: false, required: true
+  private _fingerprinttype?: string; 
+  public get fingerprinttype() {
+    return this.getStringAttribute('fingerprinttype');
+  }
+  public set fingerprinttype(value: string) {
+    this._fingerprinttype = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fingerprinttypeInput() {
+    return this._fingerprinttype;
   }
 
   // sha1_fingerprint - computed: false, optional: true, required: false
@@ -12068,13 +13542,13 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordValuesList extends cdktf.Co
 }
 export interface DnsZonePrimaryRrSetGroupRrSetSshfpRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetSshfpRecordValues[] | cdktf.IResolvable;
 }
@@ -12184,19 +13658,19 @@ export class DnsZonePrimaryRrSetGroupRrSetSshfpRecordOutputReference extends cdk
 }
 export interface DnsZonePrimaryRrSetGroupRrSetTlsaRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#certificate_association_data DnsZone#certificate_association_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#certificate_association_data DnsZone#certificate_association_data}
   */
   readonly certificateAssociationData: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#certificate_usage DnsZone#certificate_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#certificate_usage DnsZone#certificate_usage}
   */
   readonly certificateUsage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#matching_type DnsZone#matching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#matching_type DnsZone#matching_type}
   */
   readonly matchingType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#selector DnsZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#selector DnsZone#selector}
   */
   readonly selector: string;
 }
@@ -12387,13 +13861,13 @@ export class DnsZonePrimaryRrSetGroupRrSetTlsaRecordValuesList extends cdktf.Com
 }
 export interface DnsZonePrimaryRrSetGroupRrSetTlsaRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: DnsZonePrimaryRrSetGroupRrSetTlsaRecordValues[] | cdktf.IResolvable;
 }
@@ -12503,11 +13977,11 @@ export class DnsZonePrimaryRrSetGroupRrSetTlsaRecordOutputReference extends cdkt
 }
 export interface DnsZonePrimaryRrSetGroupRrSetTxtRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#values DnsZone#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#values DnsZone#values}
   */
   readonly values: string[];
 }
@@ -12617,137 +14091,143 @@ export class DnsZonePrimaryRrSetGroupRrSetTxtRecordOutputReference extends cdktf
 }
 export interface DnsZonePrimaryRrSetGroupRrSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#description DnsZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#description DnsZone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ttl DnsZone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ttl DnsZone#ttl}
   */
   readonly ttl?: number;
   /**
   * a_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#a_record DnsZone#a_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#a_record DnsZone#a_record}
   */
   readonly aRecord?: DnsZonePrimaryRrSetGroupRrSetARecord;
   /**
   * aaaa_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#aaaa_record DnsZone#aaaa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#aaaa_record DnsZone#aaaa_record}
   */
   readonly aaaaRecord?: DnsZonePrimaryRrSetGroupRrSetAaaaRecord;
   /**
   * afsdb_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#afsdb_record DnsZone#afsdb_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#afsdb_record DnsZone#afsdb_record}
   */
   readonly afsdbRecord?: DnsZonePrimaryRrSetGroupRrSetAfsdbRecord;
   /**
   * alias_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#alias_record DnsZone#alias_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#alias_record DnsZone#alias_record}
   */
   readonly aliasRecord?: DnsZonePrimaryRrSetGroupRrSetAliasRecord;
   /**
   * caa_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#caa_record DnsZone#caa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#caa_record DnsZone#caa_record}
   */
   readonly caaRecord?: DnsZonePrimaryRrSetGroupRrSetCaaRecord;
   /**
   * cds_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cds_record DnsZone#cds_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cds_record DnsZone#cds_record}
   */
   readonly cdsRecord?: DnsZonePrimaryRrSetGroupRrSetCdsRecord;
   /**
   * cert_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cert_record DnsZone#cert_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cert_record DnsZone#cert_record}
   */
   readonly certRecord?: DnsZonePrimaryRrSetGroupRrSetCertRecord;
   /**
   * cname_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#cname_record DnsZone#cname_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#cname_record DnsZone#cname_record}
   */
   readonly cnameRecord?: DnsZonePrimaryRrSetGroupRrSetCnameRecord;
   /**
+  * dlv_record block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#dlv_record DnsZone#dlv_record}
+  */
+  readonly dlvRecord?: DnsZonePrimaryRrSetGroupRrSetDlvRecord;
+  /**
   * ds_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ds_record DnsZone#ds_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ds_record DnsZone#ds_record}
   */
   readonly dsRecord?: DnsZonePrimaryRrSetGroupRrSetDsRecord;
   /**
   * eui48_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#eui48_record DnsZone#eui48_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#eui48_record DnsZone#eui48_record}
   */
   readonly eui48Record?: DnsZonePrimaryRrSetGroupRrSetEui48Record;
   /**
   * eui64_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#eui64_record DnsZone#eui64_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#eui64_record DnsZone#eui64_record}
   */
   readonly eui64Record?: DnsZonePrimaryRrSetGroupRrSetEui64Record;
   /**
   * lb_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#lb_record DnsZone#lb_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#lb_record DnsZone#lb_record}
   */
   readonly lbRecord?: DnsZonePrimaryRrSetGroupRrSetLbRecord;
   /**
   * loc_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#loc_record DnsZone#loc_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#loc_record DnsZone#loc_record}
   */
   readonly locRecord?: DnsZonePrimaryRrSetGroupRrSetLocRecord;
   /**
   * mx_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#mx_record DnsZone#mx_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#mx_record DnsZone#mx_record}
   */
   readonly mxRecord?: DnsZonePrimaryRrSetGroupRrSetMxRecord;
   /**
   * naptr_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#naptr_record DnsZone#naptr_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#naptr_record DnsZone#naptr_record}
   */
   readonly naptrRecord?: DnsZonePrimaryRrSetGroupRrSetNaptrRecord;
   /**
   * ns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ns_record DnsZone#ns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ns_record DnsZone#ns_record}
   */
   readonly nsRecord?: DnsZonePrimaryRrSetGroupRrSetNsRecord;
   /**
   * ptr_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ptr_record DnsZone#ptr_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ptr_record DnsZone#ptr_record}
   */
   readonly ptrRecord?: DnsZonePrimaryRrSetGroupRrSetPtrRecord;
   /**
   * srv_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#srv_record DnsZone#srv_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#srv_record DnsZone#srv_record}
   */
   readonly srvRecord?: DnsZonePrimaryRrSetGroupRrSetSrvRecord;
   /**
   * sshfp_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#sshfp_record DnsZone#sshfp_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#sshfp_record DnsZone#sshfp_record}
   */
   readonly sshfpRecord?: DnsZonePrimaryRrSetGroupRrSetSshfpRecord;
   /**
   * tlsa_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tlsa_record DnsZone#tlsa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tlsa_record DnsZone#tlsa_record}
   */
   readonly tlsaRecord?: DnsZonePrimaryRrSetGroupRrSetTlsaRecord;
   /**
   * txt_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#txt_record DnsZone#txt_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#txt_record DnsZone#txt_record}
   */
   readonly txtRecord?: DnsZonePrimaryRrSetGroupRrSetTxtRecord;
 }
@@ -12768,6 +14248,7 @@ export function dnsZonePrimaryRrSetGroupRrSetToTerraform(struct?: DnsZonePrimary
     cds_record: dnsZonePrimaryRrSetGroupRrSetCdsRecordToTerraform(struct!.cdsRecord),
     cert_record: dnsZonePrimaryRrSetGroupRrSetCertRecordToTerraform(struct!.certRecord),
     cname_record: dnsZonePrimaryRrSetGroupRrSetCnameRecordToTerraform(struct!.cnameRecord),
+    dlv_record: dnsZonePrimaryRrSetGroupRrSetDlvRecordToTerraform(struct!.dlvRecord),
     ds_record: dnsZonePrimaryRrSetGroupRrSetDsRecordToTerraform(struct!.dsRecord),
     eui48_record: dnsZonePrimaryRrSetGroupRrSetEui48RecordToTerraform(struct!.eui48Record),
     eui64_record: dnsZonePrimaryRrSetGroupRrSetEui64RecordToTerraform(struct!.eui64Record),
@@ -12850,6 +14331,12 @@ export function dnsZonePrimaryRrSetGroupRrSetToHclTerraform(struct?: DnsZonePrim
       isBlock: true,
       type: "list",
       storageClassType: "DnsZonePrimaryRrSetGroupRrSetCnameRecordList",
+    },
+    dlv_record: {
+      value: dnsZonePrimaryRrSetGroupRrSetDlvRecordToHclTerraform(struct!.dlvRecord),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZonePrimaryRrSetGroupRrSetDlvRecordList",
     },
     ds_record: {
       value: dnsZonePrimaryRrSetGroupRrSetDsRecordToHclTerraform(struct!.dsRecord),
@@ -12995,6 +14482,10 @@ export class DnsZonePrimaryRrSetGroupRrSetOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.cnameRecord = this._cnameRecord?.internalValue;
     }
+    if (this._dlvRecord?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dlvRecord = this._dlvRecord?.internalValue;
+    }
     if (this._dsRecord?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.dsRecord = this._dsRecord?.internalValue;
@@ -13064,6 +14555,7 @@ export class DnsZonePrimaryRrSetGroupRrSetOutputReference extends cdktf.ComplexO
       this._cdsRecord.internalValue = undefined;
       this._certRecord.internalValue = undefined;
       this._cnameRecord.internalValue = undefined;
+      this._dlvRecord.internalValue = undefined;
       this._dsRecord.internalValue = undefined;
       this._eui48Record.internalValue = undefined;
       this._eui64Record.internalValue = undefined;
@@ -13095,6 +14587,7 @@ export class DnsZonePrimaryRrSetGroupRrSetOutputReference extends cdktf.ComplexO
       this._cdsRecord.internalValue = value.cdsRecord;
       this._certRecord.internalValue = value.certRecord;
       this._cnameRecord.internalValue = value.cnameRecord;
+      this._dlvRecord.internalValue = value.dlvRecord;
       this._dsRecord.internalValue = value.dsRecord;
       this._eui48Record.internalValue = value.eui48Record;
       this._eui64Record.internalValue = value.eui64Record;
@@ -13269,6 +14762,22 @@ export class DnsZonePrimaryRrSetGroupRrSetOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get cnameRecordInput() {
     return this._cnameRecord.internalValue;
+  }
+
+  // dlv_record - computed: false, optional: true, required: false
+  private _dlvRecord = new DnsZonePrimaryRrSetGroupRrSetDlvRecordOutputReference(this, "dlv_record");
+  public get dlvRecord() {
+    return this._dlvRecord;
+  }
+  public putDlvRecord(value: DnsZonePrimaryRrSetGroupRrSetDlvRecord) {
+    this._dlvRecord.internalValue = value;
+  }
+  public resetDlvRecord() {
+    this._dlvRecord.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dlvRecordInput() {
+    return this._dlvRecord.internalValue;
   }
 
   // ds_record - computed: false, optional: true, required: false
@@ -13503,13 +15012,13 @@ export interface DnsZonePrimaryRrSetGroup {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#metadata DnsZone#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#metadata DnsZone#metadata}
   */
   readonly metadata: DnsZonePrimaryRrSetGroupMetadata;
   /**
   * rr_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#rr_set DnsZone#rr_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#rr_set DnsZone#rr_set}
   */
   readonly rrSet?: DnsZonePrimaryRrSetGroupRrSet[] | cdktf.IResolvable;
 }
@@ -13651,23 +15160,23 @@ export class DnsZonePrimaryRrSetGroupList extends cdktf.ComplexList {
 }
 export interface DnsZonePrimarySoaParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#expire DnsZone#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#expire DnsZone#expire}
   */
   readonly expire?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#negative_ttl DnsZone#negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#negative_ttl DnsZone#negative_ttl}
   */
   readonly negativeTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#refresh DnsZone#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#refresh DnsZone#refresh}
   */
   readonly refresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#retry DnsZone#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#retry DnsZone#retry}
   */
   readonly retry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#ttl DnsZone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#ttl DnsZone#ttl}
   */
   readonly ttl?: number;
 }
@@ -13867,35 +15376,35 @@ export class DnsZonePrimarySoaParametersOutputReference extends cdktf.ComplexObj
 }
 export interface DnsZonePrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#allow_http_lb_managed_records DnsZone#allow_http_lb_managed_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#allow_http_lb_managed_records DnsZone#allow_http_lb_managed_records}
   */
   readonly allowHttpLbManagedRecords?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#default_soa_parameters DnsZone#default_soa_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#default_soa_parameters DnsZone#default_soa_parameters}
   */
   readonly defaultSoaParameters?: boolean | cdktf.IResolvable;
   /**
   * default_rr_set_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#default_rr_set_group DnsZone#default_rr_set_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#default_rr_set_group DnsZone#default_rr_set_group}
   */
   readonly defaultRrSetGroup?: DnsZonePrimaryDefaultRrSetGroup[] | cdktf.IResolvable;
   /**
   * dnssec_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#dnssec_mode DnsZone#dnssec_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#dnssec_mode DnsZone#dnssec_mode}
   */
   readonly dnssecMode?: DnsZonePrimaryDnssecMode;
   /**
   * rr_set_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#rr_set_group DnsZone#rr_set_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#rr_set_group DnsZone#rr_set_group}
   */
   readonly rrSetGroup?: DnsZonePrimaryRrSetGroup[] | cdktf.IResolvable;
   /**
   * soa_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#soa_parameters DnsZone#soa_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#soa_parameters DnsZone#soa_parameters}
   */
   readonly soaParameters?: DnsZonePrimarySoaParameters;
 }
@@ -14124,15 +15633,15 @@ export class DnsZonePrimaryOutputReference extends cdktf.ComplexObject {
 }
 export interface DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#decryption_provider DnsZone#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#decryption_provider DnsZone#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#location DnsZone#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#location DnsZone#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#store_provider DnsZone#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#store_provider DnsZone#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -14269,13 +15778,160 @@ export class DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoOutputReference exte
     return this._storeProvider;
   }
 }
+export interface DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#decryption_provider DnsZone#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#location DnsZone#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#store_provider DnsZone#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function dnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalToTerraform(struct?: DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalOutputReference | DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function dnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalToHclTerraform(struct?: DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalOutputReference | DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface DnsZoneSecondaryTsigKeyValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#provider DnsZone#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#provider DnsZone#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#url DnsZone#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#url DnsZone#url}
   */
   readonly url: string;
 }
@@ -14383,19 +16039,332 @@ export class DnsZoneSecondaryTsigKeyValueClearSecretInfoOutputReference extends 
     return this._url;
   }
 }
+export interface DnsZoneSecondaryTsigKeyValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#key DnsZone#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#location DnsZone#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#provider DnsZone#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#secret_encoding DnsZone#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#version DnsZone#version}
+  */
+  readonly version?: number;
+}
+
+export function dnsZoneSecondaryTsigKeyValueVaultSecretInfoToTerraform(struct?: DnsZoneSecondaryTsigKeyValueVaultSecretInfoOutputReference | DnsZoneSecondaryTsigKeyValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function dnsZoneSecondaryTsigKeyValueVaultSecretInfoToHclTerraform(struct?: DnsZoneSecondaryTsigKeyValueVaultSecretInfoOutputReference | DnsZoneSecondaryTsigKeyValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZoneSecondaryTsigKeyValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZoneSecondaryTsigKeyValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZoneSecondaryTsigKeyValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface DnsZoneSecondaryTsigKeyValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#name DnsZone#name}
+  */
+  readonly name: string;
+}
+
+export function dnsZoneSecondaryTsigKeyValueWingmanSecretInfoToTerraform(struct?: DnsZoneSecondaryTsigKeyValueWingmanSecretInfoOutputReference | DnsZoneSecondaryTsigKeyValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dnsZoneSecondaryTsigKeyValueWingmanSecretInfoToHclTerraform(struct?: DnsZoneSecondaryTsigKeyValueWingmanSecretInfoOutputReference | DnsZoneSecondaryTsigKeyValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DnsZoneSecondaryTsigKeyValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DnsZoneSecondaryTsigKeyValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DnsZoneSecondaryTsigKeyValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface DnsZoneSecondaryTsigKeyValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#secret_encoding_type DnsZone#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#blindfold_secret_info DnsZone#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#blindfold_secret_info DnsZone#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#blindfold_secret_info_internal DnsZone#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#clear_secret_info DnsZone#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#clear_secret_info DnsZone#clear_secret_info}
   */
   readonly clearSecretInfo?: DnsZoneSecondaryTsigKeyValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#vault_secret_info DnsZone#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: DnsZoneSecondaryTsigKeyValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#wingman_secret_info DnsZone#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: DnsZoneSecondaryTsigKeyValueWingmanSecretInfo;
 }
 
 export function dnsZoneSecondaryTsigKeyValueToTerraform(struct?: DnsZoneSecondaryTsigKeyValueOutputReference | DnsZoneSecondaryTsigKeyValue): any {
@@ -14404,8 +16373,12 @@ export function dnsZoneSecondaryTsigKeyValueToTerraform(struct?: DnsZoneSecondar
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: dnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: dnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: dnsZoneSecondaryTsigKeyValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: dnsZoneSecondaryTsigKeyValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: dnsZoneSecondaryTsigKeyValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -14416,17 +16389,41 @@ export function dnsZoneSecondaryTsigKeyValueToHclTerraform(struct?: DnsZoneSecon
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: dnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: dnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: dnsZoneSecondaryTsigKeyValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "DnsZoneSecondaryTsigKeyValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: dnsZoneSecondaryTsigKeyValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZoneSecondaryTsigKeyValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: dnsZoneSecondaryTsigKeyValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DnsZoneSecondaryTsigKeyValueWingmanSecretInfoList",
     },
   };
 
@@ -14448,13 +16445,29 @@ export class DnsZoneSecondaryTsigKeyValueOutputReference extends cdktf.ComplexOb
   public get internalValue(): DnsZoneSecondaryTsigKeyValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -14462,14 +16475,38 @@ export class DnsZoneSecondaryTsigKeyValueOutputReference extends cdktf.ComplexOb
   public set internalValue(value: DnsZoneSecondaryTsigKeyValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -14488,6 +16525,22 @@ export class DnsZoneSecondaryTsigKeyValueOutputReference extends cdktf.ComplexOb
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: DnsZoneSecondaryTsigKeyValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new DnsZoneSecondaryTsigKeyValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -14503,24 +16556,56 @@ export class DnsZoneSecondaryTsigKeyValueOutputReference extends cdktf.ComplexOb
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new DnsZoneSecondaryTsigKeyValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: DnsZoneSecondaryTsigKeyValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new DnsZoneSecondaryTsigKeyValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: DnsZoneSecondaryTsigKeyValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface DnsZoneSecondary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#primary_servers DnsZone#primary_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#primary_servers DnsZone#primary_servers}
   */
   readonly primaryServers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tsig_key_algorithm DnsZone#tsig_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tsig_key_algorithm DnsZone#tsig_key_algorithm}
   */
   readonly tsigKeyAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tsig_key_name DnsZone#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tsig_key_name DnsZone#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * tsig_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#tsig_key_value DnsZone#tsig_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#tsig_key_value DnsZone#tsig_key_value}
   */
   readonly tsigKeyValue?: DnsZoneSecondaryTsigKeyValue;
 }
@@ -14688,7 +16773,7 @@ export class DnsZoneSecondaryOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone volterra_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone volterra_dns_zone}
 */
 export class DnsZone extends cdktf.TerraformResource {
 
@@ -14704,7 +16789,7 @@ export class DnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZone to import
-  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -14716,7 +16801,7 @@ export class DnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_zone volterra_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_zone volterra_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -14727,8 +16812,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

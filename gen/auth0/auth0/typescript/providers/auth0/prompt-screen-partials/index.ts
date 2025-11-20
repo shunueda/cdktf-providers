@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PromptScreenPartialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#id PromptScreenPartials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#id PromptScreenPartials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface PromptScreenPartialsConfig extends cdktf.TerraformMetaArguments
   /**
   * The prompt that you are adding partials for. Options are: `login-id`, `login`, `login-password`, `signup`, `signup-id`, `signup-password`, `login-passwordless`, `customized-consent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#prompt_type PromptScreenPartials#prompt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#prompt_type PromptScreenPartials#prompt_type}
   */
   readonly promptType: string;
   /**
   * screen_partials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#screen_partials PromptScreenPartials#screen_partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#screen_partials PromptScreenPartials#screen_partials}
   */
   readonly screenPartials?: PromptScreenPartialsScreenPartials[] | cdktf.IResolvable;
 }
@@ -31,43 +31,43 @@ export interface PromptScreenPartialsScreenPartialsInsertionPoints {
   /**
   * Content that goes inside the form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#form_content PromptScreenPartials#form_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#form_content PromptScreenPartials#form_content}
   */
   readonly formContent?: string;
   /**
   * Content that goes at the end of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#form_content_end PromptScreenPartials#form_content_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#form_content_end PromptScreenPartials#form_content_end}
   */
   readonly formContentEnd?: string;
   /**
   * Content that goes at the start of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#form_content_start PromptScreenPartials#form_content_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#form_content_start PromptScreenPartials#form_content_start}
   */
   readonly formContentStart?: string;
   /**
   * Footer content for the end of the footer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#form_footer_end PromptScreenPartials#form_footer_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#form_footer_end PromptScreenPartials#form_footer_end}
   */
   readonly formFooterEnd?: string;
   /**
   * Footer content for the start of the footer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#form_footer_start PromptScreenPartials#form_footer_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#form_footer_start PromptScreenPartials#form_footer_start}
   */
   readonly formFooterStart?: string;
   /**
   * Actions that go at the end of secondary actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#secondary_actions_end PromptScreenPartials#secondary_actions_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#secondary_actions_end PromptScreenPartials#secondary_actions_end}
   */
   readonly secondaryActionsEnd?: string;
   /**
   * Actions that go at the start of secondary actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#secondary_actions_start PromptScreenPartials#secondary_actions_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#secondary_actions_start PromptScreenPartials#secondary_actions_start}
   */
   readonly secondaryActionsStart?: string;
 }
@@ -327,13 +327,13 @@ export interface PromptScreenPartialsScreenPartials {
   /**
   * The name of the screen associated with the partials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#screen_name PromptScreenPartials#screen_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#screen_name PromptScreenPartials#screen_name}
   */
   readonly screenName: string;
   /**
   * insertion_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#insertion_points PromptScreenPartials#insertion_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#insertion_points PromptScreenPartials#insertion_points}
   */
   readonly insertionPoints: PromptScreenPartialsScreenPartialsInsertionPoints;
 }
@@ -472,7 +472,7 @@ export class PromptScreenPartialsScreenPartialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials auth0_prompt_screen_partials}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials auth0_prompt_screen_partials}
 */
 export class PromptScreenPartials extends cdktf.TerraformResource {
 
@@ -488,7 +488,7 @@ export class PromptScreenPartials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PromptScreenPartials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PromptScreenPartials to import
-  * @param importFromId The id of the existing PromptScreenPartials that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PromptScreenPartials that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PromptScreenPartials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class PromptScreenPartials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt_screen_partials auth0_prompt_screen_partials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_screen_partials auth0_prompt_screen_partials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class PromptScreenPartials extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_prompt_screen_partials',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

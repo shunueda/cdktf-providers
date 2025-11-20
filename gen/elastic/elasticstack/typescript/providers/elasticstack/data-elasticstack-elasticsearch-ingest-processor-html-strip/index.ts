@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataElasticstackElasticsearchIngestProcessorHtmlStripConfig ext
   /**
   * Description of the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#description DataElasticstackElasticsearchIngestProcessorHtmlStrip#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#description DataElasticstackElasticsearchIngestProcessorHtmlStrip#description}
   */
   readonly description?: string;
   /**
   * The field to apply the replacement to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#field DataElasticstackElasticsearchIngestProcessorHtmlStrip#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#field DataElasticstackElasticsearchIngestProcessorHtmlStrip#field}
   */
   readonly field: string;
   /**
   * Conditionally execute the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#if DataElasticstackElasticsearchIngestProcessorHtmlStrip#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#if DataElasticstackElasticsearchIngestProcessorHtmlStrip#if}
   */
   readonly if?: string;
   /**
   * Ignore failures for the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#ignore_failure DataElasticstackElasticsearchIngestProcessorHtmlStrip#ignore_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#ignore_failure DataElasticstackElasticsearchIngestProcessorHtmlStrip#ignore_failure}
   */
   readonly ignoreFailure?: boolean | cdktf.IResolvable;
   /**
   * If `true` and `field` does not exist or is `null`, the processor quietly exits without modifying the document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#ignore_missing DataElasticstackElasticsearchIngestProcessorHtmlStrip#ignore_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#ignore_missing DataElasticstackElasticsearchIngestProcessorHtmlStrip#ignore_missing}
   */
   readonly ignoreMissing?: boolean | cdktf.IResolvable;
   /**
   * Handle failures for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#on_failure DataElasticstackElasticsearchIngestProcessorHtmlStrip#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#on_failure DataElasticstackElasticsearchIngestProcessorHtmlStrip#on_failure}
   */
   readonly onFailure?: string[];
   /**
   * Identifier for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#tag DataElasticstackElasticsearchIngestProcessorHtmlStrip#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#tag DataElasticstackElasticsearchIngestProcessorHtmlStrip#tag}
   */
   readonly tag?: string;
   /**
   * The field to assign the converted value to, by default `field` is updated in-place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#target_field DataElasticstackElasticsearchIngestProcessorHtmlStrip#target_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#target_field DataElasticstackElasticsearchIngestProcessorHtmlStrip#target_field}
   */
   readonly targetField?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip elasticstack_elasticsearch_ingest_processor_html_strip}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip elasticstack_elasticsearch_ingest_processor_html_strip}
 */
 export class DataElasticstackElasticsearchIngestProcessorHtmlStrip extends cdktf.TerraformDataSource {
 
@@ -74,7 +74,7 @@ export class DataElasticstackElasticsearchIngestProcessorHtmlStrip extends cdktf
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIngestProcessorHtmlStrip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIngestProcessorHtmlStrip to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorHtmlStrip that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorHtmlStrip that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIngestProcessorHtmlStrip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DataElasticstackElasticsearchIngestProcessorHtmlStrip extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_html_strip elasticstack_elasticsearch_ingest_processor_html_strip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_html_strip elasticstack_elasticsearch_ingest_processor_html_strip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DataElasticstackElasticsearchIngestProcessorHtmlStrip extends cdktf
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_html_strip',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

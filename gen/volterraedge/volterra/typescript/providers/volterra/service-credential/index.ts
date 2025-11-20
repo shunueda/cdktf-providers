@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#automatic_approval_api_token ServiceCredential#automatic_approval_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#automatic_approval_api_token ServiceCredential#automatic_approval_api_token}
   */
   readonly automaticApprovalApiToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#created_at ServiceCredential#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#created_at ServiceCredential#created_at}
   */
   readonly createdAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#expiration_days ServiceCredential#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#expiration_days ServiceCredential#expiration_days}
   */
   readonly expirationDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#id ServiceCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#id ServiceCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#name ServiceCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#name ServiceCredential#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#service_api_token ServiceCredential#service_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#service_api_token ServiceCredential#service_api_token}
   */
   readonly serviceApiToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#service_credential_type ServiceCredential#service_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#service_credential_type ServiceCredential#service_credential_type}
   */
   readonly serviceCredentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#user_group_names ServiceCredential#user_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#user_group_names ServiceCredential#user_group_names}
   */
   readonly userGroupNames?: string[];
   /**
   * namespace_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#namespace_roles ServiceCredential#namespace_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#namespace_roles ServiceCredential#namespace_roles}
   */
   readonly namespaceRoles?: ServiceCredentialNamespaceRoles[] | cdktf.IResolvable;
   /**
   * service_api_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#service_api_certificate ServiceCredential#service_api_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#service_api_certificate ServiceCredential#service_api_certificate}
   */
   readonly serviceApiCertificate?: ServiceCredentialServiceApiCertificate[] | cdktf.IResolvable;
   /**
   * site_kubeconfig block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#site_kubeconfig ServiceCredential#site_kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#site_kubeconfig ServiceCredential#site_kubeconfig}
   */
   readonly siteKubeconfig?: ServiceCredentialSiteKubeconfig[] | cdktf.IResolvable;
   /**
   * vk8s_kubeconfig block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#vk8s_kubeconfig ServiceCredential#vk8s_kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#vk8s_kubeconfig ServiceCredential#vk8s_kubeconfig}
   */
   readonly vk8SKubeconfig?: ServiceCredentialVk8SKubeconfig[] | cdktf.IResolvable;
 }
 export interface ServiceCredentialNamespaceRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#namespace ServiceCredential#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#namespace ServiceCredential#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#role ServiceCredential#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#role ServiceCredential#role}
   */
   readonly role: string;
 }
@@ -212,7 +212,7 @@ export class ServiceCredentialNamespaceRolesList extends cdktf.ComplexList {
 }
 export interface ServiceCredentialServiceApiCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#password ServiceCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#password ServiceCredential#password}
   */
   readonly password: string;
 }
@@ -325,7 +325,7 @@ export class ServiceCredentialServiceApiCertificateList extends cdktf.ComplexLis
 }
 export interface ServiceCredentialSiteKubeconfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#site ServiceCredential#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#site ServiceCredential#site}
   */
   readonly site: string;
 }
@@ -438,11 +438,11 @@ export class ServiceCredentialSiteKubeconfigList extends cdktf.ComplexList {
 }
 export interface ServiceCredentialVk8SKubeconfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#vk8s_cluster_name ServiceCredential#vk8s_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#vk8s_cluster_name ServiceCredential#vk8s_cluster_name}
   */
   readonly vk8SClusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#vk8s_namespace ServiceCredential#vk8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#vk8s_namespace ServiceCredential#vk8s_namespace}
   */
   readonly vk8SNamespace?: string;
 }
@@ -587,7 +587,7 @@ export class ServiceCredentialVk8SKubeconfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential volterra_service_credential}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential volterra_service_credential}
 */
 export class ServiceCredential extends cdktf.TerraformResource {
 
@@ -603,7 +603,7 @@ export class ServiceCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceCredential to import
-  * @param importFromId The id of the existing ServiceCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -615,7 +615,7 @@ export class ServiceCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_credential volterra_service_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_credential volterra_service_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -626,8 +626,8 @@ export class ServiceCredential extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_service_credential',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

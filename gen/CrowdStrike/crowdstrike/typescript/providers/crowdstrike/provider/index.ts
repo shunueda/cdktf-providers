@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CrowdstrikeProviderConfig {
   /**
   * Falcon Client Id for authenticating to the CrowdStrike APIs. Will use FALCON_CLIENT_ID environment variable when left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs#client_id CrowdstrikeProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs#client_id CrowdstrikeProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Falcon Client Secret used for authenticating to the CrowdStrike APIs. Will use FALCON_CLIENT_SECRET environment variable when left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs#client_secret CrowdstrikeProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs#client_secret CrowdstrikeProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Falcon Cloud to authenticate to. Valid values are autodiscover, us-1, us-2, eu-1, us-gov-1. Will use FALCON_CLOUD environment variable when left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs#cloud CrowdstrikeProvider#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs#cloud CrowdstrikeProvider#cloud}
   */
   readonly cloud?: string;
   /**
   * For MSSP Master CIDs, optionally lock the token to act on behalf of this member CID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs#member_cid CrowdstrikeProvider#member_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs#member_cid CrowdstrikeProvider#member_cid}
   */
   readonly memberCid?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs#alias CrowdstrikeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs#alias CrowdstrikeProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs crowdstrike}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs crowdstrike}
 */
 export class CrowdstrikeProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class CrowdstrikeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CrowdstrikeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrowdstrikeProvider to import
-  * @param importFromId The id of the existing CrowdstrikeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrowdstrikeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrowdstrikeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CrowdstrikeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs crowdstrike} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs crowdstrike} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CrowdstrikeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'crowdstrike',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.46',
-        providerVersionConstraint: '0.0.46'
+        providerVersion: '0.0.47',
+        providerVersionConstraint: '0.0.47'
       },
       terraformProviderSource: 'CrowdStrike/crowdstrike'
     });

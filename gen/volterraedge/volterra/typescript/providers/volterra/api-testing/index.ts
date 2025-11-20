@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ApiTestingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#annotations ApiTesting#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#annotations ApiTesting#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#custom_header_value ApiTesting#custom_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#custom_header_value ApiTesting#custom_header_value}
   */
   readonly customHeaderValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#description ApiTesting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#description ApiTesting#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#disable ApiTesting#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#disable ApiTesting#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#every_day ApiTesting#every_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#every_day ApiTesting#every_day}
   */
   readonly everyDay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#every_month ApiTesting#every_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#every_month ApiTesting#every_month}
   */
   readonly everyMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#every_week ApiTesting#every_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#every_week ApiTesting#every_week}
   */
   readonly everyWeek?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#id ApiTesting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#id ApiTesting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#labels ApiTesting#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#labels ApiTesting#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#name ApiTesting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#namespace ApiTesting#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#namespace ApiTesting#namespace}
   */
   readonly namespace: string;
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#domains ApiTesting#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#domains ApiTesting#domains}
   */
   readonly domains: ApiTestingDomains[] | cdktf.IResolvable;
 }
 export interface ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -208,13 +208,160 @@ export class ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoOutputRef
     return this._storeProvider;
   }
 }
+export interface ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function apiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalToTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalToHclTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ApiTestingDomainsCredentialsApiKeyValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -322,19 +469,332 @@ export class ApiTestingDomainsCredentialsApiKeyValueClearSecretInfoOutputReferen
     return this._url;
   }
 }
+export interface ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  */
+  readonly version?: number;
+}
+
+export function apiTestingDomainsCredentialsApiKeyValueVaultSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsApiKeyValueVaultSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  */
+  readonly name: string;
+}
+
+export function apiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ApiTestingDomainsCredentialsApiKeyValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo;
 }
 
 export function apiTestingDomainsCredentialsApiKeyValueToTerraform(struct?: ApiTestingDomainsCredentialsApiKeyValueOutputReference | ApiTestingDomainsCredentialsApiKeyValue): any {
@@ -343,8 +803,12 @@ export function apiTestingDomainsCredentialsApiKeyValueToTerraform(struct?: ApiT
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: apiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: apiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: apiTestingDomainsCredentialsApiKeyValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: apiTestingDomainsCredentialsApiKeyValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: apiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -355,17 +819,41 @@ export function apiTestingDomainsCredentialsApiKeyValueToHclTerraform(struct?: A
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: apiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: apiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: apiTestingDomainsCredentialsApiKeyValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsApiKeyValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: apiTestingDomainsCredentialsApiKeyValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: apiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoList",
     },
   };
 
@@ -387,13 +875,29 @@ export class ApiTestingDomainsCredentialsApiKeyValueOutputReference extends cdkt
   public get internalValue(): ApiTestingDomainsCredentialsApiKeyValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -401,14 +905,38 @@ export class ApiTestingDomainsCredentialsApiKeyValueOutputReference extends cdkt
   public set internalValue(value: ApiTestingDomainsCredentialsApiKeyValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -427,6 +955,22 @@ export class ApiTestingDomainsCredentialsApiKeyValueOutputReference extends cdkt
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ApiTestingDomainsCredentialsApiKeyValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ApiTestingDomainsCredentialsApiKeyValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -442,16 +986,48 @@ export class ApiTestingDomainsCredentialsApiKeyValueOutputReference extends cdkt
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ApiTestingDomainsCredentialsApiKeyValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ApiTestingDomainsCredentialsApiKeyValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface ApiTestingDomainsCredentialsApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#key ApiTesting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#value ApiTesting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#value ApiTesting#value}
   */
   readonly value: ApiTestingDomainsCredentialsApiKeyValue;
 }
@@ -558,15 +1134,15 @@ export class ApiTestingDomainsCredentialsApiKeyOutputReference extends cdktf.Com
 }
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -703,13 +1279,160 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoOut
     return this._storeProvider;
   }
 }
+export interface ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function apiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalToTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -817,19 +1540,332 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfoOutputR
     return this._url;
   }
 }
+export interface ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  */
+  readonly version?: number;
+}
+
+export function apiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  */
+  readonly name: string;
+}
+
+export function apiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ApiTestingDomainsCredentialsBasicAuthPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo;
 }
 
 export function apiTestingDomainsCredentialsBasicAuthPasswordToTerraform(struct?: ApiTestingDomainsCredentialsBasicAuthPasswordOutputReference | ApiTestingDomainsCredentialsBasicAuthPassword): any {
@@ -838,8 +1874,12 @@ export function apiTestingDomainsCredentialsBasicAuthPasswordToTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: apiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: apiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: apiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: apiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: apiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -850,17 +1890,41 @@ export function apiTestingDomainsCredentialsBasicAuthPasswordToHclTerraform(stru
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: apiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: apiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: apiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: apiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: apiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoList",
     },
   };
 
@@ -882,13 +1946,29 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordOutputReference extend
   public get internalValue(): ApiTestingDomainsCredentialsBasicAuthPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -896,14 +1976,38 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordOutputReference extend
   public set internalValue(value: ApiTestingDomainsCredentialsBasicAuthPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -922,6 +2026,22 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordOutputReference extend
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ApiTestingDomainsCredentialsBasicAuthPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ApiTestingDomainsCredentialsBasicAuthPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -937,16 +2057,48 @@ export class ApiTestingDomainsCredentialsBasicAuthPasswordOutputReference extend
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ApiTestingDomainsCredentialsBasicAuthPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ApiTestingDomainsCredentialsBasicAuthPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface ApiTestingDomainsCredentialsBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#user ApiTesting#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#user ApiTesting#user}
   */
   readonly user: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#password ApiTesting#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#password ApiTesting#password}
   */
   readonly password: ApiTestingDomainsCredentialsBasicAuthPassword;
 }
@@ -1053,15 +2205,15 @@ export class ApiTestingDomainsCredentialsBasicAuthOutputReference extends cdktf.
 }
 export interface ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1198,13 +2350,160 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoOutp
     return this._storeProvider;
   }
 }
+export interface ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function apiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalToTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalToHclTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -1312,19 +2611,332 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfoOutputRe
     return this._url;
   }
 }
+export interface ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  */
+  readonly version?: number;
+}
+
+export function apiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  */
+  readonly name: string;
+}
+
+export function apiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ApiTestingDomainsCredentialsBearerTokenToken {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo;
 }
 
 export function apiTestingDomainsCredentialsBearerTokenTokenToTerraform(struct?: ApiTestingDomainsCredentialsBearerTokenTokenOutputReference | ApiTestingDomainsCredentialsBearerTokenToken): any {
@@ -1333,8 +2945,12 @@ export function apiTestingDomainsCredentialsBearerTokenTokenToTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: apiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: apiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: apiTestingDomainsCredentialsBearerTokenTokenClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: apiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: apiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -1345,17 +2961,41 @@ export function apiTestingDomainsCredentialsBearerTokenTokenToHclTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: apiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: apiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: apiTestingDomainsCredentialsBearerTokenTokenClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: apiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: apiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoList",
     },
   };
 
@@ -1377,13 +3017,29 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenOutputReference extends
   public get internalValue(): ApiTestingDomainsCredentialsBearerTokenToken | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1391,14 +3047,38 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenOutputReference extends
   public set internalValue(value: ApiTestingDomainsCredentialsBearerTokenToken | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -1417,6 +3097,22 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenOutputReference extends
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ApiTestingDomainsCredentialsBearerTokenTokenBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ApiTestingDomainsCredentialsBearerTokenTokenClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -1432,12 +3128,44 @@ export class ApiTestingDomainsCredentialsBearerTokenTokenOutputReference extends
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ApiTestingDomainsCredentialsBearerTokenTokenVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ApiTestingDomainsCredentialsBearerTokenTokenWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface ApiTestingDomainsCredentialsBearerToken {
   /**
   * token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#token ApiTesting#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#token ApiTesting#token}
   */
   readonly token: ApiTestingDomainsCredentialsBearerTokenToken;
 }
@@ -1518,15 +3246,15 @@ export class ApiTestingDomainsCredentialsBearerTokenOutputReference extends cdkt
 }
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#location ApiTesting#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1663,13 +3391,160 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecret
     return this._storeProvider;
   }
 }
+export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#decryption_provider ApiTesting#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#store_provider ApiTesting#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalToTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalToHclTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#provider ApiTesting#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#url ApiTesting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#url ApiTesting#url}
   */
   readonly url: string;
 }
@@ -1777,19 +3652,332 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo
     return this._url;
   }
 }
+export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#key ApiTesting#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#location ApiTesting#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#provider ApiTesting#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding ApiTesting#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#version ApiTesting#version}
+  */
+  readonly version?: number;
+}
+
+export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#name ApiTesting#name}
+  */
+  readonly name: string;
+}
+
+export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoToTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoToHclTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ApiTestingDomainsCredentialsLoginEndpointJsonPayload {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#secret_encoding_type ApiTesting#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info ApiTesting#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#blindfold_secret_info_internal ApiTesting#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#clear_secret_info ApiTesting#clear_secret_info}
   */
   readonly clearSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#vault_secret_info ApiTesting#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#wingman_secret_info ApiTesting#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo;
 }
 
 export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadToTerraform(struct?: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadOutputReference | ApiTestingDomainsCredentialsLoginEndpointJsonPayload): any {
@@ -1798,8 +3986,12 @@ export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadToTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: apiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: apiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: apiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: apiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: apiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -1810,17 +4002,41 @@ export function apiTestingDomainsCredentialsLoginEndpointJsonPayloadToHclTerrafo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: apiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: apiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: apiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: apiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: apiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoList",
     },
   };
 
@@ -1842,13 +4058,29 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadOutputReference
   public get internalValue(): ApiTestingDomainsCredentialsLoginEndpointJsonPayload | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1856,14 +4088,38 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadOutputReference
   public set internalValue(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayload | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -1882,6 +4138,22 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadOutputReference
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new ApiTestingDomainsCredentialsLoginEndpointJsonPayloadClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -1897,24 +4169,56 @@ export class ApiTestingDomainsCredentialsLoginEndpointJsonPayloadOutputReference
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: ApiTestingDomainsCredentialsLoginEndpointJsonPayloadWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface ApiTestingDomainsCredentialsLoginEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#method ApiTesting#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#method ApiTesting#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#path ApiTesting#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#path ApiTesting#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#token_response_key ApiTesting#token_response_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#token_response_key ApiTesting#token_response_key}
   */
   readonly tokenResponseKey: string;
   /**
   * json_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#json_payload ApiTesting#json_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#json_payload ApiTesting#json_payload}
   */
   readonly jsonPayload: ApiTestingDomainsCredentialsLoginEndpointJsonPayload;
 }
@@ -2073,39 +4377,39 @@ export class ApiTestingDomainsCredentialsLoginEndpointOutputReference extends cd
 }
 export interface ApiTestingDomainsCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#admin ApiTesting#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#admin ApiTesting#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#credential_name ApiTesting#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#credential_name ApiTesting#credential_name}
   */
   readonly credentialName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#standard ApiTesting#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#standard ApiTesting#standard}
   */
   readonly standard?: boolean | cdktf.IResolvable;
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#api_key ApiTesting#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#api_key ApiTesting#api_key}
   */
   readonly apiKey?: ApiTestingDomainsCredentialsApiKey;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#basic_auth ApiTesting#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#basic_auth ApiTesting#basic_auth}
   */
   readonly basicAuth?: ApiTestingDomainsCredentialsBasicAuth;
   /**
   * bearer_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#bearer_token ApiTesting#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#bearer_token ApiTesting#bearer_token}
   */
   readonly bearerToken?: ApiTestingDomainsCredentialsBearerToken;
   /**
   * login_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#login_endpoint ApiTesting#login_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#login_endpoint ApiTesting#login_endpoint}
   */
   readonly loginEndpoint?: ApiTestingDomainsCredentialsLoginEndpoint;
 }
@@ -2392,17 +4696,17 @@ export class ApiTestingDomainsCredentialsList extends cdktf.ComplexList {
 }
 export interface ApiTestingDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#allow_destructive_methods ApiTesting#allow_destructive_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#allow_destructive_methods ApiTesting#allow_destructive_methods}
   */
   readonly allowDestructiveMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#domain ApiTesting#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#domain ApiTesting#domain}
   */
   readonly domain: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#credentials ApiTesting#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#credentials ApiTesting#credentials}
   */
   readonly credentials: ApiTestingDomainsCredentials[] | cdktf.IResolvable;
 }
@@ -2570,7 +4874,7 @@ export class ApiTestingDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing volterra_api_testing}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing volterra_api_testing}
 */
 export class ApiTesting extends cdktf.TerraformResource {
 
@@ -2586,7 +4890,7 @@ export class ApiTesting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiTesting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiTesting to import
-  * @param importFromId The id of the existing ApiTesting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiTesting that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiTesting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2598,7 +4902,7 @@ export class ApiTesting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_testing volterra_api_testing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_testing volterra_api_testing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2609,8 +4913,8 @@ export class ApiTesting extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_api_testing',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

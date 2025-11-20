@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link
+// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClusterLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The custom cluster link settings to set (e.g., `"acl.sync.ms" = "5100"`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#config ClusterLink#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#config ClusterLink#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * The connection mode of the Cluster Link. Defaults to `OUTBOUND`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#connection_mode ClusterLink#connection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#connection_mode ClusterLink#connection_mode}
   */
   readonly connectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#id ClusterLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#id ClusterLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface ClusterLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The mode of the Cluster Link. Defaults to `DESTINATION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#link_mode ClusterLink#link_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#link_mode ClusterLink#link_mode}
   */
   readonly linkMode?: string;
   /**
   * The name of the Cluster Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#link_name ClusterLink#link_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#link_name ClusterLink#link_name}
   */
   readonly linkName: string;
   /**
   * destination_kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#destination_kafka_cluster ClusterLink#destination_kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#destination_kafka_cluster ClusterLink#destination_kafka_cluster}
   */
   readonly destinationKafkaCluster?: ClusterLinkDestinationKafkaCluster;
   /**
   * local_kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#local_kafka_cluster ClusterLink#local_kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#local_kafka_cluster ClusterLink#local_kafka_cluster}
   */
   readonly localKafkaCluster?: ClusterLinkLocalKafkaCluster;
   /**
   * remote_kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#remote_kafka_cluster ClusterLink#remote_kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#remote_kafka_cluster ClusterLink#remote_kafka_cluster}
   */
   readonly remoteKafkaCluster?: ClusterLinkRemoteKafkaCluster;
   /**
   * source_kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#source_kafka_cluster ClusterLink#source_kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#source_kafka_cluster ClusterLink#source_kafka_cluster}
   */
   readonly sourceKafkaCluster?: ClusterLinkSourceKafkaCluster;
 }
@@ -67,13 +67,13 @@ export interface ClusterLinkDestinationKafkaClusterCredentials {
   /**
   * The Kafka API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#key ClusterLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#key ClusterLink#key}
   */
   readonly key: string;
   /**
   * The Kafka API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#secret ClusterLink#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#secret ClusterLink#secret}
   */
   readonly secret: string;
 }
@@ -182,13 +182,13 @@ export interface ClusterLinkDestinationKafkaCluster {
   /**
   * The bootstrap endpoint used by Kafka clients to connect to the Kafka cluster. (e.g., `SASL_SSL://pkc-00000.us-central1.gcp.confluent.cloud:9092` or `pkc-00000.us-central1.gcp.confluent.cloud:9092`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
   */
   readonly bootstrapEndpoint?: string;
   /**
   * The unique identifier for the referred Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#id ClusterLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#id ClusterLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -197,13 +197,13 @@ export interface ClusterLinkDestinationKafkaCluster {
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
   */
   readonly credentials?: ClusterLinkDestinationKafkaClusterCredentials;
 }
@@ -373,13 +373,13 @@ export interface ClusterLinkLocalKafkaClusterCredentials {
   /**
   * The Kafka API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#key ClusterLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#key ClusterLink#key}
   */
   readonly key: string;
   /**
   * The Kafka API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#secret ClusterLink#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#secret ClusterLink#secret}
   */
   readonly secret: string;
 }
@@ -488,13 +488,13 @@ export interface ClusterLinkLocalKafkaCluster {
   /**
   * The bootstrap endpoint used by Kafka clients to connect to the Kafka cluster. (e.g., `SASL_SSL://pkc-00000.us-central1.gcp.confluent.cloud:9092` or `pkc-00000.us-central1.gcp.confluent.cloud:9092`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
   */
   readonly bootstrapEndpoint?: string;
   /**
   * The unique identifier for the referred Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#id ClusterLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#id ClusterLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -503,13 +503,13 @@ export interface ClusterLinkLocalKafkaCluster {
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
   */
   readonly credentials?: ClusterLinkLocalKafkaClusterCredentials;
 }
@@ -679,13 +679,13 @@ export interface ClusterLinkRemoteKafkaClusterCredentials {
   /**
   * The Kafka API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#key ClusterLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#key ClusterLink#key}
   */
   readonly key: string;
   /**
   * The Kafka API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#secret ClusterLink#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#secret ClusterLink#secret}
   */
   readonly secret: string;
 }
@@ -794,13 +794,13 @@ export interface ClusterLinkRemoteKafkaCluster {
   /**
   * The bootstrap endpoint used by Kafka clients to connect to the Kafka cluster. (e.g., `SASL_SSL://pkc-00000.us-central1.gcp.confluent.cloud:9092` or `pkc-00000.us-central1.gcp.confluent.cloud:9092`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
   */
   readonly bootstrapEndpoint?: string;
   /**
   * The unique identifier for the referred Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#id ClusterLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#id ClusterLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -809,13 +809,13 @@ export interface ClusterLinkRemoteKafkaCluster {
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
   */
   readonly credentials?: ClusterLinkRemoteKafkaClusterCredentials;
 }
@@ -985,13 +985,13 @@ export interface ClusterLinkSourceKafkaClusterCredentials {
   /**
   * The Kafka API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#key ClusterLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#key ClusterLink#key}
   */
   readonly key: string;
   /**
   * The Kafka API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#secret ClusterLink#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#secret ClusterLink#secret}
   */
   readonly secret: string;
 }
@@ -1100,13 +1100,13 @@ export interface ClusterLinkSourceKafkaCluster {
   /**
   * The bootstrap endpoint used by Kafka clients to connect to the Kafka cluster. (e.g., `SASL_SSL://pkc-00000.us-central1.gcp.confluent.cloud:9092` or `pkc-00000.us-central1.gcp.confluent.cloud:9092`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#bootstrap_endpoint ClusterLink#bootstrap_endpoint}
   */
   readonly bootstrapEndpoint?: string;
   /**
   * The unique identifier for the referred Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#id ClusterLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#id ClusterLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1115,13 +1115,13 @@ export interface ClusterLinkSourceKafkaCluster {
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#rest_endpoint ClusterLink#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#credentials ClusterLink#credentials}
   */
   readonly credentials?: ClusterLinkSourceKafkaClusterCredentials;
 }
@@ -1289,7 +1289,7 @@ export class ClusterLinkSourceKafkaClusterOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link confluent_cluster_link}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link confluent_cluster_link}
 */
 export class ClusterLink extends cdktf.TerraformResource {
 
@@ -1305,7 +1305,7 @@ export class ClusterLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterLink to import
-  * @param importFromId The id of the existing ClusterLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1317,7 +1317,7 @@ export class ClusterLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/cluster_link confluent_cluster_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/cluster_link confluent_cluster_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1328,8 +1328,8 @@ export class ClusterLink extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_cluster_link',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.52.0',
-        providerVersionConstraint: '2.52.0'
+        providerVersion: '2.53.0',
+        providerVersionConstraint: '2.53.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter
+// https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaExporterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#config SchemaExporter#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#config SchemaExporter#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#context SchemaExporter#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#context SchemaExporter#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#context_type SchemaExporter#context_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#context_type SchemaExporter#context_type}
   */
   readonly contextType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#id SchemaExporter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#id SchemaExporter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#name SchemaExporter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#name SchemaExporter#name}
   */
   readonly name: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#reset_on_update SchemaExporter#reset_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#reset_on_update SchemaExporter#reset_on_update}
   */
   readonly resetOnUpdate?: boolean | cdktf.IResolvable;
   /**
   * The REST endpoint of the Schema Registry cluster, for example, `https://psrc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#rest_endpoint SchemaExporter#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#rest_endpoint SchemaExporter#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#status SchemaExporter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#status SchemaExporter#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#subject_rename_format SchemaExporter#subject_rename_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#subject_rename_format SchemaExporter#subject_rename_format}
   */
   readonly subjectRenameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#subjects SchemaExporter#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#subjects SchemaExporter#subjects}
   */
   readonly subjects?: string[];
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#credentials SchemaExporter#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#credentials SchemaExporter#credentials}
   */
   readonly credentials?: SchemaExporterCredentials;
   /**
   * destination_schema_registry_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#destination_schema_registry_cluster SchemaExporter#destination_schema_registry_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#destination_schema_registry_cluster SchemaExporter#destination_schema_registry_cluster}
   */
   readonly destinationSchemaRegistryCluster: SchemaExporterDestinationSchemaRegistryCluster;
   /**
   * schema_registry_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#schema_registry_cluster SchemaExporter#schema_registry_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#schema_registry_cluster SchemaExporter#schema_registry_cluster}
   */
   readonly schemaRegistryCluster?: SchemaExporterSchemaRegistryCluster;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#timeouts SchemaExporter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#timeouts SchemaExporter#timeouts}
   */
   readonly timeouts?: SchemaExporterTimeouts;
 }
@@ -83,13 +83,13 @@ export interface SchemaExporterCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#key SchemaExporter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#key SchemaExporter#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#secret SchemaExporter#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#secret SchemaExporter#secret}
   */
   readonly secret: string;
 }
@@ -196,11 +196,11 @@ export class SchemaExporterCredentialsOutputReference extends cdktf.ComplexObjec
 }
 export interface SchemaExporterDestinationSchemaRegistryClusterCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#key SchemaExporter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#key SchemaExporter#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#secret SchemaExporter#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#secret SchemaExporter#secret}
   */
   readonly secret: string;
 }
@@ -309,20 +309,20 @@ export interface SchemaExporterDestinationSchemaRegistryCluster {
   /**
   * The ID of the destination Schema Registry cluster. Required when using OAuth authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#id SchemaExporter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#id SchemaExporter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#rest_endpoint SchemaExporter#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#rest_endpoint SchemaExporter#rest_endpoint}
   */
   readonly restEndpoint: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#credentials SchemaExporter#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#credentials SchemaExporter#credentials}
   */
   readonly credentials?: SchemaExporterDestinationSchemaRegistryClusterCredentials;
 }
@@ -463,7 +463,7 @@ export interface SchemaExporterSchemaRegistryCluster {
   /**
   * The Schema Registry cluster ID (e.g., `lsrc-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#id SchemaExporter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#id SchemaExporter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -547,7 +547,7 @@ export class SchemaExporterSchemaRegistryClusterOutputReference extends cdktf.Co
 }
 export interface SchemaExporterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#create SchemaExporter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#create SchemaExporter#create}
   */
   readonly create?: string;
 }
@@ -641,7 +641,7 @@ export class SchemaExporterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter confluent_schema_exporter}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter confluent_schema_exporter}
 */
 export class SchemaExporter extends cdktf.TerraformResource {
 
@@ -657,7 +657,7 @@ export class SchemaExporter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchemaExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchemaExporter to import
-  * @param importFromId The id of the existing SchemaExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchemaExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchemaExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -669,7 +669,7 @@ export class SchemaExporter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/schema_exporter confluent_schema_exporter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.53.0/docs/resources/schema_exporter confluent_schema_exporter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -680,8 +680,8 @@ export class SchemaExporter extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_schema_exporter',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.52.0',
-        providerVersionConstraint: '2.52.0'
+        providerVersion: '2.53.0',
+        providerVersionConstraint: '2.53.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

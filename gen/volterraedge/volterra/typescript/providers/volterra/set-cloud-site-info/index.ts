@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface SetCloudSiteInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#name SetCloudSiteInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#name SetCloudSiteInfo#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#private_ips SetCloudSiteInfo#private_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#private_ips SetCloudSiteInfo#private_ips}
   */
   readonly privateIps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#public_ips SetCloudSiteInfo#public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#public_ips SetCloudSiteInfo#public_ips}
   */
   readonly publicIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#site_type SetCloudSiteInfo#site_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#site_type SetCloudSiteInfo#site_type}
   */
   readonly siteType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#vpc_id SetCloudSiteInfo#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#vpc_id SetCloudSiteInfo#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#vpc_name SetCloudSiteInfo#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#vpc_name SetCloudSiteInfo#vpc_name}
   */
   readonly vpcName?: string;
   /**
   * direct_connect_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#direct_connect_info SetCloudSiteInfo#direct_connect_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#direct_connect_info SetCloudSiteInfo#direct_connect_info}
   */
   readonly directConnectInfo?: SetCloudSiteInfoDirectConnectInfo[] | cdktf.IResolvable;
   /**
   * express_route_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#express_route_info SetCloudSiteInfo#express_route_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#express_route_info SetCloudSiteInfo#express_route_info}
   */
   readonly expressRouteInfo?: SetCloudSiteInfoExpressRouteInfo[] | cdktf.IResolvable;
   /**
   * node_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#node_info SetCloudSiteInfo#node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#node_info SetCloudSiteInfo#node_info}
   */
   readonly nodeInfo?: SetCloudSiteInfoNodeInfo[] | cdktf.IResolvable;
   /**
   * spoke_vnet_prefix_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#spoke_vnet_prefix_info SetCloudSiteInfo#spoke_vnet_prefix_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#spoke_vnet_prefix_info SetCloudSiteInfo#spoke_vnet_prefix_info}
   */
   readonly spokeVnetPrefixInfo?: SetCloudSiteInfoSpokeVnetPrefixInfo[] | cdktf.IResolvable;
   /**
   * subnet_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#subnet_ids SetCloudSiteInfo#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#subnet_ids SetCloudSiteInfo#subnet_ids}
   */
   readonly subnetIds?: SetCloudSiteInfoSubnetIds[] | cdktf.IResolvable;
   /**
   * vnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#vnet SetCloudSiteInfo#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#vnet SetCloudSiteInfo#vnet}
   */
   readonly vnet?: SetCloudSiteInfoVnet[] | cdktf.IResolvable;
 }
 export interface SetCloudSiteInfoDirectConnectInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#asn SetCloudSiteInfo#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#asn SetCloudSiteInfo#asn}
   */
   readonly asn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#direct_connect_gateway_id SetCloudSiteInfo#direct_connect_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#direct_connect_gateway_id SetCloudSiteInfo#direct_connect_gateway_id}
   */
   readonly directConnectGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#vgw_id SetCloudSiteInfo#vgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#vgw_id SetCloudSiteInfo#vgw_id}
   */
   readonly vgwId?: string;
 }
@@ -259,11 +259,11 @@ export class SetCloudSiteInfoDirectConnectInfoList extends cdktf.ComplexList {
 }
 export interface SetCloudSiteInfoExpressRouteInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#route_server_asn SetCloudSiteInfo#route_server_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#route_server_asn SetCloudSiteInfo#route_server_asn}
   */
   readonly routeServerAsn: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#route_server_ips SetCloudSiteInfo#route_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#route_server_ips SetCloudSiteInfo#route_server_ips}
   */
   readonly routeServerIps: string[];
 }
@@ -402,11 +402,11 @@ export class SetCloudSiteInfoExpressRouteInfoList extends cdktf.ComplexList {
 }
 export interface SetCloudSiteInfoNodeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#node_id SetCloudSiteInfo#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#node_id SetCloudSiteInfo#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#node_instance_name SetCloudSiteInfo#node_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#node_instance_name SetCloudSiteInfo#node_instance_name}
   */
   readonly nodeInstanceName: string;
 }
@@ -545,15 +545,15 @@ export class SetCloudSiteInfoNodeInfoList extends cdktf.ComplexList {
 }
 export interface SetCloudSiteInfoSpokeVnetPrefixInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#prefixes SetCloudSiteInfo#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#prefixes SetCloudSiteInfo#prefixes}
   */
   readonly prefixes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#resource_group SetCloudSiteInfo#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#resource_group SetCloudSiteInfo#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#vnet_name SetCloudSiteInfo#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#vnet_name SetCloudSiteInfo#vnet_name}
   */
   readonly vnetName: string;
 }
@@ -718,18 +718,18 @@ export class SetCloudSiteInfoSpokeVnetPrefixInfoList extends cdktf.ComplexList {
 }
 export interface SetCloudSiteInfoSubnetIdsInsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#az_name SetCloudSiteInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#az_name SetCloudSiteInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#ipv4_prefix SetCloudSiteInfo#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#ipv4_prefix SetCloudSiteInfo#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -903,18 +903,18 @@ export class SetCloudSiteInfoSubnetIdsInsideSubnetList extends cdktf.ComplexList
 }
 export interface SetCloudSiteInfoSubnetIdsOutsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#az_name SetCloudSiteInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#az_name SetCloudSiteInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#ipv4_prefix SetCloudSiteInfo#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#ipv4_prefix SetCloudSiteInfo#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -1088,18 +1088,18 @@ export class SetCloudSiteInfoSubnetIdsOutsideSubnetList extends cdktf.ComplexLis
 }
 export interface SetCloudSiteInfoSubnetIdsWorkloadSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#az_name SetCloudSiteInfo#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#az_name SetCloudSiteInfo#az_name}
   */
   readonly azName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#id SetCloudSiteInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#ipv4_prefix SetCloudSiteInfo#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#ipv4_prefix SetCloudSiteInfo#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -1273,37 +1273,37 @@ export class SetCloudSiteInfoSubnetIdsWorkloadSubnetList extends cdktf.ComplexLi
 }
 export interface SetCloudSiteInfoSubnetIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#az SetCloudSiteInfo#az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#az SetCloudSiteInfo#az}
   */
   readonly az?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#inside_subnet_id SetCloudSiteInfo#inside_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#inside_subnet_id SetCloudSiteInfo#inside_subnet_id}
   */
   readonly insideSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#outside_subnet_id SetCloudSiteInfo#outside_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#outside_subnet_id SetCloudSiteInfo#outside_subnet_id}
   */
   readonly outsideSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#workload_subnet_id SetCloudSiteInfo#workload_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#workload_subnet_id SetCloudSiteInfo#workload_subnet_id}
   */
   readonly workloadSubnetId?: string;
   /**
   * inside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#inside_subnet SetCloudSiteInfo#inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#inside_subnet SetCloudSiteInfo#inside_subnet}
   */
   readonly insideSubnet?: SetCloudSiteInfoSubnetIdsInsideSubnet[] | cdktf.IResolvable;
   /**
   * outside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#outside_subnet SetCloudSiteInfo#outside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#outside_subnet SetCloudSiteInfo#outside_subnet}
   */
   readonly outsideSubnet?: SetCloudSiteInfoSubnetIdsOutsideSubnet[] | cdktf.IResolvable;
   /**
   * workload_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#workload_subnet SetCloudSiteInfo#workload_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#workload_subnet SetCloudSiteInfo#workload_subnet}
   */
   readonly workloadSubnet?: SetCloudSiteInfoSubnetIdsWorkloadSubnet[] | cdktf.IResolvable;
 }
@@ -1593,11 +1593,11 @@ export class SetCloudSiteInfoSubnetIdsList extends cdktf.ComplexList {
 }
 export interface SetCloudSiteInfoVnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#resource_id SetCloudSiteInfo#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#resource_id SetCloudSiteInfo#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#vnet_name SetCloudSiteInfo#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#vnet_name SetCloudSiteInfo#vnet_name}
   */
   readonly vnetName: string;
 }
@@ -1736,7 +1736,7 @@ export class SetCloudSiteInfoVnetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info volterra_set_cloud_site_info}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info volterra_set_cloud_site_info}
 */
 export class SetCloudSiteInfo extends cdktf.TerraformResource {
 
@@ -1752,7 +1752,7 @@ export class SetCloudSiteInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SetCloudSiteInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SetCloudSiteInfo to import
-  * @param importFromId The id of the existing SetCloudSiteInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SetCloudSiteInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SetCloudSiteInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1764,7 +1764,7 @@ export class SetCloudSiteInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/set_cloud_site_info volterra_set_cloud_site_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/set_cloud_site_info volterra_set_cloud_site_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1775,8 +1775,8 @@ export class SetCloudSiteInfo extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_set_cloud_site_info',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

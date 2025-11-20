@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface ExternalDynamicListConfig extends cdktf.TerraformMetaArguments 
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#disable_override ExternalDynamicList#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#disable_override ExternalDynamicList#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#location ExternalDynamicList#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#location ExternalDynamicList#location}
   */
   readonly location: ExternalDynamicListLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#type ExternalDynamicList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#type ExternalDynamicList#type}
   */
   readonly type?: ExternalDynamicListType;
 }
@@ -32,13 +32,13 @@ export interface ExternalDynamicListLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#panorama_device ExternalDynamicList#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#panorama_device ExternalDynamicList#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -222,13 +222,13 @@ export interface ExternalDynamicListLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#ngfw_device ExternalDynamicList#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#ngfw_device ExternalDynamicList#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -353,19 +353,19 @@ export interface ExternalDynamicListLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#device_group ExternalDynamicList#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#device_group ExternalDynamicList#device_group}
   */
   readonly deviceGroup?: ExternalDynamicListLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#shared ExternalDynamicList#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#shared ExternalDynamicList#shared}
   */
   readonly shared?: ExternalDynamicListLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#vsys ExternalDynamicList#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#vsys ExternalDynamicList#vsys}
   */
   readonly vsys?: ExternalDynamicListLocationVsys;
 }
@@ -517,11 +517,11 @@ export class ExternalDynamicListLocationOutputReference extends cdktf.ComplexObj
 }
 export interface ExternalDynamicListTypeDomainAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username?: string;
 }
@@ -646,7 +646,7 @@ export interface ExternalDynamicListTypeDomainRecurringDaily {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
 }
@@ -860,11 +860,11 @@ export interface ExternalDynamicListTypeDomainRecurringMonthly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth?: number;
 }
@@ -989,11 +989,11 @@ export interface ExternalDynamicListTypeDomainRecurringWeekly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -1116,23 +1116,23 @@ export class ExternalDynamicListTypeDomainRecurringWeeklyOutputReference extends
 }
 export interface ExternalDynamicListTypeDomainRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeDomainRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeDomainRecurringFiveMinute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeDomainRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeDomainRecurringMonthly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeDomainRecurringWeekly;
 }
@@ -1342,35 +1342,35 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
 }
 export interface ExternalDynamicListTypeDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeDomainAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
   * Enable/Disable expand domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#expand_domain ExternalDynamicList#expand_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#expand_domain ExternalDynamicList#expand_domain}
   */
   readonly expandDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring?: ExternalDynamicListTypeDomainRecurring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -1638,11 +1638,11 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
 }
 export interface ExternalDynamicListTypeImeiAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username?: string;
 }
@@ -1767,7 +1767,7 @@ export interface ExternalDynamicListTypeImeiRecurringDaily {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
 }
@@ -1981,11 +1981,11 @@ export interface ExternalDynamicListTypeImeiRecurringMonthly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth?: number;
 }
@@ -2110,11 +2110,11 @@ export interface ExternalDynamicListTypeImeiRecurringWeekly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -2237,23 +2237,23 @@ export class ExternalDynamicListTypeImeiRecurringWeeklyOutputReference extends c
 }
 export interface ExternalDynamicListTypeImeiRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeImeiRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeImeiRecurringFiveMinute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeImeiRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeImeiRecurringMonthly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeImeiRecurringWeekly;
 }
@@ -2463,29 +2463,29 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
 }
 export interface ExternalDynamicListTypeImei {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeImeiAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring?: ExternalDynamicListTypeImeiRecurring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -2724,11 +2724,11 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
 }
 export interface ExternalDynamicListTypeImsiAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username?: string;
 }
@@ -2853,7 +2853,7 @@ export interface ExternalDynamicListTypeImsiRecurringDaily {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
 }
@@ -3067,11 +3067,11 @@ export interface ExternalDynamicListTypeImsiRecurringMonthly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth?: number;
 }
@@ -3196,11 +3196,11 @@ export interface ExternalDynamicListTypeImsiRecurringWeekly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -3323,23 +3323,23 @@ export class ExternalDynamicListTypeImsiRecurringWeeklyOutputReference extends c
 }
 export interface ExternalDynamicListTypeImsiRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeImsiRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeImsiRecurringFiveMinute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeImsiRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeImsiRecurringMonthly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeImsiRecurringWeekly;
 }
@@ -3549,29 +3549,29 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
 }
 export interface ExternalDynamicListTypeImsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeImsiAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring?: ExternalDynamicListTypeImsiRecurring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -3810,11 +3810,11 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
 }
 export interface ExternalDynamicListTypeIpAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username?: string;
 }
@@ -3939,7 +3939,7 @@ export interface ExternalDynamicListTypeIpRecurringDaily {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
 }
@@ -4153,11 +4153,11 @@ export interface ExternalDynamicListTypeIpRecurringMonthly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth?: number;
 }
@@ -4282,11 +4282,11 @@ export interface ExternalDynamicListTypeIpRecurringWeekly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -4409,23 +4409,23 @@ export class ExternalDynamicListTypeIpRecurringWeeklyOutputReference extends cdk
 }
 export interface ExternalDynamicListTypeIpRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeIpRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeIpRecurringFiveMinute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeIpRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeIpRecurringMonthly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeIpRecurringWeekly;
 }
@@ -4635,29 +4635,29 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
 }
 export interface ExternalDynamicListTypeIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeIpAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring?: ExternalDynamicListTypeIpRecurring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -4896,15 +4896,15 @@ export class ExternalDynamicListTypeIpOutputReference extends cdktf.ComplexObjec
 }
 export interface ExternalDynamicListTypePredefinedIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -5056,15 +5056,15 @@ export class ExternalDynamicListTypePredefinedIpOutputReference extends cdktf.Co
 }
 export interface ExternalDynamicListTypePredefinedUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -5216,11 +5216,11 @@ export class ExternalDynamicListTypePredefinedUrlOutputReference extends cdktf.C
 }
 export interface ExternalDynamicListTypeUrlAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username?: string;
 }
@@ -5345,7 +5345,7 @@ export interface ExternalDynamicListTypeUrlRecurringDaily {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
 }
@@ -5559,11 +5559,11 @@ export interface ExternalDynamicListTypeUrlRecurringMonthly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth?: number;
 }
@@ -5688,11 +5688,11 @@ export interface ExternalDynamicListTypeUrlRecurringWeekly {
   /**
   * Time specification hh (e.g. 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -5815,23 +5815,23 @@ export class ExternalDynamicListTypeUrlRecurringWeeklyOutputReference extends cd
 }
 export interface ExternalDynamicListTypeUrlRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeUrlRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeUrlRecurringFiveMinute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeUrlRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeUrlRecurringMonthly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeUrlRecurringWeekly;
 }
@@ -6041,29 +6041,29 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
 }
 export interface ExternalDynamicListTypeUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeUrlAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring?: ExternalDynamicListTypeUrlRecurring;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: string;
 }
@@ -6302,31 +6302,31 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
 }
 export interface ExternalDynamicListType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#domain ExternalDynamicList#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#domain ExternalDynamicList#domain}
   */
   readonly domain?: ExternalDynamicListTypeDomain;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#imei ExternalDynamicList#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#imei ExternalDynamicList#imei}
   */
   readonly imei?: ExternalDynamicListTypeImei;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#imsi ExternalDynamicList#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#imsi ExternalDynamicList#imsi}
   */
   readonly imsi?: ExternalDynamicListTypeImsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#ip ExternalDynamicList#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#ip ExternalDynamicList#ip}
   */
   readonly ip?: ExternalDynamicListTypeIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#predefined_ip ExternalDynamicList#predefined_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#predefined_ip ExternalDynamicList#predefined_ip}
   */
   readonly predefinedIp?: ExternalDynamicListTypePredefinedIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#predefined_url ExternalDynamicList#predefined_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#predefined_url ExternalDynamicList#predefined_url}
   */
   readonly predefinedUrl?: ExternalDynamicListTypePredefinedUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: ExternalDynamicListTypeUrl;
 }
@@ -6594,7 +6594,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list panos_external_dynamic_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list panos_external_dynamic_list}
 */
 export class ExternalDynamicList extends cdktf.TerraformResource {
 
@@ -6610,7 +6610,7 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalDynamicList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalDynamicList to import
-  * @param importFromId The id of the existing ExternalDynamicList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalDynamicList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalDynamicList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6622,7 +6622,7 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/external_dynamic_list panos_external_dynamic_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/external_dynamic_list panos_external_dynamic_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6633,8 +6633,8 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
       terraformResourceType: 'panos_external_dynamic_list',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosDnsSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#dns_settings DataPanosDnsSettings#dns_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#dns_settings DataPanosDnsSettings#dns_settings}
   */
   readonly dnsSettings?: DataPanosDnsSettingsDnsSettings;
   /**
   * Seconds for Periodic Timer to refresh expired FQDN object entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#fqdn_refresh_time DataPanosDnsSettings#fqdn_refresh_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#fqdn_refresh_time DataPanosDnsSettings#fqdn_refresh_time}
   */
   readonly fqdnRefreshTime?: number;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#location DataPanosDnsSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#location DataPanosDnsSettings#location}
   */
   readonly location: DataPanosDnsSettingsLocation;
 }
@@ -28,13 +28,13 @@ export interface DataPanosDnsSettingsDnsSettingsServers {
   /**
   * Primary DNS server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#primary DataPanosDnsSettings#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#primary DataPanosDnsSettings#primary}
   */
   readonly primary?: string;
   /**
   * Secondary DNS server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#secondary DataPanosDnsSettings#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#secondary DataPanosDnsSettings#secondary}
   */
   readonly secondary?: string;
 }
@@ -157,7 +157,7 @@ export class DataPanosDnsSettingsDnsSettingsServersOutputReference extends cdktf
 }
 export interface DataPanosDnsSettingsDnsSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#servers DataPanosDnsSettings#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#servers DataPanosDnsSettings#servers}
   */
   readonly servers?: DataPanosDnsSettingsDnsSettingsServers;
 }
@@ -253,7 +253,7 @@ export interface DataPanosDnsSettingsLocationSystem {
   /**
   * Device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#device DataPanosDnsSettings#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#device DataPanosDnsSettings#device}
   */
   readonly device?: string;
 }
@@ -349,19 +349,19 @@ export interface DataPanosDnsSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#name DataPanosDnsSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#name DataPanosDnsSettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#ngfw_device DataPanosDnsSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#ngfw_device DataPanosDnsSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#panorama_device DataPanosDnsSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#panorama_device DataPanosDnsSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -515,19 +515,19 @@ export interface DataPanosDnsSettingsLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#name DataPanosDnsSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#name DataPanosDnsSettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#ngfw_device DataPanosDnsSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#ngfw_device DataPanosDnsSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#panorama_device DataPanosDnsSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#panorama_device DataPanosDnsSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -681,19 +681,19 @@ export interface DataPanosDnsSettingsLocation {
   /**
   * System-level configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#system DataPanosDnsSettings#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#system DataPanosDnsSettings#system}
   */
   readonly systemAttribute?: DataPanosDnsSettingsLocationSystem;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#template DataPanosDnsSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#template DataPanosDnsSettings#template}
   */
   readonly template?: DataPanosDnsSettingsLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#template_stack DataPanosDnsSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#template_stack DataPanosDnsSettings#template_stack}
   */
   readonly templateStack?: DataPanosDnsSettingsLocationTemplateStack;
 }
@@ -845,7 +845,7 @@ export class DataPanosDnsSettingsLocationOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings panos_dns_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings panos_dns_settings}
 */
 export class DataPanosDnsSettings extends cdktf.TerraformDataSource {
 
@@ -861,7 +861,7 @@ export class DataPanosDnsSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosDnsSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosDnsSettings to import
-  * @param importFromId The id of the existing DataPanosDnsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosDnsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosDnsSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -873,7 +873,7 @@ export class DataPanosDnsSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/dns_settings panos_dns_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/dns_settings panos_dns_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -884,8 +884,8 @@ export class DataPanosDnsSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_dns_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

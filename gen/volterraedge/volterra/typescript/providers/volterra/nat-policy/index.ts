@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface NatPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#annotations NatPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#annotations NatPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#description NatPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#description NatPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#disable NatPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#disable NatPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#id NatPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#id NatPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#labels NatPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#labels NatPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#rules NatPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#rules NatPolicy#rules}
   */
   readonly rules: NatPolicyRules[] | cdktf.IResolvable;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#site NatPolicy#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#site NatPolicy#site}
   */
   readonly site?: NatPolicySite;
 }
 export interface NatPolicyRulesActionDynamicElasticIpsRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -242,7 +242,7 @@ export interface NatPolicyRulesActionDynamicElasticIps {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesActionDynamicElasticIpsRefs[] | cdktf.IResolvable;
 }
@@ -323,11 +323,11 @@ export class NatPolicyRulesActionDynamicElasticIpsOutputReference extends cdktf.
 }
 export interface NatPolicyRulesActionDynamicPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#ipv6_prefixes NatPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#ipv6_prefixes NatPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#prefixes NatPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#prefixes NatPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -442,13 +442,13 @@ export interface NatPolicyRulesActionDynamic {
   /**
   * elastic_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#elastic_ips NatPolicy#elastic_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#elastic_ips NatPolicy#elastic_ips}
   */
   readonly elasticIps?: NatPolicyRulesActionDynamicElasticIps;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#pools NatPolicy#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#pools NatPolicy#pools}
   */
   readonly pools?: NatPolicyRulesActionDynamicPools;
 }
@@ -561,13 +561,13 @@ export class NatPolicyRulesActionDynamicOutputReference extends cdktf.ComplexObj
 }
 export interface NatPolicyRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#virtual_cidr NatPolicy#virtual_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_cidr NatPolicy#virtual_cidr}
   */
   readonly virtualCidr?: string;
   /**
   * dynamic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#dynamic NatPolicy#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#dynamic NatPolicy#dynamic}
   */
   readonly dynamic?: NatPolicyRulesActionDynamic;
 }
@@ -680,15 +680,15 @@ export class NatPolicyRulesActionOutputReference extends cdktf.ComplexObject {
 }
 export interface NatPolicyRulesCloudConnectRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -869,7 +869,7 @@ export interface NatPolicyRulesCloudConnect {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesCloudConnectRefs[] | cdktf.IResolvable;
 }
@@ -950,15 +950,15 @@ export class NatPolicyRulesCloudConnectOutputReference extends cdktf.ComplexObje
 }
 export interface NatPolicyRulesCriteriaDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -1100,15 +1100,15 @@ export class NatPolicyRulesCriteriaDestinationPortOutputReference extends cdktf.
 }
 export interface NatPolicyRulesCriteriaSegmentRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1285,13 +1285,206 @@ export class NatPolicyRulesCriteriaSegmentRefsList extends cdktf.ComplexList {
     return new NatPolicyRulesCriteriaSegmentRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface NatPolicyRulesCriteriaSegmentVirtualNetworks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function natPolicyRulesCriteriaSegmentVirtualNetworksToTerraform(struct?: NatPolicyRulesCriteriaSegmentVirtualNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function natPolicyRulesCriteriaSegmentVirtualNetworksToHclTerraform(struct?: NatPolicyRulesCriteriaSegmentVirtualNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaSegmentVirtualNetworksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaSegmentVirtualNetworks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaSegmentVirtualNetworks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class NatPolicyRulesCriteriaSegmentVirtualNetworksList extends cdktf.ComplexList {
+  public internalValue? : NatPolicyRulesCriteriaSegmentVirtualNetworks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NatPolicyRulesCriteriaSegmentVirtualNetworksOutputReference {
+    return new NatPolicyRulesCriteriaSegmentVirtualNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface NatPolicyRulesCriteriaSegment {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesCriteriaSegmentRefs[] | cdktf.IResolvable;
+  /**
+  * virtual_networks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_networks NatPolicy#virtual_networks}
+  */
+  readonly virtualNetworks?: NatPolicyRulesCriteriaSegmentVirtualNetworks[] | cdktf.IResolvable;
 }
 
 export function natPolicyRulesCriteriaSegmentToTerraform(struct?: NatPolicyRulesCriteriaSegmentOutputReference | NatPolicyRulesCriteriaSegment): any {
@@ -1301,6 +1494,7 @@ export function natPolicyRulesCriteriaSegmentToTerraform(struct?: NatPolicyRules
   }
   return {
     refs: cdktf.listMapper(natPolicyRulesCriteriaSegmentRefsToTerraform, true)(struct!.refs),
+    virtual_networks: cdktf.listMapper(natPolicyRulesCriteriaSegmentVirtualNetworksToTerraform, true)(struct!.virtualNetworks),
   }
 }
 
@@ -1316,6 +1510,12 @@ export function natPolicyRulesCriteriaSegmentToHclTerraform(struct?: NatPolicyRu
       isBlock: true,
       type: "list",
       storageClassType: "NatPolicyRulesCriteriaSegmentRefsList",
+    },
+    virtual_networks: {
+      value: cdktf.listMapperHcl(natPolicyRulesCriteriaSegmentVirtualNetworksToHclTerraform, true)(struct!.virtualNetworks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaSegmentVirtualNetworksList",
     },
   };
 
@@ -1341,6 +1541,10 @@ export class NatPolicyRulesCriteriaSegmentOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.refs = this._refs?.internalValue;
     }
+    if (this._virtualNetworks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualNetworks = this._virtualNetworks?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1348,10 +1552,12 @@ export class NatPolicyRulesCriteriaSegmentOutputReference extends cdktf.ComplexO
     if (value === undefined) {
       this.isEmptyObject = false;
       this._refs.internalValue = undefined;
+      this._virtualNetworks.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._refs.internalValue = value.refs;
+      this._virtualNetworks.internalValue = value.virtualNetworks;
     }
   }
 
@@ -1367,18 +1573,34 @@ export class NatPolicyRulesCriteriaSegmentOutputReference extends cdktf.ComplexO
   public get refsInput() {
     return this._refs.internalValue;
   }
+
+  // virtual_networks - computed: false, optional: true, required: false
+  private _virtualNetworks = new NatPolicyRulesCriteriaSegmentVirtualNetworksList(this, "virtual_networks", false);
+  public get virtualNetworks() {
+    return this._virtualNetworks;
+  }
+  public putVirtualNetworks(value: NatPolicyRulesCriteriaSegmentVirtualNetworks[] | cdktf.IResolvable) {
+    this._virtualNetworks.internalValue = value;
+  }
+  public resetVirtualNetworks() {
+    this._virtualNetworks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualNetworksInput() {
+    return this._virtualNetworks.internalValue;
+  }
 }
 export interface NatPolicyRulesCriteriaSourcePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#port NatPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -1518,17 +1740,859 @@ export class NatPolicyRulesCriteriaSourcePortOutputReference extends cdktf.Compl
     return this._portRanges;
   }
 }
+export interface NatPolicyRulesCriteriaTcpDestinationPort {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  */
+  readonly noPortMatch?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  */
+  readonly port?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  */
+  readonly portRanges?: string;
+}
+
+export function natPolicyRulesCriteriaTcpDestinationPortToTerraform(struct?: NatPolicyRulesCriteriaTcpDestinationPortOutputReference | NatPolicyRulesCriteriaTcpDestinationPort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    no_port_match: cdktf.booleanToTerraform(struct!.noPortMatch),
+    port: cdktf.numberToTerraform(struct!.port),
+    port_ranges: cdktf.stringToTerraform(struct!.portRanges),
+  }
+}
+
+
+export function natPolicyRulesCriteriaTcpDestinationPortToHclTerraform(struct?: NatPolicyRulesCriteriaTcpDestinationPortOutputReference | NatPolicyRulesCriteriaTcpDestinationPort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    no_port_match: {
+      value: cdktf.booleanToHclTerraform(struct!.noPortMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_ranges: {
+      value: cdktf.stringToHclTerraform(struct!.portRanges),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaTcpDestinationPortOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaTcpDestinationPort | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._noPortMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noPortMatch = this._noPortMatch;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._portRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portRanges = this._portRanges;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaTcpDestinationPort | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._noPortMatch = undefined;
+      this._port = undefined;
+      this._portRanges = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._noPortMatch = value.noPortMatch;
+      this._port = value.port;
+      this._portRanges = value.portRanges;
+    }
+  }
+
+  // no_port_match - computed: false, optional: true, required: false
+  private _noPortMatch?: boolean | cdktf.IResolvable; 
+  public get noPortMatch() {
+    return this.getBooleanAttribute('no_port_match');
+  }
+  public set noPortMatch(value: boolean | cdktf.IResolvable) {
+    this._noPortMatch = value;
+  }
+  public resetNoPortMatch() {
+    this._noPortMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noPortMatchInput() {
+    return this._noPortMatch;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // port_ranges - computed: false, optional: true, required: false
+  private _portRanges?: string; 
+  public get portRanges() {
+    return this.getStringAttribute('port_ranges');
+  }
+  public set portRanges(value: string) {
+    this._portRanges = value;
+  }
+  public resetPortRanges() {
+    this._portRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portRangesInput() {
+    return this._portRanges;
+  }
+}
+export interface NatPolicyRulesCriteriaTcpSourcePort {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  */
+  readonly noPortMatch?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  */
+  readonly port?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  */
+  readonly portRanges?: string;
+}
+
+export function natPolicyRulesCriteriaTcpSourcePortToTerraform(struct?: NatPolicyRulesCriteriaTcpSourcePortOutputReference | NatPolicyRulesCriteriaTcpSourcePort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    no_port_match: cdktf.booleanToTerraform(struct!.noPortMatch),
+    port: cdktf.numberToTerraform(struct!.port),
+    port_ranges: cdktf.stringToTerraform(struct!.portRanges),
+  }
+}
+
+
+export function natPolicyRulesCriteriaTcpSourcePortToHclTerraform(struct?: NatPolicyRulesCriteriaTcpSourcePortOutputReference | NatPolicyRulesCriteriaTcpSourcePort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    no_port_match: {
+      value: cdktf.booleanToHclTerraform(struct!.noPortMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_ranges: {
+      value: cdktf.stringToHclTerraform(struct!.portRanges),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaTcpSourcePortOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaTcpSourcePort | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._noPortMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noPortMatch = this._noPortMatch;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._portRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portRanges = this._portRanges;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaTcpSourcePort | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._noPortMatch = undefined;
+      this._port = undefined;
+      this._portRanges = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._noPortMatch = value.noPortMatch;
+      this._port = value.port;
+      this._portRanges = value.portRanges;
+    }
+  }
+
+  // no_port_match - computed: false, optional: true, required: false
+  private _noPortMatch?: boolean | cdktf.IResolvable; 
+  public get noPortMatch() {
+    return this.getBooleanAttribute('no_port_match');
+  }
+  public set noPortMatch(value: boolean | cdktf.IResolvable) {
+    this._noPortMatch = value;
+  }
+  public resetNoPortMatch() {
+    this._noPortMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noPortMatchInput() {
+    return this._noPortMatch;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // port_ranges - computed: false, optional: true, required: false
+  private _portRanges?: string; 
+  public get portRanges() {
+    return this.getStringAttribute('port_ranges');
+  }
+  public set portRanges(value: string) {
+    this._portRanges = value;
+  }
+  public resetPortRanges() {
+    this._portRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portRangesInput() {
+    return this._portRanges;
+  }
+}
+export interface NatPolicyRulesCriteriaTcp {
+  /**
+  * destination_port block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
+  */
+  readonly destinationPort?: NatPolicyRulesCriteriaTcpDestinationPort;
+  /**
+  * source_port block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_port NatPolicy#source_port}
+  */
+  readonly sourcePort?: NatPolicyRulesCriteriaTcpSourcePort;
+}
+
+export function natPolicyRulesCriteriaTcpToTerraform(struct?: NatPolicyRulesCriteriaTcpOutputReference | NatPolicyRulesCriteriaTcp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    destination_port: natPolicyRulesCriteriaTcpDestinationPortToTerraform(struct!.destinationPort),
+    source_port: natPolicyRulesCriteriaTcpSourcePortToTerraform(struct!.sourcePort),
+  }
+}
+
+
+export function natPolicyRulesCriteriaTcpToHclTerraform(struct?: NatPolicyRulesCriteriaTcpOutputReference | NatPolicyRulesCriteriaTcp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    destination_port: {
+      value: natPolicyRulesCriteriaTcpDestinationPortToHclTerraform(struct!.destinationPort),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaTcpDestinationPortList",
+    },
+    source_port: {
+      value: natPolicyRulesCriteriaTcpSourcePortToHclTerraform(struct!.sourcePort),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaTcpSourcePortList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaTcpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaTcp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._destinationPort?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationPort = this._destinationPort?.internalValue;
+    }
+    if (this._sourcePort?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourcePort = this._sourcePort?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaTcp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._destinationPort.internalValue = undefined;
+      this._sourcePort.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._destinationPort.internalValue = value.destinationPort;
+      this._sourcePort.internalValue = value.sourcePort;
+    }
+  }
+
+  // destination_port - computed: false, optional: true, required: false
+  private _destinationPort = new NatPolicyRulesCriteriaTcpDestinationPortOutputReference(this, "destination_port");
+  public get destinationPort() {
+    return this._destinationPort;
+  }
+  public putDestinationPort(value: NatPolicyRulesCriteriaTcpDestinationPort) {
+    this._destinationPort.internalValue = value;
+  }
+  public resetDestinationPort() {
+    this._destinationPort.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationPortInput() {
+    return this._destinationPort.internalValue;
+  }
+
+  // source_port - computed: false, optional: true, required: false
+  private _sourcePort = new NatPolicyRulesCriteriaTcpSourcePortOutputReference(this, "source_port");
+  public get sourcePort() {
+    return this._sourcePort;
+  }
+  public putSourcePort(value: NatPolicyRulesCriteriaTcpSourcePort) {
+    this._sourcePort.internalValue = value;
+  }
+  public resetSourcePort() {
+    this._sourcePort.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourcePortInput() {
+    return this._sourcePort.internalValue;
+  }
+}
+export interface NatPolicyRulesCriteriaUdpDestinationPort {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  */
+  readonly noPortMatch?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  */
+  readonly port?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  */
+  readonly portRanges?: string;
+}
+
+export function natPolicyRulesCriteriaUdpDestinationPortToTerraform(struct?: NatPolicyRulesCriteriaUdpDestinationPortOutputReference | NatPolicyRulesCriteriaUdpDestinationPort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    no_port_match: cdktf.booleanToTerraform(struct!.noPortMatch),
+    port: cdktf.numberToTerraform(struct!.port),
+    port_ranges: cdktf.stringToTerraform(struct!.portRanges),
+  }
+}
+
+
+export function natPolicyRulesCriteriaUdpDestinationPortToHclTerraform(struct?: NatPolicyRulesCriteriaUdpDestinationPortOutputReference | NatPolicyRulesCriteriaUdpDestinationPort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    no_port_match: {
+      value: cdktf.booleanToHclTerraform(struct!.noPortMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_ranges: {
+      value: cdktf.stringToHclTerraform(struct!.portRanges),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaUdpDestinationPortOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaUdpDestinationPort | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._noPortMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noPortMatch = this._noPortMatch;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._portRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portRanges = this._portRanges;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaUdpDestinationPort | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._noPortMatch = undefined;
+      this._port = undefined;
+      this._portRanges = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._noPortMatch = value.noPortMatch;
+      this._port = value.port;
+      this._portRanges = value.portRanges;
+    }
+  }
+
+  // no_port_match - computed: false, optional: true, required: false
+  private _noPortMatch?: boolean | cdktf.IResolvable; 
+  public get noPortMatch() {
+    return this.getBooleanAttribute('no_port_match');
+  }
+  public set noPortMatch(value: boolean | cdktf.IResolvable) {
+    this._noPortMatch = value;
+  }
+  public resetNoPortMatch() {
+    this._noPortMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noPortMatchInput() {
+    return this._noPortMatch;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // port_ranges - computed: false, optional: true, required: false
+  private _portRanges?: string; 
+  public get portRanges() {
+    return this.getStringAttribute('port_ranges');
+  }
+  public set portRanges(value: string) {
+    this._portRanges = value;
+  }
+  public resetPortRanges() {
+    this._portRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portRangesInput() {
+    return this._portRanges;
+  }
+}
+export interface NatPolicyRulesCriteriaUdpSourcePort {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#no_port_match NatPolicy#no_port_match}
+  */
+  readonly noPortMatch?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port NatPolicy#port}
+  */
+  readonly port?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#port_ranges NatPolicy#port_ranges}
+  */
+  readonly portRanges?: string;
+}
+
+export function natPolicyRulesCriteriaUdpSourcePortToTerraform(struct?: NatPolicyRulesCriteriaUdpSourcePortOutputReference | NatPolicyRulesCriteriaUdpSourcePort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    no_port_match: cdktf.booleanToTerraform(struct!.noPortMatch),
+    port: cdktf.numberToTerraform(struct!.port),
+    port_ranges: cdktf.stringToTerraform(struct!.portRanges),
+  }
+}
+
+
+export function natPolicyRulesCriteriaUdpSourcePortToHclTerraform(struct?: NatPolicyRulesCriteriaUdpSourcePortOutputReference | NatPolicyRulesCriteriaUdpSourcePort): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    no_port_match: {
+      value: cdktf.booleanToHclTerraform(struct!.noPortMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_ranges: {
+      value: cdktf.stringToHclTerraform(struct!.portRanges),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaUdpSourcePortOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaUdpSourcePort | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._noPortMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noPortMatch = this._noPortMatch;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._portRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portRanges = this._portRanges;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaUdpSourcePort | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._noPortMatch = undefined;
+      this._port = undefined;
+      this._portRanges = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._noPortMatch = value.noPortMatch;
+      this._port = value.port;
+      this._portRanges = value.portRanges;
+    }
+  }
+
+  // no_port_match - computed: false, optional: true, required: false
+  private _noPortMatch?: boolean | cdktf.IResolvable; 
+  public get noPortMatch() {
+    return this.getBooleanAttribute('no_port_match');
+  }
+  public set noPortMatch(value: boolean | cdktf.IResolvable) {
+    this._noPortMatch = value;
+  }
+  public resetNoPortMatch() {
+    this._noPortMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noPortMatchInput() {
+    return this._noPortMatch;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // port_ranges - computed: false, optional: true, required: false
+  private _portRanges?: string; 
+  public get portRanges() {
+    return this.getStringAttribute('port_ranges');
+  }
+  public set portRanges(value: string) {
+    this._portRanges = value;
+  }
+  public resetPortRanges() {
+    this._portRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portRangesInput() {
+    return this._portRanges;
+  }
+}
+export interface NatPolicyRulesCriteriaUdp {
+  /**
+  * destination_port block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
+  */
+  readonly destinationPort?: NatPolicyRulesCriteriaUdpDestinationPort;
+  /**
+  * source_port block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_port NatPolicy#source_port}
+  */
+  readonly sourcePort?: NatPolicyRulesCriteriaUdpSourcePort;
+}
+
+export function natPolicyRulesCriteriaUdpToTerraform(struct?: NatPolicyRulesCriteriaUdpOutputReference | NatPolicyRulesCriteriaUdp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    destination_port: natPolicyRulesCriteriaUdpDestinationPortToTerraform(struct!.destinationPort),
+    source_port: natPolicyRulesCriteriaUdpSourcePortToTerraform(struct!.sourcePort),
+  }
+}
+
+
+export function natPolicyRulesCriteriaUdpToHclTerraform(struct?: NatPolicyRulesCriteriaUdpOutputReference | NatPolicyRulesCriteriaUdp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    destination_port: {
+      value: natPolicyRulesCriteriaUdpDestinationPortToHclTerraform(struct!.destinationPort),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaUdpDestinationPortList",
+    },
+    source_port: {
+      value: natPolicyRulesCriteriaUdpSourcePortToHclTerraform(struct!.sourcePort),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaUdpSourcePortList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesCriteriaUdpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesCriteriaUdp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._destinationPort?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationPort = this._destinationPort?.internalValue;
+    }
+    if (this._sourcePort?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourcePort = this._sourcePort?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesCriteriaUdp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._destinationPort.internalValue = undefined;
+      this._sourcePort.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._destinationPort.internalValue = value.destinationPort;
+      this._sourcePort.internalValue = value.sourcePort;
+    }
+  }
+
+  // destination_port - computed: false, optional: true, required: false
+  private _destinationPort = new NatPolicyRulesCriteriaUdpDestinationPortOutputReference(this, "destination_port");
+  public get destinationPort() {
+    return this._destinationPort;
+  }
+  public putDestinationPort(value: NatPolicyRulesCriteriaUdpDestinationPort) {
+    this._destinationPort.internalValue = value;
+  }
+  public resetDestinationPort() {
+    this._destinationPort.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationPortInput() {
+    return this._destinationPort.internalValue;
+  }
+
+  // source_port - computed: false, optional: true, required: false
+  private _sourcePort = new NatPolicyRulesCriteriaUdpSourcePortOutputReference(this, "source_port");
+  public get sourcePort() {
+    return this._sourcePort;
+  }
+  public putSourcePort(value: NatPolicyRulesCriteriaUdpSourcePort) {
+    this._sourcePort.internalValue = value;
+  }
+  public resetSourcePort() {
+    this._sourcePort.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourcePortInput() {
+    return this._sourcePort.internalValue;
+  }
+}
 export interface NatPolicyRulesCriteriaVirtualNetworkRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1709,7 +2773,7 @@ export interface NatPolicyRulesCriteriaVirtualNetwork {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs?: NatPolicyRulesCriteriaVirtualNetworkRefs[] | cdktf.IResolvable;
 }
@@ -1793,39 +2857,67 @@ export class NatPolicyRulesCriteriaVirtualNetworkOutputReference extends cdktf.C
 }
 export interface NatPolicyRulesCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#destination_cidr NatPolicy#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#any NatPolicy#any}
+  */
+  readonly any?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_cidr NatPolicy#destination_cidr}
   */
   readonly destinationCidr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#protocol NatPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#icmp NatPolicy#icmp}
+  */
+  readonly icmp?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#protocol NatPolicy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#source_cidr NatPolicy#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#site_local_inside_network NatPolicy#site_local_inside_network}
+  */
+  readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#site_local_network NatPolicy#site_local_network}
+  */
+  readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_cidr NatPolicy#source_cidr}
   */
   readonly sourceCidr?: string[];
   /**
   * destination_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#destination_port NatPolicy#destination_port}
   */
   readonly destinationPort?: NatPolicyRulesCriteriaDestinationPort;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#segment NatPolicy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#segment NatPolicy#segment}
   */
   readonly segment?: NatPolicyRulesCriteriaSegment;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#source_port NatPolicy#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#source_port NatPolicy#source_port}
   */
   readonly sourcePort?: NatPolicyRulesCriteriaSourcePort;
   /**
+  * tcp block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tcp NatPolicy#tcp}
+  */
+  readonly tcp?: NatPolicyRulesCriteriaTcp;
+  /**
+  * udp block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#udp NatPolicy#udp}
+  */
+  readonly udp?: NatPolicyRulesCriteriaUdp;
+  /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
   */
   readonly virtualNetwork?: NatPolicyRulesCriteriaVirtualNetwork;
 }
@@ -1836,12 +2928,18 @@ export function natPolicyRulesCriteriaToTerraform(struct?: NatPolicyRulesCriteri
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    any: cdktf.booleanToTerraform(struct!.any),
     destination_cidr: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destinationCidr),
+    icmp: cdktf.booleanToTerraform(struct!.icmp),
     protocol: cdktf.stringToTerraform(struct!.protocol),
+    site_local_inside_network: cdktf.booleanToTerraform(struct!.siteLocalInsideNetwork),
+    site_local_network: cdktf.booleanToTerraform(struct!.siteLocalNetwork),
     source_cidr: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceCidr),
     destination_port: natPolicyRulesCriteriaDestinationPortToTerraform(struct!.destinationPort),
     segment: natPolicyRulesCriteriaSegmentToTerraform(struct!.segment),
     source_port: natPolicyRulesCriteriaSourcePortToTerraform(struct!.sourcePort),
+    tcp: natPolicyRulesCriteriaTcpToTerraform(struct!.tcp),
+    udp: natPolicyRulesCriteriaUdpToTerraform(struct!.udp),
     virtual_network: natPolicyRulesCriteriaVirtualNetworkToTerraform(struct!.virtualNetwork),
   }
 }
@@ -1853,17 +2951,41 @@ export function natPolicyRulesCriteriaToHclTerraform(struct?: NatPolicyRulesCrit
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    any: {
+      value: cdktf.booleanToHclTerraform(struct!.any),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     destination_cidr: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destinationCidr),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
+    icmp: {
+      value: cdktf.booleanToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     protocol: {
       value: cdktf.stringToHclTerraform(struct!.protocol),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    site_local_inside_network: {
+      value: cdktf.booleanToHclTerraform(struct!.siteLocalInsideNetwork),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    site_local_network: {
+      value: cdktf.booleanToHclTerraform(struct!.siteLocalNetwork),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     source_cidr: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceCidr),
@@ -1888,6 +3010,18 @@ export function natPolicyRulesCriteriaToHclTerraform(struct?: NatPolicyRulesCrit
       isBlock: true,
       type: "list",
       storageClassType: "NatPolicyRulesCriteriaSourcePortList",
+    },
+    tcp: {
+      value: natPolicyRulesCriteriaTcpToHclTerraform(struct!.tcp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaTcpList",
+    },
+    udp: {
+      value: natPolicyRulesCriteriaUdpToHclTerraform(struct!.udp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesCriteriaUdpList",
     },
     virtual_network: {
       value: natPolicyRulesCriteriaVirtualNetworkToHclTerraform(struct!.virtualNetwork),
@@ -1915,13 +3049,29 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
   public get internalValue(): NatPolicyRulesCriteria | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._any !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.any = this._any;
+    }
     if (this._destinationCidr !== undefined) {
       hasAnyValues = true;
       internalValueResult.destinationCidr = this._destinationCidr;
     }
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
     if (this._protocol !== undefined) {
       hasAnyValues = true;
       internalValueResult.protocol = this._protocol;
+    }
+    if (this._siteLocalInsideNetwork !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteLocalInsideNetwork = this._siteLocalInsideNetwork;
+    }
+    if (this._siteLocalNetwork !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteLocalNetwork = this._siteLocalNetwork;
     }
     if (this._sourceCidr !== undefined) {
       hasAnyValues = true;
@@ -1939,6 +3089,14 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.sourcePort = this._sourcePort?.internalValue;
     }
+    if (this._tcp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcp = this._tcp?.internalValue;
+    }
+    if (this._udp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udp = this._udp?.internalValue;
+    }
     if (this._virtualNetwork?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.virtualNetwork = this._virtualNetwork?.internalValue;
@@ -1949,24 +3107,52 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
   public set internalValue(value: NatPolicyRulesCriteria | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._any = undefined;
       this._destinationCidr = undefined;
+      this._icmp = undefined;
       this._protocol = undefined;
+      this._siteLocalInsideNetwork = undefined;
+      this._siteLocalNetwork = undefined;
       this._sourceCidr = undefined;
       this._destinationPort.internalValue = undefined;
       this._segment.internalValue = undefined;
       this._sourcePort.internalValue = undefined;
+      this._tcp.internalValue = undefined;
+      this._udp.internalValue = undefined;
       this._virtualNetwork.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._any = value.any;
       this._destinationCidr = value.destinationCidr;
+      this._icmp = value.icmp;
       this._protocol = value.protocol;
+      this._siteLocalInsideNetwork = value.siteLocalInsideNetwork;
+      this._siteLocalNetwork = value.siteLocalNetwork;
       this._sourceCidr = value.sourceCidr;
       this._destinationPort.internalValue = value.destinationPort;
       this._segment.internalValue = value.segment;
       this._sourcePort.internalValue = value.sourcePort;
+      this._tcp.internalValue = value.tcp;
+      this._udp.internalValue = value.udp;
       this._virtualNetwork.internalValue = value.virtualNetwork;
     }
+  }
+
+  // any - computed: false, optional: true, required: false
+  private _any?: boolean | cdktf.IResolvable; 
+  public get any() {
+    return this.getBooleanAttribute('any');
+  }
+  public set any(value: boolean | cdktf.IResolvable) {
+    this._any = value;
+  }
+  public resetAny() {
+    this._any = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get anyInput() {
+    return this._any;
   }
 
   // destination_cidr - computed: false, optional: true, required: false
@@ -1985,6 +3171,22 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
     return this._destinationCidr;
   }
 
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: boolean | cdktf.IResolvable; 
+  public get icmp() {
+    return this.getBooleanAttribute('icmp');
+  }
+  public set icmp(value: boolean | cdktf.IResolvable) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
   // protocol - computed: false, optional: true, required: false
   private _protocol?: string; 
   public get protocol() {
@@ -1999,6 +3201,38 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get protocolInput() {
     return this._protocol;
+  }
+
+  // site_local_inside_network - computed: false, optional: true, required: false
+  private _siteLocalInsideNetwork?: boolean | cdktf.IResolvable; 
+  public get siteLocalInsideNetwork() {
+    return this.getBooleanAttribute('site_local_inside_network');
+  }
+  public set siteLocalInsideNetwork(value: boolean | cdktf.IResolvable) {
+    this._siteLocalInsideNetwork = value;
+  }
+  public resetSiteLocalInsideNetwork() {
+    this._siteLocalInsideNetwork = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteLocalInsideNetworkInput() {
+    return this._siteLocalInsideNetwork;
+  }
+
+  // site_local_network - computed: false, optional: true, required: false
+  private _siteLocalNetwork?: boolean | cdktf.IResolvable; 
+  public get siteLocalNetwork() {
+    return this.getBooleanAttribute('site_local_network');
+  }
+  public set siteLocalNetwork(value: boolean | cdktf.IResolvable) {
+    this._siteLocalNetwork = value;
+  }
+  public resetSiteLocalNetwork() {
+    this._siteLocalNetwork = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteLocalNetworkInput() {
+    return this._siteLocalNetwork;
   }
 
   // source_cidr - computed: false, optional: true, required: false
@@ -2065,6 +3299,38 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
     return this._sourcePort.internalValue;
   }
 
+  // tcp - computed: false, optional: true, required: false
+  private _tcp = new NatPolicyRulesCriteriaTcpOutputReference(this, "tcp");
+  public get tcp() {
+    return this._tcp;
+  }
+  public putTcp(value: NatPolicyRulesCriteriaTcp) {
+    this._tcp.internalValue = value;
+  }
+  public resetTcp() {
+    this._tcp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInput() {
+    return this._tcp.internalValue;
+  }
+
+  // udp - computed: false, optional: true, required: false
+  private _udp = new NatPolicyRulesCriteriaUdpOutputReference(this, "udp");
+  public get udp() {
+    return this._udp;
+  }
+  public putUdp(value: NatPolicyRulesCriteriaUdp) {
+    this._udp.internalValue = value;
+  }
+  public resetUdp() {
+    this._udp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpInput() {
+    return this._udp.internalValue;
+  }
+
   // virtual_network - computed: false, optional: true, required: false
   private _virtualNetwork = new NatPolicyRulesCriteriaVirtualNetworkOutputReference(this, "virtual_network");
   public get virtualNetwork() {
@@ -2081,17 +3347,287 @@ export class NatPolicyRulesCriteriaOutputReference extends cdktf.ComplexObject {
     return this._virtualNetwork.internalValue;
   }
 }
-export interface NatPolicyRulesNodeInterfaceListInterface {
+export interface NatPolicyRulesNetworkInterfaceRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function natPolicyRulesNetworkInterfaceRefsToTerraform(struct?: NatPolicyRulesNetworkInterfaceRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function natPolicyRulesNetworkInterfaceRefsToHclTerraform(struct?: NatPolicyRulesNetworkInterfaceRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesNetworkInterfaceRefsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NatPolicyRulesNetworkInterfaceRefs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesNetworkInterfaceRefs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class NatPolicyRulesNetworkInterfaceRefsList extends cdktf.ComplexList {
+  public internalValue? : NatPolicyRulesNetworkInterfaceRefs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NatPolicyRulesNetworkInterfaceRefsOutputReference {
+    return new NatPolicyRulesNetworkInterfaceRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface NatPolicyRulesNetworkInterface {
+  /**
+  * refs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
+  */
+  readonly refs: NatPolicyRulesNetworkInterfaceRefs[] | cdktf.IResolvable;
+}
+
+export function natPolicyRulesNetworkInterfaceToTerraform(struct?: NatPolicyRulesNetworkInterfaceOutputReference | NatPolicyRulesNetworkInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    refs: cdktf.listMapper(natPolicyRulesNetworkInterfaceRefsToTerraform, true)(struct!.refs),
+  }
+}
+
+
+export function natPolicyRulesNetworkInterfaceToHclTerraform(struct?: NatPolicyRulesNetworkInterfaceOutputReference | NatPolicyRulesNetworkInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    refs: {
+      value: cdktf.listMapperHcl(natPolicyRulesNetworkInterfaceRefsToHclTerraform, true)(struct!.refs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesNetworkInterfaceRefsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesNetworkInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NatPolicyRulesNetworkInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._refs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refs = this._refs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesNetworkInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._refs.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._refs.internalValue = value.refs;
+    }
+  }
+
+  // refs - computed: false, optional: false, required: true
+  private _refs = new NatPolicyRulesNetworkInterfaceRefsList(this, "refs", false);
+  public get refs() {
+    return this._refs;
+  }
+  public putRefs(value: NatPolicyRulesNetworkInterfaceRefs[] | cdktf.IResolvable) {
+    this._refs.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refsInput() {
+    return this._refs.internalValue;
+  }
+}
+export interface NatPolicyRulesNodeInterfaceListInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2270,13 +3806,13 @@ export class NatPolicyRulesNodeInterfaceListInterfaceList extends cdktf.ComplexL
 }
 export interface NatPolicyRulesNodeInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#node NatPolicy#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#node NatPolicy#node}
   */
   readonly nodeAttribute?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#interface NatPolicy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#interface NatPolicy#interface}
   */
   readonly interface?: NatPolicyRulesNodeInterfaceListInterface[] | cdktf.IResolvable;
 }
@@ -2423,7 +3959,7 @@ export interface NatPolicyRulesNodeInterface {
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#list NatPolicy#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#list NatPolicy#list}
   */
   readonly list?: NatPolicyRulesNodeInterfaceListStruct[] | cdktf.IResolvable;
 }
@@ -2507,15 +4043,15 @@ export class NatPolicyRulesNodeInterfaceOutputReference extends cdktf.ComplexObj
 }
 export interface NatPolicyRulesSegmentRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2692,13 +4228,206 @@ export class NatPolicyRulesSegmentRefsList extends cdktf.ComplexList {
     return new NatPolicyRulesSegmentRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface NatPolicyRulesSegmentVirtualNetworks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function natPolicyRulesSegmentVirtualNetworksToTerraform(struct?: NatPolicyRulesSegmentVirtualNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function natPolicyRulesSegmentVirtualNetworksToHclTerraform(struct?: NatPolicyRulesSegmentVirtualNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatPolicyRulesSegmentVirtualNetworksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NatPolicyRulesSegmentVirtualNetworks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatPolicyRulesSegmentVirtualNetworks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class NatPolicyRulesSegmentVirtualNetworksList extends cdktf.ComplexList {
+  public internalValue? : NatPolicyRulesSegmentVirtualNetworks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NatPolicyRulesSegmentVirtualNetworksOutputReference {
+    return new NatPolicyRulesSegmentVirtualNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface NatPolicyRulesSegment {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicyRulesSegmentRefs[] | cdktf.IResolvable;
+  /**
+  * virtual_networks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_networks NatPolicy#virtual_networks}
+  */
+  readonly virtualNetworks?: NatPolicyRulesSegmentVirtualNetworks[] | cdktf.IResolvable;
 }
 
 export function natPolicyRulesSegmentToTerraform(struct?: NatPolicyRulesSegmentOutputReference | NatPolicyRulesSegment): any {
@@ -2708,6 +4437,7 @@ export function natPolicyRulesSegmentToTerraform(struct?: NatPolicyRulesSegmentO
   }
   return {
     refs: cdktf.listMapper(natPolicyRulesSegmentRefsToTerraform, true)(struct!.refs),
+    virtual_networks: cdktf.listMapper(natPolicyRulesSegmentVirtualNetworksToTerraform, true)(struct!.virtualNetworks),
   }
 }
 
@@ -2723,6 +4453,12 @@ export function natPolicyRulesSegmentToHclTerraform(struct?: NatPolicyRulesSegme
       isBlock: true,
       type: "list",
       storageClassType: "NatPolicyRulesSegmentRefsList",
+    },
+    virtual_networks: {
+      value: cdktf.listMapperHcl(natPolicyRulesSegmentVirtualNetworksToHclTerraform, true)(struct!.virtualNetworks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesSegmentVirtualNetworksList",
     },
   };
 
@@ -2748,6 +4484,10 @@ export class NatPolicyRulesSegmentOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.refs = this._refs?.internalValue;
     }
+    if (this._virtualNetworks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualNetworks = this._virtualNetworks?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2755,10 +4495,12 @@ export class NatPolicyRulesSegmentOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._refs.internalValue = undefined;
+      this._virtualNetworks.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._refs.internalValue = value.refs;
+      this._virtualNetworks.internalValue = value.virtualNetworks;
     }
   }
 
@@ -2774,18 +4516,34 @@ export class NatPolicyRulesSegmentOutputReference extends cdktf.ComplexObject {
   public get refsInput() {
     return this._refs.internalValue;
   }
+
+  // virtual_networks - computed: false, optional: true, required: false
+  private _virtualNetworks = new NatPolicyRulesSegmentVirtualNetworksList(this, "virtual_networks", false);
+  public get virtualNetworks() {
+    return this._virtualNetworks;
+  }
+  public putVirtualNetworks(value: NatPolicyRulesSegmentVirtualNetworks[] | cdktf.IResolvable) {
+    this._virtualNetworks.internalValue = value;
+  }
+  public resetVirtualNetworks() {
+    this._virtualNetworks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualNetworksInput() {
+    return this._virtualNetworks.internalValue;
+  }
 }
 export interface NatPolicyRulesVirtualNetworkRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2966,7 +4724,7 @@ export interface NatPolicyRulesVirtualNetwork {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs?: NatPolicyRulesVirtualNetworkRefs[] | cdktf.IResolvable;
 }
@@ -3050,51 +4808,57 @@ export class NatPolicyRulesVirtualNetworkOutputReference extends cdktf.ComplexOb
 }
 export interface NatPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#disable NatPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#disable NatPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#enable NatPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#enable NatPolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#action NatPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#action NatPolicy#action}
   */
   readonly action: NatPolicyRulesAction;
   /**
   * cloud_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#cloud_connect NatPolicy#cloud_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#cloud_connect NatPolicy#cloud_connect}
   */
   readonly cloudConnect?: NatPolicyRulesCloudConnect;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#criteria NatPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#criteria NatPolicy#criteria}
   */
   readonly criteria?: NatPolicyRulesCriteria;
   /**
+  * network_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#network_interface NatPolicy#network_interface}
+  */
+  readonly networkInterface?: NatPolicyRulesNetworkInterface;
+  /**
   * node_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#node_interface NatPolicy#node_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#node_interface NatPolicy#node_interface}
   */
   readonly nodeInterface?: NatPolicyRulesNodeInterface;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#segment NatPolicy#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#segment NatPolicy#segment}
   */
   readonly segment?: NatPolicyRulesSegment;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#virtual_network NatPolicy#virtual_network}
   */
   readonly virtualNetwork?: NatPolicyRulesVirtualNetwork;
 }
@@ -3111,6 +4875,7 @@ export function natPolicyRulesToTerraform(struct?: NatPolicyRules | cdktf.IResol
     action: natPolicyRulesActionToTerraform(struct!.action),
     cloud_connect: natPolicyRulesCloudConnectToTerraform(struct!.cloudConnect),
     criteria: natPolicyRulesCriteriaToTerraform(struct!.criteria),
+    network_interface: natPolicyRulesNetworkInterfaceToTerraform(struct!.networkInterface),
     node_interface: natPolicyRulesNodeInterfaceToTerraform(struct!.nodeInterface),
     segment: natPolicyRulesSegmentToTerraform(struct!.segment),
     virtual_network: natPolicyRulesVirtualNetworkToTerraform(struct!.virtualNetwork),
@@ -3159,6 +4924,12 @@ export function natPolicyRulesToHclTerraform(struct?: NatPolicyRules | cdktf.IRe
       isBlock: true,
       type: "list",
       storageClassType: "NatPolicyRulesCriteriaList",
+    },
+    network_interface: {
+      value: natPolicyRulesNetworkInterfaceToHclTerraform(struct!.networkInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NatPolicyRulesNetworkInterfaceList",
     },
     node_interface: {
       value: natPolicyRulesNodeInterfaceToHclTerraform(struct!.nodeInterface),
@@ -3228,6 +4999,10 @@ export class NatPolicyRulesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.criteria = this._criteria?.internalValue;
     }
+    if (this._networkInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkInterface = this._networkInterface?.internalValue;
+    }
     if (this._nodeInterface?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.nodeInterface = this._nodeInterface?.internalValue;
@@ -3253,6 +5028,7 @@ export class NatPolicyRulesOutputReference extends cdktf.ComplexObject {
       this._action.internalValue = undefined;
       this._cloudConnect.internalValue = undefined;
       this._criteria.internalValue = undefined;
+      this._networkInterface.internalValue = undefined;
       this._nodeInterface.internalValue = undefined;
       this._segment.internalValue = undefined;
       this._virtualNetwork.internalValue = undefined;
@@ -3270,6 +5046,7 @@ export class NatPolicyRulesOutputReference extends cdktf.ComplexObject {
       this._action.internalValue = value.action;
       this._cloudConnect.internalValue = value.cloudConnect;
       this._criteria.internalValue = value.criteria;
+      this._networkInterface.internalValue = value.networkInterface;
       this._nodeInterface.internalValue = value.nodeInterface;
       this._segment.internalValue = value.segment;
       this._virtualNetwork.internalValue = value.virtualNetwork;
@@ -3366,6 +5143,22 @@ export class NatPolicyRulesOutputReference extends cdktf.ComplexObject {
     return this._criteria.internalValue;
   }
 
+  // network_interface - computed: false, optional: true, required: false
+  private _networkInterface = new NatPolicyRulesNetworkInterfaceOutputReference(this, "network_interface");
+  public get networkInterface() {
+    return this._networkInterface;
+  }
+  public putNetworkInterface(value: NatPolicyRulesNetworkInterface) {
+    this._networkInterface.internalValue = value;
+  }
+  public resetNetworkInterface() {
+    this._networkInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInterfaceInput() {
+    return this._networkInterface.internalValue;
+  }
+
   // node_interface - computed: false, optional: true, required: false
   private _nodeInterface = new NatPolicyRulesNodeInterfaceOutputReference(this, "node_interface");
   public get nodeInterface() {
@@ -3436,15 +5229,15 @@ export class NatPolicyRulesList extends cdktf.ComplexList {
 }
 export interface NatPolicySiteRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#name NatPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#name NatPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#namespace NatPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#namespace NatPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#tenant NatPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#tenant NatPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3625,7 +5418,7 @@ export interface NatPolicySite {
   /**
   * refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#refs NatPolicy#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#refs NatPolicy#refs}
   */
   readonly refs: NatPolicySiteRefs[] | cdktf.IResolvable;
 }
@@ -3706,7 +5499,7 @@ export class NatPolicySiteOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy volterra_nat_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy volterra_nat_policy}
 */
 export class NatPolicy extends cdktf.TerraformResource {
 
@@ -3722,7 +5515,7 @@ export class NatPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatPolicy to import
-  * @param importFromId The id of the existing NatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3734,7 +5527,7 @@ export class NatPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nat_policy volterra_nat_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nat_policy volterra_nat_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3745,8 +5538,8 @@ export class NatPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_nat_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

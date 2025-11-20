@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface OriginPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#annotations OriginPool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#annotations OriginPool#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#automatic_port OriginPool#automatic_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#automatic_port OriginPool#automatic_port}
   */
   readonly automaticPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#description OriginPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#description OriginPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable OriginPool#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable OriginPool#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#endpoint_selection OriginPool#endpoint_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#endpoint_selection OriginPool#endpoint_selection}
   */
   readonly endpointSelection: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#health_check_port OriginPool#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#health_check_port OriginPool#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#id OriginPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#id OriginPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#labels OriginPool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#labels OriginPool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#lb_port OriginPool#lb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#lb_port OriginPool#lb_port}
   */
   readonly lbPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#loadbalancer_algorithm OriginPool#loadbalancer_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#loadbalancer_algorithm OriginPool#loadbalancer_algorithm}
   */
   readonly loadbalancerAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_tls OriginPool#no_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_tls OriginPool#no_tls}
   */
   readonly noTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#port OriginPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#port OriginPool#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#same_as_endpoint_port OriginPool#same_as_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#same_as_endpoint_port OriginPool#same_as_endpoint_port}
   */
   readonly sameAsEndpointPort?: boolean | cdktf.IResolvable;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#advanced_options OriginPool#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#advanced_options OriginPool#advanced_options}
   */
   readonly advancedOptions?: OriginPoolAdvancedOptions;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#healthcheck OriginPool#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#healthcheck OriginPool#healthcheck}
   */
   readonly healthcheck?: OriginPoolHealthcheck[] | cdktf.IResolvable;
   /**
   * origin_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#origin_servers OriginPool#origin_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#origin_servers OriginPool#origin_servers}
   */
   readonly originServers: OriginPoolOriginServers[] | cdktf.IResolvable;
   /**
   * upstream_conn_pool_reuse_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#upstream_conn_pool_reuse_type OriginPool#upstream_conn_pool_reuse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#upstream_conn_pool_reuse_type OriginPool#upstream_conn_pool_reuse_type}
   */
   readonly upstreamConnPoolReuseType?: OriginPoolUpstreamConnPoolReuseType;
   /**
   * use_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#use_tls OriginPool#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#use_tls OriginPool#use_tls}
   */
   readonly useTls?: OriginPoolUseTls;
 }
 export interface OriginPoolAdvancedOptionsCircuitBreaker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#connection_limit OriginPool#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#connection_limit OriginPool#connection_limit}
   */
   readonly connectionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#max_requests OriginPool#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#max_requests OriginPool#max_requests}
   */
   readonly maxRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#pending_requests OriginPool#pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#pending_requests OriginPool#pending_requests}
   */
   readonly pendingRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#priority OriginPool#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#priority OriginPool#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#retries OriginPool#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#retries OriginPool#retries}
   */
   readonly retries?: number;
 }
@@ -319,7 +319,7 @@ export class OriginPoolAdvancedOptionsCircuitBreakerOutputReference extends cdkt
 }
 export interface OriginPoolAdvancedOptionsEnableSubsetsDefaultSubset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#default_subset OriginPool#default_subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_subset OriginPool#default_subset}
   */
   readonly defaultSubset?: { [key: string]: string };
 }
@@ -403,7 +403,7 @@ export class OriginPoolAdvancedOptionsEnableSubsetsDefaultSubsetOutputReference 
 }
 export interface OriginPoolAdvancedOptionsEnableSubsetsEndpointSubsets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#keys OriginPool#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#keys OriginPool#keys}
   */
   readonly keys: string[];
 }
@@ -516,23 +516,23 @@ export class OriginPoolAdvancedOptionsEnableSubsetsEndpointSubsetsList extends c
 }
 export interface OriginPoolAdvancedOptionsEnableSubsets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#any_endpoint OriginPool#any_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#any_endpoint OriginPool#any_endpoint}
   */
   readonly anyEndpoint?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#fail_request OriginPool#fail_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#fail_request OriginPool#fail_request}
   */
   readonly failRequest?: boolean | cdktf.IResolvable;
   /**
   * default_subset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#default_subset OriginPool#default_subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_subset OriginPool#default_subset}
   */
   readonly defaultSubset?: OriginPoolAdvancedOptionsEnableSubsetsDefaultSubset;
   /**
   * endpoint_subsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#endpoint_subsets OriginPool#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#endpoint_subsets OriginPool#endpoint_subsets}
   */
   readonly endpointSubsets: OriginPoolAdvancedOptionsEnableSubsetsEndpointSubsets[] | cdktf.IResolvable;
 }
@@ -698,21 +698,204 @@ export class OriginPoolAdvancedOptionsEnableSubsetsOutputReference extends cdktf
     return this._endpointSubsets.internalValue;
   }
 }
-export interface OriginPoolAdvancedOptionsHttp1ConfigHeaderTransformation {
+export interface OriginPoolAdvancedOptionsHeaderTransformationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#default_header_transformation OriginPool#default_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_header_transformation OriginPool#default_header_transformation}
   */
   readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#legacy_header_transformation OriginPool#legacy_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#legacy_header_transformation OriginPool#legacy_header_transformation}
   */
   readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#preserve_case_header_transformation OriginPool#preserve_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#preserve_case_header_transformation OriginPool#preserve_case_header_transformation}
   */
   readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#proper_case_header_transformation OriginPool#proper_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#proper_case_header_transformation OriginPool#proper_case_header_transformation}
+  */
+  readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
+}
+
+export function originPoolAdvancedOptionsHeaderTransformationTypeToTerraform(struct?: OriginPoolAdvancedOptionsHeaderTransformationTypeOutputReference | OriginPoolAdvancedOptionsHeaderTransformationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_header_transformation: cdktf.booleanToTerraform(struct!.defaultHeaderTransformation),
+    legacy_header_transformation: cdktf.booleanToTerraform(struct!.legacyHeaderTransformation),
+    preserve_case_header_transformation: cdktf.booleanToTerraform(struct!.preserveCaseHeaderTransformation),
+    proper_case_header_transformation: cdktf.booleanToTerraform(struct!.properCaseHeaderTransformation),
+  }
+}
+
+
+export function originPoolAdvancedOptionsHeaderTransformationTypeToHclTerraform(struct?: OriginPoolAdvancedOptionsHeaderTransformationTypeOutputReference | OriginPoolAdvancedOptionsHeaderTransformationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    legacy_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.legacyHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    preserve_case_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.preserveCaseHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    proper_case_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.properCaseHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OriginPoolAdvancedOptionsHeaderTransformationTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OriginPoolAdvancedOptionsHeaderTransformationType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultHeaderTransformation = this._defaultHeaderTransformation;
+    }
+    if (this._legacyHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.legacyHeaderTransformation = this._legacyHeaderTransformation;
+    }
+    if (this._preserveCaseHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preserveCaseHeaderTransformation = this._preserveCaseHeaderTransformation;
+    }
+    if (this._properCaseHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.properCaseHeaderTransformation = this._properCaseHeaderTransformation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OriginPoolAdvancedOptionsHeaderTransformationType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultHeaderTransformation = undefined;
+      this._legacyHeaderTransformation = undefined;
+      this._preserveCaseHeaderTransformation = undefined;
+      this._properCaseHeaderTransformation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultHeaderTransformation = value.defaultHeaderTransformation;
+      this._legacyHeaderTransformation = value.legacyHeaderTransformation;
+      this._preserveCaseHeaderTransformation = value.preserveCaseHeaderTransformation;
+      this._properCaseHeaderTransformation = value.properCaseHeaderTransformation;
+    }
+  }
+
+  // default_header_transformation - computed: false, optional: true, required: false
+  private _defaultHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get defaultHeaderTransformation() {
+    return this.getBooleanAttribute('default_header_transformation');
+  }
+  public set defaultHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._defaultHeaderTransformation = value;
+  }
+  public resetDefaultHeaderTransformation() {
+    this._defaultHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultHeaderTransformationInput() {
+    return this._defaultHeaderTransformation;
+  }
+
+  // legacy_header_transformation - computed: false, optional: true, required: false
+  private _legacyHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get legacyHeaderTransformation() {
+    return this.getBooleanAttribute('legacy_header_transformation');
+  }
+  public set legacyHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._legacyHeaderTransformation = value;
+  }
+  public resetLegacyHeaderTransformation() {
+    this._legacyHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legacyHeaderTransformationInput() {
+    return this._legacyHeaderTransformation;
+  }
+
+  // preserve_case_header_transformation - computed: false, optional: true, required: false
+  private _preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get preserveCaseHeaderTransformation() {
+    return this.getBooleanAttribute('preserve_case_header_transformation');
+  }
+  public set preserveCaseHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._preserveCaseHeaderTransformation = value;
+  }
+  public resetPreserveCaseHeaderTransformation() {
+    this._preserveCaseHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preserveCaseHeaderTransformationInput() {
+    return this._preserveCaseHeaderTransformation;
+  }
+
+  // proper_case_header_transformation - computed: false, optional: true, required: false
+  private _properCaseHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get properCaseHeaderTransformation() {
+    return this.getBooleanAttribute('proper_case_header_transformation');
+  }
+  public set properCaseHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._properCaseHeaderTransformation = value;
+  }
+  public resetProperCaseHeaderTransformation() {
+    this._properCaseHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get properCaseHeaderTransformationInput() {
+    return this._properCaseHeaderTransformation;
+  }
+}
+export interface OriginPoolAdvancedOptionsHttp1ConfigHeaderTransformation {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_header_transformation OriginPool#default_header_transformation}
+  */
+  readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#legacy_header_transformation OriginPool#legacy_header_transformation}
+  */
+  readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#preserve_case_header_transformation OriginPool#preserve_case_header_transformation}
+  */
+  readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#proper_case_header_transformation OriginPool#proper_case_header_transformation}
   */
   readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
 }
@@ -885,7 +1068,7 @@ export interface OriginPoolAdvancedOptionsHttp1Config {
   /**
   * header_transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#header_transformation OriginPool#header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#header_transformation OriginPool#header_transformation}
   */
   readonly headerTransformation?: OriginPoolAdvancedOptionsHttp1ConfigHeaderTransformation;
 }
@@ -969,7 +1152,7 @@ export class OriginPoolAdvancedOptionsHttp1ConfigOutputReference extends cdktf.C
 }
 export interface OriginPoolAdvancedOptionsHttp2Options {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#enabled OriginPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#enabled OriginPool#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1053,23 +1236,23 @@ export class OriginPoolAdvancedOptionsHttp2OptionsOutputReference extends cdktf.
 }
 export interface OriginPoolAdvancedOptionsOutlierDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#base_ejection_time OriginPool#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#base_ejection_time OriginPool#base_ejection_time}
   */
   readonly baseEjectionTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#consecutive_5xx OriginPool#consecutive_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#consecutive_5xx OriginPool#consecutive_5xx}
   */
   readonly consecutive5Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#consecutive_gateway_failure OriginPool#consecutive_gateway_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#consecutive_gateway_failure OriginPool#consecutive_gateway_failure}
   */
   readonly consecutiveGatewayFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#interval OriginPool#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#interval OriginPool#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#max_ejection_percent OriginPool#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#max_ejection_percent OriginPool#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
 }
@@ -1269,89 +1452,95 @@ export class OriginPoolAdvancedOptionsOutlierDetectionOutputReference extends cd
 }
 export interface OriginPoolAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#auto_http_config OriginPool#auto_http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#auto_http_config OriginPool#auto_http_config}
   */
   readonly autoHttpConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#connection_timeout OriginPool#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#connection_timeout OriginPool#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#default_circuit_breaker OriginPool#default_circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_circuit_breaker OriginPool#default_circuit_breaker}
   */
   readonly defaultCircuitBreaker?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_circuit_breaker OriginPool#disable_circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_circuit_breaker OriginPool#disable_circuit_breaker}
   */
   readonly disableCircuitBreaker?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_lb_source_ip_persistance OriginPool#disable_lb_source_ip_persistance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_lb_source_ip_persistance OriginPool#disable_lb_source_ip_persistance}
   */
   readonly disableLbSourceIpPersistance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_outlier_detection OriginPool#disable_outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_outlier_detection OriginPool#disable_outlier_detection}
   */
   readonly disableOutlierDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_proxy_protocol OriginPool#disable_proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_proxy_protocol OriginPool#disable_proxy_protocol}
   */
   readonly disableProxyProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_subsets OriginPool#disable_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_subsets OriginPool#disable_subsets}
   */
   readonly disableSubsets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#enable_lb_source_ip_persistance OriginPool#enable_lb_source_ip_persistance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#enable_lb_source_ip_persistance OriginPool#enable_lb_source_ip_persistance}
   */
   readonly enableLbSourceIpPersistance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#http_idle_timeout OriginPool#http_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#http_idle_timeout OriginPool#http_idle_timeout}
   */
   readonly httpIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_panic_threshold OriginPool#no_panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_panic_threshold OriginPool#no_panic_threshold}
   */
   readonly noPanicThreshold?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#panic_threshold OriginPool#panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#panic_threshold OriginPool#panic_threshold}
   */
   readonly panicThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#proxy_protocol_v1 OriginPool#proxy_protocol_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#proxy_protocol_v1 OriginPool#proxy_protocol_v1}
   */
   readonly proxyProtocolV1?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#proxy_protocol_v2 OriginPool#proxy_protocol_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#proxy_protocol_v2 OriginPool#proxy_protocol_v2}
   */
   readonly proxyProtocolV2?: boolean | cdktf.IResolvable;
   /**
   * circuit_breaker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#circuit_breaker OriginPool#circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#circuit_breaker OriginPool#circuit_breaker}
   */
   readonly circuitBreaker?: OriginPoolAdvancedOptionsCircuitBreaker;
   /**
   * enable_subsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#enable_subsets OriginPool#enable_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#enable_subsets OriginPool#enable_subsets}
   */
   readonly enableSubsets?: OriginPoolAdvancedOptionsEnableSubsets;
   /**
+  * header_transformation_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#header_transformation_type OriginPool#header_transformation_type}
+  */
+  readonly headerTransformationType?: OriginPoolAdvancedOptionsHeaderTransformationType;
+  /**
   * http1_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#http1_config OriginPool#http1_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#http1_config OriginPool#http1_config}
   */
   readonly http1Config?: OriginPoolAdvancedOptionsHttp1Config;
   /**
   * http2_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#http2_options OriginPool#http2_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#http2_options OriginPool#http2_options}
   */
   readonly http2Options?: OriginPoolAdvancedOptionsHttp2Options;
   /**
   * outlier_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#outlier_detection OriginPool#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#outlier_detection OriginPool#outlier_detection}
   */
   readonly outlierDetection?: OriginPoolAdvancedOptionsOutlierDetection;
 }
@@ -1378,6 +1567,7 @@ export function originPoolAdvancedOptionsToTerraform(struct?: OriginPoolAdvanced
     proxy_protocol_v2: cdktf.booleanToTerraform(struct!.proxyProtocolV2),
     circuit_breaker: originPoolAdvancedOptionsCircuitBreakerToTerraform(struct!.circuitBreaker),
     enable_subsets: originPoolAdvancedOptionsEnableSubsetsToTerraform(struct!.enableSubsets),
+    header_transformation_type: originPoolAdvancedOptionsHeaderTransformationTypeToTerraform(struct!.headerTransformationType),
     http1_config: originPoolAdvancedOptionsHttp1ConfigToTerraform(struct!.http1Config),
     http2_options: originPoolAdvancedOptionsHttp2OptionsToTerraform(struct!.http2Options),
     outlier_detection: originPoolAdvancedOptionsOutlierDetectionToTerraform(struct!.outlierDetection),
@@ -1487,6 +1677,12 @@ export function originPoolAdvancedOptionsToHclTerraform(struct?: OriginPoolAdvan
       type: "list",
       storageClassType: "OriginPoolAdvancedOptionsEnableSubsetsList",
     },
+    header_transformation_type: {
+      value: originPoolAdvancedOptionsHeaderTransformationTypeToHclTerraform(struct!.headerTransformationType),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OriginPoolAdvancedOptionsHeaderTransformationTypeList",
+    },
     http1_config: {
       value: originPoolAdvancedOptionsHttp1ConfigToHclTerraform(struct!.http1Config),
       isBlock: true,
@@ -1589,6 +1785,10 @@ export class OriginPoolAdvancedOptionsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.enableSubsets = this._enableSubsets?.internalValue;
     }
+    if (this._headerTransformationType?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.headerTransformationType = this._headerTransformationType?.internalValue;
+    }
     if (this._http1Config?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.http1Config = this._http1Config?.internalValue;
@@ -1623,6 +1823,7 @@ export class OriginPoolAdvancedOptionsOutputReference extends cdktf.ComplexObjec
       this._proxyProtocolV2 = undefined;
       this._circuitBreaker.internalValue = undefined;
       this._enableSubsets.internalValue = undefined;
+      this._headerTransformationType.internalValue = undefined;
       this._http1Config.internalValue = undefined;
       this._http2Options.internalValue = undefined;
       this._outlierDetection.internalValue = undefined;
@@ -1645,6 +1846,7 @@ export class OriginPoolAdvancedOptionsOutputReference extends cdktf.ComplexObjec
       this._proxyProtocolV2 = value.proxyProtocolV2;
       this._circuitBreaker.internalValue = value.circuitBreaker;
       this._enableSubsets.internalValue = value.enableSubsets;
+      this._headerTransformationType.internalValue = value.headerTransformationType;
       this._http1Config.internalValue = value.http1Config;
       this._http2Options.internalValue = value.http2Options;
       this._outlierDetection.internalValue = value.outlierDetection;
@@ -1907,6 +2109,22 @@ export class OriginPoolAdvancedOptionsOutputReference extends cdktf.ComplexObjec
     return this._enableSubsets.internalValue;
   }
 
+  // header_transformation_type - computed: false, optional: true, required: false
+  private _headerTransformationType = new OriginPoolAdvancedOptionsHeaderTransformationTypeOutputReference(this, "header_transformation_type");
+  public get headerTransformationType() {
+    return this._headerTransformationType;
+  }
+  public putHeaderTransformationType(value: OriginPoolAdvancedOptionsHeaderTransformationType) {
+    this._headerTransformationType.internalValue = value;
+  }
+  public resetHeaderTransformationType() {
+    this._headerTransformationType.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get headerTransformationTypeInput() {
+    return this._headerTransformationType.internalValue;
+  }
+
   // http1_config - computed: false, optional: true, required: false
   private _http1Config = new OriginPoolAdvancedOptionsHttp1ConfigOutputReference(this, "http1_config");
   public get http1Config() {
@@ -1957,15 +2175,15 @@ export class OriginPoolAdvancedOptionsOutputReference extends cdktf.ComplexObjec
 }
 export interface OriginPoolHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -2139,7 +2357,7 @@ export class OriginPoolHealthcheckList extends cdktf.ComplexList {
 }
 export interface OriginPoolOriginServersCbipService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#service_name OriginPool#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#service_name OriginPool#service_name}
   */
   readonly serviceName: string;
 }
@@ -2220,15 +2438,15 @@ export class OriginPoolOriginServersCbipServiceOutputReference extends cdktf.Com
 }
 export interface OriginPoolOriginServersConsulServiceSiteLocatorSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -2375,15 +2593,15 @@ export class OriginPoolOriginServersConsulServiceSiteLocatorSiteOutputReference 
 }
 export interface OriginPoolOriginServersConsulServiceSiteLocatorVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -2532,13 +2750,13 @@ export interface OriginPoolOriginServersConsulServiceSiteLocator {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site OriginPool#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site OriginPool#site}
   */
   readonly site?: OriginPoolOriginServersConsulServiceSiteLocatorSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
   */
   readonly virtualSite?: OriginPoolOriginServersConsulServiceSiteLocatorVirtualSite;
 }
@@ -2651,11 +2869,11 @@ export class OriginPoolOriginServersConsulServiceSiteLocatorOutputReference exte
 }
 export interface OriginPoolOriginServersConsulServiceSnatPoolSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#prefixes OriginPool#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#prefixes OriginPool#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -2768,13 +2986,13 @@ export class OriginPoolOriginServersConsulServiceSnatPoolSnatPoolOutputReference
 }
 export interface OriginPoolOriginServersConsulServiceSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
   */
   readonly noSnatPool?: boolean | cdktf.IResolvable;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersConsulServiceSnatPoolSnatPool;
 }
@@ -2887,27 +3105,27 @@ export class OriginPoolOriginServersConsulServiceSnatPoolOutputReference extends
 }
 export interface OriginPoolOriginServersConsulService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#inside_network OriginPool#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#inside_network OriginPool#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#outside_network OriginPool#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#outside_network OriginPool#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#service_name OriginPool#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#service_name OriginPool#service_name}
   */
   readonly serviceName: string;
   /**
   * site_locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site_locator OriginPool#site_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site_locator OriginPool#site_locator}
   */
   readonly siteLocator: OriginPoolOriginServersConsulServiceSiteLocator;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersConsulServiceSnatPool;
 }
@@ -3101,15 +3319,15 @@ export class OriginPoolOriginServersConsulServiceOutputReference extends cdktf.C
 }
 export interface OriginPoolOriginServersCustomEndpointObjectEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -3253,7 +3471,7 @@ export interface OriginPoolOriginServersCustomEndpointObject {
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#endpoint OriginPool#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#endpoint OriginPool#endpoint}
   */
   readonly endpoint: OriginPoolOriginServersCustomEndpointObjectEndpoint;
 }
@@ -3332,17 +3550,98 @@ export class OriginPoolOriginServersCustomEndpointObjectOutputReference extends 
     return this._endpoint.internalValue;
   }
 }
+export interface OriginPoolOriginServersK8SServiceServiceSelector {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#expressions OriginPool#expressions}
+  */
+  readonly expressions: string[];
+}
+
+export function originPoolOriginServersK8SServiceServiceSelectorToTerraform(struct?: OriginPoolOriginServersK8SServiceServiceSelectorOutputReference | OriginPoolOriginServersK8SServiceServiceSelector): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    expressions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.expressions),
+  }
+}
+
+
+export function originPoolOriginServersK8SServiceServiceSelectorToHclTerraform(struct?: OriginPoolOriginServersK8SServiceServiceSelectorOutputReference | OriginPoolOriginServersK8SServiceServiceSelector): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    expressions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.expressions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OriginPoolOriginServersK8SServiceServiceSelectorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OriginPoolOriginServersK8SServiceServiceSelector | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expressions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expressions = this._expressions;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OriginPoolOriginServersK8SServiceServiceSelector | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._expressions = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._expressions = value.expressions;
+    }
+  }
+
+  // expressions - computed: false, optional: false, required: true
+  private _expressions?: string[]; 
+  public get expressions() {
+    return this.getListAttribute('expressions');
+  }
+  public set expressions(value: string[]) {
+    this._expressions = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expressionsInput() {
+    return this._expressions;
+  }
+}
 export interface OriginPoolOriginServersK8SServiceSiteLocatorSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -3489,15 +3788,15 @@ export class OriginPoolOriginServersK8SServiceSiteLocatorSiteOutputReference ext
 }
 export interface OriginPoolOriginServersK8SServiceSiteLocatorVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -3646,13 +3945,13 @@ export interface OriginPoolOriginServersK8SServiceSiteLocator {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site OriginPool#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site OriginPool#site}
   */
   readonly site?: OriginPoolOriginServersK8SServiceSiteLocatorSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
   */
   readonly virtualSite?: OriginPoolOriginServersK8SServiceSiteLocatorVirtualSite;
 }
@@ -3765,11 +4064,11 @@ export class OriginPoolOriginServersK8SServiceSiteLocatorOutputReference extends
 }
 export interface OriginPoolOriginServersK8SServiceSnatPoolSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#prefixes OriginPool#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#prefixes OriginPool#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -3882,13 +4181,13 @@ export class OriginPoolOriginServersK8SServiceSnatPoolSnatPoolOutputReference ex
 }
 export interface OriginPoolOriginServersK8SServiceSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
   */
   readonly noSnatPool?: boolean | cdktf.IResolvable;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersK8SServiceSnatPoolSnatPool;
 }
@@ -4001,35 +4300,41 @@ export class OriginPoolOriginServersK8SServiceSnatPoolOutputReference extends cd
 }
 export interface OriginPoolOriginServersK8SService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#inside_network OriginPool#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#inside_network OriginPool#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#outside_network OriginPool#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#outside_network OriginPool#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#protocol OriginPool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#protocol OriginPool#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#service_name OriginPool#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#service_name OriginPool#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#vk8s_networks OriginPool#vk8s_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#vk8s_networks OriginPool#vk8s_networks}
   */
   readonly vk8SNetworks?: boolean | cdktf.IResolvable;
   /**
+  * service_selector block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#service_selector OriginPool#service_selector}
+  */
+  readonly serviceSelector?: OriginPoolOriginServersK8SServiceServiceSelector;
+  /**
   * site_locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site_locator OriginPool#site_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site_locator OriginPool#site_locator}
   */
   readonly siteLocator: OriginPoolOriginServersK8SServiceSiteLocator;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersK8SServiceSnatPool;
 }
@@ -4045,6 +4350,7 @@ export function originPoolOriginServersK8SServiceToTerraform(struct?: OriginPool
     protocol: cdktf.stringToTerraform(struct!.protocol),
     service_name: cdktf.stringToTerraform(struct!.serviceName),
     vk8s_networks: cdktf.booleanToTerraform(struct!.vk8SNetworks),
+    service_selector: originPoolOriginServersK8SServiceServiceSelectorToTerraform(struct!.serviceSelector),
     site_locator: originPoolOriginServersK8SServiceSiteLocatorToTerraform(struct!.siteLocator),
     snat_pool: originPoolOriginServersK8SServiceSnatPoolToTerraform(struct!.snatPool),
   }
@@ -4086,6 +4392,12 @@ export function originPoolOriginServersK8SServiceToHclTerraform(struct?: OriginP
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    service_selector: {
+      value: originPoolOriginServersK8SServiceServiceSelectorToHclTerraform(struct!.serviceSelector),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OriginPoolOriginServersK8SServiceServiceSelectorList",
     },
     site_locator: {
       value: originPoolOriginServersK8SServiceSiteLocatorToHclTerraform(struct!.siteLocator),
@@ -4139,6 +4451,10 @@ export class OriginPoolOriginServersK8SServiceOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.vk8SNetworks = this._vk8SNetworks;
     }
+    if (this._serviceSelector?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceSelector = this._serviceSelector?.internalValue;
+    }
     if (this._siteLocator?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.siteLocator = this._siteLocator?.internalValue;
@@ -4158,6 +4474,7 @@ export class OriginPoolOriginServersK8SServiceOutputReference extends cdktf.Comp
       this._protocol = undefined;
       this._serviceName = undefined;
       this._vk8SNetworks = undefined;
+      this._serviceSelector.internalValue = undefined;
       this._siteLocator.internalValue = undefined;
       this._snatPool.internalValue = undefined;
     }
@@ -4168,6 +4485,7 @@ export class OriginPoolOriginServersK8SServiceOutputReference extends cdktf.Comp
       this._protocol = value.protocol;
       this._serviceName = value.serviceName;
       this._vk8SNetworks = value.vk8SNetworks;
+      this._serviceSelector.internalValue = value.serviceSelector;
       this._siteLocator.internalValue = value.siteLocator;
       this._snatPool.internalValue = value.snatPool;
     }
@@ -4253,6 +4571,22 @@ export class OriginPoolOriginServersK8SServiceOutputReference extends cdktf.Comp
     return this._vk8SNetworks;
   }
 
+  // service_selector - computed: false, optional: true, required: false
+  private _serviceSelector = new OriginPoolOriginServersK8SServiceServiceSelectorOutputReference(this, "service_selector");
+  public get serviceSelector() {
+    return this._serviceSelector;
+  }
+  public putServiceSelector(value: OriginPoolOriginServersK8SServiceServiceSelector) {
+    this._serviceSelector.internalValue = value;
+  }
+  public resetServiceSelector() {
+    this._serviceSelector.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceSelectorInput() {
+    return this._serviceSelector.internalValue;
+  }
+
   // site_locator - computed: false, optional: false, required: true
   private _siteLocator = new OriginPoolOriginServersK8SServiceSiteLocatorOutputReference(this, "site_locator");
   public get siteLocator() {
@@ -4284,15 +4618,15 @@ export class OriginPoolOriginServersK8SServiceOutputReference extends cdktf.Comp
 }
 export interface OriginPoolOriginServersPrivateIpSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -4434,15 +4768,15 @@ export class OriginPoolOriginServersPrivateIpSegmentOutputReference extends cdkt
 }
 export interface OriginPoolOriginServersPrivateIpSiteLocatorSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -4589,15 +4923,15 @@ export class OriginPoolOriginServersPrivateIpSiteLocatorSiteOutputReference exte
 }
 export interface OriginPoolOriginServersPrivateIpSiteLocatorVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -4746,13 +5080,13 @@ export interface OriginPoolOriginServersPrivateIpSiteLocator {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site OriginPool#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site OriginPool#site}
   */
   readonly site?: OriginPoolOriginServersPrivateIpSiteLocatorSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
   */
   readonly virtualSite?: OriginPoolOriginServersPrivateIpSiteLocatorVirtualSite;
 }
@@ -4865,11 +5199,11 @@ export class OriginPoolOriginServersPrivateIpSiteLocatorOutputReference extends 
 }
 export interface OriginPoolOriginServersPrivateIpSnatPoolSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#prefixes OriginPool#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#prefixes OriginPool#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -4982,13 +5316,13 @@ export class OriginPoolOriginServersPrivateIpSnatPoolSnatPoolOutputReference ext
 }
 export interface OriginPoolOriginServersPrivateIpSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
   */
   readonly noSnatPool?: boolean | cdktf.IResolvable;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersPrivateIpSnatPoolSnatPool;
 }
@@ -5101,37 +5435,37 @@ export class OriginPoolOriginServersPrivateIpSnatPoolOutputReference extends cdk
 }
 export interface OriginPoolOriginServersPrivateIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#inside_network OriginPool#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#inside_network OriginPool#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ip OriginPool#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ip OriginPool#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6 OriginPool#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6 OriginPool#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#outside_network OriginPool#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#outside_network OriginPool#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#segment OriginPool#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#segment OriginPool#segment}
   */
-  readonly segment?: OriginPoolOriginServersPrivateIpSegment;
+  readonly segment: OriginPoolOriginServersPrivateIpSegment;
   /**
   * site_locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site_locator OriginPool#site_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site_locator OriginPool#site_locator}
   */
   readonly siteLocator: OriginPoolOriginServersPrivateIpSiteLocator;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersPrivateIpSnatPool;
 }
@@ -5339,16 +5673,13 @@ export class OriginPoolOriginServersPrivateIpOutputReference extends cdktf.Compl
     return this._outsideNetwork;
   }
 
-  // segment - computed: false, optional: true, required: false
+  // segment - computed: false, optional: false, required: true
   private _segment = new OriginPoolOriginServersPrivateIpSegmentOutputReference(this, "segment");
   public get segment() {
     return this._segment;
   }
   public putSegment(value: OriginPoolOriginServersPrivateIpSegment) {
     this._segment.internalValue = value;
-  }
-  public resetSegment() {
-    this._segment.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get segmentInput() {
@@ -5386,15 +5717,15 @@ export class OriginPoolOriginServersPrivateIpOutputReference extends cdktf.Compl
 }
 export interface OriginPoolOriginServersPrivateNameSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -5536,15 +5867,15 @@ export class OriginPoolOriginServersPrivateNameSegmentOutputReference extends cd
 }
 export interface OriginPoolOriginServersPrivateNameSiteLocatorSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -5691,15 +6022,15 @@ export class OriginPoolOriginServersPrivateNameSiteLocatorSiteOutputReference ex
 }
 export interface OriginPoolOriginServersPrivateNameSiteLocatorVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -5848,13 +6179,13 @@ export interface OriginPoolOriginServersPrivateNameSiteLocator {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site OriginPool#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site OriginPool#site}
   */
   readonly site?: OriginPoolOriginServersPrivateNameSiteLocatorSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#virtual_site OriginPool#virtual_site}
   */
   readonly virtualSite?: OriginPoolOriginServersPrivateNameSiteLocatorVirtualSite;
 }
@@ -5967,11 +6298,11 @@ export class OriginPoolOriginServersPrivateNameSiteLocatorOutputReference extend
 }
 export interface OriginPoolOriginServersPrivateNameSnatPoolSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6_prefixes OriginPool#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#prefixes OriginPool#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#prefixes OriginPool#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -6084,13 +6415,13 @@ export class OriginPoolOriginServersPrivateNameSnatPoolSnatPoolOutputReference e
 }
 export interface OriginPoolOriginServersPrivateNameSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_snat_pool OriginPool#no_snat_pool}
   */
   readonly noSnatPool?: boolean | cdktf.IResolvable;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersPrivateNameSnatPoolSnatPool;
 }
@@ -6203,37 +6534,37 @@ export class OriginPoolOriginServersPrivateNameSnatPoolOutputReference extends c
 }
 export interface OriginPoolOriginServersPrivateName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#dns_name OriginPool#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#dns_name OriginPool#dns_name}
   */
   readonly dnsName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#inside_network OriginPool#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#inside_network OriginPool#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#outside_network OriginPool#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#outside_network OriginPool#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#refresh_interval OriginPool#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#refresh_interval OriginPool#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#segment OriginPool#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#segment OriginPool#segment}
   */
-  readonly segment?: OriginPoolOriginServersPrivateNameSegment;
+  readonly segment: OriginPoolOriginServersPrivateNameSegment;
   /**
   * site_locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#site_locator OriginPool#site_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#site_locator OriginPool#site_locator}
   */
   readonly siteLocator: OriginPoolOriginServersPrivateNameSiteLocator;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#snat_pool OriginPool#snat_pool}
   */
   readonly snatPool?: OriginPoolOriginServersPrivateNameSnatPool;
 }
@@ -6438,16 +6769,13 @@ export class OriginPoolOriginServersPrivateNameOutputReference extends cdktf.Com
     return this._refreshInterval;
   }
 
-  // segment - computed: false, optional: true, required: false
+  // segment - computed: false, optional: false, required: true
   private _segment = new OriginPoolOriginServersPrivateNameSegmentOutputReference(this, "segment");
   public get segment() {
     return this._segment;
   }
   public putSegment(value: OriginPoolOriginServersPrivateNameSegment) {
     this._segment.internalValue = value;
-  }
-  public resetSegment() {
-    this._segment.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get segmentInput() {
@@ -6485,11 +6813,11 @@ export class OriginPoolOriginServersPrivateNameOutputReference extends cdktf.Com
 }
 export interface OriginPoolOriginServersPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ip OriginPool#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ip OriginPool#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6 OriginPool#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6 OriginPool#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -6602,11 +6930,11 @@ export class OriginPoolOriginServersPublicIpOutputReference extends cdktf.Comple
 }
 export interface OriginPoolOriginServersPublicName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#dns_name OriginPool#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#dns_name OriginPool#dns_name}
   */
   readonly dnsName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#refresh_interval OriginPool#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#refresh_interval OriginPool#refresh_interval}
   */
   readonly refreshInterval?: number;
 }
@@ -6716,15 +7044,15 @@ export class OriginPoolOriginServersPublicNameOutputReference extends cdktf.Comp
 }
 export interface OriginPoolOriginServersVnPrivateIpVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -6866,17 +7194,17 @@ export class OriginPoolOriginServersVnPrivateIpVirtualNetworkOutputReference ext
 }
 export interface OriginPoolOriginServersVnPrivateIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ip OriginPool#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ip OriginPool#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#ipv6 OriginPool#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#ipv6 OriginPool#ipv6}
   */
   readonly ipv6?: string;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#virtual_network OriginPool#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#virtual_network OriginPool#virtual_network}
   */
   readonly virtualNetwork: OriginPoolOriginServersVnPrivateIpVirtualNetwork;
 }
@@ -7015,15 +7343,15 @@ export class OriginPoolOriginServersVnPrivateIpOutputReference extends cdktf.Com
 }
 export interface OriginPoolOriginServersVnPrivateNamePrivateNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -7165,13 +7493,13 @@ export class OriginPoolOriginServersVnPrivateNamePrivateNetworkOutputReference e
 }
 export interface OriginPoolOriginServersVnPrivateName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#dns_name OriginPool#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#dns_name OriginPool#dns_name}
   */
   readonly dnsName: string;
   /**
   * private_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#private_network OriginPool#private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#private_network OriginPool#private_network}
   */
   readonly privateNetwork: OriginPoolOriginServersVnPrivateNamePrivateNetwork;
 }
@@ -7278,67 +7606,67 @@ export class OriginPoolOriginServersVnPrivateNameOutputReference extends cdktf.C
 }
 export interface OriginPoolOriginServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#labels OriginPool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#labels OriginPool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * cbip_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#cbip_service OriginPool#cbip_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#cbip_service OriginPool#cbip_service}
   */
   readonly cbipService?: OriginPoolOriginServersCbipService;
   /**
   * consul_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#consul_service OriginPool#consul_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#consul_service OriginPool#consul_service}
   */
   readonly consulService?: OriginPoolOriginServersConsulService;
   /**
   * custom_endpoint_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#custom_endpoint_object OriginPool#custom_endpoint_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#custom_endpoint_object OriginPool#custom_endpoint_object}
   */
   readonly customEndpointObject?: OriginPoolOriginServersCustomEndpointObject;
   /**
   * k8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#k8s_service OriginPool#k8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#k8s_service OriginPool#k8s_service}
   */
   readonly k8SService?: OriginPoolOriginServersK8SService;
   /**
   * private_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#private_ip OriginPool#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#private_ip OriginPool#private_ip}
   */
   readonly privateIp?: OriginPoolOriginServersPrivateIp;
   /**
   * private_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#private_name OriginPool#private_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#private_name OriginPool#private_name}
   */
   readonly privateName?: OriginPoolOriginServersPrivateName;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#public_ip OriginPool#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#public_ip OriginPool#public_ip}
   */
   readonly publicIp?: OriginPoolOriginServersPublicIp;
   /**
   * public_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#public_name OriginPool#public_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#public_name OriginPool#public_name}
   */
   readonly publicName?: OriginPoolOriginServersPublicName;
   /**
   * vn_private_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#vn_private_ip OriginPool#vn_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#vn_private_ip OriginPool#vn_private_ip}
   */
   readonly vnPrivateIp?: OriginPoolOriginServersVnPrivateIp;
   /**
   * vn_private_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#vn_private_name OriginPool#vn_private_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#vn_private_name OriginPool#vn_private_name}
   */
   readonly vnPrivateName?: OriginPoolOriginServersVnPrivateName;
 }
@@ -7744,11 +8072,11 @@ export class OriginPoolOriginServersList extends cdktf.ComplexList {
 }
 export interface OriginPoolUpstreamConnPoolReuseType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_conn_pool_reuse OriginPool#disable_conn_pool_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_conn_pool_reuse OriginPool#disable_conn_pool_reuse}
   */
   readonly disableConnPoolReuse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#enable_conn_pool_reuse OriginPool#enable_conn_pool_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#enable_conn_pool_reuse OriginPool#enable_conn_pool_reuse}
   */
   readonly enableConnPoolReuse?: boolean | cdktf.IResolvable;
 }
@@ -7861,15 +8189,15 @@ export class OriginPoolUpstreamConnPoolReuseTypeOutputReference extends cdktf.Co
 }
 export interface OriginPoolUseTlsTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#cipher_suites OriginPool#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#cipher_suites OriginPool#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#max_version OriginPool#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#max_version OriginPool#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#min_version OriginPool#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#min_version OriginPool#min_version}
   */
   readonly minVersion?: string;
 }
@@ -8008,21 +8336,21 @@ export class OriginPoolUseTlsTlsConfigCustomSecurityOutputReference extends cdkt
 }
 export interface OriginPoolUseTlsTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#default_security OriginPool#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_security OriginPool#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#low_security OriginPool#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#low_security OriginPool#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#medium_security OriginPool#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#medium_security OriginPool#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#custom_security OriginPool#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#custom_security OriginPool#custom_security}
   */
   readonly customSecurity?: OriginPoolUseTlsTlsConfigCustomSecurity;
 }
@@ -8193,7 +8521,7 @@ export class OriginPoolUseTlsTlsConfigOutputReference extends cdktf.ComplexObjec
 }
 export interface OriginPoolUseTlsUseMtlsTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#hash_algorithms OriginPool#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#hash_algorithms OriginPool#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -8323,15 +8651,15 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesDisableOcspStaplingOutputRefe
 }
 export interface OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#decryption_provider OriginPool#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#decryption_provider OriginPool#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#location OriginPool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#location OriginPool#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#store_provider OriginPool#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#store_provider OriginPool#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -8468,13 +8796,160 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfo
     return this._storeProvider;
   }
 }
+export interface OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#decryption_provider OriginPool#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#location OriginPool#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#store_provider OriginPool#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#provider OriginPool#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#provider OriginPool#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#url OriginPool#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#url OriginPool#url}
   */
   readonly url: string;
 }
@@ -8582,19 +9057,332 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfoOutp
     return this._url;
   }
 }
+export interface OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#key OriginPool#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#location OriginPool#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#provider OriginPool#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#secret_encoding OriginPool#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#version OriginPool#version}
+  */
+  readonly version?: number;
+}
+
+export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
+  */
+  readonly name: string;
+}
+
+export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#secret_encoding_type OriginPool#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#blindfold_secret_info OriginPool#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#blindfold_secret_info OriginPool#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#blindfold_secret_info_internal OriginPool#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#clear_secret_info OriginPool#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#clear_secret_info OriginPool#clear_secret_info}
   */
   readonly clearSecretInfo?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#vault_secret_info OriginPool#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#wingman_secret_info OriginPool#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyToTerraform(struct?: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyOutputReference | OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKey): any {
@@ -8603,8 +9391,12 @@ export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyToTerraform(stru
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -8615,17 +9407,41 @@ export function originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyToHclTerraform(s
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: originPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -8647,13 +9463,29 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyOutputReference ext
   public get internalValue(): OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -8661,14 +9493,38 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyOutputReference ext
   public set internalValue(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -8687,6 +9543,22 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyOutputReference ext
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -8701,6 +9573,38 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface OriginPoolUseTlsUseMtlsTlsCertificatesUseSystemDefaults {
@@ -8754,35 +9658,35 @@ export class OriginPoolUseTlsUseMtlsTlsCertificatesUseSystemDefaultsOutputRefere
 }
 export interface OriginPoolUseTlsUseMtlsTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#certificate_url OriginPool#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#certificate_url OriginPool#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#description OriginPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#description OriginPool#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#custom_hash_algorithms OriginPool#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#custom_hash_algorithms OriginPool#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: OriginPoolUseTlsUseMtlsTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_ocsp_stapling OriginPool#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_ocsp_stapling OriginPool#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: OriginPoolUseTlsUseMtlsTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#private_key OriginPool#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#private_key OriginPool#private_key}
   */
   readonly privateKey: OriginPoolUseTlsUseMtlsTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#use_system_defaults OriginPool#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#use_system_defaults OriginPool#use_system_defaults}
   */
   readonly useSystemDefaults?: OriginPoolUseTlsUseMtlsTlsCertificatesUseSystemDefaults;
 }
@@ -9039,7 +9943,7 @@ export interface OriginPoolUseTlsUseMtls {
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tls_certificates OriginPool#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tls_certificates OriginPool#tls_certificates}
   */
   readonly tlsCertificates: OriginPoolUseTlsUseMtlsTlsCertificates[] | cdktf.IResolvable;
 }
@@ -9120,15 +10024,15 @@ export class OriginPoolUseTlsUseMtlsOutputReference extends cdktf.ComplexObject 
 }
 export interface OriginPoolUseTlsUseMtlsObj {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -9270,15 +10174,15 @@ export class OriginPoolUseTlsUseMtlsObjOutputReference extends cdktf.ComplexObje
 }
 export interface OriginPoolUseTlsUseServerVerificationTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#name OriginPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#name OriginPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#namespace OriginPool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#namespace OriginPool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tenant OriginPool#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tenant OriginPool#tenant}
   */
   readonly tenant?: string;
 }
@@ -9420,13 +10324,13 @@ export class OriginPoolUseTlsUseServerVerificationTrustedCaOutputReference exten
 }
 export interface OriginPoolUseTlsUseServerVerification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#trusted_ca_url OriginPool#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#trusted_ca_url OriginPool#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#trusted_ca OriginPool#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#trusted_ca OriginPool#trusted_ca}
   */
   readonly trustedCa?: OriginPoolUseTlsUseServerVerificationTrustedCa;
 }
@@ -9539,63 +10443,63 @@ export class OriginPoolUseTlsUseServerVerificationOutputReference extends cdktf.
 }
 export interface OriginPoolUseTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#default_session_key_caching OriginPool#default_session_key_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#default_session_key_caching OriginPool#default_session_key_caching}
   */
   readonly defaultSessionKeyCaching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_session_key_caching OriginPool#disable_session_key_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_session_key_caching OriginPool#disable_session_key_caching}
   */
   readonly disableSessionKeyCaching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#disable_sni OriginPool#disable_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#disable_sni OriginPool#disable_sni}
   */
   readonly disableSni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#max_session_keys OriginPool#max_session_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#max_session_keys OriginPool#max_session_keys}
   */
   readonly maxSessionKeys?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#no_mtls OriginPool#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#no_mtls OriginPool#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#skip_server_verification OriginPool#skip_server_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#skip_server_verification OriginPool#skip_server_verification}
   */
   readonly skipServerVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#sni OriginPool#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#sni OriginPool#sni}
   */
   readonly sni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#use_host_header_as_sni OriginPool#use_host_header_as_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#use_host_header_as_sni OriginPool#use_host_header_as_sni}
   */
   readonly useHostHeaderAsSni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#volterra_trusted_ca OriginPool#volterra_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#volterra_trusted_ca OriginPool#volterra_trusted_ca}
   */
   readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#tls_config OriginPool#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#tls_config OriginPool#tls_config}
   */
   readonly tlsConfig: OriginPoolUseTlsTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#use_mtls OriginPool#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#use_mtls OriginPool#use_mtls}
   */
   readonly useMtls?: OriginPoolUseTlsUseMtls;
   /**
   * use_mtls_obj block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#use_mtls_obj OriginPool#use_mtls_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#use_mtls_obj OriginPool#use_mtls_obj}
   */
   readonly useMtlsObj?: OriginPoolUseTlsUseMtlsObj;
   /**
   * use_server_verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#use_server_verification OriginPool#use_server_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#use_server_verification OriginPool#use_server_verification}
   */
   readonly useServerVerification?: OriginPoolUseTlsUseServerVerification;
 }
@@ -10024,7 +10928,7 @@ export class OriginPoolUseTlsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool volterra_origin_pool}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool volterra_origin_pool}
 */
 export class OriginPool extends cdktf.TerraformResource {
 
@@ -10040,7 +10944,7 @@ export class OriginPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OriginPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OriginPool to import
-  * @param importFromId The id of the existing OriginPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OriginPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OriginPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10052,7 +10956,7 @@ export class OriginPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/origin_pool volterra_origin_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/origin_pool volterra_origin_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10063,8 +10967,8 @@ export class OriginPool extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_origin_pool',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

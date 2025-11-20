@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ElasticsearchWatchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of actions that will be run if the condition matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#actions ElasticsearchWatch#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#actions ElasticsearchWatch#actions}
   */
   readonly actions?: string;
   /**
   * Defines whether the watch is active or inactive by default. The default value is true, which means the watch is active by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#active ElasticsearchWatch#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#active ElasticsearchWatch#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The condition that defines if the actions should be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#condition ElasticsearchWatch#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#condition ElasticsearchWatch#condition}
   */
   readonly condition?: string;
   /**
   * The input that defines the input that loads the data for the watch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#input ElasticsearchWatch#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#input ElasticsearchWatch#input}
   */
   readonly input?: string;
   /**
   * Metadata json that will be copied into the history entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#metadata ElasticsearchWatch#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#metadata ElasticsearchWatch#metadata}
   */
   readonly metadata?: string;
   /**
   * Minimum time in milliseconds between actions being run. Defaults to 5000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#throttle_period_in_millis ElasticsearchWatch#throttle_period_in_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#throttle_period_in_millis ElasticsearchWatch#throttle_period_in_millis}
   */
   readonly throttlePeriodInMillis?: number;
   /**
   * Processes the watch payload to prepare it for the watch actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#transform ElasticsearchWatch#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#transform ElasticsearchWatch#transform}
   */
   readonly transform?: string;
   /**
   * The trigger that defines when the watch should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#trigger ElasticsearchWatch#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#trigger ElasticsearchWatch#trigger}
   */
   readonly trigger: string;
   /**
   * Identifier for the watch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#watch_id ElasticsearchWatch#watch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#watch_id ElasticsearchWatch#watch_id}
   */
   readonly watchId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch elasticstack_elasticsearch_watch}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch elasticstack_elasticsearch_watch}
 */
 export class ElasticsearchWatch extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class ElasticsearchWatch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchWatch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchWatch to import
-  * @param importFromId The id of the existing ElasticsearchWatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchWatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchWatch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class ElasticsearchWatch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_watch elasticstack_elasticsearch_watch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_watch elasticstack_elasticsearch_watch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class ElasticsearchWatch extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_watch',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

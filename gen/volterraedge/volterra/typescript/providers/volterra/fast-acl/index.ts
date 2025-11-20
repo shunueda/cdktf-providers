@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,1901 @@ import * as cdktf from 'cdktf';
 
 export interface FastAclConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#annotations FastAcl#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#annotations FastAcl#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#description FastAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#description FastAcl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#disable FastAcl#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#disable FastAcl#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#id FastAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#id FastAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#labels FastAcl#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#labels FastAcl#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace: string;
   /**
+  * legacy_acl block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#legacy_acl FastAcl#legacy_acl}
+  */
+  readonly legacyAcl?: FastAclLegacyAcl;
+  /**
   * protocol_policer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#protocol_policer FastAcl#protocol_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol_policer FastAcl#protocol_policer}
   */
   readonly protocolPolicer?: FastAclProtocolPolicer;
   /**
   * re_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#re_acl FastAcl#re_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#re_acl FastAcl#re_acl}
   */
   readonly reAcl?: FastAclReAcl;
   /**
   * site_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#site_acl FastAcl#site_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#site_acl FastAcl#site_acl}
   */
   readonly siteAcl?: FastAclSiteAcl;
 }
-export interface FastAclProtocolPolicer {
+export interface FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  */
+  readonly addr?: string;
+}
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4ToTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4OutputReference | FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4ToHclTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4OutputReference | FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._addr = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._addr = value.addr;
+    }
+  }
+
+  // addr - computed: false, optional: true, required: false
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  public resetAddr() {
+    this._addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+}
+export interface FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6 {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  */
+  readonly addr?: string;
+}
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6ToTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6OutputReference | FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6ToHclTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6OutputReference | FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._addr = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._addr = value.addr;
+    }
+  }
+
+  // addr - computed: false, optional: true, required: false
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  public resetAddr() {
+    this._addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+}
+export interface FastAclLegacyAclDestinationTypeDestinationIpAddressAddress {
+  /**
+  * ipv4 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv4 FastAcl#ipv4}
+  */
+  readonly ipv4?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4;
+  /**
+  * ipv6 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6 FastAcl#ipv6}
+  */
+  readonly ipv6?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6;
+}
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressAddressToTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv4: fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4ToTerraform(struct!.ipv4),
+    ipv6: fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6ToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressAddressToHclTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv4: {
+      value: fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4ToHclTerraform(struct!.ipv4),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4List",
+    },
+    ipv6: {
+      value: fastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6ToHclTerraform(struct!.ipv6),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6List",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeDestinationIpAddressAddress | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv4?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4 = this._ipv4?.internalValue;
+    }
+    if (this._ipv6?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeDestinationIpAddressAddress | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv4.internalValue = undefined;
+      this._ipv6.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv4.internalValue = value.ipv4;
+      this._ipv6.internalValue = value.ipv6;
+    }
+  }
+
+  // ipv4 - computed: false, optional: true, required: false
+  private _ipv4 = new FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4OutputReference(this, "ipv4");
+  public get ipv4() {
+    return this._ipv4;
+  }
+  public putIpv4(value: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv4) {
+    this._ipv4.internalValue = value;
+  }
+  public resetIpv4() {
+    this._ipv4.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4Input() {
+    return this._ipv4.internalValue;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6 = new FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6OutputReference(this, "ipv6");
+  public get ipv6() {
+    return this._ipv6;
+  }
+  public putIpv6(value: FastAclLegacyAclDestinationTypeDestinationIpAddressAddressIpv6) {
+    this._ipv6.internalValue = value;
+  }
+  public resetIpv6() {
+    this._ipv6.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6.internalValue;
+  }
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressAddressList extends cdktf.ComplexList {
+  public internalValue? : FastAclLegacyAclDestinationTypeDestinationIpAddressAddress[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FastAclLegacyAclDestinationTypeDestinationIpAddressAddressOutputReference {
+    return new FastAclLegacyAclDestinationTypeDestinationIpAddressAddressOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FastAclLegacyAclDestinationTypeDestinationIpAddressPorts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all FastAcl#all}
+  */
+  readonly all?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#dns FastAcl#dns}
+  */
+  readonly dns?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#user_defined FastAcl#user_defined}
+  */
+  readonly userDefined?: number;
+}
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressPortsToTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressPorts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    all: cdktf.booleanToTerraform(struct!.all),
+    dns: cdktf.booleanToTerraform(struct!.dns),
+    user_defined: cdktf.numberToTerraform(struct!.userDefined),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressPortsToHclTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressPorts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    all: {
+      value: cdktf.booleanToHclTerraform(struct!.all),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    dns: {
+      value: cdktf.booleanToHclTerraform(struct!.dns),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    user_defined: {
+      value: cdktf.numberToHclTerraform(struct!.userDefined),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressPortsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeDestinationIpAddressPorts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._all !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.all = this._all;
+    }
+    if (this._dns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dns = this._dns;
+    }
+    if (this._userDefined !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userDefined = this._userDefined;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeDestinationIpAddressPorts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._all = undefined;
+      this._dns = undefined;
+      this._userDefined = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._all = value.all;
+      this._dns = value.dns;
+      this._userDefined = value.userDefined;
+    }
+  }
+
+  // all - computed: false, optional: true, required: false
+  private _all?: boolean | cdktf.IResolvable; 
+  public get all() {
+    return this.getBooleanAttribute('all');
+  }
+  public set all(value: boolean | cdktf.IResolvable) {
+    this._all = value;
+  }
+  public resetAll() {
+    this._all = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allInput() {
+    return this._all;
+  }
+
+  // dns - computed: false, optional: true, required: false
+  private _dns?: boolean | cdktf.IResolvable; 
+  public get dns() {
+    return this.getBooleanAttribute('dns');
+  }
+  public set dns(value: boolean | cdktf.IResolvable) {
+    this._dns = value;
+  }
+  public resetDns() {
+    this._dns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsInput() {
+    return this._dns;
+  }
+
+  // user_defined - computed: false, optional: true, required: false
+  private _userDefined?: number; 
+  public get userDefined() {
+    return this.getNumberAttribute('user_defined');
+  }
+  public set userDefined(value: number) {
+    this._userDefined = value;
+  }
+  public resetUserDefined() {
+    this._userDefined = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userDefinedInput() {
+    return this._userDefined;
+  }
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressPortsList extends cdktf.ComplexList {
+  public internalValue? : FastAclLegacyAclDestinationTypeDestinationIpAddressPorts[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FastAclLegacyAclDestinationTypeDestinationIpAddressPortsOutputReference {
+    return new FastAclLegacyAclDestinationTypeDestinationIpAddressPortsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FastAclLegacyAclDestinationTypeDestinationIpAddress {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol FastAcl#protocol}
+  */
+  readonly protocol?: string;
+  /**
+  * address block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#address FastAcl#address}
+  */
+  readonly address?: FastAclLegacyAclDestinationTypeDestinationIpAddressAddress[] | cdktf.IResolvable;
+  /**
+  * ports block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ports FastAcl#ports}
+  */
+  readonly ports: FastAclLegacyAclDestinationTypeDestinationIpAddressPorts[] | cdktf.IResolvable;
+}
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressToTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressOutputReference | FastAclLegacyAclDestinationTypeDestinationIpAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    protocol: cdktf.stringToTerraform(struct!.protocol),
+    address: cdktf.listMapper(fastAclLegacyAclDestinationTypeDestinationIpAddressAddressToTerraform, true)(struct!.address),
+    ports: cdktf.listMapper(fastAclLegacyAclDestinationTypeDestinationIpAddressPortsToTerraform, true)(struct!.ports),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeDestinationIpAddressToHclTerraform(struct?: FastAclLegacyAclDestinationTypeDestinationIpAddressOutputReference | FastAclLegacyAclDestinationTypeDestinationIpAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    protocol: {
+      value: cdktf.stringToHclTerraform(struct!.protocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    address: {
+      value: cdktf.listMapperHcl(fastAclLegacyAclDestinationTypeDestinationIpAddressAddressToHclTerraform, true)(struct!.address),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeDestinationIpAddressAddressList",
+    },
+    ports: {
+      value: cdktf.listMapperHcl(fastAclLegacyAclDestinationTypeDestinationIpAddressPortsToHclTerraform, true)(struct!.ports),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeDestinationIpAddressPortsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeDestinationIpAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeDestinationIpAddress | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._protocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocol = this._protocol;
+    }
+    if (this._address?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address?.internalValue;
+    }
+    if (this._ports?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ports = this._ports?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeDestinationIpAddress | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._protocol = undefined;
+      this._address.internalValue = undefined;
+      this._ports.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._protocol = value.protocol;
+      this._address.internalValue = value.address;
+      this._ports.internalValue = value.ports;
+    }
+  }
+
+  // protocol - computed: false, optional: true, required: false
+  private _protocol?: string; 
+  public get protocol() {
+    return this.getStringAttribute('protocol');
+  }
+  public set protocol(value: string) {
+    this._protocol = value;
+  }
+  public resetProtocol() {
+    this._protocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address = new FastAclLegacyAclDestinationTypeDestinationIpAddressAddressList(this, "address", false);
+  public get address() {
+    return this._address;
+  }
+  public putAddress(value: FastAclLegacyAclDestinationTypeDestinationIpAddressAddress[] | cdktf.IResolvable) {
+    this._address.internalValue = value;
+  }
+  public resetAddress() {
+    this._address.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address.internalValue;
+  }
+
+  // ports - computed: false, optional: false, required: true
+  private _ports = new FastAclLegacyAclDestinationTypeDestinationIpAddressPortsList(this, "ports", false);
+  public get ports() {
+    return this._ports;
+  }
+  public putPorts(value: FastAclLegacyAclDestinationTypeDestinationIpAddressPorts[] | cdktf.IResolvable) {
+    this._ports.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portsInput() {
+    return this._ports.internalValue;
+  }
+}
+export interface FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4 {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  */
+  readonly addr?: string;
+}
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4ToTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4OutputReference | FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4ToHclTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4OutputReference | FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._addr = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._addr = value.addr;
+    }
+  }
+
+  // addr - computed: false, optional: true, required: false
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  public resetAddr() {
+    this._addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+}
+export interface FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6 {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#addr FastAcl#addr}
+  */
+  readonly addr?: string;
+}
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6ToTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6OutputReference | FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6ToHclTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6OutputReference | FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._addr = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._addr = value.addr;
+    }
+  }
+
+  // addr - computed: false, optional: true, required: false
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  public resetAddr() {
+    this._addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+}
+export interface FastAclLegacyAclDestinationTypeSelectedVipAddressAddress {
+  /**
+  * ipv4 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv4 FastAcl#ipv4}
+  */
+  readonly ipv4?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4;
+  /**
+  * ipv6 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6 FastAcl#ipv6}
+  */
+  readonly ipv6?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6;
+}
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressAddressToTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv4: fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4ToTerraform(struct!.ipv4),
+    ipv6: fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6ToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressAddressToHclTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv4: {
+      value: fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4ToHclTerraform(struct!.ipv4),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4List",
+    },
+    ipv6: {
+      value: fastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6ToHclTerraform(struct!.ipv6),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6List",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeSelectedVipAddressAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeSelectedVipAddressAddress | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv4?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4 = this._ipv4?.internalValue;
+    }
+    if (this._ipv6?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeSelectedVipAddressAddress | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv4.internalValue = undefined;
+      this._ipv6.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv4.internalValue = value.ipv4;
+      this._ipv6.internalValue = value.ipv6;
+    }
+  }
+
+  // ipv4 - computed: false, optional: true, required: false
+  private _ipv4 = new FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4OutputReference(this, "ipv4");
+  public get ipv4() {
+    return this._ipv4;
+  }
+  public putIpv4(value: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv4) {
+    this._ipv4.internalValue = value;
+  }
+  public resetIpv4() {
+    this._ipv4.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4Input() {
+    return this._ipv4.internalValue;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6 = new FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6OutputReference(this, "ipv6");
+  public get ipv6() {
+    return this._ipv6;
+  }
+  public putIpv6(value: FastAclLegacyAclDestinationTypeSelectedVipAddressAddressIpv6) {
+    this._ipv6.internalValue = value;
+  }
+  public resetIpv6() {
+    this._ipv6.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6.internalValue;
+  }
+}
+
+export class FastAclLegacyAclDestinationTypeSelectedVipAddressAddressList extends cdktf.ComplexList {
+  public internalValue? : FastAclLegacyAclDestinationTypeSelectedVipAddressAddress[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FastAclLegacyAclDestinationTypeSelectedVipAddressAddressOutputReference {
+    return new FastAclLegacyAclDestinationTypeSelectedVipAddressAddressOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FastAclLegacyAclDestinationTypeSelectedVipAddress {
+  /**
+  * address block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#address FastAcl#address}
+  */
+  readonly address?: FastAclLegacyAclDestinationTypeSelectedVipAddressAddress[] | cdktf.IResolvable;
+}
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressToTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressOutputReference | FastAclLegacyAclDestinationTypeSelectedVipAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    address: cdktf.listMapper(fastAclLegacyAclDestinationTypeSelectedVipAddressAddressToTerraform, true)(struct!.address),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeSelectedVipAddressToHclTerraform(struct?: FastAclLegacyAclDestinationTypeSelectedVipAddressOutputReference | FastAclLegacyAclDestinationTypeSelectedVipAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    address: {
+      value: cdktf.listMapperHcl(fastAclLegacyAclDestinationTypeSelectedVipAddressAddressToHclTerraform, true)(struct!.address),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeSelectedVipAddressAddressList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeSelectedVipAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationTypeSelectedVipAddress | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._address?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationTypeSelectedVipAddress | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._address.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._address.internalValue = value.address;
+    }
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address = new FastAclLegacyAclDestinationTypeSelectedVipAddressAddressList(this, "address", false);
+  public get address() {
+    return this._address;
+  }
+  public putAddress(value: FastAclLegacyAclDestinationTypeSelectedVipAddressAddress[] | cdktf.IResolvable) {
+    this._address.internalValue = value;
+  }
+  public resetAddress() {
+    this._address.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address.internalValue;
+  }
+}
+export interface FastAclLegacyAclDestinationType {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all_services FastAcl#all_services}
+  */
+  readonly allServices?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#interface_services FastAcl#interface_services}
+  */
+  readonly interfaceServices?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#shared_vip_services FastAcl#shared_vip_services}
+  */
+  readonly sharedVipServices?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#vhost FastAcl#vhost}
+  */
+  readonly vhost?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#vip_services FastAcl#vip_services}
+  */
+  readonly vipServices?: boolean | cdktf.IResolvable;
+  /**
+  * destination_ip_address block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#destination_ip_address FastAcl#destination_ip_address}
+  */
+  readonly destinationIpAddress?: FastAclLegacyAclDestinationTypeDestinationIpAddress;
+  /**
+  * selected_vip_address block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#selected_vip_address FastAcl#selected_vip_address}
+  */
+  readonly selectedVipAddress?: FastAclLegacyAclDestinationTypeSelectedVipAddress;
+}
+
+export function fastAclLegacyAclDestinationTypeToTerraform(struct?: FastAclLegacyAclDestinationTypeOutputReference | FastAclLegacyAclDestinationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    all_services: cdktf.booleanToTerraform(struct!.allServices),
+    interface_services: cdktf.booleanToTerraform(struct!.interfaceServices),
+    shared_vip_services: cdktf.booleanToTerraform(struct!.sharedVipServices),
+    vhost: cdktf.booleanToTerraform(struct!.vhost),
+    vip_services: cdktf.booleanToTerraform(struct!.vipServices),
+    destination_ip_address: fastAclLegacyAclDestinationTypeDestinationIpAddressToTerraform(struct!.destinationIpAddress),
+    selected_vip_address: fastAclLegacyAclDestinationTypeSelectedVipAddressToTerraform(struct!.selectedVipAddress),
+  }
+}
+
+
+export function fastAclLegacyAclDestinationTypeToHclTerraform(struct?: FastAclLegacyAclDestinationTypeOutputReference | FastAclLegacyAclDestinationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    all_services: {
+      value: cdktf.booleanToHclTerraform(struct!.allServices),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    interface_services: {
+      value: cdktf.booleanToHclTerraform(struct!.interfaceServices),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    shared_vip_services: {
+      value: cdktf.booleanToHclTerraform(struct!.sharedVipServices),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vhost: {
+      value: cdktf.booleanToHclTerraform(struct!.vhost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vip_services: {
+      value: cdktf.booleanToHclTerraform(struct!.vipServices),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    destination_ip_address: {
+      value: fastAclLegacyAclDestinationTypeDestinationIpAddressToHclTerraform(struct!.destinationIpAddress),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeDestinationIpAddressList",
+    },
+    selected_vip_address: {
+      value: fastAclLegacyAclDestinationTypeSelectedVipAddressToHclTerraform(struct!.selectedVipAddress),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeSelectedVipAddressList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclDestinationTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclDestinationType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allServices !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allServices = this._allServices;
+    }
+    if (this._interfaceServices !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceServices = this._interfaceServices;
+    }
+    if (this._sharedVipServices !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sharedVipServices = this._sharedVipServices;
+    }
+    if (this._vhost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vhost = this._vhost;
+    }
+    if (this._vipServices !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vipServices = this._vipServices;
+    }
+    if (this._destinationIpAddress?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationIpAddress = this._destinationIpAddress?.internalValue;
+    }
+    if (this._selectedVipAddress?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selectedVipAddress = this._selectedVipAddress?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclDestinationType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allServices = undefined;
+      this._interfaceServices = undefined;
+      this._sharedVipServices = undefined;
+      this._vhost = undefined;
+      this._vipServices = undefined;
+      this._destinationIpAddress.internalValue = undefined;
+      this._selectedVipAddress.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allServices = value.allServices;
+      this._interfaceServices = value.interfaceServices;
+      this._sharedVipServices = value.sharedVipServices;
+      this._vhost = value.vhost;
+      this._vipServices = value.vipServices;
+      this._destinationIpAddress.internalValue = value.destinationIpAddress;
+      this._selectedVipAddress.internalValue = value.selectedVipAddress;
+    }
+  }
+
+  // all_services - computed: false, optional: true, required: false
+  private _allServices?: boolean | cdktf.IResolvable; 
+  public get allServices() {
+    return this.getBooleanAttribute('all_services');
+  }
+  public set allServices(value: boolean | cdktf.IResolvable) {
+    this._allServices = value;
+  }
+  public resetAllServices() {
+    this._allServices = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allServicesInput() {
+    return this._allServices;
+  }
+
+  // interface_services - computed: false, optional: true, required: false
+  private _interfaceServices?: boolean | cdktf.IResolvable; 
+  public get interfaceServices() {
+    return this.getBooleanAttribute('interface_services');
+  }
+  public set interfaceServices(value: boolean | cdktf.IResolvable) {
+    this._interfaceServices = value;
+  }
+  public resetInterfaceServices() {
+    this._interfaceServices = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceServicesInput() {
+    return this._interfaceServices;
+  }
+
+  // shared_vip_services - computed: false, optional: true, required: false
+  private _sharedVipServices?: boolean | cdktf.IResolvable; 
+  public get sharedVipServices() {
+    return this.getBooleanAttribute('shared_vip_services');
+  }
+  public set sharedVipServices(value: boolean | cdktf.IResolvable) {
+    this._sharedVipServices = value;
+  }
+  public resetSharedVipServices() {
+    this._sharedVipServices = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sharedVipServicesInput() {
+    return this._sharedVipServices;
+  }
+
+  // vhost - computed: false, optional: true, required: false
+  private _vhost?: boolean | cdktf.IResolvable; 
+  public get vhost() {
+    return this.getBooleanAttribute('vhost');
+  }
+  public set vhost(value: boolean | cdktf.IResolvable) {
+    this._vhost = value;
+  }
+  public resetVhost() {
+    this._vhost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vhostInput() {
+    return this._vhost;
+  }
+
+  // vip_services - computed: false, optional: true, required: false
+  private _vipServices?: boolean | cdktf.IResolvable; 
+  public get vipServices() {
+    return this.getBooleanAttribute('vip_services');
+  }
+  public set vipServices(value: boolean | cdktf.IResolvable) {
+    this._vipServices = value;
+  }
+  public resetVipServices() {
+    this._vipServices = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipServicesInput() {
+    return this._vipServices;
+  }
+
+  // destination_ip_address - computed: false, optional: true, required: false
+  private _destinationIpAddress = new FastAclLegacyAclDestinationTypeDestinationIpAddressOutputReference(this, "destination_ip_address");
+  public get destinationIpAddress() {
+    return this._destinationIpAddress;
+  }
+  public putDestinationIpAddress(value: FastAclLegacyAclDestinationTypeDestinationIpAddress) {
+    this._destinationIpAddress.internalValue = value;
+  }
+  public resetDestinationIpAddress() {
+    this._destinationIpAddress.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationIpAddressInput() {
+    return this._destinationIpAddress.internalValue;
+  }
+
+  // selected_vip_address - computed: false, optional: true, required: false
+  private _selectedVipAddress = new FastAclLegacyAclDestinationTypeSelectedVipAddressOutputReference(this, "selected_vip_address");
+  public get selectedVipAddress() {
+    return this._selectedVipAddress;
+  }
+  public putSelectedVipAddress(value: FastAclLegacyAclDestinationTypeSelectedVipAddress) {
+    this._selectedVipAddress.internalValue = value;
+  }
+  public resetSelectedVipAddress() {
+    this._selectedVipAddress.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectedVipAddressInput() {
+    return this._selectedVipAddress.internalValue;
+  }
+}
+export interface FastAclLegacyAclNetworkType {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#public FastAcl#public}
+  */
+  readonly public?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#site_local FastAcl#site_local}
+  */
+  readonly siteLocal?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#site_local_inside FastAcl#site_local_inside}
+  */
+  readonly siteLocalInside?: boolean | cdktf.IResolvable;
+}
+
+export function fastAclLegacyAclNetworkTypeToTerraform(struct?: FastAclLegacyAclNetworkTypeOutputReference | FastAclLegacyAclNetworkType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public: cdktf.booleanToTerraform(struct!.public),
+    site_local: cdktf.booleanToTerraform(struct!.siteLocal),
+    site_local_inside: cdktf.booleanToTerraform(struct!.siteLocalInside),
+  }
+}
+
+
+export function fastAclLegacyAclNetworkTypeToHclTerraform(struct?: FastAclLegacyAclNetworkTypeOutputReference | FastAclLegacyAclNetworkType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public: {
+      value: cdktf.booleanToHclTerraform(struct!.public),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    site_local: {
+      value: cdktf.booleanToHclTerraform(struct!.siteLocal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    site_local_inside: {
+      value: cdktf.booleanToHclTerraform(struct!.siteLocalInside),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclNetworkTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAclNetworkType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._public !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.public = this._public;
+    }
+    if (this._siteLocal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteLocal = this._siteLocal;
+    }
+    if (this._siteLocalInside !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteLocalInside = this._siteLocalInside;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclNetworkType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._public = undefined;
+      this._siteLocal = undefined;
+      this._siteLocalInside = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._public = value.public;
+      this._siteLocal = value.siteLocal;
+      this._siteLocalInside = value.siteLocalInside;
+    }
+  }
+
+  // public - computed: false, optional: true, required: false
+  private _public?: boolean | cdktf.IResolvable; 
+  public get public() {
+    return this.getBooleanAttribute('public');
+  }
+  public set public(value: boolean | cdktf.IResolvable) {
+    this._public = value;
+  }
+  public resetPublic() {
+    this._public = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicInput() {
+    return this._public;
+  }
+
+  // site_local - computed: false, optional: true, required: false
+  private _siteLocal?: boolean | cdktf.IResolvable; 
+  public get siteLocal() {
+    return this.getBooleanAttribute('site_local');
+  }
+  public set siteLocal(value: boolean | cdktf.IResolvable) {
+    this._siteLocal = value;
+  }
+  public resetSiteLocal() {
+    this._siteLocal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteLocalInput() {
+    return this._siteLocal;
+  }
+
+  // site_local_inside - computed: false, optional: true, required: false
+  private _siteLocalInside?: boolean | cdktf.IResolvable; 
+  public get siteLocalInside() {
+    return this.getBooleanAttribute('site_local_inside');
+  }
+  public set siteLocalInside(value: boolean | cdktf.IResolvable) {
+    this._siteLocalInside = value;
+  }
+  public resetSiteLocalInside() {
+    this._siteLocalInside = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteLocalInsideInput() {
+    return this._siteLocalInside;
+  }
+}
+export interface FastAclLegacyAclSourceRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function fastAclLegacyAclSourceRulesToTerraform(struct?: FastAclLegacyAclSourceRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function fastAclLegacyAclSourceRulesToHclTerraform(struct?: FastAclLegacyAclSourceRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclSourceRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FastAclLegacyAclSourceRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAclSourceRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class FastAclLegacyAclSourceRulesList extends cdktf.ComplexList {
+  public internalValue? : FastAclLegacyAclSourceRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FastAclLegacyAclSourceRulesOutputReference {
+    return new FastAclLegacyAclSourceRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FastAclLegacyAcl {
+  /**
+  * destination_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#destination_type FastAcl#destination_type}
+  */
+  readonly destinationType: FastAclLegacyAclDestinationType;
+  /**
+  * network_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#network_type FastAcl#network_type}
+  */
+  readonly networkType: FastAclLegacyAclNetworkType;
+  /**
+  * source_rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#source_rules FastAcl#source_rules}
+  */
+  readonly sourceRules?: FastAclLegacyAclSourceRules[] | cdktf.IResolvable;
+}
+
+export function fastAclLegacyAclToTerraform(struct?: FastAclLegacyAclOutputReference | FastAclLegacyAcl): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    destination_type: fastAclLegacyAclDestinationTypeToTerraform(struct!.destinationType),
+    network_type: fastAclLegacyAclNetworkTypeToTerraform(struct!.networkType),
+    source_rules: cdktf.listMapper(fastAclLegacyAclSourceRulesToTerraform, true)(struct!.sourceRules),
+  }
+}
+
+
+export function fastAclLegacyAclToHclTerraform(struct?: FastAclLegacyAclOutputReference | FastAclLegacyAcl): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    destination_type: {
+      value: fastAclLegacyAclDestinationTypeToHclTerraform(struct!.destinationType),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclDestinationTypeList",
+    },
+    network_type: {
+      value: fastAclLegacyAclNetworkTypeToHclTerraform(struct!.networkType),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclNetworkTypeList",
+    },
+    source_rules: {
+      value: cdktf.listMapperHcl(fastAclLegacyAclSourceRulesToHclTerraform, true)(struct!.sourceRules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FastAclLegacyAclSourceRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FastAclLegacyAclOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FastAclLegacyAcl | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._destinationType?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationType = this._destinationType?.internalValue;
+    }
+    if (this._networkType?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkType = this._networkType?.internalValue;
+    }
+    if (this._sourceRules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceRules = this._sourceRules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FastAclLegacyAcl | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._destinationType.internalValue = undefined;
+      this._networkType.internalValue = undefined;
+      this._sourceRules.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._destinationType.internalValue = value.destinationType;
+      this._networkType.internalValue = value.networkType;
+      this._sourceRules.internalValue = value.sourceRules;
+    }
+  }
+
+  // destination_type - computed: false, optional: false, required: true
+  private _destinationType = new FastAclLegacyAclDestinationTypeOutputReference(this, "destination_type");
+  public get destinationType() {
+    return this._destinationType;
+  }
+  public putDestinationType(value: FastAclLegacyAclDestinationType) {
+    this._destinationType.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationTypeInput() {
+    return this._destinationType.internalValue;
+  }
+
+  // network_type - computed: false, optional: false, required: true
+  private _networkType = new FastAclLegacyAclNetworkTypeOutputReference(this, "network_type");
+  public get networkType() {
+    return this._networkType;
+  }
+  public putNetworkType(value: FastAclLegacyAclNetworkType) {
+    this._networkType.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkTypeInput() {
+    return this._networkType.internalValue;
+  }
+
+  // source_rules - computed: false, optional: true, required: false
+  private _sourceRules = new FastAclLegacyAclSourceRulesList(this, "source_rules", false);
+  public get sourceRules() {
+    return this._sourceRules;
+  }
+  public putSourceRules(value: FastAclLegacyAclSourceRules[] | cdktf.IResolvable) {
+    this._sourceRules.internalValue = value;
+  }
+  public resetSourceRules() {
+    this._sourceRules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceRulesInput() {
+    return this._sourceRules.internalValue;
+  }
+}
+export interface FastAclProtocolPolicer {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -209,15 +2044,15 @@ export class FastAclProtocolPolicerOutputReference extends cdktf.ComplexObject {
 }
 export interface FastAclReAclFastAclRulesActionPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -398,7 +2233,7 @@ export interface FastAclReAclFastAclRulesActionPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclReAclFastAclRulesActionPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -482,15 +2317,15 @@ export class FastAclReAclFastAclRulesActionPolicerActionOutputReference extends 
 }
 export interface FastAclReAclFastAclRulesActionProtocolPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -671,7 +2506,7 @@ export interface FastAclReAclFastAclRulesActionProtocolPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclReAclFastAclRulesActionProtocolPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -755,19 +2590,19 @@ export class FastAclReAclFastAclRulesActionProtocolPolicerActionOutputReference 
 }
 export interface FastAclReAclFastAclRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#simple_action FastAcl#simple_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#simple_action FastAcl#simple_action}
   */
   readonly simpleAction?: string;
   /**
   * policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#policer_action FastAcl#policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#policer_action FastAcl#policer_action}
   */
   readonly policerAction?: FastAclReAclFastAclRulesActionPolicerAction;
   /**
   * protocol_policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
   */
   readonly protocolPolicerAction?: FastAclReAclFastAclRulesActionProtocolPolicerAction;
 }
@@ -909,15 +2744,15 @@ export class FastAclReAclFastAclRulesActionOutputReference extends cdktf.Complex
 }
 export interface FastAclReAclFastAclRulesIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -1098,7 +2933,7 @@ export interface FastAclReAclFastAclRulesIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclReAclFastAclRulesIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -1182,11 +3017,15 @@ export class FastAclReAclFastAclRulesIpPrefixSetOutputReference extends cdktf.Co
 }
 export interface FastAclReAclFastAclRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#description FastAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#description FastAcl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#disable FastAcl#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name: string;
 }
@@ -1198,6 +3037,7 @@ export function fastAclReAclFastAclRulesMetadataToTerraform(struct?: FastAclReAc
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -1214,6 +3054,12 @@ export function fastAclReAclFastAclRulesMetadataToHclTerraform(struct?: FastAclR
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -1245,6 +3091,10 @@ export class FastAclReAclFastAclRulesMetadataOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -1256,11 +3106,13 @@ export class FastAclReAclFastAclRulesMetadataOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -1281,6 +3133,22 @@ export class FastAclReAclFastAclRulesMetadataOutputReference extends cdktf.Compl
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -1296,15 +3164,15 @@ export class FastAclReAclFastAclRulesMetadataOutputReference extends cdktf.Compl
 }
 export interface FastAclReAclFastAclRulesPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#all FastAcl#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all FastAcl#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#dns FastAcl#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#dns FastAcl#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#user_defined FastAcl#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#user_defined FastAcl#user_defined}
   */
   readonly userDefined?: number;
 }
@@ -1478,11 +3346,11 @@ export class FastAclReAclFastAclRulesPortList extends cdktf.ComplexList {
 }
 export interface FastAclReAclFastAclRulesPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: string[];
 }
@@ -1595,33 +3463,37 @@ export class FastAclReAclFastAclRulesPrefixOutputReference extends cdktf.Complex
 }
 export interface FastAclReAclFastAclRules {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  */
+  readonly name?: string;
+  /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#action FastAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#action FastAcl#action}
   */
   readonly action: FastAclReAclFastAclRulesAction;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
   */
   readonly ipPrefixSet?: FastAclReAclFastAclRulesIpPrefixSet;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#metadata FastAcl#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#metadata FastAcl#metadata}
   */
   readonly metadata: FastAclReAclFastAclRulesMetadata;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#port FastAcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#port FastAcl#port}
   */
   readonly port?: FastAclReAclFastAclRulesPort[] | cdktf.IResolvable;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: FastAclReAclFastAclRulesPrefix;
 }
@@ -1632,6 +3504,7 @@ export function fastAclReAclFastAclRulesToTerraform(struct?: FastAclReAclFastAcl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    name: cdktf.stringToTerraform(struct!.name),
     action: fastAclReAclFastAclRulesActionToTerraform(struct!.action),
     ip_prefix_set: fastAclReAclFastAclRulesIpPrefixSetToTerraform(struct!.ipPrefixSet),
     metadata: fastAclReAclFastAclRulesMetadataToTerraform(struct!.metadata),
@@ -1647,6 +3520,12 @@ export function fastAclReAclFastAclRulesToHclTerraform(struct?: FastAclReAclFast
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     action: {
       value: fastAclReAclFastAclRulesActionToHclTerraform(struct!.action),
       isBlock: true,
@@ -1703,6 +3582,10 @@ export class FastAclReAclFastAclRulesOutputReference extends cdktf.ComplexObject
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     if (this._action?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.action = this._action?.internalValue;
@@ -1730,6 +3613,7 @@ export class FastAclReAclFastAclRulesOutputReference extends cdktf.ComplexObject
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._name = undefined;
       this._action.internalValue = undefined;
       this._ipPrefixSet.internalValue = undefined;
       this._metadata.internalValue = undefined;
@@ -1743,12 +3627,29 @@ export class FastAclReAclFastAclRulesOutputReference extends cdktf.ComplexObject
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._name = value.name;
       this._action.internalValue = value.action;
       this._ipPrefixSet.internalValue = value.ipPrefixSet;
       this._metadata.internalValue = value.metadata;
       this._port.internalValue = value.port;
       this._prefix.internalValue = value.prefix;
     }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
   }
 
   // action - computed: false, optional: false, required: true
@@ -1847,15 +3748,15 @@ export class FastAclReAclFastAclRulesList extends cdktf.ComplexList {
 }
 export interface FastAclReAclSelectedTenantVipPublicIpRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2029,13 +3930,13 @@ export class FastAclReAclSelectedTenantVipPublicIpRefsList extends cdktf.Complex
 }
 export interface FastAclReAclSelectedTenantVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
   */
   readonly defaultTenantVip?: boolean | cdktf.IResolvable;
   /**
   * public_ip_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#public_ip_refs FastAcl#public_ip_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#public_ip_refs FastAcl#public_ip_refs}
   */
   readonly publicIpRefs: FastAclReAclSelectedTenantVipPublicIpRefs[] | cdktf.IResolvable;
 }
@@ -2145,23 +4046,23 @@ export class FastAclReAclSelectedTenantVipOutputReference extends cdktf.ComplexO
 }
 export interface FastAclReAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#all_public_vips FastAcl#all_public_vips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all_public_vips FastAcl#all_public_vips}
   */
   readonly allPublicVips?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#default_tenant_vip FastAcl#default_tenant_vip}
   */
   readonly defaultTenantVip?: boolean | cdktf.IResolvable;
   /**
   * fast_acl_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
   */
   readonly fastAclRules?: FastAclReAclFastAclRules[] | cdktf.IResolvable;
   /**
   * selected_tenant_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#selected_tenant_vip FastAcl#selected_tenant_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#selected_tenant_vip FastAcl#selected_tenant_vip}
   */
   readonly selectedTenantVip?: FastAclReAclSelectedTenantVip;
 }
@@ -2332,15 +4233,15 @@ export class FastAclReAclOutputReference extends cdktf.ComplexObject {
 }
 export interface FastAclSiteAclFastAclRulesActionPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2521,7 +4422,7 @@ export interface FastAclSiteAclFastAclRulesActionPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclSiteAclFastAclRulesActionPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -2605,15 +4506,15 @@ export class FastAclSiteAclFastAclRulesActionPolicerActionOutputReference extend
 }
 export interface FastAclSiteAclFastAclRulesActionProtocolPolicerActionRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -2794,7 +4695,7 @@ export interface FastAclSiteAclFastAclRulesActionProtocolPolicerAction {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclSiteAclFastAclRulesActionProtocolPolicerActionRef[] | cdktf.IResolvable;
 }
@@ -2878,19 +4779,19 @@ export class FastAclSiteAclFastAclRulesActionProtocolPolicerActionOutputReferenc
 }
 export interface FastAclSiteAclFastAclRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#simple_action FastAcl#simple_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#simple_action FastAcl#simple_action}
   */
   readonly simpleAction?: string;
   /**
   * policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#policer_action FastAcl#policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#policer_action FastAcl#policer_action}
   */
   readonly policerAction?: FastAclSiteAclFastAclRulesActionPolicerAction;
   /**
   * protocol_policer_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#protocol_policer_action FastAcl#protocol_policer_action}
   */
   readonly protocolPolicerAction?: FastAclSiteAclFastAclRulesActionProtocolPolicerAction;
 }
@@ -3032,15 +4933,15 @@ export class FastAclSiteAclFastAclRulesActionOutputReference extends cdktf.Compl
 }
 export interface FastAclSiteAclFastAclRulesIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#namespace FastAcl#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#namespace FastAcl#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#tenant FastAcl#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#tenant FastAcl#tenant}
   */
   readonly tenant?: string;
 }
@@ -3221,7 +5122,7 @@ export interface FastAclSiteAclFastAclRulesIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ref FastAcl#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ref FastAcl#ref}
   */
   readonly ref?: FastAclSiteAclFastAclRulesIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -3305,11 +5206,15 @@ export class FastAclSiteAclFastAclRulesIpPrefixSetOutputReference extends cdktf.
 }
 export interface FastAclSiteAclFastAclRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#description FastAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#description FastAcl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#name FastAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#disable FastAcl#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
   */
   readonly name: string;
 }
@@ -3321,6 +5226,7 @@ export function fastAclSiteAclFastAclRulesMetadataToTerraform(struct?: FastAclSi
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -3337,6 +5243,12 @@ export function fastAclSiteAclFastAclRulesMetadataToHclTerraform(struct?: FastAc
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -3368,6 +5280,10 @@ export class FastAclSiteAclFastAclRulesMetadataOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -3379,11 +5295,13 @@ export class FastAclSiteAclFastAclRulesMetadataOutputReference extends cdktf.Com
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -3404,6 +5322,22 @@ export class FastAclSiteAclFastAclRulesMetadataOutputReference extends cdktf.Com
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -3419,15 +5353,15 @@ export class FastAclSiteAclFastAclRulesMetadataOutputReference extends cdktf.Com
 }
 export interface FastAclSiteAclFastAclRulesPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#all FastAcl#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all FastAcl#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#dns FastAcl#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#dns FastAcl#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#user_defined FastAcl#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#user_defined FastAcl#user_defined}
   */
   readonly userDefined?: number;
 }
@@ -3601,11 +5535,11 @@ export class FastAclSiteAclFastAclRulesPortList extends cdktf.ComplexList {
 }
 export interface FastAclSiteAclFastAclRulesPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ipv6_prefix FastAcl#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: string[];
 }
@@ -3718,33 +5652,37 @@ export class FastAclSiteAclFastAclRulesPrefixOutputReference extends cdktf.Compl
 }
 export interface FastAclSiteAclFastAclRules {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#name FastAcl#name}
+  */
+  readonly name?: string;
+  /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#action FastAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#action FastAcl#action}
   */
   readonly action: FastAclSiteAclFastAclRulesAction;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#ip_prefix_set FastAcl#ip_prefix_set}
   */
   readonly ipPrefixSet?: FastAclSiteAclFastAclRulesIpPrefixSet;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#metadata FastAcl#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#metadata FastAcl#metadata}
   */
   readonly metadata: FastAclSiteAclFastAclRulesMetadata;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#port FastAcl#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#port FastAcl#port}
   */
   readonly port?: FastAclSiteAclFastAclRulesPort[] | cdktf.IResolvable;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#prefix FastAcl#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#prefix FastAcl#prefix}
   */
   readonly prefix?: FastAclSiteAclFastAclRulesPrefix;
 }
@@ -3755,6 +5693,7 @@ export function fastAclSiteAclFastAclRulesToTerraform(struct?: FastAclSiteAclFas
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    name: cdktf.stringToTerraform(struct!.name),
     action: fastAclSiteAclFastAclRulesActionToTerraform(struct!.action),
     ip_prefix_set: fastAclSiteAclFastAclRulesIpPrefixSetToTerraform(struct!.ipPrefixSet),
     metadata: fastAclSiteAclFastAclRulesMetadataToTerraform(struct!.metadata),
@@ -3770,6 +5709,12 @@ export function fastAclSiteAclFastAclRulesToHclTerraform(struct?: FastAclSiteAcl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     action: {
       value: fastAclSiteAclFastAclRulesActionToHclTerraform(struct!.action),
       isBlock: true,
@@ -3826,6 +5771,10 @@ export class FastAclSiteAclFastAclRulesOutputReference extends cdktf.ComplexObje
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     if (this._action?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.action = this._action?.internalValue;
@@ -3853,6 +5802,7 @@ export class FastAclSiteAclFastAclRulesOutputReference extends cdktf.ComplexObje
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._name = undefined;
       this._action.internalValue = undefined;
       this._ipPrefixSet.internalValue = undefined;
       this._metadata.internalValue = undefined;
@@ -3866,12 +5816,29 @@ export class FastAclSiteAclFastAclRulesOutputReference extends cdktf.ComplexObje
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._name = value.name;
       this._action.internalValue = value.action;
       this._ipPrefixSet.internalValue = value.ipPrefixSet;
       this._metadata.internalValue = value.metadata;
       this._port.internalValue = value.port;
       this._prefix.internalValue = value.prefix;
     }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
   }
 
   // action - computed: false, optional: false, required: true
@@ -3970,29 +5937,29 @@ export class FastAclSiteAclFastAclRulesList extends cdktf.ComplexList {
 }
 export interface FastAclSiteAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#all_services FastAcl#all_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#all_services FastAcl#all_services}
   */
   readonly allServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#inside_network FastAcl#inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#inside_network FastAcl#inside_network}
   */
   readonly insideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#interface_services FastAcl#interface_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#interface_services FastAcl#interface_services}
   */
   readonly interfaceServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#outside_network FastAcl#outside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#outside_network FastAcl#outside_network}
   */
   readonly outsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#vip_services FastAcl#vip_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#vip_services FastAcl#vip_services}
   */
   readonly vipServices?: boolean | cdktf.IResolvable;
   /**
   * fast_acl_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#fast_acl_rules FastAcl#fast_acl_rules}
   */
   readonly fastAclRules?: FastAclSiteAclFastAclRules[] | cdktf.IResolvable;
 }
@@ -4221,7 +6188,7 @@ export class FastAclSiteAclOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl volterra_fast_acl}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl volterra_fast_acl}
 */
 export class FastAcl extends cdktf.TerraformResource {
 
@@ -4237,7 +6204,7 @@ export class FastAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FastAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FastAcl to import
-  * @param importFromId The id of the existing FastAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FastAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FastAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4249,7 +6216,7 @@ export class FastAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/fast_acl volterra_fast_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/fast_acl volterra_fast_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4260,8 +6227,8 @@ export class FastAcl extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_fast_acl',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4278,6 +6245,7 @@ export class FastAcl extends cdktf.TerraformResource {
     this._labels = config.labels;
     this._name = config.name;
     this._namespace = config.namespace;
+    this._legacyAcl.internalValue = config.legacyAcl;
     this._protocolPolicer.internalValue = config.protocolPolicer;
     this._reAcl.internalValue = config.reAcl;
     this._siteAcl.internalValue = config.siteAcl;
@@ -4393,6 +6361,22 @@ export class FastAcl extends cdktf.TerraformResource {
     return this._namespace;
   }
 
+  // legacy_acl - computed: false, optional: true, required: false
+  private _legacyAcl = new FastAclLegacyAclOutputReference(this, "legacy_acl");
+  public get legacyAcl() {
+    return this._legacyAcl;
+  }
+  public putLegacyAcl(value: FastAclLegacyAcl) {
+    this._legacyAcl.internalValue = value;
+  }
+  public resetLegacyAcl() {
+    this._legacyAcl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legacyAclInput() {
+    return this._legacyAcl.internalValue;
+  }
+
   // protocol_policer - computed: false, optional: true, required: false
   private _protocolPolicer = new FastAclProtocolPolicerOutputReference(this, "protocol_policer");
   public get protocolPolicer() {
@@ -4454,6 +6438,7 @@ export class FastAcl extends cdktf.TerraformResource {
       labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
+      legacy_acl: fastAclLegacyAclToTerraform(this._legacyAcl.internalValue),
       protocol_policer: fastAclProtocolPolicerToTerraform(this._protocolPolicer.internalValue),
       re_acl: fastAclReAclToTerraform(this._reAcl.internalValue),
       site_acl: fastAclSiteAclToTerraform(this._siteAcl.internalValue),
@@ -4503,6 +6488,12 @@ export class FastAcl extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      legacy_acl: {
+        value: fastAclLegacyAclToHclTerraform(this._legacyAcl.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "FastAclLegacyAclList",
       },
       protocol_policer: {
         value: fastAclProtocolPolicerToHclTerraform(this._protocolPolicer.internalValue),

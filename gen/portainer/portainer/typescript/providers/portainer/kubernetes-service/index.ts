@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service
+// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service#endpoint_id KubernetesService#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service#endpoint_id KubernetesService#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service#id KubernetesService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service#id KubernetesService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service#manifest KubernetesService#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service#manifest KubernetesService#manifest}
   */
   readonly manifest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service#namespace KubernetesService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service#namespace KubernetesService#namespace}
   */
   readonly namespace: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service portainer_kubernetes_service}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service portainer_kubernetes_service}
 */
 export class KubernetesService extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class KubernetesService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesService to import
-  * @param importFromId The id of the existing KubernetesService that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesService that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class KubernetesService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_service portainer_kubernetes_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/kubernetes_service portainer_kubernetes_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class KubernetesService extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_service',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.1',
-        providerVersionConstraint: '1.16.1'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

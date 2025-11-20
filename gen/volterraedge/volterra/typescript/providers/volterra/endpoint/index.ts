@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface EndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#annotations Endpoint#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#annotations Endpoint#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#description Endpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#description Endpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#disable Endpoint#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#disable Endpoint#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#dns_name Endpoint#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#dns_name Endpoint#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#health_check_port Endpoint#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#health_check_port Endpoint#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#id Endpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#id Endpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#ip Endpoint#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#ip Endpoint#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#labels Endpoint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#labels Endpoint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#name Endpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#namespace Endpoint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#namespace Endpoint#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#port Endpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#port Endpoint#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#protocol Endpoint#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#protocol Endpoint#protocol}
   */
   readonly protocol?: string;
   /**
   * dns_name_advanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#dns_name_advanced Endpoint#dns_name_advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#dns_name_advanced Endpoint#dns_name_advanced}
   */
   readonly dnsNameAdvanced?: EndpointDnsNameAdvanced;
   /**
   * service_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#service_info Endpoint#service_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#service_info Endpoint#service_info}
   */
   readonly serviceInfo?: EndpointServiceInfo;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#snat_pool Endpoint#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#snat_pool Endpoint#snat_pool}
   */
   readonly snatPool?: EndpointSnatPool;
   /**
   * where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#where Endpoint#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#where Endpoint#where}
   */
   readonly where?: EndpointWhere;
 }
 export interface EndpointDnsNameAdvanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#name Endpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#refresh_interval Endpoint#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#refresh_interval Endpoint#refresh_interval}
   */
   readonly refreshInterval?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#strict_ttl Endpoint#strict_ttl}
+  */
+  readonly strictTtl?: boolean | cdktf.IResolvable;
 }
 
 export function endpointDnsNameAdvancedToTerraform(struct?: EndpointDnsNameAdvancedOutputReference | EndpointDnsNameAdvanced): any {
@@ -102,6 +106,7 @@ export function endpointDnsNameAdvancedToTerraform(struct?: EndpointDnsNameAdvan
   return {
     name: cdktf.stringToTerraform(struct!.name),
     refresh_interval: cdktf.numberToTerraform(struct!.refreshInterval),
+    strict_ttl: cdktf.booleanToTerraform(struct!.strictTtl),
   }
 }
 
@@ -123,6 +128,12 @@ export function endpointDnsNameAdvancedToHclTerraform(struct?: EndpointDnsNameAd
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    strict_ttl: {
+      value: cdktf.booleanToHclTerraform(struct!.strictTtl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
   };
 
@@ -152,6 +163,10 @@ export class EndpointDnsNameAdvancedOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.refreshInterval = this._refreshInterval;
     }
+    if (this._strictTtl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.strictTtl = this._strictTtl;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -160,11 +175,13 @@ export class EndpointDnsNameAdvancedOutputReference extends cdktf.ComplexObject 
       this.isEmptyObject = false;
       this._name = undefined;
       this._refreshInterval = undefined;
+      this._strictTtl = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._name = value.name;
       this._refreshInterval = value.refreshInterval;
+      this._strictTtl = value.strictTtl;
     }
   }
 
@@ -199,10 +216,26 @@ export class EndpointDnsNameAdvancedOutputReference extends cdktf.ComplexObject 
   public get refreshIntervalInput() {
     return this._refreshInterval;
   }
+
+  // strict_ttl - computed: false, optional: true, required: false
+  private _strictTtl?: boolean | cdktf.IResolvable; 
+  public get strictTtl() {
+    return this.getBooleanAttribute('strict_ttl');
+  }
+  public set strictTtl(value: boolean | cdktf.IResolvable) {
+    this._strictTtl = value;
+  }
+  public resetStrictTtl() {
+    this._strictTtl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get strictTtlInput() {
+    return this._strictTtl;
+  }
 }
 export interface EndpointServiceInfoServiceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#expressions Endpoint#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#expressions Endpoint#expressions}
   */
   readonly expressions: string[];
 }
@@ -283,17 +316,17 @@ export class EndpointServiceInfoServiceSelectorOutputReference extends cdktf.Com
 }
 export interface EndpointServiceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#discovery_type Endpoint#discovery_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#discovery_type Endpoint#discovery_type}
   */
   readonly discoveryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#service_name Endpoint#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#service_name Endpoint#service_name}
   */
   readonly serviceName?: string;
   /**
   * service_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#service_selector Endpoint#service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#service_selector Endpoint#service_selector}
   */
   readonly serviceSelector?: EndpointServiceInfoServiceSelector;
 }
@@ -432,11 +465,11 @@ export class EndpointServiceInfoOutputReference extends cdktf.ComplexObject {
 }
 export interface EndpointSnatPoolSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#ipv6_prefixes Endpoint#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#ipv6_prefixes Endpoint#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#prefixes Endpoint#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#prefixes Endpoint#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -549,13 +582,13 @@ export class EndpointSnatPoolSnatPoolOutputReference extends cdktf.ComplexObject
 }
 export interface EndpointSnatPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#no_snat_pool Endpoint#no_snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#no_snat_pool Endpoint#no_snat_pool}
   */
   readonly noSnatPool?: boolean | cdktf.IResolvable;
   /**
   * snat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#snat_pool Endpoint#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#snat_pool Endpoint#snat_pool}
   */
   readonly snatPool?: EndpointSnatPoolSnatPool;
 }
@@ -668,15 +701,15 @@ export class EndpointSnatPoolOutputReference extends cdktf.ComplexObject {
 }
 export interface EndpointWhereSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#name Endpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#namespace Endpoint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#namespace Endpoint#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#tenant Endpoint#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#tenant Endpoint#tenant}
   */
   readonly tenant?: string;
 }
@@ -853,25 +886,218 @@ export class EndpointWhereSiteRefList extends cdktf.ComplexList {
     return new EndpointWhereSiteRefOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EndpointWhereSiteRefs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#namespace Endpoint#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#tenant Endpoint#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function endpointWhereSiteRefsToTerraform(struct?: EndpointWhereSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function endpointWhereSiteRefsToHclTerraform(struct?: EndpointWhereSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EndpointWhereSiteRefsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): EndpointWhereSiteRefs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EndpointWhereSiteRefs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class EndpointWhereSiteRefsList extends cdktf.ComplexList {
+  public internalValue? : EndpointWhereSiteRefs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): EndpointWhereSiteRefsOutputReference {
+    return new EndpointWhereSiteRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface EndpointWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#disable_internet_vip Endpoint#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#disable_internet_vip Endpoint#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#enable_internet_vip Endpoint#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#enable_internet_vip Endpoint#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#network_type Endpoint#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#network_type Endpoint#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#ref Endpoint#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#ref Endpoint#ref}
   */
   readonly ref: EndpointWhereSiteRef[] | cdktf.IResolvable;
+  /**
+  * refs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#refs Endpoint#refs}
+  */
+  readonly refs?: EndpointWhereSiteRefs[] | cdktf.IResolvable;
 }
 
 export function endpointWhereSiteToTerraform(struct?: EndpointWhereSiteOutputReference | EndpointWhereSite): any {
@@ -884,6 +1110,7 @@ export function endpointWhereSiteToTerraform(struct?: EndpointWhereSiteOutputRef
     enable_internet_vip: cdktf.booleanToTerraform(struct!.enableInternetVip),
     network_type: cdktf.stringToTerraform(struct!.networkType),
     ref: cdktf.listMapper(endpointWhereSiteRefToTerraform, true)(struct!.ref),
+    refs: cdktf.listMapper(endpointWhereSiteRefsToTerraform, true)(struct!.refs),
   }
 }
 
@@ -917,6 +1144,12 @@ export function endpointWhereSiteToHclTerraform(struct?: EndpointWhereSiteOutput
       isBlock: true,
       type: "list",
       storageClassType: "EndpointWhereSiteRefList",
+    },
+    refs: {
+      value: cdktf.listMapperHcl(endpointWhereSiteRefsToHclTerraform, true)(struct!.refs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EndpointWhereSiteRefsList",
     },
   };
 
@@ -954,6 +1187,10 @@ export class EndpointWhereSiteOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.ref = this._ref?.internalValue;
     }
+    if (this._refs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refs = this._refs?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -964,6 +1201,7 @@ export class EndpointWhereSiteOutputReference extends cdktf.ComplexObject {
       this._enableInternetVip = undefined;
       this._networkType = undefined;
       this._ref.internalValue = undefined;
+      this._refs.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -971,6 +1209,7 @@ export class EndpointWhereSiteOutputReference extends cdktf.ComplexObject {
       this._enableInternetVip = value.enableInternetVip;
       this._networkType = value.networkType;
       this._ref.internalValue = value.ref;
+      this._refs.internalValue = value.refs;
     }
   }
 
@@ -1034,18 +1273,34 @@ export class EndpointWhereSiteOutputReference extends cdktf.ComplexObject {
   public get refInput() {
     return this._ref.internalValue;
   }
+
+  // refs - computed: false, optional: true, required: false
+  private _refs = new EndpointWhereSiteRefsList(this, "refs", false);
+  public get refs() {
+    return this._refs;
+  }
+  public putRefs(value: EndpointWhereSiteRefs[] | cdktf.IResolvable) {
+    this._refs.internalValue = value;
+  }
+  public resetRefs() {
+    this._refs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refsInput() {
+    return this._refs.internalValue;
+  }
 }
 export interface EndpointWhereVirtualNetworkRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#name Endpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#namespace Endpoint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#namespace Endpoint#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#tenant Endpoint#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#tenant Endpoint#tenant}
   */
   readonly tenant?: string;
 }
@@ -1226,7 +1481,7 @@ export interface EndpointWhereVirtualNetwork {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#ref Endpoint#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#ref Endpoint#ref}
   */
   readonly ref: EndpointWhereVirtualNetworkRef[] | cdktf.IResolvable;
 }
@@ -1307,15 +1562,15 @@ export class EndpointWhereVirtualNetworkOutputReference extends cdktf.ComplexObj
 }
 export interface EndpointWhereVirtualSiteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#name Endpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#namespace Endpoint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#namespace Endpoint#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#tenant Endpoint#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#tenant Endpoint#tenant}
   */
   readonly tenant?: string;
 }
@@ -1492,25 +1747,218 @@ export class EndpointWhereVirtualSiteRefList extends cdktf.ComplexList {
     return new EndpointWhereVirtualSiteRefOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EndpointWhereVirtualSiteRefs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#name Endpoint#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#namespace Endpoint#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#tenant Endpoint#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function endpointWhereVirtualSiteRefsToTerraform(struct?: EndpointWhereVirtualSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function endpointWhereVirtualSiteRefsToHclTerraform(struct?: EndpointWhereVirtualSiteRefs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EndpointWhereVirtualSiteRefsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): EndpointWhereVirtualSiteRefs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EndpointWhereVirtualSiteRefs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class EndpointWhereVirtualSiteRefsList extends cdktf.ComplexList {
+  public internalValue? : EndpointWhereVirtualSiteRefs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): EndpointWhereVirtualSiteRefsOutputReference {
+    return new EndpointWhereVirtualSiteRefsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface EndpointWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#disable_internet_vip Endpoint#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#disable_internet_vip Endpoint#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#enable_internet_vip Endpoint#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#enable_internet_vip Endpoint#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#network_type Endpoint#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#network_type Endpoint#network_type}
   */
   readonly networkType?: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#ref Endpoint#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#ref Endpoint#ref}
   */
   readonly ref: EndpointWhereVirtualSiteRef[] | cdktf.IResolvable;
+  /**
+  * refs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#refs Endpoint#refs}
+  */
+  readonly refs?: EndpointWhereVirtualSiteRefs[] | cdktf.IResolvable;
 }
 
 export function endpointWhereVirtualSiteToTerraform(struct?: EndpointWhereVirtualSiteOutputReference | EndpointWhereVirtualSite): any {
@@ -1523,6 +1971,7 @@ export function endpointWhereVirtualSiteToTerraform(struct?: EndpointWhereVirtua
     enable_internet_vip: cdktf.booleanToTerraform(struct!.enableInternetVip),
     network_type: cdktf.stringToTerraform(struct!.networkType),
     ref: cdktf.listMapper(endpointWhereVirtualSiteRefToTerraform, true)(struct!.ref),
+    refs: cdktf.listMapper(endpointWhereVirtualSiteRefsToTerraform, true)(struct!.refs),
   }
 }
 
@@ -1556,6 +2005,12 @@ export function endpointWhereVirtualSiteToHclTerraform(struct?: EndpointWhereVir
       isBlock: true,
       type: "list",
       storageClassType: "EndpointWhereVirtualSiteRefList",
+    },
+    refs: {
+      value: cdktf.listMapperHcl(endpointWhereVirtualSiteRefsToHclTerraform, true)(struct!.refs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EndpointWhereVirtualSiteRefsList",
     },
   };
 
@@ -1593,6 +2048,10 @@ export class EndpointWhereVirtualSiteOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.ref = this._ref?.internalValue;
     }
+    if (this._refs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refs = this._refs?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1603,6 +2062,7 @@ export class EndpointWhereVirtualSiteOutputReference extends cdktf.ComplexObject
       this._enableInternetVip = undefined;
       this._networkType = undefined;
       this._ref.internalValue = undefined;
+      this._refs.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -1610,6 +2070,7 @@ export class EndpointWhereVirtualSiteOutputReference extends cdktf.ComplexObject
       this._enableInternetVip = value.enableInternetVip;
       this._networkType = value.networkType;
       this._ref.internalValue = value.ref;
+      this._refs.internalValue = value.refs;
     }
   }
 
@@ -1673,24 +2134,40 @@ export class EndpointWhereVirtualSiteOutputReference extends cdktf.ComplexObject
   public get refInput() {
     return this._ref.internalValue;
   }
+
+  // refs - computed: false, optional: true, required: false
+  private _refs = new EndpointWhereVirtualSiteRefsList(this, "refs", false);
+  public get refs() {
+    return this._refs;
+  }
+  public putRefs(value: EndpointWhereVirtualSiteRefs[] | cdktf.IResolvable) {
+    this._refs.internalValue = value;
+  }
+  public resetRefs() {
+    this._refs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refsInput() {
+    return this._refs.internalValue;
+  }
 }
 export interface EndpointWhere {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#site Endpoint#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#site Endpoint#site}
   */
   readonly site?: EndpointWhereSite;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#virtual_network Endpoint#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#virtual_network Endpoint#virtual_network}
   */
   readonly virtualNetwork?: EndpointWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#virtual_site Endpoint#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#virtual_site Endpoint#virtual_site}
   */
   readonly virtualSite?: EndpointWhereVirtualSite;
 }
@@ -1832,7 +2309,7 @@ export class EndpointWhereOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint volterra_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint volterra_endpoint}
 */
 export class Endpoint extends cdktf.TerraformResource {
 
@@ -1848,7 +2325,7 @@ export class Endpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Endpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Endpoint to import
-  * @param importFromId The id of the existing Endpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Endpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Endpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1860,7 +2337,7 @@ export class Endpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/endpoint volterra_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/endpoint volterra_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1871,8 +2348,8 @@ export class Endpoint extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

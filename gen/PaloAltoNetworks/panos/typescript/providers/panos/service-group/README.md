@@ -1,3 +1,3 @@
 # `panos_service_group`
 
-Refer to the Terraform Registry for docs: [`panos_service_group`](https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/service_group).
+Refer to the Terraform Registry for docs: [`panos_service_group`](https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/service_group).

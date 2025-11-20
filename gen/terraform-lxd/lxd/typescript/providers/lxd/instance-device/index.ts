@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device
+// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface InstanceDeviceAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#instance_name InstanceDeviceA#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#instance_name InstanceDeviceA#instance_name}
   */
   readonly instanceName: string;
   /**
   * Device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#name InstanceDeviceA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#name InstanceDeviceA#name}
   */
   readonly name: string;
   /**
   * Project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#project InstanceDeviceA#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#project InstanceDeviceA#project}
   */
   readonly project?: string;
   /**
   * Device properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#properties InstanceDeviceA#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#properties InstanceDeviceA#properties}
   */
   readonly properties: { [key: string]: string };
   /**
   * Remote
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#remote InstanceDeviceA#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#remote InstanceDeviceA#remote}
   */
   readonly remote?: string;
   /**
   * Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#target InstanceDeviceA#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#target InstanceDeviceA#target}
   */
   readonly target?: string;
   /**
   * Device type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#type InstanceDeviceA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#type InstanceDeviceA#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device lxd_instance_device}
+* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device lxd_instance_device}
 */
 export class InstanceDeviceA extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class InstanceDeviceA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstanceDeviceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstanceDeviceA to import
-  * @param importFromId The id of the existing InstanceDeviceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstanceDeviceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstanceDeviceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class InstanceDeviceA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/instance_device lxd_instance_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/instance_device lxd_instance_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class InstanceDeviceA extends cdktf.TerraformResource {
       terraformResourceType: 'lxd_instance_device',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

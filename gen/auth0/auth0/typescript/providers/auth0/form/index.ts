@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FormConfig extends cdktf.TerraformMetaArguments {
   /**
   * Submission configuration of the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#ending Form#ending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#ending Form#ending}
   */
   readonly ending?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#id Form#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#id Form#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface FormConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#name Form#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#name Form#name}
   */
   readonly name: string;
   /**
   * Nodes of the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#nodes Form#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#nodes Form#nodes}
   */
   readonly nodes?: string;
   /**
   * Input setup of the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#start Form#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#start Form#start}
   */
   readonly start?: string;
   /**
   * Style specific configuration for the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#style Form#style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#style Form#style}
   */
   readonly style?: string;
   /**
   * Translations of the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#translations Form#translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#translations Form#translations}
   */
   readonly translations?: string;
   /**
   * languages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#languages Form#languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#languages Form#languages}
   */
   readonly languages?: FormLanguages[] | cdktf.IResolvable;
   /**
   * messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#messages Form#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#messages Form#messages}
   */
   readonly messages?: FormMessages[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface FormLanguages {
   /**
   * Default language for the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#default Form#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#default Form#default}
   */
   readonly default?: string;
   /**
   * Primary language for the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#primary Form#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#primary Form#primary}
   */
   readonly primary?: string;
 }
@@ -220,13 +220,13 @@ export interface FormMessages {
   /**
   * Custom message for the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#custom Form#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#custom Form#custom}
   */
   readonly custom?: string;
   /**
   * Error message for the form. (JSON encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#errors Form#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#errors Form#errors}
   */
   readonly errors?: string;
 }
@@ -371,7 +371,7 @@ export class FormMessagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form auth0_form}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form auth0_form}
 */
 export class Form extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class Form extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Form resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Form to import
-  * @param importFromId The id of the existing Form that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Form that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Form to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class Form extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/form auth0_form} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/form auth0_form} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class Form extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_form',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

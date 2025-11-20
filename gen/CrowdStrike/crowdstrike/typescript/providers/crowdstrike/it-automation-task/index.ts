@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface ItAutomationTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access control configuration for the task (Public, Shared). Cannot be configured when the task belongs to a task group; inherited from the group instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#access_type ItAutomationTask#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#access_type ItAutomationTask#access_type}
   */
   readonly accessType?: string;
   /**
   * Additional RTR Response file IDs (65 characters) to be available for the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#additional_file_ids ItAutomationTask#additional_file_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#additional_file_ids ItAutomationTask#additional_file_ids}
   */
   readonly additionalFileIds?: string[];
   /**
   * Assigned user IDs of the task, when access_type is Shared. Required when access_type is 'Shared' and the task is not part of a task group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#assigned_user_ids ItAutomationTask#assigned_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#assigned_user_ids ItAutomationTask#assigned_user_ids}
   */
   readonly assignedUserIds?: string[];
   /**
   * Description of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#description ItAutomationTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#description ItAutomationTask#description}
   */
   readonly description?: string;
   /**
   * Linux script content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#linux_script_content ItAutomationTask#linux_script_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#linux_script_content ItAutomationTask#linux_script_content}
   */
   readonly linuxScriptContent?: string;
   /**
   * Linux RTR Response script ID (65 characters) to be used by the task. This option disables linux_script_content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#linux_script_file_id ItAutomationTask#linux_script_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#linux_script_file_id ItAutomationTask#linux_script_file_id}
   */
   readonly linuxScriptFileId?: string;
   /**
   * Linux script language (bash, python).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#linux_script_language ItAutomationTask#linux_script_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#linux_script_language ItAutomationTask#linux_script_language}
   */
   readonly linuxScriptLanguage?: string;
   /**
   * Mac script content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#mac_script_content ItAutomationTask#mac_script_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#mac_script_content ItAutomationTask#mac_script_content}
   */
   readonly macScriptContent?: string;
   /**
   * Mac RTR Response script ID (65 characters) to be used by the task. This option disables mac_script_content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#mac_script_file_id ItAutomationTask#mac_script_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#mac_script_file_id ItAutomationTask#mac_script_file_id}
   */
   readonly macScriptFileId?: string;
   /**
   * Mac script language (zsh, python).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#mac_script_language ItAutomationTask#mac_script_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#mac_script_language ItAutomationTask#mac_script_language}
   */
   readonly macScriptLanguage?: string;
   /**
   * Name of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#name ItAutomationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#name ItAutomationTask#name}
   */
   readonly name: string;
   /**
   * OSQuery string. This option will disable the task script options. See https://osquery.readthedocs.io/en/stable for syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#os_query ItAutomationTask#os_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#os_query ItAutomationTask#os_query}
   */
   readonly osQuery?: string;
   /**
   * Column configuration for the script output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#script_columns ItAutomationTask#script_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#script_columns ItAutomationTask#script_columns}
   */
   readonly scriptColumns?: ItAutomationTaskScriptColumns;
   /**
   * Target of the task in FQL string syntax. See https://falconpy.io/Usage/Falcon-Query-Language.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#target ItAutomationTask#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#target ItAutomationTask#target}
   */
   readonly target?: string;
   /**
   * Type of task (action, query).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#type ItAutomationTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#type ItAutomationTask#type}
   */
   readonly type: string;
   /**
   * Verification conditions for action tasks to determine success (only valid for action tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#verification_condition ItAutomationTask#verification_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#verification_condition ItAutomationTask#verification_condition}
   */
   readonly verificationCondition?: ItAutomationTaskVerificationCondition[] | cdktf.IResolvable;
   /**
   * Windows script content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#windows_script_content ItAutomationTask#windows_script_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#windows_script_content ItAutomationTask#windows_script_content}
   */
   readonly windowsScriptContent?: string;
   /**
   * Windows RTR Response script ID (65 characters) to be used by the task. This option disables windows_script_content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#windows_script_file_id ItAutomationTask#windows_script_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#windows_script_file_id ItAutomationTask#windows_script_file_id}
   */
   readonly windowsScriptFileId?: string;
   /**
   * Windows script language (powershell, python).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#windows_script_language ItAutomationTask#windows_script_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#windows_script_language ItAutomationTask#windows_script_language}
   */
   readonly windowsScriptLanguage?: string;
 }
@@ -126,7 +126,7 @@ export interface ItAutomationTaskScriptColumnsColumns {
   /**
   * Name of the column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#name ItAutomationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#name ItAutomationTask#name}
   */
   readonly name: string;
 }
@@ -241,19 +241,19 @@ export interface ItAutomationTaskScriptColumns {
   /**
   * List of column definitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#columns ItAutomationTask#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#columns ItAutomationTask#columns}
   */
   readonly columns: ItAutomationTaskScriptColumnsColumns[] | cdktf.IResolvable;
   /**
   * Delimiter character for script columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#delimiter ItAutomationTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#delimiter ItAutomationTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Whether to group results by column values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#group_results ItAutomationTask#group_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#group_results ItAutomationTask#group_results}
   */
   readonly groupResults?: boolean | cdktf.IResolvable;
 }
@@ -401,31 +401,31 @@ export interface ItAutomationTaskVerificationConditionStatements {
   /**
   * Comparison operator for verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#data_comparator ItAutomationTask#data_comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#data_comparator ItAutomationTask#data_comparator}
   */
   readonly dataComparator: string;
   /**
   * Type of data being compared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#data_type ItAutomationTask#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#data_type ItAutomationTask#data_type}
   */
   readonly dataType: string;
   /**
   * Key to compare (e.g., script_output).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#key ItAutomationTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#key ItAutomationTask#key}
   */
   readonly key: string;
   /**
   * ID of the task to query for results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#task_id ItAutomationTask#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#task_id ItAutomationTask#task_id}
   */
   readonly taskId: string;
   /**
   * Value to compare against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#value ItAutomationTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#value ItAutomationTask#value}
   */
   readonly value: string;
 }
@@ -644,13 +644,13 @@ export interface ItAutomationTaskVerificationCondition {
   /**
   * Logical operator for the statements (AND, OR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#operator ItAutomationTask#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#operator ItAutomationTask#operator}
   */
   readonly operator: string;
   /**
   * List of verification statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#statements ItAutomationTask#statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#statements ItAutomationTask#statements}
   */
   readonly statements: ItAutomationTaskVerificationConditionStatements[] | cdktf.IResolvable;
 }
@@ -789,7 +789,7 @@ export class ItAutomationTaskVerificationConditionList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task crowdstrike_it_automation_task}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task crowdstrike_it_automation_task}
 */
 export class ItAutomationTask extends cdktf.TerraformResource {
 
@@ -805,7 +805,7 @@ export class ItAutomationTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ItAutomationTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ItAutomationTask to import
-  * @param importFromId The id of the existing ItAutomationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ItAutomationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ItAutomationTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -817,7 +817,7 @@ export class ItAutomationTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/it_automation_task crowdstrike_it_automation_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/it_automation_task crowdstrike_it_automation_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -828,8 +828,8 @@ export class ItAutomationTask extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_it_automation_task',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.46',
-        providerVersionConstraint: '0.0.46'
+        providerVersion: '0.0.47',
+        providerVersionConstraint: '0.0.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

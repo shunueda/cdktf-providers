@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkPolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#action NetworkPolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#action NetworkPolicyRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#annotations NetworkPolicyRule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#annotations NetworkPolicyRule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#description NetworkPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#description NetworkPolicyRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#disable NetworkPolicyRule#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#disable NetworkPolicyRule#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#id NetworkPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#id NetworkPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#labels NetworkPolicyRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#labels NetworkPolicyRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#name NetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#name NetworkPolicyRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#namespace NetworkPolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#namespace NetworkPolicyRule#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#ports NetworkPolicyRule#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#ports NetworkPolicyRule#ports}
   */
   readonly ports?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#protocol NetworkPolicyRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#protocol NetworkPolicyRule#protocol}
   */
   readonly protocol?: string;
   /**
   * advanced_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#advanced_action NetworkPolicyRule#advanced_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#advanced_action NetworkPolicyRule#advanced_action}
   */
   readonly advancedAction?: NetworkPolicyRuleAdvancedAction;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#ip_prefix_set NetworkPolicyRule#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#ip_prefix_set NetworkPolicyRule#ip_prefix_set}
   */
   readonly ipPrefixSet?: NetworkPolicyRuleIpPrefixSet;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#label_matcher NetworkPolicyRule#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#label_matcher NetworkPolicyRule#label_matcher}
   */
   readonly labelMatcher?: NetworkPolicyRuleLabelMatcher;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#prefix NetworkPolicyRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#prefix NetworkPolicyRule#prefix}
   */
   readonly prefix?: NetworkPolicyRulePrefix;
   /**
   * prefix_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#prefix_selector NetworkPolicyRule#prefix_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#prefix_selector NetworkPolicyRule#prefix_selector}
   */
   readonly prefixSelector?: NetworkPolicyRulePrefixSelector;
 }
 export interface NetworkPolicyRuleAdvancedAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#action NetworkPolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#action NetworkPolicyRule#action}
   */
   readonly action?: string;
 }
@@ -167,15 +167,15 @@ export class NetworkPolicyRuleAdvancedActionOutputReference extends cdktf.Comple
 }
 export interface NetworkPolicyRuleIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#name NetworkPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#name NetworkPolicyRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#namespace NetworkPolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#namespace NetworkPolicyRule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#tenant NetworkPolicyRule#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#tenant NetworkPolicyRule#tenant}
   */
   readonly tenant?: string;
 }
@@ -356,7 +356,7 @@ export interface NetworkPolicyRuleIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#ref NetworkPolicyRule#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#ref NetworkPolicyRule#ref}
   */
   readonly ref?: NetworkPolicyRuleIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -440,7 +440,7 @@ export class NetworkPolicyRuleIpPrefixSetOutputReference extends cdktf.ComplexOb
 }
 export interface NetworkPolicyRuleLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#keys NetworkPolicyRule#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#keys NetworkPolicyRule#keys}
   */
   readonly keys?: string[];
 }
@@ -524,11 +524,11 @@ export class NetworkPolicyRuleLabelMatcherOutputReference extends cdktf.ComplexO
 }
 export interface NetworkPolicyRulePrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#ipv6_prefix NetworkPolicyRule#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#ipv6_prefix NetworkPolicyRule#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#prefix NetworkPolicyRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#prefix NetworkPolicyRule#prefix}
   */
   readonly prefix?: string[];
 }
@@ -641,7 +641,7 @@ export class NetworkPolicyRulePrefixOutputReference extends cdktf.ComplexObject 
 }
 export interface NetworkPolicyRulePrefixSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#expressions NetworkPolicyRule#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#expressions NetworkPolicyRule#expressions}
   */
   readonly expressions: string[];
 }
@@ -722,7 +722,7 @@ export class NetworkPolicyRulePrefixSelectorOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule volterra_network_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule volterra_network_policy_rule}
 */
 export class NetworkPolicyRule extends cdktf.TerraformResource {
 
@@ -738,7 +738,7 @@ export class NetworkPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPolicyRule to import
-  * @param importFromId The id of the existing NetworkPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -750,7 +750,7 @@ export class NetworkPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_rule volterra_network_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_rule volterra_network_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -761,8 +761,8 @@ export class NetworkPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_network_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

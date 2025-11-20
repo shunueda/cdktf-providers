@@ -10,6 +10,10 @@ Object.defineProperty(exports, 'elasticsearchIndexLifecycle', { get: function ()
 Object.defineProperty(exports, 'elasticsearchIndexTemplate', { get: function () { return require('./elasticsearch-index-template'); } });
 Object.defineProperty(exports, 'elasticsearchIngestPipeline', { get: function () { return require('./elasticsearch-ingest-pipeline'); } });
 Object.defineProperty(exports, 'elasticsearchLogstashPipeline', { get: function () { return require('./elasticsearch-logstash-pipeline'); } });
+Object.defineProperty(exports, 'elasticsearchMlAnomalyDetectionJob', { get: function () { return require('./elasticsearch-ml-anomaly-detection-job'); } });
+Object.defineProperty(exports, 'elasticsearchMlDatafeed', { get: function () { return require('./elasticsearch-ml-datafeed'); } });
+Object.defineProperty(exports, 'elasticsearchMlDatafeedState', { get: function () { return require('./elasticsearch-ml-datafeed-state'); } });
+Object.defineProperty(exports, 'elasticsearchMlJobState', { get: function () { return require('./elasticsearch-ml-job-state'); } });
 Object.defineProperty(exports, 'elasticsearchScript', { get: function () { return require('./elasticsearch-script'); } });
 Object.defineProperty(exports, 'elasticsearchSecurityApiKey', { get: function () { return require('./elasticsearch-security-api-key'); } });
 Object.defineProperty(exports, 'elasticsearchSecurityRole', { get: function () { return require('./elasticsearch-security-role'); } });

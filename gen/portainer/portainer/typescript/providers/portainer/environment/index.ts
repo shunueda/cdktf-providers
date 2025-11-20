@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment
+// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#environment_address Environment#environment_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#environment_address Environment#environment_address}
   */
   readonly environmentAddress: string;
   /**
   * ID of the Portainer endpoint group. Default is 1 (Unassigned).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#group_id Environment#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#group_id Environment#group_id}
   */
   readonly groupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * List of tag IDs to assign to the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#tag_ids Environment#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tag_ids Environment#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * Map of team IDs to role IDs (e.g. teamID -> roleID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#team_access_policies Environment#team_access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#team_access_policies Environment#team_access_policies}
   */
   readonly teamAccessPolicies?: { [key: string]: number };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#tls_enabled Environment#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tls_ca_cert Environment#tls_ca_cert}
+  */
+  readonly tlsCaCert?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tls_cert Environment#tls_cert}
+  */
+  readonly tlsCert?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tls_enabled Environment#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#tls_skip_client_verify Environment#tls_skip_client_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tls_key Environment#tls_key}
+  */
+  readonly tlsKey?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tls_skip_client_verify Environment#tls_skip_client_verify}
   */
   readonly tlsSkipClientVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#tls_skip_verify Environment#tls_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#tls_skip_verify Environment#tls_skip_verify}
   */
   readonly tlsSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Environment type: 1 = Docker, 2 = Agent, 3 = Azure, 4 = Edge Agent, 5 = Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#type Environment#type}
   */
   readonly type: number;
   /**
   * Map of user IDs to role IDs (e.g. userID -> roleID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#user_access_policies Environment#user_access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#user_access_policies Environment#user_access_policies}
   */
   readonly userAccessPolicies?: { [key: string]: number };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment portainer_environment}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment portainer_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -83,7 +95,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +107,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/environment portainer_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/environment portainer_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +118,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_environment',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.1',
-        providerVersionConstraint: '1.16.1'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -123,7 +135,10 @@ export class Environment extends cdktf.TerraformResource {
     this._name = config.name;
     this._tagIds = config.tagIds;
     this._teamAccessPolicies = config.teamAccessPolicies;
+    this._tlsCaCert = config.tlsCaCert;
+    this._tlsCert = config.tlsCert;
     this._tlsEnabled = config.tlsEnabled;
+    this._tlsKey = config.tlsKey;
     this._tlsSkipClientVerify = config.tlsSkipClientVerify;
     this._tlsSkipVerify = config.tlsSkipVerify;
     this._type = config.type;
@@ -234,6 +249,38 @@ export class Environment extends cdktf.TerraformResource {
     return this._teamAccessPolicies;
   }
 
+  // tls_ca_cert - computed: false, optional: true, required: false
+  private _tlsCaCert?: string; 
+  public get tlsCaCert() {
+    return this.getStringAttribute('tls_ca_cert');
+  }
+  public set tlsCaCert(value: string) {
+    this._tlsCaCert = value;
+  }
+  public resetTlsCaCert() {
+    this._tlsCaCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsCaCertInput() {
+    return this._tlsCaCert;
+  }
+
+  // tls_cert - computed: false, optional: true, required: false
+  private _tlsCert?: string; 
+  public get tlsCert() {
+    return this.getStringAttribute('tls_cert');
+  }
+  public set tlsCert(value: string) {
+    this._tlsCert = value;
+  }
+  public resetTlsCert() {
+    this._tlsCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsCertInput() {
+    return this._tlsCert;
+  }
+
   // tls_enabled - computed: false, optional: true, required: false
   private _tlsEnabled?: boolean | cdktf.IResolvable; 
   public get tlsEnabled() {
@@ -248,6 +295,22 @@ export class Environment extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get tlsEnabledInput() {
     return this._tlsEnabled;
+  }
+
+  // tls_key - computed: false, optional: true, required: false
+  private _tlsKey?: string; 
+  public get tlsKey() {
+    return this.getStringAttribute('tls_key');
+  }
+  public set tlsKey(value: string) {
+    this._tlsKey = value;
+  }
+  public resetTlsKey() {
+    this._tlsKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsKeyInput() {
+    return this._tlsKey;
   }
 
   // tls_skip_client_verify - computed: false, optional: true, required: false
@@ -323,7 +386,10 @@ export class Environment extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       tag_ids: cdktf.listMapper(cdktf.numberToTerraform, false)(this._tagIds),
       team_access_policies: cdktf.hashMapper(cdktf.numberToTerraform)(this._teamAccessPolicies),
+      tls_ca_cert: cdktf.stringToTerraform(this._tlsCaCert),
+      tls_cert: cdktf.stringToTerraform(this._tlsCert),
       tls_enabled: cdktf.booleanToTerraform(this._tlsEnabled),
+      tls_key: cdktf.stringToTerraform(this._tlsKey),
       tls_skip_client_verify: cdktf.booleanToTerraform(this._tlsSkipClientVerify),
       tls_skip_verify: cdktf.booleanToTerraform(this._tlsSkipVerify),
       type: cdktf.numberToTerraform(this._type),
@@ -369,11 +435,29 @@ export class Environment extends cdktf.TerraformResource {
         type: "map",
         storageClassType: "numberMap",
       },
+      tls_ca_cert: {
+        value: cdktf.stringToHclTerraform(this._tlsCaCert),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tls_cert: {
+        value: cdktf.stringToHclTerraform(this._tlsCert),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tls_enabled: {
         value: cdktf.booleanToHclTerraform(this._tlsEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      tls_key: {
+        value: cdktf.stringToHclTerraform(this._tlsKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       tls_skip_client_verify: {
         value: cdktf.booleanToHclTerraform(this._tlsSkipClientVerify),

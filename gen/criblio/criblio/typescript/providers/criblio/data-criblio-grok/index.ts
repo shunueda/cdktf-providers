@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/grok
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/grok
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioGrokConfig extends cdktf.TerraformMetaArguments {
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/grok#group_id DataCriblioGrok#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/grok#group_id DataCriblioGrok#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/grok#id DataCriblioGrok#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/grok#id DataCriblioGrok#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataCriblioGrokConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/grok criblio_grok}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/grok criblio_grok}
 */
 export class DataCriblioGrok extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioGrok resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioGrok to import
-  * @param importFromId The id of the existing DataCriblioGrok that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/grok#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioGrok that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/grok#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioGrok to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/grok criblio_grok} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/grok criblio_grok} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_grok',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

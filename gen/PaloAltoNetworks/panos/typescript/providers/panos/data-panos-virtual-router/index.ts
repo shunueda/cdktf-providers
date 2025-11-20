@@ -25,39 +25,39 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface DataPanosVirtualRouterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#administrative_distances DataPanosVirtualRouter#administrative_distances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#administrative_distances DataPanosVirtualRouter#administrative_distances}
   */
   readonly administrativeDistances?: DataPanosVirtualRouterAdministrativeDistances;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#ecmp DataPanosVirtualRouter#ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#ecmp DataPanosVirtualRouter#ecmp}
   */
   readonly ecmp?: DataPanosVirtualRouterEcmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#interfaces DataPanosVirtualRouter#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#interfaces DataPanosVirtualRouter#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#location DataPanosVirtualRouter#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#location DataPanosVirtualRouter#location}
   */
   readonly location: DataPanosVirtualRouterLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#multicast DataPanosVirtualRouter#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#multicast DataPanosVirtualRouter#multicast}
   */
   readonly multicast?: DataPanosVirtualRouterMulticast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#name DataPanosVirtualRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#name DataPanosVirtualRouter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#protocol DataPanosVirtualRouter#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#protocol DataPanosVirtualRouter#protocol}
   */
   readonly protocol?: DataPanosVirtualRouterProtocol;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router panos_virtual_router}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router panos_virtual_router}
 */
 export class DataPanosVirtualRouter extends cdktf.TerraformDataSource {
 
@@ -73,7 +73,7 @@ export class DataPanosVirtualRouter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosVirtualRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosVirtualRouter to import
-  * @param importFromId The id of the existing DataPanosVirtualRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosVirtualRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosVirtualRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class DataPanosVirtualRouter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/virtual_router panos_virtual_router} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/virtual_router panos_virtual_router} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class DataPanosVirtualRouter extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_virtual_router',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

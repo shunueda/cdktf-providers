@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,314 @@ import * as cdktf from 'cdktf';
 
 export interface NfvServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#annotations NfvService#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#annotations NfvService#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable NfvService#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable NfvService#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_https_management NfvService#disable_https_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_https_management NfvService#disable_https_management}
   */
   readonly disableHttpsManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_ssh_access NfvService#disable_ssh_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ssh_access NfvService#disable_ssh_access}
   */
   readonly disableSshAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#id NfvService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#id NfvService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#labels NfvService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#labels NfvService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace: string;
   /**
   * enabled_ssh_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#enabled_ssh_access NfvService#enabled_ssh_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#enabled_ssh_access NfvService#enabled_ssh_access}
   */
   readonly enabledSshAccess?: NfvServiceEnabledSshAccess;
   /**
   * f5_big_ip_aws_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#f5_big_ip_aws_service NfvService#f5_big_ip_aws_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#f5_big_ip_aws_service NfvService#f5_big_ip_aws_service}
   */
   readonly f5BigIpAwsService?: NfvServiceF5BigIpAwsService;
   /**
   * https_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#https_management NfvService#https_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#https_management NfvService#https_management}
   */
   readonly httpsManagement?: NfvServiceHttpsManagement;
   /**
   * palo_alto_fw_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#palo_alto_fw_service NfvService#palo_alto_fw_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#palo_alto_fw_service NfvService#palo_alto_fw_service}
   */
   readonly paloAltoFwService?: NfvServicePaloAltoFwService;
 }
+export interface NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function nfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpToTerraform(struct?: NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpOutputReference | NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function nfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpToHclTerraform(struct?: NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpOutputReference | NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface NfvServiceEnabledSshAccessAdvertiseOnPublic {
+  /**
+  * public_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_ip NfvService#public_ip}
+  */
+  readonly publicIp: NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp;
+}
+
+export function nfvServiceEnabledSshAccessAdvertiseOnPublicToTerraform(struct?: NfvServiceEnabledSshAccessAdvertiseOnPublicOutputReference | NfvServiceEnabledSshAccessAdvertiseOnPublic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_ip: nfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpToTerraform(struct!.publicIp),
+  }
+}
+
+
+export function nfvServiceEnabledSshAccessAdvertiseOnPublicToHclTerraform(struct?: NfvServiceEnabledSshAccessAdvertiseOnPublicOutputReference | NfvServiceEnabledSshAccessAdvertiseOnPublic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_ip: {
+      value: nfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpToHclTerraform(struct!.publicIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceEnabledSshAccessAdvertiseOnPublicOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceEnabledSshAccessAdvertiseOnPublic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIp = this._publicIp?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceEnabledSshAccessAdvertiseOnPublic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIp.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIp.internalValue = value.publicIp;
+    }
+  }
+
+  // public_ip - computed: false, optional: false, required: true
+  private _publicIp = new NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIpOutputReference(this, "public_ip");
+  public get publicIp() {
+    return this._publicIp;
+  }
+  public putPublicIp(value: NfvServiceEnabledSshAccessAdvertiseOnPublicPublicIp) {
+    this._publicIp.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpInput() {
+    return this._publicIp.internalValue;
+  }
+}
 export interface NfvServiceEnabledSshAccessNodeSshPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#node_name NfvService#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_name NfvService#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ssh_port NfvService#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ssh_port NfvService#ssh_port}
   */
   readonly sshPort: number;
 }
@@ -216,25 +454,35 @@ export class NfvServiceEnabledSshAccessNodeSshPortsList extends cdktf.ComplexLis
 }
 export interface NfvServiceEnabledSshAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_sli NfvService#advertise_on_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public_default_vip NfvService#advertise_on_public_default_vip}
+  */
+  readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_sli NfvService#advertise_on_sli}
   */
   readonly advertiseOnSli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo NfvService#advertise_on_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo NfvService#advertise_on_slo}
   */
   readonly advertiseOnSlo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
   */
   readonly advertiseOnSloSli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
   */
   readonly domainSuffix: string;
   /**
+  * advertise_on_public block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public NfvService#advertise_on_public}
+  */
+  readonly advertiseOnPublic?: NfvServiceEnabledSshAccessAdvertiseOnPublic;
+  /**
   * node_ssh_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#node_ssh_ports NfvService#node_ssh_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_ssh_ports NfvService#node_ssh_ports}
   */
   readonly nodeSshPorts: NfvServiceEnabledSshAccessNodeSshPorts[] | cdktf.IResolvable;
 }
@@ -245,10 +493,12 @@ export function nfvServiceEnabledSshAccessToTerraform(struct?: NfvServiceEnabled
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    advertise_on_public_default_vip: cdktf.booleanToTerraform(struct!.advertiseOnPublicDefaultVip),
     advertise_on_sli: cdktf.booleanToTerraform(struct!.advertiseOnSli),
     advertise_on_slo: cdktf.booleanToTerraform(struct!.advertiseOnSlo),
     advertise_on_slo_sli: cdktf.booleanToTerraform(struct!.advertiseOnSloSli),
     domain_suffix: cdktf.stringToTerraform(struct!.domainSuffix),
+    advertise_on_public: nfvServiceEnabledSshAccessAdvertiseOnPublicToTerraform(struct!.advertiseOnPublic),
     node_ssh_ports: cdktf.listMapper(nfvServiceEnabledSshAccessNodeSshPortsToTerraform, true)(struct!.nodeSshPorts),
   }
 }
@@ -260,6 +510,12 @@ export function nfvServiceEnabledSshAccessToHclTerraform(struct?: NfvServiceEnab
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    advertise_on_public_default_vip: {
+      value: cdktf.booleanToHclTerraform(struct!.advertiseOnPublicDefaultVip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     advertise_on_sli: {
       value: cdktf.booleanToHclTerraform(struct!.advertiseOnSli),
       isBlock: false,
@@ -283,6 +539,12 @@ export function nfvServiceEnabledSshAccessToHclTerraform(struct?: NfvServiceEnab
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    advertise_on_public: {
+      value: nfvServiceEnabledSshAccessAdvertiseOnPublicToHclTerraform(struct!.advertiseOnPublic),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceEnabledSshAccessAdvertiseOnPublicList",
     },
     node_ssh_ports: {
       value: cdktf.listMapperHcl(nfvServiceEnabledSshAccessNodeSshPortsToHclTerraform, true)(struct!.nodeSshPorts),
@@ -310,6 +572,10 @@ export class NfvServiceEnabledSshAccessOutputReference extends cdktf.ComplexObje
   public get internalValue(): NfvServiceEnabledSshAccess | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._advertiseOnPublicDefaultVip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advertiseOnPublicDefaultVip = this._advertiseOnPublicDefaultVip;
+    }
     if (this._advertiseOnSli !== undefined) {
       hasAnyValues = true;
       internalValueResult.advertiseOnSli = this._advertiseOnSli;
@@ -326,6 +592,10 @@ export class NfvServiceEnabledSshAccessOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.domainSuffix = this._domainSuffix;
     }
+    if (this._advertiseOnPublic?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advertiseOnPublic = this._advertiseOnPublic?.internalValue;
+    }
     if (this._nodeSshPorts?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.nodeSshPorts = this._nodeSshPorts?.internalValue;
@@ -336,20 +606,40 @@ export class NfvServiceEnabledSshAccessOutputReference extends cdktf.ComplexObje
   public set internalValue(value: NfvServiceEnabledSshAccess | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._advertiseOnPublicDefaultVip = undefined;
       this._advertiseOnSli = undefined;
       this._advertiseOnSlo = undefined;
       this._advertiseOnSloSli = undefined;
       this._domainSuffix = undefined;
+      this._advertiseOnPublic.internalValue = undefined;
       this._nodeSshPorts.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._advertiseOnPublicDefaultVip = value.advertiseOnPublicDefaultVip;
       this._advertiseOnSli = value.advertiseOnSli;
       this._advertiseOnSlo = value.advertiseOnSlo;
       this._advertiseOnSloSli = value.advertiseOnSloSli;
       this._domainSuffix = value.domainSuffix;
+      this._advertiseOnPublic.internalValue = value.advertiseOnPublic;
       this._nodeSshPorts.internalValue = value.nodeSshPorts;
     }
+  }
+
+  // advertise_on_public_default_vip - computed: false, optional: true, required: false
+  private _advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable; 
+  public get advertiseOnPublicDefaultVip() {
+    return this.getBooleanAttribute('advertise_on_public_default_vip');
+  }
+  public set advertiseOnPublicDefaultVip(value: boolean | cdktf.IResolvable) {
+    this._advertiseOnPublicDefaultVip = value;
+  }
+  public resetAdvertiseOnPublicDefaultVip() {
+    this._advertiseOnPublicDefaultVip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advertiseOnPublicDefaultVipInput() {
+    return this._advertiseOnPublicDefaultVip;
   }
 
   // advertise_on_sli - computed: false, optional: true, required: false
@@ -413,6 +703,22 @@ export class NfvServiceEnabledSshAccessOutputReference extends cdktf.ComplexObje
     return this._domainSuffix;
   }
 
+  // advertise_on_public - computed: false, optional: true, required: false
+  private _advertiseOnPublic = new NfvServiceEnabledSshAccessAdvertiseOnPublicOutputReference(this, "advertise_on_public");
+  public get advertiseOnPublic() {
+    return this._advertiseOnPublic;
+  }
+  public putAdvertiseOnPublic(value: NfvServiceEnabledSshAccessAdvertiseOnPublic) {
+    this._advertiseOnPublic.internalValue = value;
+  }
+  public resetAdvertiseOnPublic() {
+    this._advertiseOnPublic.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advertiseOnPublicInput() {
+    return this._advertiseOnPublic.internalValue;
+  }
+
   // node_ssh_ports - computed: false, optional: false, required: true
   private _nodeSshPorts = new NfvServiceEnabledSshAccessNodeSshPortsList(this, "node_ssh_ports", false);
   public get nodeSshPorts() {
@@ -428,15 +734,15 @@ export class NfvServiceEnabledSshAccessOutputReference extends cdktf.ComplexObje
 }
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -573,13 +879,160 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoOutputRe
     return this._storeProvider;
   }
 }
+export interface NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalOutputReference | NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalOutputReference | NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -687,19 +1140,332 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfoOutputRefere
     return this._url;
   }
 }
+export interface NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoToTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoToTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServiceF5BigIpAwsServiceAdminPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo;
 }
 
 export function nfvServiceF5BigIpAwsServiceAdminPasswordToTerraform(struct?: NfvServiceF5BigIpAwsServiceAdminPasswordOutputReference | NfvServiceF5BigIpAwsServiceAdminPassword): any {
@@ -708,8 +1474,12 @@ export function nfvServiceF5BigIpAwsServiceAdminPasswordToTerraform(struct?: Nfv
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -720,17 +1490,41 @@ export function nfvServiceF5BigIpAwsServiceAdminPasswordToHclTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoList",
     },
   };
 
@@ -752,13 +1546,29 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordOutputReference extends cdk
   public get internalValue(): NfvServiceF5BigIpAwsServiceAdminPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -766,14 +1576,38 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordOutputReference extends cdk
   public set internalValue(value: NfvServiceF5BigIpAwsServiceAdminPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -792,6 +1626,22 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordOutputReference extends cdk
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServiceF5BigIpAwsServiceAdminPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServiceF5BigIpAwsServiceAdminPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -807,18 +1657,50 @@ export class NfvServiceF5BigIpAwsServiceAdminPasswordOutputReference extends cdk
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServiceF5BigIpAwsServiceAdminPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServiceF5BigIpAwsServiceAdminPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsAwsTgwSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -962,7 +1844,7 @@ export interface NfvServiceF5BigIpAwsServiceAwsTgwSiteParams {
   /**
   * aws_tgw_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
   */
   readonly awsTgwSite: NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsAwsTgwSite;
 }
@@ -1041,9 +1923,1316 @@ export class NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsOutputReference extends 
     return this._awsTgwSite.internalValue;
   }
 }
+export interface NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteToTerraform(struct?: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteOutputReference | NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteOutputReference | NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceAwsVpcSiteParams {
+  /**
+  * aws_vpc_site block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_vpc_site NfvService#aws_vpc_site}
+  */
+  readonly awsVpcSite: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite;
+}
+
+export function nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsToTerraform(struct?: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsOutputReference | NfvServiceF5BigIpAwsServiceAwsVpcSiteParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    aws_vpc_site: nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteToTerraform(struct!.awsVpcSite),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsOutputReference | NfvServiceF5BigIpAwsServiceAwsVpcSiteParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    aws_vpc_site: {
+      value: nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteToHclTerraform(struct!.awsVpcSite),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceAwsVpcSiteParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._awsVpcSite?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsVpcSite = this._awsVpcSite?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceAwsVpcSiteParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._awsVpcSite.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._awsVpcSite.internalValue = value.awsVpcSite;
+    }
+  }
+
+  // aws_vpc_site - computed: false, optional: false, required: true
+  private _awsVpcSite = new NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSiteOutputReference(this, "aws_vpc_site");
+  public get awsVpcSite() {
+    return this._awsVpcSite;
+  }
+  public putAwsVpcSite(value: NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsAwsVpcSite) {
+    this._awsVpcSite.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsVpcSiteInput() {
+    return this._awsVpcSite.internalValue;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
+  */
+  readonly url: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    provider: cdktf.stringToTerraform(struct!.provider),
+    url: cdktf.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._provider = undefined;
+      this._url = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._provider = value.provider;
+      this._url = value.url;
+    }
+  }
+
+  // provider - computed: false, optional: true, required: false
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  public resetProvider() {
+    this._provider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // url - computed: false, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImageLicense {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
+  /**
+  * blindfold_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  */
+  readonly blindfoldSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo;
+  /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal;
+  /**
+  * clear_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  */
+  readonly clearSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicense): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
+    blindfold_secret_info: nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
+    clear_secret_info: nfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageLicenseToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageLicenseOutputReference | NfvServiceF5BigIpAwsServiceByolImageLicense): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    blindfold_secret_info: {
+      value: nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoList",
+    },
+    blindfold_secret_info_internal: {
+      value: nfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalList",
+    },
+    clear_secret_info: {
+      value: nfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageLicenseOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImageLicense | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
+    if (this._blindfoldSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
+    }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
+    if (this._clearSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImageLicense | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
+      this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
+      this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
+      this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
+      this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
+    }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
+  }
+
+  // blindfold_secret_info - computed: false, optional: true, required: false
+  private _blindfoldSecretInfo = new NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoOutputReference(this, "blindfold_secret_info");
+  public get blindfoldSecretInfo() {
+    return this._blindfoldSecretInfo;
+  }
+  public putBlindfoldSecretInfo(value: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfo) {
+    this._blindfoldSecretInfo.internalValue = value;
+  }
+  public resetBlindfoldSecretInfo() {
+    this._blindfoldSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInput() {
+    return this._blindfoldSecretInfo.internalValue;
+  }
+
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServiceF5BigIpAwsServiceByolImageLicenseBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
+  // clear_secret_info - computed: false, optional: true, required: false
+  private _clearSecretInfo = new NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfoOutputReference(this, "clear_secret_info");
+  public get clearSecretInfo() {
+    return this._clearSecretInfo;
+  }
+  public putClearSecretInfo(value: NfvServiceF5BigIpAwsServiceByolImageLicenseClearSecretInfo) {
+    this._clearSecretInfo.internalValue = value;
+  }
+  public resetClearSecretInfo() {
+    this._clearSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSecretInfoInput() {
+    return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServiceF5BigIpAwsServiceByolImageLicenseVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServiceF5BigIpAwsServiceByolImageLicenseWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
+}
+export interface NfvServiceF5BigIpAwsServiceByolImage {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#image NfvService#image}
+  */
+  readonly image: string;
+  /**
+  * license block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#license NfvService#license}
+  */
+  readonly license?: NfvServiceF5BigIpAwsServiceByolImageLicense;
+}
+
+export function nfvServiceF5BigIpAwsServiceByolImageToTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageOutputReference | NfvServiceF5BigIpAwsServiceByolImage): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    image: cdktf.stringToTerraform(struct!.image),
+    license: nfvServiceF5BigIpAwsServiceByolImageLicenseToTerraform(struct!.license),
+  }
+}
+
+
+export function nfvServiceF5BigIpAwsServiceByolImageToHclTerraform(struct?: NfvServiceF5BigIpAwsServiceByolImageOutputReference | NfvServiceF5BigIpAwsServiceByolImage): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    image: {
+      value: cdktf.stringToHclTerraform(struct!.image),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    license: {
+      value: nfvServiceF5BigIpAwsServiceByolImageLicenseToHclTerraform(struct!.license),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageLicenseList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceF5BigIpAwsServiceByolImageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceF5BigIpAwsServiceByolImage | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._image !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.image = this._image;
+    }
+    if (this._license?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.license = this._license?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceF5BigIpAwsServiceByolImage | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._image = undefined;
+      this._license.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._image = value.image;
+      this._license.internalValue = value.license;
+    }
+  }
+
+  // image - computed: false, optional: false, required: true
+  private _image?: string; 
+  public get image() {
+    return this.getStringAttribute('image');
+  }
+  public set image(value: string) {
+    this._image = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageInput() {
+    return this._image;
+  }
+
+  // license - computed: false, optional: true, required: false
+  private _license = new NfvServiceF5BigIpAwsServiceByolImageLicenseOutputReference(this, "license");
+  public get license() {
+    return this._license;
+  }
+  public putLicense(value: NfvServiceF5BigIpAwsServiceByolImageLicense) {
+    this._license.internalValue = value;
+  }
+  public resetLicense() {
+    this._license.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseInput() {
+    return this._license.internalValue;
+  }
+}
 export interface NfvServiceF5BigIpAwsServiceEndpointServiceCustomTcpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ports NfvService#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ports NfvService#ports}
   */
   readonly ports: string[];
 }
@@ -1124,7 +3313,7 @@ export class NfvServiceF5BigIpAwsServiceEndpointServiceCustomTcpPortsOutputRefer
 }
 export interface NfvServiceF5BigIpAwsServiceEndpointServiceCustomUdpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ports NfvService#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ports NfvService#ports}
   */
   readonly ports: string[];
 }
@@ -1205,55 +3394,55 @@ export class NfvServiceF5BigIpAwsServiceEndpointServiceCustomUdpPortsOutputRefer
 }
 export interface NfvServiceF5BigIpAwsServiceEndpointService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo_ip NfvService#advertise_on_slo_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_ip NfvService#advertise_on_slo_ip}
   */
   readonly advertiseOnSloIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo_ip_external NfvService#advertise_on_slo_ip_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_ip_external NfvService#advertise_on_slo_ip_external}
   */
   readonly advertiseOnSloIpExternal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#automatic_vip NfvService#automatic_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#automatic_vip NfvService#automatic_vip}
   */
   readonly automaticVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#configured_vip NfvService#configured_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#configured_vip NfvService#configured_vip}
   */
   readonly configuredVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#default_tcp_ports NfvService#default_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_tcp_ports NfvService#default_tcp_ports}
   */
   readonly defaultTcpPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_advertise_on_slo_ip NfvService#disable_advertise_on_slo_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_advertise_on_slo_ip NfvService#disable_advertise_on_slo_ip}
   */
   readonly disableAdvertiseOnSloIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#http_port NfvService#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#http_port NfvService#http_port}
   */
   readonly httpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#https_port NfvService#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#https_port NfvService#https_port}
   */
   readonly httpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_tcp_ports NfvService#no_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_tcp_ports NfvService#no_tcp_ports}
   */
   readonly noTcpPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_udp_ports NfvService#no_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_udp_ports NfvService#no_udp_ports}
   */
   readonly noUdpPorts?: boolean | cdktf.IResolvable;
   /**
   * custom_tcp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_tcp_ports NfvService#custom_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_tcp_ports NfvService#custom_tcp_ports}
   */
   readonly customTcpPorts?: NfvServiceF5BigIpAwsServiceEndpointServiceCustomTcpPorts;
   /**
   * custom_udp_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_udp_ports NfvService#custom_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_udp_ports NfvService#custom_udp_ports}
   */
   readonly customUdpPorts?: NfvServiceF5BigIpAwsServiceEndpointServiceCustomUdpPorts;
 }
@@ -1656,13 +3845,21 @@ export class NfvServiceF5BigIpAwsServiceEndpointServiceOutputReference extends c
 }
 export interface NfvServiceF5BigIpAwsServiceMarketPlaceImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#awaf_pay_g200_mbps NfvService#awaf_pay_g200_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#awaf_pay_g200_mbps NfvService#awaf_pay_g200_mbps}
   */
   readonly awafPayG200Mbps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#awaf_pay_g3_gbps NfvService#awaf_pay_g3_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#awaf_pay_g3_gbps NfvService#awaf_pay_g3_gbps}
   */
   readonly awafPayG3Gbps?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#best_plus_pay_g200_mbps NfvService#best_plus_pay_g200_mbps}
+  */
+  readonly bestPlusPayG200Mbps?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#best_plus_payg_1gbps NfvService#best_plus_payg_1gbps}
+  */
+  readonly bestPlusPayg1Gbps?: boolean | cdktf.IResolvable;
 }
 
 export function nfvServiceF5BigIpAwsServiceMarketPlaceImageToTerraform(struct?: NfvServiceF5BigIpAwsServiceMarketPlaceImageOutputReference | NfvServiceF5BigIpAwsServiceMarketPlaceImage): any {
@@ -1673,6 +3870,8 @@ export function nfvServiceF5BigIpAwsServiceMarketPlaceImageToTerraform(struct?: 
   return {
     awaf_pay_g200_mbps: cdktf.booleanToTerraform(struct!.awafPayG200Mbps),
     awaf_pay_g3_gbps: cdktf.booleanToTerraform(struct!.awafPayG3Gbps),
+    best_plus_pay_g200_mbps: cdktf.booleanToTerraform(struct!.bestPlusPayG200Mbps),
+    best_plus_payg_1gbps: cdktf.booleanToTerraform(struct!.bestPlusPayg1Gbps),
   }
 }
 
@@ -1691,6 +3890,18 @@ export function nfvServiceF5BigIpAwsServiceMarketPlaceImageToHclTerraform(struct
     },
     awaf_pay_g3_gbps: {
       value: cdktf.booleanToHclTerraform(struct!.awafPayG3Gbps),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    best_plus_pay_g200_mbps: {
+      value: cdktf.booleanToHclTerraform(struct!.bestPlusPayG200Mbps),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    best_plus_payg_1gbps: {
+      value: cdktf.booleanToHclTerraform(struct!.bestPlusPayg1Gbps),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1723,6 +3934,14 @@ export class NfvServiceF5BigIpAwsServiceMarketPlaceImageOutputReference extends 
       hasAnyValues = true;
       internalValueResult.awafPayG3Gbps = this._awafPayG3Gbps;
     }
+    if (this._bestPlusPayG200Mbps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bestPlusPayG200Mbps = this._bestPlusPayG200Mbps;
+    }
+    if (this._bestPlusPayg1Gbps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bestPlusPayg1Gbps = this._bestPlusPayg1Gbps;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1731,11 +3950,15 @@ export class NfvServiceF5BigIpAwsServiceMarketPlaceImageOutputReference extends 
       this.isEmptyObject = false;
       this._awafPayG200Mbps = undefined;
       this._awafPayG3Gbps = undefined;
+      this._bestPlusPayG200Mbps = undefined;
+      this._bestPlusPayg1Gbps = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._awafPayG200Mbps = value.awafPayG200Mbps;
       this._awafPayG3Gbps = value.awafPayG3Gbps;
+      this._bestPlusPayG200Mbps = value.bestPlusPayG200Mbps;
+      this._bestPlusPayg1Gbps = value.bestPlusPayg1Gbps;
     }
   }
 
@@ -1770,14 +3993,46 @@ export class NfvServiceF5BigIpAwsServiceMarketPlaceImageOutputReference extends 
   public get awafPayG3GbpsInput() {
     return this._awafPayG3Gbps;
   }
+
+  // best_plus_pay_g200_mbps - computed: false, optional: true, required: false
+  private _bestPlusPayG200Mbps?: boolean | cdktf.IResolvable; 
+  public get bestPlusPayG200Mbps() {
+    return this.getBooleanAttribute('best_plus_pay_g200_mbps');
+  }
+  public set bestPlusPayG200Mbps(value: boolean | cdktf.IResolvable) {
+    this._bestPlusPayG200Mbps = value;
+  }
+  public resetBestPlusPayG200Mbps() {
+    this._bestPlusPayG200Mbps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bestPlusPayG200MbpsInput() {
+    return this._bestPlusPayG200Mbps;
+  }
+
+  // best_plus_payg_1gbps - computed: false, optional: true, required: false
+  private _bestPlusPayg1Gbps?: boolean | cdktf.IResolvable; 
+  public get bestPlusPayg1Gbps() {
+    return this.getBooleanAttribute('best_plus_payg_1gbps');
+  }
+  public set bestPlusPayg1Gbps(value: boolean | cdktf.IResolvable) {
+    this._bestPlusPayg1Gbps = value;
+  }
+  public resetBestPlusPayg1Gbps() {
+    this._bestPlusPayg1Gbps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bestPlusPayg1GbpsInput() {
+    return this._bestPlusPayg1Gbps;
+  }
 }
 export interface NfvServiceF5BigIpAwsServiceNodesMgmtSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ipv4 NfvService#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv4 NfvService#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ipv6 NfvService#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv6 NfvService#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1887,13 +4142,13 @@ export class NfvServiceF5BigIpAwsServiceNodesMgmtSubnetSubnetParamOutputReferenc
 }
 export interface NfvServiceF5BigIpAwsServiceNodesMgmtSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
   */
   readonly subnetParam?: NfvServiceF5BigIpAwsServiceNodesMgmtSubnetSubnetParam;
 }
@@ -2006,29 +4261,29 @@ export class NfvServiceF5BigIpAwsServiceNodesMgmtSubnetOutputReference extends c
 }
 export interface NfvServiceF5BigIpAwsServiceNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#automatic_prefix NfvService#automatic_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#automatic_prefix NfvService#automatic_prefix}
   */
   readonly automaticPrefix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#node_name NfvService#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_name NfvService#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
   */
   readonly reservedMgmtSubnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tunnel_prefix NfvService#tunnel_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tunnel_prefix NfvService#tunnel_prefix}
   */
   readonly tunnelPrefix?: string;
   /**
   * mgmt_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
   */
   readonly mgmtSubnet?: NfvServiceF5BigIpAwsServiceNodesMgmtSubnet;
 }
@@ -2283,45 +4538,57 @@ export class NfvServiceF5BigIpAwsServiceNodesList extends cdktf.ComplexList {
 }
 export interface NfvServiceF5BigIpAwsService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#admin_username NfvService#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_username NfvService#admin_username}
   */
   readonly adminUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
   */
   readonly sshKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tags NfvService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tags NfvService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#admin_password NfvService#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_password NfvService#admin_password}
   */
   readonly adminPassword: NfvServiceF5BigIpAwsServiceAdminPassword;
   /**
   * aws_tgw_site_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#aws_tgw_site_params NfvService#aws_tgw_site_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_tgw_site_params NfvService#aws_tgw_site_params}
   */
   readonly awsTgwSiteParams?: NfvServiceF5BigIpAwsServiceAwsTgwSiteParams;
   /**
+  * aws_vpc_site_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_vpc_site_params NfvService#aws_vpc_site_params}
+  */
+  readonly awsVpcSiteParams?: NfvServiceF5BigIpAwsServiceAwsVpcSiteParams;
+  /**
+  * byol_image block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#byol_image NfvService#byol_image}
+  */
+  readonly byolImage?: NfvServiceF5BigIpAwsServiceByolImage;
+  /**
   * endpoint_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#endpoint_service NfvService#endpoint_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#endpoint_service NfvService#endpoint_service}
   */
   readonly endpointService?: NfvServiceF5BigIpAwsServiceEndpointService;
   /**
   * market_place_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#market_place_image NfvService#market_place_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#market_place_image NfvService#market_place_image}
   */
   readonly marketPlaceImage?: NfvServiceF5BigIpAwsServiceMarketPlaceImage;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#nodes NfvService#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#nodes NfvService#nodes}
   */
   readonly nodes: NfvServiceF5BigIpAwsServiceNodes[] | cdktf.IResolvable;
 }
@@ -2337,6 +4604,8 @@ export function nfvServiceF5BigIpAwsServiceToTerraform(struct?: NfvServiceF5BigI
     tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.tags),
     admin_password: nfvServiceF5BigIpAwsServiceAdminPasswordToTerraform(struct!.adminPassword),
     aws_tgw_site_params: nfvServiceF5BigIpAwsServiceAwsTgwSiteParamsToTerraform(struct!.awsTgwSiteParams),
+    aws_vpc_site_params: nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsToTerraform(struct!.awsVpcSiteParams),
+    byol_image: nfvServiceF5BigIpAwsServiceByolImageToTerraform(struct!.byolImage),
     endpoint_service: nfvServiceF5BigIpAwsServiceEndpointServiceToTerraform(struct!.endpointService),
     market_place_image: nfvServiceF5BigIpAwsServiceMarketPlaceImageToTerraform(struct!.marketPlaceImage),
     nodes: cdktf.listMapper(nfvServiceF5BigIpAwsServiceNodesToTerraform, true)(struct!.nodes),
@@ -2379,6 +4648,18 @@ export function nfvServiceF5BigIpAwsServiceToHclTerraform(struct?: NfvServiceF5B
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceF5BigIpAwsServiceAwsTgwSiteParamsList",
+    },
+    aws_vpc_site_params: {
+      value: nfvServiceF5BigIpAwsServiceAwsVpcSiteParamsToHclTerraform(struct!.awsVpcSiteParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsList",
+    },
+    byol_image: {
+      value: nfvServiceF5BigIpAwsServiceByolImageToHclTerraform(struct!.byolImage),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceF5BigIpAwsServiceByolImageList",
     },
     endpoint_service: {
       value: nfvServiceF5BigIpAwsServiceEndpointServiceToHclTerraform(struct!.endpointService),
@@ -2438,6 +4719,14 @@ export class NfvServiceF5BigIpAwsServiceOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.awsTgwSiteParams = this._awsTgwSiteParams?.internalValue;
     }
+    if (this._awsVpcSiteParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsVpcSiteParams = this._awsVpcSiteParams?.internalValue;
+    }
+    if (this._byolImage?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.byolImage = this._byolImage?.internalValue;
+    }
     if (this._endpointService?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.endpointService = this._endpointService?.internalValue;
@@ -2461,6 +4750,8 @@ export class NfvServiceF5BigIpAwsServiceOutputReference extends cdktf.ComplexObj
       this._tags = undefined;
       this._adminPassword.internalValue = undefined;
       this._awsTgwSiteParams.internalValue = undefined;
+      this._awsVpcSiteParams.internalValue = undefined;
+      this._byolImage.internalValue = undefined;
       this._endpointService.internalValue = undefined;
       this._marketPlaceImage.internalValue = undefined;
       this._nodes.internalValue = undefined;
@@ -2472,6 +4763,8 @@ export class NfvServiceF5BigIpAwsServiceOutputReference extends cdktf.ComplexObj
       this._tags = value.tags;
       this._adminPassword.internalValue = value.adminPassword;
       this._awsTgwSiteParams.internalValue = value.awsTgwSiteParams;
+      this._awsVpcSiteParams.internalValue = value.awsVpcSiteParams;
+      this._byolImage.internalValue = value.byolImage;
       this._endpointService.internalValue = value.endpointService;
       this._marketPlaceImage.internalValue = value.marketPlaceImage;
       this._nodes.internalValue = value.nodes;
@@ -2549,6 +4842,38 @@ export class NfvServiceF5BigIpAwsServiceOutputReference extends cdktf.ComplexObj
     return this._awsTgwSiteParams.internalValue;
   }
 
+  // aws_vpc_site_params - computed: false, optional: true, required: false
+  private _awsVpcSiteParams = new NfvServiceF5BigIpAwsServiceAwsVpcSiteParamsOutputReference(this, "aws_vpc_site_params");
+  public get awsVpcSiteParams() {
+    return this._awsVpcSiteParams;
+  }
+  public putAwsVpcSiteParams(value: NfvServiceF5BigIpAwsServiceAwsVpcSiteParams) {
+    this._awsVpcSiteParams.internalValue = value;
+  }
+  public resetAwsVpcSiteParams() {
+    this._awsVpcSiteParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsVpcSiteParamsInput() {
+    return this._awsVpcSiteParams.internalValue;
+  }
+
+  // byol_image - computed: false, optional: true, required: false
+  private _byolImage = new NfvServiceF5BigIpAwsServiceByolImageOutputReference(this, "byol_image");
+  public get byolImage() {
+    return this._byolImage;
+  }
+  public putByolImage(value: NfvServiceF5BigIpAwsServiceByolImage) {
+    this._byolImage.internalValue = value;
+  }
+  public resetByolImage() {
+    this._byolImage.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get byolImageInput() {
+    return this._byolImage.internalValue;
+  }
+
   // endpoint_service - computed: false, optional: true, required: false
   private _endpointService = new NfvServiceF5BigIpAwsServiceEndpointServiceOutputReference(this, "endpoint_service");
   public get endpointService() {
@@ -2596,15 +4921,15 @@ export class NfvServiceF5BigIpAwsServiceOutputReference extends cdktf.ComplexObj
 }
 export interface NfvServiceHttpsManagementAdvertiseOnInternetPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -2753,7 +5078,7 @@ export interface NfvServiceHttpsManagementAdvertiseOnInternet {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#public_ip NfvService#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_ip NfvService#public_ip}
   */
   readonly publicIp: NfvServiceHttpsManagementAdvertiseOnInternetPublicIp;
 }
@@ -2832,9 +5157,247 @@ export class NfvServiceHttpsManagementAdvertiseOnInternetOutputReference extends
     return this._publicIp.internalValue;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnPublicPublicIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnPublicPublicIpToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnPublicPublicIpOutputReference | NfvServiceHttpsManagementAdvertiseOnPublicPublicIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnPublicPublicIpToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnPublicPublicIpOutputReference | NfvServiceHttpsManagementAdvertiseOnPublicPublicIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnPublicPublicIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnPublicPublicIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnPublicPublicIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface NfvServiceHttpsManagementAdvertiseOnPublic {
+  /**
+  * public_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_ip NfvService#public_ip}
+  */
+  readonly publicIp: NfvServiceHttpsManagementAdvertiseOnPublicPublicIp;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnPublicToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnPublicOutputReference | NfvServiceHttpsManagementAdvertiseOnPublic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_ip: nfvServiceHttpsManagementAdvertiseOnPublicPublicIpToTerraform(struct!.publicIp),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnPublicToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnPublicOutputReference | NfvServiceHttpsManagementAdvertiseOnPublic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_ip: {
+      value: nfvServiceHttpsManagementAdvertiseOnPublicPublicIpToHclTerraform(struct!.publicIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnPublicPublicIpList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnPublicOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnPublic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIp = this._publicIp?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnPublic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIp.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIp.internalValue = value.publicIp;
+    }
+  }
+
+  // public_ip - computed: false, optional: false, required: true
+  private _publicIp = new NfvServiceHttpsManagementAdvertiseOnPublicPublicIpOutputReference(this, "public_ip");
+  public get publicIp() {
+    return this._publicIp;
+  }
+  public putPublicIp(value: NfvServiceHttpsManagementAdvertiseOnPublicPublicIp) {
+    this._publicIp.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpInput() {
+    return this._publicIp.internalValue;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -2964,15 +5527,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesDisableOcs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -3109,13 +5672,160 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
     return this._storeProvider;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -3223,19 +5933,332 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
     return this._url;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyOutputReference | NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey): any {
@@ -3244,8 +6267,12 @@ export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -3256,17 +6283,41 @@ export function nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -3288,13 +6339,29 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
   public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -3302,14 +6369,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
   public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -3328,6 +6419,22 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -3342,6 +6449,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesUseSystemDefaults {
@@ -3395,35 +6534,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesUseSystemD
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesUseSystemDefaults;
 }
@@ -3678,15 +6817,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificatesList exten
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -3825,21 +6964,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigCustomSecurityOu
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigCustomSecurity;
 }
@@ -4010,15 +7149,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfigOutputReference 
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -4165,15 +7304,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsCrlOutputReference
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -4320,7 +7459,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsTrustedCaOutputRef
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -4401,37 +7540,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsXfccOptionsOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVipUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsXfccOptions;
 }
@@ -4689,25 +7828,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipUseMtlsOutputReference ex
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSliVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSliVipTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSliVipTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSliVipUseMtls;
 }
@@ -4875,7 +8014,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSliVipOutputReference extends c
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -5005,15 +8144,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesDi
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5150,13 +8289,160 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
     return this._storeProvider;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -5264,19 +8550,332 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
     return this._url;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyOutputReference | NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey): any {
@@ -5285,8 +8884,12 @@ export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -5297,17 +8900,41 @@ export function nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -5329,13 +8956,29 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
   public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -5343,14 +8986,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
   public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -5369,6 +9036,22 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -5383,6 +9066,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPr
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesUseSystemDefaults {
@@ -5436,35 +9151,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesUs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesUseSystemDefaults;
 }
@@ -5719,15 +9434,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificatesLi
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -5866,21 +9581,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigCustomSe
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigCustomSecurity;
 }
@@ -6051,15 +9766,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfigOutputRe
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -6206,15 +9921,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsCrlOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -6361,7 +10076,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsTrustedCaO
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -6442,37 +10157,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsXfccOption
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsXfccOptions;
 }
@@ -6730,25 +10445,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtlsOutputRefe
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloInternetVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSloInternetVipUseMtls;
 }
@@ -6916,7 +10631,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloInternetVipOutputReference e
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -7046,15 +10761,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesDisableOcs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -7191,13 +10906,160 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
     return this._storeProvider;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -7305,19 +11167,332 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
     return this._url;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyOutputReference | NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey): any {
@@ -7326,8 +11501,12 @@ export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -7338,17 +11517,41 @@ export function nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -7370,13 +11573,29 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
   public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -7384,14 +11603,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
   public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -7410,6 +11653,22 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -7424,6 +11683,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesUseSystemDefaults {
@@ -7477,35 +11768,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesUseSystemD
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesUseSystemDefaults;
 }
@@ -7760,15 +12051,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificatesList exten
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -7907,21 +12198,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigCustomSecurityOu
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigCustomSecurity;
 }
@@ -8092,15 +12383,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfigOutputReference 
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -8247,15 +12538,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsCrlOutputReference
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -8402,7 +12693,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsTrustedCaOutputRef
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -8483,37 +12774,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsXfccOptionsOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSliUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsXfccOptions;
 }
@@ -8771,25 +13062,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliUseMtlsOutputReference ex
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloSli {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSloSliTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSloSliTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSloSliUseMtls;
 }
@@ -8957,7 +13248,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloSliOutputReference extends c
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#hash_algorithms NfvService#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -9087,15 +13378,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesDisableOcs
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -9232,13 +13523,160 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
     return this._storeProvider;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -9346,19 +13784,332 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
     return this._url;
   }
 }
+export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyToTerraform(struct?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyOutputReference | NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey): any {
@@ -9367,8 +14118,12 @@ export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -9379,17 +14134,41 @@ export function nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivate
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -9411,13 +14190,29 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
   public get internalValue(): NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -9425,14 +14220,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
   public set internalValue(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -9451,6 +14270,22 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -9465,6 +14300,38 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesUseSystemDefaults {
@@ -9518,35 +14385,35 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesUseSystemD
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#certificate_url NfvService#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#description NfvService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#description NfvService#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_hash_algorithms NfvService#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_ocsp_stapling NfvService#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_system_defaults NfvService#use_system_defaults}
   */
   readonly useSystemDefaults?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesUseSystemDefaults;
 }
@@ -9801,15 +14668,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificatesList exten
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#cipher_suites NfvService#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#max_version NfvService#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#max_version NfvService#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#min_version NfvService#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#min_version NfvService#min_version}
   */
   readonly minVersion?: string;
 }
@@ -9948,21 +14815,21 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigCustomSecurityOu
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#default_security NfvService#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_security NfvService#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#low_security NfvService#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#low_security NfvService#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#medium_security NfvService#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#medium_security NfvService#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#custom_security NfvService#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#custom_security NfvService#custom_security}
   */
   readonly customSecurity?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigCustomSecurity;
 }
@@ -10133,15 +15000,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfigOutputReference 
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -10288,15 +15155,15 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsCrlOutputReference
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -10443,7 +15310,7 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsTrustedCaOutputRef
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_header_elements NfvService#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -10524,37 +15391,37 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsXfccOptionsOutputR
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVipUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#client_certificate_optional NfvService#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_crl NfvService#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_crl NfvService#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca_url NfvService#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_disabled NfvService#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#crl NfvService#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#crl NfvService#crl}
   */
   readonly crl?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#trusted_ca NfvService#trusted_ca}
   */
   readonly trustedCa?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#xfcc_options NfvService#xfcc_options}
   */
   readonly xfccOptions?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsXfccOptions;
 }
@@ -10812,25 +15679,25 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipUseMtlsOutputReference ex
 }
 export interface NfvServiceHttpsManagementAdvertiseOnSloVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#no_mtls NfvService#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_certificates NfvService#tls_certificates}
   */
   readonly tlsCertificates: NfvServiceHttpsManagementAdvertiseOnSloVipTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tls_config NfvService#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tls_config NfvService#tls_config}
   */
   readonly tlsConfig?: NfvServiceHttpsManagementAdvertiseOnSloVipTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#use_mtls NfvService#use_mtls}
   */
   readonly useMtls?: NfvServiceHttpsManagementAdvertiseOnSloVipUseMtls;
 }
@@ -10998,49 +15865,71 @@ export class NfvServiceHttpsManagementAdvertiseOnSloVipOutputReference extends c
 }
 export interface NfvServiceHttpsManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_internet_default_vip NfvService#advertise_on_internet_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_internet_default_vip NfvService#advertise_on_internet_default_vip}
   */
   readonly advertiseOnInternetDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#default_https_port NfvService#default_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public_default_vip NfvService#advertise_on_public_default_vip}
+  */
+  readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#default_https_port NfvService#default_https_port}
   */
   readonly defaultHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_local NfvService#disable_local}
+  */
+  readonly disableLocal?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#do_not_advertise NfvService#do_not_advertise}
+  */
+  readonly doNotAdvertise?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#do_not_advertise_on_internet NfvService#do_not_advertise_on_internet}
+  */
+  readonly doNotAdvertiseOnInternet?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#domain_suffix NfvService#domain_suffix}
   */
   readonly domainSuffix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#https_port NfvService#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#https_port NfvService#https_port}
   */
   readonly httpsPort?: number;
   /**
   * advertise_on_internet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_internet NfvService#advertise_on_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_internet NfvService#advertise_on_internet}
   */
   readonly advertiseOnInternet?: NfvServiceHttpsManagementAdvertiseOnInternet;
   /**
+  * advertise_on_public block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_public NfvService#advertise_on_public}
+  */
+  readonly advertiseOnPublic?: NfvServiceHttpsManagementAdvertiseOnPublic;
+  /**
   * advertise_on_sli_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_sli_vip NfvService#advertise_on_sli_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_sli_vip NfvService#advertise_on_sli_vip}
   */
   readonly advertiseOnSliVip?: NfvServiceHttpsManagementAdvertiseOnSliVip;
   /**
   * advertise_on_slo_internet_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo_internet_vip NfvService#advertise_on_slo_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_internet_vip NfvService#advertise_on_slo_internet_vip}
   */
   readonly advertiseOnSloInternetVip?: NfvServiceHttpsManagementAdvertiseOnSloInternetVip;
   /**
   * advertise_on_slo_sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_sli NfvService#advertise_on_slo_sli}
   */
   readonly advertiseOnSloSli?: NfvServiceHttpsManagementAdvertiseOnSloSli;
   /**
   * advertise_on_slo_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#advertise_on_slo_vip NfvService#advertise_on_slo_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#advertise_on_slo_vip NfvService#advertise_on_slo_vip}
   */
   readonly advertiseOnSloVip?: NfvServiceHttpsManagementAdvertiseOnSloVip;
 }
@@ -11052,10 +15941,15 @@ export function nfvServiceHttpsManagementToTerraform(struct?: NfvServiceHttpsMan
   }
   return {
     advertise_on_internet_default_vip: cdktf.booleanToTerraform(struct!.advertiseOnInternetDefaultVip),
+    advertise_on_public_default_vip: cdktf.booleanToTerraform(struct!.advertiseOnPublicDefaultVip),
     default_https_port: cdktf.booleanToTerraform(struct!.defaultHttpsPort),
+    disable_local: cdktf.booleanToTerraform(struct!.disableLocal),
+    do_not_advertise: cdktf.booleanToTerraform(struct!.doNotAdvertise),
+    do_not_advertise_on_internet: cdktf.booleanToTerraform(struct!.doNotAdvertiseOnInternet),
     domain_suffix: cdktf.stringToTerraform(struct!.domainSuffix),
     https_port: cdktf.numberToTerraform(struct!.httpsPort),
     advertise_on_internet: nfvServiceHttpsManagementAdvertiseOnInternetToTerraform(struct!.advertiseOnInternet),
+    advertise_on_public: nfvServiceHttpsManagementAdvertiseOnPublicToTerraform(struct!.advertiseOnPublic),
     advertise_on_sli_vip: nfvServiceHttpsManagementAdvertiseOnSliVipToTerraform(struct!.advertiseOnSliVip),
     advertise_on_slo_internet_vip: nfvServiceHttpsManagementAdvertiseOnSloInternetVipToTerraform(struct!.advertiseOnSloInternetVip),
     advertise_on_slo_sli: nfvServiceHttpsManagementAdvertiseOnSloSliToTerraform(struct!.advertiseOnSloSli),
@@ -11076,8 +15970,32 @@ export function nfvServiceHttpsManagementToHclTerraform(struct?: NfvServiceHttps
       type: "simple",
       storageClassType: "boolean",
     },
+    advertise_on_public_default_vip: {
+      value: cdktf.booleanToHclTerraform(struct!.advertiseOnPublicDefaultVip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     default_https_port: {
       value: cdktf.booleanToHclTerraform(struct!.defaultHttpsPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    disable_local: {
+      value: cdktf.booleanToHclTerraform(struct!.disableLocal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    do_not_advertise: {
+      value: cdktf.booleanToHclTerraform(struct!.doNotAdvertise),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    do_not_advertise_on_internet: {
+      value: cdktf.booleanToHclTerraform(struct!.doNotAdvertiseOnInternet),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -11099,6 +16017,12 @@ export function nfvServiceHttpsManagementToHclTerraform(struct?: NfvServiceHttps
       isBlock: true,
       type: "list",
       storageClassType: "NfvServiceHttpsManagementAdvertiseOnInternetList",
+    },
+    advertise_on_public: {
+      value: nfvServiceHttpsManagementAdvertiseOnPublicToHclTerraform(struct!.advertiseOnPublic),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServiceHttpsManagementAdvertiseOnPublicList",
     },
     advertise_on_sli_vip: {
       value: nfvServiceHttpsManagementAdvertiseOnSliVipToHclTerraform(struct!.advertiseOnSliVip),
@@ -11148,9 +16072,25 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.advertiseOnInternetDefaultVip = this._advertiseOnInternetDefaultVip;
     }
+    if (this._advertiseOnPublicDefaultVip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advertiseOnPublicDefaultVip = this._advertiseOnPublicDefaultVip;
+    }
     if (this._defaultHttpsPort !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultHttpsPort = this._defaultHttpsPort;
+    }
+    if (this._disableLocal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableLocal = this._disableLocal;
+    }
+    if (this._doNotAdvertise !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.doNotAdvertise = this._doNotAdvertise;
+    }
+    if (this._doNotAdvertiseOnInternet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.doNotAdvertiseOnInternet = this._doNotAdvertiseOnInternet;
     }
     if (this._domainSuffix !== undefined) {
       hasAnyValues = true;
@@ -11163,6 +16103,10 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
     if (this._advertiseOnInternet?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.advertiseOnInternet = this._advertiseOnInternet?.internalValue;
+    }
+    if (this._advertiseOnPublic?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advertiseOnPublic = this._advertiseOnPublic?.internalValue;
     }
     if (this._advertiseOnSliVip?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -11187,10 +16131,15 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
     if (value === undefined) {
       this.isEmptyObject = false;
       this._advertiseOnInternetDefaultVip = undefined;
+      this._advertiseOnPublicDefaultVip = undefined;
       this._defaultHttpsPort = undefined;
+      this._disableLocal = undefined;
+      this._doNotAdvertise = undefined;
+      this._doNotAdvertiseOnInternet = undefined;
       this._domainSuffix = undefined;
       this._httpsPort = undefined;
       this._advertiseOnInternet.internalValue = undefined;
+      this._advertiseOnPublic.internalValue = undefined;
       this._advertiseOnSliVip.internalValue = undefined;
       this._advertiseOnSloInternetVip.internalValue = undefined;
       this._advertiseOnSloSli.internalValue = undefined;
@@ -11199,10 +16148,15 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._advertiseOnInternetDefaultVip = value.advertiseOnInternetDefaultVip;
+      this._advertiseOnPublicDefaultVip = value.advertiseOnPublicDefaultVip;
       this._defaultHttpsPort = value.defaultHttpsPort;
+      this._disableLocal = value.disableLocal;
+      this._doNotAdvertise = value.doNotAdvertise;
+      this._doNotAdvertiseOnInternet = value.doNotAdvertiseOnInternet;
       this._domainSuffix = value.domainSuffix;
       this._httpsPort = value.httpsPort;
       this._advertiseOnInternet.internalValue = value.advertiseOnInternet;
+      this._advertiseOnPublic.internalValue = value.advertiseOnPublic;
       this._advertiseOnSliVip.internalValue = value.advertiseOnSliVip;
       this._advertiseOnSloInternetVip.internalValue = value.advertiseOnSloInternetVip;
       this._advertiseOnSloSli.internalValue = value.advertiseOnSloSli;
@@ -11226,6 +16180,22 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
     return this._advertiseOnInternetDefaultVip;
   }
 
+  // advertise_on_public_default_vip - computed: false, optional: true, required: false
+  private _advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable; 
+  public get advertiseOnPublicDefaultVip() {
+    return this.getBooleanAttribute('advertise_on_public_default_vip');
+  }
+  public set advertiseOnPublicDefaultVip(value: boolean | cdktf.IResolvable) {
+    this._advertiseOnPublicDefaultVip = value;
+  }
+  public resetAdvertiseOnPublicDefaultVip() {
+    this._advertiseOnPublicDefaultVip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advertiseOnPublicDefaultVipInput() {
+    return this._advertiseOnPublicDefaultVip;
+  }
+
   // default_https_port - computed: false, optional: true, required: false
   private _defaultHttpsPort?: boolean | cdktf.IResolvable; 
   public get defaultHttpsPort() {
@@ -11240,6 +16210,54 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get defaultHttpsPortInput() {
     return this._defaultHttpsPort;
+  }
+
+  // disable_local - computed: false, optional: true, required: false
+  private _disableLocal?: boolean | cdktf.IResolvable; 
+  public get disableLocal() {
+    return this.getBooleanAttribute('disable_local');
+  }
+  public set disableLocal(value: boolean | cdktf.IResolvable) {
+    this._disableLocal = value;
+  }
+  public resetDisableLocal() {
+    this._disableLocal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableLocalInput() {
+    return this._disableLocal;
+  }
+
+  // do_not_advertise - computed: false, optional: true, required: false
+  private _doNotAdvertise?: boolean | cdktf.IResolvable; 
+  public get doNotAdvertise() {
+    return this.getBooleanAttribute('do_not_advertise');
+  }
+  public set doNotAdvertise(value: boolean | cdktf.IResolvable) {
+    this._doNotAdvertise = value;
+  }
+  public resetDoNotAdvertise() {
+    this._doNotAdvertise = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get doNotAdvertiseInput() {
+    return this._doNotAdvertise;
+  }
+
+  // do_not_advertise_on_internet - computed: false, optional: true, required: false
+  private _doNotAdvertiseOnInternet?: boolean | cdktf.IResolvable; 
+  public get doNotAdvertiseOnInternet() {
+    return this.getBooleanAttribute('do_not_advertise_on_internet');
+  }
+  public set doNotAdvertiseOnInternet(value: boolean | cdktf.IResolvable) {
+    this._doNotAdvertiseOnInternet = value;
+  }
+  public resetDoNotAdvertiseOnInternet() {
+    this._doNotAdvertiseOnInternet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get doNotAdvertiseOnInternetInput() {
+    return this._doNotAdvertiseOnInternet;
   }
 
   // domain_suffix - computed: false, optional: false, required: true
@@ -11285,6 +16303,22 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get advertiseOnInternetInput() {
     return this._advertiseOnInternet.internalValue;
+  }
+
+  // advertise_on_public - computed: false, optional: true, required: false
+  private _advertiseOnPublic = new NfvServiceHttpsManagementAdvertiseOnPublicOutputReference(this, "advertise_on_public");
+  public get advertiseOnPublic() {
+    return this._advertiseOnPublic;
+  }
+  public putAdvertiseOnPublic(value: NfvServiceHttpsManagementAdvertiseOnPublic) {
+    this._advertiseOnPublic.internalValue = value;
+  }
+  public resetAdvertiseOnPublic() {
+    this._advertiseOnPublic.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advertiseOnPublicInput() {
+    return this._advertiseOnPublic.internalValue;
   }
 
   // advertise_on_sli_vip - computed: false, optional: true, required: false
@@ -11353,15 +16387,15 @@ export class NfvServiceHttpsManagementOutputReference extends cdktf.ComplexObjec
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11498,13 +16532,160 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInf
     return this._storeProvider;
   }
 }
+export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -11612,19 +16793,332 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfoOut
     return this._url;
   }
 }
+export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoToHclTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoToHclTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServicePaloAltoFwServiceAutoSetupAdminPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo;
 }
 
 export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordOutputReference | NfvServicePaloAltoFwServiceAutoSetupAdminPassword): any {
@@ -11633,8 +17127,12 @@ export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordToTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -11645,17 +17143,41 @@ export function nfvServicePaloAltoFwServiceAutoSetupAdminPasswordToHclTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoList",
     },
   };
 
@@ -11677,13 +17199,29 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordOutputReference ex
   public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupAdminPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -11691,14 +17229,38 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordOutputReference ex
   public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupAdminPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -11717,6 +17279,22 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordOutputReference ex
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServicePaloAltoFwServiceAutoSetupAdminPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -11732,18 +17310,50 @@ export class NfvServicePaloAltoFwServiceAutoSetupAdminPasswordOutputReference ex
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServicePaloAltoFwServiceAutoSetupAdminPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -11880,13 +17490,160 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfol
     return this._storeProvider;
   }
 }
+export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -11994,19 +17751,332 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSec
     return this._url;
   }
 }
+export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoToHclTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoToHclTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo;
 }
 
 export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyToTerraform(struct?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyOutputReference | NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey): any {
@@ -12015,8 +18085,12 @@ export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyToTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -12027,17 +18101,41 @@ export function nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyToHcl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -12059,13 +18157,29 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyOutputRe
   public get internalValue(): NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -12073,14 +18187,38 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyOutputRe
   public set internalValue(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -12099,6 +18237,22 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyOutputRe
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -12114,16 +18268,48 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyOutputRe
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface NfvServicePaloAltoFwServiceAutoSetupManualSshKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#public_key NfvService#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#public_key NfvService#public_key}
   */
   readonly publicKey: string;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#private_key NfvService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#private_key NfvService#private_key}
   */
   readonly privateKey: NfvServicePaloAltoFwServiceAutoSetupManualSshKeysPrivateKey;
 }
@@ -12230,19 +18416,23 @@ export class NfvServicePaloAltoFwServiceAutoSetupManualSshKeysOutputReference ex
 }
 export interface NfvServicePaloAltoFwServiceAutoSetup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#admin_username NfvService#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_username NfvService#admin_username}
   */
   readonly adminUsername: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#autogenerated_ssh_keys NfvService#autogenerated_ssh_keys}
+  */
+  readonly autogeneratedSshKeys?: boolean | cdktf.IResolvable;
+  /**
   * admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#admin_password NfvService#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#admin_password NfvService#admin_password}
   */
   readonly adminPassword: NfvServicePaloAltoFwServiceAutoSetupAdminPassword;
   /**
   * manual_ssh_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#manual_ssh_keys NfvService#manual_ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#manual_ssh_keys NfvService#manual_ssh_keys}
   */
   readonly manualSshKeys?: NfvServicePaloAltoFwServiceAutoSetupManualSshKeys;
 }
@@ -12254,6 +18444,7 @@ export function nfvServicePaloAltoFwServiceAutoSetupToTerraform(struct?: NfvServ
   }
   return {
     admin_username: cdktf.stringToTerraform(struct!.adminUsername),
+    autogenerated_ssh_keys: cdktf.booleanToTerraform(struct!.autogeneratedSshKeys),
     admin_password: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordToTerraform(struct!.adminPassword),
     manual_ssh_keys: nfvServicePaloAltoFwServiceAutoSetupManualSshKeysToTerraform(struct!.manualSshKeys),
   }
@@ -12271,6 +18462,12 @@ export function nfvServicePaloAltoFwServiceAutoSetupToHclTerraform(struct?: NfvS
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    autogenerated_ssh_keys: {
+      value: cdktf.booleanToHclTerraform(struct!.autogeneratedSshKeys),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     admin_password: {
       value: nfvServicePaloAltoFwServiceAutoSetupAdminPasswordToHclTerraform(struct!.adminPassword),
@@ -12308,6 +18505,10 @@ export class NfvServicePaloAltoFwServiceAutoSetupOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.adminUsername = this._adminUsername;
     }
+    if (this._autogeneratedSshKeys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autogeneratedSshKeys = this._autogeneratedSshKeys;
+    }
     if (this._adminPassword?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.adminPassword = this._adminPassword?.internalValue;
@@ -12323,12 +18524,14 @@ export class NfvServicePaloAltoFwServiceAutoSetupOutputReference extends cdktf.C
     if (value === undefined) {
       this.isEmptyObject = false;
       this._adminUsername = undefined;
+      this._autogeneratedSshKeys = undefined;
       this._adminPassword.internalValue = undefined;
       this._manualSshKeys.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._adminUsername = value.adminUsername;
+      this._autogeneratedSshKeys = value.autogeneratedSshKeys;
       this._adminPassword.internalValue = value.adminPassword;
       this._manualSshKeys.internalValue = value.manualSshKeys;
     }
@@ -12345,6 +18548,22 @@ export class NfvServicePaloAltoFwServiceAutoSetupOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get adminUsernameInput() {
     return this._adminUsername;
+  }
+
+  // autogenerated_ssh_keys - computed: false, optional: true, required: false
+  private _autogeneratedSshKeys?: boolean | cdktf.IResolvable; 
+  public get autogeneratedSshKeys() {
+    return this.getBooleanAttribute('autogenerated_ssh_keys');
+  }
+  public set autogeneratedSshKeys(value: boolean | cdktf.IResolvable) {
+    this._autogeneratedSshKeys = value;
+  }
+  public resetAutogeneratedSshKeys() {
+    this._autogeneratedSshKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autogeneratedSshKeysInput() {
+    return this._autogeneratedSshKeys;
   }
 
   // admin_password - computed: false, optional: false, required: true
@@ -12378,15 +18597,15 @@ export class NfvServicePaloAltoFwServiceAutoSetupOutputReference extends cdktf.C
 }
 export interface NfvServicePaloAltoFwServiceAwsTgwSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#name NfvService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#namespace NfvService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#namespace NfvService#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tenant NfvService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tenant NfvService#tenant}
   */
   readonly tenant?: string;
 }
@@ -12528,15 +18747,15 @@ export class NfvServicePaloAltoFwServiceAwsTgwSiteOutputReference extends cdktf.
 }
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#location NfvService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -12673,13 +18892,160 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldS
     return this._storeProvider;
   }
 }
+export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#decryption_provider NfvService#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#store_provider NfvService#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalToTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#provider NfvService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#url NfvService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#url NfvService#url}
   */
   readonly url: string;
 }
@@ -12787,19 +19153,332 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecre
     return this._url;
   }
 }
+export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#key NfvService#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#location NfvService#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#provider NfvService#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding NfvService#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
+  */
+  readonly version?: number;
+}
+
+export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoToTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoToHclTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#name NfvService#name}
+  */
+  readonly name: string;
+}
+
+export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoToTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoToHclTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#secret_encoding_type NfvService#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info NfvService#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#blindfold_secret_info_internal NfvService#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#clear_secret_info NfvService#clear_secret_info}
   */
   readonly clearSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#vault_secret_info NfvService#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#wingman_secret_info NfvService#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo;
 }
 
 export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyToTerraform(struct?: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyOutputReference | NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey): any {
@@ -12808,8 +19487,12 @@ export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyToTerra
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -12820,17 +19503,41 @@ export function nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyToHclTe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: nfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoList",
     },
   };
 
@@ -12852,13 +19559,29 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyOutputRefe
   public get internalValue(): NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -12866,14 +19589,38 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyOutputRefe
   public set internalValue(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -12892,6 +19639,22 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyOutputRefe
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -12907,24 +19670,56 @@ export class NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyOutputRefe
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface NfvServicePaloAltoFwServicePanoramaServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#device_group_name NfvService#device_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#device_group_name NfvService#device_group_name}
   */
   readonly deviceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#server NfvService#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#server NfvService#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#template_stack_name NfvService#template_stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#template_stack_name NfvService#template_stack_name}
   */
   readonly templateStackName?: string;
   /**
   * authorization_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#authorization_key NfvService#authorization_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#authorization_key NfvService#authorization_key}
   */
   readonly authorizationKey: NfvServicePaloAltoFwServicePanoramaServerAuthorizationKey;
 }
@@ -13089,11 +19884,11 @@ export class NfvServicePaloAltoFwServicePanoramaServerOutputReference extends cd
 }
 export interface NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ipv4 NfvService#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv4 NfvService#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ipv6 NfvService#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ipv6 NfvService#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -13203,13 +19998,13 @@ export class NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetSubnetParamOu
 }
 export interface NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#existing_subnet_id NfvService#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#subnet_param NfvService#subnet_param}
   */
   readonly subnetParam?: NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetSubnetParam;
 }
@@ -13322,21 +20117,21 @@ export class NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnetOutputReferen
 }
 export interface NfvServicePaloAltoFwServiceServiceNodesNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_az_name NfvService#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#node_name NfvService#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#node_name NfvService#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#reserved_mgmt_subnet NfvService#reserved_mgmt_subnet}
   */
   readonly reservedMgmtSubnet?: boolean | cdktf.IResolvable;
   /**
   * mgmt_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#mgmt_subnet NfvService#mgmt_subnet}
   */
   readonly mgmtSubnet?: NfvServicePaloAltoFwServiceServiceNodesNodesMgmtSubnet;
 }
@@ -13535,7 +20330,7 @@ export interface NfvServicePaloAltoFwServiceServiceNodes {
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#nodes NfvService#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#nodes NfvService#nodes}
   */
   readonly nodes: NfvServicePaloAltoFwServiceServiceNodesNodes[] | cdktf.IResolvable;
 }
@@ -13616,55 +20411,55 @@ export class NfvServicePaloAltoFwServiceServiceNodesOutputReference extends cdkt
 }
 export interface NfvServicePaloAltoFwService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#disable_panaroma NfvService#disable_panaroma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#disable_panaroma NfvService#disable_panaroma}
   */
   readonly disablePanaroma?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#instance_type NfvService#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#instance_type NfvService#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#pan_ami_bundle1 NfvService#pan_ami_bundle1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#pan_ami_bundle1 NfvService#pan_ami_bundle1}
   */
   readonly panAmiBundle1?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#pan_ami_bundle2 NfvService#pan_ami_bundle2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#pan_ami_bundle2 NfvService#pan_ami_bundle2}
   */
   readonly panAmiBundle2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#ssh_key NfvService#ssh_key}
   */
   readonly sshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#tags NfvService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#tags NfvService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#version NfvService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#version NfvService#version}
   */
   readonly version?: string;
   /**
   * auto_setup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#auto_setup NfvService#auto_setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#auto_setup NfvService#auto_setup}
   */
   readonly autoSetup?: NfvServicePaloAltoFwServiceAutoSetup;
   /**
   * aws_tgw_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#aws_tgw_site NfvService#aws_tgw_site}
   */
   readonly awsTgwSite: NfvServicePaloAltoFwServiceAwsTgwSite;
   /**
   * panorama_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#panorama_server NfvService#panorama_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#panorama_server NfvService#panorama_server}
   */
   readonly panoramaServer?: NfvServicePaloAltoFwServicePanoramaServer;
   /**
   * service_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#service_nodes NfvService#service_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#service_nodes NfvService#service_nodes}
   */
   readonly serviceNodes: NfvServicePaloAltoFwServiceServiceNodes;
 }
@@ -14029,7 +20824,7 @@ export class NfvServicePaloAltoFwServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service volterra_nfv_service}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service volterra_nfv_service}
 */
 export class NfvService extends cdktf.TerraformResource {
 
@@ -14045,7 +20840,7 @@ export class NfvService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NfvService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NfvService to import
-  * @param importFromId The id of the existing NfvService that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NfvService that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NfvService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -14057,7 +20852,7 @@ export class NfvService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/nfv_service volterra_nfv_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/nfv_service volterra_nfv_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -14068,8 +20863,8 @@ export class NfvService extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_nfv_service',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

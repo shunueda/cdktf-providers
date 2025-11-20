@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The source code of the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#code Action#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#code Action#code}
   */
   readonly code: string;
   /**
   * Deploying an action will create a new immutable version of the action. If the action is currently bound to a trigger, then the system will begin executing the newly deployed version of the action immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#deploy Action#deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#deploy Action#deploy}
   */
   readonly deploy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#id Action#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#id Action#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#name Action#name}
   */
   readonly name: string;
   /**
   * The Node runtime. Possible values are: `node12`, `node16` (not recommended), `node18`, `node22`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#runtime Action#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#runtime Action#runtime}
   */
   readonly runtime?: string;
   /**
   * dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#dependencies Action#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#dependencies Action#dependencies}
   */
   readonly dependencies?: ActionDependencies[] | cdktf.IResolvable;
   /**
   * secrets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#secrets Action#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#secrets Action#secrets}
   */
   readonly secrets?: ActionSecrets[] | cdktf.IResolvable;
   /**
   * supported_triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#supported_triggers Action#supported_triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#supported_triggers Action#supported_triggers}
   */
   readonly supportedTriggers: ActionSupportedTriggers;
 }
@@ -61,13 +61,13 @@ export interface ActionDependencies {
   /**
   * Dependency name, e.g. `lodash`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#name Action#name}
   */
   readonly name: string;
   /**
   * Dependency version, e.g. `latest` or `4.17.21`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#version Action#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#version Action#version}
   */
   readonly version: string;
 }
@@ -208,13 +208,13 @@ export interface ActionSecrets {
   /**
   * Secret name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#name Action#name}
   */
   readonly name: string;
   /**
   * Secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -355,7 +355,7 @@ export interface ActionSupportedTriggers {
   /**
   * The trigger ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#id Action#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#id Action#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -364,7 +364,7 @@ export interface ActionSupportedTriggers {
   /**
   * The trigger version. This regulates which `runtime` versions are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#version Action#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#version Action#version}
   */
   readonly version: string;
 }
@@ -471,7 +471,7 @@ export class ActionSupportedTriggersOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action auth0_action}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action auth0_action}
 */
 export class Action extends cdktf.TerraformResource {
 
@@ -487,7 +487,7 @@ export class Action extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Action resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Action to import
-  * @param importFromId The id of the existing Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Action to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -499,7 +499,7 @@ export class Action extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/action auth0_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/action auth0_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -510,8 +510,8 @@ export class Action extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_action',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

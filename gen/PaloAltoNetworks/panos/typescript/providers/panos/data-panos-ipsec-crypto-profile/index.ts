@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosIpsecCryptoProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#ah DataPanosIpsecCryptoProfile#ah}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#ah DataPanosIpsecCryptoProfile#ah}
   */
   readonly ah?: DataPanosIpsecCryptoProfileAh;
   /**
   * phase-2 DH group (PFS DH group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#dh_group DataPanosIpsecCryptoProfile#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#dh_group DataPanosIpsecCryptoProfile#dh_group}
   */
   readonly dhGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#esp DataPanosIpsecCryptoProfile#esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#esp DataPanosIpsecCryptoProfile#esp}
   */
   readonly esp?: DataPanosIpsecCryptoProfileEsp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#lifesize DataPanosIpsecCryptoProfile#lifesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#lifesize DataPanosIpsecCryptoProfile#lifesize}
   */
   readonly lifesize?: DataPanosIpsecCryptoProfileLifesize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#lifetime DataPanosIpsecCryptoProfile#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#lifetime DataPanosIpsecCryptoProfile#lifetime}
   */
   readonly lifetime?: DataPanosIpsecCryptoProfileLifetime;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#location DataPanosIpsecCryptoProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#location DataPanosIpsecCryptoProfile#location}
   */
   readonly location: DataPanosIpsecCryptoProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#name DataPanosIpsecCryptoProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#name DataPanosIpsecCryptoProfile#name}
   */
   readonly name: string;
 }
 export interface DataPanosIpsecCryptoProfileAh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#authentication DataPanosIpsecCryptoProfile#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#authentication DataPanosIpsecCryptoProfile#authentication}
   */
   readonly authentication?: string[];
 }
@@ -136,11 +136,11 @@ export class DataPanosIpsecCryptoProfileAhOutputReference extends cdktf.ComplexO
 }
 export interface DataPanosIpsecCryptoProfileEsp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#authentication DataPanosIpsecCryptoProfile#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#authentication DataPanosIpsecCryptoProfile#authentication}
   */
   readonly authentication?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#encryption DataPanosIpsecCryptoProfile#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#encryption DataPanosIpsecCryptoProfile#encryption}
   */
   readonly encryption?: string[];
 }
@@ -265,25 +265,25 @@ export interface DataPanosIpsecCryptoProfileLifesize {
   /**
   * specify lifesize in gigabytes(GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#gb DataPanosIpsecCryptoProfile#gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#gb DataPanosIpsecCryptoProfile#gb}
   */
   readonly gb?: number;
   /**
   * specify lifesize in kilobytes(KB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#kb DataPanosIpsecCryptoProfile#kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#kb DataPanosIpsecCryptoProfile#kb}
   */
   readonly kb?: number;
   /**
   * specify lifesize in megabytes(MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#mb DataPanosIpsecCryptoProfile#mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#mb DataPanosIpsecCryptoProfile#mb}
   */
   readonly mb?: number;
   /**
   * specify lifesize in terabytes(TB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#tb DataPanosIpsecCryptoProfile#tb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#tb DataPanosIpsecCryptoProfile#tb}
   */
   readonly tb?: number;
 }
@@ -466,25 +466,25 @@ export interface DataPanosIpsecCryptoProfileLifetime {
   /**
   * specify lifetime in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#days DataPanosIpsecCryptoProfile#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#days DataPanosIpsecCryptoProfile#days}
   */
   readonly days?: number;
   /**
   * specify lifetime in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#hours DataPanosIpsecCryptoProfile#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#hours DataPanosIpsecCryptoProfile#hours}
   */
   readonly hours?: number;
   /**
   * specify lifetime in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#minutes DataPanosIpsecCryptoProfile#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#minutes DataPanosIpsecCryptoProfile#minutes}
   */
   readonly minutes?: number;
   /**
   * specify lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#seconds DataPanosIpsecCryptoProfile#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#seconds DataPanosIpsecCryptoProfile#seconds}
   */
   readonly seconds?: number;
 }
@@ -667,7 +667,7 @@ export interface DataPanosIpsecCryptoProfileLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#ngfw_device DataPanosIpsecCryptoProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#ngfw_device DataPanosIpsecCryptoProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -763,19 +763,19 @@ export interface DataPanosIpsecCryptoProfileLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#name DataPanosIpsecCryptoProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#name DataPanosIpsecCryptoProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#ngfw_device DataPanosIpsecCryptoProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#ngfw_device DataPanosIpsecCryptoProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#panorama_device DataPanosIpsecCryptoProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#panorama_device DataPanosIpsecCryptoProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -929,19 +929,19 @@ export interface DataPanosIpsecCryptoProfileLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#name DataPanosIpsecCryptoProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#name DataPanosIpsecCryptoProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#ngfw_device DataPanosIpsecCryptoProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#ngfw_device DataPanosIpsecCryptoProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#panorama_device DataPanosIpsecCryptoProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#panorama_device DataPanosIpsecCryptoProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1095,19 +1095,19 @@ export interface DataPanosIpsecCryptoProfileLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#ngfw DataPanosIpsecCryptoProfile#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#ngfw DataPanosIpsecCryptoProfile#ngfw}
   */
   readonly ngfw?: DataPanosIpsecCryptoProfileLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#template DataPanosIpsecCryptoProfile#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#template DataPanosIpsecCryptoProfile#template}
   */
   readonly template?: DataPanosIpsecCryptoProfileLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#template_stack DataPanosIpsecCryptoProfile#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#template_stack DataPanosIpsecCryptoProfile#template_stack}
   */
   readonly templateStack?: DataPanosIpsecCryptoProfileLocationTemplateStack;
 }
@@ -1259,7 +1259,7 @@ export class DataPanosIpsecCryptoProfileLocationOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile panos_ipsec_crypto_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile panos_ipsec_crypto_profile}
 */
 export class DataPanosIpsecCryptoProfile extends cdktf.TerraformDataSource {
 
@@ -1275,7 +1275,7 @@ export class DataPanosIpsecCryptoProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosIpsecCryptoProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosIpsecCryptoProfile to import
-  * @param importFromId The id of the existing DataPanosIpsecCryptoProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosIpsecCryptoProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosIpsecCryptoProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1287,7 +1287,7 @@ export class DataPanosIpsecCryptoProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ipsec_crypto_profile panos_ipsec_crypto_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ipsec_crypto_profile panos_ipsec_crypto_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1298,8 +1298,8 @@ export class DataPanosIpsecCryptoProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_ipsec_crypto_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

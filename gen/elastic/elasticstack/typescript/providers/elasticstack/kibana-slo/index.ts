@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KibanaSloConfig extends cdktf.TerraformMetaArguments {
   /**
   * An `occurrences` budgeting method uses the number of good and total events during the time window. A `timeslices` budgeting method uses the number of good slices and total slices during the time window. A slice is an arbitrary time window (smaller than the overall SLO time window) that is either considered good or bad, calculated from the timeslice threshold and the ratio of good over total events that happened during the slice window. A budgeting method is required and must be either occurrences or timeslices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#budgeting_method KibanaSlo#budgeting_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#budgeting_method KibanaSlo#budgeting_method}
   */
   readonly budgetingMethod: string;
   /**
   * A description for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#description KibanaSlo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#description KibanaSlo#description}
   */
   readonly description: string;
   /**
   * Optional group by fields to use to generate an SLO per distinct value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#group_by KibanaSlo#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#group_by KibanaSlo#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#id KibanaSlo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#id KibanaSlo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,105 +35,105 @@ export interface KibanaSloConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#name KibanaSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#name KibanaSlo#name}
   */
   readonly name: string;
   /**
   * An ID (8 to 48 characters) that contains only letters, numbers, hyphens, and underscores. If omitted, a UUIDv1 will be generated server-side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#slo_id KibanaSlo#slo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#slo_id KibanaSlo#slo_id}
   */
   readonly sloId?: string;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#space_id KibanaSlo#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#space_id KibanaSlo#space_id}
   */
   readonly spaceId?: string;
   /**
   * The tags for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#tags KibanaSlo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#tags KibanaSlo#tags}
   */
   readonly tags?: string[];
   /**
   * apm_availability_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#apm_availability_indicator KibanaSlo#apm_availability_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#apm_availability_indicator KibanaSlo#apm_availability_indicator}
   */
   readonly apmAvailabilityIndicator?: KibanaSloApmAvailabilityIndicator;
   /**
   * apm_latency_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#apm_latency_indicator KibanaSlo#apm_latency_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#apm_latency_indicator KibanaSlo#apm_latency_indicator}
   */
   readonly apmLatencyIndicator?: KibanaSloApmLatencyIndicator;
   /**
   * histogram_custom_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#histogram_custom_indicator KibanaSlo#histogram_custom_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#histogram_custom_indicator KibanaSlo#histogram_custom_indicator}
   */
   readonly histogramCustomIndicator?: KibanaSloHistogramCustomIndicator;
   /**
   * kql_custom_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#kql_custom_indicator KibanaSlo#kql_custom_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#kql_custom_indicator KibanaSlo#kql_custom_indicator}
   */
   readonly kqlCustomIndicator?: KibanaSloKqlCustomIndicator;
   /**
   * metric_custom_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#metric_custom_indicator KibanaSlo#metric_custom_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#metric_custom_indicator KibanaSlo#metric_custom_indicator}
   */
   readonly metricCustomIndicator?: KibanaSloMetricCustomIndicator;
   /**
   * objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#objective KibanaSlo#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#objective KibanaSlo#objective}
   */
   readonly objective: KibanaSloObjective;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#settings KibanaSlo#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#settings KibanaSlo#settings}
   */
   readonly settings?: KibanaSloSettings;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#time_window KibanaSlo#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#time_window KibanaSlo#time_window}
   */
   readonly timeWindow: KibanaSloTimeWindow;
   /**
   * timeslice_metric_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timeslice_metric_indicator KibanaSlo#timeslice_metric_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timeslice_metric_indicator KibanaSlo#timeslice_metric_indicator}
   */
   readonly timesliceMetricIndicator?: KibanaSloTimesliceMetricIndicator;
 }
 export interface KibanaSloApmAvailabilityIndicator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#environment KibanaSlo#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#environment KibanaSlo#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#index KibanaSlo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#index KibanaSlo#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#service KibanaSlo#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#service KibanaSlo#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#transaction_name KibanaSlo#transaction_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#transaction_name KibanaSlo#transaction_name}
   */
   readonly transactionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#transaction_type KibanaSlo#transaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#transaction_type KibanaSlo#transaction_type}
   */
   readonly transactionType: string;
 }
@@ -347,31 +347,31 @@ export class KibanaSloApmAvailabilityIndicatorOutputReference extends cdktf.Comp
 }
 export interface KibanaSloApmLatencyIndicator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#environment KibanaSlo#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#environment KibanaSlo#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#index KibanaSlo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#index KibanaSlo#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#service KibanaSlo#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#service KibanaSlo#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#threshold KibanaSlo#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#threshold KibanaSlo#threshold}
   */
   readonly threshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#transaction_name KibanaSlo#transaction_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#transaction_name KibanaSlo#transaction_name}
   */
   readonly transactionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#transaction_type KibanaSlo#transaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#transaction_type KibanaSlo#transaction_type}
   */
   readonly transactionType: string;
 }
@@ -611,23 +611,23 @@ export class KibanaSloApmLatencyIndicatorOutputReference extends cdktf.ComplexOb
 }
 export interface KibanaSloHistogramCustomIndicatorGood {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
   */
   readonly aggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#field KibanaSlo#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#field KibanaSlo#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#from KibanaSlo#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#from KibanaSlo#from}
   */
   readonly from?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#to KibanaSlo#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#to KibanaSlo#to}
   */
   readonly to?: number;
 }
@@ -821,23 +821,23 @@ export class KibanaSloHistogramCustomIndicatorGoodOutputReference extends cdktf.
 }
 export interface KibanaSloHistogramCustomIndicatorTotal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
   */
   readonly aggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#field KibanaSlo#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#field KibanaSlo#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#from KibanaSlo#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#from KibanaSlo#from}
   */
   readonly from?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#to KibanaSlo#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#to KibanaSlo#to}
   */
   readonly to?: number;
 }
@@ -1033,31 +1033,31 @@ export interface KibanaSloHistogramCustomIndicator {
   /**
   * Optional data view id to use for this indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
   */
   readonly dataViewId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#index KibanaSlo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#index KibanaSlo#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * good block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#good KibanaSlo#good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#good KibanaSlo#good}
   */
   readonly good: KibanaSloHistogramCustomIndicatorGood;
   /**
   * total block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#total KibanaSlo#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#total KibanaSlo#total}
   */
   readonly total: KibanaSloHistogramCustomIndicatorTotal;
 }
@@ -1279,27 +1279,27 @@ export interface KibanaSloKqlCustomIndicator {
   /**
   * Optional data view id to use for this indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
   */
   readonly dataViewId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#good KibanaSlo#good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#good KibanaSlo#good}
   */
   readonly good?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#index KibanaSlo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#index KibanaSlo#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
   */
   readonly timestampField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#total KibanaSlo#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#total KibanaSlo#total}
   */
   readonly total?: string;
 }
@@ -1525,19 +1525,19 @@ export class KibanaSloKqlCustomIndicatorOutputReference extends cdktf.ComplexObj
 }
 export interface KibanaSloMetricCustomIndicatorGoodMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
   */
   readonly aggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#field KibanaSlo#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#field KibanaSlo#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#name KibanaSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#name KibanaSlo#name}
   */
   readonly name: string;
 }
@@ -1731,13 +1731,13 @@ export class KibanaSloMetricCustomIndicatorGoodMetricsList extends cdktf.Complex
 }
 export interface KibanaSloMetricCustomIndicatorGood {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#equation KibanaSlo#equation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#equation KibanaSlo#equation}
   */
   readonly equation: string;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#metrics KibanaSlo#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#metrics KibanaSlo#metrics}
   */
   readonly metrics: KibanaSloMetricCustomIndicatorGoodMetrics[] | cdktf.IResolvable;
 }
@@ -1844,19 +1844,19 @@ export class KibanaSloMetricCustomIndicatorGoodOutputReference extends cdktf.Com
 }
 export interface KibanaSloMetricCustomIndicatorTotalMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
   */
   readonly aggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#field KibanaSlo#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#field KibanaSlo#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#name KibanaSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#name KibanaSlo#name}
   */
   readonly name: string;
 }
@@ -2050,13 +2050,13 @@ export class KibanaSloMetricCustomIndicatorTotalMetricsList extends cdktf.Comple
 }
 export interface KibanaSloMetricCustomIndicatorTotal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#equation KibanaSlo#equation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#equation KibanaSlo#equation}
   */
   readonly equation: string;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#metrics KibanaSlo#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#metrics KibanaSlo#metrics}
   */
   readonly metrics: KibanaSloMetricCustomIndicatorTotalMetrics[] | cdktf.IResolvable;
 }
@@ -2165,31 +2165,31 @@ export interface KibanaSloMetricCustomIndicator {
   /**
   * Optional data view id to use for this indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
   */
   readonly dataViewId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#index KibanaSlo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#index KibanaSlo#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * good block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#good KibanaSlo#good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#good KibanaSlo#good}
   */
   readonly good: KibanaSloMetricCustomIndicatorGood;
   /**
   * total block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#total KibanaSlo#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#total KibanaSlo#total}
   */
   readonly total: KibanaSloMetricCustomIndicatorTotal;
 }
@@ -2409,15 +2409,15 @@ export class KibanaSloMetricCustomIndicatorOutputReference extends cdktf.Complex
 }
 export interface KibanaSloObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#target KibanaSlo#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#target KibanaSlo#target}
   */
   readonly target: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timeslice_target KibanaSlo#timeslice_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timeslice_target KibanaSlo#timeslice_target}
   */
   readonly timesliceTarget?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timeslice_window KibanaSlo#timeslice_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timeslice_window KibanaSlo#timeslice_window}
   */
   readonly timesliceWindow?: string;
 }
@@ -2556,17 +2556,17 @@ export class KibanaSloObjectiveOutputReference extends cdktf.ComplexObject {
 }
 export interface KibanaSloSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#frequency KibanaSlo#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#frequency KibanaSlo#frequency}
   */
   readonly frequency?: string;
   /**
   * Prevents the underlying ES transform from attempting to backfill data on start, which can sometimes be resource-intensive or time-consuming and unnecessary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#prevent_initial_backfill KibanaSlo#prevent_initial_backfill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#prevent_initial_backfill KibanaSlo#prevent_initial_backfill}
   */
   readonly preventInitialBackfill?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#sync_delay KibanaSlo#sync_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#sync_delay KibanaSlo#sync_delay}
   */
   readonly syncDelay?: string;
 }
@@ -2708,11 +2708,11 @@ export class KibanaSloSettingsOutputReference extends cdktf.ComplexObject {
 }
 export interface KibanaSloTimeWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#duration KibanaSlo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#duration KibanaSlo#duration}
   */
   readonly duration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#type KibanaSlo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#type KibanaSlo#type}
   */
   readonly type: string;
 }
@@ -2821,31 +2821,31 @@ export interface KibanaSloTimesliceMetricIndicatorMetricMetrics {
   /**
   * The aggregation type for this metric. One of: sum, avg, min, max, value_count, percentile, doc_count. Determines which other fields are required:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#aggregation KibanaSlo#aggregation}
   */
   readonly aggregation: string;
   /**
   * Field to aggregate. Required for aggregations: sum, avg, min, max, value_count, percentile. Must NOT be set for doc_count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#field KibanaSlo#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#field KibanaSlo#field}
   */
   readonly field?: string;
   /**
   * Optional KQL filter for this metric. Supported for all aggregations except doc_count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
   * The unique name for this metric. Used as a variable in the equation field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#name KibanaSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#name KibanaSlo#name}
   */
   readonly name: string;
   /**
   * Percentile value (e.g., 99). Required if aggregation is 'percentile'. Must NOT be set for other aggregations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#percentile KibanaSlo#percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#percentile KibanaSlo#percentile}
   */
   readonly percentile?: number;
 }
@@ -3071,21 +3071,21 @@ export class KibanaSloTimesliceMetricIndicatorMetricMetricsList extends cdktf.Co
 }
 export interface KibanaSloTimesliceMetricIndicatorMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#comparator KibanaSlo#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#comparator KibanaSlo#comparator}
   */
   readonly comparator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#equation KibanaSlo#equation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#equation KibanaSlo#equation}
   */
   readonly equation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#threshold KibanaSlo#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#threshold KibanaSlo#threshold}
   */
   readonly threshold: number;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#metrics KibanaSlo#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#metrics KibanaSlo#metrics}
   */
   readonly metrics: KibanaSloTimesliceMetricIndicatorMetricMetrics[] | cdktf.IResolvable;
 }
@@ -3246,25 +3246,25 @@ export interface KibanaSloTimesliceMetricIndicator {
   /**
   * Optional data view id to use for this indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#data_view_id KibanaSlo#data_view_id}
   */
   readonly dataViewId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#filter KibanaSlo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#filter KibanaSlo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#index KibanaSlo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#index KibanaSlo#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#timestamp_field KibanaSlo#timestamp_field}
   */
   readonly timestampField: string;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#metric KibanaSlo#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#metric KibanaSlo#metric}
   */
   readonly metric: KibanaSloTimesliceMetricIndicatorMetric;
 }
@@ -3455,7 +3455,7 @@ export class KibanaSloTimesliceMetricIndicatorOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo elasticstack_kibana_slo}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo elasticstack_kibana_slo}
 */
 export class KibanaSlo extends cdktf.TerraformResource {
 
@@ -3471,7 +3471,7 @@ export class KibanaSlo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSlo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSlo to import
-  * @param importFromId The id of the existing KibanaSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSlo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3483,7 +3483,7 @@ export class KibanaSlo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_slo elasticstack_kibana_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_slo elasticstack_kibana_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3494,8 +3494,8 @@ export class KibanaSlo extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_slo',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

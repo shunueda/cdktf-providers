@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dataset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioSearchDatasetConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dataset#id DataCriblioSearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dataset#id DataCriblioSearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4013,7 +4013,7 @@ export class DataCriblioSearchDatasetSnowflakeDatasetOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dataset criblio_search_dataset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dataset criblio_search_dataset}
 */
 export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
 
@@ -4029,7 +4029,7 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSearchDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchDataset to import
-  * @param importFromId The id of the existing DataCriblioSearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4041,7 +4041,7 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dataset criblio_search_dataset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/data-sources/search_dataset criblio_search_dataset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4052,8 +4052,8 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_dataset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

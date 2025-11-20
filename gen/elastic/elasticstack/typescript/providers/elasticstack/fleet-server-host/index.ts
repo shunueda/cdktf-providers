@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,37 @@ export interface FleetServerHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host#default FleetServerHost#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host#default FleetServerHost#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the Fleet server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host#host_id FleetServerHost#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host#host_id FleetServerHost#host_id}
   */
   readonly hostId?: string;
   /**
   * A list of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host#hosts FleetServerHost#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host#hosts FleetServerHost#hosts}
   */
   readonly hosts: string[];
   /**
   * The name of the Fleet server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host#name FleetServerHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host#name FleetServerHost#name}
   */
   readonly name: string;
+  /**
+  * The Kibana space IDs where this server host is available. When set, the server host will be created and managed within the specified space. Note: The order of space IDs does not matter as this is a set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host#space_ids FleetServerHost#space_ids}
+  */
+  readonly spaceIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host elasticstack_fleet_server_host}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host elasticstack_fleet_server_host}
 */
 export class FleetServerHost extends cdktf.TerraformResource {
 
@@ -50,7 +56,7 @@ export class FleetServerHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetServerHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetServerHost to import
-  * @param importFromId The id of the existing FleetServerHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetServerHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetServerHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +68,7 @@ export class FleetServerHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_server_host elasticstack_fleet_server_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_server_host elasticstack_fleet_server_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +79,8 @@ export class FleetServerHost extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_fleet_server_host',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -88,6 +94,7 @@ export class FleetServerHost extends cdktf.TerraformResource {
     this._hostId = config.hostId;
     this._hosts = config.hosts;
     this._name = config.name;
+    this._spaceIds = config.spaceIds;
   }
 
   // ==========
@@ -157,6 +164,22 @@ export class FleetServerHost extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // space_ids - computed: true, optional: true, required: false
+  private _spaceIds?: string[]; 
+  public get spaceIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('space_ids'));
+  }
+  public set spaceIds(value: string[]) {
+    this._spaceIds = value;
+  }
+  public resetSpaceIds() {
+    this._spaceIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spaceIdsInput() {
+    return this._spaceIds;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -167,6 +190,7 @@ export class FleetServerHost extends cdktf.TerraformResource {
       host_id: cdktf.stringToTerraform(this._hostId),
       hosts: cdktf.listMapper(cdktf.stringToTerraform, false)(this._hosts),
       name: cdktf.stringToTerraform(this._name),
+      space_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spaceIds),
     };
   }
 
@@ -195,6 +219,12 @@ export class FleetServerHost extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      space_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._spaceIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
     };
 

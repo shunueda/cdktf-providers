@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataElasticstackKibanaActionConnectorConfig extends cdktf.Terra
   /**
   * The ID of the connector type, e.g. `.index`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector#connector_type_id DataElasticstackKibanaActionConnector#connector_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector#connector_type_id DataElasticstackKibanaActionConnector#connector_type_id}
   */
   readonly connectorTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector#id DataElasticstackKibanaActionConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector#id DataElasticstackKibanaActionConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataElasticstackKibanaActionConnectorConfig extends cdktf.Terra
   /**
   * The name of the connector. While this name does not have to be unique, a distinctive name can help you identify a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector#name DataElasticstackKibanaActionConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector#name DataElasticstackKibanaActionConnector#name}
   */
   readonly name: string;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector#space_id DataElasticstackKibanaActionConnector#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector#space_id DataElasticstackKibanaActionConnector#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector elasticstack_kibana_action_connector}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector elasticstack_kibana_action_connector}
 */
 export class DataElasticstackKibanaActionConnector extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataElasticstackKibanaActionConnector extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataElasticstackKibanaActionConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackKibanaActionConnector to import
-  * @param importFromId The id of the existing DataElasticstackKibanaActionConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackKibanaActionConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackKibanaActionConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataElasticstackKibanaActionConnector extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/kibana_action_connector elasticstack_kibana_action_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/kibana_action_connector elasticstack_kibana_action_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataElasticstackKibanaActionConnector extends cdktf.TerraformDataSo
       terraformResourceType: 'elasticstack_kibana_action_connector',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

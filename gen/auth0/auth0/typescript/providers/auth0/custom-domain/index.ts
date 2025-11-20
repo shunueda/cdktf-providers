@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CustomDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * The HTTP header to fetch the client's IP address. Cannot be set on auth0_managed domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#custom_client_ip_header CustomDomain#custom_client_ip_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#custom_client_ip_header CustomDomain#custom_client_ip_header}
   */
   readonly customClientIpHeader?: string;
   /**
   * Name of the custom domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#domain CustomDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#domain CustomDomain#domain}
   */
   readonly domain: string;
   /**
-  * Metadata associated with the Custom Domain. Maximum of 10 metadata properties allowed.
+  * Metadata associated with the Custom Domain. Maximum of 10 metadata properties allowed. (EA only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#domain_metadata CustomDomain#domain_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#domain_metadata CustomDomain#domain_metadata}
   */
   readonly domainMetadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#id CustomDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#id CustomDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface CustomDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * TLS policy for the custom domain. Available options are: `compatible` or `recommended`. Compatible includes TLS 1.0, 1.1, 1.2, and recommended only includes TLS 1.2. Cannot be set on self_managed domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#tls_policy CustomDomain#tls_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#tls_policy CustomDomain#tls_policy}
   */
   readonly tlsPolicy?: string;
   /**
   * Provisioning type for the custom domain. Options include `auth0_managed_certs` and `self_managed_certs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#type CustomDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#type CustomDomain#type}
   */
   readonly type: string;
 }
@@ -228,7 +228,7 @@ export class CustomDomainVerificationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain auth0_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain auth0_custom_domain}
 */
 export class CustomDomain extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class CustomDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomDomain to import
-  * @param importFromId The id of the existing CustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class CustomDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/custom_domain auth0_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain auth0_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class CustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

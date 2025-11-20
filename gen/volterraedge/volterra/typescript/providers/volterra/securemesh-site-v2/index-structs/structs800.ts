@@ -1,531 +1,56 @@
 import * as cdktf from 'cdktf';
-import { SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterface,
-securemeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceToTerraform,
-securemeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceToHclTerraform,
-SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceOutputReference,
-SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterface,
-securemeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceToTerraform,
-securemeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform,
-SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceOutputReference } from './structs400'
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct {
+import { SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToTerraform,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToHclTerraform,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListBondInterface,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceToTerraform,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceToHclTerraform,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceOutputReference,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServer,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerToTerraform,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerToHclTerraform,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerOutputReference,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterface,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceToTerraform,
+securemeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform,
+SecuremeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceOutputReference,
+SecuremeshSiteV2GcpManaged,
+securemeshSiteV2GcpManagedToTerraform,
+securemeshSiteV2GcpManagedToHclTerraform,
+SecuremeshSiteV2GcpManagedOutputReference } from './structs400'
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dns_list SecuremeshSiteV2#dns_list}
-  */
-  readonly dnsList: string[];
-}
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    dns_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dnsList),
-  }
-}
-
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    dns_list: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dnsList),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._dnsList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dnsList = this._dnsList;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._dnsList = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._dnsList = value.dnsList;
-    }
-  }
-
-  // dns_list - computed: false, optional: false, required: true
-  private _dnsList?: string[]; 
-  public get dnsList() {
-    return this.getListAttribute('dns_list');
-  }
-  public set dnsList(value: string[]) {
-    this._dnsList = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dnsListInput() {
-    return this._dnsList;
-  }
-}
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#configured_address SecuremeshSiteV2#configured_address}
-  */
-  readonly configuredAddress?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
-  */
-  readonly firstAddress?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
-  */
-  readonly lastAddress?: boolean | cdktf.IResolvable;
-}
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    configured_address: cdktf.stringToTerraform(struct!.configuredAddress),
-    first_address: cdktf.booleanToTerraform(struct!.firstAddress),
-    last_address: cdktf.booleanToTerraform(struct!.lastAddress),
-  }
-}
-
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    configured_address: {
-      value: cdktf.stringToHclTerraform(struct!.configuredAddress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    first_address: {
-      value: cdktf.booleanToHclTerraform(struct!.firstAddress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    last_address: {
-      value: cdktf.booleanToHclTerraform(struct!.lastAddress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._configuredAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.configuredAddress = this._configuredAddress;
-    }
-    if (this._firstAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.firstAddress = this._firstAddress;
-    }
-    if (this._lastAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.lastAddress = this._lastAddress;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._configuredAddress = undefined;
-      this._firstAddress = undefined;
-      this._lastAddress = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._configuredAddress = value.configuredAddress;
-      this._firstAddress = value.firstAddress;
-      this._lastAddress = value.lastAddress;
-    }
-  }
-
-  // configured_address - computed: false, optional: true, required: false
-  private _configuredAddress?: string; 
-  public get configuredAddress() {
-    return this.getStringAttribute('configured_address');
-  }
-  public set configuredAddress(value: string) {
-    this._configuredAddress = value;
-  }
-  public resetConfiguredAddress() {
-    this._configuredAddress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get configuredAddressInput() {
-    return this._configuredAddress;
-  }
-
-  // first_address - computed: false, optional: true, required: false
-  private _firstAddress?: boolean | cdktf.IResolvable; 
-  public get firstAddress() {
-    return this.getBooleanAttribute('first_address');
-  }
-  public set firstAddress(value: boolean | cdktf.IResolvable) {
-    this._firstAddress = value;
-  }
-  public resetFirstAddress() {
-    this._firstAddress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get firstAddressInput() {
-    return this._firstAddress;
-  }
-
-  // last_address - computed: false, optional: true, required: false
-  private _lastAddress?: boolean | cdktf.IResolvable; 
-  public get lastAddress() {
-    return this.getBooleanAttribute('last_address');
-  }
-  public set lastAddress(value: boolean | cdktf.IResolvable) {
-    this._lastAddress = value;
-  }
-  public resetLastAddress() {
-    this._lastAddress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get lastAddressInput() {
-    return this._lastAddress;
-  }
-}
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig {
-  /**
-  * configured_list block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#configured_list SecuremeshSiteV2#configured_list}
-  */
-  readonly configuredList?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct;
-  /**
-  * local_dns block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#local_dns SecuremeshSiteV2#local_dns}
-  */
-  readonly localDns?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns;
-}
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    configured_list: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct!.configuredList),
-    local_dns: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct!.localDns),
-  }
-}
-
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    configured_list: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct!.configuredList),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructList",
-    },
-    local_dns: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct!.localDns),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._configuredList?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.configuredList = this._configuredList?.internalValue;
-    }
-    if (this._localDns?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.localDns = this._localDns?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._configuredList.internalValue = undefined;
-      this._localDns.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._configuredList.internalValue = value.configuredList;
-      this._localDns.internalValue = value.localDns;
-    }
-  }
-
-  // configured_list - computed: false, optional: true, required: false
-  private _configuredList = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference(this, "configured_list");
-  public get configuredList() {
-    return this._configuredList;
-  }
-  public putConfiguredList(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct) {
-    this._configuredList.internalValue = value;
-  }
-  public resetConfiguredList() {
-    this._configuredList.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get configuredListInput() {
-    return this._configuredList.internalValue;
-  }
-
-  // local_dns - computed: false, optional: true, required: false
-  private _localDns = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference(this, "local_dns");
-  public get localDns() {
-    return this._localDns;
-  }
-  public putLocalDns(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns) {
-    this._localDns.internalValue = value;
-  }
-  public resetLocalDns() {
-    this._localDns.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get localDnsInput() {
-    return this._localDns.internalValue;
-  }
-}
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
-  */
-  readonly endIp?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
-  */
-  readonly startIp?: string;
-}
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    end_ip: cdktf.stringToTerraform(struct!.endIp),
-    start_ip: cdktf.stringToTerraform(struct!.startIp),
-  }
-}
-
-
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    end_ip: {
-      value: cdktf.stringToHclTerraform(struct!.endIp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_ip: {
-      value: cdktf.stringToHclTerraform(struct!.startIp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._endIp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endIp = this._endIp;
-    }
-    if (this._startIp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startIp = this._startIp;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._endIp = undefined;
-      this._startIp = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._endIp = value.endIp;
-      this._startIp = value.startIp;
-    }
-  }
-
-  // end_ip - computed: false, optional: true, required: false
-  private _endIp?: string; 
-  public get endIp() {
-    return this.getStringAttribute('end_ip');
-  }
-  public set endIp(value: string) {
-    this._endIp = value;
-  }
-  public resetEndIp() {
-    this._endIp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endIpInput() {
-    return this._endIp;
-  }
-
-  // start_ip - computed: false, optional: true, required: false
-  private _startIp?: string; 
-  public get startIp() {
-    return this.getStringAttribute('start_ip');
-  }
-  public set startIp(value: string) {
-    this._startIp = value;
-  }
-  public resetStartIp() {
-    this._startIp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startIpInput() {
-    return this._startIp;
-  }
-}
-
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference {
-    return new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
   */
   readonly poolSettings: string;
   /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator;
+  /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
   */
-  readonly pools?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
+  readonly pools?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -533,12 +58,13 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
   return {
     network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
     pool_settings: cdktf.stringToTerraform(struct!.poolSettings),
-    pools: cdktf.listMapper(securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform, true)(struct!.pools),
+    network_prefix_allocator: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+    pools: cdktf.listMapper(securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform, true)(struct!.pools),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -556,11 +82,17 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
       type: "simple",
       storageClassType: "string",
     },
-    pools: {
-      value: cdktf.listMapperHcl(securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+    network_prefix_allocator: {
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorList",
+    },
+    pools: {
+      value: cdktf.listMapperHcl(securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList",
     },
   };
 
@@ -568,7 +100,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -582,7 +114,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -596,6 +128,10 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
       hasAnyValues = true;
       internalValueResult.poolSettings = this._poolSettings;
     }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
     if (this._pools?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.pools = this._pools?.internalValue;
@@ -603,12 +139,13 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._networkPrefix = undefined;
       this._poolSettings = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
       this._pools.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -620,6 +157,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
       this.resolvableValue = undefined;
       this._networkPrefix = value.networkPrefix;
       this._poolSettings = value.poolSettings;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
       this._pools.internalValue = value.pools;
     }
   }
@@ -653,12 +191,28 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return this._poolSettings;
   }
 
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+
   // pools - computed: false, optional: true, required: false
-  private _pools = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList(this, "pools", false);
+  private _pools = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList(this, "pools", false);
   public get pools() {
     return this._pools;
   }
-  public putPools(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable) {
+  public putPools(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable) {
     this._pools.internalValue = value;
   }
   public resetPools() {
@@ -670,8 +224,8 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   }
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -685,18 +239,18 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference {
-    return new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference {
+    return new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -707,7 +261,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -725,7 +279,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -736,7 +290,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._interfaceIpMap !== undefined) {
@@ -746,7 +300,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._interfaceIpMap = undefined;
@@ -773,34 +327,34 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return this._interfaceIpMap;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
   */
-  readonly dhcpNetworks: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
+  readonly dhcpNetworks: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
   */
-  readonly interfaceIpMap?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap;
+  readonly interfaceIpMap?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -809,13 +363,13 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
     automatic_from_end: cdktf.booleanToTerraform(struct!.automaticFromEnd),
     automatic_from_start: cdktf.booleanToTerraform(struct!.automaticFromStart),
     fixed_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.fixedIpMap),
-    dhcp_networks: cdktf.listMapper(securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
-    interface_ip_map: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+    dhcp_networks: cdktf.listMapper(securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
+    interface_ip_map: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct!.interfaceIpMap),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -840,16 +394,16 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
       storageClassType: "stringMap",
     },
     dhcp_networks: {
-      value: cdktf.listMapperHcl(securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
+      value: cdktf.listMapperHcl(securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList",
     },
     interface_ip_map: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapList",
     },
   };
 
@@ -857,7 +411,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -868,7 +422,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._automaticFromEnd !== undefined) {
@@ -894,7 +448,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._automaticFromEnd = undefined;
@@ -962,11 +516,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   }
 
   // dhcp_networks - computed: false, optional: false, required: true
-  private _dhcpNetworks = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList(this, "dhcp_networks", false);
+  private _dhcpNetworks = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList(this, "dhcp_networks", false);
   public get dhcpNetworks() {
     return this._dhcpNetworks;
   }
-  public putDhcpNetworks(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable) {
+  public putDhcpNetworks(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable) {
     this._dhcpNetworks.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -975,11 +529,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   }
 
   // interface_ip_map - computed: false, optional: true, required: false
-  private _interfaceIpMap = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference(this, "interface_ip_map");
+  private _interfaceIpMap = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference(this, "interface_ip_map");
   public get interfaceIpMap() {
     return this._interfaceIpMap;
   }
-  public putInterfaceIpMap(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap) {
+  public putInterfaceIpMap(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap) {
     this._interfaceIpMap.internalValue = value;
   }
   public resetInterfaceIpMap() {
@@ -990,39 +544,39 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return this._interfaceIpMap.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dns_config SecuremeshSiteV2#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_config SecuremeshSiteV2#dns_config}
   */
-  readonly dnsConfig?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig;
+  readonly dnsConfig?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig;
   /**
   * stateful block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#stateful SecuremeshSiteV2#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#stateful SecuremeshSiteV2#stateful}
   */
-  readonly stateful?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful;
+  readonly stateful?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
-    dns_config: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct!.dnsConfig),
-    stateful: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct!.stateful),
+    dns_config: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct!.dnsConfig),
+    stateful: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct!.stateful),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1035,16 +589,16 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
       storageClassType: "string",
     },
     dns_config: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct!.dnsConfig),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct!.dnsConfig),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigList",
     },
     stateful: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct!.stateful),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct!.stateful),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulList",
     },
   };
 
@@ -1052,7 +606,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1063,7 +617,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._networkPrefix !== undefined) {
@@ -1081,7 +635,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._networkPrefix = undefined;
@@ -1113,11 +667,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   }
 
   // dns_config - computed: false, optional: true, required: false
-  private _dnsConfig = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference(this, "dns_config");
+  private _dnsConfig = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference(this, "dns_config");
   public get dnsConfig() {
     return this._dnsConfig;
   }
-  public putDnsConfig(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig) {
+  public putDnsConfig(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig) {
     this._dnsConfig.internalValue = value;
   }
   public resetDnsConfig() {
@@ -1129,11 +683,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   }
 
   // stateful - computed: false, optional: true, required: false
-  private _stateful = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference(this, "stateful");
+  private _stateful = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference(this, "stateful");
   public get stateful() {
     return this._stateful;
   }
-  public putStateful(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful) {
+  public putStateful(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful) {
     this._stateful.internalValue = value;
   }
   public resetStateful() {
@@ -1144,32 +698,32 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return this._stateful.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#host SecuremeshSiteV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#host SecuremeshSiteV2#host}
   */
   readonly host?: boolean | cdktf.IResolvable;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#router SecuremeshSiteV2#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#router SecuremeshSiteV2#router}
   */
-  readonly router?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter;
+  readonly router?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     host: cdktf.booleanToTerraform(struct!.host),
-    router: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct!.router),
+    router: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct!.router),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1182,10 +736,10 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
       storageClassType: "boolean",
     },
     router: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct!.router),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct!.router),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterList",
     },
   };
 
@@ -1193,7 +747,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1204,7 +758,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._host !== undefined) {
@@ -1218,7 +772,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._host = undefined;
@@ -1248,11 +802,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
   }
 
   // router - computed: false, optional: true, required: false
-  private _router = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference(this, "router");
+  private _router = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference(this, "router");
   public get router() {
     return this._router;
   }
-  public putRouter(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigRouter) {
+  public putRouter(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigRouter) {
     this._router.internalValue = value;
   }
   public resetRouter() {
@@ -1263,10 +817,10 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfi
     return this._router.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor {
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListMonitorToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1276,7 +830,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorToT
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListMonitorToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1286,7 +840,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorToH
   return attrs;
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitorOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1297,13 +851,13 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorOutput
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1312,22 +866,22 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorOutput
     }
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
   */
   readonly tenant?: string;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1340,7 +894,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOpt
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1370,7 +924,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOpt
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1381,7 +935,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._name !== undefined) {
@@ -1399,7 +953,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._name = undefined;
@@ -1467,24 +1021,24 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
     return this._tenant;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_local_inside_network SecuremeshSiteV2#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_local_inside_network SecuremeshSiteV2#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_local_network SecuremeshSiteV2#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_local_network SecuremeshSiteV2#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * segment_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#segment_network SecuremeshSiteV2#segment_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#segment_network SecuremeshSiteV2#segment_network}
   */
-  readonly segmentNetwork?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork;
+  readonly segmentNetwork?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1492,12 +1046,12 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOpt
   return {
     site_local_inside_network: cdktf.booleanToTerraform(struct!.siteLocalInsideNetwork),
     site_local_network: cdktf.booleanToTerraform(struct!.siteLocalNetwork),
-    segment_network: securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct!.segmentNetwork),
+    segment_network: securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct!.segmentNetwork),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1516,10 +1070,10 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOpt
       storageClassType: "boolean",
     },
     segment_network: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct!.segmentNetwork),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct!.segmentNetwork),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkList",
     },
   };
 
@@ -1527,7 +1081,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOpt
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1538,7 +1092,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._siteLocalInsideNetwork !== undefined) {
@@ -1556,7 +1110,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._siteLocalInsideNetwork = undefined;
@@ -1604,11 +1158,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
   }
 
   // segment_network - computed: false, optional: true, required: false
-  private _segmentNetwork = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference(this, "segment_network");
+  private _segmentNetwork = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference(this, "segment_network");
   public get segmentNetwork() {
     return this._segmentNetwork;
   }
-  public putSegmentNetwork(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork) {
+  public putSegmentNetwork(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork) {
     this._segmentNetwork.internalValue = value;
   }
   public resetSegmentNetwork() {
@@ -1619,30 +1173,35 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption
     return this._segmentNetwork.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
   */
   readonly ipAddress: string;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1650,6 +1209,12 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpTo
   const attrs = {
     default_gw: {
       value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1666,7 +1231,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1677,12 +1242,16 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutpu
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._defaultGw !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
     }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
@@ -1691,15 +1260,17 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._defaultGw = undefined;
+      this._dnsServer = undefined;
       this._ipAddress = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
       this._ipAddress = value.ipAddress;
     }
   }
@@ -1720,6 +1291,22 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutpu
     return this._defaultGw;
   }
 
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
   // ip_address - computed: false, optional: false, required: true
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -1733,30 +1320,35 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutpu
     return this._ipAddress;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
   */
   readonly ipAddress: string;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1764,6 +1356,12 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   const attrs = {
     default_gw: {
       value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1780,7 +1378,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1791,12 +1389,16 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._defaultGw !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
     }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
@@ -1805,15 +1407,17 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._defaultGw = undefined;
+      this._dnsServer = undefined;
       this._ipAddress = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
       this._ipAddress = value.ipAddress;
     }
   }
@@ -1834,6 +1438,22 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._defaultGw;
   }
 
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
   // ip_address - computed: false, optional: false, required: true
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -1847,32 +1467,32 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._ipAddress;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#value SecuremeshSiteV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#value SecuremeshSiteV2#value}
   */
-  readonly value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
+  readonly value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     name: cdktf.stringToTerraform(struct!.name),
-    value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct!.value),
+    value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct!.value),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1885,10 +1505,10 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
       storageClassType: "string",
     },
     value: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct!.value),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct!.value),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueList",
     },
   };
 
@@ -1896,7 +1516,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1907,7 +1527,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._name !== undefined) {
@@ -1921,7 +1541,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._name = undefined;
@@ -1948,11 +1568,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
   }
 
   // value - computed: false, optional: false, required: true
-  private _value = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference(this, "value");
+  private _value = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference(this, "value");
   public get value() {
     return this._value;
   }
-  public putValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue) {
+  public putValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue) {
     this._value.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1960,37 +1580,37 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._value.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp {
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
   */
-  readonly interfaceIpMap?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap;
+  readonly interfaceIpMap?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    interface_ip_map: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+    interface_ip_map: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct!.interfaceIpMap),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     interface_ip_map: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapList",
     },
   };
 
@@ -1998,7 +1618,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2009,7 +1629,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._interfaceIpMap?.internalValue !== undefined) {
@@ -2019,7 +1639,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._interfaceIpMap.internalValue = undefined;
@@ -2031,11 +1651,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
   }
 
   // interface_ip_map - computed: false, optional: true, required: false
-  private _interfaceIpMap = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference(this, "interface_ip_map");
+  private _interfaceIpMap = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference(this, "interface_ip_map");
   public get interfaceIpMap() {
     return this._interfaceIpMap;
   }
-  public putInterfaceIpMap(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap) {
+  public putInterfaceIpMap(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap) {
     this._interfaceIpMap.internalValue = value;
   }
   public resetInterfaceIpMap() {
@@ -2046,30 +1666,187 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._interfaceIpMap.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
   */
-  readonly ipAddress: string;
+  readonly dnsServer?: string;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     default_gw: cdktf.stringToTerraform(struct!.defaultGw),
-    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    network_prefix_allocator: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2077,6 +1854,162 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   const attrs = {
     default_gw: {
       value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultGw = undefined;
+      this._dnsServer = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+    }
+  }
+
+  // default_gw - computed: false, optional: true, required: false
+  private _defaultGw?: string; 
+  public get defaultGw() {
+    return this.getStringAttribute('default_gw');
+  }
+  public set defaultGw(value: string) {
+    this._defaultGw = value;
+  }
+  public resetDefaultGw() {
+    this._defaultGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGwInput() {
+    return this._defaultGw;
+  }
+
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+}
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  */
+  readonly defaultGw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress: string;
+}
+
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+  }
+}
+
+
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_gw: {
+      value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2093,7 +2026,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2104,12 +2037,16 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._defaultGw !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
     }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
@@ -2118,15 +2055,17 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._defaultGw = undefined;
+      this._dnsServer = undefined;
       this._ipAddress = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
       this._ipAddress = value.ipAddress;
     }
   }
@@ -2147,6 +2086,22 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._defaultGw;
   }
 
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
   // ip_address - computed: false, optional: false, required: true
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -2160,50 +2115,63 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._ipAddress;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address {
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#cluster_static_ip SecuremeshSiteV2#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#cluster_static_ip SecuremeshSiteV2#cluster_static_ip}
   */
-  readonly clusterStaticIp?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp;
+  readonly clusterStaticIp?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp;
+  /**
+  * fleet_static_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fleet_static_ip SecuremeshSiteV2#fleet_static_ip}
+  */
+  readonly fleetStaticIp?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#node_static_ip SecuremeshSiteV2#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_static_ip SecuremeshSiteV2#node_static_ip}
   */
-  readonly nodeStaticIp?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp;
+  readonly nodeStaticIp?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_static_ip: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct!.clusterStaticIp),
-    node_static_ip: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct!.nodeStaticIp),
+    cluster_static_ip: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct!.clusterStaticIp),
+    fleet_static_ip: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToTerraform(struct!.fleetStaticIp),
+    node_static_ip: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct!.nodeStaticIp),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_static_ip: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct!.clusterStaticIp),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct!.clusterStaticIp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpList",
+    },
+    fleet_static_ip: {
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToHclTerraform(struct!.fleetStaticIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpList",
     },
     node_static_ip: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct!.nodeStaticIp),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct!.nodeStaticIp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpList",
     },
   };
 
@@ -2211,7 +2179,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2222,12 +2190,16 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._clusterStaticIp?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clusterStaticIp = this._clusterStaticIp?.internalValue;
+    }
+    if (this._fleetStaticIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fleetStaticIp = this._fleetStaticIp?.internalValue;
     }
     if (this._nodeStaticIp?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2236,25 +2208,27 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._clusterStaticIp.internalValue = undefined;
+      this._fleetStaticIp.internalValue = undefined;
       this._nodeStaticIp.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._clusterStaticIp.internalValue = value.clusterStaticIp;
+      this._fleetStaticIp.internalValue = value.fleetStaticIp;
       this._nodeStaticIp.internalValue = value.nodeStaticIp;
     }
   }
 
   // cluster_static_ip - computed: false, optional: true, required: false
-  private _clusterStaticIp = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference(this, "cluster_static_ip");
+  private _clusterStaticIp = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference(this, "cluster_static_ip");
   public get clusterStaticIp() {
     return this._clusterStaticIp;
   }
-  public putClusterStaticIp(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp) {
+  public putClusterStaticIp(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp) {
     this._clusterStaticIp.internalValue = value;
   }
   public resetClusterStaticIp() {
@@ -2265,12 +2239,28 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._clusterStaticIp.internalValue;
   }
 
+  // fleet_static_ip - computed: false, optional: true, required: false
+  private _fleetStaticIp = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference(this, "fleet_static_ip");
+  public get fleetStaticIp() {
+    return this._fleetStaticIp;
+  }
+  public putFleetStaticIp(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp) {
+    this._fleetStaticIp.internalValue = value;
+  }
+  public resetFleetStaticIp() {
+    this._fleetStaticIp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fleetStaticIpInput() {
+    return this._fleetStaticIp.internalValue;
+  }
+
   // node_static_ip - computed: false, optional: true, required: false
-  private _nodeStaticIp = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference(this, "node_static_ip");
+  private _nodeStaticIp = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference(this, "node_static_ip");
   public get nodeStaticIp() {
     return this._nodeStaticIp;
   }
-  public putNodeStaticIp(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp) {
+  public putNodeStaticIp(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp) {
     this._nodeStaticIp.internalValue = value;
   }
   public resetNodeStaticIp() {
@@ -2281,18 +2271,18 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Add
     return this._nodeStaticIp.internalValue;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#vlan_id SecuremeshSiteV2#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vlan_id SecuremeshSiteV2#vlan_id}
   */
   readonly vlanId?: number;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2304,7 +2294,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterf
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2328,7 +2318,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2339,7 +2329,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._device !== undefined) {
@@ -2353,7 +2343,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._device = undefined;
@@ -2395,102 +2385,116 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface
     return this._vlanId;
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct {
+export interface SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dhcp_client SecuremeshSiteV2#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_client SecuremeshSiteV2#dhcp_client}
   */
   readonly dhcpClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#is_management SecuremeshSiteV2#is_management}
+  */
+  readonly isManagement?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#is_primary SecuremeshSiteV2#is_primary}
+  */
+  readonly isPrimary?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#monitor_disabled SecuremeshSiteV2#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#monitor_disabled SecuremeshSiteV2#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#mtu SecuremeshSiteV2#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#mtu SecuremeshSiteV2#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#no_ipv4_address SecuremeshSiteV2#no_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_ipv4_address SecuremeshSiteV2#no_ipv4_address}
   */
   readonly noIpv4Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#no_ipv6_address SecuremeshSiteV2#no_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_ipv6_address SecuremeshSiteV2#no_ipv6_address}
   */
   readonly noIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#priority SecuremeshSiteV2#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#priority SecuremeshSiteV2#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_disabled SecuremeshSiteV2#site_to_site_connectivity_interface_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_disabled SecuremeshSiteV2#site_to_site_connectivity_interface_disabled}
   */
   readonly siteToSiteConnectivityInterfaceDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_enabled SecuremeshSiteV2#site_to_site_connectivity_interface_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_enabled SecuremeshSiteV2#site_to_site_connectivity_interface_enabled}
   */
   readonly siteToSiteConnectivityInterfaceEnabled?: boolean | cdktf.IResolvable;
   /**
   * bond_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#bond_interface SecuremeshSiteV2#bond_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#bond_interface SecuremeshSiteV2#bond_interface}
   */
-  readonly bondInterface?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterface;
+  readonly bondInterface?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListBondInterface;
+  /**
+  * dhcp_server block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_server SecuremeshSiteV2#dhcp_server}
+  */
+  readonly dhcpServer?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServer;
   /**
   * ethernet_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ethernet_interface SecuremeshSiteV2#ethernet_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ethernet_interface SecuremeshSiteV2#ethernet_interface}
   */
-  readonly ethernetInterface?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterface;
+  readonly ethernetInterface?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterface;
   /**
   * ipv6_auto_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ipv6_auto_config SecuremeshSiteV2#ipv6_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ipv6_auto_config SecuremeshSiteV2#ipv6_auto_config}
   */
-  readonly ipv6AutoConfig?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig;
+  readonly ipv6AutoConfig?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#monitor SecuremeshSiteV2#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#monitor SecuremeshSiteV2#monitor}
   */
-  readonly monitor?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor;
+  readonly monitor?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor;
   /**
   * network_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#network_option SecuremeshSiteV2#network_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_option SecuremeshSiteV2#network_option}
   */
-  readonly networkOption: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption;
+  readonly networkOption: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#static_ip SecuremeshSiteV2#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_ip SecuremeshSiteV2#static_ip}
   */
-  readonly staticIp?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp;
+  readonly staticIp?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp;
   /**
   * static_ipv6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#static_ipv6_address SecuremeshSiteV2#static_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_ipv6_address SecuremeshSiteV2#static_ipv6_address}
   */
-  readonly staticIpv6Address?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address;
+  readonly staticIpv6Address?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address;
   /**
   * vlan_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#vlan_interface SecuremeshSiteV2#vlan_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vlan_interface SecuremeshSiteV2#vlan_interface}
   */
-  readonly vlanInterface?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface;
+  readonly vlanInterface?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStructToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2498,6 +2502,8 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToTe
   return {
     description: cdktf.stringToTerraform(struct!.description),
     dhcp_client: cdktf.booleanToTerraform(struct!.dhcpClient),
+    is_management: cdktf.booleanToTerraform(struct!.isManagement),
+    is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
     labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
     monitor_disabled: cdktf.booleanToTerraform(struct!.monitorDisabled),
     mtu: cdktf.numberToTerraform(struct!.mtu),
@@ -2507,19 +2513,20 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToTe
     priority: cdktf.numberToTerraform(struct!.priority),
     site_to_site_connectivity_interface_disabled: cdktf.booleanToTerraform(struct!.siteToSiteConnectivityInterfaceDisabled),
     site_to_site_connectivity_interface_enabled: cdktf.booleanToTerraform(struct!.siteToSiteConnectivityInterfaceEnabled),
-    bond_interface: securemeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct!.bondInterface),
-    ethernet_interface: securemeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct!.ethernetInterface),
-    ipv6_auto_config: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct!.ipv6AutoConfig),
-    monitor: securemeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorToTerraform(struct!.monitor),
-    network_option: securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct!.networkOption),
-    static_ip: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpToTerraform(struct!.staticIp),
-    static_ipv6_address: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct!.staticIpv6Address),
-    vlan_interface: securemeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct!.vlanInterface),
+    bond_interface: securemeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct!.bondInterface),
+    dhcp_server: securemeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerToTerraform(struct!.dhcpServer),
+    ethernet_interface: securemeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct!.ethernetInterface),
+    ipv6_auto_config: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct!.ipv6AutoConfig),
+    monitor: securemeshSiteV2GcpNotManagedNodeListInterfaceListMonitorToTerraform(struct!.monitor),
+    network_option: securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct!.networkOption),
+    static_ip: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpToTerraform(struct!.staticIp),
+    static_ipv6_address: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct!.staticIpv6Address),
+    vlan_interface: securemeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct!.vlanInterface),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2GcpNotManagedNodeListInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2533,6 +2540,18 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToHc
     },
     dhcp_client: {
       value: cdktf.booleanToHclTerraform(struct!.dhcpClient),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_management: {
+      value: cdktf.booleanToHclTerraform(struct!.isManagement),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_primary: {
+      value: cdktf.booleanToHclTerraform(struct!.isPrimary),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2592,52 +2611,58 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToHc
       storageClassType: "boolean",
     },
     bond_interface: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct!.bondInterface),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct!.bondInterface),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceList",
+    },
+    dhcp_server: {
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerToHclTerraform(struct!.dhcpServer),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerList",
     },
     ethernet_interface: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct!.ethernetInterface),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct!.ethernetInterface),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceList",
     },
     ipv6_auto_config: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct!.ipv6AutoConfig),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct!.ipv6AutoConfig),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigList",
     },
     monitor: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorToHclTerraform(struct!.monitor),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListMonitorToHclTerraform(struct!.monitor),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitorList",
     },
     network_option: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct!.networkOption),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct!.networkOption),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionList",
     },
     static_ip: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct!.staticIp),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct!.staticIp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpList",
     },
     static_ipv6_address: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct!.staticIpv6Address),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct!.staticIpv6Address),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressList",
     },
     vlan_interface: {
-      value: securemeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct!.vlanInterface),
+      value: securemeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct!.vlanInterface),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceList",
     },
   };
 
@@ -2645,7 +2670,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -2659,7 +2684,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2672,6 +2697,14 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
     if (this._dhcpClient !== undefined) {
       hasAnyValues = true;
       internalValueResult.dhcpClient = this._dhcpClient;
+    }
+    if (this._isManagement !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isManagement = this._isManagement;
+    }
+    if (this._isPrimary !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrimary = this._isPrimary;
     }
     if (this._labels !== undefined) {
       hasAnyValues = true;
@@ -2713,6 +2746,10 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
       hasAnyValues = true;
       internalValueResult.bondInterface = this._bondInterface?.internalValue;
     }
+    if (this._dhcpServer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpServer = this._dhcpServer?.internalValue;
+    }
     if (this._ethernetInterface?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.ethernetInterface = this._ethernetInterface?.internalValue;
@@ -2744,12 +2781,14 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._description = undefined;
       this._dhcpClient = undefined;
+      this._isManagement = undefined;
+      this._isPrimary = undefined;
       this._labels = undefined;
       this._monitorDisabled = undefined;
       this._mtu = undefined;
@@ -2760,6 +2799,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
       this._siteToSiteConnectivityInterfaceDisabled = undefined;
       this._siteToSiteConnectivityInterfaceEnabled = undefined;
       this._bondInterface.internalValue = undefined;
+      this._dhcpServer.internalValue = undefined;
       this._ethernetInterface.internalValue = undefined;
       this._ipv6AutoConfig.internalValue = undefined;
       this._monitor.internalValue = undefined;
@@ -2777,6 +2817,8 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
       this.resolvableValue = undefined;
       this._description = value.description;
       this._dhcpClient = value.dhcpClient;
+      this._isManagement = value.isManagement;
+      this._isPrimary = value.isPrimary;
       this._labels = value.labels;
       this._monitorDisabled = value.monitorDisabled;
       this._mtu = value.mtu;
@@ -2787,6 +2829,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
       this._siteToSiteConnectivityInterfaceDisabled = value.siteToSiteConnectivityInterfaceDisabled;
       this._siteToSiteConnectivityInterfaceEnabled = value.siteToSiteConnectivityInterfaceEnabled;
       this._bondInterface.internalValue = value.bondInterface;
+      this._dhcpServer.internalValue = value.dhcpServer;
       this._ethernetInterface.internalValue = value.ethernetInterface;
       this._ipv6AutoConfig.internalValue = value.ipv6AutoConfig;
       this._monitor.internalValue = value.monitor;
@@ -2827,6 +2870,38 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   // Temporarily expose input value. Use with caution.
   public get dhcpClientInput() {
     return this._dhcpClient;
+  }
+
+  // is_management - computed: false, optional: true, required: false
+  private _isManagement?: boolean | cdktf.IResolvable; 
+  public get isManagement() {
+    return this.getBooleanAttribute('is_management');
+  }
+  public set isManagement(value: boolean | cdktf.IResolvable) {
+    this._isManagement = value;
+  }
+  public resetIsManagement() {
+    this._isManagement = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isManagementInput() {
+    return this._isManagement;
+  }
+
+  // is_primary - computed: false, optional: true, required: false
+  private _isPrimary?: boolean | cdktf.IResolvable; 
+  public get isPrimary() {
+    return this.getBooleanAttribute('is_primary');
+  }
+  public set isPrimary(value: boolean | cdktf.IResolvable) {
+    this._isPrimary = value;
+  }
+  public resetIsPrimary() {
+    this._isPrimary = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrimaryInput() {
+    return this._isPrimary;
   }
 
   // labels - computed: false, optional: true, required: false
@@ -2974,11 +3049,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // bond_interface - computed: false, optional: true, required: false
-  private _bondInterface = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterfaceOutputReference(this, "bond_interface");
+  private _bondInterface = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListBondInterfaceOutputReference(this, "bond_interface");
   public get bondInterface() {
     return this._bondInterface;
   }
-  public putBondInterface(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListBondInterface) {
+  public putBondInterface(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListBondInterface) {
     this._bondInterface.internalValue = value;
   }
   public resetBondInterface() {
@@ -2989,12 +3064,28 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
     return this._bondInterface.internalValue;
   }
 
+  // dhcp_server - computed: false, optional: true, required: false
+  private _dhcpServer = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServerOutputReference(this, "dhcp_server");
+  public get dhcpServer() {
+    return this._dhcpServer;
+  }
+  public putDhcpServer(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListDhcpServer) {
+    this._dhcpServer.internalValue = value;
+  }
+  public resetDhcpServer() {
+    this._dhcpServer.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpServerInput() {
+    return this._dhcpServer.internalValue;
+  }
+
   // ethernet_interface - computed: false, optional: true, required: false
-  private _ethernetInterface = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterfaceOutputReference(this, "ethernet_interface");
+  private _ethernetInterface = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterfaceOutputReference(this, "ethernet_interface");
   public get ethernetInterface() {
     return this._ethernetInterface;
   }
-  public putEthernetInterface(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListEthernetInterface) {
+  public putEthernetInterface(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListEthernetInterface) {
     this._ethernetInterface.internalValue = value;
   }
   public resetEthernetInterface() {
@@ -3006,11 +3097,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // ipv6_auto_config - computed: false, optional: true, required: false
-  private _ipv6AutoConfig = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference(this, "ipv6_auto_config");
+  private _ipv6AutoConfig = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference(this, "ipv6_auto_config");
   public get ipv6AutoConfig() {
     return this._ipv6AutoConfig;
   }
-  public putIpv6AutoConfig(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListIpv6AutoConfig) {
+  public putIpv6AutoConfig(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListIpv6AutoConfig) {
     this._ipv6AutoConfig.internalValue = value;
   }
   public resetIpv6AutoConfig() {
@@ -3022,11 +3113,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // monitor - computed: false, optional: true, required: false
-  private _monitor = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitorOutputReference(this, "monitor");
+  private _monitor = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitorOutputReference(this, "monitor");
   public get monitor() {
     return this._monitor;
   }
-  public putMonitor(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListMonitor) {
+  public putMonitor(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListMonitor) {
     this._monitor.internalValue = value;
   }
   public resetMonitor() {
@@ -3038,11 +3129,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // network_option - computed: false, optional: false, required: true
-  private _networkOption = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOptionOutputReference(this, "network_option");
+  private _networkOption = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOptionOutputReference(this, "network_option");
   public get networkOption() {
     return this._networkOption;
   }
-  public putNetworkOption(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListNetworkOption) {
+  public putNetworkOption(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListNetworkOption) {
     this._networkOption.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -3051,11 +3142,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // static_ip - computed: false, optional: true, required: false
-  private _staticIp = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpOutputReference(this, "static_ip");
+  private _staticIp = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpOutputReference(this, "static_ip");
   public get staticIp() {
     return this._staticIp;
   }
-  public putStaticIp(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIp) {
+  public putStaticIp(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIp) {
     this._staticIp.internalValue = value;
   }
   public resetStaticIp() {
@@ -3067,11 +3158,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // static_ipv6_address - computed: false, optional: true, required: false
-  private _staticIpv6Address = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference(this, "static_ipv6_address");
+  private _staticIpv6Address = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference(this, "static_ipv6_address");
   public get staticIpv6Address() {
     return this._staticIpv6Address;
   }
-  public putStaticIpv6Address(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStaticIpv6Address) {
+  public putStaticIpv6Address(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStaticIpv6Address) {
     this._staticIpv6Address.internalValue = value;
   }
   public resetStaticIpv6Address() {
@@ -3083,11 +3174,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 
   // vlan_interface - computed: false, optional: true, required: false
-  private _vlanInterface = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterfaceOutputReference(this, "vlan_interface");
+  private _vlanInterface = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterfaceOutputReference(this, "vlan_interface");
   public get vlanInterface() {
     return this._vlanInterface;
   }
-  public putVlanInterface(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListVlanInterface) {
+  public putVlanInterface(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListVlanInterface) {
     this._vlanInterface.internalValue = value;
   }
   public resetVlanInterface() {
@@ -3099,8 +3190,8 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputR
   }
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable
+export class SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -3114,32 +3205,32 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructList ex
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputReference {
-    return new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2RseriesNotManagedNodeListStruct {
+export interface SecuremeshSiteV2GcpNotManagedNodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#hostname SecuremeshSiteV2#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#hostname SecuremeshSiteV2#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#public_ip SecuremeshSiteV2#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#public_ip SecuremeshSiteV2#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#type SecuremeshSiteV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#type SecuremeshSiteV2#type}
   */
   readonly type?: string;
   /**
   * interface_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_list SecuremeshSiteV2#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_list SecuremeshSiteV2#interface_list}
   */
-  readonly interfaceList?: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable;
+  readonly interfaceList?: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2RseriesNotManagedNodeListStructToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2GcpNotManagedNodeListStructToTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3148,12 +3239,12 @@ export function securemeshSiteV2RseriesNotManagedNodeListStructToTerraform(struc
     hostname: cdktf.stringToTerraform(struct!.hostname),
     public_ip: cdktf.stringToTerraform(struct!.publicIp),
     type: cdktf.stringToTerraform(struct!.type),
-    interface_list: cdktf.listMapper(securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToTerraform, true)(struct!.interfaceList),
+    interface_list: cdktf.listMapper(securemeshSiteV2GcpNotManagedNodeListInterfaceListStructToTerraform, true)(struct!.interfaceList),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedNodeListStructToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedNodeListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2GcpNotManagedNodeListStructToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedNodeListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3178,10 +3269,10 @@ export function securemeshSiteV2RseriesNotManagedNodeListStructToHclTerraform(st
       storageClassType: "string",
     },
     interface_list: {
-      value: cdktf.listMapperHcl(securemeshSiteV2RseriesNotManagedNodeListInterfaceListStructToHclTerraform, true)(struct!.interfaceList),
+      value: cdktf.listMapperHcl(securemeshSiteV2GcpNotManagedNodeListInterfaceListStructToHclTerraform, true)(struct!.interfaceList),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStructList",
     },
   };
 
@@ -3189,7 +3280,7 @@ export function securemeshSiteV2RseriesNotManagedNodeListStructToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedNodeListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -3203,7 +3294,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference exte
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManagedNodeListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManagedNodeListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3228,7 +3319,7 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManagedNodeListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManagedNodeListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3300,11 +3391,11 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference exte
   }
 
   // interface_list - computed: false, optional: true, required: false
-  private _interfaceList = new SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStructList(this, "interface_list", false);
+  private _interfaceList = new SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStructList(this, "interface_list", false);
   public get interfaceList() {
     return this._interfaceList;
   }
-  public putInterfaceList(value: SecuremeshSiteV2RseriesNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable) {
+  public putInterfaceList(value: SecuremeshSiteV2GcpNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable) {
     this._interfaceList.internalValue = value;
   }
   public resetInterfaceList() {
@@ -3316,8 +3407,8 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference exte
   }
 }
 
-export class SecuremeshSiteV2RseriesNotManagedNodeListStructList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2RseriesNotManagedNodeListStruct[] | cdktf.IResolvable
+export class SecuremeshSiteV2GcpNotManagedNodeListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2GcpNotManagedNodeListStruct[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -3331,41 +3422,41 @@ export class SecuremeshSiteV2RseriesNotManagedNodeListStructList extends cdktf.C
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference {
-    return new SecuremeshSiteV2RseriesNotManagedNodeListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2GcpNotManagedNodeListStructOutputReference {
+    return new SecuremeshSiteV2GcpNotManagedNodeListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2RseriesNotManaged {
+export interface SecuremeshSiteV2GcpNotManaged {
   /**
   * node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#node_list SecuremeshSiteV2#node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_list SecuremeshSiteV2#node_list}
   */
-  readonly nodeList?: SecuremeshSiteV2RseriesNotManagedNodeListStruct[] | cdktf.IResolvable;
+  readonly nodeList?: SecuremeshSiteV2GcpNotManagedNodeListStruct[] | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2RseriesNotManagedToTerraform(struct?: SecuremeshSiteV2RseriesNotManagedOutputReference | SecuremeshSiteV2RseriesNotManaged): any {
+export function securemeshSiteV2GcpNotManagedToTerraform(struct?: SecuremeshSiteV2GcpNotManagedOutputReference | SecuremeshSiteV2GcpNotManaged): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    node_list: cdktf.listMapper(securemeshSiteV2RseriesNotManagedNodeListStructToTerraform, true)(struct!.nodeList),
+    node_list: cdktf.listMapper(securemeshSiteV2GcpNotManagedNodeListStructToTerraform, true)(struct!.nodeList),
   }
 }
 
 
-export function securemeshSiteV2RseriesNotManagedToHclTerraform(struct?: SecuremeshSiteV2RseriesNotManagedOutputReference | SecuremeshSiteV2RseriesNotManaged): any {
+export function securemeshSiteV2GcpNotManagedToHclTerraform(struct?: SecuremeshSiteV2GcpNotManagedOutputReference | SecuremeshSiteV2GcpNotManaged): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     node_list: {
-      value: cdktf.listMapperHcl(securemeshSiteV2RseriesNotManagedNodeListStructToHclTerraform, true)(struct!.nodeList),
+      value: cdktf.listMapperHcl(securemeshSiteV2GcpNotManagedNodeListStructToHclTerraform, true)(struct!.nodeList),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedNodeListStructList",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedNodeListStructList",
     },
   };
 
@@ -3373,7 +3464,7 @@ export function securemeshSiteV2RseriesNotManagedToHclTerraform(struct?: Securem
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesNotManagedOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpNotManagedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3384,7 +3475,7 @@ export class SecuremeshSiteV2RseriesNotManagedOutputReference extends cdktf.Comp
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2RseriesNotManaged | undefined {
+  public get internalValue(): SecuremeshSiteV2GcpNotManaged | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._nodeList?.internalValue !== undefined) {
@@ -3394,7 +3485,7 @@ export class SecuremeshSiteV2RseriesNotManagedOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2RseriesNotManaged | undefined) {
+  public set internalValue(value: SecuremeshSiteV2GcpNotManaged | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._nodeList.internalValue = undefined;
@@ -3406,11 +3497,11 @@ export class SecuremeshSiteV2RseriesNotManagedOutputReference extends cdktf.Comp
   }
 
   // node_list - computed: false, optional: true, required: false
-  private _nodeList = new SecuremeshSiteV2RseriesNotManagedNodeListStructList(this, "node_list", false);
+  private _nodeList = new SecuremeshSiteV2GcpNotManagedNodeListStructList(this, "node_list", false);
   public get nodeList() {
     return this._nodeList;
   }
-  public putNodeList(value: SecuremeshSiteV2RseriesNotManagedNodeListStruct[] | cdktf.IResolvable) {
+  public putNodeList(value: SecuremeshSiteV2GcpNotManagedNodeListStruct[] | cdktf.IResolvable) {
     this._nodeList.internalValue = value;
   }
   public resetNodeList() {
@@ -3421,37 +3512,50 @@ export class SecuremeshSiteV2RseriesNotManagedOutputReference extends cdktf.Comp
     return this._nodeList.internalValue;
   }
 }
-export interface SecuremeshSiteV2Rseries {
+export interface SecuremeshSiteV2Gcp {
+  /**
+  * managed block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#managed SecuremeshSiteV2#managed}
+  */
+  readonly managed?: SecuremeshSiteV2GcpManaged;
   /**
   * not_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#not_managed SecuremeshSiteV2#not_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#not_managed SecuremeshSiteV2#not_managed}
   */
-  readonly notManaged?: SecuremeshSiteV2RseriesNotManaged;
+  readonly notManaged?: SecuremeshSiteV2GcpNotManaged;
 }
 
-export function securemeshSiteV2RseriesToTerraform(struct?: SecuremeshSiteV2RseriesOutputReference | SecuremeshSiteV2Rseries): any {
+export function securemeshSiteV2GcpToTerraform(struct?: SecuremeshSiteV2GcpOutputReference | SecuremeshSiteV2Gcp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    not_managed: securemeshSiteV2RseriesNotManagedToTerraform(struct!.notManaged),
+    managed: securemeshSiteV2GcpManagedToTerraform(struct!.managed),
+    not_managed: securemeshSiteV2GcpNotManagedToTerraform(struct!.notManaged),
   }
 }
 
 
-export function securemeshSiteV2RseriesToHclTerraform(struct?: SecuremeshSiteV2RseriesOutputReference | SecuremeshSiteV2Rseries): any {
+export function securemeshSiteV2GcpToHclTerraform(struct?: SecuremeshSiteV2GcpOutputReference | SecuremeshSiteV2Gcp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    not_managed: {
-      value: securemeshSiteV2RseriesNotManagedToHclTerraform(struct!.notManaged),
+    managed: {
+      value: securemeshSiteV2GcpManagedToHclTerraform(struct!.managed),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2RseriesNotManagedList",
+      storageClassType: "SecuremeshSiteV2GcpManagedList",
+    },
+    not_managed: {
+      value: securemeshSiteV2GcpNotManagedToHclTerraform(struct!.notManaged),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2GcpNotManagedList",
     },
   };
 
@@ -3459,7 +3563,7 @@ export function securemeshSiteV2RseriesToHclTerraform(struct?: SecuremeshSiteV2R
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2RseriesOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2GcpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3470,9 +3574,13 @@ export class SecuremeshSiteV2RseriesOutputReference extends cdktf.ComplexObject 
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2Rseries | undefined {
+  public get internalValue(): SecuremeshSiteV2Gcp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._managed?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managed = this._managed?.internalValue;
+    }
     if (this._notManaged?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.notManaged = this._notManaged?.internalValue;
@@ -3480,23 +3588,41 @@ export class SecuremeshSiteV2RseriesOutputReference extends cdktf.ComplexObject 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2Rseries | undefined) {
+  public set internalValue(value: SecuremeshSiteV2Gcp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._managed.internalValue = undefined;
       this._notManaged.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._managed.internalValue = value.managed;
       this._notManaged.internalValue = value.notManaged;
     }
   }
 
+  // managed - computed: false, optional: true, required: false
+  private _managed = new SecuremeshSiteV2GcpManagedOutputReference(this, "managed");
+  public get managed() {
+    return this._managed;
+  }
+  public putManaged(value: SecuremeshSiteV2GcpManaged) {
+    this._managed.internalValue = value;
+  }
+  public resetManaged() {
+    this._managed.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedInput() {
+    return this._managed.internalValue;
+  }
+
   // not_managed - computed: false, optional: true, required: false
-  private _notManaged = new SecuremeshSiteV2RseriesNotManagedOutputReference(this, "not_managed");
+  private _notManaged = new SecuremeshSiteV2GcpNotManagedOutputReference(this, "not_managed");
   public get notManaged() {
     return this._notManaged;
   }
-  public putNotManaged(value: SecuremeshSiteV2RseriesNotManaged) {
+  public putNotManaged(value: SecuremeshSiteV2GcpNotManaged) {
     this._notManaged.internalValue = value;
   }
   public resetNotManaged() {
@@ -3507,805 +3633,14 @@ export class SecuremeshSiteV2RseriesOutputReference extends cdktf.ComplexObject 
     return this._notManaged.internalValue;
   }
 }
-export interface SecuremeshSiteV2SiteMeshGroupOnSlo {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#sm_connection_public_ip SecuremeshSiteV2#sm_connection_public_ip}
-  */
-  readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#sm_connection_pvt_ip SecuremeshSiteV2#sm_connection_pvt_ip}
-  */
-  readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
-}
-
-export function securemeshSiteV2SiteMeshGroupOnSloToTerraform(struct?: SecuremeshSiteV2SiteMeshGroupOnSloOutputReference | SecuremeshSiteV2SiteMeshGroupOnSlo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    sm_connection_public_ip: cdktf.booleanToTerraform(struct!.smConnectionPublicIp),
-    sm_connection_pvt_ip: cdktf.booleanToTerraform(struct!.smConnectionPvtIp),
-  }
-}
-
-
-export function securemeshSiteV2SiteMeshGroupOnSloToHclTerraform(struct?: SecuremeshSiteV2SiteMeshGroupOnSloOutputReference | SecuremeshSiteV2SiteMeshGroupOnSlo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    sm_connection_public_ip: {
-      value: cdktf.booleanToHclTerraform(struct!.smConnectionPublicIp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    sm_connection_pvt_ip: {
-      value: cdktf.booleanToHclTerraform(struct!.smConnectionPvtIp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2SiteMeshGroupOnSloOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2SiteMeshGroupOnSlo | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._smConnectionPublicIp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.smConnectionPublicIp = this._smConnectionPublicIp;
-    }
-    if (this._smConnectionPvtIp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.smConnectionPvtIp = this._smConnectionPvtIp;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2SiteMeshGroupOnSlo | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._smConnectionPublicIp = undefined;
-      this._smConnectionPvtIp = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._smConnectionPublicIp = value.smConnectionPublicIp;
-      this._smConnectionPvtIp = value.smConnectionPvtIp;
-    }
-  }
-
-  // sm_connection_public_ip - computed: false, optional: true, required: false
-  private _smConnectionPublicIp?: boolean | cdktf.IResolvable; 
-  public get smConnectionPublicIp() {
-    return this.getBooleanAttribute('sm_connection_public_ip');
-  }
-  public set smConnectionPublicIp(value: boolean | cdktf.IResolvable) {
-    this._smConnectionPublicIp = value;
-  }
-  public resetSmConnectionPublicIp() {
-    this._smConnectionPublicIp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get smConnectionPublicIpInput() {
-    return this._smConnectionPublicIp;
-  }
-
-  // sm_connection_pvt_ip - computed: false, optional: true, required: false
-  private _smConnectionPvtIp?: boolean | cdktf.IResolvable; 
-  public get smConnectionPvtIp() {
-    return this.getBooleanAttribute('sm_connection_pvt_ip');
-  }
-  public set smConnectionPvtIp(value: boolean | cdktf.IResolvable) {
-    this._smConnectionPvtIp = value;
-  }
-  public resetSmConnectionPvtIp() {
-    this._smConnectionPvtIp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get smConnectionPvtIpInput() {
-    return this._smConnectionPvtIp;
-  }
-}
-export interface SecuremeshSiteV2SoftwareSettingsOs {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_os_version SecuremeshSiteV2#default_os_version}
-  */
-  readonly defaultOsVersion?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#operating_system_version SecuremeshSiteV2#operating_system_version}
-  */
-  readonly operatingSystemVersion?: string;
-}
-
-export function securemeshSiteV2SoftwareSettingsOsToTerraform(struct?: SecuremeshSiteV2SoftwareSettingsOsOutputReference | SecuremeshSiteV2SoftwareSettingsOs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    default_os_version: cdktf.booleanToTerraform(struct!.defaultOsVersion),
-    operating_system_version: cdktf.stringToTerraform(struct!.operatingSystemVersion),
-  }
-}
-
-
-export function securemeshSiteV2SoftwareSettingsOsToHclTerraform(struct?: SecuremeshSiteV2SoftwareSettingsOsOutputReference | SecuremeshSiteV2SoftwareSettingsOs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    default_os_version: {
-      value: cdktf.booleanToHclTerraform(struct!.defaultOsVersion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    operating_system_version: {
-      value: cdktf.stringToHclTerraform(struct!.operatingSystemVersion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2SoftwareSettingsOsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2SoftwareSettingsOs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._defaultOsVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.defaultOsVersion = this._defaultOsVersion;
-    }
-    if (this._operatingSystemVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operatingSystemVersion = this._operatingSystemVersion;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2SoftwareSettingsOs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._defaultOsVersion = undefined;
-      this._operatingSystemVersion = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._defaultOsVersion = value.defaultOsVersion;
-      this._operatingSystemVersion = value.operatingSystemVersion;
-    }
-  }
-
-  // default_os_version - computed: false, optional: true, required: false
-  private _defaultOsVersion?: boolean | cdktf.IResolvable; 
-  public get defaultOsVersion() {
-    return this.getBooleanAttribute('default_os_version');
-  }
-  public set defaultOsVersion(value: boolean | cdktf.IResolvable) {
-    this._defaultOsVersion = value;
-  }
-  public resetDefaultOsVersion() {
-    this._defaultOsVersion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get defaultOsVersionInput() {
-    return this._defaultOsVersion;
-  }
-
-  // operating_system_version - computed: false, optional: true, required: false
-  private _operatingSystemVersion?: string; 
-  public get operatingSystemVersion() {
-    return this.getStringAttribute('operating_system_version');
-  }
-  public set operatingSystemVersion(value: string) {
-    this._operatingSystemVersion = value;
-  }
-  public resetOperatingSystemVersion() {
-    this._operatingSystemVersion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operatingSystemVersionInput() {
-    return this._operatingSystemVersion;
-  }
-}
-export interface SecuremeshSiteV2SoftwareSettingsSw {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_sw_version SecuremeshSiteV2#default_sw_version}
-  */
-  readonly defaultSwVersion?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#volterra_software_version SecuremeshSiteV2#volterra_software_version}
-  */
-  readonly volterraSoftwareVersion?: string;
-}
-
-export function securemeshSiteV2SoftwareSettingsSwToTerraform(struct?: SecuremeshSiteV2SoftwareSettingsSwOutputReference | SecuremeshSiteV2SoftwareSettingsSw): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    default_sw_version: cdktf.booleanToTerraform(struct!.defaultSwVersion),
-    volterra_software_version: cdktf.stringToTerraform(struct!.volterraSoftwareVersion),
-  }
-}
-
-
-export function securemeshSiteV2SoftwareSettingsSwToHclTerraform(struct?: SecuremeshSiteV2SoftwareSettingsSwOutputReference | SecuremeshSiteV2SoftwareSettingsSw): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    default_sw_version: {
-      value: cdktf.booleanToHclTerraform(struct!.defaultSwVersion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    volterra_software_version: {
-      value: cdktf.stringToHclTerraform(struct!.volterraSoftwareVersion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2SoftwareSettingsSwOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2SoftwareSettingsSw | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._defaultSwVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.defaultSwVersion = this._defaultSwVersion;
-    }
-    if (this._volterraSoftwareVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.volterraSoftwareVersion = this._volterraSoftwareVersion;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2SoftwareSettingsSw | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._defaultSwVersion = undefined;
-      this._volterraSoftwareVersion = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._defaultSwVersion = value.defaultSwVersion;
-      this._volterraSoftwareVersion = value.volterraSoftwareVersion;
-    }
-  }
-
-  // default_sw_version - computed: false, optional: true, required: false
-  private _defaultSwVersion?: boolean | cdktf.IResolvable; 
-  public get defaultSwVersion() {
-    return this.getBooleanAttribute('default_sw_version');
-  }
-  public set defaultSwVersion(value: boolean | cdktf.IResolvable) {
-    this._defaultSwVersion = value;
-  }
-  public resetDefaultSwVersion() {
-    this._defaultSwVersion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get defaultSwVersionInput() {
-    return this._defaultSwVersion;
-  }
-
-  // volterra_software_version - computed: false, optional: true, required: false
-  private _volterraSoftwareVersion?: string; 
-  public get volterraSoftwareVersion() {
-    return this.getStringAttribute('volterra_software_version');
-  }
-  public set volterraSoftwareVersion(value: string) {
-    this._volterraSoftwareVersion = value;
-  }
-  public resetVolterraSoftwareVersion() {
-    this._volterraSoftwareVersion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get volterraSoftwareVersionInput() {
-    return this._volterraSoftwareVersion;
-  }
-}
-export interface SecuremeshSiteV2SoftwareSettings {
-  /**
-  * os block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#os SecuremeshSiteV2#os}
-  */
-  readonly os?: SecuremeshSiteV2SoftwareSettingsOs;
-  /**
-  * sw block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#sw SecuremeshSiteV2#sw}
-  */
-  readonly sw?: SecuremeshSiteV2SoftwareSettingsSw;
-}
-
-export function securemeshSiteV2SoftwareSettingsToTerraform(struct?: SecuremeshSiteV2SoftwareSettingsOutputReference | SecuremeshSiteV2SoftwareSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    os: securemeshSiteV2SoftwareSettingsOsToTerraform(struct!.os),
-    sw: securemeshSiteV2SoftwareSettingsSwToTerraform(struct!.sw),
-  }
-}
-
-
-export function securemeshSiteV2SoftwareSettingsToHclTerraform(struct?: SecuremeshSiteV2SoftwareSettingsOutputReference | SecuremeshSiteV2SoftwareSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    os: {
-      value: securemeshSiteV2SoftwareSettingsOsToHclTerraform(struct!.os),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SecuremeshSiteV2SoftwareSettingsOsList",
-    },
-    sw: {
-      value: securemeshSiteV2SoftwareSettingsSwToHclTerraform(struct!.sw),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SecuremeshSiteV2SoftwareSettingsSwList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2SoftwareSettingsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2SoftwareSettings | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._os?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.os = this._os?.internalValue;
-    }
-    if (this._sw?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sw = this._sw?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2SoftwareSettings | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._os.internalValue = undefined;
-      this._sw.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._os.internalValue = value.os;
-      this._sw.internalValue = value.sw;
-    }
-  }
-
-  // os - computed: false, optional: true, required: false
-  private _os = new SecuremeshSiteV2SoftwareSettingsOsOutputReference(this, "os");
-  public get os() {
-    return this._os;
-  }
-  public putOs(value: SecuremeshSiteV2SoftwareSettingsOs) {
-    this._os.internalValue = value;
-  }
-  public resetOs() {
-    this._os.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get osInput() {
-    return this._os.internalValue;
-  }
-
-  // sw - computed: false, optional: true, required: false
-  private _sw = new SecuremeshSiteV2SoftwareSettingsSwOutputReference(this, "sw");
-  public get sw() {
-    return this._sw;
-  }
-  public putSw(value: SecuremeshSiteV2SoftwareSettingsSw) {
-    this._sw.internalValue = value;
-  }
-  public resetSw() {
-    this._sw.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get swInput() {
-    return this._sw.internalValue;
-  }
-}
-export interface SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#drain_max_unavailable_node_count SecuremeshSiteV2#drain_max_unavailable_node_count}
-  */
-  readonly drainMaxUnavailableNodeCount?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#drain_node_timeout SecuremeshSiteV2#drain_node_timeout}
-  */
-  readonly drainNodeTimeout: number;
-}
-
-export function securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainToTerraform(struct?: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainOutputReference | SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    drain_max_unavailable_node_count: cdktf.numberToTerraform(struct!.drainMaxUnavailableNodeCount),
-    drain_node_timeout: cdktf.numberToTerraform(struct!.drainNodeTimeout),
-  }
-}
-
-
-export function securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainToHclTerraform(struct?: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainOutputReference | SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    drain_max_unavailable_node_count: {
-      value: cdktf.numberToHclTerraform(struct!.drainMaxUnavailableNodeCount),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    drain_node_timeout: {
-      value: cdktf.numberToHclTerraform(struct!.drainNodeTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._drainMaxUnavailableNodeCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drainMaxUnavailableNodeCount = this._drainMaxUnavailableNodeCount;
-    }
-    if (this._drainNodeTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drainNodeTimeout = this._drainNodeTimeout;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._drainMaxUnavailableNodeCount = undefined;
-      this._drainNodeTimeout = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._drainMaxUnavailableNodeCount = value.drainMaxUnavailableNodeCount;
-      this._drainNodeTimeout = value.drainNodeTimeout;
-    }
-  }
-
-  // drain_max_unavailable_node_count - computed: false, optional: true, required: false
-  private _drainMaxUnavailableNodeCount?: number; 
-  public get drainMaxUnavailableNodeCount() {
-    return this.getNumberAttribute('drain_max_unavailable_node_count');
-  }
-  public set drainMaxUnavailableNodeCount(value: number) {
-    this._drainMaxUnavailableNodeCount = value;
-  }
-  public resetDrainMaxUnavailableNodeCount() {
-    this._drainMaxUnavailableNodeCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get drainMaxUnavailableNodeCountInput() {
-    return this._drainMaxUnavailableNodeCount;
-  }
-
-  // drain_node_timeout - computed: false, optional: false, required: true
-  private _drainNodeTimeout?: number; 
-  public get drainNodeTimeout() {
-    return this.getNumberAttribute('drain_node_timeout');
-  }
-  public set drainNodeTimeout(value: number) {
-    this._drainNodeTimeout = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get drainNodeTimeoutInput() {
-    return this._drainNodeTimeout;
-  }
-}
-export interface SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#disable_upgrade_drain SecuremeshSiteV2#disable_upgrade_drain}
-  */
-  readonly disableUpgradeDrain?: boolean | cdktf.IResolvable;
-  /**
-  * enable_upgrade_drain block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#enable_upgrade_drain SecuremeshSiteV2#enable_upgrade_drain}
-  */
-  readonly enableUpgradeDrain?: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain;
-}
-
-export function securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainToTerraform(struct?: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainOutputReference | SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    disable_upgrade_drain: cdktf.booleanToTerraform(struct!.disableUpgradeDrain),
-    enable_upgrade_drain: securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainToTerraform(struct!.enableUpgradeDrain),
-  }
-}
-
-
-export function securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainToHclTerraform(struct?: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainOutputReference | SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    disable_upgrade_drain: {
-      value: cdktf.booleanToHclTerraform(struct!.disableUpgradeDrain),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    enable_upgrade_drain: {
-      value: securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainToHclTerraform(struct!.enableUpgradeDrain),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._disableUpgradeDrain !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.disableUpgradeDrain = this._disableUpgradeDrain;
-    }
-    if (this._enableUpgradeDrain?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enableUpgradeDrain = this._enableUpgradeDrain?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._disableUpgradeDrain = undefined;
-      this._enableUpgradeDrain.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._disableUpgradeDrain = value.disableUpgradeDrain;
-      this._enableUpgradeDrain.internalValue = value.enableUpgradeDrain;
-    }
-  }
-
-  // disable_upgrade_drain - computed: false, optional: true, required: false
-  private _disableUpgradeDrain?: boolean | cdktf.IResolvable; 
-  public get disableUpgradeDrain() {
-    return this.getBooleanAttribute('disable_upgrade_drain');
-  }
-  public set disableUpgradeDrain(value: boolean | cdktf.IResolvable) {
-    this._disableUpgradeDrain = value;
-  }
-  public resetDisableUpgradeDrain() {
-    this._disableUpgradeDrain = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get disableUpgradeDrainInput() {
-    return this._disableUpgradeDrain;
-  }
-
-  // enable_upgrade_drain - computed: false, optional: true, required: false
-  private _enableUpgradeDrain = new SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrainOutputReference(this, "enable_upgrade_drain");
-  public get enableUpgradeDrain() {
-    return this._enableUpgradeDrain;
-  }
-  public putEnableUpgradeDrain(value: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainEnableUpgradeDrain) {
-    this._enableUpgradeDrain.internalValue = value;
-  }
-  public resetEnableUpgradeDrain() {
-    this._enableUpgradeDrain.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableUpgradeDrainInput() {
-    return this._enableUpgradeDrain.internalValue;
-  }
-}
-export interface SecuremeshSiteV2UpgradeSettings {
-  /**
-  * kubernetes_upgrade_drain block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#kubernetes_upgrade_drain SecuremeshSiteV2#kubernetes_upgrade_drain}
-  */
-  readonly kubernetesUpgradeDrain?: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain;
-}
-
-export function securemeshSiteV2UpgradeSettingsToTerraform(struct?: SecuremeshSiteV2UpgradeSettingsOutputReference | SecuremeshSiteV2UpgradeSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    kubernetes_upgrade_drain: securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainToTerraform(struct!.kubernetesUpgradeDrain),
-  }
-}
-
-
-export function securemeshSiteV2UpgradeSettingsToHclTerraform(struct?: SecuremeshSiteV2UpgradeSettingsOutputReference | SecuremeshSiteV2UpgradeSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    kubernetes_upgrade_drain: {
-      value: securemeshSiteV2UpgradeSettingsKubernetesUpgradeDrainToHclTerraform(struct!.kubernetesUpgradeDrain),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SecuremeshSiteV2UpgradeSettingsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SecuremeshSiteV2UpgradeSettings | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._kubernetesUpgradeDrain?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.kubernetesUpgradeDrain = this._kubernetesUpgradeDrain?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SecuremeshSiteV2UpgradeSettings | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._kubernetesUpgradeDrain.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._kubernetesUpgradeDrain.internalValue = value.kubernetesUpgradeDrain;
-    }
-  }
-
-  // kubernetes_upgrade_drain - computed: false, optional: true, required: false
-  private _kubernetesUpgradeDrain = new SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrainOutputReference(this, "kubernetes_upgrade_drain");
-  public get kubernetesUpgradeDrain() {
-    return this._kubernetesUpgradeDrain;
-  }
-  public putKubernetesUpgradeDrain(value: SecuremeshSiteV2UpgradeSettingsKubernetesUpgradeDrain) {
-    this._kubernetesUpgradeDrain.internalValue = value;
-  }
-  public resetKubernetesUpgradeDrain() {
-    this._kubernetesUpgradeDrain.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get kubernetesUpgradeDrainInput() {
-    return this._kubernetesUpgradeDrain.internalValue;
-  }
-}
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#rate SecuremeshSiteV2#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#rate SecuremeshSiteV2#rate}
   */
   readonly rate?: number;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4316,7 +3651,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfa
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4334,7 +3669,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4345,7 +3680,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceL
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._rate !== undefined) {
@@ -4355,7 +3690,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceL
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._rate = undefined;
@@ -4382,36 +3717,36 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceL
     return this._rate;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#active_backup SecuremeshSiteV2#active_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#active_backup SecuremeshSiteV2#active_backup}
   */
   readonly activeBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#devices SecuremeshSiteV2#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#devices SecuremeshSiteV2#devices}
   */
   readonly devices: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#link_polling_interval SecuremeshSiteV2#link_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#link_polling_interval SecuremeshSiteV2#link_polling_interval}
   */
   readonly linkPollingInterval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#link_up_delay SecuremeshSiteV2#link_up_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#link_up_delay SecuremeshSiteV2#link_up_delay}
   */
   readonly linkUpDelay: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name: string;
   /**
   * lacp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#lacp SecuremeshSiteV2#lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#lacp SecuremeshSiteV2#lacp}
   */
-  readonly lacp?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp;
+  readonly lacp?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4422,12 +3757,12 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfa
     link_polling_interval: cdktf.numberToTerraform(struct!.linkPollingInterval),
     link_up_delay: cdktf.numberToTerraform(struct!.linkUpDelay),
     name: cdktf.stringToTerraform(struct!.name),
-    lacp: securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct!.lacp),
+    lacp: securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct!.lacp),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4464,10 +3799,10 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfa
       storageClassType: "string",
     },
     lacp: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct!.lacp),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct!.lacp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpList",
     },
   };
 
@@ -4475,7 +3810,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4486,7 +3821,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceO
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._activeBackup !== undefined) {
@@ -4516,7 +3851,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._activeBackup = undefined;
@@ -4606,11 +3941,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceO
   }
 
   // lacp - computed: false, optional: true, required: false
-  private _lacp = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference(this, "lacp");
+  private _lacp = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference(this, "lacp");
   public get lacp() {
     return this._lacp;
   }
-  public putLacp(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceLacp) {
+  public putLacp(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceLacp) {
     this._lacp.internalValue = value;
   }
   public resetLacp() {
@@ -4621,18 +3956,1065 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceO
     return this._lacp.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
+  */
+  readonly endIp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#exclude SecuremeshSiteV2#exclude}
+  */
+  readonly exclude?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
+  */
+  readonly startIp?: string;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    end_ip: cdktf.stringToTerraform(struct!.endIp),
+    exclude: cdktf.booleanToTerraform(struct!.exclude),
+    start_ip: cdktf.stringToTerraform(struct!.startIp),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    end_ip: {
+      value: cdktf.stringToHclTerraform(struct!.endIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    exclude: {
+      value: cdktf.booleanToHclTerraform(struct!.exclude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    start_ip: {
+      value: cdktf.stringToHclTerraform(struct!.startIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endIp = this._endIp;
+    }
+    if (this._exclude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclude = this._exclude;
+    }
+    if (this._startIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startIp = this._startIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endIp = undefined;
+      this._exclude = undefined;
+      this._startIp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endIp = value.endIp;
+      this._exclude = value.exclude;
+      this._startIp = value.startIp;
+    }
+  }
+
+  // end_ip - computed: false, optional: true, required: false
+  private _endIp?: string; 
+  public get endIp() {
+    return this.getStringAttribute('end_ip');
+  }
+  public set endIp(value: string) {
+    this._endIp = value;
+  }
+  public resetEndIp() {
+    this._endIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endIpInput() {
+    return this._endIp;
+  }
+
+  // exclude - computed: false, optional: true, required: false
+  private _exclude?: boolean | cdktf.IResolvable; 
+  public get exclude() {
+    return this.getBooleanAttribute('exclude');
+  }
+  public set exclude(value: boolean | cdktf.IResolvable) {
+    this._exclude = value;
+  }
+  public resetExclude() {
+    this._exclude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInput() {
+    return this._exclude;
+  }
+
+  // start_ip - computed: false, optional: true, required: false
+  private _startIp?: string; 
+  public get startIp() {
+    return this.getStringAttribute('start_ip');
+  }
+  public set startIp(value: string) {
+    this._startIp = value;
+  }
+  public resetStartIp() {
+    this._startIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startIpInput() {
+    return this._startIp;
+  }
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference {
+    return new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dgw_address SecuremeshSiteV2#dgw_address}
+  */
+  readonly dgwAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_address SecuremeshSiteV2#dns_address}
+  */
+  readonly dnsAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
+  */
+  readonly firstAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
+  */
+  readonly lastAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  */
+  readonly networkPrefix?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
+  */
+  readonly poolSettings: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#same_as_dgw SecuremeshSiteV2#same_as_dgw}
+  */
+  readonly sameAsDgw?: boolean | cdktf.IResolvable;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator;
+  /**
+  * pools block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
+  */
+  readonly pools?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dgw_address: cdktf.stringToTerraform(struct!.dgwAddress),
+    dns_address: cdktf.stringToTerraform(struct!.dnsAddress),
+    first_address: cdktf.booleanToTerraform(struct!.firstAddress),
+    last_address: cdktf.booleanToTerraform(struct!.lastAddress),
+    network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
+    pool_settings: cdktf.stringToTerraform(struct!.poolSettings),
+    same_as_dgw: cdktf.booleanToTerraform(struct!.sameAsDgw),
+    network_prefix_allocator: securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+    pools: cdktf.listMapper(securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToTerraform, true)(struct!.pools),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dgw_address: {
+      value: cdktf.stringToHclTerraform(struct!.dgwAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_address: {
+      value: cdktf.stringToHclTerraform(struct!.dnsAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    first_address: {
+      value: cdktf.booleanToHclTerraform(struct!.firstAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    last_address: {
+      value: cdktf.booleanToHclTerraform(struct!.lastAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    network_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.networkPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pool_settings: {
+      value: cdktf.stringToHclTerraform(struct!.poolSettings),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    same_as_dgw: {
+      value: cdktf.booleanToHclTerraform(struct!.sameAsDgw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorList",
+    },
+    pools: {
+      value: cdktf.listMapperHcl(securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dgwAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dgwAddress = this._dgwAddress;
+    }
+    if (this._dnsAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsAddress = this._dnsAddress;
+    }
+    if (this._firstAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.firstAddress = this._firstAddress;
+    }
+    if (this._lastAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lastAddress = this._lastAddress;
+    }
+    if (this._networkPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefix = this._networkPrefix;
+    }
+    if (this._poolSettings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolSettings = this._poolSettings;
+    }
+    if (this._sameAsDgw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sameAsDgw = this._sameAsDgw;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    if (this._pools?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pools = this._pools?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dgwAddress = undefined;
+      this._dnsAddress = undefined;
+      this._firstAddress = undefined;
+      this._lastAddress = undefined;
+      this._networkPrefix = undefined;
+      this._poolSettings = undefined;
+      this._sameAsDgw = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+      this._pools.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dgwAddress = value.dgwAddress;
+      this._dnsAddress = value.dnsAddress;
+      this._firstAddress = value.firstAddress;
+      this._lastAddress = value.lastAddress;
+      this._networkPrefix = value.networkPrefix;
+      this._poolSettings = value.poolSettings;
+      this._sameAsDgw = value.sameAsDgw;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+      this._pools.internalValue = value.pools;
+    }
+  }
+
+  // dgw_address - computed: false, optional: true, required: false
+  private _dgwAddress?: string; 
+  public get dgwAddress() {
+    return this.getStringAttribute('dgw_address');
+  }
+  public set dgwAddress(value: string) {
+    this._dgwAddress = value;
+  }
+  public resetDgwAddress() {
+    this._dgwAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dgwAddressInput() {
+    return this._dgwAddress;
+  }
+
+  // dns_address - computed: false, optional: true, required: false
+  private _dnsAddress?: string; 
+  public get dnsAddress() {
+    return this.getStringAttribute('dns_address');
+  }
+  public set dnsAddress(value: string) {
+    this._dnsAddress = value;
+  }
+  public resetDnsAddress() {
+    this._dnsAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsAddressInput() {
+    return this._dnsAddress;
+  }
+
+  // first_address - computed: false, optional: true, required: false
+  private _firstAddress?: boolean | cdktf.IResolvable; 
+  public get firstAddress() {
+    return this.getBooleanAttribute('first_address');
+  }
+  public set firstAddress(value: boolean | cdktf.IResolvable) {
+    this._firstAddress = value;
+  }
+  public resetFirstAddress() {
+    this._firstAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firstAddressInput() {
+    return this._firstAddress;
+  }
+
+  // last_address - computed: false, optional: true, required: false
+  private _lastAddress?: boolean | cdktf.IResolvable; 
+  public get lastAddress() {
+    return this.getBooleanAttribute('last_address');
+  }
+  public set lastAddress(value: boolean | cdktf.IResolvable) {
+    this._lastAddress = value;
+  }
+  public resetLastAddress() {
+    this._lastAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastAddressInput() {
+    return this._lastAddress;
+  }
+
+  // network_prefix - computed: false, optional: true, required: false
+  private _networkPrefix?: string; 
+  public get networkPrefix() {
+    return this.getStringAttribute('network_prefix');
+  }
+  public set networkPrefix(value: string) {
+    this._networkPrefix = value;
+  }
+  public resetNetworkPrefix() {
+    this._networkPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixInput() {
+    return this._networkPrefix;
+  }
+
+  // pool_settings - computed: false, optional: false, required: true
+  private _poolSettings?: string; 
+  public get poolSettings() {
+    return this.getStringAttribute('pool_settings');
+  }
+  public set poolSettings(value: string) {
+    this._poolSettings = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolSettingsInput() {
+    return this._poolSettings;
+  }
+
+  // same_as_dgw - computed: false, optional: true, required: false
+  private _sameAsDgw?: boolean | cdktf.IResolvable; 
+  public get sameAsDgw() {
+    return this.getBooleanAttribute('same_as_dgw');
+  }
+  public set sameAsDgw(value: boolean | cdktf.IResolvable) {
+    this._sameAsDgw = value;
+  }
+  public resetSameAsDgw() {
+    this._sameAsDgw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sameAsDgwInput() {
+    return this._sameAsDgw;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+
+  // pools - computed: false, optional: true, required: false
+  private _pools = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList(this, "pools", false);
+  public get pools() {
+    return this._pools;
+  }
+  public putPools(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable) {
+    this._pools.internalValue = value;
+  }
+  public resetPools() {
+    this._pools.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolsInput() {
+    return this._pools.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference {
+    return new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: { [key: string]: string };
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interface_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interface_ip_map: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.interfaceIpMap),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceIpMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interfaceIpMap = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interfaceIpMap = value.interfaceIpMap;
+    }
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap?: { [key: string]: string }; 
+  public get interfaceIpMap() {
+    return this.getStringMapAttribute('interface_ip_map');
+  }
+  public set interfaceIpMap(value: { [key: string]: string }) {
+    this._interfaceIpMap = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap;
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
+  */
+  readonly automaticFromEnd?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
+  */
+  readonly automaticFromStart?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_option82_tag SecuremeshSiteV2#dhcp_option82_tag}
+  */
+  readonly dhcpOption82Tag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
+  */
+  readonly fixedIpMap?: { [key: string]: string };
+  /**
+  * dhcp_networks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
+  */
+  readonly dhcpNetworks: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable;
+  /**
+  * interface_ip_map block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    automatic_from_end: cdktf.booleanToTerraform(struct!.automaticFromEnd),
+    automatic_from_start: cdktf.booleanToTerraform(struct!.automaticFromStart),
+    dhcp_option82_tag: cdktf.stringToTerraform(struct!.dhcpOption82Tag),
+    fixed_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.fixedIpMap),
+    dhcp_networks: cdktf.listMapper(securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
+    interface_ip_map: securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    automatic_from_end: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticFromEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    automatic_from_start: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticFromStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    dhcp_option82_tag: {
+      value: cdktf.stringToHclTerraform(struct!.dhcpOption82Tag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fixed_ip_map: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.fixedIpMap),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    dhcp_networks: {
+      value: cdktf.listMapperHcl(securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList",
+    },
+    interface_ip_map: {
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automaticFromEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticFromEnd = this._automaticFromEnd;
+    }
+    if (this._automaticFromStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticFromStart = this._automaticFromStart;
+    }
+    if (this._dhcpOption82Tag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpOption82Tag = this._dhcpOption82Tag;
+    }
+    if (this._fixedIpMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fixedIpMap = this._fixedIpMap;
+    }
+    if (this._dhcpNetworks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpNetworks = this._dhcpNetworks?.internalValue;
+    }
+    if (this._interfaceIpMap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._automaticFromEnd = undefined;
+      this._automaticFromStart = undefined;
+      this._dhcpOption82Tag = undefined;
+      this._fixedIpMap = undefined;
+      this._dhcpNetworks.internalValue = undefined;
+      this._interfaceIpMap.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._automaticFromEnd = value.automaticFromEnd;
+      this._automaticFromStart = value.automaticFromStart;
+      this._dhcpOption82Tag = value.dhcpOption82Tag;
+      this._fixedIpMap = value.fixedIpMap;
+      this._dhcpNetworks.internalValue = value.dhcpNetworks;
+      this._interfaceIpMap.internalValue = value.interfaceIpMap;
+    }
+  }
+
+  // automatic_from_end - computed: false, optional: true, required: false
+  private _automaticFromEnd?: boolean | cdktf.IResolvable; 
+  public get automaticFromEnd() {
+    return this.getBooleanAttribute('automatic_from_end');
+  }
+  public set automaticFromEnd(value: boolean | cdktf.IResolvable) {
+    this._automaticFromEnd = value;
+  }
+  public resetAutomaticFromEnd() {
+    this._automaticFromEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticFromEndInput() {
+    return this._automaticFromEnd;
+  }
+
+  // automatic_from_start - computed: false, optional: true, required: false
+  private _automaticFromStart?: boolean | cdktf.IResolvable; 
+  public get automaticFromStart() {
+    return this.getBooleanAttribute('automatic_from_start');
+  }
+  public set automaticFromStart(value: boolean | cdktf.IResolvable) {
+    this._automaticFromStart = value;
+  }
+  public resetAutomaticFromStart() {
+    this._automaticFromStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticFromStartInput() {
+    return this._automaticFromStart;
+  }
+
+  // dhcp_option82_tag - computed: false, optional: true, required: false
+  private _dhcpOption82Tag?: string; 
+  public get dhcpOption82Tag() {
+    return this.getStringAttribute('dhcp_option82_tag');
+  }
+  public set dhcpOption82Tag(value: string) {
+    this._dhcpOption82Tag = value;
+  }
+  public resetDhcpOption82Tag() {
+    this._dhcpOption82Tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpOption82TagInput() {
+    return this._dhcpOption82Tag;
+  }
+
+  // fixed_ip_map - computed: false, optional: true, required: false
+  private _fixedIpMap?: { [key: string]: string }; 
+  public get fixedIpMap() {
+    return this.getStringMapAttribute('fixed_ip_map');
+  }
+  public set fixedIpMap(value: { [key: string]: string }) {
+    this._fixedIpMap = value;
+  }
+  public resetFixedIpMap() {
+    this._fixedIpMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedIpMapInput() {
+    return this._fixedIpMap;
+  }
+
+  // dhcp_networks - computed: false, optional: false, required: true
+  private _dhcpNetworks = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList(this, "dhcp_networks", false);
+  public get dhcpNetworks() {
+    return this._dhcpNetworks;
+  }
+  public putDhcpNetworks(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable) {
+    this._dhcpNetworks.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpNetworksInput() {
+    return this._dhcpNetworks.internalValue;
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference(this, "interface_ip_map");
+  public get interfaceIpMap() {
+    return this._interfaceIpMap;
+  }
+  public putInterfaceIpMap(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap) {
+    this._interfaceIpMap.internalValue = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap.internalValue;
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#mac SecuremeshSiteV2#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#mac SecuremeshSiteV2#mac}
   */
   readonly mac?: string;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4644,7 +5026,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInt
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4668,7 +5050,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInt
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4679,7 +5061,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterf
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._device !== undefined) {
@@ -4693,7 +5075,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._device = undefined;
@@ -4735,14 +5117,14 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterf
     return this._mac;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dns_list SecuremeshSiteV2#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_list SecuremeshSiteV2#dns_list}
   */
   readonly dnsList: string[];
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4753,7 +5135,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4771,7 +5153,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4782,7 +5164,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._dnsList !== undefined) {
@@ -4792,7 +5174,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._dnsList = undefined;
@@ -4816,22 +5198,22 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._dnsList;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#configured_address SecuremeshSiteV2#configured_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#configured_address SecuremeshSiteV2#configured_address}
   */
   readonly configuredAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
   */
   readonly firstAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
   */
   readonly lastAddress?: boolean | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4844,7 +5226,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4874,7 +5256,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4885,7 +5267,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._configuredAddress !== undefined) {
@@ -4903,7 +5285,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._configuredAddress = undefined;
@@ -4966,50 +5348,50 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._lastAddress;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig {
   /**
   * configured_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#configured_list SecuremeshSiteV2#configured_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#configured_list SecuremeshSiteV2#configured_list}
   */
-  readonly configuredList?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct;
+  readonly configuredList?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct;
   /**
   * local_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#local_dns SecuremeshSiteV2#local_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#local_dns SecuremeshSiteV2#local_dns}
   */
-  readonly localDns?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns;
+  readonly localDns?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    configured_list: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct!.configuredList),
-    local_dns: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct!.localDns),
+    configured_list: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct!.configuredList),
+    local_dns: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct!.localDns),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     configured_list: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct!.configuredList),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct!.configuredList),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructList",
     },
     local_dns: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct!.localDns),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct!.localDns),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsList",
     },
   };
 
@@ -5017,7 +5399,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -5028,7 +5410,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._configuredList?.internalValue !== undefined) {
@@ -5042,7 +5424,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._configuredList.internalValue = undefined;
@@ -5056,11 +5438,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // configured_list - computed: false, optional: true, required: false
-  private _configuredList = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference(this, "configured_list");
+  private _configuredList = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference(this, "configured_list");
   public get configuredList() {
     return this._configuredList;
   }
-  public putConfiguredList(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct) {
+  public putConfiguredList(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct) {
     this._configuredList.internalValue = value;
   }
   public resetConfiguredList() {
@@ -5072,11 +5454,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // local_dns - computed: false, optional: true, required: false
-  private _localDns = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference(this, "local_dns");
+  private _localDns = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference(this, "local_dns");
   public get localDns() {
     return this._localDns;
   }
-  public putLocalDns(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns) {
+  public putLocalDns(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns) {
     this._localDns.internalValue = value;
   }
   public resetLocalDns() {
@@ -5087,30 +5469,185 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._localDns.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#exclude SecuremeshSiteV2#exclude}
+  */
+  readonly exclude?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
   */
   readonly startIp?: string;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     end_ip: cdktf.stringToTerraform(struct!.endIp),
+    exclude: cdktf.booleanToTerraform(struct!.exclude),
     start_ip: cdktf.stringToTerraform(struct!.startIp),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5121,6 +5658,12 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    exclude: {
+      value: cdktf.booleanToHclTerraform(struct!.exclude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     start_ip: {
       value: cdktf.stringToHclTerraform(struct!.startIp),
@@ -5134,7 +5677,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -5148,7 +5691,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5158,6 +5701,10 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
       hasAnyValues = true;
       internalValueResult.endIp = this._endIp;
     }
+    if (this._exclude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclude = this._exclude;
+    }
     if (this._startIp !== undefined) {
       hasAnyValues = true;
       internalValueResult.startIp = this._startIp;
@@ -5165,11 +5712,12 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._endIp = undefined;
+      this._exclude = undefined;
       this._startIp = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -5180,6 +5728,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._endIp = value.endIp;
+      this._exclude = value.exclude;
       this._startIp = value.startIp;
     }
   }
@@ -5200,6 +5749,22 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._endIp;
   }
 
+  // exclude - computed: false, optional: true, required: false
+  private _exclude?: boolean | cdktf.IResolvable; 
+  public get exclude() {
+    return this.getBooleanAttribute('exclude');
+  }
+  public set exclude(value: boolean | cdktf.IResolvable) {
+    this._exclude = value;
+  }
+  public resetExclude() {
+    this._exclude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInput() {
+    return this._exclude;
+  }
+
   // start_ip - computed: false, optional: true, required: false
   private _startIp?: string; 
   public get startIp() {
@@ -5217,8 +5782,8 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -5232,28 +5797,34 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference {
-    return new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference {
+    return new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
   */
   readonly poolSettings: string;
   /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator;
+  /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
   */
-  readonly pools?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
+  readonly pools?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5261,12 +5832,13 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return {
     network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
     pool_settings: cdktf.stringToTerraform(struct!.poolSettings),
-    pools: cdktf.listMapper(securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform, true)(struct!.pools),
+    network_prefix_allocator: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+    pools: cdktf.listMapper(securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform, true)(struct!.pools),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5284,11 +5856,17 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
       type: "simple",
       storageClassType: "string",
     },
-    pools: {
-      value: cdktf.listMapperHcl(securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+    network_prefix_allocator: {
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorList",
+    },
+    pools: {
+      value: cdktf.listMapperHcl(securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList",
     },
   };
 
@@ -5296,7 +5874,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -5310,7 +5888,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5324,6 +5902,10 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
       hasAnyValues = true;
       internalValueResult.poolSettings = this._poolSettings;
     }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
     if (this._pools?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.pools = this._pools?.internalValue;
@@ -5331,12 +5913,13 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._networkPrefix = undefined;
       this._poolSettings = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
       this._pools.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -5348,6 +5931,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
       this.resolvableValue = undefined;
       this._networkPrefix = value.networkPrefix;
       this._poolSettings = value.poolSettings;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
       this._pools.internalValue = value.pools;
     }
   }
@@ -5381,12 +5965,28 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._poolSettings;
   }
 
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+
   // pools - computed: false, optional: true, required: false
-  private _pools = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList(this, "pools", false);
+  private _pools = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList(this, "pools", false);
   public get pools() {
     return this._pools;
   }
-  public putPools(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable) {
+  public putPools(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable) {
     this._pools.internalValue = value;
   }
   public resetPools() {
@@ -5398,8 +5998,8 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -5413,18 +6013,18 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference {
-    return new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference {
+    return new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
   */
   readonly interfaceIpMap?: { [key: string]: string };
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5435,7 +6035,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5453,7 +6053,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -5464,7 +6064,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._interfaceIpMap !== undefined) {
@@ -5474,7 +6074,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._interfaceIpMap = undefined;
@@ -5501,34 +6101,34 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._interfaceIpMap;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
   */
   readonly automaticFromEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
   */
   readonly automaticFromStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
   */
   readonly fixedIpMap?: { [key: string]: string };
   /**
   * dhcp_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
   */
-  readonly dhcpNetworks: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
+  readonly dhcpNetworks: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
   */
-  readonly interfaceIpMap?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap;
+  readonly interfaceIpMap?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5537,13 +6137,13 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
     automatic_from_end: cdktf.booleanToTerraform(struct!.automaticFromEnd),
     automatic_from_start: cdktf.booleanToTerraform(struct!.automaticFromStart),
     fixed_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.fixedIpMap),
-    dhcp_networks: cdktf.listMapper(securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
-    interface_ip_map: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+    dhcp_networks: cdktf.listMapper(securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
+    interface_ip_map: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct!.interfaceIpMap),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5568,16 +6168,16 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
       storageClassType: "stringMap",
     },
     dhcp_networks: {
-      value: cdktf.listMapperHcl(securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
+      value: cdktf.listMapperHcl(securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList",
     },
     interface_ip_map: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapList",
     },
   };
 
@@ -5585,7 +6185,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -5596,7 +6196,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._automaticFromEnd !== undefined) {
@@ -5622,7 +6222,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._automaticFromEnd = undefined;
@@ -5690,11 +6290,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // dhcp_networks - computed: false, optional: false, required: true
-  private _dhcpNetworks = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList(this, "dhcp_networks", false);
+  private _dhcpNetworks = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList(this, "dhcp_networks", false);
   public get dhcpNetworks() {
     return this._dhcpNetworks;
   }
-  public putDhcpNetworks(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable) {
+  public putDhcpNetworks(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable) {
     this._dhcpNetworks.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -5703,11 +6303,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // interface_ip_map - computed: false, optional: true, required: false
-  private _interfaceIpMap = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference(this, "interface_ip_map");
+  private _interfaceIpMap = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference(this, "interface_ip_map");
   public get interfaceIpMap() {
     return this._interfaceIpMap;
   }
-  public putInterfaceIpMap(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap) {
+  public putInterfaceIpMap(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap) {
     this._interfaceIpMap.internalValue = value;
   }
   public resetInterfaceIpMap() {
@@ -5718,39 +6318,39 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._interfaceIpMap.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
   */
   readonly networkPrefix?: string;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dns_config SecuremeshSiteV2#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_config SecuremeshSiteV2#dns_config}
   */
-  readonly dnsConfig?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig;
+  readonly dnsConfig?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig;
   /**
   * stateful block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#stateful SecuremeshSiteV2#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#stateful SecuremeshSiteV2#stateful}
   */
-  readonly stateful?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful;
+  readonly stateful?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
-    dns_config: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct!.dnsConfig),
-    stateful: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct!.stateful),
+    dns_config: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct!.dnsConfig),
+    stateful: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct!.stateful),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5763,16 +6363,16 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
       storageClassType: "string",
     },
     dns_config: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct!.dnsConfig),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct!.dnsConfig),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigList",
     },
     stateful: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct!.stateful),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct!.stateful),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulList",
     },
   };
 
@@ -5780,7 +6380,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -5791,7 +6391,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._networkPrefix !== undefined) {
@@ -5809,7 +6409,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._networkPrefix = undefined;
@@ -5841,11 +6441,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // dns_config - computed: false, optional: true, required: false
-  private _dnsConfig = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference(this, "dns_config");
+  private _dnsConfig = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference(this, "dns_config");
   public get dnsConfig() {
     return this._dnsConfig;
   }
-  public putDnsConfig(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig) {
+  public putDnsConfig(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig) {
     this._dnsConfig.internalValue = value;
   }
   public resetDnsConfig() {
@@ -5857,11 +6457,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // stateful - computed: false, optional: true, required: false
-  private _stateful = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference(this, "stateful");
+  private _stateful = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference(this, "stateful");
   public get stateful() {
     return this._stateful;
   }
-  public putStateful(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful) {
+  public putStateful(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful) {
     this._stateful.internalValue = value;
   }
   public resetStateful() {
@@ -5872,32 +6472,32 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._stateful.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#host SecuremeshSiteV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#host SecuremeshSiteV2#host}
   */
   readonly host?: boolean | cdktf.IResolvable;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#router SecuremeshSiteV2#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#router SecuremeshSiteV2#router}
   */
-  readonly router?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter;
+  readonly router?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     host: cdktf.booleanToTerraform(struct!.host),
-    router: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct!.router),
+    router: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct!.router),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5910,10 +6510,10 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
       storageClassType: "boolean",
     },
     router: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct!.router),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct!.router),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterList",
     },
   };
 
@@ -5921,7 +6521,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -5932,7 +6532,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._host !== undefined) {
@@ -5946,7 +6546,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._host = undefined;
@@ -5976,11 +6576,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
   }
 
   // router - computed: false, optional: true, required: false
-  private _router = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference(this, "router");
+  private _router = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference(this, "router");
   public get router() {
     return this._router;
   }
-  public putRouter(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigRouter) {
+  public putRouter(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigRouter) {
     this._router.internalValue = value;
   }
   public resetRouter() {
@@ -5991,10 +6591,10 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig
     return this._router.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor {
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListMonitorToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6004,7 +6604,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorToTe
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListMonitorToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6014,7 +6614,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorToHc
   return attrs;
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitorOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6025,13 +6625,13 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorOutputR
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -6040,22 +6640,22 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorOutputR
     }
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
   */
   readonly tenant?: string;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6068,7 +6668,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOpti
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6098,7 +6698,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOpti
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6109,7 +6709,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionS
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._name !== undefined) {
@@ -6127,7 +6727,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionS
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._name = undefined;
@@ -6195,24 +6795,24 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionS
     return this._tenant;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_local_inside_network SecuremeshSiteV2#site_local_inside_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_local_inside_network SecuremeshSiteV2#site_local_inside_network}
   */
   readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_local_network SecuremeshSiteV2#site_local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_local_network SecuremeshSiteV2#site_local_network}
   */
   readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
   /**
   * segment_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#segment_network SecuremeshSiteV2#segment_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#segment_network SecuremeshSiteV2#segment_network}
   */
-  readonly segmentNetwork?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork;
+  readonly segmentNetwork?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6220,12 +6820,12 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOpti
   return {
     site_local_inside_network: cdktf.booleanToTerraform(struct!.siteLocalInsideNetwork),
     site_local_network: cdktf.booleanToTerraform(struct!.siteLocalNetwork),
-    segment_network: securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct!.segmentNetwork),
+    segment_network: securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct!.segmentNetwork),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6244,10 +6844,10 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOpti
       storageClassType: "boolean",
     },
     segment_network: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct!.segmentNetwork),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct!.segmentNetwork),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkList",
     },
   };
 
@@ -6255,7 +6855,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOpti
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6266,7 +6866,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionO
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._siteLocalInsideNetwork !== undefined) {
@@ -6284,7 +6884,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._siteLocalInsideNetwork = undefined;
@@ -6332,11 +6932,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionO
   }
 
   // segment_network - computed: false, optional: true, required: false
-  private _segmentNetwork = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference(this, "segment_network");
+  private _segmentNetwork = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference(this, "segment_network");
   public get segmentNetwork() {
     return this._segmentNetwork;
   }
-  public putSegmentNetwork(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork) {
+  public putSegmentNetwork(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork) {
     this._segmentNetwork.internalValue = value;
   }
   public resetSegmentNetwork() {
@@ -6347,30 +6947,35 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionO
     return this._segmentNetwork.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
   */
   readonly ipAddress: string;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6378,6 +6983,12 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpToH
   const attrs = {
     default_gw: {
       value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6394,7 +7005,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6405,12 +7016,16 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutput
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._defaultGw !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
     }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
@@ -6419,15 +7034,17 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutput
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._defaultGw = undefined;
+      this._dnsServer = undefined;
       this._ipAddress = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
       this._ipAddress = value.ipAddress;
     }
   }
@@ -6448,6 +7065,22 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutput
     return this._defaultGw;
   }
 
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
   // ip_address - computed: false, optional: false, required: true
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -6461,30 +7094,35 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutput
     return this._ipAddress;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
   */
   readonly ipAddress: string;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6492,6 +7130,12 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   const attrs = {
     default_gw: {
       value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6508,7 +7152,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6519,12 +7163,16 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._defaultGw !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
     }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
@@ -6533,15 +7181,17 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._defaultGw = undefined;
+      this._dnsServer = undefined;
       this._ipAddress = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
       this._ipAddress = value.ipAddress;
     }
   }
@@ -6562,6 +7212,22 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._defaultGw;
   }
 
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
   // ip_address - computed: false, optional: false, required: true
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -6575,32 +7241,32 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._ipAddress;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#value SecuremeshSiteV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#value SecuremeshSiteV2#value}
   */
-  readonly value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
+  readonly value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     name: cdktf.stringToTerraform(struct!.name),
-    value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct!.value),
+    value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct!.value),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6613,10 +7279,10 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
       storageClassType: "string",
     },
     value: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct!.value),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct!.value),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueList",
     },
   };
 
@@ -6624,7 +7290,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6635,7 +7301,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._name !== undefined) {
@@ -6649,7 +7315,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._name = undefined;
@@ -6676,11 +7342,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference(this, "value");
+  private _value = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference(this, "value");
   public get value() {
     return this._value;
   }
-  public putValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue) {
+  public putValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue) {
     this._value.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -6688,37 +7354,37 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._value.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp {
   /**
   * interface_ip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
   */
-  readonly interfaceIpMap?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap;
+  readonly interfaceIpMap?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    interface_ip_map: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+    interface_ip_map: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct!.interfaceIpMap),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     interface_ip_map: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapList",
     },
   };
 
@@ -6726,7 +7392,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6737,7 +7403,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._interfaceIpMap?.internalValue !== undefined) {
@@ -6747,7 +7413,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._interfaceIpMap.internalValue = undefined;
@@ -6759,11 +7425,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
   }
 
   // interface_ip_map - computed: false, optional: true, required: false
-  private _interfaceIpMap = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference(this, "interface_ip_map");
+  private _interfaceIpMap = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference(this, "interface_ip_map");
   public get interfaceIpMap() {
     return this._interfaceIpMap;
   }
-  public putInterfaceIpMap(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap) {
+  public putInterfaceIpMap(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap) {
     this._interfaceIpMap.internalValue = value;
   }
   public resetInterfaceIpMap() {
@@ -6774,30 +7440,187 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._interfaceIpMap.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
   */
   readonly defaultGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
   */
-  readonly ipAddress: string;
+  readonly dnsServer?: string;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     default_gw: cdktf.stringToTerraform(struct!.defaultGw),
-    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    network_prefix_allocator: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -6805,6 +7628,162 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   const attrs = {
     default_gw: {
       value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultGw = undefined;
+      this._dnsServer = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+    }
+  }
+
+  // default_gw - computed: false, optional: true, required: false
+  private _defaultGw?: string; 
+  public get defaultGw() {
+    return this.getStringAttribute('default_gw');
+  }
+  public set defaultGw(value: string) {
+    this._defaultGw = value;
+  }
+  public resetDefaultGw() {
+    this._defaultGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGwInput() {
+    return this._defaultGw;
+  }
+
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+}
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  */
+  readonly defaultGw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress: string;
+}
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+  }
+}
+
+
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_gw: {
+      value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6821,7 +7800,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6832,12 +7811,16 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._defaultGw !== undefined) {
       hasAnyValues = true;
       internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
     }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
@@ -6846,15 +7829,17 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._defaultGw = undefined;
+      this._dnsServer = undefined;
       this._ipAddress = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
       this._ipAddress = value.ipAddress;
     }
   }
@@ -6875,6 +7860,22 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._defaultGw;
   }
 
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
   // ip_address - computed: false, optional: false, required: true
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -6888,50 +7889,63 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._ipAddress;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address {
   /**
   * cluster_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#cluster_static_ip SecuremeshSiteV2#cluster_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#cluster_static_ip SecuremeshSiteV2#cluster_static_ip}
   */
-  readonly clusterStaticIp?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp;
+  readonly clusterStaticIp?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp;
+  /**
+  * fleet_static_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fleet_static_ip SecuremeshSiteV2#fleet_static_ip}
+  */
+  readonly fleetStaticIp?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp;
   /**
   * node_static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#node_static_ip SecuremeshSiteV2#node_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_static_ip SecuremeshSiteV2#node_static_ip}
   */
-  readonly nodeStaticIp?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp;
+  readonly nodeStaticIp?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_static_ip: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct!.clusterStaticIp),
-    node_static_ip: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct!.nodeStaticIp),
+    cluster_static_ip: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct!.clusterStaticIp),
+    fleet_static_ip: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToTerraform(struct!.fleetStaticIp),
+    node_static_ip: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct!.nodeStaticIp),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_static_ip: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct!.clusterStaticIp),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct!.clusterStaticIp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpList",
+    },
+    fleet_static_ip: {
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToHclTerraform(struct!.fleetStaticIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpList",
     },
     node_static_ip: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct!.nodeStaticIp),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct!.nodeStaticIp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpList",
     },
   };
 
@@ -6939,7 +7953,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6A
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6950,12 +7964,16 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._clusterStaticIp?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clusterStaticIp = this._clusterStaticIp?.internalValue;
+    }
+    if (this._fleetStaticIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fleetStaticIp = this._fleetStaticIp?.internalValue;
     }
     if (this._nodeStaticIp?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -6964,25 +7982,27 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._clusterStaticIp.internalValue = undefined;
+      this._fleetStaticIp.internalValue = undefined;
       this._nodeStaticIp.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._clusterStaticIp.internalValue = value.clusterStaticIp;
+      this._fleetStaticIp.internalValue = value.fleetStaticIp;
       this._nodeStaticIp.internalValue = value.nodeStaticIp;
     }
   }
 
   // cluster_static_ip - computed: false, optional: true, required: false
-  private _clusterStaticIp = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference(this, "cluster_static_ip");
+  private _clusterStaticIp = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference(this, "cluster_static_ip");
   public get clusterStaticIp() {
     return this._clusterStaticIp;
   }
-  public putClusterStaticIp(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp) {
+  public putClusterStaticIp(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp) {
     this._clusterStaticIp.internalValue = value;
   }
   public resetClusterStaticIp() {
@@ -6993,12 +8013,28 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._clusterStaticIp.internalValue;
   }
 
+  // fleet_static_ip - computed: false, optional: true, required: false
+  private _fleetStaticIp = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference(this, "fleet_static_ip");
+  public get fleetStaticIp() {
+    return this._fleetStaticIp;
+  }
+  public putFleetStaticIp(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp) {
+    this._fleetStaticIp.internalValue = value;
+  }
+  public resetFleetStaticIp() {
+    this._fleetStaticIp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fleetStaticIpInput() {
+    return this._fleetStaticIp.internalValue;
+  }
+
   // node_static_ip - computed: false, optional: true, required: false
-  private _nodeStaticIp = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference(this, "node_static_ip");
+  private _nodeStaticIp = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference(this, "node_static_ip");
   public get nodeStaticIp() {
     return this._nodeStaticIp;
   }
-  public putNodeStaticIp(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp) {
+  public putNodeStaticIp(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp) {
     this._nodeStaticIp.internalValue = value;
   }
   public resetNodeStaticIp() {
@@ -7009,18 +8045,18 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Addr
     return this._nodeStaticIp.internalValue;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#vlan_id SecuremeshSiteV2#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vlan_id SecuremeshSiteV2#vlan_id}
   */
   readonly vlanId?: number;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7032,7 +8068,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfa
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7056,7 +8092,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -7067,7 +8103,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceO
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._device !== undefined) {
@@ -7081,7 +8117,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._device = undefined;
@@ -7123,102 +8159,116 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceO
     return this._vlanId;
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct {
+export interface SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#dhcp_client SecuremeshSiteV2#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_client SecuremeshSiteV2#dhcp_client}
   */
   readonly dhcpClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#is_management SecuremeshSiteV2#is_management}
+  */
+  readonly isManagement?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#is_primary SecuremeshSiteV2#is_primary}
+  */
+  readonly isPrimary?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#monitor_disabled SecuremeshSiteV2#monitor_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#monitor_disabled SecuremeshSiteV2#monitor_disabled}
   */
   readonly monitorDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#mtu SecuremeshSiteV2#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#mtu SecuremeshSiteV2#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#no_ipv4_address SecuremeshSiteV2#no_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_ipv4_address SecuremeshSiteV2#no_ipv4_address}
   */
   readonly noIpv4Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#no_ipv6_address SecuremeshSiteV2#no_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_ipv6_address SecuremeshSiteV2#no_ipv6_address}
   */
   readonly noIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#priority SecuremeshSiteV2#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#priority SecuremeshSiteV2#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_disabled SecuremeshSiteV2#site_to_site_connectivity_interface_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_disabled SecuremeshSiteV2#site_to_site_connectivity_interface_disabled}
   */
   readonly siteToSiteConnectivityInterfaceDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_enabled SecuremeshSiteV2#site_to_site_connectivity_interface_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_enabled SecuremeshSiteV2#site_to_site_connectivity_interface_enabled}
   */
   readonly siteToSiteConnectivityInterfaceEnabled?: boolean | cdktf.IResolvable;
   /**
   * bond_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#bond_interface SecuremeshSiteV2#bond_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#bond_interface SecuremeshSiteV2#bond_interface}
   */
-  readonly bondInterface?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface;
+  readonly bondInterface?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface;
+  /**
+  * dhcp_server block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_server SecuremeshSiteV2#dhcp_server}
+  */
+  readonly dhcpServer?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer;
   /**
   * ethernet_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ethernet_interface SecuremeshSiteV2#ethernet_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ethernet_interface SecuremeshSiteV2#ethernet_interface}
   */
-  readonly ethernetInterface?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface;
+  readonly ethernetInterface?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface;
   /**
   * ipv6_auto_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#ipv6_auto_config SecuremeshSiteV2#ipv6_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ipv6_auto_config SecuremeshSiteV2#ipv6_auto_config}
   */
-  readonly ipv6AutoConfig?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig;
+  readonly ipv6AutoConfig?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#monitor SecuremeshSiteV2#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#monitor SecuremeshSiteV2#monitor}
   */
-  readonly monitor?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor;
+  readonly monitor?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor;
   /**
   * network_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#network_option SecuremeshSiteV2#network_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_option SecuremeshSiteV2#network_option}
   */
-  readonly networkOption: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption;
+  readonly networkOption: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#static_ip SecuremeshSiteV2#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_ip SecuremeshSiteV2#static_ip}
   */
-  readonly staticIp?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp;
+  readonly staticIp?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp;
   /**
   * static_ipv6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#static_ipv6_address SecuremeshSiteV2#static_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_ipv6_address SecuremeshSiteV2#static_ipv6_address}
   */
-  readonly staticIpv6Address?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address;
+  readonly staticIpv6Address?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address;
   /**
   * vlan_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#vlan_interface SecuremeshSiteV2#vlan_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vlan_interface SecuremeshSiteV2#vlan_interface}
   */
-  readonly vlanInterface?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface;
+  readonly vlanInterface?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStructToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7226,6 +8276,8 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToTer
   return {
     description: cdktf.stringToTerraform(struct!.description),
     dhcp_client: cdktf.booleanToTerraform(struct!.dhcpClient),
+    is_management: cdktf.booleanToTerraform(struct!.isManagement),
+    is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
     labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
     monitor_disabled: cdktf.booleanToTerraform(struct!.monitorDisabled),
     mtu: cdktf.numberToTerraform(struct!.mtu),
@@ -7235,19 +8287,20 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToTer
     priority: cdktf.numberToTerraform(struct!.priority),
     site_to_site_connectivity_interface_disabled: cdktf.booleanToTerraform(struct!.siteToSiteConnectivityInterfaceDisabled),
     site_to_site_connectivity_interface_enabled: cdktf.booleanToTerraform(struct!.siteToSiteConnectivityInterfaceEnabled),
-    bond_interface: securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct!.bondInterface),
-    ethernet_interface: securemeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct!.ethernetInterface),
-    ipv6_auto_config: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct!.ipv6AutoConfig),
-    monitor: securemeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorToTerraform(struct!.monitor),
-    network_option: securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct!.networkOption),
-    static_ip: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpToTerraform(struct!.staticIp),
-    static_ipv6_address: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct!.staticIpv6Address),
-    vlan_interface: securemeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct!.vlanInterface),
+    bond_interface: securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct!.bondInterface),
+    dhcp_server: securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerToTerraform(struct!.dhcpServer),
+    ethernet_interface: securemeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct!.ethernetInterface),
+    ipv6_auto_config: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct!.ipv6AutoConfig),
+    monitor: securemeshSiteV2KvmNotManagedNodeListInterfaceListMonitorToTerraform(struct!.monitor),
+    network_option: securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct!.networkOption),
+    static_ip: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpToTerraform(struct!.staticIp),
+    static_ipv6_address: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct!.staticIpv6Address),
+    vlan_interface: securemeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct!.vlanInterface),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7261,6 +8314,18 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToHcl
     },
     dhcp_client: {
       value: cdktf.booleanToHclTerraform(struct!.dhcpClient),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_management: {
+      value: cdktf.booleanToHclTerraform(struct!.isManagement),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_primary: {
+      value: cdktf.booleanToHclTerraform(struct!.isPrimary),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7320,52 +8385,58 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToHcl
       storageClassType: "boolean",
     },
     bond_interface: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct!.bondInterface),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct!.bondInterface),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceList",
+    },
+    dhcp_server: {
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerToHclTerraform(struct!.dhcpServer),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerList",
     },
     ethernet_interface: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct!.ethernetInterface),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct!.ethernetInterface),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceList",
     },
     ipv6_auto_config: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct!.ipv6AutoConfig),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct!.ipv6AutoConfig),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigList",
     },
     monitor: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorToHclTerraform(struct!.monitor),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListMonitorToHclTerraform(struct!.monitor),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitorList",
     },
     network_option: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct!.networkOption),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct!.networkOption),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionList",
     },
     static_ip: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct!.staticIp),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct!.staticIp),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpList",
     },
     static_ipv6_address: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct!.staticIpv6Address),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct!.staticIpv6Address),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressList",
     },
     vlan_interface: {
-      value: securemeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct!.vlanInterface),
+      value: securemeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct!.vlanInterface),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceList",
     },
   };
 
@@ -7373,7 +8444,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -7387,7 +8458,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7400,6 +8471,14 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
     if (this._dhcpClient !== undefined) {
       hasAnyValues = true;
       internalValueResult.dhcpClient = this._dhcpClient;
+    }
+    if (this._isManagement !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isManagement = this._isManagement;
+    }
+    if (this._isPrimary !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrimary = this._isPrimary;
     }
     if (this._labels !== undefined) {
       hasAnyValues = true;
@@ -7441,6 +8520,10 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
       hasAnyValues = true;
       internalValueResult.bondInterface = this._bondInterface?.internalValue;
     }
+    if (this._dhcpServer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpServer = this._dhcpServer?.internalValue;
+    }
     if (this._ethernetInterface?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.ethernetInterface = this._ethernetInterface?.internalValue;
@@ -7472,12 +8555,14 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._description = undefined;
       this._dhcpClient = undefined;
+      this._isManagement = undefined;
+      this._isPrimary = undefined;
       this._labels = undefined;
       this._monitorDisabled = undefined;
       this._mtu = undefined;
@@ -7488,6 +8573,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
       this._siteToSiteConnectivityInterfaceDisabled = undefined;
       this._siteToSiteConnectivityInterfaceEnabled = undefined;
       this._bondInterface.internalValue = undefined;
+      this._dhcpServer.internalValue = undefined;
       this._ethernetInterface.internalValue = undefined;
       this._ipv6AutoConfig.internalValue = undefined;
       this._monitor.internalValue = undefined;
@@ -7505,6 +8591,8 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
       this.resolvableValue = undefined;
       this._description = value.description;
       this._dhcpClient = value.dhcpClient;
+      this._isManagement = value.isManagement;
+      this._isPrimary = value.isPrimary;
       this._labels = value.labels;
       this._monitorDisabled = value.monitorDisabled;
       this._mtu = value.mtu;
@@ -7515,6 +8603,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
       this._siteToSiteConnectivityInterfaceDisabled = value.siteToSiteConnectivityInterfaceDisabled;
       this._siteToSiteConnectivityInterfaceEnabled = value.siteToSiteConnectivityInterfaceEnabled;
       this._bondInterface.internalValue = value.bondInterface;
+      this._dhcpServer.internalValue = value.dhcpServer;
       this._ethernetInterface.internalValue = value.ethernetInterface;
       this._ipv6AutoConfig.internalValue = value.ipv6AutoConfig;
       this._monitor.internalValue = value.monitor;
@@ -7555,6 +8644,38 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   // Temporarily expose input value. Use with caution.
   public get dhcpClientInput() {
     return this._dhcpClient;
+  }
+
+  // is_management - computed: false, optional: true, required: false
+  private _isManagement?: boolean | cdktf.IResolvable; 
+  public get isManagement() {
+    return this.getBooleanAttribute('is_management');
+  }
+  public set isManagement(value: boolean | cdktf.IResolvable) {
+    this._isManagement = value;
+  }
+  public resetIsManagement() {
+    this._isManagement = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isManagementInput() {
+    return this._isManagement;
+  }
+
+  // is_primary - computed: false, optional: true, required: false
+  private _isPrimary?: boolean | cdktf.IResolvable; 
+  public get isPrimary() {
+    return this.getBooleanAttribute('is_primary');
+  }
+  public set isPrimary(value: boolean | cdktf.IResolvable) {
+    this._isPrimary = value;
+  }
+  public resetIsPrimary() {
+    this._isPrimary = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrimaryInput() {
+    return this._isPrimary;
   }
 
   // labels - computed: false, optional: true, required: false
@@ -7702,11 +8823,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // bond_interface - computed: false, optional: true, required: false
-  private _bondInterface = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterfaceOutputReference(this, "bond_interface");
+  private _bondInterface = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterfaceOutputReference(this, "bond_interface");
   public get bondInterface() {
     return this._bondInterface;
   }
-  public putBondInterface(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListBondInterface) {
+  public putBondInterface(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListBondInterface) {
     this._bondInterface.internalValue = value;
   }
   public resetBondInterface() {
@@ -7717,12 +8838,28 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
     return this._bondInterface.internalValue;
   }
 
+  // dhcp_server - computed: false, optional: true, required: false
+  private _dhcpServer = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServerOutputReference(this, "dhcp_server");
+  public get dhcpServer() {
+    return this._dhcpServer;
+  }
+  public putDhcpServer(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListDhcpServer) {
+    this._dhcpServer.internalValue = value;
+  }
+  public resetDhcpServer() {
+    this._dhcpServer.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpServerInput() {
+    return this._dhcpServer.internalValue;
+  }
+
   // ethernet_interface - computed: false, optional: true, required: false
-  private _ethernetInterface = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterfaceOutputReference(this, "ethernet_interface");
+  private _ethernetInterface = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterfaceOutputReference(this, "ethernet_interface");
   public get ethernetInterface() {
     return this._ethernetInterface;
   }
-  public putEthernetInterface(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListEthernetInterface) {
+  public putEthernetInterface(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListEthernetInterface) {
     this._ethernetInterface.internalValue = value;
   }
   public resetEthernetInterface() {
@@ -7734,11 +8871,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // ipv6_auto_config - computed: false, optional: true, required: false
-  private _ipv6AutoConfig = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference(this, "ipv6_auto_config");
+  private _ipv6AutoConfig = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference(this, "ipv6_auto_config");
   public get ipv6AutoConfig() {
     return this._ipv6AutoConfig;
   }
-  public putIpv6AutoConfig(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListIpv6AutoConfig) {
+  public putIpv6AutoConfig(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListIpv6AutoConfig) {
     this._ipv6AutoConfig.internalValue = value;
   }
   public resetIpv6AutoConfig() {
@@ -7750,11 +8887,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // monitor - computed: false, optional: true, required: false
-  private _monitor = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitorOutputReference(this, "monitor");
+  private _monitor = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitorOutputReference(this, "monitor");
   public get monitor() {
     return this._monitor;
   }
-  public putMonitor(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListMonitor) {
+  public putMonitor(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListMonitor) {
     this._monitor.internalValue = value;
   }
   public resetMonitor() {
@@ -7766,11 +8903,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // network_option - computed: false, optional: false, required: true
-  private _networkOption = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOptionOutputReference(this, "network_option");
+  private _networkOption = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOptionOutputReference(this, "network_option");
   public get networkOption() {
     return this._networkOption;
   }
-  public putNetworkOption(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListNetworkOption) {
+  public putNetworkOption(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListNetworkOption) {
     this._networkOption.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -7779,11 +8916,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // static_ip - computed: false, optional: true, required: false
-  private _staticIp = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpOutputReference(this, "static_ip");
+  private _staticIp = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpOutputReference(this, "static_ip");
   public get staticIp() {
     return this._staticIp;
   }
-  public putStaticIp(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIp) {
+  public putStaticIp(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIp) {
     this._staticIp.internalValue = value;
   }
   public resetStaticIp() {
@@ -7795,11 +8932,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // static_ipv6_address - computed: false, optional: true, required: false
-  private _staticIpv6Address = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference(this, "static_ipv6_address");
+  private _staticIpv6Address = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference(this, "static_ipv6_address");
   public get staticIpv6Address() {
     return this._staticIpv6Address;
   }
-  public putStaticIpv6Address(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStaticIpv6Address) {
+  public putStaticIpv6Address(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStaticIpv6Address) {
     this._staticIpv6Address.internalValue = value;
   }
   public resetStaticIpv6Address() {
@@ -7811,11 +8948,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 
   // vlan_interface - computed: false, optional: true, required: false
-  private _vlanInterface = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterfaceOutputReference(this, "vlan_interface");
+  private _vlanInterface = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterfaceOutputReference(this, "vlan_interface");
   public get vlanInterface() {
     return this._vlanInterface;
   }
-  public putVlanInterface(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListVlanInterface) {
+  public putVlanInterface(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListVlanInterface) {
     this._vlanInterface.internalValue = value;
   }
   public resetVlanInterface() {
@@ -7827,8 +8964,8 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputRe
   }
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable
+export class SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -7842,32 +8979,32 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructList ext
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputReference {
-    return new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2VmwareNotManagedNodeListStruct {
+export interface SecuremeshSiteV2KvmNotManagedNodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#hostname SecuremeshSiteV2#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#hostname SecuremeshSiteV2#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#public_ip SecuremeshSiteV2#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#public_ip SecuremeshSiteV2#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#type SecuremeshSiteV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#type SecuremeshSiteV2#type}
   */
   readonly type?: string;
   /**
   * interface_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#interface_list SecuremeshSiteV2#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_list SecuremeshSiteV2#interface_list}
   */
-  readonly interfaceList?: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable;
+  readonly interfaceList?: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2VmwareNotManagedNodeListStructToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListStructToTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7876,12 +9013,12 @@ export function securemeshSiteV2VmwareNotManagedNodeListStructToTerraform(struct
     hostname: cdktf.stringToTerraform(struct!.hostname),
     public_ip: cdktf.stringToTerraform(struct!.publicIp),
     type: cdktf.stringToTerraform(struct!.type),
-    interface_list: cdktf.listMapper(securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToTerraform, true)(struct!.interfaceList),
+    interface_list: cdktf.listMapper(securemeshSiteV2KvmNotManagedNodeListInterfaceListStructToTerraform, true)(struct!.interfaceList),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedNodeListStructToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedNodeListStruct | cdktf.IResolvable): any {
+export function securemeshSiteV2KvmNotManagedNodeListStructToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedNodeListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7906,10 +9043,10 @@ export function securemeshSiteV2VmwareNotManagedNodeListStructToHclTerraform(str
       storageClassType: "string",
     },
     interface_list: {
-      value: cdktf.listMapperHcl(securemeshSiteV2VmwareNotManagedNodeListInterfaceListStructToHclTerraform, true)(struct!.interfaceList),
+      value: cdktf.listMapperHcl(securemeshSiteV2KvmNotManagedNodeListInterfaceListStructToHclTerraform, true)(struct!.interfaceList),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStructList",
     },
   };
 
@@ -7917,7 +9054,7 @@ export function securemeshSiteV2VmwareNotManagedNodeListStructToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedNodeListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -7931,7 +9068,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference exten
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManagedNodeListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManagedNodeListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7956,7 +9093,7 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManagedNodeListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManagedNodeListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -8028,11 +9165,11 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference exten
   }
 
   // interface_list - computed: false, optional: true, required: false
-  private _interfaceList = new SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStructList(this, "interface_list", false);
+  private _interfaceList = new SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStructList(this, "interface_list", false);
   public get interfaceList() {
     return this._interfaceList;
   }
-  public putInterfaceList(value: SecuremeshSiteV2VmwareNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable) {
+  public putInterfaceList(value: SecuremeshSiteV2KvmNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable) {
     this._interfaceList.internalValue = value;
   }
   public resetInterfaceList() {
@@ -8044,8 +9181,8 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference exten
   }
 }
 
-export class SecuremeshSiteV2VmwareNotManagedNodeListStructList extends cdktf.ComplexList {
-  public internalValue? : SecuremeshSiteV2VmwareNotManagedNodeListStruct[] | cdktf.IResolvable
+export class SecuremeshSiteV2KvmNotManagedNodeListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2KvmNotManagedNodeListStruct[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -8059,41 +9196,41 @@ export class SecuremeshSiteV2VmwareNotManagedNodeListStructList extends cdktf.Co
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference {
-    return new SecuremeshSiteV2VmwareNotManagedNodeListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): SecuremeshSiteV2KvmNotManagedNodeListStructOutputReference {
+    return new SecuremeshSiteV2KvmNotManagedNodeListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface SecuremeshSiteV2VmwareNotManaged {
+export interface SecuremeshSiteV2KvmNotManaged {
   /**
   * node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#node_list SecuremeshSiteV2#node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_list SecuremeshSiteV2#node_list}
   */
-  readonly nodeList?: SecuremeshSiteV2VmwareNotManagedNodeListStruct[] | cdktf.IResolvable;
+  readonly nodeList?: SecuremeshSiteV2KvmNotManagedNodeListStruct[] | cdktf.IResolvable;
 }
 
-export function securemeshSiteV2VmwareNotManagedToTerraform(struct?: SecuremeshSiteV2VmwareNotManagedOutputReference | SecuremeshSiteV2VmwareNotManaged): any {
+export function securemeshSiteV2KvmNotManagedToTerraform(struct?: SecuremeshSiteV2KvmNotManagedOutputReference | SecuremeshSiteV2KvmNotManaged): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    node_list: cdktf.listMapper(securemeshSiteV2VmwareNotManagedNodeListStructToTerraform, true)(struct!.nodeList),
+    node_list: cdktf.listMapper(securemeshSiteV2KvmNotManagedNodeListStructToTerraform, true)(struct!.nodeList),
   }
 }
 
 
-export function securemeshSiteV2VmwareNotManagedToHclTerraform(struct?: SecuremeshSiteV2VmwareNotManagedOutputReference | SecuremeshSiteV2VmwareNotManaged): any {
+export function securemeshSiteV2KvmNotManagedToHclTerraform(struct?: SecuremeshSiteV2KvmNotManagedOutputReference | SecuremeshSiteV2KvmNotManaged): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     node_list: {
-      value: cdktf.listMapperHcl(securemeshSiteV2VmwareNotManagedNodeListStructToHclTerraform, true)(struct!.nodeList),
+      value: cdktf.listMapperHcl(securemeshSiteV2KvmNotManagedNodeListStructToHclTerraform, true)(struct!.nodeList),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedNodeListStructList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedNodeListStructList",
     },
   };
 
@@ -8101,7 +9238,7 @@ export function securemeshSiteV2VmwareNotManagedToHclTerraform(struct?: Secureme
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareNotManagedOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmNotManagedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -8112,7 +9249,7 @@ export class SecuremeshSiteV2VmwareNotManagedOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2VmwareNotManaged | undefined {
+  public get internalValue(): SecuremeshSiteV2KvmNotManaged | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._nodeList?.internalValue !== undefined) {
@@ -8122,7 +9259,7 @@ export class SecuremeshSiteV2VmwareNotManagedOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2VmwareNotManaged | undefined) {
+  public set internalValue(value: SecuremeshSiteV2KvmNotManaged | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._nodeList.internalValue = undefined;
@@ -8134,11 +9271,11 @@ export class SecuremeshSiteV2VmwareNotManagedOutputReference extends cdktf.Compl
   }
 
   // node_list - computed: false, optional: true, required: false
-  private _nodeList = new SecuremeshSiteV2VmwareNotManagedNodeListStructList(this, "node_list", false);
+  private _nodeList = new SecuremeshSiteV2KvmNotManagedNodeListStructList(this, "node_list", false);
   public get nodeList() {
     return this._nodeList;
   }
-  public putNodeList(value: SecuremeshSiteV2VmwareNotManagedNodeListStruct[] | cdktf.IResolvable) {
+  public putNodeList(value: SecuremeshSiteV2KvmNotManagedNodeListStruct[] | cdktf.IResolvable) {
     this._nodeList.internalValue = value;
   }
   public resetNodeList() {
@@ -8149,37 +9286,37 @@ export class SecuremeshSiteV2VmwareNotManagedOutputReference extends cdktf.Compl
     return this._nodeList.internalValue;
   }
 }
-export interface SecuremeshSiteV2Vmware {
+export interface SecuremeshSiteV2Kvm {
   /**
   * not_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/securemesh_site_v2#not_managed SecuremeshSiteV2#not_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#not_managed SecuremeshSiteV2#not_managed}
   */
-  readonly notManaged?: SecuremeshSiteV2VmwareNotManaged;
+  readonly notManaged?: SecuremeshSiteV2KvmNotManaged;
 }
 
-export function securemeshSiteV2VmwareToTerraform(struct?: SecuremeshSiteV2VmwareOutputReference | SecuremeshSiteV2Vmware): any {
+export function securemeshSiteV2KvmToTerraform(struct?: SecuremeshSiteV2KvmOutputReference | SecuremeshSiteV2Kvm): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    not_managed: securemeshSiteV2VmwareNotManagedToTerraform(struct!.notManaged),
+    not_managed: securemeshSiteV2KvmNotManagedToTerraform(struct!.notManaged),
   }
 }
 
 
-export function securemeshSiteV2VmwareToHclTerraform(struct?: SecuremeshSiteV2VmwareOutputReference | SecuremeshSiteV2Vmware): any {
+export function securemeshSiteV2KvmToHclTerraform(struct?: SecuremeshSiteV2KvmOutputReference | SecuremeshSiteV2Kvm): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     not_managed: {
-      value: securemeshSiteV2VmwareNotManagedToHclTerraform(struct!.notManaged),
+      value: securemeshSiteV2KvmNotManagedToHclTerraform(struct!.notManaged),
       isBlock: true,
       type: "list",
-      storageClassType: "SecuremeshSiteV2VmwareNotManagedList",
+      storageClassType: "SecuremeshSiteV2KvmNotManagedList",
     },
   };
 
@@ -8187,7 +9324,7 @@ export function securemeshSiteV2VmwareToHclTerraform(struct?: SecuremeshSiteV2Vm
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SecuremeshSiteV2VmwareOutputReference extends cdktf.ComplexObject {
+export class SecuremeshSiteV2KvmOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -8198,7 +9335,7 @@ export class SecuremeshSiteV2VmwareOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): SecuremeshSiteV2Vmware | undefined {
+  public get internalValue(): SecuremeshSiteV2Kvm | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._notManaged?.internalValue !== undefined) {
@@ -8208,7 +9345,7 @@ export class SecuremeshSiteV2VmwareOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SecuremeshSiteV2Vmware | undefined) {
+  public set internalValue(value: SecuremeshSiteV2Kvm | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._notManaged.internalValue = undefined;
@@ -8220,11 +9357,11 @@ export class SecuremeshSiteV2VmwareOutputReference extends cdktf.ComplexObject {
   }
 
   // not_managed - computed: false, optional: true, required: false
-  private _notManaged = new SecuremeshSiteV2VmwareNotManagedOutputReference(this, "not_managed");
+  private _notManaged = new SecuremeshSiteV2KvmNotManagedOutputReference(this, "not_managed");
   public get notManaged() {
     return this._notManaged;
   }
-  public putNotManaged(value: SecuremeshSiteV2VmwareNotManaged) {
+  public putNotManaged(value: SecuremeshSiteV2KvmNotManaged) {
     this._notManaged.internalValue = value;
   }
   public resetNotManaged() {
@@ -8233,5 +9370,11661 @@ export class SecuremeshSiteV2VmwareOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get notManagedInput() {
     return this._notManaged.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LoadBalancing {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vip_vrrp_mode SecuremeshSiteV2#vip_vrrp_mode}
+  */
+  readonly vipVrrpMode?: string;
+}
+
+export function securemeshSiteV2LoadBalancingToTerraform(struct?: SecuremeshSiteV2LoadBalancingOutputReference | SecuremeshSiteV2LoadBalancing): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    vip_vrrp_mode: cdktf.stringToTerraform(struct!.vipVrrpMode),
+  }
+}
+
+
+export function securemeshSiteV2LoadBalancingToHclTerraform(struct?: SecuremeshSiteV2LoadBalancingOutputReference | SecuremeshSiteV2LoadBalancing): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    vip_vrrp_mode: {
+      value: cdktf.stringToHclTerraform(struct!.vipVrrpMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LoadBalancingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LoadBalancing | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._vipVrrpMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vipVrrpMode = this._vipVrrpMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LoadBalancing | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._vipVrrpMode = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._vipVrrpMode = value.vipVrrpMode;
+    }
+  }
+
+  // vip_vrrp_mode - computed: false, optional: true, required: false
+  private _vipVrrpMode?: string; 
+  public get vipVrrpMode() {
+    return this.getStringAttribute('vip_vrrp_mode');
+  }
+  public set vipVrrpMode(value: string) {
+    this._vipVrrpMode = value;
+  }
+  public resetVipVrrpMode() {
+    this._vipVrrpMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipVrrpModeInput() {
+    return this._vipVrrpMode;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceOutputReference {
+    return new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node SecuremeshSiteV2#node}
+  */
+  readonly nodeAttribute?: string;
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node: cdktf.stringToTerraform(struct!.nodeAttribute),
+    interface: cdktf.listMapper(securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToTerraform, true)(struct!.interface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node: {
+      value: cdktf.stringToHclTerraform(struct!.nodeAttribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interface: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform, true)(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._node !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeAttribute = this._node;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._node = undefined;
+      this._interface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._node = value.nodeAttribute;
+      this._interface.internalValue = value.interface;
+    }
+  }
+
+  // node - computed: false, optional: true, required: false
+  private _node?: string; 
+  public get nodeAttribute() {
+    return this.getStringAttribute('node');
+  }
+  public set nodeAttribute(value: string) {
+    this._node = value;
+  }
+  public resetNodeAttribute() {
+    this._node = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeAttributeInput() {
+    return this._node;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceList(this, "interface", false);
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface {
+  /**
+  * list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#list SecuremeshSiteV2#list}
+  */
+  readonly list?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    list: cdktf.listMapper(securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructToTerraform, true)(struct!.list),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    list: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructToHclTerraform, true)(struct!.list),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._list?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._list.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._list.internalValue = value.list;
+    }
+  }
+
+  // list - computed: false, optional: true, required: false
+  private _list = new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStructList(this, "list", false);
+  public get list() {
+    return this._list;
+  }
+  public putList(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable) {
+    this._list.internalValue = value;
+  }
+  public resetList() {
+    this._list.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#attrs SecuremeshSiteV2#attrs}
+  */
+  readonly attrs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gateway SecuremeshSiteV2#default_gateway}
+  */
+  readonly defaultGateway?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_prefixes SecuremeshSiteV2#ip_prefixes}
+  */
+  readonly ipPrefixes: string[];
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface;
+  /**
+  * node_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_interface SecuremeshSiteV2#node_interface}
+  */
+  readonly nodeInterface?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.attrs),
+    default_gateway: cdktf.booleanToTerraform(struct!.defaultGateway),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ip_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipPrefixes),
+    interface: securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceToTerraform(struct!.interface),
+    node_interface: securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceToTerraform(struct!.nodeInterface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.attrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    default_gateway: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    interface: {
+      value: securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceToHclTerraform(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceList",
+    },
+    node_interface: {
+      value: securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceToHclTerraform(struct!.nodeInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attrs = this._attrs;
+    }
+    if (this._defaultGateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGateway = this._defaultGateway;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipPrefixes = this._ipPrefixes;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    if (this._nodeInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeInterface = this._nodeInterface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attrs = undefined;
+      this._defaultGateway = undefined;
+      this._ipAddress = undefined;
+      this._ipPrefixes = undefined;
+      this._interface.internalValue = undefined;
+      this._nodeInterface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attrs = value.attrs;
+      this._defaultGateway = value.defaultGateway;
+      this._ipAddress = value.ipAddress;
+      this._ipPrefixes = value.ipPrefixes;
+      this._interface.internalValue = value.interface;
+      this._nodeInterface.internalValue = value.nodeInterface;
+    }
+  }
+
+  // attrs - computed: false, optional: true, required: false
+  private _attrs?: string[]; 
+  public get attrs() {
+    return this.getListAttribute('attrs');
+  }
+  public set attrs(value: string[]) {
+    this._attrs = value;
+  }
+  public resetAttrs() {
+    this._attrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attrsInput() {
+    return this._attrs;
+  }
+
+  // default_gateway - computed: false, optional: true, required: false
+  private _defaultGateway?: boolean | cdktf.IResolvable; 
+  public get defaultGateway() {
+    return this.getBooleanAttribute('default_gateway');
+  }
+  public set defaultGateway(value: boolean | cdktf.IResolvable) {
+    this._defaultGateway = value;
+  }
+  public resetDefaultGateway() {
+    this._defaultGateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGatewayInput() {
+    return this._defaultGateway;
+  }
+
+  // ip_address - computed: false, optional: true, required: false
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  public resetIpAddress() {
+    this._ipAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+
+  // ip_prefixes - computed: false, optional: false, required: true
+  private _ipPrefixes?: string[]; 
+  public get ipPrefixes() {
+    return this.getListAttribute('ip_prefixes');
+  }
+  public set ipPrefixes(value: string[]) {
+    this._ipPrefixes = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipPrefixesInput() {
+    return this._ipPrefixes;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterfaceOutputReference(this, "interface");
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesInterface) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+
+  // node_interface - computed: false, optional: true, required: false
+  private _nodeInterface = new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference(this, "node_interface");
+  public get nodeInterface() {
+    return this._nodeInterface;
+  }
+  public putNodeInterface(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesNodeInterface) {
+    this._nodeInterface.internalValue = value;
+  }
+  public resetNodeInterface() {
+    this._nodeInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeInterfaceInput() {
+    return this._nodeInterface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesOutputReference {
+    return new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticRoutes {
+  /**
+  * static_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_routes SecuremeshSiteV2#static_routes}
+  */
+  readonly staticRoutes: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticRoutes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    static_routes: cdktf.listMapper(securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesToTerraform, true)(struct!.staticRoutes),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticRoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticRoutes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    static_routes: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesToHclTerraform, true)(struct!.staticRoutes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticRoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticRoutes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._staticRoutes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticRoutes = this._staticRoutes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._staticRoutes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._staticRoutes.internalValue = value.staticRoutes;
+    }
+  }
+
+  // static_routes - computed: false, optional: false, required: true
+  private _staticRoutes = new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutesList(this, "static_routes", false);
+  public get staticRoutes() {
+    return this._staticRoutes;
+  }
+  public putStaticRoutes(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable) {
+    this._staticRoutes.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticRoutesInput() {
+    return this._staticRoutes.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceOutputReference {
+    return new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node SecuremeshSiteV2#node}
+  */
+  readonly nodeAttribute?: string;
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node: cdktf.stringToTerraform(struct!.nodeAttribute),
+    interface: cdktf.listMapper(securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToTerraform, true)(struct!.interface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node: {
+      value: cdktf.stringToHclTerraform(struct!.nodeAttribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interface: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform, true)(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._node !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeAttribute = this._node;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._node = undefined;
+      this._interface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._node = value.nodeAttribute;
+      this._interface.internalValue = value.interface;
+    }
+  }
+
+  // node - computed: false, optional: true, required: false
+  private _node?: string; 
+  public get nodeAttribute() {
+    return this.getStringAttribute('node');
+  }
+  public set nodeAttribute(value: string) {
+    this._node = value;
+  }
+  public resetNodeAttribute() {
+    this._node = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeAttributeInput() {
+    return this._node;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceList(this, "interface", false);
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface {
+  /**
+  * list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#list SecuremeshSiteV2#list}
+  */
+  readonly list?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    list: cdktf.listMapper(securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToTerraform, true)(struct!.list),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    list: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToHclTerraform, true)(struct!.list),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._list?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._list.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._list.internalValue = value.list;
+    }
+  }
+
+  // list - computed: false, optional: true, required: false
+  private _list = new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructList(this, "list", false);
+  public get list() {
+    return this._list;
+  }
+  public putList(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable) {
+    this._list.internalValue = value;
+  }
+  public resetList() {
+    this._list.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#attrs SecuremeshSiteV2#attrs}
+  */
+  readonly attrs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gateway SecuremeshSiteV2#default_gateway}
+  */
+  readonly defaultGateway?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_prefixes SecuremeshSiteV2#ip_prefixes}
+  */
+  readonly ipPrefixes: string[];
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface;
+  /**
+  * node_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_interface SecuremeshSiteV2#node_interface}
+  */
+  readonly nodeInterface?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.attrs),
+    default_gateway: cdktf.booleanToTerraform(struct!.defaultGateway),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ip_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipPrefixes),
+    interface: securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceToTerraform(struct!.interface),
+    node_interface: securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceToTerraform(struct!.nodeInterface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.attrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    default_gateway: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    interface: {
+      value: securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceToHclTerraform(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceList",
+    },
+    node_interface: {
+      value: securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceToHclTerraform(struct!.nodeInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attrs = this._attrs;
+    }
+    if (this._defaultGateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGateway = this._defaultGateway;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipPrefixes = this._ipPrefixes;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    if (this._nodeInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeInterface = this._nodeInterface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attrs = undefined;
+      this._defaultGateway = undefined;
+      this._ipAddress = undefined;
+      this._ipPrefixes = undefined;
+      this._interface.internalValue = undefined;
+      this._nodeInterface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attrs = value.attrs;
+      this._defaultGateway = value.defaultGateway;
+      this._ipAddress = value.ipAddress;
+      this._ipPrefixes = value.ipPrefixes;
+      this._interface.internalValue = value.interface;
+      this._nodeInterface.internalValue = value.nodeInterface;
+    }
+  }
+
+  // attrs - computed: false, optional: true, required: false
+  private _attrs?: string[]; 
+  public get attrs() {
+    return this.getListAttribute('attrs');
+  }
+  public set attrs(value: string[]) {
+    this._attrs = value;
+  }
+  public resetAttrs() {
+    this._attrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attrsInput() {
+    return this._attrs;
+  }
+
+  // default_gateway - computed: false, optional: true, required: false
+  private _defaultGateway?: boolean | cdktf.IResolvable; 
+  public get defaultGateway() {
+    return this.getBooleanAttribute('default_gateway');
+  }
+  public set defaultGateway(value: boolean | cdktf.IResolvable) {
+    this._defaultGateway = value;
+  }
+  public resetDefaultGateway() {
+    this._defaultGateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGatewayInput() {
+    return this._defaultGateway;
+  }
+
+  // ip_address - computed: false, optional: true, required: false
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  public resetIpAddress() {
+    this._ipAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+
+  // ip_prefixes - computed: false, optional: false, required: true
+  private _ipPrefixes?: string[]; 
+  public get ipPrefixes() {
+    return this.getListAttribute('ip_prefixes');
+  }
+  public set ipPrefixes(value: string[]) {
+    this._ipPrefixes = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipPrefixesInput() {
+    return this._ipPrefixes;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterfaceOutputReference(this, "interface");
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesInterface) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+
+  // node_interface - computed: false, optional: true, required: false
+  private _nodeInterface = new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference(this, "node_interface");
+  public get nodeInterface() {
+    return this._nodeInterface;
+  }
+  public putNodeInterface(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesNodeInterface) {
+    this._nodeInterface.internalValue = value;
+  }
+  public resetNodeInterface() {
+    this._nodeInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeInterfaceInput() {
+    return this._nodeInterface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesOutputReference {
+    return new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes {
+  /**
+  * static_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_routes SecuremeshSiteV2#static_routes}
+  */
+  readonly staticRoutes: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    static_routes: cdktf.listMapper(securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesToTerraform, true)(struct!.staticRoutes),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigStaticV6RoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesOutputReference | SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    static_routes: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesToHclTerraform, true)(struct!.staticRoutes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._staticRoutes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticRoutes = this._staticRoutes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._staticRoutes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._staticRoutes.internalValue = value.staticRoutes;
+    }
+  }
+
+  // static_routes - computed: false, optional: false, required: true
+  private _staticRoutes = new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutesList(this, "static_routes", false);
+  public get staticRoutes() {
+    return this._staticRoutes;
+  }
+  public putStaticRoutes(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable) {
+    this._staticRoutes.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticRoutesInput() {
+    return this._staticRoutes.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSliConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#nameserver SecuremeshSiteV2#nameserver}
+  */
+  readonly nameserver?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#nameserver_v6 SecuremeshSiteV2#nameserver_v6}
+  */
+  readonly nameserverV6?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_static_routes SecuremeshSiteV2#no_static_routes}
+  */
+  readonly noStaticRoutes?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_v6_static_routes SecuremeshSiteV2#no_v6_static_routes}
+  */
+  readonly noV6StaticRoutes?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vip SecuremeshSiteV2#vip}
+  */
+  readonly vip?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vip_v6 SecuremeshSiteV2#vip_v6}
+  */
+  readonly vipV6?: string;
+  /**
+  * static_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_routes SecuremeshSiteV2#static_routes}
+  */
+  readonly staticRoutes?: SecuremeshSiteV2LocalVrfSliConfigStaticRoutes;
+  /**
+  * static_v6_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_v6_routes SecuremeshSiteV2#static_v6_routes}
+  */
+  readonly staticV6Routes?: SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes;
+}
+
+export function securemeshSiteV2LocalVrfSliConfigToTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigOutputReference | SecuremeshSiteV2LocalVrfSliConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    nameserver: cdktf.stringToTerraform(struct!.nameserver),
+    nameserver_v6: cdktf.stringToTerraform(struct!.nameserverV6),
+    no_static_routes: cdktf.booleanToTerraform(struct!.noStaticRoutes),
+    no_v6_static_routes: cdktf.booleanToTerraform(struct!.noV6StaticRoutes),
+    vip: cdktf.stringToTerraform(struct!.vip),
+    vip_v6: cdktf.stringToTerraform(struct!.vipV6),
+    static_routes: securemeshSiteV2LocalVrfSliConfigStaticRoutesToTerraform(struct!.staticRoutes),
+    static_v6_routes: securemeshSiteV2LocalVrfSliConfigStaticV6RoutesToTerraform(struct!.staticV6Routes),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSliConfigToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSliConfigOutputReference | SecuremeshSiteV2LocalVrfSliConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    nameserver: {
+      value: cdktf.stringToHclTerraform(struct!.nameserver),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    nameserver_v6: {
+      value: cdktf.stringToHclTerraform(struct!.nameserverV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    no_static_routes: {
+      value: cdktf.booleanToHclTerraform(struct!.noStaticRoutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    no_v6_static_routes: {
+      value: cdktf.booleanToHclTerraform(struct!.noV6StaticRoutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vip: {
+      value: cdktf.stringToHclTerraform(struct!.vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vip_v6: {
+      value: cdktf.stringToHclTerraform(struct!.vipV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    static_routes: {
+      value: securemeshSiteV2LocalVrfSliConfigStaticRoutesToHclTerraform(struct!.staticRoutes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticRoutesList",
+    },
+    static_v6_routes: {
+      value: securemeshSiteV2LocalVrfSliConfigStaticV6RoutesToHclTerraform(struct!.staticV6Routes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSliConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSliConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._nameserver !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nameserver = this._nameserver;
+    }
+    if (this._nameserverV6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nameserverV6 = this._nameserverV6;
+    }
+    if (this._noStaticRoutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noStaticRoutes = this._noStaticRoutes;
+    }
+    if (this._noV6StaticRoutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noV6StaticRoutes = this._noV6StaticRoutes;
+    }
+    if (this._vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vip = this._vip;
+    }
+    if (this._vipV6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vipV6 = this._vipV6;
+    }
+    if (this._staticRoutes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticRoutes = this._staticRoutes?.internalValue;
+    }
+    if (this._staticV6Routes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticV6Routes = this._staticV6Routes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSliConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._labels = undefined;
+      this._nameserver = undefined;
+      this._nameserverV6 = undefined;
+      this._noStaticRoutes = undefined;
+      this._noV6StaticRoutes = undefined;
+      this._vip = undefined;
+      this._vipV6 = undefined;
+      this._staticRoutes.internalValue = undefined;
+      this._staticV6Routes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._labels = value.labels;
+      this._nameserver = value.nameserver;
+      this._nameserverV6 = value.nameserverV6;
+      this._noStaticRoutes = value.noStaticRoutes;
+      this._noV6StaticRoutes = value.noV6StaticRoutes;
+      this._vip = value.vip;
+      this._vipV6 = value.vipV6;
+      this._staticRoutes.internalValue = value.staticRoutes;
+      this._staticV6Routes.internalValue = value.staticV6Routes;
+    }
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // nameserver - computed: false, optional: true, required: false
+  private _nameserver?: string; 
+  public get nameserver() {
+    return this.getStringAttribute('nameserver');
+  }
+  public set nameserver(value: string) {
+    this._nameserver = value;
+  }
+  public resetNameserver() {
+    this._nameserver = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameserverInput() {
+    return this._nameserver;
+  }
+
+  // nameserver_v6 - computed: false, optional: true, required: false
+  private _nameserverV6?: string; 
+  public get nameserverV6() {
+    return this.getStringAttribute('nameserver_v6');
+  }
+  public set nameserverV6(value: string) {
+    this._nameserverV6 = value;
+  }
+  public resetNameserverV6() {
+    this._nameserverV6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameserverV6Input() {
+    return this._nameserverV6;
+  }
+
+  // no_static_routes - computed: false, optional: true, required: false
+  private _noStaticRoutes?: boolean | cdktf.IResolvable; 
+  public get noStaticRoutes() {
+    return this.getBooleanAttribute('no_static_routes');
+  }
+  public set noStaticRoutes(value: boolean | cdktf.IResolvable) {
+    this._noStaticRoutes = value;
+  }
+  public resetNoStaticRoutes() {
+    this._noStaticRoutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noStaticRoutesInput() {
+    return this._noStaticRoutes;
+  }
+
+  // no_v6_static_routes - computed: false, optional: true, required: false
+  private _noV6StaticRoutes?: boolean | cdktf.IResolvable; 
+  public get noV6StaticRoutes() {
+    return this.getBooleanAttribute('no_v6_static_routes');
+  }
+  public set noV6StaticRoutes(value: boolean | cdktf.IResolvable) {
+    this._noV6StaticRoutes = value;
+  }
+  public resetNoV6StaticRoutes() {
+    this._noV6StaticRoutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noV6StaticRoutesInput() {
+    return this._noV6StaticRoutes;
+  }
+
+  // vip - computed: false, optional: true, required: false
+  private _vip?: string; 
+  public get vip() {
+    return this.getStringAttribute('vip');
+  }
+  public set vip(value: string) {
+    this._vip = value;
+  }
+  public resetVip() {
+    this._vip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipInput() {
+    return this._vip;
+  }
+
+  // vip_v6 - computed: false, optional: true, required: false
+  private _vipV6?: string; 
+  public get vipV6() {
+    return this.getStringAttribute('vip_v6');
+  }
+  public set vipV6(value: string) {
+    this._vipV6 = value;
+  }
+  public resetVipV6() {
+    this._vipV6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipV6Input() {
+    return this._vipV6;
+  }
+
+  // static_routes - computed: false, optional: true, required: false
+  private _staticRoutes = new SecuremeshSiteV2LocalVrfSliConfigStaticRoutesOutputReference(this, "static_routes");
+  public get staticRoutes() {
+    return this._staticRoutes;
+  }
+  public putStaticRoutes(value: SecuremeshSiteV2LocalVrfSliConfigStaticRoutes) {
+    this._staticRoutes.internalValue = value;
+  }
+  public resetStaticRoutes() {
+    this._staticRoutes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticRoutesInput() {
+    return this._staticRoutes.internalValue;
+  }
+
+  // static_v6_routes - computed: false, optional: true, required: false
+  private _staticV6Routes = new SecuremeshSiteV2LocalVrfSliConfigStaticV6RoutesOutputReference(this, "static_v6_routes");
+  public get staticV6Routes() {
+    return this._staticV6Routes;
+  }
+  public putStaticV6Routes(value: SecuremeshSiteV2LocalVrfSliConfigStaticV6Routes) {
+    this._staticV6Routes.internalValue = value;
+  }
+  public resetStaticV6Routes() {
+    this._staticV6Routes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticV6RoutesInput() {
+    return this._staticV6Routes.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceOutputReference {
+    return new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node SecuremeshSiteV2#node}
+  */
+  readonly nodeAttribute?: string;
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node: cdktf.stringToTerraform(struct!.nodeAttribute),
+    interface: cdktf.listMapper(securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToTerraform, true)(struct!.interface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node: {
+      value: cdktf.stringToHclTerraform(struct!.nodeAttribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interface: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform, true)(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._node !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeAttribute = this._node;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._node = undefined;
+      this._interface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._node = value.nodeAttribute;
+      this._interface.internalValue = value.interface;
+    }
+  }
+
+  // node - computed: false, optional: true, required: false
+  private _node?: string; 
+  public get nodeAttribute() {
+    return this.getStringAttribute('node');
+  }
+  public set nodeAttribute(value: string) {
+    this._node = value;
+  }
+  public resetNodeAttribute() {
+    this._node = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeAttributeInput() {
+    return this._node;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterfaceList(this, "interface", false);
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface {
+  /**
+  * list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#list SecuremeshSiteV2#list}
+  */
+  readonly list?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    list: cdktf.listMapper(securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructToTerraform, true)(struct!.list),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    list: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructToHclTerraform, true)(struct!.list),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._list?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._list.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._list.internalValue = value.list;
+    }
+  }
+
+  // list - computed: false, optional: true, required: false
+  private _list = new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStructList(this, "list", false);
+  public get list() {
+    return this._list;
+  }
+  public putList(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable) {
+    this._list.internalValue = value;
+  }
+  public resetList() {
+    this._list.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#attrs SecuremeshSiteV2#attrs}
+  */
+  readonly attrs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gateway SecuremeshSiteV2#default_gateway}
+  */
+  readonly defaultGateway?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_prefixes SecuremeshSiteV2#ip_prefixes}
+  */
+  readonly ipPrefixes: string[];
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface;
+  /**
+  * node_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_interface SecuremeshSiteV2#node_interface}
+  */
+  readonly nodeInterface?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.attrs),
+    default_gateway: cdktf.booleanToTerraform(struct!.defaultGateway),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ip_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipPrefixes),
+    interface: securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceToTerraform(struct!.interface),
+    node_interface: securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceToTerraform(struct!.nodeInterface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.attrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    default_gateway: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    interface: {
+      value: securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceToHclTerraform(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceList",
+    },
+    node_interface: {
+      value: securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceToHclTerraform(struct!.nodeInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attrs = this._attrs;
+    }
+    if (this._defaultGateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGateway = this._defaultGateway;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipPrefixes = this._ipPrefixes;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    if (this._nodeInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeInterface = this._nodeInterface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attrs = undefined;
+      this._defaultGateway = undefined;
+      this._ipAddress = undefined;
+      this._ipPrefixes = undefined;
+      this._interface.internalValue = undefined;
+      this._nodeInterface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attrs = value.attrs;
+      this._defaultGateway = value.defaultGateway;
+      this._ipAddress = value.ipAddress;
+      this._ipPrefixes = value.ipPrefixes;
+      this._interface.internalValue = value.interface;
+      this._nodeInterface.internalValue = value.nodeInterface;
+    }
+  }
+
+  // attrs - computed: false, optional: true, required: false
+  private _attrs?: string[]; 
+  public get attrs() {
+    return this.getListAttribute('attrs');
+  }
+  public set attrs(value: string[]) {
+    this._attrs = value;
+  }
+  public resetAttrs() {
+    this._attrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attrsInput() {
+    return this._attrs;
+  }
+
+  // default_gateway - computed: false, optional: true, required: false
+  private _defaultGateway?: boolean | cdktf.IResolvable; 
+  public get defaultGateway() {
+    return this.getBooleanAttribute('default_gateway');
+  }
+  public set defaultGateway(value: boolean | cdktf.IResolvable) {
+    this._defaultGateway = value;
+  }
+  public resetDefaultGateway() {
+    this._defaultGateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGatewayInput() {
+    return this._defaultGateway;
+  }
+
+  // ip_address - computed: false, optional: true, required: false
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  public resetIpAddress() {
+    this._ipAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+
+  // ip_prefixes - computed: false, optional: false, required: true
+  private _ipPrefixes?: string[]; 
+  public get ipPrefixes() {
+    return this.getListAttribute('ip_prefixes');
+  }
+  public set ipPrefixes(value: string[]) {
+    this._ipPrefixes = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipPrefixesInput() {
+    return this._ipPrefixes;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterfaceOutputReference(this, "interface");
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesInterface) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+
+  // node_interface - computed: false, optional: true, required: false
+  private _nodeInterface = new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterfaceOutputReference(this, "node_interface");
+  public get nodeInterface() {
+    return this._nodeInterface;
+  }
+  public putNodeInterface(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesNodeInterface) {
+    this._nodeInterface.internalValue = value;
+  }
+  public resetNodeInterface() {
+    this._nodeInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeInterfaceInput() {
+    return this._nodeInterface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesOutputReference {
+    return new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticRoutes {
+  /**
+  * static_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_routes SecuremeshSiteV2#static_routes}
+  */
+  readonly staticRoutes: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticRoutes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    static_routes: cdktf.listMapper(securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesToTerraform, true)(struct!.staticRoutes),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticRoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticRoutes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    static_routes: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesToHclTerraform, true)(struct!.staticRoutes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticRoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticRoutes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._staticRoutes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticRoutes = this._staticRoutes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._staticRoutes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._staticRoutes.internalValue = value.staticRoutes;
+    }
+  }
+
+  // static_routes - computed: false, optional: false, required: true
+  private _staticRoutes = new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutesList(this, "static_routes", false);
+  public get staticRoutes() {
+    return this._staticRoutes;
+  }
+  public putStaticRoutes(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutesStaticRoutes[] | cdktf.IResolvable) {
+    this._staticRoutes.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticRoutesInput() {
+    return this._staticRoutes.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceOutputReference {
+    return new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node SecuremeshSiteV2#node}
+  */
+  readonly nodeAttribute?: string;
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node: cdktf.stringToTerraform(struct!.nodeAttribute),
+    interface: cdktf.listMapper(securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToTerraform, true)(struct!.interface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node: {
+      value: cdktf.stringToHclTerraform(struct!.nodeAttribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interface: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceToHclTerraform, true)(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._node !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeAttribute = this._node;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._node = undefined;
+      this._interface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._node = value.nodeAttribute;
+      this._interface.internalValue = value.interface;
+    }
+  }
+
+  // node - computed: false, optional: true, required: false
+  private _node?: string; 
+  public get nodeAttribute() {
+    return this.getStringAttribute('node');
+  }
+  public set nodeAttribute(value: string) {
+    this._node = value;
+  }
+  public resetNodeAttribute() {
+    this._node = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeAttributeInput() {
+    return this._node;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterfaceList(this, "interface", false);
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListInterface[] | cdktf.IResolvable) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface {
+  /**
+  * list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#list SecuremeshSiteV2#list}
+  */
+  readonly list?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    list: cdktf.listMapper(securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToTerraform, true)(struct!.list),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    list: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructToHclTerraform, true)(struct!.list),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._list?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._list.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._list.internalValue = value.list;
+    }
+  }
+
+  // list - computed: false, optional: true, required: false
+  private _list = new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStructList(this, "list", false);
+  public get list() {
+    return this._list;
+  }
+  public putList(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceListStruct[] | cdktf.IResolvable) {
+    this._list.internalValue = value;
+  }
+  public resetList() {
+    this._list.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#attrs SecuremeshSiteV2#attrs}
+  */
+  readonly attrs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gateway SecuremeshSiteV2#default_gateway}
+  */
+  readonly defaultGateway?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_prefixes SecuremeshSiteV2#ip_prefixes}
+  */
+  readonly ipPrefixes: string[];
+  /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface SecuremeshSiteV2#interface}
+  */
+  readonly interface?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface;
+  /**
+  * node_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_interface SecuremeshSiteV2#node_interface}
+  */
+  readonly nodeInterface?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.attrs),
+    default_gateway: cdktf.booleanToTerraform(struct!.defaultGateway),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ip_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipPrefixes),
+    interface: securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceToTerraform(struct!.interface),
+    node_interface: securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceToTerraform(struct!.nodeInterface),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.attrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    default_gateway: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    interface: {
+      value: securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceToHclTerraform(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceList",
+    },
+    node_interface: {
+      value: securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceToHclTerraform(struct!.nodeInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attrs = this._attrs;
+    }
+    if (this._defaultGateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGateway = this._defaultGateway;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipPrefixes = this._ipPrefixes;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
+    }
+    if (this._nodeInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeInterface = this._nodeInterface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attrs = undefined;
+      this._defaultGateway = undefined;
+      this._ipAddress = undefined;
+      this._ipPrefixes = undefined;
+      this._interface.internalValue = undefined;
+      this._nodeInterface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attrs = value.attrs;
+      this._defaultGateway = value.defaultGateway;
+      this._ipAddress = value.ipAddress;
+      this._ipPrefixes = value.ipPrefixes;
+      this._interface.internalValue = value.interface;
+      this._nodeInterface.internalValue = value.nodeInterface;
+    }
+  }
+
+  // attrs - computed: false, optional: true, required: false
+  private _attrs?: string[]; 
+  public get attrs() {
+    return this.getListAttribute('attrs');
+  }
+  public set attrs(value: string[]) {
+    this._attrs = value;
+  }
+  public resetAttrs() {
+    this._attrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attrsInput() {
+    return this._attrs;
+  }
+
+  // default_gateway - computed: false, optional: true, required: false
+  private _defaultGateway?: boolean | cdktf.IResolvable; 
+  public get defaultGateway() {
+    return this.getBooleanAttribute('default_gateway');
+  }
+  public set defaultGateway(value: boolean | cdktf.IResolvable) {
+    this._defaultGateway = value;
+  }
+  public resetDefaultGateway() {
+    this._defaultGateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGatewayInput() {
+    return this._defaultGateway;
+  }
+
+  // ip_address - computed: false, optional: true, required: false
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  public resetIpAddress() {
+    this._ipAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+
+  // ip_prefixes - computed: false, optional: false, required: true
+  private _ipPrefixes?: string[]; 
+  public get ipPrefixes() {
+    return this.getListAttribute('ip_prefixes');
+  }
+  public set ipPrefixes(value: string[]) {
+    this._ipPrefixes = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipPrefixesInput() {
+    return this._ipPrefixes;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterfaceOutputReference(this, "interface");
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesInterface) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
+  }
+
+  // node_interface - computed: false, optional: true, required: false
+  private _nodeInterface = new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterfaceOutputReference(this, "node_interface");
+  public get nodeInterface() {
+    return this._nodeInterface;
+  }
+  public putNodeInterface(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesNodeInterface) {
+    this._nodeInterface.internalValue = value;
+  }
+  public resetNodeInterface() {
+    this._nodeInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeInterfaceInput() {
+    return this._nodeInterface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesOutputReference {
+    return new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes {
+  /**
+  * static_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_routes SecuremeshSiteV2#static_routes}
+  */
+  readonly staticRoutes: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    static_routes: cdktf.listMapper(securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesToTerraform, true)(struct!.staticRoutes),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigStaticV6RoutesToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesOutputReference | SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    static_routes: {
+      value: cdktf.listMapperHcl(securemeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesToHclTerraform, true)(struct!.staticRoutes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._staticRoutes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticRoutes = this._staticRoutes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._staticRoutes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._staticRoutes.internalValue = value.staticRoutes;
+    }
+  }
+
+  // static_routes - computed: false, optional: false, required: true
+  private _staticRoutes = new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutesList(this, "static_routes", false);
+  public get staticRoutes() {
+    return this._staticRoutes;
+  }
+  public putStaticRoutes(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesStaticRoutes[] | cdktf.IResolvable) {
+    this._staticRoutes.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticRoutesInput() {
+    return this._staticRoutes.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrfSloConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#nameserver SecuremeshSiteV2#nameserver}
+  */
+  readonly nameserver?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#nameserver_v6 SecuremeshSiteV2#nameserver_v6}
+  */
+  readonly nameserverV6?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_static_routes SecuremeshSiteV2#no_static_routes}
+  */
+  readonly noStaticRoutes?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_v6_static_routes SecuremeshSiteV2#no_v6_static_routes}
+  */
+  readonly noV6StaticRoutes?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vip SecuremeshSiteV2#vip}
+  */
+  readonly vip?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vip_v6 SecuremeshSiteV2#vip_v6}
+  */
+  readonly vipV6?: string;
+  /**
+  * static_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_routes SecuremeshSiteV2#static_routes}
+  */
+  readonly staticRoutes?: SecuremeshSiteV2LocalVrfSloConfigStaticRoutes;
+  /**
+  * static_v6_routes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_v6_routes SecuremeshSiteV2#static_v6_routes}
+  */
+  readonly staticV6Routes?: SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes;
+}
+
+export function securemeshSiteV2LocalVrfSloConfigToTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigOutputReference | SecuremeshSiteV2LocalVrfSloConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    nameserver: cdktf.stringToTerraform(struct!.nameserver),
+    nameserver_v6: cdktf.stringToTerraform(struct!.nameserverV6),
+    no_static_routes: cdktf.booleanToTerraform(struct!.noStaticRoutes),
+    no_v6_static_routes: cdktf.booleanToTerraform(struct!.noV6StaticRoutes),
+    vip: cdktf.stringToTerraform(struct!.vip),
+    vip_v6: cdktf.stringToTerraform(struct!.vipV6),
+    static_routes: securemeshSiteV2LocalVrfSloConfigStaticRoutesToTerraform(struct!.staticRoutes),
+    static_v6_routes: securemeshSiteV2LocalVrfSloConfigStaticV6RoutesToTerraform(struct!.staticV6Routes),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfSloConfigToHclTerraform(struct?: SecuremeshSiteV2LocalVrfSloConfigOutputReference | SecuremeshSiteV2LocalVrfSloConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    nameserver: {
+      value: cdktf.stringToHclTerraform(struct!.nameserver),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    nameserver_v6: {
+      value: cdktf.stringToHclTerraform(struct!.nameserverV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    no_static_routes: {
+      value: cdktf.booleanToHclTerraform(struct!.noStaticRoutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    no_v6_static_routes: {
+      value: cdktf.booleanToHclTerraform(struct!.noV6StaticRoutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vip: {
+      value: cdktf.stringToHclTerraform(struct!.vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vip_v6: {
+      value: cdktf.stringToHclTerraform(struct!.vipV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    static_routes: {
+      value: securemeshSiteV2LocalVrfSloConfigStaticRoutesToHclTerraform(struct!.staticRoutes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticRoutesList",
+    },
+    static_v6_routes: {
+      value: securemeshSiteV2LocalVrfSloConfigStaticV6RoutesToHclTerraform(struct!.staticV6Routes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfSloConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrfSloConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._nameserver !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nameserver = this._nameserver;
+    }
+    if (this._nameserverV6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nameserverV6 = this._nameserverV6;
+    }
+    if (this._noStaticRoutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noStaticRoutes = this._noStaticRoutes;
+    }
+    if (this._noV6StaticRoutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noV6StaticRoutes = this._noV6StaticRoutes;
+    }
+    if (this._vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vip = this._vip;
+    }
+    if (this._vipV6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vipV6 = this._vipV6;
+    }
+    if (this._staticRoutes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticRoutes = this._staticRoutes?.internalValue;
+    }
+    if (this._staticV6Routes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticV6Routes = this._staticV6Routes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrfSloConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._labels = undefined;
+      this._nameserver = undefined;
+      this._nameserverV6 = undefined;
+      this._noStaticRoutes = undefined;
+      this._noV6StaticRoutes = undefined;
+      this._vip = undefined;
+      this._vipV6 = undefined;
+      this._staticRoutes.internalValue = undefined;
+      this._staticV6Routes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._labels = value.labels;
+      this._nameserver = value.nameserver;
+      this._nameserverV6 = value.nameserverV6;
+      this._noStaticRoutes = value.noStaticRoutes;
+      this._noV6StaticRoutes = value.noV6StaticRoutes;
+      this._vip = value.vip;
+      this._vipV6 = value.vipV6;
+      this._staticRoutes.internalValue = value.staticRoutes;
+      this._staticV6Routes.internalValue = value.staticV6Routes;
+    }
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // nameserver - computed: false, optional: true, required: false
+  private _nameserver?: string; 
+  public get nameserver() {
+    return this.getStringAttribute('nameserver');
+  }
+  public set nameserver(value: string) {
+    this._nameserver = value;
+  }
+  public resetNameserver() {
+    this._nameserver = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameserverInput() {
+    return this._nameserver;
+  }
+
+  // nameserver_v6 - computed: false, optional: true, required: false
+  private _nameserverV6?: string; 
+  public get nameserverV6() {
+    return this.getStringAttribute('nameserver_v6');
+  }
+  public set nameserverV6(value: string) {
+    this._nameserverV6 = value;
+  }
+  public resetNameserverV6() {
+    this._nameserverV6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameserverV6Input() {
+    return this._nameserverV6;
+  }
+
+  // no_static_routes - computed: false, optional: true, required: false
+  private _noStaticRoutes?: boolean | cdktf.IResolvable; 
+  public get noStaticRoutes() {
+    return this.getBooleanAttribute('no_static_routes');
+  }
+  public set noStaticRoutes(value: boolean | cdktf.IResolvable) {
+    this._noStaticRoutes = value;
+  }
+  public resetNoStaticRoutes() {
+    this._noStaticRoutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noStaticRoutesInput() {
+    return this._noStaticRoutes;
+  }
+
+  // no_v6_static_routes - computed: false, optional: true, required: false
+  private _noV6StaticRoutes?: boolean | cdktf.IResolvable; 
+  public get noV6StaticRoutes() {
+    return this.getBooleanAttribute('no_v6_static_routes');
+  }
+  public set noV6StaticRoutes(value: boolean | cdktf.IResolvable) {
+    this._noV6StaticRoutes = value;
+  }
+  public resetNoV6StaticRoutes() {
+    this._noV6StaticRoutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noV6StaticRoutesInput() {
+    return this._noV6StaticRoutes;
+  }
+
+  // vip - computed: false, optional: true, required: false
+  private _vip?: string; 
+  public get vip() {
+    return this.getStringAttribute('vip');
+  }
+  public set vip(value: string) {
+    this._vip = value;
+  }
+  public resetVip() {
+    this._vip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipInput() {
+    return this._vip;
+  }
+
+  // vip_v6 - computed: false, optional: true, required: false
+  private _vipV6?: string; 
+  public get vipV6() {
+    return this.getStringAttribute('vip_v6');
+  }
+  public set vipV6(value: string) {
+    this._vipV6 = value;
+  }
+  public resetVipV6() {
+    this._vipV6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipV6Input() {
+    return this._vipV6;
+  }
+
+  // static_routes - computed: false, optional: true, required: false
+  private _staticRoutes = new SecuremeshSiteV2LocalVrfSloConfigStaticRoutesOutputReference(this, "static_routes");
+  public get staticRoutes() {
+    return this._staticRoutes;
+  }
+  public putStaticRoutes(value: SecuremeshSiteV2LocalVrfSloConfigStaticRoutes) {
+    this._staticRoutes.internalValue = value;
+  }
+  public resetStaticRoutes() {
+    this._staticRoutes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticRoutesInput() {
+    return this._staticRoutes.internalValue;
+  }
+
+  // static_v6_routes - computed: false, optional: true, required: false
+  private _staticV6Routes = new SecuremeshSiteV2LocalVrfSloConfigStaticV6RoutesOutputReference(this, "static_v6_routes");
+  public get staticV6Routes() {
+    return this._staticV6Routes;
+  }
+  public putStaticV6Routes(value: SecuremeshSiteV2LocalVrfSloConfigStaticV6Routes) {
+    this._staticV6Routes.internalValue = value;
+  }
+  public resetStaticV6Routes() {
+    this._staticV6Routes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticV6RoutesInput() {
+    return this._staticV6Routes.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LocalVrf {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_config SecuremeshSiteV2#default_config}
+  */
+  readonly defaultConfig?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_sli_config SecuremeshSiteV2#default_sli_config}
+  */
+  readonly defaultSliConfig?: boolean | cdktf.IResolvable;
+  /**
+  * sli_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#sli_config SecuremeshSiteV2#sli_config}
+  */
+  readonly sliConfig?: SecuremeshSiteV2LocalVrfSliConfig;
+  /**
+  * slo_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#slo_config SecuremeshSiteV2#slo_config}
+  */
+  readonly sloConfig?: SecuremeshSiteV2LocalVrfSloConfig;
+}
+
+export function securemeshSiteV2LocalVrfToTerraform(struct?: SecuremeshSiteV2LocalVrfOutputReference | SecuremeshSiteV2LocalVrf): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_config: cdktf.booleanToTerraform(struct!.defaultConfig),
+    default_sli_config: cdktf.booleanToTerraform(struct!.defaultSliConfig),
+    sli_config: securemeshSiteV2LocalVrfSliConfigToTerraform(struct!.sliConfig),
+    slo_config: securemeshSiteV2LocalVrfSloConfigToTerraform(struct!.sloConfig),
+  }
+}
+
+
+export function securemeshSiteV2LocalVrfToHclTerraform(struct?: SecuremeshSiteV2LocalVrfOutputReference | SecuremeshSiteV2LocalVrf): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_config: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    default_sli_config: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultSliConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sli_config: {
+      value: securemeshSiteV2LocalVrfSliConfigToHclTerraform(struct!.sliConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSliConfigList",
+    },
+    slo_config: {
+      value: securemeshSiteV2LocalVrfSloConfigToHclTerraform(struct!.sloConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2LocalVrfSloConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LocalVrfOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LocalVrf | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultConfig = this._defaultConfig;
+    }
+    if (this._defaultSliConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultSliConfig = this._defaultSliConfig;
+    }
+    if (this._sliConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sliConfig = this._sliConfig?.internalValue;
+    }
+    if (this._sloConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sloConfig = this._sloConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LocalVrf | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultConfig = undefined;
+      this._defaultSliConfig = undefined;
+      this._sliConfig.internalValue = undefined;
+      this._sloConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultConfig = value.defaultConfig;
+      this._defaultSliConfig = value.defaultSliConfig;
+      this._sliConfig.internalValue = value.sliConfig;
+      this._sloConfig.internalValue = value.sloConfig;
+    }
+  }
+
+  // default_config - computed: false, optional: true, required: false
+  private _defaultConfig?: boolean | cdktf.IResolvable; 
+  public get defaultConfig() {
+    return this.getBooleanAttribute('default_config');
+  }
+  public set defaultConfig(value: boolean | cdktf.IResolvable) {
+    this._defaultConfig = value;
+  }
+  public resetDefaultConfig() {
+    this._defaultConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultConfigInput() {
+    return this._defaultConfig;
+  }
+
+  // default_sli_config - computed: false, optional: true, required: false
+  private _defaultSliConfig?: boolean | cdktf.IResolvable; 
+  public get defaultSliConfig() {
+    return this.getBooleanAttribute('default_sli_config');
+  }
+  public set defaultSliConfig(value: boolean | cdktf.IResolvable) {
+    this._defaultSliConfig = value;
+  }
+  public resetDefaultSliConfig() {
+    this._defaultSliConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultSliConfigInput() {
+    return this._defaultSliConfig;
+  }
+
+  // sli_config - computed: false, optional: true, required: false
+  private _sliConfig = new SecuremeshSiteV2LocalVrfSliConfigOutputReference(this, "sli_config");
+  public get sliConfig() {
+    return this._sliConfig;
+  }
+  public putSliConfig(value: SecuremeshSiteV2LocalVrfSliConfig) {
+    this._sliConfig.internalValue = value;
+  }
+  public resetSliConfig() {
+    this._sliConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sliConfigInput() {
+    return this._sliConfig.internalValue;
+  }
+
+  // slo_config - computed: false, optional: true, required: false
+  private _sloConfig = new SecuremeshSiteV2LocalVrfSloConfigOutputReference(this, "slo_config");
+  public get sloConfig() {
+    return this._sloConfig;
+  }
+  public putSloConfig(value: SecuremeshSiteV2LocalVrfSloConfig) {
+    this._sloConfig.internalValue = value;
+  }
+  public resetSloConfig() {
+    this._sloConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sloConfigInput() {
+    return this._sloConfig.internalValue;
+  }
+}
+export interface SecuremeshSiteV2LogReceiver {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2LogReceiverToTerraform(struct?: SecuremeshSiteV2LogReceiverOutputReference | SecuremeshSiteV2LogReceiver): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2LogReceiverToHclTerraform(struct?: SecuremeshSiteV2LogReceiverOutputReference | SecuremeshSiteV2LogReceiver): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2LogReceiverOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2LogReceiver | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2LogReceiver | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#rate SecuremeshSiteV2#rate}
+  */
+  readonly rate?: number;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    rate: cdktf.numberToTerraform(struct!.rate),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    rate: {
+      value: cdktf.numberToHclTerraform(struct!.rate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._rate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rate = this._rate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._rate = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._rate = value.rate;
+    }
+  }
+
+  // rate - computed: false, optional: true, required: false
+  private _rate?: number; 
+  public get rate() {
+    return this.getNumberAttribute('rate');
+  }
+  public set rate(value: number) {
+    this._rate = value;
+  }
+  public resetRate() {
+    this._rate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateInput() {
+    return this._rate;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#active_backup SecuremeshSiteV2#active_backup}
+  */
+  readonly activeBackup?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#devices SecuremeshSiteV2#devices}
+  */
+  readonly devices: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#link_polling_interval SecuremeshSiteV2#link_polling_interval}
+  */
+  readonly linkPollingInterval: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#link_up_delay SecuremeshSiteV2#link_up_delay}
+  */
+  readonly linkUpDelay: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name: string;
+  /**
+  * lacp block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#lacp SecuremeshSiteV2#lacp}
+  */
+  readonly lacp?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    active_backup: cdktf.booleanToTerraform(struct!.activeBackup),
+    devices: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.devices),
+    link_polling_interval: cdktf.numberToTerraform(struct!.linkPollingInterval),
+    link_up_delay: cdktf.numberToTerraform(struct!.linkUpDelay),
+    name: cdktf.stringToTerraform(struct!.name),
+    lacp: securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct!.lacp),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    active_backup: {
+      value: cdktf.booleanToHclTerraform(struct!.activeBackup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    devices: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.devices),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    link_polling_interval: {
+      value: cdktf.numberToHclTerraform(struct!.linkPollingInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    link_up_delay: {
+      value: cdktf.numberToHclTerraform(struct!.linkUpDelay),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    lacp: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct!.lacp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activeBackup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activeBackup = this._activeBackup;
+    }
+    if (this._devices !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devices = this._devices;
+    }
+    if (this._linkPollingInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linkPollingInterval = this._linkPollingInterval;
+    }
+    if (this._linkUpDelay !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linkUpDelay = this._linkUpDelay;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._lacp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lacp = this._lacp?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._activeBackup = undefined;
+      this._devices = undefined;
+      this._linkPollingInterval = undefined;
+      this._linkUpDelay = undefined;
+      this._name = undefined;
+      this._lacp.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._activeBackup = value.activeBackup;
+      this._devices = value.devices;
+      this._linkPollingInterval = value.linkPollingInterval;
+      this._linkUpDelay = value.linkUpDelay;
+      this._name = value.name;
+      this._lacp.internalValue = value.lacp;
+    }
+  }
+
+  // active_backup - computed: false, optional: true, required: false
+  private _activeBackup?: boolean | cdktf.IResolvable; 
+  public get activeBackup() {
+    return this.getBooleanAttribute('active_backup');
+  }
+  public set activeBackup(value: boolean | cdktf.IResolvable) {
+    this._activeBackup = value;
+  }
+  public resetActiveBackup() {
+    this._activeBackup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeBackupInput() {
+    return this._activeBackup;
+  }
+
+  // devices - computed: false, optional: false, required: true
+  private _devices?: string[]; 
+  public get devices() {
+    return this.getListAttribute('devices');
+  }
+  public set devices(value: string[]) {
+    this._devices = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devicesInput() {
+    return this._devices;
+  }
+
+  // link_polling_interval - computed: false, optional: false, required: true
+  private _linkPollingInterval?: number; 
+  public get linkPollingInterval() {
+    return this.getNumberAttribute('link_polling_interval');
+  }
+  public set linkPollingInterval(value: number) {
+    this._linkPollingInterval = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linkPollingIntervalInput() {
+    return this._linkPollingInterval;
+  }
+
+  // link_up_delay - computed: false, optional: false, required: true
+  private _linkUpDelay?: number; 
+  public get linkUpDelay() {
+    return this.getNumberAttribute('link_up_delay');
+  }
+  public set linkUpDelay(value: number) {
+    this._linkUpDelay = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linkUpDelayInput() {
+    return this._linkUpDelay;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // lacp - computed: false, optional: true, required: false
+  private _lacp = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference(this, "lacp");
+  public get lacp() {
+    return this._lacp;
+  }
+  public putLacp(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceLacp) {
+    this._lacp.internalValue = value;
+  }
+  public resetLacp() {
+    this._lacp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lacpInput() {
+    return this._lacp.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
+  */
+  readonly endIp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#exclude SecuremeshSiteV2#exclude}
+  */
+  readonly exclude?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
+  */
+  readonly startIp?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    end_ip: cdktf.stringToTerraform(struct!.endIp),
+    exclude: cdktf.booleanToTerraform(struct!.exclude),
+    start_ip: cdktf.stringToTerraform(struct!.startIp),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    end_ip: {
+      value: cdktf.stringToHclTerraform(struct!.endIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    exclude: {
+      value: cdktf.booleanToHclTerraform(struct!.exclude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    start_ip: {
+      value: cdktf.stringToHclTerraform(struct!.startIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endIp = this._endIp;
+    }
+    if (this._exclude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclude = this._exclude;
+    }
+    if (this._startIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startIp = this._startIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endIp = undefined;
+      this._exclude = undefined;
+      this._startIp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endIp = value.endIp;
+      this._exclude = value.exclude;
+      this._startIp = value.startIp;
+    }
+  }
+
+  // end_ip - computed: false, optional: true, required: false
+  private _endIp?: string; 
+  public get endIp() {
+    return this.getStringAttribute('end_ip');
+  }
+  public set endIp(value: string) {
+    this._endIp = value;
+  }
+  public resetEndIp() {
+    this._endIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endIpInput() {
+    return this._endIp;
+  }
+
+  // exclude - computed: false, optional: true, required: false
+  private _exclude?: boolean | cdktf.IResolvable; 
+  public get exclude() {
+    return this.getBooleanAttribute('exclude');
+  }
+  public set exclude(value: boolean | cdktf.IResolvable) {
+    this._exclude = value;
+  }
+  public resetExclude() {
+    this._exclude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInput() {
+    return this._exclude;
+  }
+
+  // start_ip - computed: false, optional: true, required: false
+  private _startIp?: string; 
+  public get startIp() {
+    return this.getStringAttribute('start_ip');
+  }
+  public set startIp(value: string) {
+    this._startIp = value;
+  }
+  public resetStartIp() {
+    this._startIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startIpInput() {
+    return this._startIp;
+  }
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference {
+    return new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dgw_address SecuremeshSiteV2#dgw_address}
+  */
+  readonly dgwAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_address SecuremeshSiteV2#dns_address}
+  */
+  readonly dnsAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
+  */
+  readonly firstAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
+  */
+  readonly lastAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  */
+  readonly networkPrefix?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
+  */
+  readonly poolSettings: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#same_as_dgw SecuremeshSiteV2#same_as_dgw}
+  */
+  readonly sameAsDgw?: boolean | cdktf.IResolvable;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator;
+  /**
+  * pools block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
+  */
+  readonly pools?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dgw_address: cdktf.stringToTerraform(struct!.dgwAddress),
+    dns_address: cdktf.stringToTerraform(struct!.dnsAddress),
+    first_address: cdktf.booleanToTerraform(struct!.firstAddress),
+    last_address: cdktf.booleanToTerraform(struct!.lastAddress),
+    network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
+    pool_settings: cdktf.stringToTerraform(struct!.poolSettings),
+    same_as_dgw: cdktf.booleanToTerraform(struct!.sameAsDgw),
+    network_prefix_allocator: securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+    pools: cdktf.listMapper(securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToTerraform, true)(struct!.pools),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dgw_address: {
+      value: cdktf.stringToHclTerraform(struct!.dgwAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_address: {
+      value: cdktf.stringToHclTerraform(struct!.dnsAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    first_address: {
+      value: cdktf.booleanToHclTerraform(struct!.firstAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    last_address: {
+      value: cdktf.booleanToHclTerraform(struct!.lastAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    network_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.networkPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pool_settings: {
+      value: cdktf.stringToHclTerraform(struct!.poolSettings),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    same_as_dgw: {
+      value: cdktf.booleanToHclTerraform(struct!.sameAsDgw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorList",
+    },
+    pools: {
+      value: cdktf.listMapperHcl(securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dgwAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dgwAddress = this._dgwAddress;
+    }
+    if (this._dnsAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsAddress = this._dnsAddress;
+    }
+    if (this._firstAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.firstAddress = this._firstAddress;
+    }
+    if (this._lastAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lastAddress = this._lastAddress;
+    }
+    if (this._networkPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefix = this._networkPrefix;
+    }
+    if (this._poolSettings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolSettings = this._poolSettings;
+    }
+    if (this._sameAsDgw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sameAsDgw = this._sameAsDgw;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    if (this._pools?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pools = this._pools?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dgwAddress = undefined;
+      this._dnsAddress = undefined;
+      this._firstAddress = undefined;
+      this._lastAddress = undefined;
+      this._networkPrefix = undefined;
+      this._poolSettings = undefined;
+      this._sameAsDgw = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+      this._pools.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dgwAddress = value.dgwAddress;
+      this._dnsAddress = value.dnsAddress;
+      this._firstAddress = value.firstAddress;
+      this._lastAddress = value.lastAddress;
+      this._networkPrefix = value.networkPrefix;
+      this._poolSettings = value.poolSettings;
+      this._sameAsDgw = value.sameAsDgw;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+      this._pools.internalValue = value.pools;
+    }
+  }
+
+  // dgw_address - computed: false, optional: true, required: false
+  private _dgwAddress?: string; 
+  public get dgwAddress() {
+    return this.getStringAttribute('dgw_address');
+  }
+  public set dgwAddress(value: string) {
+    this._dgwAddress = value;
+  }
+  public resetDgwAddress() {
+    this._dgwAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dgwAddressInput() {
+    return this._dgwAddress;
+  }
+
+  // dns_address - computed: false, optional: true, required: false
+  private _dnsAddress?: string; 
+  public get dnsAddress() {
+    return this.getStringAttribute('dns_address');
+  }
+  public set dnsAddress(value: string) {
+    this._dnsAddress = value;
+  }
+  public resetDnsAddress() {
+    this._dnsAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsAddressInput() {
+    return this._dnsAddress;
+  }
+
+  // first_address - computed: false, optional: true, required: false
+  private _firstAddress?: boolean | cdktf.IResolvable; 
+  public get firstAddress() {
+    return this.getBooleanAttribute('first_address');
+  }
+  public set firstAddress(value: boolean | cdktf.IResolvable) {
+    this._firstAddress = value;
+  }
+  public resetFirstAddress() {
+    this._firstAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firstAddressInput() {
+    return this._firstAddress;
+  }
+
+  // last_address - computed: false, optional: true, required: false
+  private _lastAddress?: boolean | cdktf.IResolvable; 
+  public get lastAddress() {
+    return this.getBooleanAttribute('last_address');
+  }
+  public set lastAddress(value: boolean | cdktf.IResolvable) {
+    this._lastAddress = value;
+  }
+  public resetLastAddress() {
+    this._lastAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastAddressInput() {
+    return this._lastAddress;
+  }
+
+  // network_prefix - computed: false, optional: true, required: false
+  private _networkPrefix?: string; 
+  public get networkPrefix() {
+    return this.getStringAttribute('network_prefix');
+  }
+  public set networkPrefix(value: string) {
+    this._networkPrefix = value;
+  }
+  public resetNetworkPrefix() {
+    this._networkPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixInput() {
+    return this._networkPrefix;
+  }
+
+  // pool_settings - computed: false, optional: false, required: true
+  private _poolSettings?: string; 
+  public get poolSettings() {
+    return this.getStringAttribute('pool_settings');
+  }
+  public set poolSettings(value: string) {
+    this._poolSettings = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolSettingsInput() {
+    return this._poolSettings;
+  }
+
+  // same_as_dgw - computed: false, optional: true, required: false
+  private _sameAsDgw?: boolean | cdktf.IResolvable; 
+  public get sameAsDgw() {
+    return this.getBooleanAttribute('same_as_dgw');
+  }
+  public set sameAsDgw(value: boolean | cdktf.IResolvable) {
+    this._sameAsDgw = value;
+  }
+  public resetSameAsDgw() {
+    this._sameAsDgw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sameAsDgwInput() {
+    return this._sameAsDgw;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+
+  // pools - computed: false, optional: true, required: false
+  private _pools = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList(this, "pools", false);
+  public get pools() {
+    return this._pools;
+  }
+  public putPools(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable) {
+    this._pools.internalValue = value;
+  }
+  public resetPools() {
+    this._pools.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolsInput() {
+    return this._pools.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference {
+    return new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: { [key: string]: string };
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interface_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interface_ip_map: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.interfaceIpMap),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceIpMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interfaceIpMap = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interfaceIpMap = value.interfaceIpMap;
+    }
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap?: { [key: string]: string }; 
+  public get interfaceIpMap() {
+    return this.getStringMapAttribute('interface_ip_map');
+  }
+  public set interfaceIpMap(value: { [key: string]: string }) {
+    this._interfaceIpMap = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
+  */
+  readonly automaticFromEnd?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
+  */
+  readonly automaticFromStart?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_option82_tag SecuremeshSiteV2#dhcp_option82_tag}
+  */
+  readonly dhcpOption82Tag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
+  */
+  readonly fixedIpMap?: { [key: string]: string };
+  /**
+  * dhcp_networks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
+  */
+  readonly dhcpNetworks: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable;
+  /**
+  * interface_ip_map block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    automatic_from_end: cdktf.booleanToTerraform(struct!.automaticFromEnd),
+    automatic_from_start: cdktf.booleanToTerraform(struct!.automaticFromStart),
+    dhcp_option82_tag: cdktf.stringToTerraform(struct!.dhcpOption82Tag),
+    fixed_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.fixedIpMap),
+    dhcp_networks: cdktf.listMapper(securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
+    interface_ip_map: securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    automatic_from_end: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticFromEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    automatic_from_start: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticFromStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    dhcp_option82_tag: {
+      value: cdktf.stringToHclTerraform(struct!.dhcpOption82Tag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fixed_ip_map: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.fixedIpMap),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    dhcp_networks: {
+      value: cdktf.listMapperHcl(securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList",
+    },
+    interface_ip_map: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automaticFromEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticFromEnd = this._automaticFromEnd;
+    }
+    if (this._automaticFromStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticFromStart = this._automaticFromStart;
+    }
+    if (this._dhcpOption82Tag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpOption82Tag = this._dhcpOption82Tag;
+    }
+    if (this._fixedIpMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fixedIpMap = this._fixedIpMap;
+    }
+    if (this._dhcpNetworks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpNetworks = this._dhcpNetworks?.internalValue;
+    }
+    if (this._interfaceIpMap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._automaticFromEnd = undefined;
+      this._automaticFromStart = undefined;
+      this._dhcpOption82Tag = undefined;
+      this._fixedIpMap = undefined;
+      this._dhcpNetworks.internalValue = undefined;
+      this._interfaceIpMap.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._automaticFromEnd = value.automaticFromEnd;
+      this._automaticFromStart = value.automaticFromStart;
+      this._dhcpOption82Tag = value.dhcpOption82Tag;
+      this._fixedIpMap = value.fixedIpMap;
+      this._dhcpNetworks.internalValue = value.dhcpNetworks;
+      this._interfaceIpMap.internalValue = value.interfaceIpMap;
+    }
+  }
+
+  // automatic_from_end - computed: false, optional: true, required: false
+  private _automaticFromEnd?: boolean | cdktf.IResolvable; 
+  public get automaticFromEnd() {
+    return this.getBooleanAttribute('automatic_from_end');
+  }
+  public set automaticFromEnd(value: boolean | cdktf.IResolvable) {
+    this._automaticFromEnd = value;
+  }
+  public resetAutomaticFromEnd() {
+    this._automaticFromEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticFromEndInput() {
+    return this._automaticFromEnd;
+  }
+
+  // automatic_from_start - computed: false, optional: true, required: false
+  private _automaticFromStart?: boolean | cdktf.IResolvable; 
+  public get automaticFromStart() {
+    return this.getBooleanAttribute('automatic_from_start');
+  }
+  public set automaticFromStart(value: boolean | cdktf.IResolvable) {
+    this._automaticFromStart = value;
+  }
+  public resetAutomaticFromStart() {
+    this._automaticFromStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticFromStartInput() {
+    return this._automaticFromStart;
+  }
+
+  // dhcp_option82_tag - computed: false, optional: true, required: false
+  private _dhcpOption82Tag?: string; 
+  public get dhcpOption82Tag() {
+    return this.getStringAttribute('dhcp_option82_tag');
+  }
+  public set dhcpOption82Tag(value: string) {
+    this._dhcpOption82Tag = value;
+  }
+  public resetDhcpOption82Tag() {
+    this._dhcpOption82Tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpOption82TagInput() {
+    return this._dhcpOption82Tag;
+  }
+
+  // fixed_ip_map - computed: false, optional: true, required: false
+  private _fixedIpMap?: { [key: string]: string }; 
+  public get fixedIpMap() {
+    return this.getStringMapAttribute('fixed_ip_map');
+  }
+  public set fixedIpMap(value: { [key: string]: string }) {
+    this._fixedIpMap = value;
+  }
+  public resetFixedIpMap() {
+    this._fixedIpMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedIpMapInput() {
+    return this._fixedIpMap;
+  }
+
+  // dhcp_networks - computed: false, optional: false, required: true
+  private _dhcpNetworks = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList(this, "dhcp_networks", false);
+  public get dhcpNetworks() {
+    return this._dhcpNetworks;
+  }
+  public putDhcpNetworks(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable) {
+    this._dhcpNetworks.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpNetworksInput() {
+    return this._dhcpNetworks.internalValue;
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMapOutputReference(this, "interface_ip_map");
+  public get interfaceIpMap() {
+    return this._interfaceIpMap;
+  }
+  public putInterfaceIpMap(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerInterfaceIpMap) {
+    this._interfaceIpMap.internalValue = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
+  */
+  readonly device: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#mac SecuremeshSiteV2#mac}
+  */
+  readonly mac?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    device: cdktf.stringToTerraform(struct!.device),
+    mac: cdktf.stringToTerraform(struct!.mac),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    device: {
+      value: cdktf.stringToHclTerraform(struct!.device),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mac: {
+      value: cdktf.stringToHclTerraform(struct!.mac),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._device !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.device = this._device;
+    }
+    if (this._mac !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mac = this._mac;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._device = undefined;
+      this._mac = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._device = value.device;
+      this._mac = value.mac;
+    }
+  }
+
+  // device - computed: false, optional: false, required: true
+  private _device?: string; 
+  public get device() {
+    return this.getStringAttribute('device');
+  }
+  public set device(value: string) {
+    this._device = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
+  }
+
+  // mac - computed: false, optional: true, required: false
+  private _mac?: string; 
+  public get mac() {
+    return this.getStringAttribute('mac');
+  }
+  public set mac(value: string) {
+    this._mac = value;
+  }
+  public resetMac() {
+    this._mac = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get macInput() {
+    return this._mac;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_list SecuremeshSiteV2#dns_list}
+  */
+  readonly dnsList: string[];
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dns_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dnsList),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dns_list: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dnsList),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsList = this._dnsList;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dnsList = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dnsList = value.dnsList;
+    }
+  }
+
+  // dns_list - computed: false, optional: false, required: true
+  private _dnsList?: string[]; 
+  public get dnsList() {
+    return this.getListAttribute('dns_list');
+  }
+  public set dnsList(value: string[]) {
+    this._dnsList = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsListInput() {
+    return this._dnsList;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#configured_address SecuremeshSiteV2#configured_address}
+  */
+  readonly configuredAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
+  */
+  readonly firstAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
+  */
+  readonly lastAddress?: boolean | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    configured_address: cdktf.stringToTerraform(struct!.configuredAddress),
+    first_address: cdktf.booleanToTerraform(struct!.firstAddress),
+    last_address: cdktf.booleanToTerraform(struct!.lastAddress),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    configured_address: {
+      value: cdktf.stringToHclTerraform(struct!.configuredAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    first_address: {
+      value: cdktf.booleanToHclTerraform(struct!.firstAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    last_address: {
+      value: cdktf.booleanToHclTerraform(struct!.lastAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._configuredAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configuredAddress = this._configuredAddress;
+    }
+    if (this._firstAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.firstAddress = this._firstAddress;
+    }
+    if (this._lastAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lastAddress = this._lastAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._configuredAddress = undefined;
+      this._firstAddress = undefined;
+      this._lastAddress = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._configuredAddress = value.configuredAddress;
+      this._firstAddress = value.firstAddress;
+      this._lastAddress = value.lastAddress;
+    }
+  }
+
+  // configured_address - computed: false, optional: true, required: false
+  private _configuredAddress?: string; 
+  public get configuredAddress() {
+    return this.getStringAttribute('configured_address');
+  }
+  public set configuredAddress(value: string) {
+    this._configuredAddress = value;
+  }
+  public resetConfiguredAddress() {
+    this._configuredAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configuredAddressInput() {
+    return this._configuredAddress;
+  }
+
+  // first_address - computed: false, optional: true, required: false
+  private _firstAddress?: boolean | cdktf.IResolvable; 
+  public get firstAddress() {
+    return this.getBooleanAttribute('first_address');
+  }
+  public set firstAddress(value: boolean | cdktf.IResolvable) {
+    this._firstAddress = value;
+  }
+  public resetFirstAddress() {
+    this._firstAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firstAddressInput() {
+    return this._firstAddress;
+  }
+
+  // last_address - computed: false, optional: true, required: false
+  private _lastAddress?: boolean | cdktf.IResolvable; 
+  public get lastAddress() {
+    return this.getBooleanAttribute('last_address');
+  }
+  public set lastAddress(value: boolean | cdktf.IResolvable) {
+    this._lastAddress = value;
+  }
+  public resetLastAddress() {
+    this._lastAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastAddressInput() {
+    return this._lastAddress;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig {
+  /**
+  * configured_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#configured_list SecuremeshSiteV2#configured_list}
+  */
+  readonly configuredList?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct;
+  /**
+  * local_dns block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#local_dns SecuremeshSiteV2#local_dns}
+  */
+  readonly localDns?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    configured_list: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToTerraform(struct!.configuredList),
+    local_dns: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToTerraform(struct!.localDns),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    configured_list: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructToHclTerraform(struct!.configuredList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructList",
+    },
+    local_dns: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsToHclTerraform(struct!.localDns),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._configuredList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configuredList = this._configuredList?.internalValue;
+    }
+    if (this._localDns?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.localDns = this._localDns?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._configuredList.internalValue = undefined;
+      this._localDns.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._configuredList.internalValue = value.configuredList;
+      this._localDns.internalValue = value.localDns;
+    }
+  }
+
+  // configured_list - computed: false, optional: true, required: false
+  private _configuredList = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStructOutputReference(this, "configured_list");
+  public get configuredList() {
+    return this._configuredList;
+  }
+  public putConfiguredList(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigConfiguredListStruct) {
+    this._configuredList.internalValue = value;
+  }
+  public resetConfiguredList() {
+    this._configuredList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configuredListInput() {
+    return this._configuredList.internalValue;
+  }
+
+  // local_dns - computed: false, optional: true, required: false
+  private _localDns = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDnsOutputReference(this, "local_dns");
+  public get localDns() {
+    return this._localDns;
+  }
+  public putLocalDns(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigLocalDns) {
+    this._localDns.internalValue = value;
+  }
+  public resetLocalDns() {
+    this._localDns.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get localDnsInput() {
+    return this._localDns.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
+  */
+  readonly endIp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#exclude SecuremeshSiteV2#exclude}
+  */
+  readonly exclude?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
+  */
+  readonly startIp?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    end_ip: cdktf.stringToTerraform(struct!.endIp),
+    exclude: cdktf.booleanToTerraform(struct!.exclude),
+    start_ip: cdktf.stringToTerraform(struct!.startIp),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    end_ip: {
+      value: cdktf.stringToHclTerraform(struct!.endIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    exclude: {
+      value: cdktf.booleanToHclTerraform(struct!.exclude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    start_ip: {
+      value: cdktf.stringToHclTerraform(struct!.startIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endIp = this._endIp;
+    }
+    if (this._exclude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclude = this._exclude;
+    }
+    if (this._startIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startIp = this._startIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endIp = undefined;
+      this._exclude = undefined;
+      this._startIp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endIp = value.endIp;
+      this._exclude = value.exclude;
+      this._startIp = value.startIp;
+    }
+  }
+
+  // end_ip - computed: false, optional: true, required: false
+  private _endIp?: string; 
+  public get endIp() {
+    return this.getStringAttribute('end_ip');
+  }
+  public set endIp(value: string) {
+    this._endIp = value;
+  }
+  public resetEndIp() {
+    this._endIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endIpInput() {
+    return this._endIp;
+  }
+
+  // exclude - computed: false, optional: true, required: false
+  private _exclude?: boolean | cdktf.IResolvable; 
+  public get exclude() {
+    return this.getBooleanAttribute('exclude');
+  }
+  public set exclude(value: boolean | cdktf.IResolvable) {
+    this._exclude = value;
+  }
+  public resetExclude() {
+    this._exclude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInput() {
+    return this._exclude;
+  }
+
+  // start_ip - computed: false, optional: true, required: false
+  private _startIp?: string; 
+  public get startIp() {
+    return this.getStringAttribute('start_ip');
+  }
+  public set startIp(value: string) {
+    this._startIp = value;
+  }
+  public resetStartIp() {
+    this._startIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startIpInput() {
+    return this._startIp;
+  }
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference {
+    return new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  */
+  readonly networkPrefix?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
+  */
+  readonly poolSettings: string;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator;
+  /**
+  * pools block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
+  */
+  readonly pools?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
+    pool_settings: cdktf.stringToTerraform(struct!.poolSettings),
+    network_prefix_allocator: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+    pools: cdktf.listMapper(securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToTerraform, true)(struct!.pools),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    network_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.networkPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pool_settings: {
+      value: cdktf.stringToHclTerraform(struct!.poolSettings),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorList",
+    },
+    pools: {
+      value: cdktf.listMapperHcl(securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._networkPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefix = this._networkPrefix;
+    }
+    if (this._poolSettings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolSettings = this._poolSettings;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    if (this._pools?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pools = this._pools?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._networkPrefix = undefined;
+      this._poolSettings = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+      this._pools.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._networkPrefix = value.networkPrefix;
+      this._poolSettings = value.poolSettings;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+      this._pools.internalValue = value.pools;
+    }
+  }
+
+  // network_prefix - computed: false, optional: true, required: false
+  private _networkPrefix?: string; 
+  public get networkPrefix() {
+    return this.getStringAttribute('network_prefix');
+  }
+  public set networkPrefix(value: string) {
+    this._networkPrefix = value;
+  }
+  public resetNetworkPrefix() {
+    this._networkPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixInput() {
+    return this._networkPrefix;
+  }
+
+  // pool_settings - computed: false, optional: false, required: true
+  private _poolSettings?: string; 
+  public get poolSettings() {
+    return this.getStringAttribute('pool_settings');
+  }
+  public set poolSettings(value: string) {
+    this._poolSettings = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolSettingsInput() {
+    return this._poolSettings;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+
+  // pools - computed: false, optional: true, required: false
+  private _pools = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPoolsList(this, "pools", false);
+  public get pools() {
+    return this._pools;
+  }
+  public putPools(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksPools[] | cdktf.IResolvable) {
+    this._pools.internalValue = value;
+  }
+  public resetPools() {
+    this._pools.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolsInput() {
+    return this._pools.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference {
+    return new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: { [key: string]: string };
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interface_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interface_ip_map: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.interfaceIpMap),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceIpMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interfaceIpMap = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interfaceIpMap = value.interfaceIpMap;
+    }
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap?: { [key: string]: string }; 
+  public get interfaceIpMap() {
+    return this.getStringMapAttribute('interface_ip_map');
+  }
+  public set interfaceIpMap(value: { [key: string]: string }) {
+    this._interfaceIpMap = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_end SecuremeshSiteV2#automatic_from_end}
+  */
+  readonly automaticFromEnd?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#automatic_from_start SecuremeshSiteV2#automatic_from_start}
+  */
+  readonly automaticFromStart?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fixed_ip_map SecuremeshSiteV2#fixed_ip_map}
+  */
+  readonly fixedIpMap?: { [key: string]: string };
+  /**
+  * dhcp_networks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_networks SecuremeshSiteV2#dhcp_networks}
+  */
+  readonly dhcpNetworks: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable;
+  /**
+  * interface_ip_map block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    automatic_from_end: cdktf.booleanToTerraform(struct!.automaticFromEnd),
+    automatic_from_start: cdktf.booleanToTerraform(struct!.automaticFromStart),
+    fixed_ip_map: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.fixedIpMap),
+    dhcp_networks: cdktf.listMapper(securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToTerraform, true)(struct!.dhcpNetworks),
+    interface_ip_map: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    automatic_from_end: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticFromEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    automatic_from_start: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticFromStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    fixed_ip_map: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.fixedIpMap),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    dhcp_networks: {
+      value: cdktf.listMapperHcl(securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksToHclTerraform, true)(struct!.dhcpNetworks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList",
+    },
+    interface_ip_map: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automaticFromEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticFromEnd = this._automaticFromEnd;
+    }
+    if (this._automaticFromStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticFromStart = this._automaticFromStart;
+    }
+    if (this._fixedIpMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fixedIpMap = this._fixedIpMap;
+    }
+    if (this._dhcpNetworks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpNetworks = this._dhcpNetworks?.internalValue;
+    }
+    if (this._interfaceIpMap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._automaticFromEnd = undefined;
+      this._automaticFromStart = undefined;
+      this._fixedIpMap = undefined;
+      this._dhcpNetworks.internalValue = undefined;
+      this._interfaceIpMap.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._automaticFromEnd = value.automaticFromEnd;
+      this._automaticFromStart = value.automaticFromStart;
+      this._fixedIpMap = value.fixedIpMap;
+      this._dhcpNetworks.internalValue = value.dhcpNetworks;
+      this._interfaceIpMap.internalValue = value.interfaceIpMap;
+    }
+  }
+
+  // automatic_from_end - computed: false, optional: true, required: false
+  private _automaticFromEnd?: boolean | cdktf.IResolvable; 
+  public get automaticFromEnd() {
+    return this.getBooleanAttribute('automatic_from_end');
+  }
+  public set automaticFromEnd(value: boolean | cdktf.IResolvable) {
+    this._automaticFromEnd = value;
+  }
+  public resetAutomaticFromEnd() {
+    this._automaticFromEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticFromEndInput() {
+    return this._automaticFromEnd;
+  }
+
+  // automatic_from_start - computed: false, optional: true, required: false
+  private _automaticFromStart?: boolean | cdktf.IResolvable; 
+  public get automaticFromStart() {
+    return this.getBooleanAttribute('automatic_from_start');
+  }
+  public set automaticFromStart(value: boolean | cdktf.IResolvable) {
+    this._automaticFromStart = value;
+  }
+  public resetAutomaticFromStart() {
+    this._automaticFromStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticFromStartInput() {
+    return this._automaticFromStart;
+  }
+
+  // fixed_ip_map - computed: false, optional: true, required: false
+  private _fixedIpMap?: { [key: string]: string }; 
+  public get fixedIpMap() {
+    return this.getStringMapAttribute('fixed_ip_map');
+  }
+  public set fixedIpMap(value: { [key: string]: string }) {
+    this._fixedIpMap = value;
+  }
+  public resetFixedIpMap() {
+    this._fixedIpMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedIpMapInput() {
+    return this._fixedIpMap;
+  }
+
+  // dhcp_networks - computed: false, optional: false, required: true
+  private _dhcpNetworks = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworksList(this, "dhcp_networks", false);
+  public get dhcpNetworks() {
+    return this._dhcpNetworks;
+  }
+  public putDhcpNetworks(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulDhcpNetworks[] | cdktf.IResolvable) {
+    this._dhcpNetworks.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpNetworksInput() {
+    return this._dhcpNetworks.internalValue;
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMapOutputReference(this, "interface_ip_map");
+  public get interfaceIpMap() {
+    return this._interfaceIpMap;
+  }
+  public putInterfaceIpMap(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulInterfaceIpMap) {
+    this._interfaceIpMap.internalValue = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  */
+  readonly networkPrefix?: string;
+  /**
+  * dns_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_config SecuremeshSiteV2#dns_config}
+  */
+  readonly dnsConfig?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig;
+  /**
+  * stateful block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#stateful SecuremeshSiteV2#stateful}
+  */
+  readonly stateful?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
+    dns_config: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToTerraform(struct!.dnsConfig),
+    stateful: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToTerraform(struct!.stateful),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    network_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.networkPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_config: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigToHclTerraform(struct!.dnsConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigList",
+    },
+    stateful: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulToHclTerraform(struct!.stateful),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._networkPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefix = this._networkPrefix;
+    }
+    if (this._dnsConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsConfig = this._dnsConfig?.internalValue;
+    }
+    if (this._stateful?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stateful = this._stateful?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._networkPrefix = undefined;
+      this._dnsConfig.internalValue = undefined;
+      this._stateful.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._networkPrefix = value.networkPrefix;
+      this._dnsConfig.internalValue = value.dnsConfig;
+      this._stateful.internalValue = value.stateful;
+    }
+  }
+
+  // network_prefix - computed: false, optional: true, required: false
+  private _networkPrefix?: string; 
+  public get networkPrefix() {
+    return this.getStringAttribute('network_prefix');
+  }
+  public set networkPrefix(value: string) {
+    this._networkPrefix = value;
+  }
+  public resetNetworkPrefix() {
+    this._networkPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixInput() {
+    return this._networkPrefix;
+  }
+
+  // dns_config - computed: false, optional: true, required: false
+  private _dnsConfig = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfigOutputReference(this, "dns_config");
+  public get dnsConfig() {
+    return this._dnsConfig;
+  }
+  public putDnsConfig(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterDnsConfig) {
+    this._dnsConfig.internalValue = value;
+  }
+  public resetDnsConfig() {
+    this._dnsConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsConfigInput() {
+    return this._dnsConfig.internalValue;
+  }
+
+  // stateful - computed: false, optional: true, required: false
+  private _stateful = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStatefulOutputReference(this, "stateful");
+  public get stateful() {
+    return this._stateful;
+  }
+  public putStateful(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterStateful) {
+    this._stateful.internalValue = value;
+  }
+  public resetStateful() {
+    this._stateful.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statefulInput() {
+    return this._stateful.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#host SecuremeshSiteV2#host}
+  */
+  readonly host?: boolean | cdktf.IResolvable;
+  /**
+  * router block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#router SecuremeshSiteV2#router}
+  */
+  readonly router?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    host: cdktf.booleanToTerraform(struct!.host),
+    router: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterToTerraform(struct!.router),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    host: {
+      value: cdktf.booleanToHclTerraform(struct!.host),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    router: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterToHclTerraform(struct!.router),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._host !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.host = this._host;
+    }
+    if (this._router?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.router = this._router?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._host = undefined;
+      this._router.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._host = value.host;
+      this._router.internalValue = value.router;
+    }
+  }
+
+  // host - computed: false, optional: true, required: false
+  private _host?: boolean | cdktf.IResolvable; 
+  public get host() {
+    return this.getBooleanAttribute('host');
+  }
+  public set host(value: boolean | cdktf.IResolvable) {
+    this._host = value;
+  }
+  public resetHost() {
+    this._host = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostInput() {
+    return this._host;
+  }
+
+  // router - computed: false, optional: true, required: false
+  private _router = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouterOutputReference(this, "router");
+  public get router() {
+    return this._router;
+  }
+  public putRouter(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigRouter) {
+    this._router.internalValue = value;
+  }
+  public resetRouter() {
+    this._router.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routerInput() {
+    return this._router.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor {
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_local_inside_network SecuremeshSiteV2#site_local_inside_network}
+  */
+  readonly siteLocalInsideNetwork?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_local_network SecuremeshSiteV2#site_local_network}
+  */
+  readonly siteLocalNetwork?: boolean | cdktf.IResolvable;
+  /**
+  * segment_network block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#segment_network SecuremeshSiteV2#segment_network}
+  */
+  readonly segmentNetwork?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    site_local_inside_network: cdktf.booleanToTerraform(struct!.siteLocalInsideNetwork),
+    site_local_network: cdktf.booleanToTerraform(struct!.siteLocalNetwork),
+    segment_network: securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToTerraform(struct!.segmentNetwork),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    site_local_inside_network: {
+      value: cdktf.booleanToHclTerraform(struct!.siteLocalInsideNetwork),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    site_local_network: {
+      value: cdktf.booleanToHclTerraform(struct!.siteLocalNetwork),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    segment_network: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkToHclTerraform(struct!.segmentNetwork),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._siteLocalInsideNetwork !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteLocalInsideNetwork = this._siteLocalInsideNetwork;
+    }
+    if (this._siteLocalNetwork !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteLocalNetwork = this._siteLocalNetwork;
+    }
+    if (this._segmentNetwork?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segmentNetwork = this._segmentNetwork?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._siteLocalInsideNetwork = undefined;
+      this._siteLocalNetwork = undefined;
+      this._segmentNetwork.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._siteLocalInsideNetwork = value.siteLocalInsideNetwork;
+      this._siteLocalNetwork = value.siteLocalNetwork;
+      this._segmentNetwork.internalValue = value.segmentNetwork;
+    }
+  }
+
+  // site_local_inside_network - computed: false, optional: true, required: false
+  private _siteLocalInsideNetwork?: boolean | cdktf.IResolvable; 
+  public get siteLocalInsideNetwork() {
+    return this.getBooleanAttribute('site_local_inside_network');
+  }
+  public set siteLocalInsideNetwork(value: boolean | cdktf.IResolvable) {
+    this._siteLocalInsideNetwork = value;
+  }
+  public resetSiteLocalInsideNetwork() {
+    this._siteLocalInsideNetwork = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteLocalInsideNetworkInput() {
+    return this._siteLocalInsideNetwork;
+  }
+
+  // site_local_network - computed: false, optional: true, required: false
+  private _siteLocalNetwork?: boolean | cdktf.IResolvable; 
+  public get siteLocalNetwork() {
+    return this.getBooleanAttribute('site_local_network');
+  }
+  public set siteLocalNetwork(value: boolean | cdktf.IResolvable) {
+    this._siteLocalNetwork = value;
+  }
+  public resetSiteLocalNetwork() {
+    this._siteLocalNetwork = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteLocalNetworkInput() {
+    return this._siteLocalNetwork;
+  }
+
+  // segment_network - computed: false, optional: true, required: false
+  private _segmentNetwork = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetworkOutputReference(this, "segment_network");
+  public get segmentNetwork() {
+    return this._segmentNetwork;
+  }
+  public putSegmentNetwork(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionSegmentNetwork) {
+    this._segmentNetwork.internalValue = value;
+  }
+  public resetSegmentNetwork() {
+    this._segmentNetwork.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentNetworkInput() {
+    return this._segmentNetwork.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  */
+  readonly defaultGw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_gw: {
+      value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultGw = undefined;
+      this._dnsServer = undefined;
+      this._ipAddress = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
+      this._ipAddress = value.ipAddress;
+    }
+  }
+
+  // default_gw - computed: false, optional: true, required: false
+  private _defaultGw?: string; 
+  public get defaultGw() {
+    return this.getStringAttribute('default_gw');
+  }
+  public set defaultGw(value: string) {
+    this._defaultGw = value;
+  }
+  public resetDefaultGw() {
+    this._defaultGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGwInput() {
+    return this._defaultGw;
+  }
+
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
+  // ip_address - computed: false, optional: false, required: true
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  */
+  readonly defaultGw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_gw: {
+      value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultGw = undefined;
+      this._dnsServer = undefined;
+      this._ipAddress = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
+      this._ipAddress = value.ipAddress;
+    }
+  }
+
+  // default_gw - computed: false, optional: true, required: false
+  private _defaultGw?: string; 
+  public get defaultGw() {
+    return this.getStringAttribute('default_gw');
+  }
+  public set defaultGw(value: string) {
+    this._defaultGw = value;
+  }
+  public resetDefaultGw() {
+    this._defaultGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGwInput() {
+    return this._defaultGw;
+  }
+
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
+  // ip_address - computed: false, optional: false, required: true
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name: string;
+  /**
+  * value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#value SecuremeshSiteV2#value}
+  */
+  readonly value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToTerraform(struct!.value),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueToHclTerraform(struct!.value),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._value.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._value.internalValue = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValueOutputReference(this, "value");
+  public get value() {
+    return this._value;
+  }
+  public putValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapValue) {
+    this._value.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp {
+  /**
+  * interface_ip_map block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_ip_map SecuremeshSiteV2#interface_ip_map}
+  */
+  readonly interfaceIpMap?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interface_ip_map: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToTerraform(struct!.interfaceIpMap),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interface_ip_map: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapToHclTerraform(struct!.interfaceIpMap),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceIpMap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceIpMap = this._interfaceIpMap?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interfaceIpMap.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interfaceIpMap.internalValue = value.interfaceIpMap;
+    }
+  }
+
+  // interface_ip_map - computed: false, optional: true, required: false
+  private _interfaceIpMap = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMapOutputReference(this, "interface_ip_map");
+  public get interfaceIpMap() {
+    return this._interfaceIpMap;
+  }
+  public putInterfaceIpMap(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpInterfaceIpMap) {
+    this._interfaceIpMap.internalValue = value;
+  }
+  public resetInterfaceIpMap() {
+    this._interfaceIpMap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceIpMapInput() {
+    return this._interfaceIpMap.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  */
+  readonly defaultGw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    network_prefix_allocator: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_gw: {
+      value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultGw = undefined;
+      this._dnsServer = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+    }
+  }
+
+  // default_gw - computed: false, optional: true, required: false
+  private _defaultGw?: string; 
+  public get defaultGw() {
+    return this.getStringAttribute('default_gw');
+  }
+  public set defaultGw(value: string) {
+    this._defaultGw = value;
+  }
+  public resetDefaultGw() {
+    this._defaultGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGwInput() {
+    return this._defaultGw;
+  }
+
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#default_gw SecuremeshSiteV2#default_gw}
+  */
+  readonly defaultGw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_server SecuremeshSiteV2#dns_server}
+  */
+  readonly dnsServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ip_address SecuremeshSiteV2#ip_address}
+  */
+  readonly ipAddress: string;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_gw: cdktf.stringToTerraform(struct!.defaultGw),
+    dns_server: cdktf.stringToTerraform(struct!.dnsServer),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_gw: {
+      value: cdktf.stringToHclTerraform(struct!.defaultGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_server: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultGw = this._defaultGw;
+    }
+    if (this._dnsServer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServer = this._dnsServer;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultGw = undefined;
+      this._dnsServer = undefined;
+      this._ipAddress = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultGw = value.defaultGw;
+      this._dnsServer = value.dnsServer;
+      this._ipAddress = value.ipAddress;
+    }
+  }
+
+  // default_gw - computed: false, optional: true, required: false
+  private _defaultGw?: string; 
+  public get defaultGw() {
+    return this.getStringAttribute('default_gw');
+  }
+  public set defaultGw(value: string) {
+    this._defaultGw = value;
+  }
+  public resetDefaultGw() {
+    this._defaultGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultGwInput() {
+    return this._defaultGw;
+  }
+
+  // dns_server - computed: false, optional: true, required: false
+  private _dnsServer?: string; 
+  public get dnsServer() {
+    return this.getStringAttribute('dns_server');
+  }
+  public set dnsServer(value: string) {
+    this._dnsServer = value;
+  }
+  public resetDnsServer() {
+    this._dnsServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServerInput() {
+    return this._dnsServer;
+  }
+
+  // ip_address - computed: false, optional: false, required: true
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address {
+  /**
+  * cluster_static_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#cluster_static_ip SecuremeshSiteV2#cluster_static_ip}
+  */
+  readonly clusterStaticIp?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp;
+  /**
+  * fleet_static_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#fleet_static_ip SecuremeshSiteV2#fleet_static_ip}
+  */
+  readonly fleetStaticIp?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp;
+  /**
+  * node_static_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_static_ip SecuremeshSiteV2#node_static_ip}
+  */
+  readonly nodeStaticIp?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cluster_static_ip: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToTerraform(struct!.clusterStaticIp),
+    fleet_static_ip: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToTerraform(struct!.fleetStaticIp),
+    node_static_ip: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToTerraform(struct!.nodeStaticIp),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cluster_static_ip: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpToHclTerraform(struct!.clusterStaticIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpList",
+    },
+    fleet_static_ip: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpToHclTerraform(struct!.fleetStaticIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpList",
+    },
+    node_static_ip: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpToHclTerraform(struct!.nodeStaticIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clusterStaticIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterStaticIp = this._clusterStaticIp?.internalValue;
+    }
+    if (this._fleetStaticIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fleetStaticIp = this._fleetStaticIp?.internalValue;
+    }
+    if (this._nodeStaticIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeStaticIp = this._nodeStaticIp?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clusterStaticIp.internalValue = undefined;
+      this._fleetStaticIp.internalValue = undefined;
+      this._nodeStaticIp.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clusterStaticIp.internalValue = value.clusterStaticIp;
+      this._fleetStaticIp.internalValue = value.fleetStaticIp;
+      this._nodeStaticIp.internalValue = value.nodeStaticIp;
+    }
+  }
+
+  // cluster_static_ip - computed: false, optional: true, required: false
+  private _clusterStaticIp = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIpOutputReference(this, "cluster_static_ip");
+  public get clusterStaticIp() {
+    return this._clusterStaticIp;
+  }
+  public putClusterStaticIp(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressClusterStaticIp) {
+    this._clusterStaticIp.internalValue = value;
+  }
+  public resetClusterStaticIp() {
+    this._clusterStaticIp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterStaticIpInput() {
+    return this._clusterStaticIp.internalValue;
+  }
+
+  // fleet_static_ip - computed: false, optional: true, required: false
+  private _fleetStaticIp = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIpOutputReference(this, "fleet_static_ip");
+  public get fleetStaticIp() {
+    return this._fleetStaticIp;
+  }
+  public putFleetStaticIp(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressFleetStaticIp) {
+    this._fleetStaticIp.internalValue = value;
+  }
+  public resetFleetStaticIp() {
+    this._fleetStaticIp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fleetStaticIpInput() {
+    return this._fleetStaticIp.internalValue;
+  }
+
+  // node_static_ip - computed: false, optional: true, required: false
+  private _nodeStaticIp = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIpOutputReference(this, "node_static_ip");
+  public get nodeStaticIp() {
+    return this._nodeStaticIp;
+  }
+  public putNodeStaticIp(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressNodeStaticIp) {
+    this._nodeStaticIp.internalValue = value;
+  }
+  public resetNodeStaticIp() {
+    this._nodeStaticIp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeStaticIpInput() {
+    return this._nodeStaticIp.internalValue;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#device SecuremeshSiteV2#device}
+  */
+  readonly device: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vlan_id SecuremeshSiteV2#vlan_id}
+  */
+  readonly vlanId?: number;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    device: cdktf.stringToTerraform(struct!.device),
+    vlan_id: cdktf.numberToTerraform(struct!.vlanId),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceOutputReference | SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    device: {
+      value: cdktf.stringToHclTerraform(struct!.device),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vlan_id: {
+      value: cdktf.numberToHclTerraform(struct!.vlanId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._device !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.device = this._device;
+    }
+    if (this._vlanId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vlanId = this._vlanId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._device = undefined;
+      this._vlanId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._device = value.device;
+      this._vlanId = value.vlanId;
+    }
+  }
+
+  // device - computed: false, optional: false, required: true
+  private _device?: string; 
+  public get device() {
+    return this.getStringAttribute('device');
+  }
+  public set device(value: string) {
+    this._device = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
+  }
+
+  // vlan_id - computed: false, optional: true, required: false
+  private _vlanId?: number; 
+  public get vlanId() {
+    return this.getNumberAttribute('vlan_id');
+  }
+  public set vlanId(value: number) {
+    this._vlanId = value;
+  }
+  public resetVlanId() {
+    this._vlanId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vlanIdInput() {
+    return this._vlanId;
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#description SecuremeshSiteV2#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_client SecuremeshSiteV2#dhcp_client}
+  */
+  readonly dhcpClient?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#is_management SecuremeshSiteV2#is_management}
+  */
+  readonly isManagement?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#is_primary SecuremeshSiteV2#is_primary}
+  */
+  readonly isPrimary?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#labels SecuremeshSiteV2#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#monitor_disabled SecuremeshSiteV2#monitor_disabled}
+  */
+  readonly monitorDisabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#mtu SecuremeshSiteV2#mtu}
+  */
+  readonly mtu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_ipv4_address SecuremeshSiteV2#no_ipv4_address}
+  */
+  readonly noIpv4Address?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#no_ipv6_address SecuremeshSiteV2#no_ipv6_address}
+  */
+  readonly noIpv6Address?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#priority SecuremeshSiteV2#priority}
+  */
+  readonly priority?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_disabled SecuremeshSiteV2#site_to_site_connectivity_interface_disabled}
+  */
+  readonly siteToSiteConnectivityInterfaceDisabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#site_to_site_connectivity_interface_enabled SecuremeshSiteV2#site_to_site_connectivity_interface_enabled}
+  */
+  readonly siteToSiteConnectivityInterfaceEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * bond_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#bond_interface SecuremeshSiteV2#bond_interface}
+  */
+  readonly bondInterface?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface;
+  /**
+  * dhcp_server block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dhcp_server SecuremeshSiteV2#dhcp_server}
+  */
+  readonly dhcpServer?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer;
+  /**
+  * ethernet_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ethernet_interface SecuremeshSiteV2#ethernet_interface}
+  */
+  readonly ethernetInterface?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface;
+  /**
+  * ipv6_auto_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#ipv6_auto_config SecuremeshSiteV2#ipv6_auto_config}
+  */
+  readonly ipv6AutoConfig?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig;
+  /**
+  * monitor block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#monitor SecuremeshSiteV2#monitor}
+  */
+  readonly monitor?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor;
+  /**
+  * network_option block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_option SecuremeshSiteV2#network_option}
+  */
+  readonly networkOption: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption;
+  /**
+  * static_ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_ip SecuremeshSiteV2#static_ip}
+  */
+  readonly staticIp?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp;
+  /**
+  * static_ipv6_address block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#static_ipv6_address SecuremeshSiteV2#static_ipv6_address}
+  */
+  readonly staticIpv6Address?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address;
+  /**
+  * vlan_interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#vlan_interface SecuremeshSiteV2#vlan_interface}
+  */
+  readonly vlanInterface?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStructToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    description: cdktf.stringToTerraform(struct!.description),
+    dhcp_client: cdktf.booleanToTerraform(struct!.dhcpClient),
+    is_management: cdktf.booleanToTerraform(struct!.isManagement),
+    is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    monitor_disabled: cdktf.booleanToTerraform(struct!.monitorDisabled),
+    mtu: cdktf.numberToTerraform(struct!.mtu),
+    name: cdktf.stringToTerraform(struct!.name),
+    no_ipv4_address: cdktf.booleanToTerraform(struct!.noIpv4Address),
+    no_ipv6_address: cdktf.booleanToTerraform(struct!.noIpv6Address),
+    priority: cdktf.numberToTerraform(struct!.priority),
+    site_to_site_connectivity_interface_disabled: cdktf.booleanToTerraform(struct!.siteToSiteConnectivityInterfaceDisabled),
+    site_to_site_connectivity_interface_enabled: cdktf.booleanToTerraform(struct!.siteToSiteConnectivityInterfaceEnabled),
+    bond_interface: securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct!.bondInterface),
+    dhcp_server: securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerToTerraform(struct!.dhcpServer),
+    ethernet_interface: securemeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceToTerraform(struct!.ethernetInterface),
+    ipv6_auto_config: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigToTerraform(struct!.ipv6AutoConfig),
+    monitor: securemeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorToTerraform(struct!.monitor),
+    network_option: securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionToTerraform(struct!.networkOption),
+    static_ip: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpToTerraform(struct!.staticIp),
+    static_ipv6_address: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressToTerraform(struct!.staticIpv6Address),
+    vlan_interface: securemeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceToTerraform(struct!.vlanInterface),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListInterfaceListStructToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dhcp_client: {
+      value: cdktf.booleanToHclTerraform(struct!.dhcpClient),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_management: {
+      value: cdktf.booleanToHclTerraform(struct!.isManagement),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_primary: {
+      value: cdktf.booleanToHclTerraform(struct!.isPrimary),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    monitor_disabled: {
+      value: cdktf.booleanToHclTerraform(struct!.monitorDisabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    mtu: {
+      value: cdktf.numberToHclTerraform(struct!.mtu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    no_ipv4_address: {
+      value: cdktf.booleanToHclTerraform(struct!.noIpv4Address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    no_ipv6_address: {
+      value: cdktf.booleanToHclTerraform(struct!.noIpv6Address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    priority: {
+      value: cdktf.numberToHclTerraform(struct!.priority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    site_to_site_connectivity_interface_disabled: {
+      value: cdktf.booleanToHclTerraform(struct!.siteToSiteConnectivityInterfaceDisabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    site_to_site_connectivity_interface_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.siteToSiteConnectivityInterfaceEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    bond_interface: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct!.bondInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceList",
+    },
+    dhcp_server: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerToHclTerraform(struct!.dhcpServer),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerList",
+    },
+    ethernet_interface: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceToHclTerraform(struct!.ethernetInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceList",
+    },
+    ipv6_auto_config: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigToHclTerraform(struct!.ipv6AutoConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigList",
+    },
+    monitor: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorToHclTerraform(struct!.monitor),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorList",
+    },
+    network_option: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionToHclTerraform(struct!.networkOption),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionList",
+    },
+    static_ip: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpToHclTerraform(struct!.staticIp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpList",
+    },
+    static_ipv6_address: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressToHclTerraform(struct!.staticIpv6Address),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressList",
+    },
+    vlan_interface: {
+      value: securemeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceToHclTerraform(struct!.vlanInterface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._dhcpClient !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpClient = this._dhcpClient;
+    }
+    if (this._isManagement !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isManagement = this._isManagement;
+    }
+    if (this._isPrimary !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrimary = this._isPrimary;
+    }
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._monitorDisabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.monitorDisabled = this._monitorDisabled;
+    }
+    if (this._mtu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mtu = this._mtu;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._noIpv4Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noIpv4Address = this._noIpv4Address;
+    }
+    if (this._noIpv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noIpv6Address = this._noIpv6Address;
+    }
+    if (this._priority !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.priority = this._priority;
+    }
+    if (this._siteToSiteConnectivityInterfaceDisabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteToSiteConnectivityInterfaceDisabled = this._siteToSiteConnectivityInterfaceDisabled;
+    }
+    if (this._siteToSiteConnectivityInterfaceEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.siteToSiteConnectivityInterfaceEnabled = this._siteToSiteConnectivityInterfaceEnabled;
+    }
+    if (this._bondInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bondInterface = this._bondInterface?.internalValue;
+    }
+    if (this._dhcpServer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dhcpServer = this._dhcpServer?.internalValue;
+    }
+    if (this._ethernetInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ethernetInterface = this._ethernetInterface?.internalValue;
+    }
+    if (this._ipv6AutoConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6AutoConfig = this._ipv6AutoConfig?.internalValue;
+    }
+    if (this._monitor?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.monitor = this._monitor?.internalValue;
+    }
+    if (this._networkOption?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkOption = this._networkOption?.internalValue;
+    }
+    if (this._staticIp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticIp = this._staticIp?.internalValue;
+    }
+    if (this._staticIpv6Address?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticIpv6Address = this._staticIpv6Address?.internalValue;
+    }
+    if (this._vlanInterface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vlanInterface = this._vlanInterface?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._description = undefined;
+      this._dhcpClient = undefined;
+      this._isManagement = undefined;
+      this._isPrimary = undefined;
+      this._labels = undefined;
+      this._monitorDisabled = undefined;
+      this._mtu = undefined;
+      this._name = undefined;
+      this._noIpv4Address = undefined;
+      this._noIpv6Address = undefined;
+      this._priority = undefined;
+      this._siteToSiteConnectivityInterfaceDisabled = undefined;
+      this._siteToSiteConnectivityInterfaceEnabled = undefined;
+      this._bondInterface.internalValue = undefined;
+      this._dhcpServer.internalValue = undefined;
+      this._ethernetInterface.internalValue = undefined;
+      this._ipv6AutoConfig.internalValue = undefined;
+      this._monitor.internalValue = undefined;
+      this._networkOption.internalValue = undefined;
+      this._staticIp.internalValue = undefined;
+      this._staticIpv6Address.internalValue = undefined;
+      this._vlanInterface.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._description = value.description;
+      this._dhcpClient = value.dhcpClient;
+      this._isManagement = value.isManagement;
+      this._isPrimary = value.isPrimary;
+      this._labels = value.labels;
+      this._monitorDisabled = value.monitorDisabled;
+      this._mtu = value.mtu;
+      this._name = value.name;
+      this._noIpv4Address = value.noIpv4Address;
+      this._noIpv6Address = value.noIpv6Address;
+      this._priority = value.priority;
+      this._siteToSiteConnectivityInterfaceDisabled = value.siteToSiteConnectivityInterfaceDisabled;
+      this._siteToSiteConnectivityInterfaceEnabled = value.siteToSiteConnectivityInterfaceEnabled;
+      this._bondInterface.internalValue = value.bondInterface;
+      this._dhcpServer.internalValue = value.dhcpServer;
+      this._ethernetInterface.internalValue = value.ethernetInterface;
+      this._ipv6AutoConfig.internalValue = value.ipv6AutoConfig;
+      this._monitor.internalValue = value.monitor;
+      this._networkOption.internalValue = value.networkOption;
+      this._staticIp.internalValue = value.staticIp;
+      this._staticIpv6Address.internalValue = value.staticIpv6Address;
+      this._vlanInterface.internalValue = value.vlanInterface;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // dhcp_client - computed: false, optional: true, required: false
+  private _dhcpClient?: boolean | cdktf.IResolvable; 
+  public get dhcpClient() {
+    return this.getBooleanAttribute('dhcp_client');
+  }
+  public set dhcpClient(value: boolean | cdktf.IResolvable) {
+    this._dhcpClient = value;
+  }
+  public resetDhcpClient() {
+    this._dhcpClient = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpClientInput() {
+    return this._dhcpClient;
+  }
+
+  // is_management - computed: false, optional: true, required: false
+  private _isManagement?: boolean | cdktf.IResolvable; 
+  public get isManagement() {
+    return this.getBooleanAttribute('is_management');
+  }
+  public set isManagement(value: boolean | cdktf.IResolvable) {
+    this._isManagement = value;
+  }
+  public resetIsManagement() {
+    this._isManagement = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isManagementInput() {
+    return this._isManagement;
+  }
+
+  // is_primary - computed: false, optional: true, required: false
+  private _isPrimary?: boolean | cdktf.IResolvable; 
+  public get isPrimary() {
+    return this.getBooleanAttribute('is_primary');
+  }
+  public set isPrimary(value: boolean | cdktf.IResolvable) {
+    this._isPrimary = value;
+  }
+  public resetIsPrimary() {
+    this._isPrimary = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrimaryInput() {
+    return this._isPrimary;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // monitor_disabled - computed: false, optional: true, required: false
+  private _monitorDisabled?: boolean | cdktf.IResolvable; 
+  public get monitorDisabled() {
+    return this.getBooleanAttribute('monitor_disabled');
+  }
+  public set monitorDisabled(value: boolean | cdktf.IResolvable) {
+    this._monitorDisabled = value;
+  }
+  public resetMonitorDisabled() {
+    this._monitorDisabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get monitorDisabledInput() {
+    return this._monitorDisabled;
+  }
+
+  // mtu - computed: false, optional: true, required: false
+  private _mtu?: number; 
+  public get mtu() {
+    return this.getNumberAttribute('mtu');
+  }
+  public set mtu(value: number) {
+    this._mtu = value;
+  }
+  public resetMtu() {
+    this._mtu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mtuInput() {
+    return this._mtu;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // no_ipv4_address - computed: false, optional: true, required: false
+  private _noIpv4Address?: boolean | cdktf.IResolvable; 
+  public get noIpv4Address() {
+    return this.getBooleanAttribute('no_ipv4_address');
+  }
+  public set noIpv4Address(value: boolean | cdktf.IResolvable) {
+    this._noIpv4Address = value;
+  }
+  public resetNoIpv4Address() {
+    this._noIpv4Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noIpv4AddressInput() {
+    return this._noIpv4Address;
+  }
+
+  // no_ipv6_address - computed: false, optional: true, required: false
+  private _noIpv6Address?: boolean | cdktf.IResolvable; 
+  public get noIpv6Address() {
+    return this.getBooleanAttribute('no_ipv6_address');
+  }
+  public set noIpv6Address(value: boolean | cdktf.IResolvable) {
+    this._noIpv6Address = value;
+  }
+  public resetNoIpv6Address() {
+    this._noIpv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noIpv6AddressInput() {
+    return this._noIpv6Address;
+  }
+
+  // priority - computed: false, optional: true, required: false
+  private _priority?: number; 
+  public get priority() {
+    return this.getNumberAttribute('priority');
+  }
+  public set priority(value: number) {
+    this._priority = value;
+  }
+  public resetPriority() {
+    this._priority = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get priorityInput() {
+    return this._priority;
+  }
+
+  // site_to_site_connectivity_interface_disabled - computed: false, optional: true, required: false
+  private _siteToSiteConnectivityInterfaceDisabled?: boolean | cdktf.IResolvable; 
+  public get siteToSiteConnectivityInterfaceDisabled() {
+    return this.getBooleanAttribute('site_to_site_connectivity_interface_disabled');
+  }
+  public set siteToSiteConnectivityInterfaceDisabled(value: boolean | cdktf.IResolvable) {
+    this._siteToSiteConnectivityInterfaceDisabled = value;
+  }
+  public resetSiteToSiteConnectivityInterfaceDisabled() {
+    this._siteToSiteConnectivityInterfaceDisabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteToSiteConnectivityInterfaceDisabledInput() {
+    return this._siteToSiteConnectivityInterfaceDisabled;
+  }
+
+  // site_to_site_connectivity_interface_enabled - computed: false, optional: true, required: false
+  private _siteToSiteConnectivityInterfaceEnabled?: boolean | cdktf.IResolvable; 
+  public get siteToSiteConnectivityInterfaceEnabled() {
+    return this.getBooleanAttribute('site_to_site_connectivity_interface_enabled');
+  }
+  public set siteToSiteConnectivityInterfaceEnabled(value: boolean | cdktf.IResolvable) {
+    this._siteToSiteConnectivityInterfaceEnabled = value;
+  }
+  public resetSiteToSiteConnectivityInterfaceEnabled() {
+    this._siteToSiteConnectivityInterfaceEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteToSiteConnectivityInterfaceEnabledInput() {
+    return this._siteToSiteConnectivityInterfaceEnabled;
+  }
+
+  // bond_interface - computed: false, optional: true, required: false
+  private _bondInterface = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterfaceOutputReference(this, "bond_interface");
+  public get bondInterface() {
+    return this._bondInterface;
+  }
+  public putBondInterface(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListBondInterface) {
+    this._bondInterface.internalValue = value;
+  }
+  public resetBondInterface() {
+    this._bondInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bondInterfaceInput() {
+    return this._bondInterface.internalValue;
+  }
+
+  // dhcp_server - computed: false, optional: true, required: false
+  private _dhcpServer = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServerOutputReference(this, "dhcp_server");
+  public get dhcpServer() {
+    return this._dhcpServer;
+  }
+  public putDhcpServer(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListDhcpServer) {
+    this._dhcpServer.internalValue = value;
+  }
+  public resetDhcpServer() {
+    this._dhcpServer.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dhcpServerInput() {
+    return this._dhcpServer.internalValue;
+  }
+
+  // ethernet_interface - computed: false, optional: true, required: false
+  private _ethernetInterface = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterfaceOutputReference(this, "ethernet_interface");
+  public get ethernetInterface() {
+    return this._ethernetInterface;
+  }
+  public putEthernetInterface(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListEthernetInterface) {
+    this._ethernetInterface.internalValue = value;
+  }
+  public resetEthernetInterface() {
+    this._ethernetInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ethernetInterfaceInput() {
+    return this._ethernetInterface.internalValue;
+  }
+
+  // ipv6_auto_config - computed: false, optional: true, required: false
+  private _ipv6AutoConfig = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfigOutputReference(this, "ipv6_auto_config");
+  public get ipv6AutoConfig() {
+    return this._ipv6AutoConfig;
+  }
+  public putIpv6AutoConfig(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListIpv6AutoConfig) {
+    this._ipv6AutoConfig.internalValue = value;
+  }
+  public resetIpv6AutoConfig() {
+    this._ipv6AutoConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AutoConfigInput() {
+    return this._ipv6AutoConfig.internalValue;
+  }
+
+  // monitor - computed: false, optional: true, required: false
+  private _monitor = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitorOutputReference(this, "monitor");
+  public get monitor() {
+    return this._monitor;
+  }
+  public putMonitor(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListMonitor) {
+    this._monitor.internalValue = value;
+  }
+  public resetMonitor() {
+    this._monitor.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get monitorInput() {
+    return this._monitor.internalValue;
+  }
+
+  // network_option - computed: false, optional: false, required: true
+  private _networkOption = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOptionOutputReference(this, "network_option");
+  public get networkOption() {
+    return this._networkOption;
+  }
+  public putNetworkOption(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListNetworkOption) {
+    this._networkOption.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkOptionInput() {
+    return this._networkOption.internalValue;
+  }
+
+  // static_ip - computed: false, optional: true, required: false
+  private _staticIp = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpOutputReference(this, "static_ip");
+  public get staticIp() {
+    return this._staticIp;
+  }
+  public putStaticIp(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIp) {
+    this._staticIp.internalValue = value;
+  }
+  public resetStaticIp() {
+    this._staticIp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticIpInput() {
+    return this._staticIp.internalValue;
+  }
+
+  // static_ipv6_address - computed: false, optional: true, required: false
+  private _staticIpv6Address = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6AddressOutputReference(this, "static_ipv6_address");
+  public get staticIpv6Address() {
+    return this._staticIpv6Address;
+  }
+  public putStaticIpv6Address(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStaticIpv6Address) {
+    this._staticIpv6Address.internalValue = value;
+  }
+  public resetStaticIpv6Address() {
+    this._staticIpv6Address.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticIpv6AddressInput() {
+    return this._staticIpv6Address.internalValue;
+  }
+
+  // vlan_interface - computed: false, optional: true, required: false
+  private _vlanInterface = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterfaceOutputReference(this, "vlan_interface");
+  public get vlanInterface() {
+    return this._vlanInterface;
+  }
+  public putVlanInterface(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListVlanInterface) {
+    this._vlanInterface.internalValue = value;
+  }
+  public resetVlanInterface() {
+    this._vlanInterface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vlanInterfaceInput() {
+    return this._vlanInterface.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStructOutputReference {
+    return new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManagedNodeListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#hostname SecuremeshSiteV2#hostname}
+  */
+  readonly hostname?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#public_ip SecuremeshSiteV2#public_ip}
+  */
+  readonly publicIp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#type SecuremeshSiteV2#type}
+  */
+  readonly type?: string;
+  /**
+  * interface_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#interface_list SecuremeshSiteV2#interface_list}
+  */
+  readonly interfaceList?: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2NutanixNotManagedNodeListStructToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hostname: cdktf.stringToTerraform(struct!.hostname),
+    public_ip: cdktf.stringToTerraform(struct!.publicIp),
+    type: cdktf.stringToTerraform(struct!.type),
+    interface_list: cdktf.listMapper(securemeshSiteV2NutanixNotManagedNodeListInterfaceListStructToTerraform, true)(struct!.interfaceList),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedNodeListStructToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedNodeListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hostname: {
+      value: cdktf.stringToHclTerraform(struct!.hostname),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    public_ip: {
+      value: cdktf.stringToHclTerraform(struct!.publicIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interface_list: {
+      value: cdktf.listMapperHcl(securemeshSiteV2NutanixNotManagedNodeListInterfaceListStructToHclTerraform, true)(struct!.interfaceList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManagedNodeListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hostname !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostname = this._hostname;
+    }
+    if (this._publicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIp = this._publicIp;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._interfaceList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceList = this._interfaceList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManagedNodeListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._hostname = undefined;
+      this._publicIp = undefined;
+      this._type = undefined;
+      this._interfaceList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._hostname = value.hostname;
+      this._publicIp = value.publicIp;
+      this._type = value.type;
+      this._interfaceList.internalValue = value.interfaceList;
+    }
+  }
+
+  // hostname - computed: false, optional: true, required: false
+  private _hostname?: string; 
+  public get hostname() {
+    return this.getStringAttribute('hostname');
+  }
+  public set hostname(value: string) {
+    this._hostname = value;
+  }
+  public resetHostname() {
+    this._hostname = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostnameInput() {
+    return this._hostname;
+  }
+
+  // public_ip - computed: false, optional: true, required: false
+  private _publicIp?: string; 
+  public get publicIp() {
+    return this.getStringAttribute('public_ip');
+  }
+  public set publicIp(value: string) {
+    this._publicIp = value;
+  }
+  public resetPublicIp() {
+    this._publicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpInput() {
+    return this._publicIp;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // interface_list - computed: false, optional: true, required: false
+  private _interfaceList = new SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStructList(this, "interface_list", false);
+  public get interfaceList() {
+    return this._interfaceList;
+  }
+  public putInterfaceList(value: SecuremeshSiteV2NutanixNotManagedNodeListInterfaceListStruct[] | cdktf.IResolvable) {
+    this._interfaceList.internalValue = value;
+  }
+  public resetInterfaceList() {
+    this._interfaceList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceListInput() {
+    return this._interfaceList.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2NutanixNotManagedNodeListStructList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2NutanixNotManagedNodeListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2NutanixNotManagedNodeListStructOutputReference {
+    return new SecuremeshSiteV2NutanixNotManagedNodeListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2NutanixNotManaged {
+  /**
+  * node_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#node_list SecuremeshSiteV2#node_list}
+  */
+  readonly nodeList?: SecuremeshSiteV2NutanixNotManagedNodeListStruct[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2NutanixNotManagedToTerraform(struct?: SecuremeshSiteV2NutanixNotManagedOutputReference | SecuremeshSiteV2NutanixNotManaged): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node_list: cdktf.listMapper(securemeshSiteV2NutanixNotManagedNodeListStructToTerraform, true)(struct!.nodeList),
+  }
+}
+
+
+export function securemeshSiteV2NutanixNotManagedToHclTerraform(struct?: SecuremeshSiteV2NutanixNotManagedOutputReference | SecuremeshSiteV2NutanixNotManaged): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node_list: {
+      value: cdktf.listMapperHcl(securemeshSiteV2NutanixNotManagedNodeListStructToHclTerraform, true)(struct!.nodeList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedNodeListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixNotManagedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2NutanixNotManaged | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._nodeList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeList = this._nodeList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2NutanixNotManaged | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._nodeList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._nodeList.internalValue = value.nodeList;
+    }
+  }
+
+  // node_list - computed: false, optional: true, required: false
+  private _nodeList = new SecuremeshSiteV2NutanixNotManagedNodeListStructList(this, "node_list", false);
+  public get nodeList() {
+    return this._nodeList;
+  }
+  public putNodeList(value: SecuremeshSiteV2NutanixNotManagedNodeListStruct[] | cdktf.IResolvable) {
+    this._nodeList.internalValue = value;
+  }
+  public resetNodeList() {
+    this._nodeList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeListInput() {
+    return this._nodeList.internalValue;
+  }
+}
+export interface SecuremeshSiteV2Nutanix {
+  /**
+  * not_managed block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#not_managed SecuremeshSiteV2#not_managed}
+  */
+  readonly notManaged?: SecuremeshSiteV2NutanixNotManaged;
+}
+
+export function securemeshSiteV2NutanixToTerraform(struct?: SecuremeshSiteV2NutanixOutputReference | SecuremeshSiteV2Nutanix): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    not_managed: securemeshSiteV2NutanixNotManagedToTerraform(struct!.notManaged),
+  }
+}
+
+
+export function securemeshSiteV2NutanixToHclTerraform(struct?: SecuremeshSiteV2NutanixOutputReference | SecuremeshSiteV2Nutanix): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    not_managed: {
+      value: securemeshSiteV2NutanixNotManagedToHclTerraform(struct!.notManaged),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2NutanixNotManagedList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2NutanixOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2Nutanix | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._notManaged?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.notManaged = this._notManaged?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2Nutanix | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._notManaged.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._notManaged.internalValue = value.notManaged;
+    }
+  }
+
+  // not_managed - computed: false, optional: true, required: false
+  private _notManaged = new SecuremeshSiteV2NutanixNotManagedOutputReference(this, "not_managed");
+  public get notManaged() {
+    return this._notManaged;
+  }
+  public putNotManaged(value: SecuremeshSiteV2NutanixNotManaged) {
+    this._notManaged.internalValue = value;
+  }
+  public resetNotManaged() {
+    this._notManaged.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get notManagedInput() {
+    return this._notManaged.internalValue;
+  }
+}
+export interface SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#rate SecuremeshSiteV2#rate}
+  */
+  readonly rate?: number;
+}
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    rate: cdktf.numberToTerraform(struct!.rate),
+  }
+}
+
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference | SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    rate: {
+      value: cdktf.numberToHclTerraform(struct!.rate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._rate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rate = this._rate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._rate = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._rate = value.rate;
+    }
+  }
+
+  // rate - computed: false, optional: true, required: false
+  private _rate?: number; 
+  public get rate() {
+    return this.getNumberAttribute('rate');
+  }
+  public set rate(value: number) {
+    this._rate = value;
+  }
+  public resetRate() {
+    this._rate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateInput() {
+    return this._rate;
+  }
+}
+export interface SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#active_backup SecuremeshSiteV2#active_backup}
+  */
+  readonly activeBackup?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#devices SecuremeshSiteV2#devices}
+  */
+  readonly devices: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#link_polling_interval SecuremeshSiteV2#link_polling_interval}
+  */
+  readonly linkPollingInterval: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#link_up_delay SecuremeshSiteV2#link_up_delay}
+  */
+  readonly linkUpDelay: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name: string;
+  /**
+  * lacp block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#lacp SecuremeshSiteV2#lacp}
+  */
+  readonly lacp?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp;
+}
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceToTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    active_backup: cdktf.booleanToTerraform(struct!.activeBackup),
+    devices: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.devices),
+    link_polling_interval: cdktf.numberToTerraform(struct!.linkPollingInterval),
+    link_up_delay: cdktf.numberToTerraform(struct!.linkUpDelay),
+    name: cdktf.stringToTerraform(struct!.name),
+    lacp: securemeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpToTerraform(struct!.lacp),
+  }
+}
+
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceToHclTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceOutputReference | SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    active_backup: {
+      value: cdktf.booleanToHclTerraform(struct!.activeBackup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    devices: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.devices),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    link_polling_interval: {
+      value: cdktf.numberToHclTerraform(struct!.linkPollingInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    link_up_delay: {
+      value: cdktf.numberToHclTerraform(struct!.linkUpDelay),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    lacp: {
+      value: securemeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpToHclTerraform(struct!.lacp),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activeBackup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activeBackup = this._activeBackup;
+    }
+    if (this._devices !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devices = this._devices;
+    }
+    if (this._linkPollingInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linkPollingInterval = this._linkPollingInterval;
+    }
+    if (this._linkUpDelay !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linkUpDelay = this._linkUpDelay;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._lacp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lacp = this._lacp?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._activeBackup = undefined;
+      this._devices = undefined;
+      this._linkPollingInterval = undefined;
+      this._linkUpDelay = undefined;
+      this._name = undefined;
+      this._lacp.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._activeBackup = value.activeBackup;
+      this._devices = value.devices;
+      this._linkPollingInterval = value.linkPollingInterval;
+      this._linkUpDelay = value.linkUpDelay;
+      this._name = value.name;
+      this._lacp.internalValue = value.lacp;
+    }
+  }
+
+  // active_backup - computed: false, optional: true, required: false
+  private _activeBackup?: boolean | cdktf.IResolvable; 
+  public get activeBackup() {
+    return this.getBooleanAttribute('active_backup');
+  }
+  public set activeBackup(value: boolean | cdktf.IResolvable) {
+    this._activeBackup = value;
+  }
+  public resetActiveBackup() {
+    this._activeBackup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeBackupInput() {
+    return this._activeBackup;
+  }
+
+  // devices - computed: false, optional: false, required: true
+  private _devices?: string[]; 
+  public get devices() {
+    return this.getListAttribute('devices');
+  }
+  public set devices(value: string[]) {
+    this._devices = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devicesInput() {
+    return this._devices;
+  }
+
+  // link_polling_interval - computed: false, optional: false, required: true
+  private _linkPollingInterval?: number; 
+  public get linkPollingInterval() {
+    return this.getNumberAttribute('link_polling_interval');
+  }
+  public set linkPollingInterval(value: number) {
+    this._linkPollingInterval = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linkPollingIntervalInput() {
+    return this._linkPollingInterval;
+  }
+
+  // link_up_delay - computed: false, optional: false, required: true
+  private _linkUpDelay?: number; 
+  public get linkUpDelay() {
+    return this.getNumberAttribute('link_up_delay');
+  }
+  public set linkUpDelay(value: number) {
+    this._linkUpDelay = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linkUpDelayInput() {
+    return this._linkUpDelay;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // lacp - computed: false, optional: true, required: false
+  private _lacp = new SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacpOutputReference(this, "lacp");
+  public get lacp() {
+    return this._lacp;
+  }
+  public putLacp(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListBondInterfaceLacp) {
+    this._lacp.internalValue = value;
+  }
+  public resetLacp() {
+    this._lacp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lacpInput() {
+    return this._lacp.internalValue;
+  }
+}
+export interface SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#name SecuremeshSiteV2#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#namespace SecuremeshSiteV2#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#tenant SecuremeshSiteV2#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference | SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#end_ip SecuremeshSiteV2#end_ip}
+  */
+  readonly endIp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#exclude SecuremeshSiteV2#exclude}
+  */
+  readonly exclude?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#start_ip SecuremeshSiteV2#start_ip}
+  */
+  readonly startIp?: string;
+}
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    end_ip: cdktf.stringToTerraform(struct!.endIp),
+    exclude: cdktf.booleanToTerraform(struct!.exclude),
+    start_ip: cdktf.stringToTerraform(struct!.startIp),
+  }
+}
+
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToHclTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    end_ip: {
+      value: cdktf.stringToHclTerraform(struct!.endIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    exclude: {
+      value: cdktf.booleanToHclTerraform(struct!.exclude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    start_ip: {
+      value: cdktf.stringToHclTerraform(struct!.startIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endIp = this._endIp;
+    }
+    if (this._exclude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclude = this._exclude;
+    }
+    if (this._startIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startIp = this._startIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endIp = undefined;
+      this._exclude = undefined;
+      this._startIp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endIp = value.endIp;
+      this._exclude = value.exclude;
+      this._startIp = value.startIp;
+    }
+  }
+
+  // end_ip - computed: false, optional: true, required: false
+  private _endIp?: string; 
+  public get endIp() {
+    return this.getStringAttribute('end_ip');
+  }
+  public set endIp(value: string) {
+    this._endIp = value;
+  }
+  public resetEndIp() {
+    this._endIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endIpInput() {
+    return this._endIp;
+  }
+
+  // exclude - computed: false, optional: true, required: false
+  private _exclude?: boolean | cdktf.IResolvable; 
+  public get exclude() {
+    return this.getBooleanAttribute('exclude');
+  }
+  public set exclude(value: boolean | cdktf.IResolvable) {
+    this._exclude = value;
+  }
+  public resetExclude() {
+    this._exclude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInput() {
+    return this._exclude;
+  }
+
+  // start_ip - computed: false, optional: true, required: false
+  private _startIp?: string; 
+  public get startIp() {
+    return this.getStringAttribute('start_ip');
+  }
+  public set startIp(value: string) {
+    this._startIp = value;
+  }
+  public resetStartIp() {
+    this._startIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startIpInput() {
+    return this._startIp;
+  }
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference {
+    return new SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dgw_address SecuremeshSiteV2#dgw_address}
+  */
+  readonly dgwAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#dns_address SecuremeshSiteV2#dns_address}
+  */
+  readonly dnsAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#first_address SecuremeshSiteV2#first_address}
+  */
+  readonly firstAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#last_address SecuremeshSiteV2#last_address}
+  */
+  readonly lastAddress?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix SecuremeshSiteV2#network_prefix}
+  */
+  readonly networkPrefix?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pool_settings SecuremeshSiteV2#pool_settings}
+  */
+  readonly poolSettings: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#same_as_dgw SecuremeshSiteV2#same_as_dgw}
+  */
+  readonly sameAsDgw?: boolean | cdktf.IResolvable;
+  /**
+  * network_prefix_allocator block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#network_prefix_allocator SecuremeshSiteV2#network_prefix_allocator}
+  */
+  readonly networkPrefixAllocator?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator;
+  /**
+  * pools block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/securemesh_site_v2#pools SecuremeshSiteV2#pools}
+  */
+  readonly pools?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable;
+}
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dgw_address: cdktf.stringToTerraform(struct!.dgwAddress),
+    dns_address: cdktf.stringToTerraform(struct!.dnsAddress),
+    first_address: cdktf.booleanToTerraform(struct!.firstAddress),
+    last_address: cdktf.booleanToTerraform(struct!.lastAddress),
+    network_prefix: cdktf.stringToTerraform(struct!.networkPrefix),
+    pool_settings: cdktf.stringToTerraform(struct!.poolSettings),
+    same_as_dgw: cdktf.booleanToTerraform(struct!.sameAsDgw),
+    network_prefix_allocator: securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToTerraform(struct!.networkPrefixAllocator),
+    pools: cdktf.listMapper(securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToTerraform, true)(struct!.pools),
+  }
+}
+
+
+export function securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksToHclTerraform(struct?: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dgw_address: {
+      value: cdktf.stringToHclTerraform(struct!.dgwAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_address: {
+      value: cdktf.stringToHclTerraform(struct!.dnsAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    first_address: {
+      value: cdktf.booleanToHclTerraform(struct!.firstAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    last_address: {
+      value: cdktf.booleanToHclTerraform(struct!.lastAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    network_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.networkPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pool_settings: {
+      value: cdktf.stringToHclTerraform(struct!.poolSettings),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    same_as_dgw: {
+      value: cdktf.booleanToHclTerraform(struct!.sameAsDgw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    network_prefix_allocator: {
+      value: securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorToHclTerraform(struct!.networkPrefixAllocator),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorList",
+    },
+    pools: {
+      value: cdktf.listMapperHcl(securemeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsToHclTerraform, true)(struct!.pools),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dgwAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dgwAddress = this._dgwAddress;
+    }
+    if (this._dnsAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsAddress = this._dnsAddress;
+    }
+    if (this._firstAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.firstAddress = this._firstAddress;
+    }
+    if (this._lastAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lastAddress = this._lastAddress;
+    }
+    if (this._networkPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefix = this._networkPrefix;
+    }
+    if (this._poolSettings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolSettings = this._poolSettings;
+    }
+    if (this._sameAsDgw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sameAsDgw = this._sameAsDgw;
+    }
+    if (this._networkPrefixAllocator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPrefixAllocator = this._networkPrefixAllocator?.internalValue;
+    }
+    if (this._pools?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pools = this._pools?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dgwAddress = undefined;
+      this._dnsAddress = undefined;
+      this._firstAddress = undefined;
+      this._lastAddress = undefined;
+      this._networkPrefix = undefined;
+      this._poolSettings = undefined;
+      this._sameAsDgw = undefined;
+      this._networkPrefixAllocator.internalValue = undefined;
+      this._pools.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dgwAddress = value.dgwAddress;
+      this._dnsAddress = value.dnsAddress;
+      this._firstAddress = value.firstAddress;
+      this._lastAddress = value.lastAddress;
+      this._networkPrefix = value.networkPrefix;
+      this._poolSettings = value.poolSettings;
+      this._sameAsDgw = value.sameAsDgw;
+      this._networkPrefixAllocator.internalValue = value.networkPrefixAllocator;
+      this._pools.internalValue = value.pools;
+    }
+  }
+
+  // dgw_address - computed: false, optional: true, required: false
+  private _dgwAddress?: string; 
+  public get dgwAddress() {
+    return this.getStringAttribute('dgw_address');
+  }
+  public set dgwAddress(value: string) {
+    this._dgwAddress = value;
+  }
+  public resetDgwAddress() {
+    this._dgwAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dgwAddressInput() {
+    return this._dgwAddress;
+  }
+
+  // dns_address - computed: false, optional: true, required: false
+  private _dnsAddress?: string; 
+  public get dnsAddress() {
+    return this.getStringAttribute('dns_address');
+  }
+  public set dnsAddress(value: string) {
+    this._dnsAddress = value;
+  }
+  public resetDnsAddress() {
+    this._dnsAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsAddressInput() {
+    return this._dnsAddress;
+  }
+
+  // first_address - computed: false, optional: true, required: false
+  private _firstAddress?: boolean | cdktf.IResolvable; 
+  public get firstAddress() {
+    return this.getBooleanAttribute('first_address');
+  }
+  public set firstAddress(value: boolean | cdktf.IResolvable) {
+    this._firstAddress = value;
+  }
+  public resetFirstAddress() {
+    this._firstAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firstAddressInput() {
+    return this._firstAddress;
+  }
+
+  // last_address - computed: false, optional: true, required: false
+  private _lastAddress?: boolean | cdktf.IResolvable; 
+  public get lastAddress() {
+    return this.getBooleanAttribute('last_address');
+  }
+  public set lastAddress(value: boolean | cdktf.IResolvable) {
+    this._lastAddress = value;
+  }
+  public resetLastAddress() {
+    this._lastAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastAddressInput() {
+    return this._lastAddress;
+  }
+
+  // network_prefix - computed: false, optional: true, required: false
+  private _networkPrefix?: string; 
+  public get networkPrefix() {
+    return this.getStringAttribute('network_prefix');
+  }
+  public set networkPrefix(value: string) {
+    this._networkPrefix = value;
+  }
+  public resetNetworkPrefix() {
+    this._networkPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixInput() {
+    return this._networkPrefix;
+  }
+
+  // pool_settings - computed: false, optional: false, required: true
+  private _poolSettings?: string; 
+  public get poolSettings() {
+    return this.getStringAttribute('pool_settings');
+  }
+  public set poolSettings(value: string) {
+    this._poolSettings = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolSettingsInput() {
+    return this._poolSettings;
+  }
+
+  // same_as_dgw - computed: false, optional: true, required: false
+  private _sameAsDgw?: boolean | cdktf.IResolvable; 
+  public get sameAsDgw() {
+    return this.getBooleanAttribute('same_as_dgw');
+  }
+  public set sameAsDgw(value: boolean | cdktf.IResolvable) {
+    this._sameAsDgw = value;
+  }
+  public resetSameAsDgw() {
+    this._sameAsDgw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sameAsDgwInput() {
+    return this._sameAsDgw;
+  }
+
+  // network_prefix_allocator - computed: false, optional: true, required: false
+  private _networkPrefixAllocator = new SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocatorOutputReference(this, "network_prefix_allocator");
+  public get networkPrefixAllocator() {
+    return this._networkPrefixAllocator;
+  }
+  public putNetworkPrefixAllocator(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksNetworkPrefixAllocator) {
+    this._networkPrefixAllocator.internalValue = value;
+  }
+  public resetNetworkPrefixAllocator() {
+    this._networkPrefixAllocator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPrefixAllocatorInput() {
+    return this._networkPrefixAllocator.internalValue;
+  }
+
+  // pools - computed: false, optional: true, required: false
+  private _pools = new SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPoolsList(this, "pools", false);
+  public get pools() {
+    return this._pools;
+  }
+  public putPools(value: SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksPools[] | cdktf.IResolvable) {
+    this._pools.internalValue = value;
+  }
+  public resetPools() {
+    this._pools.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolsInput() {
+    return this._pools.internalValue;
+  }
+}
+
+export class SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksList extends cdktf.ComplexList {
+  public internalValue? : SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference {
+    return new SecuremeshSiteV2OciNotManagedNodeListInterfaceListDhcpServerDhcpNetworksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

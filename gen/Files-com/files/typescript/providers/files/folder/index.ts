@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder
+// https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FolderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom metadata map of keys and values. Limited to 32 keys, 256 characters per key and 1024 characters per value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder#custom_metadata Folder#custom_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder#custom_metadata Folder#custom_metadata}
   */
   readonly customMetadata?: { [key: string]: any };
   /**
   * Create parent directories if they do not exist?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder#mkdir_parents Folder#mkdir_parents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder#mkdir_parents Folder#mkdir_parents}
   */
   readonly mkdirParents?: boolean | cdktf.IResolvable;
   /**
   * File/Folder path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder#path Folder#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder#path Folder#path}
   */
   readonly path: string;
   /**
   * Bookmark/priority color of file/folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder#priority_color Folder#priority_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder#priority_color Folder#priority_color}
   */
   readonly priorityColor?: string;
   /**
   * File last modified date/time, according to the client who set it.  Files.com allows desktop, FTP, SFTP, and WebDAV clients to set modified at times.  This allows Desktop<->Cloud syncing to preserve modified at times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder#provided_mtime Folder#provided_mtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder#provided_mtime Folder#provided_mtime}
   */
   readonly providedMtime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder files_folder}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder files_folder}
 */
 export class Folder extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Folder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Folder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Folder to import
-  * @param importFromId The id of the existing Folder that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Folder that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Folder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Folder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/folder files_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/folder files_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Folder extends cdktf.TerraformResource {
       terraformResourceType: 'files_folder',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.388',
-        providerVersionConstraint: '0.1.388'
+        providerVersion: '0.1.391',
+        providerVersionConstraint: '0.1.391'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

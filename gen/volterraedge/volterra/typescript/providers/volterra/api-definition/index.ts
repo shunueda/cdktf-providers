@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ApiDefinitionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#annotations ApiDefinition#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#annotations ApiDefinition#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#description ApiDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#description ApiDefinition#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#disable ApiDefinition#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#disable ApiDefinition#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#id ApiDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#id ApiDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#labels ApiDefinition#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#labels ApiDefinition#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#mixed_schema_origin ApiDefinition#mixed_schema_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#mixed_schema_origin ApiDefinition#mixed_schema_origin}
   */
   readonly mixedSchemaOrigin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#name ApiDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#name ApiDefinition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#namespace ApiDefinition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#namespace ApiDefinition#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#strict_schema_origin ApiDefinition#strict_schema_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#strict_schema_origin ApiDefinition#strict_schema_origin}
   */
   readonly strictSchemaOrigin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#swagger_specs ApiDefinition#swagger_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#swagger_specs ApiDefinition#swagger_specs}
   */
   readonly swaggerSpecs?: string[];
   /**
   * api_inventory_exclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#api_inventory_exclusion_list ApiDefinition#api_inventory_exclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#api_inventory_exclusion_list ApiDefinition#api_inventory_exclusion_list}
   */
   readonly apiInventoryExclusionList?: ApiDefinitionApiInventoryExclusionListStruct[] | cdktf.IResolvable;
   /**
   * api_inventory_inclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#api_inventory_inclusion_list ApiDefinition#api_inventory_inclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#api_inventory_inclusion_list ApiDefinition#api_inventory_inclusion_list}
   */
   readonly apiInventoryInclusionList?: ApiDefinitionApiInventoryInclusionListStruct[] | cdktf.IResolvable;
   /**
   * non_api_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#non_api_endpoints ApiDefinition#non_api_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#non_api_endpoints ApiDefinition#non_api_endpoints}
   */
   readonly nonApiEndpoints?: ApiDefinitionNonApiEndpoints[] | cdktf.IResolvable;
 }
 export interface ApiDefinitionApiInventoryExclusionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#method ApiDefinition#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#method ApiDefinition#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#path ApiDefinition#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#path ApiDefinition#path}
   */
   readonly path: string;
 }
@@ -214,11 +214,11 @@ export class ApiDefinitionApiInventoryExclusionListStructList extends cdktf.Comp
 }
 export interface ApiDefinitionApiInventoryInclusionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#method ApiDefinition#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#method ApiDefinition#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#path ApiDefinition#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#path ApiDefinition#path}
   */
   readonly path: string;
 }
@@ -357,11 +357,11 @@ export class ApiDefinitionApiInventoryInclusionListStructList extends cdktf.Comp
 }
 export interface ApiDefinitionNonApiEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#method ApiDefinition#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#method ApiDefinition#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#path ApiDefinition#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#path ApiDefinition#path}
   */
   readonly path: string;
 }
@@ -500,7 +500,7 @@ export class ApiDefinitionNonApiEndpointsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition volterra_api_definition}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition volterra_api_definition}
 */
 export class ApiDefinition extends cdktf.TerraformResource {
 
@@ -516,7 +516,7 @@ export class ApiDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiDefinition to import
-  * @param importFromId The id of the existing ApiDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -528,7 +528,7 @@ export class ApiDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/api_definition volterra_api_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/api_definition volterra_api_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,8 +539,8 @@ export class ApiDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_api_definition',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

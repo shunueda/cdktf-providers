@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkPolicyViewConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#annotations NetworkPolicyView#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#annotations NetworkPolicyView#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#description NetworkPolicyView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#description NetworkPolicyView#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#disable NetworkPolicyView#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#disable NetworkPolicyView#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#id NetworkPolicyView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#id NetworkPolicyView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#labels NetworkPolicyView#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#labels NetworkPolicyView#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#name NetworkPolicyView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#name NetworkPolicyView#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
   */
   readonly namespace: string;
   /**
   * egress_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#egress_rules NetworkPolicyView#egress_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#egress_rules NetworkPolicyView#egress_rules}
   */
   readonly egressRules?: NetworkPolicyViewEgressRules[] | cdktf.IResolvable;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#endpoint NetworkPolicyView#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#endpoint NetworkPolicyView#endpoint}
   */
   readonly endpoint: NetworkPolicyViewEndpoint;
   /**
   * ingress_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ingress_rules NetworkPolicyView#ingress_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ingress_rules NetworkPolicyView#ingress_rules}
   */
   readonly ingressRules?: NetworkPolicyViewIngressRules[] | cdktf.IResolvable;
 }
@@ -108,7 +108,7 @@ export class NetworkPolicyViewEgressRulesAdvActionOutputReference extends cdktf.
 }
 export interface NetworkPolicyViewEgressRulesApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
   */
   readonly applications?: string[];
 }
@@ -192,15 +192,15 @@ export class NetworkPolicyViewEgressRulesApplicationsOutputReference extends cdk
 }
 export interface NetworkPolicyViewEgressRulesIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#name NetworkPolicyView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#name NetworkPolicyView#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#tenant NetworkPolicyView#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#tenant NetworkPolicyView#tenant}
   */
   readonly tenant?: string;
 }
@@ -381,7 +381,7 @@ export interface NetworkPolicyViewEgressRulesIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ref NetworkPolicyView#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ref NetworkPolicyView#ref}
   */
   readonly ref?: NetworkPolicyViewEgressRulesIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -465,7 +465,7 @@ export class NetworkPolicyViewEgressRulesIpPrefixSetOutputReference extends cdkt
 }
 export interface NetworkPolicyViewEgressRulesLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#keys NetworkPolicyView#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#keys NetworkPolicyView#keys}
   */
   readonly keys?: string[];
 }
@@ -549,7 +549,7 @@ export class NetworkPolicyViewEgressRulesLabelMatcherOutputReference extends cdk
 }
 export interface NetworkPolicyViewEgressRulesLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#expressions NetworkPolicyView#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#expressions NetworkPolicyView#expressions}
   */
   readonly expressions: string[];
 }
@@ -630,11 +630,15 @@ export class NetworkPolicyViewEgressRulesLabelSelectorOutputReference extends cd
 }
 export interface NetworkPolicyViewEgressRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#description NetworkPolicyView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#description NetworkPolicyView#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#name NetworkPolicyView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#disable NetworkPolicyView#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#name NetworkPolicyView#name}
   */
   readonly name: string;
 }
@@ -646,6 +650,7 @@ export function networkPolicyViewEgressRulesMetadataToTerraform(struct?: Network
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -662,6 +667,12 @@ export function networkPolicyViewEgressRulesMetadataToHclTerraform(struct?: Netw
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -693,6 +704,10 @@ export class NetworkPolicyViewEgressRulesMetadataOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -704,11 +719,13 @@ export class NetworkPolicyViewEgressRulesMetadataOutputReference extends cdktf.C
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -729,6 +746,22 @@ export class NetworkPolicyViewEgressRulesMetadataOutputReference extends cdktf.C
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -744,11 +777,11 @@ export class NetworkPolicyViewEgressRulesMetadataOutputReference extends cdktf.C
 }
 export interface NetworkPolicyViewEgressRulesPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ipv6_prefixes NetworkPolicyView#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ipv6_prefixes NetworkPolicyView#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#prefixes NetworkPolicyView#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#prefixes NetworkPolicyView#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -861,11 +894,11 @@ export class NetworkPolicyViewEgressRulesPrefixListStructOutputReference extends
 }
 export interface NetworkPolicyViewEgressRulesProtocolPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#port_ranges NetworkPolicyView#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#port_ranges NetworkPolicyView#port_ranges}
   */
   readonly portRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#protocol NetworkPolicyView#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#protocol NetworkPolicyView#protocol}
   */
   readonly protocol?: string;
 }
@@ -978,79 +1011,95 @@ export class NetworkPolicyViewEgressRulesProtocolPortRangeOutputReference extend
 }
 export interface NetworkPolicyViewEgressRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#action NetworkPolicyView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#action NetworkPolicyView#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#all_tcp_traffic NetworkPolicyView#all_tcp_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#all_tcp_traffic NetworkPolicyView#all_tcp_traffic}
   */
   readonly allTcpTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#all_traffic NetworkPolicyView#all_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#all_traffic NetworkPolicyView#all_traffic}
   */
   readonly allTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#all_udp_traffic NetworkPolicyView#all_udp_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#all_udp_traffic NetworkPolicyView#all_udp_traffic}
   */
   readonly allUdpTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#any NetworkPolicyView#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#any NetworkPolicyView#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#inside_endpoints NetworkPolicyView#inside_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#inside_endpoints NetworkPolicyView#inside_endpoints}
   */
   readonly insideEndpoints?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#outside_endpoints NetworkPolicyView#outside_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#keys NetworkPolicyView#keys}
+  */
+  readonly keys?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#outside_endpoints NetworkPolicyView#outside_endpoints}
   */
   readonly outsideEndpoints?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#rule_description NetworkPolicyView#rule_description}
+  */
+  readonly ruleDescription?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#rule_name NetworkPolicyView#rule_name}
+  */
+  readonly ruleName?: string;
+  /**
   * adv_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#adv_action NetworkPolicyView#adv_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#adv_action NetworkPolicyView#adv_action}
   */
   readonly advAction?: NetworkPolicyViewEgressRulesAdvAction;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
   */
   readonly applications?: NetworkPolicyViewEgressRulesApplications;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ip_prefix_set NetworkPolicyView#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ip_prefix_set NetworkPolicyView#ip_prefix_set}
   */
   readonly ipPrefixSet?: NetworkPolicyViewEgressRulesIpPrefixSet;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#label_matcher NetworkPolicyView#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#label_matcher NetworkPolicyView#label_matcher}
   */
   readonly labelMatcher?: NetworkPolicyViewEgressRulesLabelMatcher;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#label_selector NetworkPolicyView#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#label_selector NetworkPolicyView#label_selector}
   */
   readonly labelSelector?: NetworkPolicyViewEgressRulesLabelSelector;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#metadata NetworkPolicyView#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#metadata NetworkPolicyView#metadata}
   */
   readonly metadata: NetworkPolicyViewEgressRulesMetadata;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#prefix_list NetworkPolicyView#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#prefix_list NetworkPolicyView#prefix_list}
   */
   readonly prefixList?: NetworkPolicyViewEgressRulesPrefixListStruct;
   /**
   * protocol_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#protocol_port_range NetworkPolicyView#protocol_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#protocol_port_range NetworkPolicyView#protocol_port_range}
   */
   readonly protocolPortRange?: NetworkPolicyViewEgressRulesProtocolPortRange;
 }
@@ -1067,7 +1116,11 @@ export function networkPolicyViewEgressRulesToTerraform(struct?: NetworkPolicyVi
     all_udp_traffic: cdktf.booleanToTerraform(struct!.allUdpTraffic),
     any: cdktf.booleanToTerraform(struct!.any),
     inside_endpoints: cdktf.booleanToTerraform(struct!.insideEndpoints),
+    keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.keys),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
     outside_endpoints: cdktf.booleanToTerraform(struct!.outsideEndpoints),
+    rule_description: cdktf.stringToTerraform(struct!.ruleDescription),
+    rule_name: cdktf.stringToTerraform(struct!.ruleName),
     adv_action: networkPolicyViewEgressRulesAdvActionToTerraform(struct!.advAction),
     applications: networkPolicyViewEgressRulesApplicationsToTerraform(struct!.applications),
     ip_prefix_set: networkPolicyViewEgressRulesIpPrefixSetToTerraform(struct!.ipPrefixSet),
@@ -1122,11 +1175,35 @@ export function networkPolicyViewEgressRulesToHclTerraform(struct?: NetworkPolic
       type: "simple",
       storageClassType: "boolean",
     },
+    keys: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.keys),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     outside_endpoints: {
       value: cdktf.booleanToHclTerraform(struct!.outsideEndpoints),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    rule_description: {
+      value: cdktf.stringToHclTerraform(struct!.ruleDescription),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rule_name: {
+      value: cdktf.stringToHclTerraform(struct!.ruleName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     adv_action: {
       value: networkPolicyViewEgressRulesAdvActionToHclTerraform(struct!.advAction),
@@ -1226,9 +1303,25 @@ export class NetworkPolicyViewEgressRulesOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.insideEndpoints = this._insideEndpoints;
     }
+    if (this._keys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keys = this._keys;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
     if (this._outsideEndpoints !== undefined) {
       hasAnyValues = true;
       internalValueResult.outsideEndpoints = this._outsideEndpoints;
+    }
+    if (this._ruleDescription !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleDescription = this._ruleDescription;
+    }
+    if (this._ruleName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleName = this._ruleName;
     }
     if (this._advAction?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1275,7 +1368,11 @@ export class NetworkPolicyViewEgressRulesOutputReference extends cdktf.ComplexOb
       this._allUdpTraffic = undefined;
       this._any = undefined;
       this._insideEndpoints = undefined;
+      this._keys = undefined;
+      this._namespace = undefined;
       this._outsideEndpoints = undefined;
+      this._ruleDescription = undefined;
+      this._ruleName = undefined;
       this._advAction.internalValue = undefined;
       this._applications.internalValue = undefined;
       this._ipPrefixSet.internalValue = undefined;
@@ -1298,7 +1395,11 @@ export class NetworkPolicyViewEgressRulesOutputReference extends cdktf.ComplexOb
       this._allUdpTraffic = value.allUdpTraffic;
       this._any = value.any;
       this._insideEndpoints = value.insideEndpoints;
+      this._keys = value.keys;
+      this._namespace = value.namespace;
       this._outsideEndpoints = value.outsideEndpoints;
+      this._ruleDescription = value.ruleDescription;
+      this._ruleName = value.ruleName;
       this._advAction.internalValue = value.advAction;
       this._applications.internalValue = value.applications;
       this._ipPrefixSet.internalValue = value.ipPrefixSet;
@@ -1406,6 +1507,38 @@ export class NetworkPolicyViewEgressRulesOutputReference extends cdktf.ComplexOb
     return this._insideEndpoints;
   }
 
+  // keys - computed: false, optional: true, required: false
+  private _keys?: string[]; 
+  public get keys() {
+    return this.getListAttribute('keys');
+  }
+  public set keys(value: string[]) {
+    this._keys = value;
+  }
+  public resetKeys() {
+    this._keys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keysInput() {
+    return this._keys;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
   // outside_endpoints - computed: false, optional: true, required: false
   private _outsideEndpoints?: boolean | cdktf.IResolvable; 
   public get outsideEndpoints() {
@@ -1420,6 +1553,38 @@ export class NetworkPolicyViewEgressRulesOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get outsideEndpointsInput() {
     return this._outsideEndpoints;
+  }
+
+  // rule_description - computed: false, optional: true, required: false
+  private _ruleDescription?: string; 
+  public get ruleDescription() {
+    return this.getStringAttribute('rule_description');
+  }
+  public set ruleDescription(value: string) {
+    this._ruleDescription = value;
+  }
+  public resetRuleDescription() {
+    this._ruleDescription = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleDescriptionInput() {
+    return this._ruleDescription;
+  }
+
+  // rule_name - computed: false, optional: true, required: false
+  private _ruleName?: string; 
+  public get ruleName() {
+    return this.getStringAttribute('rule_name');
+  }
+  public set ruleName(value: string) {
+    this._ruleName = value;
+  }
+  public resetRuleName() {
+    this._ruleName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleNameInput() {
+    return this._ruleName;
   }
 
   // adv_action - computed: false, optional: true, required: false
@@ -1567,9 +1732,159 @@ export class NetworkPolicyViewEgressRulesList extends cdktf.ComplexList {
     return new NetworkPolicyViewEgressRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface NetworkPolicyViewEndpointInterface {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#name NetworkPolicyView#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#tenant NetworkPolicyView#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function networkPolicyViewEndpointInterfaceToTerraform(struct?: NetworkPolicyViewEndpointInterfaceOutputReference | NetworkPolicyViewEndpointInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function networkPolicyViewEndpointInterfaceToHclTerraform(struct?: NetworkPolicyViewEndpointInterfaceOutputReference | NetworkPolicyViewEndpointInterface): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkPolicyViewEndpointInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NetworkPolicyViewEndpointInterface | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkPolicyViewEndpointInterface | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
 export interface NetworkPolicyViewEndpointLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#expressions NetworkPolicyView#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#expressions NetworkPolicyView#expressions}
   */
   readonly expressions: string[];
 }
@@ -1650,11 +1965,11 @@ export class NetworkPolicyViewEndpointLabelSelectorOutputReference extends cdktf
 }
 export interface NetworkPolicyViewEndpointPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ipv6_prefixes NetworkPolicyView#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ipv6_prefixes NetworkPolicyView#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#prefixes NetworkPolicyView#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#prefixes NetworkPolicyView#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -1767,27 +2082,37 @@ export class NetworkPolicyViewEndpointPrefixListStructOutputReference extends cd
 }
 export interface NetworkPolicyViewEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#any NetworkPolicyView#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#any NetworkPolicyView#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#inside_endpoints NetworkPolicyView#inside_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#inside_endpoints NetworkPolicyView#inside_endpoints}
   */
   readonly insideEndpoints?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#outside_endpoints NetworkPolicyView#outside_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#outside_endpoints NetworkPolicyView#outside_endpoints}
   */
   readonly outsideEndpoints?: boolean | cdktf.IResolvable;
   /**
+  * interface block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#interface NetworkPolicyView#interface}
+  */
+  readonly interface?: NetworkPolicyViewEndpointInterface;
+  /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#label_selector NetworkPolicyView#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#label_selector NetworkPolicyView#label_selector}
   */
   readonly labelSelector?: NetworkPolicyViewEndpointLabelSelector;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#prefix_list NetworkPolicyView#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#prefix_list NetworkPolicyView#prefix_list}
   */
   readonly prefixList?: NetworkPolicyViewEndpointPrefixListStruct;
 }
@@ -1800,7 +2125,9 @@ export function networkPolicyViewEndpointToTerraform(struct?: NetworkPolicyViewE
   return {
     any: cdktf.booleanToTerraform(struct!.any),
     inside_endpoints: cdktf.booleanToTerraform(struct!.insideEndpoints),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
     outside_endpoints: cdktf.booleanToTerraform(struct!.outsideEndpoints),
+    interface: networkPolicyViewEndpointInterfaceToTerraform(struct!.interface),
     label_selector: networkPolicyViewEndpointLabelSelectorToTerraform(struct!.labelSelector),
     prefix_list: networkPolicyViewEndpointPrefixListStructToTerraform(struct!.prefixList),
   }
@@ -1825,11 +2152,23 @@ export function networkPolicyViewEndpointToHclTerraform(struct?: NetworkPolicyVi
       type: "simple",
       storageClassType: "boolean",
     },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     outside_endpoints: {
       value: cdktf.booleanToHclTerraform(struct!.outsideEndpoints),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    interface: {
+      value: networkPolicyViewEndpointInterfaceToHclTerraform(struct!.interface),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NetworkPolicyViewEndpointInterfaceList",
     },
     label_selector: {
       value: networkPolicyViewEndpointLabelSelectorToHclTerraform(struct!.labelSelector),
@@ -1871,9 +2210,17 @@ export class NetworkPolicyViewEndpointOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.insideEndpoints = this._insideEndpoints;
     }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
     if (this._outsideEndpoints !== undefined) {
       hasAnyValues = true;
       internalValueResult.outsideEndpoints = this._outsideEndpoints;
+    }
+    if (this._interface?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interface = this._interface?.internalValue;
     }
     if (this._labelSelector?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1891,7 +2238,9 @@ export class NetworkPolicyViewEndpointOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = false;
       this._any = undefined;
       this._insideEndpoints = undefined;
+      this._namespace = undefined;
       this._outsideEndpoints = undefined;
+      this._interface.internalValue = undefined;
       this._labelSelector.internalValue = undefined;
       this._prefixList.internalValue = undefined;
     }
@@ -1899,7 +2248,9 @@ export class NetworkPolicyViewEndpointOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = Object.keys(value).length === 0;
       this._any = value.any;
       this._insideEndpoints = value.insideEndpoints;
+      this._namespace = value.namespace;
       this._outsideEndpoints = value.outsideEndpoints;
+      this._interface.internalValue = value.interface;
       this._labelSelector.internalValue = value.labelSelector;
       this._prefixList.internalValue = value.prefixList;
     }
@@ -1937,6 +2288,22 @@ export class NetworkPolicyViewEndpointOutputReference extends cdktf.ComplexObjec
     return this._insideEndpoints;
   }
 
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
   // outside_endpoints - computed: false, optional: true, required: false
   private _outsideEndpoints?: boolean | cdktf.IResolvable; 
   public get outsideEndpoints() {
@@ -1951,6 +2318,22 @@ export class NetworkPolicyViewEndpointOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get outsideEndpointsInput() {
     return this._outsideEndpoints;
+  }
+
+  // interface - computed: false, optional: true, required: false
+  private _interface = new NetworkPolicyViewEndpointInterfaceOutputReference(this, "interface");
+  public get interface() {
+    return this._interface;
+  }
+  public putInterface(value: NetworkPolicyViewEndpointInterface) {
+    this._interface.internalValue = value;
+  }
+  public resetInterface() {
+    this._interface.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceInput() {
+    return this._interface.internalValue;
   }
 
   // label_selector - computed: false, optional: true, required: false
@@ -2036,7 +2419,7 @@ export class NetworkPolicyViewIngressRulesAdvActionOutputReference extends cdktf
 }
 export interface NetworkPolicyViewIngressRulesApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
   */
   readonly applications?: string[];
 }
@@ -2120,15 +2503,15 @@ export class NetworkPolicyViewIngressRulesApplicationsOutputReference extends cd
 }
 export interface NetworkPolicyViewIngressRulesIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#name NetworkPolicyView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#name NetworkPolicyView#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#tenant NetworkPolicyView#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#tenant NetworkPolicyView#tenant}
   */
   readonly tenant?: string;
 }
@@ -2309,7 +2692,7 @@ export interface NetworkPolicyViewIngressRulesIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ref NetworkPolicyView#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ref NetworkPolicyView#ref}
   */
   readonly ref?: NetworkPolicyViewIngressRulesIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -2393,7 +2776,7 @@ export class NetworkPolicyViewIngressRulesIpPrefixSetOutputReference extends cdk
 }
 export interface NetworkPolicyViewIngressRulesLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#keys NetworkPolicyView#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#keys NetworkPolicyView#keys}
   */
   readonly keys?: string[];
 }
@@ -2477,7 +2860,7 @@ export class NetworkPolicyViewIngressRulesLabelMatcherOutputReference extends cd
 }
 export interface NetworkPolicyViewIngressRulesLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#expressions NetworkPolicyView#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#expressions NetworkPolicyView#expressions}
   */
   readonly expressions: string[];
 }
@@ -2558,11 +2941,15 @@ export class NetworkPolicyViewIngressRulesLabelSelectorOutputReference extends c
 }
 export interface NetworkPolicyViewIngressRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#description NetworkPolicyView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#description NetworkPolicyView#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#name NetworkPolicyView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#disable NetworkPolicyView#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#name NetworkPolicyView#name}
   */
   readonly name: string;
 }
@@ -2574,6 +2961,7 @@ export function networkPolicyViewIngressRulesMetadataToTerraform(struct?: Networ
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -2590,6 +2978,12 @@ export function networkPolicyViewIngressRulesMetadataToHclTerraform(struct?: Net
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -2621,6 +3015,10 @@ export class NetworkPolicyViewIngressRulesMetadataOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -2632,11 +3030,13 @@ export class NetworkPolicyViewIngressRulesMetadataOutputReference extends cdktf.
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -2657,6 +3057,22 @@ export class NetworkPolicyViewIngressRulesMetadataOutputReference extends cdktf.
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -2672,11 +3088,11 @@ export class NetworkPolicyViewIngressRulesMetadataOutputReference extends cdktf.
 }
 export interface NetworkPolicyViewIngressRulesPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ipv6_prefixes NetworkPolicyView#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ipv6_prefixes NetworkPolicyView#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#prefixes NetworkPolicyView#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#prefixes NetworkPolicyView#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -2789,11 +3205,11 @@ export class NetworkPolicyViewIngressRulesPrefixListStructOutputReference extend
 }
 export interface NetworkPolicyViewIngressRulesProtocolPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#port_ranges NetworkPolicyView#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#port_ranges NetworkPolicyView#port_ranges}
   */
   readonly portRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#protocol NetworkPolicyView#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#protocol NetworkPolicyView#protocol}
   */
   readonly protocol?: string;
 }
@@ -2906,79 +3322,95 @@ export class NetworkPolicyViewIngressRulesProtocolPortRangeOutputReference exten
 }
 export interface NetworkPolicyViewIngressRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#action NetworkPolicyView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#action NetworkPolicyView#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#all_tcp_traffic NetworkPolicyView#all_tcp_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#all_tcp_traffic NetworkPolicyView#all_tcp_traffic}
   */
   readonly allTcpTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#all_traffic NetworkPolicyView#all_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#all_traffic NetworkPolicyView#all_traffic}
   */
   readonly allTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#all_udp_traffic NetworkPolicyView#all_udp_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#all_udp_traffic NetworkPolicyView#all_udp_traffic}
   */
   readonly allUdpTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#any NetworkPolicyView#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#any NetworkPolicyView#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#inside_endpoints NetworkPolicyView#inside_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#inside_endpoints NetworkPolicyView#inside_endpoints}
   */
   readonly insideEndpoints?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#outside_endpoints NetworkPolicyView#outside_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#keys NetworkPolicyView#keys}
+  */
+  readonly keys?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#namespace NetworkPolicyView#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#outside_endpoints NetworkPolicyView#outside_endpoints}
   */
   readonly outsideEndpoints?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#rule_description NetworkPolicyView#rule_description}
+  */
+  readonly ruleDescription?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#rule_name NetworkPolicyView#rule_name}
+  */
+  readonly ruleName?: string;
+  /**
   * adv_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#adv_action NetworkPolicyView#adv_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#adv_action NetworkPolicyView#adv_action}
   */
   readonly advAction?: NetworkPolicyViewIngressRulesAdvAction;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#applications NetworkPolicyView#applications}
   */
   readonly applications?: NetworkPolicyViewIngressRulesApplications;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#ip_prefix_set NetworkPolicyView#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#ip_prefix_set NetworkPolicyView#ip_prefix_set}
   */
   readonly ipPrefixSet?: NetworkPolicyViewIngressRulesIpPrefixSet;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#label_matcher NetworkPolicyView#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#label_matcher NetworkPolicyView#label_matcher}
   */
   readonly labelMatcher?: NetworkPolicyViewIngressRulesLabelMatcher;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#label_selector NetworkPolicyView#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#label_selector NetworkPolicyView#label_selector}
   */
   readonly labelSelector?: NetworkPolicyViewIngressRulesLabelSelector;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#metadata NetworkPolicyView#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#metadata NetworkPolicyView#metadata}
   */
   readonly metadata: NetworkPolicyViewIngressRulesMetadata;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#prefix_list NetworkPolicyView#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#prefix_list NetworkPolicyView#prefix_list}
   */
   readonly prefixList?: NetworkPolicyViewIngressRulesPrefixListStruct;
   /**
   * protocol_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#protocol_port_range NetworkPolicyView#protocol_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#protocol_port_range NetworkPolicyView#protocol_port_range}
   */
   readonly protocolPortRange?: NetworkPolicyViewIngressRulesProtocolPortRange;
 }
@@ -2995,7 +3427,11 @@ export function networkPolicyViewIngressRulesToTerraform(struct?: NetworkPolicyV
     all_udp_traffic: cdktf.booleanToTerraform(struct!.allUdpTraffic),
     any: cdktf.booleanToTerraform(struct!.any),
     inside_endpoints: cdktf.booleanToTerraform(struct!.insideEndpoints),
+    keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.keys),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
     outside_endpoints: cdktf.booleanToTerraform(struct!.outsideEndpoints),
+    rule_description: cdktf.stringToTerraform(struct!.ruleDescription),
+    rule_name: cdktf.stringToTerraform(struct!.ruleName),
     adv_action: networkPolicyViewIngressRulesAdvActionToTerraform(struct!.advAction),
     applications: networkPolicyViewIngressRulesApplicationsToTerraform(struct!.applications),
     ip_prefix_set: networkPolicyViewIngressRulesIpPrefixSetToTerraform(struct!.ipPrefixSet),
@@ -3050,11 +3486,35 @@ export function networkPolicyViewIngressRulesToHclTerraform(struct?: NetworkPoli
       type: "simple",
       storageClassType: "boolean",
     },
+    keys: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.keys),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     outside_endpoints: {
       value: cdktf.booleanToHclTerraform(struct!.outsideEndpoints),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    rule_description: {
+      value: cdktf.stringToHclTerraform(struct!.ruleDescription),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rule_name: {
+      value: cdktf.stringToHclTerraform(struct!.ruleName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     adv_action: {
       value: networkPolicyViewIngressRulesAdvActionToHclTerraform(struct!.advAction),
@@ -3154,9 +3614,25 @@ export class NetworkPolicyViewIngressRulesOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.insideEndpoints = this._insideEndpoints;
     }
+    if (this._keys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keys = this._keys;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
     if (this._outsideEndpoints !== undefined) {
       hasAnyValues = true;
       internalValueResult.outsideEndpoints = this._outsideEndpoints;
+    }
+    if (this._ruleDescription !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleDescription = this._ruleDescription;
+    }
+    if (this._ruleName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleName = this._ruleName;
     }
     if (this._advAction?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -3203,7 +3679,11 @@ export class NetworkPolicyViewIngressRulesOutputReference extends cdktf.ComplexO
       this._allUdpTraffic = undefined;
       this._any = undefined;
       this._insideEndpoints = undefined;
+      this._keys = undefined;
+      this._namespace = undefined;
       this._outsideEndpoints = undefined;
+      this._ruleDescription = undefined;
+      this._ruleName = undefined;
       this._advAction.internalValue = undefined;
       this._applications.internalValue = undefined;
       this._ipPrefixSet.internalValue = undefined;
@@ -3226,7 +3706,11 @@ export class NetworkPolicyViewIngressRulesOutputReference extends cdktf.ComplexO
       this._allUdpTraffic = value.allUdpTraffic;
       this._any = value.any;
       this._insideEndpoints = value.insideEndpoints;
+      this._keys = value.keys;
+      this._namespace = value.namespace;
       this._outsideEndpoints = value.outsideEndpoints;
+      this._ruleDescription = value.ruleDescription;
+      this._ruleName = value.ruleName;
       this._advAction.internalValue = value.advAction;
       this._applications.internalValue = value.applications;
       this._ipPrefixSet.internalValue = value.ipPrefixSet;
@@ -3334,6 +3818,38 @@ export class NetworkPolicyViewIngressRulesOutputReference extends cdktf.ComplexO
     return this._insideEndpoints;
   }
 
+  // keys - computed: false, optional: true, required: false
+  private _keys?: string[]; 
+  public get keys() {
+    return this.getListAttribute('keys');
+  }
+  public set keys(value: string[]) {
+    this._keys = value;
+  }
+  public resetKeys() {
+    this._keys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keysInput() {
+    return this._keys;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
   // outside_endpoints - computed: false, optional: true, required: false
   private _outsideEndpoints?: boolean | cdktf.IResolvable; 
   public get outsideEndpoints() {
@@ -3348,6 +3864,38 @@ export class NetworkPolicyViewIngressRulesOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get outsideEndpointsInput() {
     return this._outsideEndpoints;
+  }
+
+  // rule_description - computed: false, optional: true, required: false
+  private _ruleDescription?: string; 
+  public get ruleDescription() {
+    return this.getStringAttribute('rule_description');
+  }
+  public set ruleDescription(value: string) {
+    this._ruleDescription = value;
+  }
+  public resetRuleDescription() {
+    this._ruleDescription = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleDescriptionInput() {
+    return this._ruleDescription;
+  }
+
+  // rule_name - computed: false, optional: true, required: false
+  private _ruleName?: string; 
+  public get ruleName() {
+    return this.getStringAttribute('rule_name');
+  }
+  public set ruleName(value: string) {
+    this._ruleName = value;
+  }
+  public resetRuleName() {
+    this._ruleName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleNameInput() {
+    return this._ruleName;
   }
 
   // adv_action - computed: false, optional: true, required: false
@@ -3497,7 +4045,7 @@ export class NetworkPolicyViewIngressRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view volterra_network_policy_view}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view volterra_network_policy_view}
 */
 export class NetworkPolicyView extends cdktf.TerraformResource {
 
@@ -3513,7 +4061,7 @@ export class NetworkPolicyView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPolicyView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPolicyView to import
-  * @param importFromId The id of the existing NetworkPolicyView that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPolicyView that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPolicyView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3525,7 +4073,7 @@ export class NetworkPolicyView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_policy_view volterra_network_policy_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_policy_view volterra_network_policy_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3536,8 +4084,8 @@ export class NetworkPolicyView extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_network_policy_view',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

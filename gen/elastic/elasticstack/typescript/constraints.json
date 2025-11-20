@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "elasticstack": "0.12.1"
+    "elasticstack": "0.12.2"
   }
 }

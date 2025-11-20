@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,142 +8,142 @@ import * as cdktf from 'cdktf';
 
 export interface K8SClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#annotations K8SCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#annotations K8SCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#cluster_scoped_access_deny K8SCluster#cluster_scoped_access_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_scoped_access_deny K8SCluster#cluster_scoped_access_deny}
   */
   readonly clusterScopedAccessDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#cluster_scoped_access_permit K8SCluster#cluster_scoped_access_permit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_scoped_access_permit K8SCluster#cluster_scoped_access_permit}
   */
   readonly clusterScopedAccessPermit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#description K8SCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#description K8SCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#disable K8SCluster#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#disable K8SCluster#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#global_access_enable K8SCluster#global_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#global_access_enable K8SCluster#global_access_enable}
   */
   readonly globalAccessEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#id K8SCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#id K8SCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#labels K8SCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#labels K8SCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#no_cluster_wide_apps K8SCluster#no_cluster_wide_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_cluster_wide_apps K8SCluster#no_cluster_wide_apps}
   */
   readonly noClusterWideApps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#no_global_access K8SCluster#no_global_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_global_access K8SCluster#no_global_access}
   */
   readonly noGlobalAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#no_insecure_registries K8SCluster#no_insecure_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_insecure_registries K8SCluster#no_insecure_registries}
   */
   readonly noInsecureRegistries?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#no_local_access K8SCluster#no_local_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#no_local_access K8SCluster#no_local_access}
   */
   readonly noLocalAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_default_cluster_role_bindings K8SCluster#use_default_cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_cluster_role_bindings K8SCluster#use_default_cluster_role_bindings}
   */
   readonly useDefaultClusterRoleBindings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_default_cluster_roles K8SCluster#use_default_cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_cluster_roles K8SCluster#use_default_cluster_roles}
   */
   readonly useDefaultClusterRoles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_default_pod_security_admission K8SCluster#use_default_pod_security_admission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_pod_security_admission K8SCluster#use_default_pod_security_admission}
   */
   readonly useDefaultPodSecurityAdmission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_default_psp K8SCluster#use_default_psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_default_psp K8SCluster#use_default_psp}
   */
   readonly useDefaultPsp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#vk8s_namespace_access_deny K8SCluster#vk8s_namespace_access_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#vk8s_namespace_access_deny K8SCluster#vk8s_namespace_access_deny}
   */
   readonly vk8SNamespaceAccessDeny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#vk8s_namespace_access_permit K8SCluster#vk8s_namespace_access_permit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#vk8s_namespace_access_permit K8SCluster#vk8s_namespace_access_permit}
   */
   readonly vk8SNamespaceAccessPermit?: boolean | cdktf.IResolvable;
   /**
   * cluster_wide_app_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#cluster_wide_app_list K8SCluster#cluster_wide_app_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_wide_app_list K8SCluster#cluster_wide_app_list}
   */
   readonly clusterWideAppList?: K8SClusterClusterWideAppListStruct;
   /**
   * insecure_registry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#insecure_registry_list K8SCluster#insecure_registry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#insecure_registry_list K8SCluster#insecure_registry_list}
   */
   readonly insecureRegistryList?: K8SClusterInsecureRegistryListStruct;
   /**
   * local_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#local_access_config K8SCluster#local_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_access_config K8SCluster#local_access_config}
   */
   readonly localAccessConfig?: K8SClusterLocalAccessConfig;
   /**
   * use_custom_cluster_role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_custom_cluster_role_bindings K8SCluster#use_custom_cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_cluster_role_bindings K8SCluster#use_custom_cluster_role_bindings}
   */
   readonly useCustomClusterRoleBindings?: K8SClusterUseCustomClusterRoleBindings;
   /**
   * use_custom_cluster_role_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_custom_cluster_role_list K8SCluster#use_custom_cluster_role_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_cluster_role_list K8SCluster#use_custom_cluster_role_list}
   */
   readonly useCustomClusterRoleList?: K8SClusterUseCustomClusterRoleListStruct;
   /**
   * use_custom_pod_security_admission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_custom_pod_security_admission K8SCluster#use_custom_pod_security_admission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_pod_security_admission K8SCluster#use_custom_pod_security_admission}
   */
   readonly useCustomPodSecurityAdmission?: K8SClusterUseCustomPodSecurityAdmission;
   /**
   * use_custom_psp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#use_custom_psp_list K8SCluster#use_custom_psp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#use_custom_psp_list K8SCluster#use_custom_psp_list}
   */
   readonly useCustomPspList?: K8SClusterUseCustomPspListStruct;
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#location K8SCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#location K8SCluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -280,13 +280,160 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
     return this._storeProvider;
   }
 }
+export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#decryption_provider K8SCluster#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#location K8SCluster#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#store_provider K8SCluster#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#provider K8SCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#provider K8SCluster#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#url K8SCluster#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#url K8SCluster#url}
   */
   readonly url: string;
 }
@@ -394,19 +541,332 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
     return this._url;
   }
 }
+export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#key K8SCluster#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#location K8SCluster#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#provider K8SCluster#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#secret_encoding K8SCluster#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#version K8SCluster#version}
+  */
+  readonly version?: number;
+}
+
+export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoToHclTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
+  */
+  readonly name: string;
+}
+
+export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoToHclTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#secret_encoding_type K8SCluster#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#blindfold_secret_info K8SCluster#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#blindfold_secret_info K8SCluster#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#blindfold_secret_info_internal K8SCluster#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#clear_secret_info K8SCluster#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#clear_secret_info K8SCluster#clear_secret_info}
   */
   readonly clearSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#vault_secret_info K8SCluster#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#wingman_secret_info K8SCluster#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo;
 }
 
 export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordOutputReference | K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword): any {
@@ -415,8 +875,12 @@ export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPass
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -427,17 +891,41 @@ export function k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPass
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoList",
     },
   };
 
@@ -459,13 +947,29 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
   public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -473,14 +977,38 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
   public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -499,6 +1027,22 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -514,24 +1058,56 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswor
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
   */
   readonly defaultPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
   */
   readonly localDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#port K8SCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#port K8SCluster#port}
   */
   readonly port?: number;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#password K8SCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#password K8SCluster#password}
   */
   readonly password: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainPassword;
 }
@@ -696,9 +1272,13 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainOutputR
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsArgoCd {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  */
+  readonly generatedYaml?: string;
+  /**
   * local_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
   */
   readonly localDomain?: K8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomain;
 }
@@ -709,6 +1289,7 @@ export function k8SClusterClusterWideAppListClusterWideAppsArgoCdToTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    generated_yaml: cdktf.stringToTerraform(struct!.generatedYaml),
     local_domain: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainToTerraform(struct!.localDomain),
   }
 }
@@ -720,6 +1301,12 @@ export function k8SClusterClusterWideAppListClusterWideAppsArgoCdToHclTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    generated_yaml: {
+      value: cdktf.stringToHclTerraform(struct!.generatedYaml),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     local_domain: {
       value: k8SClusterClusterWideAppListClusterWideAppsArgoCdLocalDomainToHclTerraform(struct!.localDomain),
       isBlock: true,
@@ -746,6 +1333,10 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdOutputReference ex
   public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsArgoCd | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._generatedYaml !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.generatedYaml = this._generatedYaml;
+    }
     if (this._localDomain?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.localDomain = this._localDomain?.internalValue;
@@ -756,12 +1347,30 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdOutputReference ex
   public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsArgoCd | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._generatedYaml = undefined;
       this._localDomain.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._generatedYaml = value.generatedYaml;
       this._localDomain.internalValue = value.localDomain;
     }
+  }
+
+  // generated_yaml - computed: false, optional: true, required: false
+  private _generatedYaml?: string; 
+  public get generatedYaml() {
+    return this.getStringAttribute('generated_yaml');
+  }
+  public set generatedYaml(value: string) {
+    this._generatedYaml = value;
+  }
+  public resetGeneratedYaml() {
+    this._generatedYaml = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generatedYamlInput() {
+    return this._generatedYaml;
   }
 
   // local_domain - computed: false, optional: true, required: false
@@ -781,6 +1390,10 @@ export class K8SClusterClusterWideAppListClusterWideAppsArgoCdOutputReference ex
   }
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsDashboard {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  */
+  readonly generatedYaml?: string;
 }
 
 export function k8SClusterClusterWideAppListClusterWideAppsDashboardToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsDashboardOutputReference | K8SClusterClusterWideAppListClusterWideAppsDashboard): any {
@@ -789,6 +1402,7 @@ export function k8SClusterClusterWideAppListClusterWideAppsDashboardToTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    generated_yaml: cdktf.stringToTerraform(struct!.generatedYaml),
   }
 }
 
@@ -799,8 +1413,16 @@ export function k8SClusterClusterWideAppListClusterWideAppsDashboardToHclTerrafo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    generated_yaml: {
+      value: cdktf.stringToHclTerraform(struct!.generatedYaml),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class K8SClusterClusterWideAppListClusterWideAppsDashboardOutputReference extends cdktf.ComplexObject {
@@ -817,19 +1439,45 @@ export class K8SClusterClusterWideAppListClusterWideAppsDashboardOutputReference
   public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsDashboard | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._generatedYaml !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.generatedYaml = this._generatedYaml;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsDashboard | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._generatedYaml = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._generatedYaml = value.generatedYaml;
     }
+  }
+
+  // generated_yaml - computed: false, optional: true, required: false
+  private _generatedYaml?: string; 
+  public get generatedYaml() {
+    return this.getStringAttribute('generated_yaml');
+  }
+  public set generatedYaml(value: string) {
+    this._generatedYaml = value;
+  }
+  public resetGeneratedYaml() {
+    this._generatedYaml = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generatedYamlInput() {
+    return this._generatedYaml;
   }
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsMetricsServer {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  */
+  readonly generatedYaml?: string;
 }
 
 export function k8SClusterClusterWideAppListClusterWideAppsMetricsServerToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsMetricsServerOutputReference | K8SClusterClusterWideAppListClusterWideAppsMetricsServer): any {
@@ -838,6 +1486,7 @@ export function k8SClusterClusterWideAppListClusterWideAppsMetricsServerToTerraf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    generated_yaml: cdktf.stringToTerraform(struct!.generatedYaml),
   }
 }
 
@@ -848,8 +1497,16 @@ export function k8SClusterClusterWideAppListClusterWideAppsMetricsServerToHclTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    generated_yaml: {
+      value: cdktf.stringToHclTerraform(struct!.generatedYaml),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class K8SClusterClusterWideAppListClusterWideAppsMetricsServerOutputReference extends cdktf.ComplexObject {
@@ -866,19 +1523,45 @@ export class K8SClusterClusterWideAppListClusterWideAppsMetricsServerOutputRefer
   public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsMetricsServer | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._generatedYaml !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.generatedYaml = this._generatedYaml;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsMetricsServer | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._generatedYaml = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._generatedYaml = value.generatedYaml;
     }
+  }
+
+  // generated_yaml - computed: false, optional: true, required: false
+  private _generatedYaml?: string; 
+  public get generatedYaml() {
+    return this.getStringAttribute('generated_yaml');
+  }
+  public set generatedYaml(value: string) {
+    this._generatedYaml = value;
+  }
+  public resetGeneratedYaml() {
+    this._generatedYaml = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generatedYamlInput() {
+    return this._generatedYaml;
   }
 }
 export interface K8SClusterClusterWideAppListClusterWideAppsPrometheus {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#generated_yaml K8SCluster#generated_yaml}
+  */
+  readonly generatedYaml?: string;
 }
 
 export function k8SClusterClusterWideAppListClusterWideAppsPrometheusToTerraform(struct?: K8SClusterClusterWideAppListClusterWideAppsPrometheusOutputReference | K8SClusterClusterWideAppListClusterWideAppsPrometheus): any {
@@ -887,6 +1570,7 @@ export function k8SClusterClusterWideAppListClusterWideAppsPrometheusToTerraform
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    generated_yaml: cdktf.stringToTerraform(struct!.generatedYaml),
   }
 }
 
@@ -897,8 +1581,16 @@ export function k8SClusterClusterWideAppListClusterWideAppsPrometheusToHclTerraf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    generated_yaml: {
+      value: cdktf.stringToHclTerraform(struct!.generatedYaml),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class K8SClusterClusterWideAppListClusterWideAppsPrometheusOutputReference extends cdktf.ComplexObject {
@@ -915,41 +1607,63 @@ export class K8SClusterClusterWideAppListClusterWideAppsPrometheusOutputReferenc
   public get internalValue(): K8SClusterClusterWideAppListClusterWideAppsPrometheus | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._generatedYaml !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.generatedYaml = this._generatedYaml;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: K8SClusterClusterWideAppListClusterWideAppsPrometheus | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._generatedYaml = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._generatedYaml = value.generatedYaml;
     }
+  }
+
+  // generated_yaml - computed: false, optional: true, required: false
+  private _generatedYaml?: string; 
+  public get generatedYaml() {
+    return this.getStringAttribute('generated_yaml');
+  }
+  public set generatedYaml(value: string) {
+    this._generatedYaml = value;
+  }
+  public resetGeneratedYaml() {
+    this._generatedYaml = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generatedYamlInput() {
+    return this._generatedYaml;
   }
 }
 export interface K8SClusterClusterWideAppListClusterWideApps {
   /**
   * argo_cd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#argo_cd K8SCluster#argo_cd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#argo_cd K8SCluster#argo_cd}
   */
   readonly argoCd?: K8SClusterClusterWideAppListClusterWideAppsArgoCd;
   /**
   * dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#dashboard K8SCluster#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#dashboard K8SCluster#dashboard}
   */
   readonly dashboard?: K8SClusterClusterWideAppListClusterWideAppsDashboard;
   /**
   * metrics_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#metrics_server K8SCluster#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#metrics_server K8SCluster#metrics_server}
   */
   readonly metricsServer?: K8SClusterClusterWideAppListClusterWideAppsMetricsServer;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#prometheus K8SCluster#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#prometheus K8SCluster#prometheus}
   */
   readonly prometheus?: K8SClusterClusterWideAppListClusterWideAppsPrometheus;
 }
@@ -1154,7 +1868,7 @@ export interface K8SClusterClusterWideAppListStruct {
   /**
   * cluster_wide_apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#cluster_wide_apps K8SCluster#cluster_wide_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_wide_apps K8SCluster#cluster_wide_apps}
   */
   readonly clusterWideApps: K8SClusterClusterWideAppListClusterWideApps[] | cdktf.IResolvable;
 }
@@ -1235,7 +1949,7 @@ export class K8SClusterClusterWideAppListStructOutputReference extends cdktf.Com
 }
 export interface K8SClusterInsecureRegistryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#insecure_registries K8SCluster#insecure_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#insecure_registries K8SCluster#insecure_registries}
   */
   readonly insecureRegistries: string[];
 }
@@ -1316,15 +2030,15 @@ export class K8SClusterInsecureRegistryListStructOutputReference extends cdktf.C
 }
 export interface K8SClusterLocalAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#default_port K8SCluster#default_port}
   */
   readonly defaultPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#local_domain K8SCluster#local_domain}
   */
   readonly localDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#port K8SCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#port K8SCluster#port}
   */
   readonly port?: number;
 }
@@ -1463,15 +2177,15 @@ export class K8SClusterLocalAccessConfigOutputReference extends cdktf.ComplexObj
 }
 export interface K8SClusterUseCustomClusterRoleBindingsClusterRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -1647,7 +2361,7 @@ export interface K8SClusterUseCustomClusterRoleBindings {
   /**
   * cluster_role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#cluster_role_bindings K8SCluster#cluster_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_role_bindings K8SCluster#cluster_role_bindings}
   */
   readonly clusterRoleBindings: K8SClusterUseCustomClusterRoleBindingsClusterRoleBindings[] | cdktf.IResolvable;
 }
@@ -1728,15 +2442,15 @@ export class K8SClusterUseCustomClusterRoleBindingsOutputReference extends cdktf
 }
 export interface K8SClusterUseCustomClusterRoleListClusterRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -1912,7 +2626,7 @@ export interface K8SClusterUseCustomClusterRoleListStruct {
   /**
   * cluster_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#cluster_roles K8SCluster#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#cluster_roles K8SCluster#cluster_roles}
   */
   readonly clusterRoles: K8SClusterUseCustomClusterRoleListClusterRoles[] | cdktf.IResolvable;
 }
@@ -1993,15 +2707,15 @@ export class K8SClusterUseCustomClusterRoleListStructOutputReference extends cdk
 }
 export interface K8SClusterUseCustomPodSecurityAdmission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -2143,15 +2857,15 @@ export class K8SClusterUseCustomPodSecurityAdmissionOutputReference extends cdkt
 }
 export interface K8SClusterUseCustomPspListPodSecurityPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#name K8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#name K8SCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#namespace K8SCluster#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#tenant K8SCluster#tenant}
   */
   readonly tenant?: string;
 }
@@ -2327,7 +3041,7 @@ export interface K8SClusterUseCustomPspListStruct {
   /**
   * pod_security_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#pod_security_policies K8SCluster#pod_security_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#pod_security_policies K8SCluster#pod_security_policies}
   */
   readonly podSecurityPolicies: K8SClusterUseCustomPspListPodSecurityPolicies[] | cdktf.IResolvable;
 }
@@ -2408,7 +3122,7 @@ export class K8SClusterUseCustomPspListStructOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster volterra_k8s_cluster}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster volterra_k8s_cluster}
 */
 export class K8SCluster extends cdktf.TerraformResource {
 
@@ -2424,7 +3138,7 @@ export class K8SCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SCluster to import
-  * @param importFromId The id of the existing K8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2436,7 +3150,7 @@ export class K8SCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster volterra_k8s_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster volterra_k8s_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2447,8 +3161,8 @@ export class K8SCluster extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_k8s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

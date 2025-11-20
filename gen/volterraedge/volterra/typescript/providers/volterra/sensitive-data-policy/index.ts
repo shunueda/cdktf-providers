@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface SensitiveDataPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#annotations SensitiveDataPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#annotations SensitiveDataPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#compliances SensitiveDataPolicy#compliances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#compliances SensitiveDataPolicy#compliances}
   */
   readonly compliances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#description SensitiveDataPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#description SensitiveDataPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#disable SensitiveDataPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#disable SensitiveDataPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#disabled_predefined_data_types SensitiveDataPolicy#disabled_predefined_data_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#disabled_predefined_data_types SensitiveDataPolicy#disabled_predefined_data_types}
   */
   readonly disabledPredefinedDataTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#id SensitiveDataPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#id SensitiveDataPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#labels SensitiveDataPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#labels SensitiveDataPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#name SensitiveDataPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#name SensitiveDataPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#namespace SensitiveDataPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#namespace SensitiveDataPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * custom_data_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#custom_data_types SensitiveDataPolicy#custom_data_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#custom_data_types SensitiveDataPolicy#custom_data_types}
   */
   readonly customDataTypes?: SensitiveDataPolicyCustomDataTypes[] | cdktf.IResolvable;
 }
 export interface SensitiveDataPolicyCustomDataTypesCustomDataTypeRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#name SensitiveDataPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#name SensitiveDataPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#namespace SensitiveDataPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#namespace SensitiveDataPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#tenant SensitiveDataPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#tenant SensitiveDataPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -207,7 +207,7 @@ export interface SensitiveDataPolicyCustomDataTypes {
   /**
   * custom_data_type_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#custom_data_type_ref SensitiveDataPolicy#custom_data_type_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#custom_data_type_ref SensitiveDataPolicy#custom_data_type_ref}
   */
   readonly customDataTypeRef?: SensitiveDataPolicyCustomDataTypesCustomDataTypeRef;
 }
@@ -323,7 +323,7 @@ export class SensitiveDataPolicyCustomDataTypesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy volterra_sensitive_data_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy volterra_sensitive_data_policy}
 */
 export class SensitiveDataPolicy extends cdktf.TerraformResource {
 
@@ -339,7 +339,7 @@ export class SensitiveDataPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensitiveDataPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensitiveDataPolicy to import
-  * @param importFromId The id of the existing SensitiveDataPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensitiveDataPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensitiveDataPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +351,7 @@ export class SensitiveDataPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/sensitive_data_policy volterra_sensitive_data_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/sensitive_data_policy volterra_sensitive_data_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,8 +362,8 @@ export class SensitiveDataPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_sensitive_data_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

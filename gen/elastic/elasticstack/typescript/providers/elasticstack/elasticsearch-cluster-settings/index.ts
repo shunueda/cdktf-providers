@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ElasticsearchClusterSettingsConfig extends cdktf.TerraformMetaA
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#elasticsearch_connection ElasticsearchClusterSettings#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#elasticsearch_connection ElasticsearchClusterSettings#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchClusterSettingsElasticsearchConnection;
   /**
   * persistent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#persistent ElasticsearchClusterSettings#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#persistent ElasticsearchClusterSettings#persistent}
   */
   readonly persistent?: ElasticsearchClusterSettingsPersistent;
   /**
   * transient block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#transient ElasticsearchClusterSettings#transient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#transient ElasticsearchClusterSettings#transient}
   */
   readonly transient?: ElasticsearchClusterSettingsTransient;
 }
@@ -30,85 +30,85 @@ export interface ElasticsearchClusterSettingsElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#api_key ElasticsearchClusterSettings#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#api_key ElasticsearchClusterSettings#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#bearer_token ElasticsearchClusterSettings#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#bearer_token ElasticsearchClusterSettings#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#ca_data ElasticsearchClusterSettings#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#ca_data ElasticsearchClusterSettings#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#ca_file ElasticsearchClusterSettings#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#ca_file ElasticsearchClusterSettings#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#cert_data ElasticsearchClusterSettings#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#cert_data ElasticsearchClusterSettings#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#cert_file ElasticsearchClusterSettings#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#cert_file ElasticsearchClusterSettings#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#endpoints ElasticsearchClusterSettings#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#endpoints ElasticsearchClusterSettings#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#es_client_authentication ElasticsearchClusterSettings#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#es_client_authentication ElasticsearchClusterSettings#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#headers ElasticsearchClusterSettings#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#headers ElasticsearchClusterSettings#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#insecure ElasticsearchClusterSettings#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#insecure ElasticsearchClusterSettings#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#key_data ElasticsearchClusterSettings#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#key_data ElasticsearchClusterSettings#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#key_file ElasticsearchClusterSettings#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#key_file ElasticsearchClusterSettings#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#password ElasticsearchClusterSettings#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#password ElasticsearchClusterSettings#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#username ElasticsearchClusterSettings#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#username ElasticsearchClusterSettings#username}
   */
   readonly username?: string;
 }
@@ -571,19 +571,19 @@ export interface ElasticsearchClusterSettingsPersistentSetting {
   /**
   * The name of the setting to set and track.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#name ElasticsearchClusterSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#name ElasticsearchClusterSettings#name}
   */
   readonly name: string;
   /**
   * The value of the setting to set and track.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#value ElasticsearchClusterSettings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#value ElasticsearchClusterSettings#value}
   */
   readonly value?: string;
   /**
   * The list of values to be set for the key, where the list is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#value_list ElasticsearchClusterSettings#value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#value_list ElasticsearchClusterSettings#value_list}
   */
   readonly valueList?: string[];
 }
@@ -756,7 +756,7 @@ export interface ElasticsearchClusterSettingsPersistent {
   /**
   * setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#setting ElasticsearchClusterSettings#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#setting ElasticsearchClusterSettings#setting}
   */
   readonly setting: ElasticsearchClusterSettingsPersistentSetting[] | cdktf.IResolvable;
 }
@@ -839,19 +839,19 @@ export interface ElasticsearchClusterSettingsTransientSetting {
   /**
   * The name of the setting to set and track.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#name ElasticsearchClusterSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#name ElasticsearchClusterSettings#name}
   */
   readonly name: string;
   /**
   * The value of the setting to set and track.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#value ElasticsearchClusterSettings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#value ElasticsearchClusterSettings#value}
   */
   readonly value?: string;
   /**
   * The list of values to be set for the key, where the list is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#value_list ElasticsearchClusterSettings#value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#value_list ElasticsearchClusterSettings#value_list}
   */
   readonly valueList?: string[];
 }
@@ -1024,7 +1024,7 @@ export interface ElasticsearchClusterSettingsTransient {
   /**
   * setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#setting ElasticsearchClusterSettings#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#setting ElasticsearchClusterSettings#setting}
   */
   readonly setting: ElasticsearchClusterSettingsTransientSetting[] | cdktf.IResolvable;
 }
@@ -1105,7 +1105,7 @@ export class ElasticsearchClusterSettingsTransientOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings elasticstack_elasticsearch_cluster_settings}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings elasticstack_elasticsearch_cluster_settings}
 */
 export class ElasticsearchClusterSettings extends cdktf.TerraformResource {
 
@@ -1121,7 +1121,7 @@ export class ElasticsearchClusterSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchClusterSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchClusterSettings to import
-  * @param importFromId The id of the existing ElasticsearchClusterSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchClusterSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchClusterSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1133,7 +1133,7 @@ export class ElasticsearchClusterSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_cluster_settings elasticstack_elasticsearch_cluster_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_cluster_settings elasticstack_elasticsearch_cluster_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1144,8 +1144,8 @@ export class ElasticsearchClusterSettings extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_cluster_settings',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,89 +8,89 @@ import * as cdktf from 'cdktf';
 
 export interface AggregateLayer3SubinterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#adjust_tcp_mss AggregateLayer3Subinterface#adjust_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#adjust_tcp_mss AggregateLayer3Subinterface#adjust_tcp_mss}
   */
   readonly adjustTcpMss?: AggregateLayer3SubinterfaceAdjustTcpMss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#arp AggregateLayer3Subinterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#arp AggregateLayer3Subinterface#arp}
   */
   readonly arp?: AggregateLayer3SubinterfaceArp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#bonjour AggregateLayer3Subinterface#bonjour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#bonjour AggregateLayer3Subinterface#bonjour}
   */
   readonly bonjour?: AggregateLayer3SubinterfaceBonjour;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#comment AggregateLayer3Subinterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#comment AggregateLayer3Subinterface#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_config AggregateLayer3Subinterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_config AggregateLayer3Subinterface#ddns_config}
   */
   readonly ddnsConfig?: AggregateLayer3SubinterfaceDdnsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#decrypt_forward AggregateLayer3Subinterface#decrypt_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#decrypt_forward AggregateLayer3Subinterface#decrypt_forward}
   */
   readonly decryptForward?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#df_ignore AggregateLayer3Subinterface#df_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#df_ignore AggregateLayer3Subinterface#df_ignore}
   */
   readonly dfIgnore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dhcp_client AggregateLayer3Subinterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dhcp_client AggregateLayer3Subinterface#dhcp_client}
   */
   readonly dhcpClient?: AggregateLayer3SubinterfaceDhcpClient;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#interface_management_profile AggregateLayer3Subinterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#interface_management_profile AggregateLayer3Subinterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ip AggregateLayer3Subinterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ip AggregateLayer3Subinterface#ip}
   */
   readonly ip?: AggregateLayer3SubinterfaceIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ipv6 AggregateLayer3Subinterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ipv6 AggregateLayer3Subinterface#ipv6}
   */
   readonly ipv6?: AggregateLayer3SubinterfaceIpv6;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#location AggregateLayer3Subinterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#location AggregateLayer3Subinterface#location}
   */
   readonly location: AggregateLayer3SubinterfaceLocation;
   /**
   * Maximum Transfer Unit, up to 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#mtu AggregateLayer3Subinterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#mtu AggregateLayer3Subinterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ndp_proxy AggregateLayer3Subinterface#ndp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ndp_proxy AggregateLayer3Subinterface#ndp_proxy}
   */
   readonly ndpProxy?: AggregateLayer3SubinterfaceNdpProxy;
   /**
   * Netflow Server Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#netflow_profile AggregateLayer3Subinterface#netflow_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#netflow_profile AggregateLayer3Subinterface#netflow_profile}
   */
   readonly netflowProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#parent AggregateLayer3Subinterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#parent AggregateLayer3Subinterface#parent}
   */
   readonly parent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#sdwan_link_settings AggregateLayer3Subinterface#sdwan_link_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#sdwan_link_settings AggregateLayer3Subinterface#sdwan_link_settings}
   */
   readonly sdwanLinkSettings?: AggregateLayer3SubinterfaceSdwanLinkSettings;
   /**
   * 802.1q VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#tag AggregateLayer3Subinterface#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#tag AggregateLayer3Subinterface#tag}
   */
   readonly tag?: number;
 }
@@ -98,19 +98,19 @@ export interface AggregateLayer3SubinterfaceAdjustTcpMss {
   /**
   * Set if TCP MSS value should be reduced based on mtu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IPv4 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ipv4_mss_adjustment AggregateLayer3Subinterface#ipv4_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ipv4_mss_adjustment AggregateLayer3Subinterface#ipv4_mss_adjustment}
   */
   readonly ipv4MssAdjustment?: number;
   /**
   * IPv6 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ipv6_mss_adjustment AggregateLayer3Subinterface#ipv6_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ipv6_mss_adjustment AggregateLayer3Subinterface#ipv6_mss_adjustment}
   */
   readonly ipv6MssAdjustment?: number;
 }
@@ -264,11 +264,11 @@ export interface AggregateLayer3SubinterfaceArp {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -412,19 +412,19 @@ export interface AggregateLayer3SubinterfaceBonjour {
   /**
   * Set to support Bonjour service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * default 0: NO-Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#group_id AggregateLayer3Subinterface#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#group_id AggregateLayer3Subinterface#group_id}
   */
   readonly groupId?: number;
   /**
   * Set to check and update TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ttl_check AggregateLayer3Subinterface#ttl_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ttl_check AggregateLayer3Subinterface#ttl_check}
   */
   readonly ttlCheck?: boolean | cdktf.IResolvable;
 }
@@ -576,11 +576,11 @@ export class AggregateLayer3SubinterfaceBonjourOutputReference extends cdktf.Com
 }
 export interface AggregateLayer3SubinterfaceDdnsConfigDdnsVendorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#value AggregateLayer3Subinterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#value AggregateLayer3Subinterface#value}
   */
   readonly value?: string;
 }
@@ -722,39 +722,39 @@ export class AggregateLayer3SubinterfaceDdnsConfigDdnsVendorConfigList extends c
 }
 export interface AggregateLayer3SubinterfaceDdnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_cert_profile AggregateLayer3Subinterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_cert_profile AggregateLayer3Subinterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_enabled AggregateLayer3Subinterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_enabled AggregateLayer3Subinterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * ddns hostname variable or real address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_hostname AggregateLayer3Subinterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_hostname AggregateLayer3Subinterface#ddns_hostname}
   */
   readonly ddnsHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_ip AggregateLayer3Subinterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_ip AggregateLayer3Subinterface#ddns_ip}
   */
   readonly ddnsIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_ipv6 AggregateLayer3Subinterface#ddns_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_ipv6 AggregateLayer3Subinterface#ddns_ipv6}
   */
   readonly ddnsIpv6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_update_interval AggregateLayer3Subinterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_update_interval AggregateLayer3Subinterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * Vendor and product type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_vendor AggregateLayer3Subinterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_vendor AggregateLayer3Subinterface#ddns_vendor}
   */
   readonly ddnsVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns_vendor_config AggregateLayer3Subinterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns_vendor_config AggregateLayer3Subinterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig?: AggregateLayer3SubinterfaceDdnsConfigDdnsVendorConfig[] | cdktf.IResolvable;
 }
@@ -1051,13 +1051,13 @@ export class AggregateLayer3SubinterfaceDdnsConfigOutputReference extends cdktf.
 }
 export interface AggregateLayer3SubinterfaceDhcpClientSendHostname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set Interface Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hostname AggregateLayer3Subinterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hostname AggregateLayer3Subinterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -1182,21 +1182,21 @@ export interface AggregateLayer3SubinterfaceDhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#create_default_route AggregateLayer3Subinterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#create_default_route AggregateLayer3Subinterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#default_route_metric AggregateLayer3Subinterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#default_route_metric AggregateLayer3Subinterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#send_hostname AggregateLayer3Subinterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#send_hostname AggregateLayer3Subinterface#send_hostname}
   */
   readonly sendHostname?: AggregateLayer3SubinterfaceDhcpClientSendHostname;
 }
@@ -1377,13 +1377,13 @@ export class AggregateLayer3SubinterfaceDhcpClientOutputReference extends cdktf.
 }
 export interface AggregateLayer3SubinterfaceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
   /**
   * Gateway IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#sdwan_gateway AggregateLayer3Subinterface#sdwan_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#sdwan_gateway AggregateLayer3Subinterface#sdwan_gateway}
   */
   readonly sdwanGateway?: string;
 }
@@ -1527,31 +1527,31 @@ export interface AggregateLayer3SubinterfaceIpv6AddressAdvertise {
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#auto_config_flag AggregateLayer3Subinterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#auto_config_flag AggregateLayer3Subinterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#onlink_flag AggregateLayer3Subinterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#onlink_flag AggregateLayer3Subinterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
   /**
   * Preferred Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#preferred_lifetime AggregateLayer3Subinterface#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#preferred_lifetime AggregateLayer3Subinterface#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * Valid Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#valid_lifetime AggregateLayer3Subinterface#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#valid_lifetime AggregateLayer3Subinterface#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
@@ -1879,25 +1879,25 @@ export class AggregateLayer3SubinterfaceIpv6AddressPrefixOutputReference extends
 }
 export interface AggregateLayer3SubinterfaceIpv6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#advertise AggregateLayer3Subinterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#advertise AggregateLayer3Subinterface#advertise}
   */
   readonly advertise?: AggregateLayer3SubinterfaceIpv6AddressAdvertise;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#anycast AggregateLayer3Subinterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#anycast AggregateLayer3Subinterface#anycast}
   */
   readonly anycast?: AggregateLayer3SubinterfaceIpv6AddressAnycast;
   /**
   * configure this address on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_on_interface AggregateLayer3Subinterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_on_interface AggregateLayer3Subinterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix AggregateLayer3Subinterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix AggregateLayer3Subinterface#prefix}
   */
   readonly prefix?: AggregateLayer3SubinterfaceIpv6AddressPrefix;
 }
@@ -2187,11 +2187,11 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSe
   /**
   * (4-3600) Lifetime in Seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -2333,7 +2333,7 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#server AggregateLayer3Subinterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#server AggregateLayer3Subinterface#server}
   */
   readonly server?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManualServer[] | cdktf.IResolvable;
 }
@@ -2427,11 +2427,11 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
   */
   readonly manual?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSourceManual;
 }
@@ -2554,11 +2554,11 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
   */
   readonly source?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServerSource;
 }
@@ -2742,11 +2742,11 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSu
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -2888,7 +2888,7 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#suffix AggregateLayer3Subinterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#suffix AggregateLayer3Subinterface#suffix}
   */
   readonly suffix?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManualSuffix[] | cdktf.IResolvable;
 }
@@ -2982,11 +2982,11 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
   */
   readonly manual?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSourceManual;
 }
@@ -3109,11 +3109,11 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
   */
   readonly source?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffixSource;
 }
@@ -3238,11 +3238,11 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryNeigh
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -3386,43 +3386,43 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscovery {
   /**
   * number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dad_attempts AggregateLayer3Subinterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dad_attempts AggregateLayer3Subinterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dns_server AggregateLayer3Subinterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dns_server AggregateLayer3Subinterface#dns_server}
   */
   readonly dnsServer?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dns_suffix AggregateLayer3Subinterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dns_suffix AggregateLayer3Subinterface#dns_suffix}
   */
   readonly dnsSuffix?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryDnsSuffix;
   /**
   * Enable Duplicate Address Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_dad AggregateLayer3Subinterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_dad AggregateLayer3Subinterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_ndp_monitor AggregateLayer3Subinterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_ndp_monitor AggregateLayer3Subinterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#neighbor AggregateLayer3Subinterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#neighbor AggregateLayer3Subinterface#neighbor}
   */
   readonly neighbor?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ns_interval AggregateLayer3Subinterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ns_interval AggregateLayer3Subinterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: number;
 }
@@ -3780,19 +3780,19 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnable
   /**
   * Configure unique Prefix Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#pfx_pool_name AggregateLayer3Subinterface#pfx_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#pfx_pool_name AggregateLayer3Subinterface#pfx_pool_name}
   */
   readonly pfxPoolName?: string;
   /**
   * Hint DHCP Prefix Length (bits)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix_len AggregateLayer3Subinterface#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix_len AggregateLayer3Subinterface#prefix_len}
   */
   readonly prefixLen?: number;
   /**
   * Send prefix length hint to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix_len_hint AggregateLayer3Subinterface#prefix_len_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix_len_hint AggregateLayer3Subinterface#prefix_len_hint}
   */
   readonly prefixLenHint?: boolean | cdktf.IResolvable;
 }
@@ -3944,11 +3944,11 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableYesO
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#no AggregateLayer3Subinterface#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#no AggregateLayer3Subinterface#no}
   */
   readonly no?: AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#yes AggregateLayer3Subinterface#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#yes AggregateLayer3Subinterface#yes}
   */
   readonly yes?: AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableYes;
 }
@@ -4071,7 +4071,7 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnableOutp
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegationEnable;
 }
@@ -4226,13 +4226,13 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableYes {
   /**
   * Request Non-Temporary Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#non_temp_addr AggregateLayer3Subinterface#non_temp_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#non_temp_addr AggregateLayer3Subinterface#non_temp_addr}
   */
   readonly nonTempAddr?: boolean | cdktf.IResolvable;
   /**
   * Request Temporary Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#temp_addr AggregateLayer3Subinterface#temp_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#temp_addr AggregateLayer3Subinterface#temp_addr}
   */
   readonly tempAddr?: boolean | cdktf.IResolvable;
 }
@@ -4355,11 +4355,11 @@ export class AggregateLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableYesOutputRe
 }
 export interface AggregateLayer3SubinterfaceIpv6DhcpClientV6OptionsEnable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#no AggregateLayer3Subinterface#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#no AggregateLayer3Subinterface#no}
   */
   readonly no?: AggregateLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableNo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#yes AggregateLayer3Subinterface#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#yes AggregateLayer3Subinterface#yes}
   */
   readonly yes?: AggregateLayer3SubinterfaceIpv6DhcpClientV6OptionsEnableYes;
 }
@@ -4484,23 +4484,23 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClientV6Options {
   /**
   * Select DUID-LLT/DUID-LL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#duid_type AggregateLayer3Subinterface#duid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#duid_type AggregateLayer3Subinterface#duid_type}
   */
   readonly duidType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: AggregateLayer3SubinterfaceIpv6DhcpClientV6OptionsEnable;
   /**
   * Enable Rapid Commit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#rapid_commit AggregateLayer3Subinterface#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#rapid_commit AggregateLayer3Subinterface#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * Enable DHCPv6 Server Re-Configuration Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#support_srvr_reconfig AggregateLayer3Subinterface#support_srvr_reconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#support_srvr_reconfig AggregateLayer3Subinterface#support_srvr_reconfig}
   */
   readonly supportSrvrReconfig?: boolean | cdktf.IResolvable;
 }
@@ -4683,37 +4683,37 @@ export interface AggregateLayer3SubinterfaceIpv6DhcpClient {
   /**
   * Accept Router Advertised Default Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#accept_ra_route AggregateLayer3Subinterface#accept_ra_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#accept_ra_route AggregateLayer3Subinterface#accept_ra_route}
   */
   readonly acceptRaRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#default_route_metric AggregateLayer3Subinterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#default_route_metric AggregateLayer3Subinterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCPv6 Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#neighbor_discovery AggregateLayer3Subinterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#neighbor_discovery AggregateLayer3Subinterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: AggregateLayer3SubinterfaceIpv6DhcpClientNeighborDiscovery;
   /**
   * Select Low/Medium/High
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#preference AggregateLayer3Subinterface#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#preference AggregateLayer3Subinterface#preference}
   */
   readonly preference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix_delegation AggregateLayer3Subinterface#prefix_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix_delegation AggregateLayer3Subinterface#prefix_delegation}
   */
   readonly prefixDelegation?: AggregateLayer3SubinterfaceIpv6DhcpClientPrefixDelegation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#v6_options AggregateLayer3Subinterface#v6_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#v6_options AggregateLayer3Subinterface#v6_options}
   */
   readonly v6Options?: AggregateLayer3SubinterfaceIpv6DhcpClientV6Options;
 }
@@ -4983,19 +4983,19 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaAdvert
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#auto_config_flag AggregateLayer3Subinterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#auto_config_flag AggregateLayer3Subinterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * Enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#onlink_flag AggregateLayer3Subinterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#onlink_flag AggregateLayer3Subinterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
 }
@@ -5208,7 +5208,7 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTy
   /**
   * Range [0-4095] must be unqiue for this prefix-pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#identifier AggregateLayer3Subinterface#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#identifier AggregateLayer3Subinterface#identifier}
   */
   readonly identifier?: number;
 }
@@ -5302,11 +5302,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDy
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dynamic AggregateLayer3Subinterface#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dynamic AggregateLayer3Subinterface#dynamic}
   */
   readonly dynamic?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dynamic_id AggregateLayer3Subinterface#dynamic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dynamic_id AggregateLayer3Subinterface#dynamic_id}
   */
   readonly dynamicId?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeDynamicId;
 }
@@ -5429,23 +5429,23 @@ export class AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolTypeOu
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGua {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#advertise AggregateLayer3Subinterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#advertise AggregateLayer3Subinterface#advertise}
   */
   readonly advertise?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaAdvertise;
   /**
   * Enable on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_on_interface AggregateLayer3Subinterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_on_interface AggregateLayer3Subinterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#pool_type AggregateLayer3Subinterface#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#pool_type AggregateLayer3Subinterface#pool_type}
   */
   readonly poolType?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGuaPoolType;
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix_pool AggregateLayer3Subinterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix_pool AggregateLayer3Subinterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -5628,31 +5628,31 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeUlaAdvert
   /**
   * Set the Auto Address Configuration Flag (A-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#auto_config_flag AggregateLayer3Subinterface#auto_config_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#auto_config_flag AggregateLayer3Subinterface#auto_config_flag}
   */
   readonly autoConfigFlag?: boolean | cdktf.IResolvable;
   /**
   * enable advertising this prefix in router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set the On-Link Flag (L-bit) of the prefix in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#onlink_flag AggregateLayer3Subinterface#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#onlink_flag AggregateLayer3Subinterface#onlink_flag}
   */
   readonly onlinkFlag?: boolean | cdktf.IResolvable;
   /**
   * Preferred Lifetime (in seconds) of the prefix advertised in Router advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#preferred_lifetime AggregateLayer3Subinterface#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#preferred_lifetime AggregateLayer3Subinterface#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * Valid Lifetime (in seconds) of the prefix advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#valid_lifetime AggregateLayer3Subinterface#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#valid_lifetime AggregateLayer3Subinterface#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
@@ -5864,29 +5864,29 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeUla {
   /**
   * Configure ULA (Unique Local Address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#address AggregateLayer3Subinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#address AggregateLayer3Subinterface#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#advertise AggregateLayer3Subinterface#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#advertise AggregateLayer3Subinterface#advertise}
   */
   readonly advertise?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeUlaAdvertise;
   /**
   * Anycast Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#anycast AggregateLayer3Subinterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#anycast AggregateLayer3Subinterface#anycast}
   */
   readonly anycast?: boolean | cdktf.IResolvable;
   /**
   * Configure this address on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_on_interface AggregateLayer3Subinterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_on_interface AggregateLayer3Subinterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
   * Use this as prefix to form full address with interface id/EUI-64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix AggregateLayer3Subinterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix AggregateLayer3Subinterface#prefix}
   */
   readonly prefix?: boolean | cdktf.IResolvable;
 }
@@ -6096,11 +6096,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeUlaOutputRefe
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddrType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#gua AggregateLayer3Subinterface#gua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#gua AggregateLayer3Subinterface#gua}
   */
   readonly gua?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeGua;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ula AggregateLayer3Subinterface#ula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ula AggregateLayer3Subinterface#ula}
   */
   readonly ula?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeUla;
 }
@@ -6223,11 +6223,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedAssignAddrTypeOutputReferen
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedAssignAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#type AggregateLayer3Subinterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#type AggregateLayer3Subinterface#type}
   */
   readonly type?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddrType;
 }
@@ -6371,7 +6371,7 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSer
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix_pool AggregateLayer3Subinterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix_pool AggregateLayer3Subinterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -6467,11 +6467,11 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSer
   /**
   * (4-3600) Lifetime in Seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -6613,7 +6613,7 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerS
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#server AggregateLayer3Subinterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#server AggregateLayer3Subinterface#server}
   */
   readonly server?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManualServer[] | cdktf.IResolvable;
 }
@@ -6707,11 +6707,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerS
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
   */
   readonly manual?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSourceManual;
 }
@@ -6834,11 +6834,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerS
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
   */
   readonly source?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServerSource;
 }
@@ -6963,7 +6963,7 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuf
   /**
   * Prefix-Pool Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#prefix_pool AggregateLayer3Subinterface#prefix_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#prefix_pool AggregateLayer3Subinterface#prefix_pool}
   */
   readonly prefixPool?: string;
 }
@@ -7059,11 +7059,11 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuf
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -7205,7 +7205,7 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixS
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#suffix AggregateLayer3Subinterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#suffix AggregateLayer3Subinterface#suffix}
   */
   readonly suffix?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManualSuffix[] | cdktf.IResolvable;
 }
@@ -7299,11 +7299,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixS
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dhcpv6 AggregateLayer3Subinterface#dhcpv6}
   */
   readonly dhcpv6?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceDhcpv6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#manual AggregateLayer3Subinterface#manual}
   */
   readonly manual?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSourceManual;
 }
@@ -7426,11 +7426,11 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixS
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#source AggregateLayer3Subinterface#source}
   */
   readonly source?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffixSource;
 }
@@ -7555,11 +7555,11 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryNeighb
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -7701,71 +7701,71 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryNeighborLi
 }
 export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryRouterAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * check consistency of RA messages from other routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_consistency_check AggregateLayer3Subinterface#enable_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_consistency_check AggregateLayer3Subinterface#enable_consistency_check}
   */
   readonly enableConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Current Hop Limit advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hop_limit AggregateLayer3Subinterface#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hop_limit AggregateLayer3Subinterface#hop_limit}
   */
   readonly hopLimit?: string;
   /**
   * Router Lifetime (in seconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
   * value of MTU option in Router Advertisement messages, upto 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#link_mtu AggregateLayer3Subinterface#link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#link_mtu AggregateLayer3Subinterface#link_mtu}
   */
   readonly linkMtu?: string;
   /**
   * Set the Managed Configuration Flag (M-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#managed_flag AggregateLayer3Subinterface#managed_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#managed_flag AggregateLayer3Subinterface#managed_flag}
   */
   readonly managedFlag?: boolean | cdktf.IResolvable;
   /**
   * Maximum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#max_interval AggregateLayer3Subinterface#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#max_interval AggregateLayer3Subinterface#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Minimum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#min_interval AggregateLayer3Subinterface#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#min_interval AggregateLayer3Subinterface#min_interval}
   */
   readonly minInterval?: number;
   /**
   * Set the Other Stateful Configuration Flag (O-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#other_flag AggregateLayer3Subinterface#other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#other_flag AggregateLayer3Subinterface#other_flag}
   */
   readonly otherFlag?: boolean | cdktf.IResolvable;
   /**
   * Reachable Time (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: string;
   /**
   * Retransmission Timer (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#retransmission_timer AggregateLayer3Subinterface#retransmission_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#retransmission_timer AggregateLayer3Subinterface#retransmission_timer}
   */
   readonly retransmissionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#router_preference AggregateLayer3Subinterface#router_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#router_preference AggregateLayer3Subinterface#router_preference}
   */
   readonly routerPreference?: string;
 }
@@ -8180,47 +8180,47 @@ export interface AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscovery {
   /**
   * Number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dad_attempts AggregateLayer3Subinterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dad_attempts AggregateLayer3Subinterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dns_server AggregateLayer3Subinterface#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dns_server AggregateLayer3Subinterface#dns_server}
   */
   readonly dnsServer?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dns_suffix AggregateLayer3Subinterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dns_suffix AggregateLayer3Subinterface#dns_suffix}
   */
   readonly dnsSuffix?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryDnsSuffix;
   /**
   * Enable Duplicate Address Detection (DAD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_dad AggregateLayer3Subinterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_dad AggregateLayer3Subinterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * Enable NDP Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_ndp_monitor AggregateLayer3Subinterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_ndp_monitor AggregateLayer3Subinterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#neighbor AggregateLayer3Subinterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#neighbor AggregateLayer3Subinterface#neighbor}
   */
   readonly neighbor?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * Interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ns_interval AggregateLayer3Subinterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ns_interval AggregateLayer3Subinterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * Time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#router_advertisement AggregateLayer3Subinterface#router_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#router_advertisement AggregateLayer3Subinterface#router_advertisement}
   */
   readonly routerAdvertisement?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryRouterAdvertisement;
 }
@@ -8546,17 +8546,17 @@ export class AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscoveryOutputRefe
 }
 export interface AggregateLayer3SubinterfaceIpv6Inherited {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#assign_addr AggregateLayer3Subinterface#assign_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#assign_addr AggregateLayer3Subinterface#assign_addr}
   */
   readonly assignAddr?: AggregateLayer3SubinterfaceIpv6InheritedAssignAddr[] | cdktf.IResolvable;
   /**
   * Enable Inherited Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#neighbor_discovery AggregateLayer3Subinterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#neighbor_discovery AggregateLayer3Subinterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: AggregateLayer3SubinterfaceIpv6InheritedNeighborDiscovery;
 }
@@ -8710,11 +8710,11 @@ export interface AggregateLayer3SubinterfaceIpv6NeighborDiscoveryNeighbor {
   /**
   * MAC address (format xx:xx:xx:xx:xx:xx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hw_address AggregateLayer3Subinterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -8858,11 +8858,11 @@ export interface AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertise
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -9006,11 +9006,11 @@ export interface AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertise
   /**
   * (4-3600) lifetime in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
 }
@@ -9152,15 +9152,15 @@ export class AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisement
 }
 export interface AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#server AggregateLayer3Subinterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#server AggregateLayer3Subinterface#server}
   */
   readonly server?: AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupportServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#suffix AggregateLayer3Subinterface#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#suffix AggregateLayer3Subinterface#suffix}
   */
   readonly suffix?: AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupportSuffix[] | cdktf.IResolvable;
 }
@@ -9312,75 +9312,75 @@ export class AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisement
 }
 export interface AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dns_support AggregateLayer3Subinterface#dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dns_support AggregateLayer3Subinterface#dns_support}
   */
   readonly dnsSupport?: AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisementDnsSupport;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * check consistency of RA messages from other routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_consistency_check AggregateLayer3Subinterface#enable_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_consistency_check AggregateLayer3Subinterface#enable_consistency_check}
   */
   readonly enableConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Current Hop Limit advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#hop_limit AggregateLayer3Subinterface#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#hop_limit AggregateLayer3Subinterface#hop_limit}
   */
   readonly hopLimit?: string;
   /**
   * Router Lifetime (in seconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#lifetime AggregateLayer3Subinterface#lifetime}
   */
   readonly lifetime?: number;
   /**
   * value of MTU option in Router Advertisement messages, upto 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#link_mtu AggregateLayer3Subinterface#link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#link_mtu AggregateLayer3Subinterface#link_mtu}
   */
   readonly linkMtu?: string;
   /**
   * Set the Managed Configuration Flag (M-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#managed_flag AggregateLayer3Subinterface#managed_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#managed_flag AggregateLayer3Subinterface#managed_flag}
   */
   readonly managedFlag?: boolean | cdktf.IResolvable;
   /**
   * Maximum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#max_interval AggregateLayer3Subinterface#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#max_interval AggregateLayer3Subinterface#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Minimum interval (seconds) between consecutive unsolicited Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#min_interval AggregateLayer3Subinterface#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#min_interval AggregateLayer3Subinterface#min_interval}
   */
   readonly minInterval?: number;
   /**
   * Set the Other Stateful Configuration Flag (O-bit) in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#other_flag AggregateLayer3Subinterface#other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#other_flag AggregateLayer3Subinterface#other_flag}
   */
   readonly otherFlag?: boolean | cdktf.IResolvable;
   /**
   * Reachable Time (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: string;
   /**
   * Retransmission Timer (in milliseconds) advertised in Router Advertisement messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#retransmission_timer AggregateLayer3Subinterface#retransmission_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#retransmission_timer AggregateLayer3Subinterface#retransmission_timer}
   */
   readonly retransmissionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#router_preference AggregateLayer3Subinterface#router_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#router_preference AggregateLayer3Subinterface#router_preference}
   */
   readonly routerPreference?: string;
 }
@@ -9824,39 +9824,39 @@ export interface AggregateLayer3SubinterfaceIpv6NeighborDiscovery {
   /**
   * number of consecutive neighbor solicitation messages sent for duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dad_attempts AggregateLayer3Subinterface#dad_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dad_attempts AggregateLayer3Subinterface#dad_attempts}
   */
   readonly dadAttempts?: number;
   /**
   * enable duplicate address detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_dad AggregateLayer3Subinterface#enable_dad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_dad AggregateLayer3Subinterface#enable_dad}
   */
   readonly enableDad?: boolean | cdktf.IResolvable;
   /**
   * enable ndp monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable_ndp_monitor AggregateLayer3Subinterface#enable_ndp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable_ndp_monitor AggregateLayer3Subinterface#enable_ndp_monitor}
   */
   readonly enableNdpMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#neighbor AggregateLayer3Subinterface#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#neighbor AggregateLayer3Subinterface#neighbor}
   */
   readonly neighbor?: AggregateLayer3SubinterfaceIpv6NeighborDiscoveryNeighbor[] | cdktf.IResolvable;
   /**
   * interval (in seconds) between consecutive neighbor solicitation messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ns_interval AggregateLayer3Subinterface#ns_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ns_interval AggregateLayer3Subinterface#ns_interval}
   */
   readonly nsInterval?: number;
   /**
   * time (in seconds) that the Reachable status for a neighbor can be maintained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#reachable_time AggregateLayer3Subinterface#reachable_time}
   */
   readonly reachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#router_advertisement AggregateLayer3Subinterface#router_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#router_advertisement AggregateLayer3Subinterface#router_advertisement}
   */
   readonly routerAdvertisement?: AggregateLayer3SubinterfaceIpv6NeighborDiscoveryRouterAdvertisement;
 }
@@ -10124,29 +10124,29 @@ export class AggregateLayer3SubinterfaceIpv6NeighborDiscoveryOutputReference ext
 }
 export interface AggregateLayer3SubinterfaceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#address AggregateLayer3Subinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#address AggregateLayer3Subinterface#address}
   */
   readonly address?: AggregateLayer3SubinterfaceIpv6Address[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#dhcp_client AggregateLayer3Subinterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#dhcp_client AggregateLayer3Subinterface#dhcp_client}
   */
   readonly dhcpClient?: AggregateLayer3SubinterfaceIpv6DhcpClient;
   /**
   * Enable IPv6 on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enabled AggregateLayer3Subinterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enabled AggregateLayer3Subinterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#inherited AggregateLayer3Subinterface#inherited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#inherited AggregateLayer3Subinterface#inherited}
   */
   readonly inherited?: AggregateLayer3SubinterfaceIpv6Inherited;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#interface_id AggregateLayer3Subinterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#interface_id AggregateLayer3Subinterface#interface_id}
   */
   readonly interfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#neighbor_discovery AggregateLayer3Subinterface#neighbor_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#neighbor_discovery AggregateLayer3Subinterface#neighbor_discovery}
   */
   readonly neighborDiscovery?: AggregateLayer3SubinterfaceIpv6NeighborDiscovery;
 }
@@ -10387,7 +10387,7 @@ export interface AggregateLayer3SubinterfaceLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ngfw_device AggregateLayer3Subinterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ngfw_device AggregateLayer3Subinterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -10542,19 +10542,19 @@ export interface AggregateLayer3SubinterfaceLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ngfw_device AggregateLayer3Subinterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ngfw_device AggregateLayer3Subinterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#panorama_device AggregateLayer3Subinterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#panorama_device AggregateLayer3Subinterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -10708,19 +10708,19 @@ export interface AggregateLayer3SubinterfaceLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ngfw_device AggregateLayer3Subinterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ngfw_device AggregateLayer3Subinterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#panorama_device AggregateLayer3Subinterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#panorama_device AggregateLayer3Subinterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -10874,25 +10874,25 @@ export interface AggregateLayer3SubinterfaceLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ngfw AggregateLayer3Subinterface#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ngfw AggregateLayer3Subinterface#ngfw}
   */
   readonly ngfw?: AggregateLayer3SubinterfaceLocationNgfw;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#shared AggregateLayer3Subinterface#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#shared AggregateLayer3Subinterface#shared}
   */
   readonly shared?: AggregateLayer3SubinterfaceLocationShared;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#template AggregateLayer3Subinterface#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#template AggregateLayer3Subinterface#template}
   */
   readonly template?: AggregateLayer3SubinterfaceLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#template_stack AggregateLayer3Subinterface#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#template_stack AggregateLayer3Subinterface#template_stack}
   */
   readonly templateStack?: AggregateLayer3SubinterfaceLocationTemplateStack;
 }
@@ -11073,13 +11073,13 @@ export class AggregateLayer3SubinterfaceLocationOutputReference extends cdktf.Co
 }
 export interface AggregateLayer3SubinterfaceNdpProxyAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#name AggregateLayer3Subinterface#name}
   */
   readonly name: string;
   /**
   * put the prefix or address on a block list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#negate AggregateLayer3Subinterface#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#negate AggregateLayer3Subinterface#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
 }
@@ -11221,13 +11221,13 @@ export class AggregateLayer3SubinterfaceNdpProxyAddressList extends cdktf.Comple
 }
 export interface AggregateLayer3SubinterfaceNdpProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#address AggregateLayer3Subinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#address AggregateLayer3Subinterface#address}
   */
   readonly address?: AggregateLayer3SubinterfaceNdpProxyAddress[] | cdktf.IResolvable;
   /**
   * Enable proxy NDP on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enabled AggregateLayer3Subinterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enabled AggregateLayer3Subinterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -11411,13 +11411,13 @@ export interface AggregateLayer3SubinterfaceSdwanLinkSettingsUpstreamNatStaticIp
   /**
   * Upstream NAT address FQDN name configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#fqdn AggregateLayer3Subinterface#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#fqdn AggregateLayer3Subinterface#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Upstream NAT IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ip_address AggregateLayer3Subinterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ip_address AggregateLayer3Subinterface#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -11540,17 +11540,17 @@ export class AggregateLayer3SubinterfaceSdwanLinkSettingsUpstreamNatStaticIpOutp
 }
 export interface AggregateLayer3SubinterfaceSdwanLinkSettingsUpstreamNat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#ddns AggregateLayer3Subinterface#ddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#ddns AggregateLayer3Subinterface#ddns}
   */
   readonly ddns?: AggregateLayer3SubinterfaceSdwanLinkSettingsUpstreamNatDdns;
   /**
   * Enable upstream NAT IP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#static_ip AggregateLayer3Subinterface#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#static_ip AggregateLayer3Subinterface#static_ip}
   */
   readonly staticIp?: AggregateLayer3SubinterfaceSdwanLinkSettingsUpstreamNatStaticIp;
 }
@@ -11704,17 +11704,17 @@ export interface AggregateLayer3SubinterfaceSdwanLinkSettings {
   /**
   * Enable sdwan on this ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#enable AggregateLayer3Subinterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Sdwan link characteristics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#sdwan_interface_profile AggregateLayer3Subinterface#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#sdwan_interface_profile AggregateLayer3Subinterface#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#upstream_nat AggregateLayer3Subinterface#upstream_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#upstream_nat AggregateLayer3Subinterface#upstream_nat}
   */
   readonly upstreamNat?: AggregateLayer3SubinterfaceSdwanLinkSettingsUpstreamNat;
 }
@@ -11866,7 +11866,7 @@ export class AggregateLayer3SubinterfaceSdwanLinkSettingsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface panos_aggregate_layer3_subinterface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface panos_aggregate_layer3_subinterface}
 */
 export class AggregateLayer3Subinterface extends cdktf.TerraformResource {
 
@@ -11882,7 +11882,7 @@ export class AggregateLayer3Subinterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AggregateLayer3Subinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AggregateLayer3Subinterface to import
-  * @param importFromId The id of the existing AggregateLayer3Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AggregateLayer3Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AggregateLayer3Subinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11894,7 +11894,7 @@ export class AggregateLayer3Subinterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/aggregate_layer3_subinterface panos_aggregate_layer3_subinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/aggregate_layer3_subinterface panos_aggregate_layer3_subinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11905,8 +11905,8 @@ export class AggregateLayer3Subinterface extends cdktf.TerraformResource {
       terraformResourceType: 'panos_aggregate_layer3_subinterface',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

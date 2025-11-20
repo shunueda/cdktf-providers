@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPanosNtpSettingsConfig extends cdktf.TerraformMetaArguments
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#location DataPanosNtpSettings#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#location DataPanosNtpSettings#location}
   */
   readonly location: DataPanosNtpSettingsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#ntp_servers DataPanosNtpSettings#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#ntp_servers DataPanosNtpSettings#ntp_servers}
   */
   readonly ntpServers?: DataPanosNtpSettingsNtpServers;
 }
@@ -22,7 +22,7 @@ export interface DataPanosNtpSettingsLocationSystem {
   /**
   * Device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#device DataPanosNtpSettings#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#device DataPanosNtpSettings#device}
   */
   readonly device?: string;
 }
@@ -118,19 +118,19 @@ export interface DataPanosNtpSettingsLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#name DataPanosNtpSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#name DataPanosNtpSettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#ngfw_device DataPanosNtpSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#ngfw_device DataPanosNtpSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#panorama_device DataPanosNtpSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#panorama_device DataPanosNtpSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -284,19 +284,19 @@ export interface DataPanosNtpSettingsLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#name DataPanosNtpSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#name DataPanosNtpSettings#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#ngfw_device DataPanosNtpSettings#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#ngfw_device DataPanosNtpSettings#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#panorama_device DataPanosNtpSettings#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#panorama_device DataPanosNtpSettings#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -450,19 +450,19 @@ export interface DataPanosNtpSettingsLocation {
   /**
   * System-level configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#system DataPanosNtpSettings#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#system DataPanosNtpSettings#system}
   */
   readonly systemAttribute?: DataPanosNtpSettingsLocationSystem;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#template DataPanosNtpSettings#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#template DataPanosNtpSettings#template}
   */
   readonly template?: DataPanosNtpSettingsLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#template_stack DataPanosNtpSettings#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#template_stack DataPanosNtpSettings#template_stack}
   */
   readonly templateStack?: DataPanosNtpSettingsLocationTemplateStack;
 }
@@ -734,7 +734,7 @@ export interface DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTyp
   /**
   * Symmetric Key MD5 String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
   */
   readonly authenticationKey?: string;
 }
@@ -830,7 +830,7 @@ export interface DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTyp
   /**
   * Symmetric Key SHA1 Hexadecimal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
   */
   readonly authenticationKey?: string;
 }
@@ -924,11 +924,11 @@ export class DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSym
 }
 export interface DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSymmetricKeyAlgorithm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#md5 DataPanosNtpSettings#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#md5 DataPanosNtpSettings#md5}
   */
   readonly md5?: DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSymmetricKeyAlgorithmMd5;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#sha1 DataPanosNtpSettings#sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#sha1 DataPanosNtpSettings#sha1}
   */
   readonly sha1?: DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSymmetricKeyAlgorithmSha1;
 }
@@ -1051,13 +1051,13 @@ export class DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSym
 }
 export interface DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSymmetricKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#algorithm DataPanosNtpSettings#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#algorithm DataPanosNtpSettings#algorithm}
   */
   readonly algorithm?: DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSymmetricKeyAlgorithm;
   /**
   * Symmetric Key Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#key_id DataPanosNtpSettings#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#key_id DataPanosNtpSettings#key_id}
   */
   readonly keyId?: number;
 }
@@ -1180,15 +1180,15 @@ export class DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSym
 }
 export interface DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#autokey DataPanosNtpSettings#autokey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#autokey DataPanosNtpSettings#autokey}
   */
   readonly autokey?: DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeAutokey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#none DataPanosNtpSettings#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#none DataPanosNtpSettings#none}
   */
   readonly none?: DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#symmetric_key DataPanosNtpSettings#symmetric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#symmetric_key DataPanosNtpSettings#symmetric_key}
   */
   readonly symmetricKey?: DataPanosNtpSettingsNtpServersPrimaryNtpServerAuthenticationTypeSymmetricKey;
 }
@@ -1332,7 +1332,7 @@ export interface DataPanosNtpSettingsNtpServersPrimaryNtpServer {
   /**
   * NTP Server IP Address or Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#ntp_server_address DataPanosNtpSettings#ntp_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#ntp_server_address DataPanosNtpSettings#ntp_server_address}
   */
   readonly ntpServerAddress?: string;
 }
@@ -1552,7 +1552,7 @@ export interface DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationT
   /**
   * Symmetric Key MD5 String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
   */
   readonly authenticationKey?: string;
 }
@@ -1648,7 +1648,7 @@ export interface DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationT
   /**
   * Symmetric Key SHA1 Hexadecimal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#authentication_key DataPanosNtpSettings#authentication_key}
   */
   readonly authenticationKey?: string;
 }
@@ -1742,11 +1742,11 @@ export class DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeS
 }
 export interface DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeSymmetricKeyAlgorithm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#md5 DataPanosNtpSettings#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#md5 DataPanosNtpSettings#md5}
   */
   readonly md5?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeSymmetricKeyAlgorithmMd5;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#sha1 DataPanosNtpSettings#sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#sha1 DataPanosNtpSettings#sha1}
   */
   readonly sha1?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeSymmetricKeyAlgorithmSha1;
 }
@@ -1869,13 +1869,13 @@ export class DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeS
 }
 export interface DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeSymmetricKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#algorithm DataPanosNtpSettings#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#algorithm DataPanosNtpSettings#algorithm}
   */
   readonly algorithm?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeSymmetricKeyAlgorithm;
   /**
   * Symmetric Key Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#key_id DataPanosNtpSettings#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#key_id DataPanosNtpSettings#key_id}
   */
   readonly keyId?: number;
 }
@@ -1998,15 +1998,15 @@ export class DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeS
 }
 export interface DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#autokey DataPanosNtpSettings#autokey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#autokey DataPanosNtpSettings#autokey}
   */
   readonly autokey?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeAutokey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#none DataPanosNtpSettings#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#none DataPanosNtpSettings#none}
   */
   readonly none?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#symmetric_key DataPanosNtpSettings#symmetric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#symmetric_key DataPanosNtpSettings#symmetric_key}
   */
   readonly symmetricKey?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeSymmetricKey;
 }
@@ -2158,13 +2158,13 @@ export class DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationTypeO
 }
 export interface DataPanosNtpSettingsNtpServersSecondaryNtpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#authentication_type DataPanosNtpSettings#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#authentication_type DataPanosNtpSettings#authentication_type}
   */
   readonly authenticationType?: DataPanosNtpSettingsNtpServersSecondaryNtpServerAuthenticationType;
   /**
   * NTP Server IP Address or Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#ntp_server_address DataPanosNtpSettings#ntp_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#ntp_server_address DataPanosNtpSettings#ntp_server_address}
   */
   readonly ntpServerAddress?: string;
 }
@@ -2287,11 +2287,11 @@ export class DataPanosNtpSettingsNtpServersSecondaryNtpServerOutputReference ext
 }
 export interface DataPanosNtpSettingsNtpServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#primary_ntp_server DataPanosNtpSettings#primary_ntp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#primary_ntp_server DataPanosNtpSettings#primary_ntp_server}
   */
   readonly primaryNtpServer?: DataPanosNtpSettingsNtpServersPrimaryNtpServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#secondary_ntp_server DataPanosNtpSettings#secondary_ntp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#secondary_ntp_server DataPanosNtpSettings#secondary_ntp_server}
   */
   readonly secondaryNtpServer?: DataPanosNtpSettingsNtpServersSecondaryNtpServer;
 }
@@ -2414,7 +2414,7 @@ export class DataPanosNtpSettingsNtpServersOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings panos_ntp_settings}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings panos_ntp_settings}
 */
 export class DataPanosNtpSettings extends cdktf.TerraformDataSource {
 
@@ -2430,7 +2430,7 @@ export class DataPanosNtpSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosNtpSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosNtpSettings to import
-  * @param importFromId The id of the existing DataPanosNtpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosNtpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosNtpSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2442,7 +2442,7 @@ export class DataPanosNtpSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/ntp_settings panos_ntp_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/ntp_settings panos_ntp_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2453,8 +2453,8 @@ export class DataPanosNtpSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_ntp_settings',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

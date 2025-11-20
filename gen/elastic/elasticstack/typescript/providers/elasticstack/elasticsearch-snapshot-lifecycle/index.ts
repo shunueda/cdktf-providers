@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ElasticsearchSnapshotLifecycleConfig extends cdktf.TerraformMet
   /**
   * Determines how wildcard patterns in the `indices` parameter match data streams and indices. Supports comma-separated values, such as `closed,hidden`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#expand_wildcards ElasticsearchSnapshotLifecycle#expand_wildcards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#expand_wildcards ElasticsearchSnapshotLifecycle#expand_wildcards}
   */
   readonly expandWildcards?: string;
   /**
   * Time period after which a snapshot is considered expired and eligible for deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#expire_after ElasticsearchSnapshotLifecycle#expire_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#expire_after ElasticsearchSnapshotLifecycle#expire_after}
   */
   readonly expireAfter?: string;
   /**
   * Feature states to include in the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#feature_states ElasticsearchSnapshotLifecycle#feature_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#feature_states ElasticsearchSnapshotLifecycle#feature_states}
   */
   readonly featureStates?: string[];
   /**
   * If `false`, the snapshot fails if any data stream or index in indices is missing or closed. If `true`, the snapshot ignores missing or closed data streams and indices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#ignore_unavailable ElasticsearchSnapshotLifecycle#ignore_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#ignore_unavailable ElasticsearchSnapshotLifecycle#ignore_unavailable}
   */
   readonly ignoreUnavailable?: boolean | cdktf.IResolvable;
   /**
   * If `true`, include the cluster state in the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#include_global_state ElasticsearchSnapshotLifecycle#include_global_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#include_global_state ElasticsearchSnapshotLifecycle#include_global_state}
   */
   readonly includeGlobalState?: boolean | cdktf.IResolvable;
   /**
   * Comma-separated list of data streams and indices to include in the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#indices ElasticsearchSnapshotLifecycle#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#indices ElasticsearchSnapshotLifecycle#indices}
   */
   readonly indices?: string[];
   /**
   * Maximum number of snapshots to retain, even if the snapshots have not yet expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#max_count ElasticsearchSnapshotLifecycle#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#max_count ElasticsearchSnapshotLifecycle#max_count}
   */
   readonly maxCount?: number;
   /**
   * Attaches arbitrary metadata to the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#metadata ElasticsearchSnapshotLifecycle#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#metadata ElasticsearchSnapshotLifecycle#metadata}
   */
   readonly metadata?: string;
   /**
   * Minimum number of snapshots to retain, even if the snapshots have expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#min_count ElasticsearchSnapshotLifecycle#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#min_count ElasticsearchSnapshotLifecycle#min_count}
   */
   readonly minCount?: number;
   /**
   * ID for the snapshot lifecycle policy you want to create or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#name ElasticsearchSnapshotLifecycle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#name ElasticsearchSnapshotLifecycle#name}
   */
   readonly name: string;
   /**
   * If `false`, the entire snapshot will fail if one or more indices included in the snapshot do not have all primary shards available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#partial ElasticsearchSnapshotLifecycle#partial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#partial ElasticsearchSnapshotLifecycle#partial}
   */
   readonly partial?: boolean | cdktf.IResolvable;
   /**
   * Repository used to store snapshots created by this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#repository ElasticsearchSnapshotLifecycle#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#repository ElasticsearchSnapshotLifecycle#repository}
   */
   readonly repository: string;
   /**
   * Periodic or absolute schedule at which the policy creates snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#schedule ElasticsearchSnapshotLifecycle#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#schedule ElasticsearchSnapshotLifecycle#schedule}
   */
   readonly schedule: string;
   /**
   * Name automatically assigned to each snapshot created by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#snapshot_name ElasticsearchSnapshotLifecycle#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#snapshot_name ElasticsearchSnapshotLifecycle#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#elasticsearch_connection ElasticsearchSnapshotLifecycle#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#elasticsearch_connection ElasticsearchSnapshotLifecycle#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchSnapshotLifecycleElasticsearchConnection;
 }
@@ -102,85 +102,85 @@ export interface ElasticsearchSnapshotLifecycleElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#api_key ElasticsearchSnapshotLifecycle#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#api_key ElasticsearchSnapshotLifecycle#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#bearer_token ElasticsearchSnapshotLifecycle#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#bearer_token ElasticsearchSnapshotLifecycle#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#ca_data ElasticsearchSnapshotLifecycle#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#ca_data ElasticsearchSnapshotLifecycle#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#ca_file ElasticsearchSnapshotLifecycle#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#ca_file ElasticsearchSnapshotLifecycle#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#cert_data ElasticsearchSnapshotLifecycle#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#cert_data ElasticsearchSnapshotLifecycle#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#cert_file ElasticsearchSnapshotLifecycle#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#cert_file ElasticsearchSnapshotLifecycle#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#endpoints ElasticsearchSnapshotLifecycle#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#endpoints ElasticsearchSnapshotLifecycle#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#es_client_authentication ElasticsearchSnapshotLifecycle#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#es_client_authentication ElasticsearchSnapshotLifecycle#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#headers ElasticsearchSnapshotLifecycle#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#headers ElasticsearchSnapshotLifecycle#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#insecure ElasticsearchSnapshotLifecycle#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#insecure ElasticsearchSnapshotLifecycle#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#key_data ElasticsearchSnapshotLifecycle#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#key_data ElasticsearchSnapshotLifecycle#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#key_file ElasticsearchSnapshotLifecycle#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#key_file ElasticsearchSnapshotLifecycle#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#password ElasticsearchSnapshotLifecycle#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#password ElasticsearchSnapshotLifecycle#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#username ElasticsearchSnapshotLifecycle#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#username ElasticsearchSnapshotLifecycle#username}
   */
   readonly username?: string;
 }
@@ -641,7 +641,7 @@ export class ElasticsearchSnapshotLifecycleElasticsearchConnectionOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle elasticstack_elasticsearch_snapshot_lifecycle}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle elasticstack_elasticsearch_snapshot_lifecycle}
 */
 export class ElasticsearchSnapshotLifecycle extends cdktf.TerraformResource {
 
@@ -657,7 +657,7 @@ export class ElasticsearchSnapshotLifecycle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchSnapshotLifecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchSnapshotLifecycle to import
-  * @param importFromId The id of the existing ElasticsearchSnapshotLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchSnapshotLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchSnapshotLifecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -669,7 +669,7 @@ export class ElasticsearchSnapshotLifecycle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/elasticsearch_snapshot_lifecycle elasticstack_elasticsearch_snapshot_lifecycle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/elasticsearch_snapshot_lifecycle elasticstack_elasticsearch_snapshot_lifecycle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -680,8 +680,8 @@ export class ElasticsearchSnapshotLifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_snapshot_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

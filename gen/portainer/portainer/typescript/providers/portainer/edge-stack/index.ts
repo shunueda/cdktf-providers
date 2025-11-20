@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack
+// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,114 +10,114 @@ export interface EdgeStackConfig extends cdktf.TerraformMetaArguments {
   /**
   * 0 = Docker Compose, 1 = Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#deployment_type EdgeStack#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#deployment_type EdgeStack#deployment_type}
   */
   readonly deploymentType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#dryrun EdgeStack#dryrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#dryrun EdgeStack#dryrun}
   */
   readonly dryrun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#edge_groups EdgeStack#edge_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#edge_groups EdgeStack#edge_groups}
   */
   readonly edgeGroups: number[];
   /**
   * Environment variables for the Edge Stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#environment EdgeStack#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#environment EdgeStack#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#file_path_in_repository EdgeStack#file_path_in_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#file_path_in_repository EdgeStack#file_path_in_repository}
   */
   readonly filePathInRepository?: string;
   /**
   * Whether to prune unused services/networks during stack update (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#force_update EdgeStack#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#force_update EdgeStack#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#git_repository_authentication EdgeStack#git_repository_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#git_repository_authentication EdgeStack#git_repository_authentication}
   */
   readonly gitRepositoryAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#id EdgeStack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#id EdgeStack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#name EdgeStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#name EdgeStack#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#pre_pull_image EdgeStack#pre_pull_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#pre_pull_image EdgeStack#pre_pull_image}
   */
   readonly prePullImage?: boolean | cdktf.IResolvable;
   /**
   * Whether to force pull latest images during stack update (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#pull_image EdgeStack#pull_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#pull_image EdgeStack#pull_image}
   */
   readonly pullImage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#registries EdgeStack#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#registries EdgeStack#registries}
   */
   readonly registries?: number[];
   /**
   * Enable relative path volumes – also used as value for 'filesystemPath'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#relative_path EdgeStack#relative_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#relative_path EdgeStack#relative_path}
   */
   readonly relativePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#repository_password EdgeStack#repository_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#repository_password EdgeStack#repository_password}
   */
   readonly repositoryPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#repository_reference_name EdgeStack#repository_reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#repository_reference_name EdgeStack#repository_reference_name}
   */
   readonly repositoryReferenceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#repository_url EdgeStack#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#repository_url EdgeStack#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#repository_username EdgeStack#repository_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#repository_username EdgeStack#repository_username}
   */
   readonly repositoryUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#retry_deploy EdgeStack#retry_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#retry_deploy EdgeStack#retry_deploy}
   */
   readonly retryDeploy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#stack_file_content EdgeStack#stack_file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#stack_file_content EdgeStack#stack_file_content}
   */
   readonly stackFileContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#stack_file_path EdgeStack#stack_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#stack_file_path EdgeStack#stack_file_path}
   */
   readonly stackFilePath?: string;
   /**
   * Enable autoUpdate webhook (GitOps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#stack_webhook EdgeStack#stack_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#stack_webhook EdgeStack#stack_webhook}
   */
   readonly stackWebhook?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#update_interval EdgeStack#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#update_interval EdgeStack#update_interval}
   */
   readonly updateInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#use_manifest_namespaces EdgeStack#use_manifest_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#use_manifest_namespaces EdgeStack#use_manifest_namespaces}
   */
   readonly useManifestNamespaces?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack portainer_edge_stack}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack portainer_edge_stack}
 */
 export class EdgeStack extends cdktf.TerraformResource {
 
@@ -133,7 +133,7 @@ export class EdgeStack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeStack to import
-  * @param importFromId The id of the existing EdgeStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class EdgeStack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/edge_stack portainer_edge_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/edge_stack portainer_edge_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class EdgeStack extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_edge_stack',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.1',
-        providerVersionConstraint: '1.16.1'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

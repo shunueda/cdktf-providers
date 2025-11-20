@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs
+// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LxdProviderConfig {
   /**
   * Accept the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#accept_remote_certificate LxdProvider#accept_remote_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#accept_remote_certificate LxdProvider#accept_remote_certificate}
   */
   readonly acceptRemoteCertificate?: boolean | cdktf.IResolvable;
   /**
   * The directory to look for existing LXD configuration. (default = $HOME/snap/lxd/common/config:$HOME/.config/lxc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#config_dir LxdProvider#config_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#config_dir LxdProvider#config_dir}
   */
   readonly configDir?: string;
   /**
   * Automatically generate the LXD client certificates if they don't exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#generate_client_certificates LxdProvider#generate_client_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#generate_client_certificates LxdProvider#generate_client_certificates}
   */
   readonly generateClientCertificates?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#alias LxdProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#alias LxdProvider#alias}
   */
   readonly alias?: string;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#remote LxdProvider#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#remote LxdProvider#remote}
   */
   readonly remote?: LxdProviderRemote[] | cdktf.IResolvable;
 }
@@ -42,49 +42,49 @@ export interface LxdProviderRemote {
   /**
   * The FQDN or IP where the LXD daemon can be contacted. (default = "")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#address LxdProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#address LxdProvider#address}
   */
   readonly address?: string;
   /**
   * Set this remote as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#default LxdProvider#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#default LxdProvider#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Name of the LXD remote. Required when lxd_scheme set to https, to enable locating server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#name LxdProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#name LxdProvider#name}
   */
   readonly name: string;
   /**
   * The trust password used for initial authentication with the LXD remote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#password LxdProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#password LxdProvider#password}
   */
   readonly password?: string;
   /**
   * Port LXD Daemon API is listening on. (default = 8443)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#port LxdProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#port LxdProvider#port}
   */
   readonly port?: string;
   /**
   * Remote protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#protocol LxdProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#protocol LxdProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * Unix (unix) or HTTPs (https). (default = unix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#scheme LxdProvider#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#scheme LxdProvider#scheme}
   */
   readonly scheme?: string;
   /**
   * The trust token used for initial authentication with the LXD remote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#token LxdProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#token LxdProvider#token}
   */
   readonly token?: string;
 }
@@ -169,7 +169,7 @@ export function lxdProviderRemoteToHclTerraform(struct?: LxdProviderRemote | cdk
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs lxd}
+* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs lxd}
 */
 export class LxdProvider extends cdktf.TerraformProvider {
 
@@ -185,7 +185,7 @@ export class LxdProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LxdProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LxdProvider to import
-  * @param importFromId The id of the existing LxdProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LxdProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LxdProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class LxdProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs lxd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs lxd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class LxdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lxd',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       terraformProviderSource: 'terraform-lxd/lxd'
     });

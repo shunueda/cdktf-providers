@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#annotations NetworkFirewall#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#annotations NetworkFirewall#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#description NetworkFirewall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#description NetworkFirewall#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#disable NetworkFirewall#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable NetworkFirewall#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#disable_fast_acl NetworkFirewall#disable_fast_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable_fast_acl NetworkFirewall#disable_fast_acl}
   */
   readonly disableFastAcl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#disable_forward_proxy_policy NetworkFirewall#disable_forward_proxy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable_forward_proxy_policy NetworkFirewall#disable_forward_proxy_policy}
   */
   readonly disableForwardProxyPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#disable_network_policy NetworkFirewall#disable_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#disable_network_policy NetworkFirewall#disable_network_policy}
   */
   readonly disableNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#id NetworkFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#id NetworkFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#labels NetworkFirewall#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#labels NetworkFirewall#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace: string;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#active_enhanced_firewall_policies NetworkFirewall#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_enhanced_firewall_policies NetworkFirewall#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: NetworkFirewallActiveEnhancedFirewallPolicies;
   /**
   * active_fast_acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#active_fast_acls NetworkFirewall#active_fast_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_fast_acls NetworkFirewall#active_fast_acls}
   */
   readonly activeFastAcls?: NetworkFirewallActiveFastAcls;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#active_forward_proxy_policies NetworkFirewall#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_forward_proxy_policies NetworkFirewall#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: NetworkFirewallActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#active_network_policies NetworkFirewall#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#active_network_policies NetworkFirewall#active_network_policies}
   */
   readonly activeNetworkPolicies?: NetworkFirewallActiveNetworkPolicies;
+  /**
+  * fast_acl_set block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#fast_acl_set NetworkFirewall#fast_acl_set}
+  */
+  readonly fastAclSet?: NetworkFirewallFastAclSet;
+  /**
+  * forward_proxy_policy_set block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#forward_proxy_policy_set NetworkFirewall#forward_proxy_policy_set}
+  */
+  readonly forwardProxyPolicySet?: NetworkFirewallForwardProxyPolicySet;
+  /**
+  * network_policy_set block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#network_policy_set NetworkFirewall#network_policy_set}
+  */
+  readonly networkPolicySet?: NetworkFirewallNetworkPolicySet;
 }
 export interface NetworkFirewallActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -261,7 +279,7 @@ export interface NetworkFirewallActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#enhanced_firewall_policies NetworkFirewall#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#enhanced_firewall_policies NetworkFirewall#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: NetworkFirewallActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -342,15 +360,15 @@ export class NetworkFirewallActiveEnhancedFirewallPoliciesOutputReference extend
 }
 export interface NetworkFirewallActiveFastAclsFastAcls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -526,7 +544,7 @@ export interface NetworkFirewallActiveFastAcls {
   /**
   * fast_acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#fast_acls NetworkFirewall#fast_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#fast_acls NetworkFirewall#fast_acls}
   */
   readonly fastAcls: NetworkFirewallActiveFastAclsFastAcls[] | cdktf.IResolvable;
 }
@@ -607,15 +625,15 @@ export class NetworkFirewallActiveFastAclsOutputReference extends cdktf.ComplexO
 }
 export interface NetworkFirewallActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -791,7 +809,7 @@ export interface NetworkFirewallActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#forward_proxy_policies NetworkFirewall#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#forward_proxy_policies NetworkFirewall#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: NetworkFirewallActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -872,15 +890,15 @@ export class NetworkFirewallActiveForwardProxyPoliciesOutputReference extends cd
 }
 export interface NetworkFirewallActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#name NetworkFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
   */
   readonly tenant?: string;
 }
@@ -1056,7 +1074,7 @@ export interface NetworkFirewallActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#network_policies NetworkFirewall#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#network_policies NetworkFirewall#network_policies}
   */
   readonly networkPolicies: NetworkFirewallActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -1135,9 +1153,459 @@ export class NetworkFirewallActiveNetworkPoliciesOutputReference extends cdktf.C
     return this._networkPolicies.internalValue;
   }
 }
+export interface NetworkFirewallFastAclSet {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function networkFirewallFastAclSetToTerraform(struct?: NetworkFirewallFastAclSetOutputReference | NetworkFirewallFastAclSet): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function networkFirewallFastAclSetToHclTerraform(struct?: NetworkFirewallFastAclSetOutputReference | NetworkFirewallFastAclSet): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkFirewallFastAclSetOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NetworkFirewallFastAclSet | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkFirewallFastAclSet | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface NetworkFirewallForwardProxyPolicySet {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function networkFirewallForwardProxyPolicySetToTerraform(struct?: NetworkFirewallForwardProxyPolicySetOutputReference | NetworkFirewallForwardProxyPolicySet): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function networkFirewallForwardProxyPolicySetToHclTerraform(struct?: NetworkFirewallForwardProxyPolicySetOutputReference | NetworkFirewallForwardProxyPolicySet): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkFirewallForwardProxyPolicySetOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NetworkFirewallForwardProxyPolicySet | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkFirewallForwardProxyPolicySet | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface NetworkFirewallNetworkPolicySet {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#name NetworkFirewall#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#namespace NetworkFirewall#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#tenant NetworkFirewall#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function networkFirewallNetworkPolicySetToTerraform(struct?: NetworkFirewallNetworkPolicySetOutputReference | NetworkFirewallNetworkPolicySet): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function networkFirewallNetworkPolicySetToHclTerraform(struct?: NetworkFirewallNetworkPolicySetOutputReference | NetworkFirewallNetworkPolicySet): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkFirewallNetworkPolicySetOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): NetworkFirewallNetworkPolicySet | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkFirewallNetworkPolicySet | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall volterra_network_firewall}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall volterra_network_firewall}
 */
 export class NetworkFirewall extends cdktf.TerraformResource {
 
@@ -1153,7 +1621,7 @@ export class NetworkFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFirewall to import
-  * @param importFromId The id of the existing NetworkFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1165,7 +1633,7 @@ export class NetworkFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/network_firewall volterra_network_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/network_firewall volterra_network_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1176,8 +1644,8 @@ export class NetworkFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_network_firewall',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1201,6 +1669,9 @@ export class NetworkFirewall extends cdktf.TerraformResource {
     this._activeFastAcls.internalValue = config.activeFastAcls;
     this._activeForwardProxyPolicies.internalValue = config.activeForwardProxyPolicies;
     this._activeNetworkPolicies.internalValue = config.activeNetworkPolicies;
+    this._fastAclSet.internalValue = config.fastAclSet;
+    this._forwardProxyPolicySet.internalValue = config.forwardProxyPolicySet;
+    this._networkPolicySet.internalValue = config.networkPolicySet;
   }
 
   // ==========
@@ -1425,6 +1896,54 @@ export class NetworkFirewall extends cdktf.TerraformResource {
     return this._activeNetworkPolicies.internalValue;
   }
 
+  // fast_acl_set - computed: false, optional: true, required: false
+  private _fastAclSet = new NetworkFirewallFastAclSetOutputReference(this, "fast_acl_set");
+  public get fastAclSet() {
+    return this._fastAclSet;
+  }
+  public putFastAclSet(value: NetworkFirewallFastAclSet) {
+    this._fastAclSet.internalValue = value;
+  }
+  public resetFastAclSet() {
+    this._fastAclSet.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fastAclSetInput() {
+    return this._fastAclSet.internalValue;
+  }
+
+  // forward_proxy_policy_set - computed: false, optional: true, required: false
+  private _forwardProxyPolicySet = new NetworkFirewallForwardProxyPolicySetOutputReference(this, "forward_proxy_policy_set");
+  public get forwardProxyPolicySet() {
+    return this._forwardProxyPolicySet;
+  }
+  public putForwardProxyPolicySet(value: NetworkFirewallForwardProxyPolicySet) {
+    this._forwardProxyPolicySet.internalValue = value;
+  }
+  public resetForwardProxyPolicySet() {
+    this._forwardProxyPolicySet.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forwardProxyPolicySetInput() {
+    return this._forwardProxyPolicySet.internalValue;
+  }
+
+  // network_policy_set - computed: false, optional: true, required: false
+  private _networkPolicySet = new NetworkFirewallNetworkPolicySetOutputReference(this, "network_policy_set");
+  public get networkPolicySet() {
+    return this._networkPolicySet;
+  }
+  public putNetworkPolicySet(value: NetworkFirewallNetworkPolicySet) {
+    this._networkPolicySet.internalValue = value;
+  }
+  public resetNetworkPolicySet() {
+    this._networkPolicySet.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPolicySetInput() {
+    return this._networkPolicySet.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1445,6 +1964,9 @@ export class NetworkFirewall extends cdktf.TerraformResource {
       active_fast_acls: networkFirewallActiveFastAclsToTerraform(this._activeFastAcls.internalValue),
       active_forward_proxy_policies: networkFirewallActiveForwardProxyPoliciesToTerraform(this._activeForwardProxyPolicies.internalValue),
       active_network_policies: networkFirewallActiveNetworkPoliciesToTerraform(this._activeNetworkPolicies.internalValue),
+      fast_acl_set: networkFirewallFastAclSetToTerraform(this._fastAclSet.internalValue),
+      forward_proxy_policy_set: networkFirewallForwardProxyPolicySetToTerraform(this._forwardProxyPolicySet.internalValue),
+      network_policy_set: networkFirewallNetworkPolicySetToTerraform(this._networkPolicySet.internalValue),
     };
   }
 
@@ -1533,6 +2055,24 @@ export class NetworkFirewall extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "NetworkFirewallActiveNetworkPoliciesList",
+      },
+      fast_acl_set: {
+        value: networkFirewallFastAclSetToHclTerraform(this._fastAclSet.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "NetworkFirewallFastAclSetList",
+      },
+      forward_proxy_policy_set: {
+        value: networkFirewallForwardProxyPolicySetToHclTerraform(this._forwardProxyPolicySet.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "NetworkFirewallForwardProxyPolicySetList",
+      },
+      network_policy_set: {
+        value: networkFirewallNetworkPolicySetToHclTerraform(this._networkPolicySet.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "NetworkFirewallNetworkPolicySetList",
       },
     };
 

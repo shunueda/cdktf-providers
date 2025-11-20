@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface TgwVpnTunnelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#id TgwVpnTunnels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#id TgwVpnTunnels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#name TgwVpnTunnels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#name TgwVpnTunnels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#namespace TgwVpnTunnels#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#namespace TgwVpnTunnels#namespace}
   */
   readonly namespace: string;
   /**
   * vpn_tunnel_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#vpn_tunnel_config TgwVpnTunnels#vpn_tunnel_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#vpn_tunnel_config TgwVpnTunnels#vpn_tunnel_config}
   */
   readonly vpnTunnelConfig: TgwVpnTunnelsVpnTunnelConfig[] | cdktf.IResolvable;
 }
 export interface TgwVpnTunnelsVpnTunnelConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#node_id TgwVpnTunnels#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#node_id TgwVpnTunnels#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#node_name TgwVpnTunnels#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#node_name TgwVpnTunnels#node_name}
   */
   readonly nodeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#tunnel_remote_ips TgwVpnTunnels#tunnel_remote_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#tunnel_remote_ips TgwVpnTunnels#tunnel_remote_ips}
   */
   readonly tunnelRemoteIps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#type TgwVpnTunnels#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#type TgwVpnTunnels#type}
   */
   readonly type?: string;
 }
@@ -237,7 +237,7 @@ export class TgwVpnTunnelsVpnTunnelConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels volterra_tgw_vpn_tunnels}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels volterra_tgw_vpn_tunnels}
 */
 export class TgwVpnTunnels extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class TgwVpnTunnels extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TgwVpnTunnels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TgwVpnTunnels to import
-  * @param importFromId The id of the existing TgwVpnTunnels that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TgwVpnTunnels that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TgwVpnTunnels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class TgwVpnTunnels extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpn_tunnels volterra_tgw_vpn_tunnels} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpn_tunnels volterra_tgw_vpn_tunnels} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class TgwVpnTunnels extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_tgw_vpn_tunnels',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface IkePhase2ProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#annotations IkePhase2Profile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#annotations IkePhase2Profile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#authentication_algos IkePhase2Profile#authentication_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#authentication_algos IkePhase2Profile#authentication_algos}
   */
   readonly authenticationAlgos: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#description IkePhase2Profile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#description IkePhase2Profile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#disable IkePhase2Profile#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#disable IkePhase2Profile#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#disable_pfs IkePhase2Profile#disable_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#disable_pfs IkePhase2Profile#disable_pfs}
   */
   readonly disablePfs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#encryption_algos IkePhase2Profile#encryption_algos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#encryption_algos IkePhase2Profile#encryption_algos}
   */
   readonly encryptionAlgos: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#id IkePhase2Profile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#id IkePhase2Profile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#labels IkePhase2Profile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#labels IkePhase2Profile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#name IkePhase2Profile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#name IkePhase2Profile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#namespace IkePhase2Profile#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#namespace IkePhase2Profile#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#use_default_keylifetime IkePhase2Profile#use_default_keylifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#use_default_keylifetime IkePhase2Profile#use_default_keylifetime}
   */
   readonly useDefaultKeylifetime?: boolean | cdktf.IResolvable;
   /**
   * dh_group_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#dh_group_set IkePhase2Profile#dh_group_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#dh_group_set IkePhase2Profile#dh_group_set}
   */
   readonly dhGroupSet?: IkePhase2ProfileDhGroupSet;
   /**
   * ike_keylifetime_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#ike_keylifetime_hours IkePhase2Profile#ike_keylifetime_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#ike_keylifetime_hours IkePhase2Profile#ike_keylifetime_hours}
   */
   readonly ikeKeylifetimeHours?: IkePhase2ProfileIkeKeylifetimeHours;
   /**
   * ike_keylifetime_minutes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#ike_keylifetime_minutes IkePhase2Profile#ike_keylifetime_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#ike_keylifetime_minutes IkePhase2Profile#ike_keylifetime_minutes}
   */
   readonly ikeKeylifetimeMinutes?: IkePhase2ProfileIkeKeylifetimeMinutes;
 }
 export interface IkePhase2ProfileDhGroupSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#dh_groups IkePhase2Profile#dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#dh_groups IkePhase2Profile#dh_groups}
   */
-  readonly dhGroups?: string[];
+  readonly dhGroups: string[];
 }
 
 export function ikePhase2ProfileDhGroupSetToTerraform(struct?: IkePhase2ProfileDhGroupSetOutputReference | IkePhase2ProfileDhGroupSet): any {
@@ -141,16 +141,13 @@ export class IkePhase2ProfileDhGroupSetOutputReference extends cdktf.ComplexObje
     }
   }
 
-  // dh_groups - computed: false, optional: true, required: false
+  // dh_groups - computed: false, optional: false, required: true
   private _dhGroups?: string[]; 
   public get dhGroups() {
     return this.getListAttribute('dh_groups');
   }
   public set dhGroups(value: string[]) {
     this._dhGroups = value;
-  }
-  public resetDhGroups() {
-    this._dhGroups = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get dhGroupsInput() {
@@ -159,7 +156,7 @@ export class IkePhase2ProfileDhGroupSetOutputReference extends cdktf.ComplexObje
 }
 export interface IkePhase2ProfileIkeKeylifetimeHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#duration IkePhase2Profile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#duration IkePhase2Profile#duration}
   */
   readonly duration?: number;
 }
@@ -243,7 +240,7 @@ export class IkePhase2ProfileIkeKeylifetimeHoursOutputReference extends cdktf.Co
 }
 export interface IkePhase2ProfileIkeKeylifetimeMinutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#duration IkePhase2Profile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#duration IkePhase2Profile#duration}
   */
   readonly duration?: number;
 }
@@ -327,7 +324,7 @@ export class IkePhase2ProfileIkeKeylifetimeMinutesOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile volterra_ike_phase2_profile}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile volterra_ike_phase2_profile}
 */
 export class IkePhase2Profile extends cdktf.TerraformResource {
 
@@ -343,7 +340,7 @@ export class IkePhase2Profile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IkePhase2Profile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IkePhase2Profile to import
-  * @param importFromId The id of the existing IkePhase2Profile that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IkePhase2Profile that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IkePhase2Profile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +352,7 @@ export class IkePhase2Profile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/ike_phase2_profile volterra_ike_phase2_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/ike_phase2_profile volterra_ike_phase2_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +363,8 @@ export class IkePhase2Profile extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ike_phase2_profile',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

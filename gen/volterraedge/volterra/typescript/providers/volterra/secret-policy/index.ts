@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,351 @@ import * as cdktf from 'cdktf';
 
 export interface SecretPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#allow_f5xc SecretPolicy#allow_f5xc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#algo SecretPolicy#algo}
+  */
+  readonly algo?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#allow_f5xc SecretPolicy#allow_f5xc}
   */
   readonly allowF5Xc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#annotations SecretPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#annotations SecretPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#decrypt_cache_timeout SecretPolicy#decrypt_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#decrypt_cache_timeout SecretPolicy#decrypt_cache_timeout}
   */
   readonly decryptCacheTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#description SecretPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#description SecretPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#disable SecretPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#disable SecretPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#id SecretPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#id SecretPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#labels SecretPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#labels SecretPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#name SecretPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#namespace SecretPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#namespace SecretPolicy#namespace}
   */
   readonly namespace: string;
   /**
+  * legacy_rule_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#legacy_rule_list SecretPolicy#legacy_rule_list}
+  */
+  readonly legacyRuleList?: SecretPolicyLegacyRuleListStruct;
+  /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#rule_list SecretPolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rule_list SecretPolicy#rule_list}
   */
   readonly ruleList?: SecretPolicyRuleListStruct;
+  /**
+  * rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rules SecretPolicy#rules}
+  */
+  readonly rules?: SecretPolicyRules[] | cdktf.IResolvable;
+}
+export interface SecretPolicyLegacyRuleListRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#namespace SecretPolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#tenant SecretPolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function secretPolicyLegacyRuleListRulesToTerraform(struct?: SecretPolicyLegacyRuleListRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function secretPolicyLegacyRuleListRulesToHclTerraform(struct?: SecretPolicyLegacyRuleListRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretPolicyLegacyRuleListRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecretPolicyLegacyRuleListRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretPolicyLegacyRuleListRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class SecretPolicyLegacyRuleListRulesList extends cdktf.ComplexList {
+  public internalValue? : SecretPolicyLegacyRuleListRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecretPolicyLegacyRuleListRulesOutputReference {
+    return new SecretPolicyLegacyRuleListRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SecretPolicyLegacyRuleListStruct {
+  /**
+  * rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rules SecretPolicy#rules}
+  */
+  readonly rules?: SecretPolicyLegacyRuleListRules[] | cdktf.IResolvable;
+}
+
+export function secretPolicyLegacyRuleListStructToTerraform(struct?: SecretPolicyLegacyRuleListStructOutputReference | SecretPolicyLegacyRuleListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    rules: cdktf.listMapper(secretPolicyLegacyRuleListRulesToTerraform, true)(struct!.rules),
+  }
+}
+
+
+export function secretPolicyLegacyRuleListStructToHclTerraform(struct?: SecretPolicyLegacyRuleListStructOutputReference | SecretPolicyLegacyRuleListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    rules: {
+      value: cdktf.listMapperHcl(secretPolicyLegacyRuleListRulesToHclTerraform, true)(struct!.rules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecretPolicyLegacyRuleListRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretPolicyLegacyRuleListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecretPolicyLegacyRuleListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._rules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rules = this._rules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretPolicyLegacyRuleListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._rules.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._rules.internalValue = value.rules;
+    }
+  }
+
+  // rules - computed: false, optional: true, required: false
+  private _rules = new SecretPolicyLegacyRuleListRulesList(this, "rules", false);
+  public get rules() {
+    return this._rules;
+  }
+  public putRules(value: SecretPolicyLegacyRuleListRules[] | cdktf.IResolvable) {
+    this._rules.internalValue = value;
+  }
+  public resetRules() {
+    this._rules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rulesInput() {
+    return this._rules.internalValue;
+  }
 }
 export interface SecretPolicyRuleListRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#description SecretPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#description SecretPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#name SecretPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#disable SecretPolicy#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
   */
   readonly name: string;
 }
@@ -71,6 +364,7 @@ export function secretPolicyRuleListRulesMetadataToTerraform(struct?: SecretPoli
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -87,6 +381,12 @@ export function secretPolicyRuleListRulesMetadataToHclTerraform(struct?: SecretP
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -118,6 +418,10 @@ export class SecretPolicyRuleListRulesMetadataOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -129,11 +433,13 @@ export class SecretPolicyRuleListRulesMetadataOutputReference extends cdktf.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -154,6 +460,22 @@ export class SecretPolicyRuleListRulesMetadataOutputReference extends cdktf.Comp
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -169,15 +491,15 @@ export class SecretPolicyRuleListRulesMetadataOutputReference extends cdktf.Comp
 }
 export interface SecretPolicyRuleListRulesSpecClientNameMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#exact_values SecretPolicy#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#exact_values SecretPolicy#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#regex_values SecretPolicy#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#regex_values SecretPolicy#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#transformers SecretPolicy#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#transformers SecretPolicy#transformers}
   */
   readonly transformers?: string[];
 }
@@ -319,7 +641,7 @@ export class SecretPolicyRuleListRulesSpecClientNameMatcherOutputReference exten
 }
 export interface SecretPolicyRuleListRulesSpecClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#expressions SecretPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#expressions SecretPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -398,27 +720,117 @@ export class SecretPolicyRuleListRulesSpecClientSelectorOutputReference extends 
     return this._expressions;
   }
 }
+export interface SecretPolicyRuleListRulesSpecLabelMatcher {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#keys SecretPolicy#keys}
+  */
+  readonly keys?: string[];
+}
+
+export function secretPolicyRuleListRulesSpecLabelMatcherToTerraform(struct?: SecretPolicyRuleListRulesSpecLabelMatcherOutputReference | SecretPolicyRuleListRulesSpecLabelMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.keys),
+  }
+}
+
+
+export function secretPolicyRuleListRulesSpecLabelMatcherToHclTerraform(struct?: SecretPolicyRuleListRulesSpecLabelMatcherOutputReference | SecretPolicyRuleListRulesSpecLabelMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    keys: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.keys),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretPolicyRuleListRulesSpecLabelMatcherOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecretPolicyRuleListRulesSpecLabelMatcher | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._keys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keys = this._keys;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretPolicyRuleListRulesSpecLabelMatcher | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._keys = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._keys = value.keys;
+    }
+  }
+
+  // keys - computed: false, optional: true, required: false
+  private _keys?: string[]; 
+  public get keys() {
+    return this.getListAttribute('keys');
+  }
+  public set keys(value: string[]) {
+    this._keys = value;
+  }
+  public resetKeys() {
+    this._keys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keysInput() {
+    return this._keys;
+  }
+}
 export interface SecretPolicyRuleListRulesSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#action SecretPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#action SecretPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#client_name SecretPolicy#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#client_name SecretPolicy#client_name}
   */
   readonly clientName?: string;
   /**
   * client_name_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#client_name_matcher SecretPolicy#client_name_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#client_name_matcher SecretPolicy#client_name_matcher}
   */
   readonly clientNameMatcher?: SecretPolicyRuleListRulesSpecClientNameMatcher;
   /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#client_selector SecretPolicy#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#client_selector SecretPolicy#client_selector}
   */
   readonly clientSelector?: SecretPolicyRuleListRulesSpecClientSelector;
+  /**
+  * label_matcher block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#label_matcher SecretPolicy#label_matcher}
+  */
+  readonly labelMatcher?: SecretPolicyRuleListRulesSpecLabelMatcher;
 }
 
 export function secretPolicyRuleListRulesSpecToTerraform(struct?: SecretPolicyRuleListRulesSpecOutputReference | SecretPolicyRuleListRulesSpec): any {
@@ -431,6 +843,7 @@ export function secretPolicyRuleListRulesSpecToTerraform(struct?: SecretPolicyRu
     client_name: cdktf.stringToTerraform(struct!.clientName),
     client_name_matcher: secretPolicyRuleListRulesSpecClientNameMatcherToTerraform(struct!.clientNameMatcher),
     client_selector: secretPolicyRuleListRulesSpecClientSelectorToTerraform(struct!.clientSelector),
+    label_matcher: secretPolicyRuleListRulesSpecLabelMatcherToTerraform(struct!.labelMatcher),
   }
 }
 
@@ -464,6 +877,12 @@ export function secretPolicyRuleListRulesSpecToHclTerraform(struct?: SecretPolic
       isBlock: true,
       type: "list",
       storageClassType: "SecretPolicyRuleListRulesSpecClientSelectorList",
+    },
+    label_matcher: {
+      value: secretPolicyRuleListRulesSpecLabelMatcherToHclTerraform(struct!.labelMatcher),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecretPolicyRuleListRulesSpecLabelMatcherList",
     },
   };
 
@@ -501,6 +920,10 @@ export class SecretPolicyRuleListRulesSpecOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.clientSelector = this._clientSelector?.internalValue;
     }
+    if (this._labelMatcher?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labelMatcher = this._labelMatcher?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -511,6 +934,7 @@ export class SecretPolicyRuleListRulesSpecOutputReference extends cdktf.ComplexO
       this._clientName = undefined;
       this._clientNameMatcher.internalValue = undefined;
       this._clientSelector.internalValue = undefined;
+      this._labelMatcher.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -518,6 +942,7 @@ export class SecretPolicyRuleListRulesSpecOutputReference extends cdktf.ComplexO
       this._clientName = value.clientName;
       this._clientNameMatcher.internalValue = value.clientNameMatcher;
       this._clientSelector.internalValue = value.clientSelector;
+      this._labelMatcher.internalValue = value.labelMatcher;
     }
   }
 
@@ -581,18 +1006,34 @@ export class SecretPolicyRuleListRulesSpecOutputReference extends cdktf.ComplexO
   public get clientSelectorInput() {
     return this._clientSelector.internalValue;
   }
+
+  // label_matcher - computed: false, optional: true, required: false
+  private _labelMatcher = new SecretPolicyRuleListRulesSpecLabelMatcherOutputReference(this, "label_matcher");
+  public get labelMatcher() {
+    return this._labelMatcher;
+  }
+  public putLabelMatcher(value: SecretPolicyRuleListRulesSpecLabelMatcher) {
+    this._labelMatcher.internalValue = value;
+  }
+  public resetLabelMatcher() {
+    this._labelMatcher.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelMatcherInput() {
+    return this._labelMatcher.internalValue;
+  }
 }
 export interface SecretPolicyRuleListRules {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#metadata SecretPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#metadata SecretPolicy#metadata}
   */
   readonly metadata: SecretPolicyRuleListRulesMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#spec SecretPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#spec SecretPolicy#spec}
   */
   readonly spec: SecretPolicyRuleListRulesSpec;
 }
@@ -733,7 +1174,7 @@ export interface SecretPolicyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#rules SecretPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#rules SecretPolicy#rules}
   */
   readonly rules?: SecretPolicyRuleListRules[] | cdktf.IResolvable;
 }
@@ -815,9 +1256,196 @@ export class SecretPolicyRuleListStructOutputReference extends cdktf.ComplexObje
     return this._rules.internalValue;
   }
 }
+export interface SecretPolicyRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#name SecretPolicy#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#namespace SecretPolicy#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#tenant SecretPolicy#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function secretPolicyRulesToTerraform(struct?: SecretPolicyRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function secretPolicyRulesToHclTerraform(struct?: SecretPolicyRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretPolicyRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SecretPolicyRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretPolicyRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class SecretPolicyRulesList extends cdktf.ComplexList {
+  public internalValue? : SecretPolicyRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SecretPolicyRulesOutputReference {
+    return new SecretPolicyRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy volterra_secret_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy volterra_secret_policy}
 */
 export class SecretPolicy extends cdktf.TerraformResource {
 
@@ -833,7 +1461,7 @@ export class SecretPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretPolicy to import
-  * @param importFromId The id of the existing SecretPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -845,7 +1473,7 @@ export class SecretPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/secret_policy volterra_secret_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/secret_policy volterra_secret_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -856,8 +1484,8 @@ export class SecretPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_secret_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -867,6 +1495,7 @@ export class SecretPolicy extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._algo = config.algo;
     this._allowF5Xc = config.allowF5Xc;
     this._annotations = config.annotations;
     this._decryptCacheTimeout = config.decryptCacheTimeout;
@@ -876,12 +1505,30 @@ export class SecretPolicy extends cdktf.TerraformResource {
     this._labels = config.labels;
     this._name = config.name;
     this._namespace = config.namespace;
+    this._legacyRuleList.internalValue = config.legacyRuleList;
     this._ruleList.internalValue = config.ruleList;
+    this._rules.internalValue = config.rules;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // algo - computed: false, optional: true, required: false
+  private _algo?: string; 
+  public get algo() {
+    return this.getStringAttribute('algo');
+  }
+  public set algo(value: string) {
+    this._algo = value;
+  }
+  public resetAlgo() {
+    this._algo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get algoInput() {
+    return this._algo;
+  }
 
   // allow_f5xc - computed: false, optional: true, required: false
   private _allowF5Xc?: boolean | cdktf.IResolvable; 
@@ -1021,6 +1668,22 @@ export class SecretPolicy extends cdktf.TerraformResource {
     return this._namespace;
   }
 
+  // legacy_rule_list - computed: false, optional: true, required: false
+  private _legacyRuleList = new SecretPolicyLegacyRuleListStructOutputReference(this, "legacy_rule_list");
+  public get legacyRuleList() {
+    return this._legacyRuleList;
+  }
+  public putLegacyRuleList(value: SecretPolicyLegacyRuleListStruct) {
+    this._legacyRuleList.internalValue = value;
+  }
+  public resetLegacyRuleList() {
+    this._legacyRuleList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legacyRuleListInput() {
+    return this._legacyRuleList.internalValue;
+  }
+
   // rule_list - computed: false, optional: true, required: false
   private _ruleList = new SecretPolicyRuleListStructOutputReference(this, "rule_list");
   public get ruleList() {
@@ -1037,12 +1700,29 @@ export class SecretPolicy extends cdktf.TerraformResource {
     return this._ruleList.internalValue;
   }
 
+  // rules - computed: false, optional: true, required: false
+  private _rules = new SecretPolicyRulesList(this, "rules", false);
+  public get rules() {
+    return this._rules;
+  }
+  public putRules(value: SecretPolicyRules[] | cdktf.IResolvable) {
+    this._rules.internalValue = value;
+  }
+  public resetRules() {
+    this._rules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rulesInput() {
+    return this._rules.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      algo: cdktf.stringToTerraform(this._algo),
       allow_f5xc: cdktf.booleanToTerraform(this._allowF5Xc),
       annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
       decrypt_cache_timeout: cdktf.stringToTerraform(this._decryptCacheTimeout),
@@ -1052,12 +1732,20 @@ export class SecretPolicy extends cdktf.TerraformResource {
       labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
+      legacy_rule_list: secretPolicyLegacyRuleListStructToTerraform(this._legacyRuleList.internalValue),
       rule_list: secretPolicyRuleListStructToTerraform(this._ruleList.internalValue),
+      rules: cdktf.listMapper(secretPolicyRulesToTerraform, true)(this._rules.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      algo: {
+        value: cdktf.stringToHclTerraform(this._algo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       allow_f5xc: {
         value: cdktf.booleanToHclTerraform(this._allowF5Xc),
         isBlock: false,
@@ -1112,11 +1800,23 @@ export class SecretPolicy extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      legacy_rule_list: {
+        value: secretPolicyLegacyRuleListStructToHclTerraform(this._legacyRuleList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SecretPolicyLegacyRuleListStructList",
+      },
       rule_list: {
         value: secretPolicyRuleListStructToHclTerraform(this._ruleList.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "SecretPolicyRuleListStructList",
+      },
+      rules: {
+        value: cdktf.listMapperHcl(secretPolicyRulesToHclTerraform, true)(this._rules.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SecretPolicyRulesList",
       },
     };
 

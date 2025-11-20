@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,71 @@ import * as cdktf from 'cdktf';
 
 export interface AntiSpywareSecurityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#botnet_domains AntiSpywareSecurityProfile#botnet_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#botnet_domains AntiSpywareSecurityProfile#botnet_domains}
   */
   readonly botnetDomains?: AntiSpywareSecurityProfileBotnetDomains;
   /**
   * Enable cloud inline analysis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#cloud_inline_analysis AntiSpywareSecurityProfile#cloud_inline_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#cloud_inline_analysis AntiSpywareSecurityProfile#cloud_inline_analysis}
   */
   readonly cloudInlineAnalysis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#description AntiSpywareSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#description AntiSpywareSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#disable_override AntiSpywareSecurityProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#disable_override AntiSpywareSecurityProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#inline_exception_edl_url AntiSpywareSecurityProfile#inline_exception_edl_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#inline_exception_edl_url AntiSpywareSecurityProfile#inline_exception_edl_url}
   */
   readonly inlineExceptionEdlUrl?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#inline_exception_ip_address AntiSpywareSecurityProfile#inline_exception_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#inline_exception_ip_address AntiSpywareSecurityProfile#inline_exception_ip_address}
   */
   readonly inlineExceptionIpAddress?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#location AntiSpywareSecurityProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#location AntiSpywareSecurityProfile#location}
   */
   readonly location: AntiSpywareSecurityProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#mica_engine_spyware_enabled AntiSpywareSecurityProfile#mica_engine_spyware_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#mica_engine_spyware_enabled AntiSpywareSecurityProfile#mica_engine_spyware_enabled}
   */
   readonly micaEngineSpywareEnabled?: AntiSpywareSecurityProfileMicaEngineSpywareEnabled[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#rules AntiSpywareSecurityProfile#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#rules AntiSpywareSecurityProfile#rules}
   */
   readonly rules?: AntiSpywareSecurityProfileRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#threat_exception AntiSpywareSecurityProfile#threat_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#threat_exception AntiSpywareSecurityProfile#threat_exception}
   */
   readonly threatException?: AntiSpywareSecurityProfileThreatException[] | cdktf.IResolvable;
 }
 export interface AntiSpywareSecurityProfileBotnetDomainsDnsSecurityCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#log_level AntiSpywareSecurityProfile#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#log_level AntiSpywareSecurityProfile#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
   */
   readonly packetCapture?: string;
 }
@@ -508,19 +508,19 @@ export class AntiSpywareSecurityProfileBotnetDomainsListsActionSinkholeOutputRef
 }
 export interface AntiSpywareSecurityProfileBotnetDomainsListsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#alert AntiSpywareSecurityProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#alert AntiSpywareSecurityProfile#alert}
   */
   readonly alert?: AntiSpywareSecurityProfileBotnetDomainsListsActionAlert;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#allow AntiSpywareSecurityProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#allow AntiSpywareSecurityProfile#allow}
   */
   readonly allow?: AntiSpywareSecurityProfileBotnetDomainsListsActionAllow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#block AntiSpywareSecurityProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#block AntiSpywareSecurityProfile#block}
   */
   readonly block?: AntiSpywareSecurityProfileBotnetDomainsListsActionBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#sinkhole AntiSpywareSecurityProfile#sinkhole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#sinkhole AntiSpywareSecurityProfile#sinkhole}
   */
   readonly sinkhole?: AntiSpywareSecurityProfileBotnetDomainsListsActionSinkhole;
 }
@@ -701,15 +701,15 @@ export class AntiSpywareSecurityProfileBotnetDomainsListsActionOutputReference e
 }
 export interface AntiSpywareSecurityProfileBotnetDomainsLists {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
   */
   readonly action?: AntiSpywareSecurityProfileBotnetDomainsListsAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
   */
   readonly packetCapture?: string;
 }
@@ -882,19 +882,19 @@ export interface AntiSpywareSecurityProfileBotnetDomainsRtypeAction {
   /**
   * ANY(255)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#any AntiSpywareSecurityProfile#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#any AntiSpywareSecurityProfile#any}
   */
   readonly any?: string;
   /**
   * HTTPS(65)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#https AntiSpywareSecurityProfile#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#https AntiSpywareSecurityProfile#https}
   */
   readonly https?: string;
   /**
   * SVCB(64)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#svcb AntiSpywareSecurityProfile#svcb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#svcb AntiSpywareSecurityProfile#svcb}
   */
   readonly svcb?: string;
 }
@@ -1046,11 +1046,11 @@ export class AntiSpywareSecurityProfileBotnetDomainsRtypeActionOutputReference e
 }
 export interface AntiSpywareSecurityProfileBotnetDomainsSinkhole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#ipv4_address AntiSpywareSecurityProfile#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#ipv4_address AntiSpywareSecurityProfile#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#ipv6_address AntiSpywareSecurityProfile#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#ipv6_address AntiSpywareSecurityProfile#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -1173,7 +1173,7 @@ export class AntiSpywareSecurityProfileBotnetDomainsSinkholeOutputReference exte
 }
 export interface AntiSpywareSecurityProfileBotnetDomainsThreatException {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1286,11 +1286,11 @@ export class AntiSpywareSecurityProfileBotnetDomainsThreatExceptionList extends 
 }
 export interface AntiSpywareSecurityProfileBotnetDomainsWhitelistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#description AntiSpywareSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#description AntiSpywareSecurityProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1432,27 +1432,27 @@ export class AntiSpywareSecurityProfileBotnetDomainsWhitelistStructList extends 
 }
 export interface AntiSpywareSecurityProfileBotnetDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#dns_security_categories AntiSpywareSecurityProfile#dns_security_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#dns_security_categories AntiSpywareSecurityProfile#dns_security_categories}
   */
   readonly dnsSecurityCategories?: AntiSpywareSecurityProfileBotnetDomainsDnsSecurityCategories[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#lists AntiSpywareSecurityProfile#lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#lists AntiSpywareSecurityProfile#lists}
   */
   readonly lists?: AntiSpywareSecurityProfileBotnetDomainsLists[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#rtype_action AntiSpywareSecurityProfile#rtype_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#rtype_action AntiSpywareSecurityProfile#rtype_action}
   */
   readonly rtypeAction?: AntiSpywareSecurityProfileBotnetDomainsRtypeAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#sinkhole AntiSpywareSecurityProfile#sinkhole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#sinkhole AntiSpywareSecurityProfile#sinkhole}
   */
   readonly sinkhole?: AntiSpywareSecurityProfileBotnetDomainsSinkhole;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#threat_exception AntiSpywareSecurityProfile#threat_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#threat_exception AntiSpywareSecurityProfile#threat_exception}
   */
   readonly threatException?: AntiSpywareSecurityProfileBotnetDomainsThreatException[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#whitelist AntiSpywareSecurityProfile#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#whitelist AntiSpywareSecurityProfile#whitelist}
   */
   readonly whitelist?: AntiSpywareSecurityProfileBotnetDomainsWhitelistStruct[] | cdktf.IResolvable;
 }
@@ -1693,13 +1693,13 @@ export interface AntiSpywareSecurityProfileLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#panorama_device AntiSpywareSecurityProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#panorama_device AntiSpywareSecurityProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1883,13 +1883,13 @@ export interface AntiSpywareSecurityProfileLocationVsys {
   /**
   * The Virtual System name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * The NGFW device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#ngfw_device AntiSpywareSecurityProfile#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#ngfw_device AntiSpywareSecurityProfile#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -2014,19 +2014,19 @@ export interface AntiSpywareSecurityProfileLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#device_group AntiSpywareSecurityProfile#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#device_group AntiSpywareSecurityProfile#device_group}
   */
   readonly deviceGroup?: AntiSpywareSecurityProfileLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#shared AntiSpywareSecurityProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#shared AntiSpywareSecurityProfile#shared}
   */
   readonly shared?: AntiSpywareSecurityProfileLocationShared;
   /**
   * Located in a specific Virtual System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#vsys AntiSpywareSecurityProfile#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#vsys AntiSpywareSecurityProfile#vsys}
   */
   readonly vsys?: AntiSpywareSecurityProfileLocationVsys;
 }
@@ -2178,11 +2178,11 @@ export class AntiSpywareSecurityProfileLocationOutputReference extends cdktf.Com
 }
 export interface AntiSpywareSecurityProfileMicaEngineSpywareEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#inline_policy_action AntiSpywareSecurityProfile#inline_policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#inline_policy_action AntiSpywareSecurityProfile#inline_policy_action}
   */
   readonly inlinePolicyAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -2444,11 +2444,11 @@ export interface AntiSpywareSecurityProfileRulesActionBlockIp {
   /**
   * Duration for block ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#duration AntiSpywareSecurityProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#duration AntiSpywareSecurityProfile#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#track_by AntiSpywareSecurityProfile#track_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#track_by AntiSpywareSecurityProfile#track_by}
   */
   readonly trackBy?: string;
 }
@@ -2866,35 +2866,35 @@ export class AntiSpywareSecurityProfileRulesActionResetServerOutputReference ext
 }
 export interface AntiSpywareSecurityProfileRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#alert AntiSpywareSecurityProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#alert AntiSpywareSecurityProfile#alert}
   */
   readonly alert?: AntiSpywareSecurityProfileRulesActionAlert;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#allow AntiSpywareSecurityProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#allow AntiSpywareSecurityProfile#allow}
   */
   readonly allow?: AntiSpywareSecurityProfileRulesActionAllow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#block_ip AntiSpywareSecurityProfile#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#block_ip AntiSpywareSecurityProfile#block_ip}
   */
   readonly blockIp?: AntiSpywareSecurityProfileRulesActionBlockIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#default AntiSpywareSecurityProfile#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#default AntiSpywareSecurityProfile#default}
   */
   readonly default?: AntiSpywareSecurityProfileRulesActionDefault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#drop AntiSpywareSecurityProfile#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#drop AntiSpywareSecurityProfile#drop}
   */
   readonly drop?: AntiSpywareSecurityProfileRulesActionDrop;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#reset_both AntiSpywareSecurityProfile#reset_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#reset_both AntiSpywareSecurityProfile#reset_both}
   */
   readonly resetBoth?: AntiSpywareSecurityProfileRulesActionResetBoth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#reset_client AntiSpywareSecurityProfile#reset_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#reset_client AntiSpywareSecurityProfile#reset_client}
   */
   readonly resetClient?: AntiSpywareSecurityProfileRulesActionResetClient;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#reset_server AntiSpywareSecurityProfile#reset_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#reset_server AntiSpywareSecurityProfile#reset_server}
   */
   readonly resetServer?: AntiSpywareSecurityProfileRulesActionResetServer;
 }
@@ -3191,29 +3191,29 @@ export class AntiSpywareSecurityProfileRulesActionOutputReference extends cdktf.
 }
 export interface AntiSpywareSecurityProfileRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
   */
   readonly action?: AntiSpywareSecurityProfileRulesAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#category AntiSpywareSecurityProfile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#category AntiSpywareSecurityProfile#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
   */
   readonly packetCapture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#severity AntiSpywareSecurityProfile#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#severity AntiSpywareSecurityProfile#severity}
   */
   readonly severity?: string[];
   /**
   * Threat name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#threat_name AntiSpywareSecurityProfile#threat_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#threat_name AntiSpywareSecurityProfile#threat_name}
   */
   readonly threatName?: string;
 }
@@ -3591,11 +3591,11 @@ export interface AntiSpywareSecurityProfileThreatExceptionActionBlockIp {
   /**
   * Duration for block ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#duration AntiSpywareSecurityProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#duration AntiSpywareSecurityProfile#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#track_by AntiSpywareSecurityProfile#track_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#track_by AntiSpywareSecurityProfile#track_by}
   */
   readonly trackBy?: string;
 }
@@ -4013,35 +4013,35 @@ export class AntiSpywareSecurityProfileThreatExceptionActionResetServerOutputRef
 }
 export interface AntiSpywareSecurityProfileThreatExceptionAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#alert AntiSpywareSecurityProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#alert AntiSpywareSecurityProfile#alert}
   */
   readonly alert?: AntiSpywareSecurityProfileThreatExceptionActionAlert;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#allow AntiSpywareSecurityProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#allow AntiSpywareSecurityProfile#allow}
   */
   readonly allow?: AntiSpywareSecurityProfileThreatExceptionActionAllow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#block_ip AntiSpywareSecurityProfile#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#block_ip AntiSpywareSecurityProfile#block_ip}
   */
   readonly blockIp?: AntiSpywareSecurityProfileThreatExceptionActionBlockIp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#default AntiSpywareSecurityProfile#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#default AntiSpywareSecurityProfile#default}
   */
   readonly default?: AntiSpywareSecurityProfileThreatExceptionActionDefault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#drop AntiSpywareSecurityProfile#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#drop AntiSpywareSecurityProfile#drop}
   */
   readonly drop?: AntiSpywareSecurityProfileThreatExceptionActionDrop;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#reset_both AntiSpywareSecurityProfile#reset_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#reset_both AntiSpywareSecurityProfile#reset_both}
   */
   readonly resetBoth?: AntiSpywareSecurityProfileThreatExceptionActionResetBoth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#reset_client AntiSpywareSecurityProfile#reset_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#reset_client AntiSpywareSecurityProfile#reset_client}
   */
   readonly resetClient?: AntiSpywareSecurityProfileThreatExceptionActionResetClient;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#reset_server AntiSpywareSecurityProfile#reset_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#reset_server AntiSpywareSecurityProfile#reset_server}
   */
   readonly resetServer?: AntiSpywareSecurityProfileThreatExceptionActionResetServer;
 }
@@ -4338,7 +4338,7 @@ export class AntiSpywareSecurityProfileThreatExceptionActionOutputReference exte
 }
 export interface AntiSpywareSecurityProfileThreatExceptionExemptIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -4451,19 +4451,19 @@ export class AntiSpywareSecurityProfileThreatExceptionExemptIpList extends cdktf
 }
 export interface AntiSpywareSecurityProfileThreatException {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#action AntiSpywareSecurityProfile#action}
   */
   readonly action?: AntiSpywareSecurityProfileThreatExceptionAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#exempt_ip AntiSpywareSecurityProfile#exempt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#exempt_ip AntiSpywareSecurityProfile#exempt_ip}
   */
   readonly exemptIp?: AntiSpywareSecurityProfileThreatExceptionExemptIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#name AntiSpywareSecurityProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#packet_capture AntiSpywareSecurityProfile#packet_capture}
   */
   readonly packetCapture?: string;
 }
@@ -4663,7 +4663,7 @@ export class AntiSpywareSecurityProfileThreatExceptionList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile panos_anti_spyware_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile panos_anti_spyware_security_profile}
 */
 export class AntiSpywareSecurityProfile extends cdktf.TerraformResource {
 
@@ -4679,7 +4679,7 @@ export class AntiSpywareSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiSpywareSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiSpywareSecurityProfile to import
-  * @param importFromId The id of the existing AntiSpywareSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiSpywareSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiSpywareSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4691,7 +4691,7 @@ export class AntiSpywareSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/anti_spyware_security_profile panos_anti_spyware_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/anti_spyware_security_profile panos_anti_spyware_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4702,8 +4702,8 @@ export class AntiSpywareSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_anti_spyware_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface ClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of applications ID's that will be allowed to make delegation request. By default, all applications will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#allowed_clients Client#allowed_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#allowed_clients Client#allowed_clients}
   */
   readonly allowedClients?: string[];
   /**
   * URLs that Auth0 may redirect to after logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#allowed_logout_urls Client#allowed_logout_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#allowed_logout_urls Client#allowed_logout_urls}
   */
   readonly allowedLogoutUrls?: string[];
   /**
   * URLs that represent valid origins for cross-origin resource sharing. By default, all your callback URLs will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#allowed_origins Client#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#allowed_origins Client#allowed_origins}
   */
   readonly allowedOrigins?: string[];
   /**
-  * Type of application the client represents. Possible values are: `native`, `spa`, `regular_web`, `non_interactive`, `resource_server`,`sso_integration`. Specific SSO integrations types accepted as well are: `rms`, `box`, `cloudbees`, `concur`, `dropbox`, `mscrm`, `echosign`, `egnyte`, `newrelic`, `office365`, `salesforce`, `sentry`, `sharepoint`, `slack`, `springcm`, `zendesk`, `zoom`.
+  * Type of application the client represents. Possible values are: `native`, `spa`, `regular_web`, `non_interactive`, `resource_server`,`sso_integration`. Specific SSO integrations types accepted as well are: `rms`, `box`, `cloudbees`, `concur`, `dropbox`, `mscrm`, `echosign`, `egnyte`, `newrelic`, `office365`, `salesforce`, `sentry`, `sharepoint`, `slack`, `springcm`, `zendesk`, `zoom`, `express_configuration`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#app_type Client#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#app_type Client#app_type}
   */
   readonly appType?: string;
   /**
   * List of notification channels enabled for CIBA (Client-Initiated Backchannel Authentication) requests initiated by this client. Valid values are `guardian-push` and `email`. The order is significant as this is the order in which notification channels will be evaluated. Defaults to `["guardian-push"]` if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#async_approval_notification_channels Client#async_approval_notification_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#async_approval_notification_channels Client#async_approval_notification_channels}
   */
   readonly asyncApprovalNotificationChannels?: string[];
   /**
   * URLs that Auth0 may call back to after a user authenticates for the client. Make sure to specify the protocol (https://) otherwise the callback may fail in some cases. With the exception of custom URI schemes for native clients, all callbacks should use protocol https://.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#callbacks Client#callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#callbacks Client#callbacks}
   */
   readonly callbacks?: string[];
   /**
   * List of audiences/realms for SAML protocol. Used by the wsfed addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_aliases Client#client_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_aliases Client#client_aliases}
   */
   readonly clientAliases?: string[];
   /**
   * Metadata associated with the client, in the form of an object with string values (max 255 chars). Maximum of 10 metadata properties allowed. Field names (max 255 chars) are alphanumeric and may only include the following special characters: `:,-+=_*?"/\()<>@ [Tab] [Space]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_metadata Client#client_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_metadata Client#client_metadata}
   */
   readonly clientMetadata?: { [key: string]: string };
   /**
   * Defines the compliance level for this client, which may restrict it's capabilities. Can be one of `none`, `fapi1_adv_pkj_par`, `fapi1_adv_mtls_par`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#compliance_level Client#compliance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#compliance_level Client#compliance_level}
   */
   readonly complianceLevel?: string;
   /**
   * Whether this client can be used to make cross-origin authentication requests (`true`) or it is not allowed to make such requests (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#cross_origin_auth Client#cross_origin_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#cross_origin_auth Client#cross_origin_auth}
   */
   readonly crossOriginAuth?: boolean | cdktf.IResolvable;
   /**
   * URL of the location in your site where the cross-origin verification takes place for the cross-origin auth flow when performing authentication in your own domain instead of Auth0 Universal Login page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#cross_origin_loc Client#cross_origin_loc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#cross_origin_loc Client#cross_origin_loc}
   */
   readonly crossOriginLoc?: string;
   /**
   * The content (HTML, CSS, JS) of the custom login page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#custom_login_page Client#custom_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#custom_login_page Client#custom_login_page}
   */
   readonly customLoginPage?: string;
   /**
   * Indicates whether a custom login page is to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#custom_login_page_on Client#custom_login_page_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#custom_login_page_on Client#custom_login_page_on}
   */
   readonly customLoginPageOn?: boolean | cdktf.IResolvable;
   /**
   * Description of the purpose of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#description Client#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#description Client#description}
   */
   readonly description?: string;
   /**
   * Encryption used for WS-Fed responses with this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#encryption_key Client#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#encryption_key Client#encryption_key}
   */
   readonly encryptionKey?: { [key: string]: string };
   /**
   * HTML form template to be used for WS-Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#form_template Client#form_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#form_template Client#form_template}
   */
   readonly formTemplate?: string;
   /**
   * Types of grants that this client is authorized to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#grant_types Client#grant_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#grant_types Client#grant_types}
   */
   readonly grantTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#id Client#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#id Client#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,163 +119,169 @@ export interface ClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Initiate login URI. Must be HTTPS or an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#initiate_login_uri Client#initiate_login_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#initiate_login_uri Client#initiate_login_uri}
   */
   readonly initiateLoginUri?: string;
   /**
   * Indicates whether this client is a first-party client.Defaults to true from the API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#is_first_party Client#is_first_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#is_first_party Client#is_first_party}
   */
   readonly isFirstParty?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the token endpoint IP header is trusted. Requires the authentication method to be set to `client_secret_post` or `client_secret_basic`. Setting this property when creating the resource, will default the authentication method to `client_secret_post`. To change the authentication method to `client_secret_basic` use the `auth0_client_credentials` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#is_token_endpoint_ip_header_trusted Client#is_token_endpoint_ip_header_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#is_token_endpoint_ip_header_trusted Client#is_token_endpoint_ip_header_trusted}
   */
   readonly isTokenEndpointIpHeaderTrusted?: boolean | cdktf.IResolvable;
   /**
   * URL of the logo for the client. Recommended size is 150px x 150px. If none is set, the default badge for the application type will be shown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#logo_uri Client#logo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#logo_uri Client#logo_uri}
   */
   readonly logoUri?: string;
   /**
   * Name of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#name Client#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#name Client#name}
   */
   readonly name: string;
   /**
   * Set of URLs that are valid to call back from Auth0 for OIDC backchannel logout. Currently only one URL is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#oidc_backchannel_logout_urls Client#oidc_backchannel_logout_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#oidc_backchannel_logout_urls Client#oidc_backchannel_logout_urls}
   */
   readonly oidcBackchannelLogoutUrls?: string[];
   /**
   * Indicates whether this client will conform to strict OIDC specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#oidc_conformant Client#oidc_conformant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#oidc_conformant Client#oidc_conformant}
   */
   readonly oidcConformant?: boolean | cdktf.IResolvable;
   /**
   * Methods for discovering organizations during the pre_login_prompt. Can include `email` (allows users to find their organization by entering their email address) and/or `organization_name` (requires users to enter the organization name directly). These methods can be combined. Setting this property requires that `organization_require_behavior` is set to `pre_login_prompt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#organization_discovery_methods Client#organization_discovery_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#organization_discovery_methods Client#organization_discovery_methods}
   */
   readonly organizationDiscoveryMethods?: string[];
   /**
   * Defines how to proceed during an authentication transaction when `organization_usage = "require"`. Can be `no_prompt` (default), `pre_login_prompt` or  `post_login_prompt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#organization_require_behavior Client#organization_require_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#organization_require_behavior Client#organization_require_behavior}
   */
   readonly organizationRequireBehavior?: string;
   /**
   * Defines how to proceed during an authentication transaction with regards to an organization. Can be `deny` (default), `allow` or `require`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#organization_usage Client#organization_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#organization_usage Client#organization_usage}
   */
   readonly organizationUsage?: string;
   /**
   * Makes the use of Proof-of-Possession mandatory for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#require_proof_of_possession Client#require_proof_of_possession}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#require_proof_of_possession Client#require_proof_of_possession}
   */
   readonly requireProofOfPossession?: boolean | cdktf.IResolvable;
   /**
   * Makes the use of Pushed Authorization Requests mandatory for this client. This feature currently needs to be enabled on the tenant in order to make use of it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#require_pushed_authorization_requests Client#require_pushed_authorization_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#require_pushed_authorization_requests Client#require_pushed_authorization_requests}
   */
   readonly requirePushedAuthorizationRequests?: boolean | cdktf.IResolvable;
   /**
   * The identifier of a resource server that client is associated withThis property can be sent only when app_type=resource_server.This property can not be changed, once the client is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#resource_server_identifier Client#resource_server_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#resource_server_identifier Client#resource_server_identifier}
   */
   readonly resourceServerIdentifier?: string;
   /**
   * Indicates whether the confirmation prompt appears when using non-verifiable callback URIs. Set to true to skip the prompt, false to show it, or null to unset. Accepts (true/false/null) or ("true"/"false"/"null") 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#skip_non_verifiable_callback_uri_confirmation_prompt Client#skip_non_verifiable_callback_uri_confirmation_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#skip_non_verifiable_callback_uri_confirmation_prompt Client#skip_non_verifiable_callback_uri_confirmation_prompt}
   */
   readonly skipNonVerifiableCallbackUriConfirmationPrompt?: string;
   /**
   * Applies only to SSO clients and determines whether Auth0 will handle Single Sign-On (true) or whether the identity provider will (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sso Client#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sso Client#sso}
   */
   readonly sso?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether or not SSO is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sso_disabled Client#sso_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sso_disabled Client#sso_disabled}
   */
   readonly ssoDisabled?: boolean | cdktf.IResolvable;
   /**
   * URLs that represent valid web origins for use with web message response mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#web_origins Client#web_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#web_origins Client#web_origins}
   */
   readonly webOrigins?: string[];
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#addons Client#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#addons Client#addons}
   */
   readonly addons?: ClientAddons;
   /**
   * default_organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#default_organization Client#default_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#default_organization Client#default_organization}
   */
   readonly defaultOrganization?: ClientDefaultOrganization;
   /**
+  * express_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#express_configuration Client#express_configuration}
+  */
+  readonly expressConfiguration?: ClientExpressConfiguration;
+  /**
   * jwt_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#jwt_configuration Client#jwt_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#jwt_configuration Client#jwt_configuration}
   */
   readonly jwtConfiguration?: ClientJwtConfiguration;
   /**
   * mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#mobile Client#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#mobile Client#mobile}
   */
   readonly mobile?: ClientMobile;
   /**
   * native_social_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#native_social_login Client#native_social_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#native_social_login Client#native_social_login}
   */
   readonly nativeSocialLogin?: ClientNativeSocialLogin;
   /**
   * oidc_logout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#oidc_logout Client#oidc_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#oidc_logout Client#oidc_logout}
   */
   readonly oidcLogout?: ClientOidcLogout;
   /**
   * refresh_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#refresh_token Client#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#refresh_token Client#refresh_token}
   */
   readonly refreshToken?: ClientRefreshToken;
   /**
   * session_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#session_transfer Client#session_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#session_transfer Client#session_transfer}
   */
   readonly sessionTransfer?: ClientSessionTransfer;
   /**
   * token_exchange block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#token_exchange Client#token_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#token_exchange Client#token_exchange}
   */
   readonly tokenExchange?: ClientTokenExchange;
   /**
   * token_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#token_quota Client#token_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#token_quota Client#token_quota}
   */
   readonly tokenQuota?: ClientTokenQuota;
 }
@@ -283,19 +289,19 @@ export interface ClientAddonsAws {
   /**
   * AWS token lifetime in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
   */
   readonly lifetimeInSeconds?: number;
   /**
   * AWS principal ARN, for example `arn:aws:iam::010616021751:saml-provider/idpname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#principal Client#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#principal Client#principal}
   */
   readonly principal?: string;
   /**
   * AWS role ARN, for example `arn:aws:iam::010616021751:role/foo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#role Client#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#role Client#role}
   */
   readonly role?: string;
 }
@@ -439,79 +445,79 @@ export interface ClientAddonsAzureBlob {
   /**
   * Your Azure storage account name. Usually first segment in your Azure storage URL, for example `https://acme-org.blob.core.windows.net` would be the account name `acme-org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#account_name Client#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#account_name Client#account_name}
   */
   readonly accountName?: string;
   /**
   * Indicates if the issued token has permission to delete the blob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#blob_delete Client#blob_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#blob_delete Client#blob_delete}
   */
   readonly blobDelete?: boolean | cdktf.IResolvable;
   /**
   * Entity to request a token for, such as `my-blob`. If blank the computed SAS will apply to the entire storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#blob_name Client#blob_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#blob_name Client#blob_name}
   */
   readonly blobName?: string;
   /**
   * Indicates if the issued token has permission to read the content, properties, metadata and block list. Use the blob as the source of a copy operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#blob_read Client#blob_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#blob_read Client#blob_read}
   */
   readonly blobRead?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the issued token has permission to create or write content, properties, metadata, or block list. Snapshot or lease the blob. Resize the blob (page blob only). Use the blob as the destination of a copy operation within the same account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#blob_write Client#blob_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#blob_write Client#blob_write}
   */
   readonly blobWrite?: boolean | cdktf.IResolvable;
   /**
   * Indicates if issued token has permission to delete any blob in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#container_delete Client#container_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#container_delete Client#container_delete}
   */
   readonly containerDelete?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the issued token has permission to list blobs in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#container_list Client#container_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#container_list Client#container_list}
   */
   readonly containerList?: boolean | cdktf.IResolvable;
   /**
   * Container to request a token for, such as `my-container`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#container_name Client#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#container_name Client#container_name}
   */
   readonly containerName?: string;
   /**
   * Indicates if the issued token has permission to read the content, properties, metadata or block list of any blob in the container. Use any blob in the container as the source of a copy operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#container_read Client#container_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#container_read Client#container_read}
   */
   readonly containerRead?: boolean | cdktf.IResolvable;
   /**
   * Indicates that for any blob in the container if the issued token has permission to create or write content, properties, metadata, or block list. Snapshot or lease the blob. Resize the blob (page blob only). Use the blob as the destination of a copy operation within the same account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#container_write Client#container_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#container_write Client#container_write}
   */
   readonly containerWrite?: boolean | cdktf.IResolvable;
   /**
   * Expiration in minutes for the generated token (default of 5 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#expiration Client#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#expiration Client#expiration}
   */
   readonly expiration?: number;
   /**
   * Shared access policy identifier defined in your storage account resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#signed_identifier Client#signed_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#signed_identifier Client#signed_identifier}
   */
   readonly signedIdentifier?: string;
   /**
   * Access key associated with this storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#storage_access_key Client#storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#storage_access_key Client#storage_access_key}
   */
   readonly storageAccessKey?: string;
 }
@@ -945,31 +951,31 @@ export interface ClientAddonsAzureSb {
   /**
   * Entity you want to request a token for, such as `my-queue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#entity_path Client#entity_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#entity_path Client#entity_path}
   */
   readonly entityPath?: string;
   /**
   * Optional expiration in minutes for the generated token. Defaults to 5 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#expiration Client#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#expiration Client#expiration}
   */
   readonly expiration?: number;
   /**
   * Your Azure Service Bus namespace. Usually the first segment of your Service Bus URL (for example `https://acme-org.servicebus.windows.net` would be `acme-org`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#namespace Client#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#namespace Client#namespace}
   */
   readonly namespace?: string;
   /**
   * Primary Key associated with your shared access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sas_key Client#sas_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sas_key Client#sas_key}
   */
   readonly sasKey?: string;
   /**
   * Your shared access policy name defined in your Service Bus entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sas_key_name Client#sas_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sas_key_name Client#sas_key_name}
   */
   readonly sasKeyName?: string;
 }
@@ -1367,7 +1373,7 @@ export interface ClientAddonsEchosign {
   /**
   * Your custom domain found in your EchoSign URL, for example `https://acme-org.echosign.com` would be `acme-org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#domain Client#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#domain Client#domain}
   */
   readonly domain?: string;
 }
@@ -1453,7 +1459,7 @@ export interface ClientAddonsEgnyte {
   /**
   * Your custom domain found in your Egnyte URL, for example `https://acme-org.echosign.com` would be `acme-org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#domain Client#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#domain Client#domain}
   */
   readonly domain?: string;
 }
@@ -1539,31 +1545,31 @@ export interface ClientAddonsFirebase {
   /**
   * ID of the Service Account you have created (shown as `client_email` in the generated JSON file, SDK v3+ tokens only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_email Client#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_email Client#client_email}
   */
   readonly clientEmail?: string;
   /**
   * Optional expiration in seconds for the generated token. Defaults to 3600 seconds (SDK v3+ tokens only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
   */
   readonly lifetimeInSeconds?: number;
   /**
   * Private Key for signing the token (SDK v3+ tokens only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#private_key Client#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#private_key Client#private_key}
   */
   readonly privateKey?: string;
   /**
   * Optional ID of the private key to obtain the `kid` header claim from the issued token (SDK v3+ tokens only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#private_key_id Client#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#private_key_id Client#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
   * Google Firebase Secret. (SDK v2 only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#secret Client#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#secret Client#secret}
   */
   readonly secret?: string;
 }
@@ -1765,31 +1771,31 @@ export interface ClientAddonsLayer {
   /**
   * Optional expiration in minutes for the generated token. Defaults to 5 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#expiration Client#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#expiration Client#expiration}
   */
   readonly expiration?: number;
   /**
   * Authentication Key identifier used to sign the Layer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#key_id Client#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#key_id Client#key_id}
   */
   readonly keyId: string;
   /**
   * Name of the property used as the unique user ID in Layer. If not specified `user_id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#principal Client#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#principal Client#principal}
   */
   readonly principal?: string;
   /**
   * Private key for signing the Layer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#private_key Client#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#private_key Client#private_key}
   */
   readonly privateKey: string;
   /**
   * Provider ID of your Layer account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#provider_id Client#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#provider_id Client#provider_id}
   */
   readonly providerId: string;
 }
@@ -1982,7 +1988,7 @@ export interface ClientAddonsMscrm {
   /**
   * Microsoft Dynamics CRM application URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#url Client#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#url Client#url}
   */
   readonly url?: string;
 }
@@ -2068,7 +2074,7 @@ export interface ClientAddonsNewrelic {
   /**
   * Your New Relic Account ID found in your New Relic URL after the `/accounts/` path, for example `https://rpm.newrelic.com/accounts/123456/query` would be `123456`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#account Client#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#account Client#account}
   */
   readonly account?: string;
 }
@@ -2154,13 +2160,13 @@ export interface ClientAddonsOffice365 {
   /**
   * Optional Auth0 database connection for testing an already-configured Office 365 tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#connection Client#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#connection Client#connection}
   */
   readonly connection?: string;
   /**
   * Your Office 365 domain name, for example `acme-org.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#domain Client#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#domain Client#domain}
   */
   readonly domain?: string;
 }
@@ -2275,7 +2281,7 @@ export interface ClientAddonsRms {
   /**
   * URL of your Rights Management Server. It can be internal or external, but users will have to be able to reach it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#url Client#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#url Client#url}
   */
   readonly url?: string;
 }
@@ -2361,7 +2367,7 @@ export interface ClientAddonsSalesforce {
   /**
   * Arbitrary logical URL that identifies the Saleforce resource, for example `https://acme-org.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#entity_id Client#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#entity_id Client#entity_id}
   */
   readonly entityId?: string;
 }
@@ -2447,25 +2453,25 @@ export interface ClientAddonsSalesforceApi {
   /**
   * Consumer Key assigned by Salesforce to the Connected App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_id Client#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_id Client#client_id}
   */
   readonly clientId?: string;
   /**
   * Community name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#community_name Client#community_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#community_name Client#community_name}
   */
   readonly communityName?: string;
   /**
   * Community URL section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#community_url_section Client#community_url_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#community_url_section Client#community_url_section}
   */
   readonly communityUrlSection?: string;
   /**
   * Name of the property in the user object that maps to a Salesforce username, for example `email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#principal Client#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#principal Client#principal}
   */
   readonly principal?: string;
 }
@@ -2638,25 +2644,25 @@ export interface ClientAddonsSalesforceSandboxApi {
   /**
   * Consumer Key assigned by Salesforce to the Connected App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_id Client#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_id Client#client_id}
   */
   readonly clientId?: string;
   /**
   * Community name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#community_name Client#community_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#community_name Client#community_name}
   */
   readonly communityName?: string;
   /**
   * Community URL section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#community_url_section Client#community_url_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#community_url_section Client#community_url_section}
   */
   readonly communityUrlSection?: string;
   /**
   * Name of the property in the user object that maps to a Salesforce username, for example `email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#principal Client#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#principal Client#principal}
   */
   readonly principal?: string;
 }
@@ -2829,13 +2835,13 @@ export interface ClientAddonsSamlpLogout {
   /**
   * The service provider (client application)'s Single Logout Service URL, where Auth0 will send logout requests and responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#callback Client#callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#callback Client#callback}
   */
   readonly callback?: string;
   /**
   * Controls whether Auth0 should notify service providers of session termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#slo_enabled Client#slo_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#slo_enabled Client#slo_enabled}
   */
   readonly sloEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2950,133 +2956,133 @@ export interface ClientAddonsSamlp {
   /**
   * Audience of the SAML Assertion. Default will be the Issuer on SAMLRequest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#audience Client#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#audience Client#audience}
   */
   readonly audience?: string;
   /**
   * Class reference of the authentication context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#authn_context_class_ref Client#authn_context_class_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#authn_context_class_ref Client#authn_context_class_ref}
   */
   readonly authnContextClassRef?: string;
   /**
   * Protocol binding used for SAML logout responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#binding Client#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#binding Client#binding}
   */
   readonly binding?: string;
   /**
   * Indicates whether a UPN claim should be created. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#create_upn_claim Client#create_upn_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#create_upn_claim Client#create_upn_claim}
   */
   readonly createUpnClaim?: boolean | cdktf.IResolvable;
   /**
   * Destination of the SAML Response. If not specified, it will be `AssertionConsumerUrl` of SAMLRequest or callback URL if there was no SAMLRequest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#destination Client#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#destination Client#destination}
   */
   readonly destination?: string;
   /**
   * Algorithm used to calculate the digest of the SAML Assertion or response. Options include `sha1` and `sha256`. Defaults to `sha1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#digest_algorithm Client#digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#digest_algorithm Client#digest_algorithm}
   */
   readonly digestAlgorithm?: string;
   /**
   * This is a supporting attribute to `mappings` field.Please note this is an experimental field. It should only be used when needed to send a map with keys as slices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#flexible_mappings Client#flexible_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#flexible_mappings Client#flexible_mappings}
   */
   readonly flexibleMappings?: string;
   /**
   * Indicates whether or not we should infer the NameFormat based on the attribute name. If set to `false`, the attribute NameFormat is not set in the assertion. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#include_attribute_name_format Client#include_attribute_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#include_attribute_name_format Client#include_attribute_name_format}
   */
   readonly includeAttributeNameFormat?: boolean | cdktf.IResolvable;
   /**
   * Issuer of the SAML Assertion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#issuer Client#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#issuer Client#issuer}
   */
   readonly issuer?: string;
   /**
   * Number of seconds during which the token is valid. Defaults to `3600` seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
   */
   readonly lifetimeInSeconds?: number;
   /**
   * Indicates whether or not to add additional identity information in the token, such as the provider used and the `access_token`, if available. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#map_identities Client#map_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#map_identities Client#map_identities}
   */
   readonly mapIdentities?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to add a prefix of `http://schema.auth0.com` to any claims that are not mapped to the common profile when passed through in the output assertion. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#map_unknown_claims_as_is Client#map_unknown_claims_as_is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#map_unknown_claims_as_is Client#map_unknown_claims_as_is}
   */
   readonly mapUnknownClaimsAsIs?: boolean | cdktf.IResolvable;
   /**
   * Mappings between the Auth0 user profile property name (`name`) and the output attributes on the SAML attribute in the assertion (`value`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#mappings Client#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#mappings Client#mappings}
   */
   readonly mappings?: { [key: string]: string };
   /**
   * Format of the name identifier. Defaults to `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#name_identifier_format Client#name_identifier_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#name_identifier_format Client#name_identifier_format}
   */
   readonly nameIdentifierFormat?: string;
   /**
   * Attributes that can be used for Subject/NameID. Auth0 will try each of the attributes of this array in order and use the first value it finds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#name_identifier_probes Client#name_identifier_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#name_identifier_probes Client#name_identifier_probes}
   */
   readonly nameIdentifierProbes?: string[];
   /**
   * Indicates whether or not to passthrough claims that are not mapped to the common profile in the output assertion. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#passthrough_claims_with_no_mapping Client#passthrough_claims_with_no_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#passthrough_claims_with_no_mapping Client#passthrough_claims_with_no_mapping}
   */
   readonly passthroughClaimsWithNoMapping?: boolean | cdktf.IResolvable;
   /**
   * Recipient of the SAML Assertion (SubjectConfirmationData). Default is `AssertionConsumerUrl` on SAMLRequest or callback URL if no SAMLRequest was sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#recipient Client#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#recipient Client#recipient}
   */
   readonly recipient?: string;
   /**
   * Indicates whether or not the SAML Response should be signed instead of the SAML Assertion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sign_response Client#sign_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sign_response Client#sign_response}
   */
   readonly signResponse?: boolean | cdktf.IResolvable;
   /**
   * Algorithm used to sign the SAML Assertion or response. Options include `rsa-sha1` and `rsa-sha256`. Defaults to `rsa-sha1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#signature_algorithm Client#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#signature_algorithm Client#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * Optionally indicates the public key certificate used to validate SAML requests. If set, SAML requests will be required to be signed. A sample value would be `-----BEGIN PUBLIC KEY-----\nMIGf...bpP/t3\n+JGNGIRMj1hF1rnb6QIDAQAB\n-----END PUBLIC KEY-----\n`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#signing_cert Client#signing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#signing_cert Client#signing_cert}
   */
   readonly signingCert?: string;
   /**
   * Indicates whether or not we should infer the `xs:type` of the element. Types include `xs:string`, `xs:boolean`, `xs:double`, and `xs:anyType`. When set to `false`, all `xs:type` are `xs:anyType`. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#typed_attributes Client#typed_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#typed_attributes Client#typed_attributes}
   */
   readonly typedAttributes?: boolean | cdktf.IResolvable;
   /**
   * logout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#logout Client#logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#logout Client#logout}
   */
   readonly logout?: ClientAddonsSamlpLogout;
 }
@@ -3771,37 +3777,37 @@ export interface ClientAddonsSapApi {
   /**
   * If activated in the OAuth 2.0 client configuration (transaction `SOAUTH2) the SAML attribute `client_id` must be set and equal the `client_id` form parameter of the access token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_id Client#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_id Client#client_id}
   */
   readonly clientId?: string;
   /**
   * NameID element of the Subject which can be used to express the user's identity. Defaults to `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#name_identifier_format Client#name_identifier_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#name_identifier_format Client#name_identifier_format}
   */
   readonly nameIdentifierFormat?: string;
   /**
   * Requested scope for SAP APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#scope Client#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#scope Client#scope}
   */
   readonly scope?: string;
   /**
   * Service account password to use to authenticate API calls to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#service_password Client#service_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#service_password Client#service_password}
   */
   readonly servicePassword?: string;
   /**
   * The OAuth2 token endpoint URL of your SAP OData server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#token_endpoint_url Client#token_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#token_endpoint_url Client#token_endpoint_url}
   */
   readonly tokenEndpointUrl?: string;
   /**
   * Name of the property in the user object that maps to a SAP username, for example `email`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#username_attribute Client#username_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#username_attribute Client#username_attribute}
   */
   readonly usernameAttribute?: string;
 }
@@ -4032,13 +4038,13 @@ export interface ClientAddonsSentry {
   /**
   * URL prefix only if running Sentry Community Edition, otherwise leave empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#base_url Client#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#base_url Client#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Generated slug for your Sentry organization. Found in your Sentry URL, for example `https://sentry.acme.com/acme-org/` would be `acme-org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#org_slug Client#org_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#org_slug Client#org_slug}
   */
   readonly orgSlug?: string;
 }
@@ -4153,13 +4159,13 @@ export interface ClientAddonsSharepoint {
   /**
   * External SharePoint application URLs if exposed to the Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#external_url Client#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#external_url Client#external_url}
   */
   readonly externalUrl?: string[];
   /**
   * Internal SharePoint application URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#url Client#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#url Client#url}
   */
   readonly url?: string;
 }
@@ -4274,7 +4280,7 @@ export interface ClientAddonsSlack {
   /**
   * Slack team name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#team Client#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#team Client#team}
   */
   readonly team?: string;
 }
@@ -4360,7 +4366,7 @@ export interface ClientAddonsSpringcm {
   /**
   * SpringCM ACS URL, for example `https://na11.springcm.com/atlas/sso/SSOEndpoint.ashx`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#acs_url Client#acs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#acs_url Client#acs_url}
   */
   readonly acsUrl?: string;
 }
@@ -4446,13 +4452,13 @@ export interface ClientAddonsSsoIntegration {
   /**
   * SSO integration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#name Client#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#name Client#name}
   */
   readonly name?: string;
   /**
   * SSO integration version installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#version Client#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#version Client#version}
   */
   readonly version?: string;
 }
@@ -4567,7 +4573,7 @@ export interface ClientAddonsWams {
   /**
   * Your master key for Windows Azure Mobile Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#master_key Client#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#master_key Client#master_key}
   */
   readonly masterKey?: string;
 }
@@ -4702,7 +4708,7 @@ export interface ClientAddonsZendesk {
   /**
   * Zendesk account name. Usually the first segment in your Zendesk URL, for example `https://acme-org.zendesk.com` would be `acme-org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#account_name Client#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#account_name Client#account_name}
   */
   readonly accountName?: string;
 }
@@ -4788,7 +4794,7 @@ export interface ClientAddonsZoom {
   /**
   * Zoom account name. Usually the first segment of your Zoom URL, for example `https://acme-org.zoom.us` would be `acme-org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#account Client#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#account Client#account}
   */
   readonly account?: string;
 }
@@ -4874,175 +4880,175 @@ export interface ClientAddons {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#aws Client#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#aws Client#aws}
   */
   readonly aws?: ClientAddonsAws;
   /**
   * azure_blob block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#azure_blob Client#azure_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#azure_blob Client#azure_blob}
   */
   readonly azureBlob?: ClientAddonsAzureBlob;
   /**
   * azure_sb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#azure_sb Client#azure_sb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#azure_sb Client#azure_sb}
   */
   readonly azureSb?: ClientAddonsAzureSb;
   /**
   * box block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#box Client#box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#box Client#box}
   */
   readonly box?: ClientAddonsBox;
   /**
   * cloudbees block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#cloudbees Client#cloudbees}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#cloudbees Client#cloudbees}
   */
   readonly cloudbees?: ClientAddonsCloudbees;
   /**
   * concur block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#concur Client#concur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#concur Client#concur}
   */
   readonly concur?: ClientAddonsConcur;
   /**
   * dropbox block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#dropbox Client#dropbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#dropbox Client#dropbox}
   */
   readonly dropbox?: ClientAddonsDropbox;
   /**
   * echosign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#echosign Client#echosign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#echosign Client#echosign}
   */
   readonly echosign?: ClientAddonsEchosign;
   /**
   * egnyte block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#egnyte Client#egnyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#egnyte Client#egnyte}
   */
   readonly egnyte?: ClientAddonsEgnyte;
   /**
   * firebase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#firebase Client#firebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#firebase Client#firebase}
   */
   readonly firebase?: ClientAddonsFirebase;
   /**
   * layer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#layer Client#layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#layer Client#layer}
   */
   readonly layer?: ClientAddonsLayer;
   /**
   * mscrm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#mscrm Client#mscrm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#mscrm Client#mscrm}
   */
   readonly mscrm?: ClientAddonsMscrm;
   /**
   * newrelic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#newrelic Client#newrelic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#newrelic Client#newrelic}
   */
   readonly newrelic?: ClientAddonsNewrelic;
   /**
   * office365 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#office365 Client#office365}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#office365 Client#office365}
   */
   readonly office365?: ClientAddonsOffice365;
   /**
   * rms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#rms Client#rms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#rms Client#rms}
   */
   readonly rms?: ClientAddonsRms;
   /**
   * salesforce block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#salesforce Client#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#salesforce Client#salesforce}
   */
   readonly salesforce?: ClientAddonsSalesforce;
   /**
   * salesforce_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#salesforce_api Client#salesforce_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#salesforce_api Client#salesforce_api}
   */
   readonly salesforceApi?: ClientAddonsSalesforceApi;
   /**
   * salesforce_sandbox_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#salesforce_sandbox_api Client#salesforce_sandbox_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#salesforce_sandbox_api Client#salesforce_sandbox_api}
   */
   readonly salesforceSandboxApi?: ClientAddonsSalesforceSandboxApi;
   /**
   * samlp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#samlp Client#samlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#samlp Client#samlp}
   */
   readonly samlp?: ClientAddonsSamlp;
   /**
   * sap_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sap_api Client#sap_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sap_api Client#sap_api}
   */
   readonly sapApi?: ClientAddonsSapApi;
   /**
   * sentry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sentry Client#sentry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sentry Client#sentry}
   */
   readonly sentry?: ClientAddonsSentry;
   /**
   * sharepoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sharepoint Client#sharepoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sharepoint Client#sharepoint}
   */
   readonly sharepoint?: ClientAddonsSharepoint;
   /**
   * slack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#slack Client#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#slack Client#slack}
   */
   readonly slack?: ClientAddonsSlack;
   /**
   * springcm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#springcm Client#springcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#springcm Client#springcm}
   */
   readonly springcm?: ClientAddonsSpringcm;
   /**
   * sso_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sso_integration Client#sso_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sso_integration Client#sso_integration}
   */
   readonly ssoIntegration?: ClientAddonsSsoIntegration;
   /**
   * wams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#wams Client#wams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#wams Client#wams}
   */
   readonly wams?: ClientAddonsWams;
   /**
   * wsfed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#wsfed Client#wsfed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#wsfed Client#wsfed}
   */
   readonly wsfed?: ClientAddonsWsfed;
   /**
   * zendesk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#zendesk Client#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#zendesk Client#zendesk}
   */
   readonly zendesk?: ClientAddonsZendesk;
   /**
   * zoom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#zoom Client#zoom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#zoom Client#zoom}
   */
   readonly zoom?: ClientAddonsZoom;
 }
@@ -5940,19 +5946,19 @@ export interface ClientDefaultOrganization {
   /**
   * If set, the `default_organization` will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#disable Client#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#disable Client#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Definition of the flow that needs to be configured. Eg. client_credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#flows Client#flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#flows Client#flows}
   */
   readonly flows?: string[];
   /**
   * The unique identifier of the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#organization_id Client#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#organization_id Client#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -6092,29 +6098,483 @@ export class ClientDefaultOrganizationOutputReference extends cdktf.ComplexObjec
     return this._organizationId;
   }
 }
+export interface ClientExpressConfigurationLinkedClients {
+  /**
+  * The ID of the linked client.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_id Client#client_id}
+  */
+  readonly clientId?: string;
+}
+
+export function clientExpressConfigurationLinkedClientsToTerraform(struct?: ClientExpressConfigurationLinkedClients | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    client_id: cdktf.stringToTerraform(struct!.clientId),
+  }
+}
+
+
+export function clientExpressConfigurationLinkedClientsToHclTerraform(struct?: ClientExpressConfigurationLinkedClients | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    client_id: {
+      value: cdktf.stringToHclTerraform(struct!.clientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientExpressConfigurationLinkedClientsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientExpressConfigurationLinkedClients | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientId = this._clientId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientExpressConfigurationLinkedClients | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._clientId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._clientId = value.clientId;
+    }
+  }
+
+  // client_id - computed: false, optional: true, required: false
+  private _clientId?: string; 
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+  public set clientId(value: string) {
+    this._clientId = value;
+  }
+  public resetClientId() {
+    this._clientId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientIdInput() {
+    return this._clientId;
+  }
+}
+
+export class ClientExpressConfigurationLinkedClientsList extends cdktf.ComplexList {
+  public internalValue? : ClientExpressConfigurationLinkedClients[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientExpressConfigurationLinkedClientsOutputReference {
+    return new ClientExpressConfigurationLinkedClientsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientExpressConfiguration {
+  /**
+  * The domain that admins are expected to log in via for authenticating for express configuration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#admin_login_domain Client#admin_login_domain}
+  */
+  readonly adminLoginDomain?: string;
+  /**
+  * The ID of the connection profile to use for this application.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#connection_profile_id Client#connection_profile_id}
+  */
+  readonly connectionProfileId?: string;
+  /**
+  * When true, all connections made via express configuration will be enabled for this application.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enable_client Client#enable_client}
+  */
+  readonly enableClient?: boolean | cdktf.IResolvable;
+  /**
+  * When true, all connections made via express configuration will have the associated organization enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enable_organization Client#enable_organization}
+  */
+  readonly enableOrganization?: boolean | cdktf.IResolvable;
+  /**
+  * The URI users should bookmark to log in to this application. Variable substitution is permitted for: organization_name, organization_id, and connection_name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#initiate_login_uri_template Client#initiate_login_uri_template}
+  */
+  readonly initiateLoginUriTemplate?: string;
+  /**
+  * The unique identifier for the Okta OIN Express Configuration Client.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#okta_oin_client_id Client#okta_oin_client_id}
+  */
+  readonly oktaOinClientId?: string;
+  /**
+  * The ID of the user attribute profile to use for this application.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#user_attribute_profile_id Client#user_attribute_profile_id}
+  */
+  readonly userAttributeProfileId?: string;
+  /**
+  * linked_clients block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#linked_clients Client#linked_clients}
+  */
+  readonly linkedClients?: ClientExpressConfigurationLinkedClients[] | cdktf.IResolvable;
+}
+
+export function clientExpressConfigurationToTerraform(struct?: ClientExpressConfigurationOutputReference | ClientExpressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    admin_login_domain: cdktf.stringToTerraform(struct!.adminLoginDomain),
+    connection_profile_id: cdktf.stringToTerraform(struct!.connectionProfileId),
+    enable_client: cdktf.booleanToTerraform(struct!.enableClient),
+    enable_organization: cdktf.booleanToTerraform(struct!.enableOrganization),
+    initiate_login_uri_template: cdktf.stringToTerraform(struct!.initiateLoginUriTemplate),
+    okta_oin_client_id: cdktf.stringToTerraform(struct!.oktaOinClientId),
+    user_attribute_profile_id: cdktf.stringToTerraform(struct!.userAttributeProfileId),
+    linked_clients: cdktf.listMapper(clientExpressConfigurationLinkedClientsToTerraform, true)(struct!.linkedClients),
+  }
+}
+
+
+export function clientExpressConfigurationToHclTerraform(struct?: ClientExpressConfigurationOutputReference | ClientExpressConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    admin_login_domain: {
+      value: cdktf.stringToHclTerraform(struct!.adminLoginDomain),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    connection_profile_id: {
+      value: cdktf.stringToHclTerraform(struct!.connectionProfileId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_client: {
+      value: cdktf.booleanToHclTerraform(struct!.enableClient),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_organization: {
+      value: cdktf.booleanToHclTerraform(struct!.enableOrganization),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    initiate_login_uri_template: {
+      value: cdktf.stringToHclTerraform(struct!.initiateLoginUriTemplate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    okta_oin_client_id: {
+      value: cdktf.stringToHclTerraform(struct!.oktaOinClientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_attribute_profile_id: {
+      value: cdktf.stringToHclTerraform(struct!.userAttributeProfileId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    linked_clients: {
+      value: cdktf.listMapperHcl(clientExpressConfigurationLinkedClientsToHclTerraform, true)(struct!.linkedClients),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClientExpressConfigurationLinkedClientsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientExpressConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClientExpressConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adminLoginDomain !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adminLoginDomain = this._adminLoginDomain;
+    }
+    if (this._connectionProfileId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionProfileId = this._connectionProfileId;
+    }
+    if (this._enableClient !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableClient = this._enableClient;
+    }
+    if (this._enableOrganization !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableOrganization = this._enableOrganization;
+    }
+    if (this._initiateLoginUriTemplate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.initiateLoginUriTemplate = this._initiateLoginUriTemplate;
+    }
+    if (this._oktaOinClientId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oktaOinClientId = this._oktaOinClientId;
+    }
+    if (this._userAttributeProfileId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userAttributeProfileId = this._userAttributeProfileId;
+    }
+    if (this._linkedClients?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linkedClients = this._linkedClients?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientExpressConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._adminLoginDomain = undefined;
+      this._connectionProfileId = undefined;
+      this._enableClient = undefined;
+      this._enableOrganization = undefined;
+      this._initiateLoginUriTemplate = undefined;
+      this._oktaOinClientId = undefined;
+      this._userAttributeProfileId = undefined;
+      this._linkedClients.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._adminLoginDomain = value.adminLoginDomain;
+      this._connectionProfileId = value.connectionProfileId;
+      this._enableClient = value.enableClient;
+      this._enableOrganization = value.enableOrganization;
+      this._initiateLoginUriTemplate = value.initiateLoginUriTemplate;
+      this._oktaOinClientId = value.oktaOinClientId;
+      this._userAttributeProfileId = value.userAttributeProfileId;
+      this._linkedClients.internalValue = value.linkedClients;
+    }
+  }
+
+  // admin_login_domain - computed: false, optional: true, required: false
+  private _adminLoginDomain?: string; 
+  public get adminLoginDomain() {
+    return this.getStringAttribute('admin_login_domain');
+  }
+  public set adminLoginDomain(value: string) {
+    this._adminLoginDomain = value;
+  }
+  public resetAdminLoginDomain() {
+    this._adminLoginDomain = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminLoginDomainInput() {
+    return this._adminLoginDomain;
+  }
+
+  // connection_profile_id - computed: false, optional: true, required: false
+  private _connectionProfileId?: string; 
+  public get connectionProfileId() {
+    return this.getStringAttribute('connection_profile_id');
+  }
+  public set connectionProfileId(value: string) {
+    this._connectionProfileId = value;
+  }
+  public resetConnectionProfileId() {
+    this._connectionProfileId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionProfileIdInput() {
+    return this._connectionProfileId;
+  }
+
+  // enable_client - computed: false, optional: true, required: false
+  private _enableClient?: boolean | cdktf.IResolvable; 
+  public get enableClient() {
+    return this.getBooleanAttribute('enable_client');
+  }
+  public set enableClient(value: boolean | cdktf.IResolvable) {
+    this._enableClient = value;
+  }
+  public resetEnableClient() {
+    this._enableClient = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableClientInput() {
+    return this._enableClient;
+  }
+
+  // enable_organization - computed: false, optional: true, required: false
+  private _enableOrganization?: boolean | cdktf.IResolvable; 
+  public get enableOrganization() {
+    return this.getBooleanAttribute('enable_organization');
+  }
+  public set enableOrganization(value: boolean | cdktf.IResolvable) {
+    this._enableOrganization = value;
+  }
+  public resetEnableOrganization() {
+    this._enableOrganization = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableOrganizationInput() {
+    return this._enableOrganization;
+  }
+
+  // initiate_login_uri_template - computed: false, optional: true, required: false
+  private _initiateLoginUriTemplate?: string; 
+  public get initiateLoginUriTemplate() {
+    return this.getStringAttribute('initiate_login_uri_template');
+  }
+  public set initiateLoginUriTemplate(value: string) {
+    this._initiateLoginUriTemplate = value;
+  }
+  public resetInitiateLoginUriTemplate() {
+    this._initiateLoginUriTemplate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get initiateLoginUriTemplateInput() {
+    return this._initiateLoginUriTemplate;
+  }
+
+  // oin_submission_id - computed: true, optional: false, required: false
+  public get oinSubmissionId() {
+    return this.getStringAttribute('oin_submission_id');
+  }
+
+  // okta_oin_client_id - computed: true, optional: true, required: false
+  private _oktaOinClientId?: string; 
+  public get oktaOinClientId() {
+    return this.getStringAttribute('okta_oin_client_id');
+  }
+  public set oktaOinClientId(value: string) {
+    this._oktaOinClientId = value;
+  }
+  public resetOktaOinClientId() {
+    this._oktaOinClientId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oktaOinClientIdInput() {
+    return this._oktaOinClientId;
+  }
+
+  // user_attribute_profile_id - computed: false, optional: true, required: false
+  private _userAttributeProfileId?: string; 
+  public get userAttributeProfileId() {
+    return this.getStringAttribute('user_attribute_profile_id');
+  }
+  public set userAttributeProfileId(value: string) {
+    this._userAttributeProfileId = value;
+  }
+  public resetUserAttributeProfileId() {
+    this._userAttributeProfileId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userAttributeProfileIdInput() {
+    return this._userAttributeProfileId;
+  }
+
+  // linked_clients - computed: false, optional: true, required: false
+  private _linkedClients = new ClientExpressConfigurationLinkedClientsList(this, "linked_clients", false);
+  public get linkedClients() {
+    return this._linkedClients;
+  }
+  public putLinkedClients(value: ClientExpressConfigurationLinkedClients[] | cdktf.IResolvable) {
+    this._linkedClients.internalValue = value;
+  }
+  public resetLinkedClients() {
+    this._linkedClients.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linkedClientsInput() {
+    return this._linkedClients.internalValue;
+  }
+}
 export interface ClientJwtConfiguration {
   /**
   * Algorithm used to sign JWTs. Can be one of `HS256`, `RS256`, `PS256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#alg Client#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#alg Client#alg}
   */
   readonly alg?: string;
   /**
   * Number of seconds during which the JWT will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#lifetime_in_seconds Client#lifetime_in_seconds}
   */
   readonly lifetimeInSeconds?: number;
   /**
   * Permissions (scopes) included in JWTs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#scopes Client#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#scopes Client#scopes}
   */
   readonly scopes?: { [key: string]: string };
   /**
   * Indicates whether the client secret is Base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#secret_encoded Client#secret_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#secret_encoded Client#secret_encoded}
   */
   readonly secretEncoded?: boolean | cdktf.IResolvable;
 }
@@ -6285,11 +6745,11 @@ export class ClientJwtConfigurationOutputReference extends cdktf.ComplexObject {
 }
 export interface ClientMobileAndroid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#app_package_name Client#app_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#app_package_name Client#app_package_name}
   */
   readonly appPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#sha256_cert_fingerprints Client#sha256_cert_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#sha256_cert_fingerprints Client#sha256_cert_fingerprints}
   */
   readonly sha256CertFingerprints?: string[];
 }
@@ -6402,11 +6862,11 @@ export class ClientMobileAndroidOutputReference extends cdktf.ComplexObject {
 }
 export interface ClientMobileIos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#app_bundle_identifier Client#app_bundle_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#app_bundle_identifier Client#app_bundle_identifier}
   */
   readonly appBundleIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#team_id Client#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#team_id Client#team_id}
   */
   readonly teamId?: string;
 }
@@ -6521,13 +6981,13 @@ export interface ClientMobile {
   /**
   * android block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#android Client#android}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#android Client#android}
   */
   readonly android?: ClientMobileAndroid;
   /**
   * ios block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#ios Client#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#ios Client#ios}
   */
   readonly ios?: ClientMobileIos;
 }
@@ -6640,7 +7100,7 @@ export class ClientMobileOutputReference extends cdktf.ComplexObject {
 }
 export interface ClientNativeSocialLoginApple {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enabled Client#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enabled Client#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6724,7 +7184,7 @@ export class ClientNativeSocialLoginAppleOutputReference extends cdktf.ComplexOb
 }
 export interface ClientNativeSocialLoginFacebook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enabled Client#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enabled Client#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6808,7 +7268,7 @@ export class ClientNativeSocialLoginFacebookOutputReference extends cdktf.Comple
 }
 export interface ClientNativeSocialLoginGoogle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enabled Client#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enabled Client#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6894,19 +7354,19 @@ export interface ClientNativeSocialLogin {
   /**
   * apple block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#apple Client#apple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#apple Client#apple}
   */
   readonly apple?: ClientNativeSocialLoginApple;
   /**
   * facebook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#facebook Client#facebook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#facebook Client#facebook}
   */
   readonly facebook?: ClientNativeSocialLoginFacebook;
   /**
   * google block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#google Client#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#google Client#google}
   */
   readonly google?: ClientNativeSocialLoginGoogle;
 }
@@ -7050,13 +7510,13 @@ export interface ClientOidcLogoutBackchannelLogoutInitiators {
   /**
   * Determines the configuration method for enabling initiators. `custom` enables only the initiators listed in the backchannel_logout_selected_initiators set, `all` enables all current and future initiators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#mode Client#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#mode Client#mode}
   */
   readonly mode: string;
   /**
   * Contains the list of initiators to be enabled for the given client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#selected_initiators Client#selected_initiators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#selected_initiators Client#selected_initiators}
   */
   readonly selectedInitiators?: string[];
 }
@@ -7168,13 +7628,13 @@ export interface ClientOidcLogout {
   /**
   * Set of URLs that are valid to call back from Auth0 for OIDC backchannel logout. Currently only one URL is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#backchannel_logout_urls Client#backchannel_logout_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#backchannel_logout_urls Client#backchannel_logout_urls}
   */
   readonly backchannelLogoutUrls: string[];
   /**
   * backchannel_logout_initiators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#backchannel_logout_initiators Client#backchannel_logout_initiators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#backchannel_logout_initiators Client#backchannel_logout_initiators}
   */
   readonly backchannelLogoutInitiators?: ClientOidcLogoutBackchannelLogoutInitiators;
 }
@@ -7286,13 +7746,13 @@ export interface ClientRefreshTokenPolicies {
   /**
   * The identifier of the resource server to which the Multi Resource Refresh Token Policy applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#audience Client#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#audience Client#audience}
   */
   readonly audience: string;
   /**
   * The resource server permissions granted under the Multi Resource Refresh Token Policy, defining the context in which an access token can be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#scope Client#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#scope Client#scope}
   */
   readonly scope: string[];
 }
@@ -7433,49 +7893,49 @@ export interface ClientRefreshToken {
   /**
   * Options include `expiring`, `non-expiring`. Whether a refresh token will expire based on an absolute lifetime, after which the token can no longer be used. If rotation is `rotating`, this must be set to `expiring`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#expiration_type Client#expiration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#expiration_type Client#expiration_type}
   */
   readonly expirationType: string;
   /**
   * The time in seconds after which inactive refresh tokens will expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#idle_token_lifetime Client#idle_token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#idle_token_lifetime Client#idle_token_lifetime}
   */
   readonly idleTokenLifetime?: number;
   /**
   * Whether inactive refresh tokens should remain valid indefinitely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#infinite_idle_token_lifetime Client#infinite_idle_token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#infinite_idle_token_lifetime Client#infinite_idle_token_lifetime}
   */
   readonly infiniteIdleTokenLifetime?: boolean | cdktf.IResolvable;
   /**
   * Whether refresh tokens should remain valid indefinitely. If false, `token_lifetime` should also be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#infinite_token_lifetime Client#infinite_token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#infinite_token_lifetime Client#infinite_token_lifetime}
   */
   readonly infiniteTokenLifetime?: boolean | cdktf.IResolvable;
   /**
   * The amount of time in seconds in which a refresh token may be reused without triggering reuse detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#leeway Client#leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#leeway Client#leeway}
   */
   readonly leeway?: number;
   /**
   * Options include `rotating`, `non-rotating`. When `rotating`, exchanging a refresh token will cause a new refresh token to be issued and the existing token will be invalidated. This allows for automatic detection of token reuse if the token is leaked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#rotation_type Client#rotation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#rotation_type Client#rotation_type}
   */
   readonly rotationType: string;
   /**
   * The absolute lifetime of a refresh token in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#token_lifetime Client#token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#token_lifetime Client#token_lifetime}
   */
   readonly tokenLifetime?: number;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#policies Client#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#policies Client#policies}
   */
   readonly policies?: ClientRefreshTokenPolicies[] | cdktf.IResolvable;
 }
@@ -7758,35 +8218,35 @@ export interface ClientSessionTransfer {
   /**
   * Indicates whether the application is allowed to use a refresh token when using a session_transfer_token session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#allow_refresh_token Client#allow_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#allow_refresh_token Client#allow_refresh_token}
   */
   readonly allowRefreshToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#allowed_authentication_methods Client#allowed_authentication_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#allowed_authentication_methods Client#allowed_authentication_methods}
   */
   readonly allowedAuthenticationMethods?: string[];
   /**
   * Indicates whether the application(Native app) can use the Token Exchange endpoint to create a session_transfer_token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#can_create_session_transfer_token Client#can_create_session_transfer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#can_create_session_transfer_token Client#can_create_session_transfer_token}
   */
   readonly canCreateSessionTransferToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether Refresh Tokens created during a native-to-web session are tied to that session's lifetime. This determines if such refresh tokens should be automatically revoked when their corresponding sessions are.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enforce_cascade_revocation Client#enforce_cascade_revocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enforce_cascade_revocation Client#enforce_cascade_revocation}
   */
   readonly enforceCascadeRevocation?: boolean | cdktf.IResolvable;
   /**
   * Configures the level of device binding enforced when a session_transfer_token is consumed. Can be one of `ip`, `asn` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enforce_device_binding Client#enforce_device_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enforce_device_binding Client#enforce_device_binding}
   */
   readonly enforceDeviceBinding?: string;
   /**
   * Indicates whether revoking the parent Refresh Token that initiated a Native to Web flow and was used to issue a Session Transfer Token should trigger a cascade revocation affecting its dependent child entities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enforce_online_refresh_tokens Client#enforce_online_refresh_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enforce_online_refresh_tokens Client#enforce_online_refresh_tokens}
   */
   readonly enforceOnlineRefreshTokens?: boolean | cdktf.IResolvable;
 }
@@ -8017,7 +8477,7 @@ export interface ClientTokenExchange {
   /**
   * List of allowed profile types for token exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#allow_any_profile_of_type Client#allow_any_profile_of_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#allow_any_profile_of_type Client#allow_any_profile_of_type}
   */
   readonly allowAnyProfileOfType: string[];
 }
@@ -8100,19 +8560,19 @@ export interface ClientTokenQuotaClientCredentials {
   /**
   * If enabled, the quota will be enforced and requests in excess of the quota will fail. If disabled, the quota will not be enforced, but notifications for requests exceeding the quota will be available in logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#enforce Client#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#enforce Client#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of issued tokens per day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#per_day Client#per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#per_day Client#per_day}
   */
   readonly perDay?: number;
   /**
   * Maximum number of issued tokens per hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#per_hour Client#per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#per_hour Client#per_hour}
   */
   readonly perHour?: number;
 }
@@ -8256,7 +8716,7 @@ export interface ClientTokenQuota {
   /**
   * client_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#client_credentials Client#client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#client_credentials Client#client_credentials}
   */
   readonly clientCredentials: ClientTokenQuotaClientCredentials;
 }
@@ -8337,7 +8797,7 @@ export class ClientTokenQuotaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client auth0_client}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client auth0_client}
 */
 export class Client extends cdktf.TerraformResource {
 
@@ -8353,7 +8813,7 @@ export class Client extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Client resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Client to import
-  * @param importFromId The id of the existing Client that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Client that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Client to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8365,7 +8825,7 @@ export class Client extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client auth0_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client auth0_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8376,8 +8836,8 @@ export class Client extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_client',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -8424,6 +8884,7 @@ export class Client extends cdktf.TerraformResource {
     this._webOrigins = config.webOrigins;
     this._addons.internalValue = config.addons;
     this._defaultOrganization.internalValue = config.defaultOrganization;
+    this._expressConfiguration.internalValue = config.expressConfiguration;
     this._jwtConfiguration.internalValue = config.jwtConfiguration;
     this._mobile.internalValue = config.mobile;
     this._nativeSocialLogin.internalValue = config.nativeSocialLogin;
@@ -8518,7 +8979,7 @@ export class Client extends cdktf.TerraformResource {
     return this._asyncApprovalNotificationChannels;
   }
 
-  // callbacks - computed: false, optional: true, required: false
+  // callbacks - computed: true, optional: true, required: false
   private _callbacks?: string[]; 
   public get callbacks() {
     return this.getListAttribute('callbacks');
@@ -8856,7 +9317,7 @@ export class Client extends cdktf.TerraformResource {
     return this._organizationDiscoveryMethods;
   }
 
-  // organization_require_behavior - computed: false, optional: true, required: false
+  // organization_require_behavior - computed: true, optional: true, required: false
   private _organizationRequireBehavior?: string; 
   public get organizationRequireBehavior() {
     return this.getStringAttribute('organization_require_behavior');
@@ -8872,7 +9333,7 @@ export class Client extends cdktf.TerraformResource {
     return this._organizationRequireBehavior;
   }
 
-  // organization_usage - computed: false, optional: true, required: false
+  // organization_usage - computed: true, optional: true, required: false
   private _organizationUsage?: string; 
   public get organizationUsage() {
     return this.getStringAttribute('organization_usage');
@@ -9036,6 +9497,22 @@ export class Client extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get defaultOrganizationInput() {
     return this._defaultOrganization.internalValue;
+  }
+
+  // express_configuration - computed: false, optional: true, required: false
+  private _expressConfiguration = new ClientExpressConfigurationOutputReference(this, "express_configuration");
+  public get expressConfiguration() {
+    return this._expressConfiguration;
+  }
+  public putExpressConfiguration(value: ClientExpressConfiguration) {
+    this._expressConfiguration.internalValue = value;
+  }
+  public resetExpressConfiguration() {
+    this._expressConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expressConfigurationInput() {
+    return this._expressConfiguration.internalValue;
   }
 
   // jwt_configuration - computed: false, optional: true, required: false
@@ -9209,6 +9686,7 @@ export class Client extends cdktf.TerraformResource {
       web_origins: cdktf.listMapper(cdktf.stringToTerraform, false)(this._webOrigins),
       addons: clientAddonsToTerraform(this._addons.internalValue),
       default_organization: clientDefaultOrganizationToTerraform(this._defaultOrganization.internalValue),
+      express_configuration: clientExpressConfigurationToTerraform(this._expressConfiguration.internalValue),
       jwt_configuration: clientJwtConfigurationToTerraform(this._jwtConfiguration.internalValue),
       mobile: clientMobileToTerraform(this._mobile.internalValue),
       native_social_login: clientNativeSocialLoginToTerraform(this._nativeSocialLogin.internalValue),
@@ -9443,6 +9921,12 @@ export class Client extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ClientDefaultOrganizationList",
+      },
+      express_configuration: {
+        value: clientExpressConfigurationToHclTerraform(this._expressConfiguration.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClientExpressConfigurationList",
       },
       jwt_configuration: {
         value: clientJwtConfigurationToHclTerraform(this._jwtConfiguration.internalValue),

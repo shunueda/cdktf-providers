@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key
+// https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface GpgKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email address of the key owner. Used for the generation of the key. Will be ignored if `generate_keypair` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#generate_email GpgKey#generate_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#generate_email GpgKey#generate_email}
   */
   readonly generateEmail?: string;
   /**
   * Expiration date of the key. Used for the generation of the key. Will be ignored if `generate_keypair` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#generate_expires_at GpgKey#generate_expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#generate_expires_at GpgKey#generate_expires_at}
   */
   readonly generateExpiresAt?: string;
   /**
   * Full name of the key owner. Used for the generation of the key. Will be ignored if `generate_keypair` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#generate_full_name GpgKey#generate_full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#generate_full_name GpgKey#generate_full_name}
   */
   readonly generateFullName?: string;
   /**
   * If true, generate a new GPG key pair. Can not be used with `public_key`/`private_key`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#generate_keypair GpgKey#generate_keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#generate_keypair GpgKey#generate_keypair}
   */
   readonly generateKeypair?: boolean | cdktf.IResolvable;
   /**
   * Your GPG key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#name GpgKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#name GpgKey#name}
   */
   readonly name: string;
   /**
   * Partner ID who owns this GPG Key, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#partner_id GpgKey#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#partner_id GpgKey#partner_id}
   */
   readonly partnerId?: number;
   /**
   * MD5 hash of your GPG private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#private_key GpgKey#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#private_key GpgKey#private_key}
   */
   readonly privateKey?: string;
   /**
   * Your GPG private key password. Only required for password protected keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#private_key_password GpgKey#private_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#private_key_password GpgKey#private_key_password}
   */
   readonly privateKeyPassword?: string;
   /**
   * MD5 hash of your GPG public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#public_key GpgKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#public_key GpgKey#public_key}
   */
   readonly publicKey?: string;
   /**
   * User ID who owns this GPG Key, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#user_id GpgKey#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#user_id GpgKey#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key files_gpg_key}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key files_gpg_key}
 */
 export class GpgKey extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class GpgKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpgKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpgKey to import
-  * @param importFromId The id of the existing GpgKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpgKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpgKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class GpgKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/gpg_key files_gpg_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/resources/gpg_key files_gpg_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class GpgKey extends cdktf.TerraformResource {
       terraformResourceType: 'files_gpg_key',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.388',
-        providerVersionConstraint: '0.1.388'
+        providerVersion: '0.1.391',
+        providerVersionConstraint: '0.1.391'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

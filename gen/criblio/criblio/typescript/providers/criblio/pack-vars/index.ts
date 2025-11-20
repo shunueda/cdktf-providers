@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars
+// https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface PackVarsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Brief description of this variable. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#description PackVars#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#description PackVars#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#group_id PackVars#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#group_id PackVars#group_id}
   */
   readonly groupId: string;
   /**
   * Global variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#id PackVars#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#id PackVars#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#lib PackVars#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#lib PackVars#lib}
   */
   readonly lib?: string;
   /**
   * pack ID to POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#pack PackVars#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#pack PackVars#pack}
   */
   readonly pack: string;
   /**
   * One or more tags related to this variable. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#tags PackVars#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#tags PackVars#tags}
   */
   readonly tags?: string;
   /**
   * Type of variable. Default: "any"; must be one of ["string", "number", "encryptedString", "boolean", "array", "object", "expression", "any"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#type PackVars#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#type PackVars#type}
   */
   readonly type?: string;
   /**
   * Value of variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#value PackVars#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#value PackVars#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars criblio_pack_vars}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars criblio_pack_vars}
 */
 export class PackVars extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class PackVars extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackVars resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackVars to import
-  * @param importFromId The id of the existing PackVars that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackVars that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackVars to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class PackVars extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_vars criblio_pack_vars} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.32/docs/resources/pack_vars criblio_pack_vars} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class PackVars extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_vars',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.27',
-        providerVersionConstraint: '1.20.27'
+        providerVersion: '1.20.32',
+        providerVersionConstraint: '1.20.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

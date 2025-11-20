@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface RouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#annotations Route#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#annotations Route#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#description Route#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#description Route#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disable Route#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable Route#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#id Route#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#id Route#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#labels Route#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#labels Route#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace: string;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#routes Route#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#routes Route#routes}
   */
   readonly routes: RouteRoutes[] | cdktf.IResolvable;
 }
 export interface RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsTagAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#javascript_tag Route#javascript_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_tag Route#javascript_tag}
   */
   readonly javascriptTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#tag_value Route#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tag_value Route#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -196,13 +196,13 @@ export class RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsTagAttributes
 }
 export interface RouteRoutesBotDefenseJavascriptInjectionJavascriptTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#javascript_url Route#javascript_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_url Route#javascript_url}
   */
   readonly javascriptUrl: string;
   /**
   * tag_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#tag_attributes Route#tag_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tag_attributes Route#tag_attributes}
   */
   readonly tagAttributes?: RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsTagAttributes[] | cdktf.IResolvable;
 }
@@ -344,13 +344,13 @@ export class RouteRoutesBotDefenseJavascriptInjectionJavascriptTagsList extends 
 }
 export interface RouteRoutesBotDefenseJavascriptInjection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#javascript_location Route#javascript_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_location Route#javascript_location}
   */
   readonly javascriptLocation?: string;
   /**
   * javascript_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#javascript_tags Route#javascript_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#javascript_tags Route#javascript_tags}
   */
   readonly javascriptTags: RouteRoutesBotDefenseJavascriptInjectionJavascriptTags[] | cdktf.IResolvable;
 }
@@ -458,25 +458,172 @@ export class RouteRoutesBotDefenseJavascriptInjectionOutputReference extends cdk
     return this._javascriptTags.internalValue;
   }
 }
+export interface RouteRoutesBotDefenseJavascriptInjectionInlineMode {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#element_selector Route#element_selector}
+  */
+  readonly elementSelector: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#insert_content Route#insert_content}
+  */
+  readonly insertContent?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#position Route#position}
+  */
+  readonly position?: string;
+}
+
+export function routeRoutesBotDefenseJavascriptInjectionInlineModeToTerraform(struct?: RouteRoutesBotDefenseJavascriptInjectionInlineModeOutputReference | RouteRoutesBotDefenseJavascriptInjectionInlineMode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    element_selector: cdktf.stringToTerraform(struct!.elementSelector),
+    insert_content: cdktf.stringToTerraform(struct!.insertContent),
+    position: cdktf.stringToTerraform(struct!.position),
+  }
+}
+
+
+export function routeRoutesBotDefenseJavascriptInjectionInlineModeToHclTerraform(struct?: RouteRoutesBotDefenseJavascriptInjectionInlineModeOutputReference | RouteRoutesBotDefenseJavascriptInjectionInlineMode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    element_selector: {
+      value: cdktf.stringToHclTerraform(struct!.elementSelector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    insert_content: {
+      value: cdktf.stringToHclTerraform(struct!.insertContent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    position: {
+      value: cdktf.stringToHclTerraform(struct!.position),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesBotDefenseJavascriptInjectionInlineModeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesBotDefenseJavascriptInjectionInlineMode | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._elementSelector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.elementSelector = this._elementSelector;
+    }
+    if (this._insertContent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.insertContent = this._insertContent;
+    }
+    if (this._position !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.position = this._position;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesBotDefenseJavascriptInjectionInlineMode | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._elementSelector = undefined;
+      this._insertContent = undefined;
+      this._position = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._elementSelector = value.elementSelector;
+      this._insertContent = value.insertContent;
+      this._position = value.position;
+    }
+  }
+
+  // element_selector - computed: false, optional: false, required: true
+  private _elementSelector?: string; 
+  public get elementSelector() {
+    return this.getStringAttribute('element_selector');
+  }
+  public set elementSelector(value: string) {
+    this._elementSelector = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get elementSelectorInput() {
+    return this._elementSelector;
+  }
+
+  // insert_content - computed: false, optional: true, required: false
+  private _insertContent?: string; 
+  public get insertContent() {
+    return this.getStringAttribute('insert_content');
+  }
+  public set insertContent(value: string) {
+    this._insertContent = value;
+  }
+  public resetInsertContent() {
+    this._insertContent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertContentInput() {
+    return this._insertContent;
+  }
+
+  // position - computed: false, optional: true, required: false
+  private _position?: string; 
+  public get position() {
+    return this.getStringAttribute('position');
+  }
+  public set position(value: string) {
+    this._position = value;
+  }
+  public resetPosition() {
+    this._position = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get positionInput() {
+    return this._position;
+  }
+}
 export interface RouteRoutesMatchHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#exact Route#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#exact Route#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#invert_match Route#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#invert_match Route#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#presence Route#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#presence Route#presence}
   */
   readonly presence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#regex Route#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex Route#regex}
   */
   readonly regex?: string;
 }
@@ -705,15 +852,15 @@ export class RouteRoutesMatchHeadersList extends cdktf.ComplexList {
 }
 export interface RouteRoutesMatchIncomingPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#no_port_match Route#no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#no_port_match Route#no_port_match}
   */
   readonly noPortMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#port Route#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#port Route#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#port_ranges Route#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#port_ranges Route#port_ranges}
   */
   readonly portRanges?: string;
 }
@@ -855,15 +1002,15 @@ export class RouteRoutesMatchIncomingPortOutputReference extends cdktf.ComplexOb
 }
 export interface RouteRoutesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#path Route#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path Route#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#prefix Route#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#prefix Route#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#regex Route#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex Route#regex}
   */
   readonly regex?: string;
 }
@@ -1005,15 +1152,15 @@ export class RouteRoutesMatchPathOutputReference extends cdktf.ComplexObject {
 }
 export interface RouteRoutesMatchQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#exact Route#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#exact Route#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#key Route#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#regex Route#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex Route#regex}
   */
   readonly regex?: string;
 }
@@ -1184,31 +1331,31 @@ export class RouteRoutesMatchQueryParamsList extends cdktf.ComplexList {
 }
 export interface RouteRoutesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#http_method Route#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#http_method Route#http_method}
   */
   readonly httpMethod?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#headers Route#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#headers Route#headers}
   */
   readonly headers?: RouteRoutesMatchHeaders[] | cdktf.IResolvable;
   /**
   * incoming_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#incoming_port Route#incoming_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#incoming_port Route#incoming_port}
   */
   readonly incomingPort?: RouteRoutesMatchIncomingPort;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#path Route#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path Route#path}
   */
   readonly path?: RouteRoutesMatchPath;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#query_params Route#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#query_params Route#query_params}
   */
   readonly queryParams?: RouteRoutesMatchQueryParams[] | cdktf.IResolvable;
 }
@@ -1440,15 +1587,15 @@ export class RouteRoutesMatchList extends cdktf.ComplexList {
 }
 export interface RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1585,13 +1732,160 @@ export class RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoOutputR
     return this._storeProvider;
   }
 }
+export interface RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function routeRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function routeRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface RouteRoutesRequestCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -1699,19 +1993,332 @@ export class RouteRoutesRequestCookiesToAddSecretValueClearSecretInfoOutputRefer
     return this._url;
   }
 }
+export interface RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  */
+  readonly version?: number;
+}
+
+export function routeRoutesRequestCookiesToAddSecretValueVaultSecretInfoToTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function routeRoutesRequestCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  */
+  readonly name: string;
+}
+
+export function routeRoutesRequestCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function routeRoutesRequestCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface RouteRoutesRequestCookiesToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo;
 }
 
 export function routeRoutesRequestCookiesToAddSecretValueToTerraform(struct?: RouteRoutesRequestCookiesToAddSecretValueOutputReference | RouteRoutesRequestCookiesToAddSecretValue): any {
@@ -1720,8 +2327,12 @@ export function routeRoutesRequestCookiesToAddSecretValueToTerraform(struct?: Ro
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: routeRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: routeRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: routeRoutesRequestCookiesToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: routeRoutesRequestCookiesToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: routeRoutesRequestCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -1732,17 +2343,41 @@ export function routeRoutesRequestCookiesToAddSecretValueToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: routeRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: routeRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: routeRoutesRequestCookiesToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesRequestCookiesToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: routeRoutesRequestCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: routeRoutesRequestCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -1764,13 +2399,29 @@ export class RouteRoutesRequestCookiesToAddSecretValueOutputReference extends cd
   public get internalValue(): RouteRoutesRequestCookiesToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1778,14 +2429,38 @@ export class RouteRoutesRequestCookiesToAddSecretValueOutputReference extends cd
   public set internalValue(value: RouteRoutesRequestCookiesToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -1804,6 +2479,22 @@ export class RouteRoutesRequestCookiesToAddSecretValueOutputReference extends cd
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: RouteRoutesRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new RouteRoutesRequestCookiesToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -1819,24 +2510,56 @@ export class RouteRoutesRequestCookiesToAddSecretValueOutputReference extends cd
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: RouteRoutesRequestCookiesToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: RouteRoutesRequestCookiesToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface RouteRoutesRequestCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#overwrite Route#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#overwrite Route#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesRequestCookiesToAddSecretValue;
 }
@@ -2036,15 +2759,15 @@ export class RouteRoutesRequestCookiesToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2181,13 +2904,160 @@ export class RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoOutputR
     return this._storeProvider;
   }
 }
+export interface RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function routeRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function routeRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface RouteRoutesRequestHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -2295,19 +3165,332 @@ export class RouteRoutesRequestHeadersToAddSecretValueClearSecretInfoOutputRefer
     return this._url;
   }
 }
+export interface RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  */
+  readonly version?: number;
+}
+
+export function routeRoutesRequestHeadersToAddSecretValueVaultSecretInfoToTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function routeRoutesRequestHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  */
+  readonly name: string;
+}
+
+export function routeRoutesRequestHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function routeRoutesRequestHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface RouteRoutesRequestHeadersToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo;
 }
 
 export function routeRoutesRequestHeadersToAddSecretValueToTerraform(struct?: RouteRoutesRequestHeadersToAddSecretValueOutputReference | RouteRoutesRequestHeadersToAddSecretValue): any {
@@ -2316,8 +3499,12 @@ export function routeRoutesRequestHeadersToAddSecretValueToTerraform(struct?: Ro
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: routeRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: routeRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: routeRoutesRequestHeadersToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: routeRoutesRequestHeadersToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: routeRoutesRequestHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -2328,17 +3515,41 @@ export function routeRoutesRequestHeadersToAddSecretValueToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: routeRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: routeRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: routeRoutesRequestHeadersToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesRequestHeadersToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: routeRoutesRequestHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: routeRoutesRequestHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -2360,13 +3571,29 @@ export class RouteRoutesRequestHeadersToAddSecretValueOutputReference extends cd
   public get internalValue(): RouteRoutesRequestHeadersToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2374,14 +3601,38 @@ export class RouteRoutesRequestHeadersToAddSecretValueOutputReference extends cd
   public set internalValue(value: RouteRoutesRequestHeadersToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -2400,6 +3651,22 @@ export class RouteRoutesRequestHeadersToAddSecretValueOutputReference extends cd
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: RouteRoutesRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new RouteRoutesRequestHeadersToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -2415,24 +3682,56 @@ export class RouteRoutesRequestHeadersToAddSecretValueOutputReference extends cd
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: RouteRoutesRequestHeadersToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: RouteRoutesRequestHeadersToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface RouteRoutesRequestHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#append Route#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#append Route#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesRequestHeadersToAddSecretValue;
 }
@@ -2632,15 +3931,15 @@ export class RouteRoutesRequestHeadersToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -2777,13 +4076,160 @@ export class RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoOutput
     return this._storeProvider;
   }
 }
+export interface RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function routeRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function routeRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface RouteRoutesResponseCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -2891,19 +4337,332 @@ export class RouteRoutesResponseCookiesToAddSecretValueClearSecretInfoOutputRefe
     return this._url;
   }
 }
+export interface RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  */
+  readonly version?: number;
+}
+
+export function routeRoutesResponseCookiesToAddSecretValueVaultSecretInfoToTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function routeRoutesResponseCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  */
+  readonly name: string;
+}
+
+export function routeRoutesResponseCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function routeRoutesResponseCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface RouteRoutesResponseCookiesToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo;
 }
 
 export function routeRoutesResponseCookiesToAddSecretValueToTerraform(struct?: RouteRoutesResponseCookiesToAddSecretValueOutputReference | RouteRoutesResponseCookiesToAddSecretValue): any {
@@ -2912,8 +4671,12 @@ export function routeRoutesResponseCookiesToAddSecretValueToTerraform(struct?: R
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: routeRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: routeRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: routeRoutesResponseCookiesToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: routeRoutesResponseCookiesToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: routeRoutesResponseCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -2924,17 +4687,41 @@ export function routeRoutesResponseCookiesToAddSecretValueToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: routeRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: routeRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: routeRoutesResponseCookiesToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesResponseCookiesToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: routeRoutesResponseCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: routeRoutesResponseCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -2956,13 +4743,29 @@ export class RouteRoutesResponseCookiesToAddSecretValueOutputReference extends c
   public get internalValue(): RouteRoutesResponseCookiesToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2970,14 +4773,38 @@ export class RouteRoutesResponseCookiesToAddSecretValueOutputReference extends c
   public set internalValue(value: RouteRoutesResponseCookiesToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -2996,6 +4823,22 @@ export class RouteRoutesResponseCookiesToAddSecretValueOutputReference extends c
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: RouteRoutesResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new RouteRoutesResponseCookiesToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -3011,100 +4854,132 @@ export class RouteRoutesResponseCookiesToAddSecretValueOutputReference extends c
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: RouteRoutesResponseCookiesToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: RouteRoutesResponseCookiesToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface RouteRoutesResponseCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_domain Route#add_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_domain Route#add_domain}
   */
   readonly addDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_expiry Route#add_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_expiry Route#add_expiry}
   */
   readonly addExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_httponly Route#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_httponly Route#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_partitioned Route#add_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_partitioned Route#add_partitioned}
   */
   readonly addPartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_path Route#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_path Route#add_path}
   */
   readonly addPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_secure Route#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_secure Route#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_domain Route#ignore_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_domain Route#ignore_domain}
   */
   readonly ignoreDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_expiry Route#ignore_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_expiry Route#ignore_expiry}
   */
   readonly ignoreExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_httponly Route#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_httponly Route#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_max_age Route#ignore_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_max_age Route#ignore_max_age}
   */
   readonly ignoreMaxAge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_partitioned Route#ignore_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_partitioned Route#ignore_partitioned}
   */
   readonly ignorePartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_path Route#ignore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_path Route#ignore_path}
   */
   readonly ignorePath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_samesite Route#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_samesite Route#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_secure Route#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_secure Route#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_value Route#ignore_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_value Route#ignore_value}
   */
   readonly ignoreValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#max_age_value Route#max_age_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_age_value Route#max_age_value}
   */
   readonly maxAgeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#overwrite Route#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#overwrite Route#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#samesite_lax Route#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_lax Route#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#samesite_none Route#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_none Route#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#samesite_strict Route#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_strict Route#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesResponseCookiesToAddSecretValue;
 }
@@ -3855,15 +5730,15 @@ export class RouteRoutesResponseCookiesToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#decryption_provider Route#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#location Route#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#store_provider Route#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4000,13 +5875,160 @@ export class RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoOutput
     return this._storeProvider;
   }
 }
+export interface RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#decryption_provider Route#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#store_provider Route#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function routeRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function routeRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface RouteRoutesResponseHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#provider Route#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#url Route#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#url Route#url}
   */
   readonly url: string;
 }
@@ -4114,19 +6136,332 @@ export class RouteRoutesResponseHeadersToAddSecretValueClearSecretInfoOutputRefe
     return this._url;
   }
 }
+export interface RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#key Route#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#location Route#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#provider Route#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding Route#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#version Route#version}
+  */
+  readonly version?: number;
+}
+
+export function routeRoutesResponseHeadersToAddSecretValueVaultSecretInfoToTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function routeRoutesResponseHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfoOutputReference | RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  */
+  readonly name: string;
+}
+
+export function routeRoutesResponseHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function routeRoutesResponseHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference | RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface RouteRoutesResponseHeadersToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_encoding_type Route#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info Route#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#blindfold_secret_info_internal Route#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#clear_secret_info Route#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#clear_secret_info Route#clear_secret_info}
   */
   readonly clearSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#vault_secret_info Route#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#wingman_secret_info Route#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo;
 }
 
 export function routeRoutesResponseHeadersToAddSecretValueToTerraform(struct?: RouteRoutesResponseHeadersToAddSecretValueOutputReference | RouteRoutesResponseHeadersToAddSecretValue): any {
@@ -4135,8 +6470,12 @@ export function routeRoutesResponseHeadersToAddSecretValueToTerraform(struct?: R
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: routeRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: routeRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: routeRoutesResponseHeadersToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: routeRoutesResponseHeadersToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: routeRoutesResponseHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -4147,17 +6486,41 @@ export function routeRoutesResponseHeadersToAddSecretValueToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: routeRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: routeRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: routeRoutesResponseHeadersToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesResponseHeadersToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: routeRoutesResponseHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: routeRoutesResponseHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -4179,13 +6542,29 @@ export class RouteRoutesResponseHeadersToAddSecretValueOutputReference extends c
   public get internalValue(): RouteRoutesResponseHeadersToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4193,14 +6572,38 @@ export class RouteRoutesResponseHeadersToAddSecretValueOutputReference extends c
   public set internalValue(value: RouteRoutesResponseHeadersToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -4219,6 +6622,22 @@ export class RouteRoutesResponseHeadersToAddSecretValueOutputReference extends c
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: RouteRoutesResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new RouteRoutesResponseHeadersToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -4234,24 +6653,56 @@ export class RouteRoutesResponseHeadersToAddSecretValueOutputReference extends c
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: RouteRoutesResponseHeadersToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: RouteRoutesResponseHeadersToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface RouteRoutesResponseHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#append Route#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#append Route#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#value Route#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#value Route#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#secret_value Route#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#secret_value Route#secret_value}
   */
   readonly secretValue?: RouteRoutesResponseHeadersToAddSecretValue;
 }
@@ -4451,13 +6902,17 @@ export class RouteRoutesResponseHeadersToAddList extends cdktf.ComplexList {
 }
 export interface RouteRoutesRouteDestinationBufferPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disabled Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disabled Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#max_request_bytes Route#max_request_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_request_bytes Route#max_request_bytes}
   */
   readonly maxRequestBytes?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_request_time Route#max_request_time}
+  */
+  readonly maxRequestTime?: number;
 }
 
 export function routeRoutesRouteDestinationBufferPolicyToTerraform(struct?: RouteRoutesRouteDestinationBufferPolicyOutputReference | RouteRoutesRouteDestinationBufferPolicy): any {
@@ -4468,6 +6923,7 @@ export function routeRoutesRouteDestinationBufferPolicyToTerraform(struct?: Rout
   return {
     disabled: cdktf.booleanToTerraform(struct!.disabled),
     max_request_bytes: cdktf.numberToTerraform(struct!.maxRequestBytes),
+    max_request_time: cdktf.numberToTerraform(struct!.maxRequestTime),
   }
 }
 
@@ -4486,6 +6942,12 @@ export function routeRoutesRouteDestinationBufferPolicyToHclTerraform(struct?: R
     },
     max_request_bytes: {
       value: cdktf.numberToHclTerraform(struct!.maxRequestBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_request_time: {
+      value: cdktf.numberToHclTerraform(struct!.maxRequestTime),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4518,6 +6980,10 @@ export class RouteRoutesRouteDestinationBufferPolicyOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.maxRequestBytes = this._maxRequestBytes;
     }
+    if (this._maxRequestTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxRequestTime = this._maxRequestTime;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -4526,11 +6992,13 @@ export class RouteRoutesRouteDestinationBufferPolicyOutputReference extends cdkt
       this.isEmptyObject = false;
       this._disabled = undefined;
       this._maxRequestBytes = undefined;
+      this._maxRequestTime = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._disabled = value.disabled;
       this._maxRequestBytes = value.maxRequestBytes;
+      this._maxRequestTime = value.maxRequestTime;
     }
   }
 
@@ -4565,38 +7033,58 @@ export class RouteRoutesRouteDestinationBufferPolicyOutputReference extends cdkt
   public get maxRequestBytesInput() {
     return this._maxRequestBytes;
   }
+
+  // max_request_time - computed: false, optional: true, required: false
+  private _maxRequestTime?: number; 
+  public get maxRequestTime() {
+    return this.getNumberAttribute('max_request_time');
+  }
+  public set maxRequestTime(value: number) {
+    this._maxRequestTime = value;
+  }
+  public resetMaxRequestTime() {
+    this._maxRequestTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxRequestTimeInput() {
+    return this._maxRequestTime;
+  }
 }
 export interface RouteRoutesRouteDestinationCorsPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#allow_credentials Route#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_credentials Route#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#allow_headers Route#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_headers Route#allow_headers}
   */
   readonly allowHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#allow_methods Route#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_methods Route#allow_methods}
   */
   readonly allowMethods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#allow_origin Route#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_origin Route#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#allow_origin_regex Route#allow_origin_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#allow_origin_regex Route#allow_origin_regex}
   */
   readonly allowOriginRegex?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disabled Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disabled Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#expose_headers Route#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#expose_headers Route#expose_headers}
   */
   readonly exposeHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#maximum_age Route#maximum_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_age Route#max_age}
+  */
+  readonly maxAge?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#maximum_age Route#maximum_age}
   */
   readonly maximumAge?: number;
 }
@@ -4614,6 +7102,7 @@ export function routeRoutesRouteDestinationCorsPolicyToTerraform(struct?: RouteR
     allow_origin_regex: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOriginRegex),
     disabled: cdktf.booleanToTerraform(struct!.disabled),
     expose_headers: cdktf.stringToTerraform(struct!.exposeHeaders),
+    max_age: cdktf.stringToTerraform(struct!.maxAge),
     maximum_age: cdktf.numberToTerraform(struct!.maximumAge),
   }
 }
@@ -4663,6 +7152,12 @@ export function routeRoutesRouteDestinationCorsPolicyToHclTerraform(struct?: Rou
     },
     expose_headers: {
       value: cdktf.stringToHclTerraform(struct!.exposeHeaders),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_age: {
+      value: cdktf.stringToHclTerraform(struct!.maxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4721,6 +7216,10 @@ export class RouteRoutesRouteDestinationCorsPolicyOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.exposeHeaders = this._exposeHeaders;
     }
+    if (this._maxAge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxAge = this._maxAge;
+    }
     if (this._maximumAge !== undefined) {
       hasAnyValues = true;
       internalValueResult.maximumAge = this._maximumAge;
@@ -4738,6 +7237,7 @@ export class RouteRoutesRouteDestinationCorsPolicyOutputReference extends cdktf.
       this._allowOriginRegex = undefined;
       this._disabled = undefined;
       this._exposeHeaders = undefined;
+      this._maxAge = undefined;
       this._maximumAge = undefined;
     }
     else {
@@ -4749,6 +7249,7 @@ export class RouteRoutesRouteDestinationCorsPolicyOutputReference extends cdktf.
       this._allowOriginRegex = value.allowOriginRegex;
       this._disabled = value.disabled;
       this._exposeHeaders = value.exposeHeaders;
+      this._maxAge = value.maxAge;
       this._maximumAge = value.maximumAge;
     }
   }
@@ -4865,6 +7366,22 @@ export class RouteRoutesRouteDestinationCorsPolicyOutputReference extends cdktf.
     return this._exposeHeaders;
   }
 
+  // max_age - computed: false, optional: true, required: false
+  private _maxAge?: string; 
+  public get maxAge() {
+    return this.getStringAttribute('max_age');
+  }
+  public set maxAge(value: string) {
+    this._maxAge = value;
+  }
+  public resetMaxAge() {
+    this._maxAge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxAgeInput() {
+    return this._maxAge;
+  }
+
   // maximum_age - computed: false, optional: true, required: false
   private _maximumAge?: number; 
   public get maximumAge() {
@@ -4883,7 +7400,7 @@ export class RouteRoutesRouteDestinationCorsPolicyOutputReference extends cdktf.
 }
 export interface RouteRoutesRouteDestinationCsrfPolicyCustomDomainListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#domains Route#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#domains Route#domains}
   */
   readonly domains: string[];
 }
@@ -4964,17 +7481,17 @@ export class RouteRoutesRouteDestinationCsrfPolicyCustomDomainListStructOutputRe
 }
 export interface RouteRoutesRouteDestinationCsrfPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#all_load_balancer_domains Route#all_load_balancer_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#all_load_balancer_domains Route#all_load_balancer_domains}
   */
   readonly allLoadBalancerDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disabled Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disabled Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * custom_domain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#custom_domain_list Route#custom_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#custom_domain_list Route#custom_domain_list}
   */
   readonly customDomainList?: RouteRoutesRouteDestinationCsrfPolicyCustomDomainListStruct;
 }
@@ -5116,15 +7633,15 @@ export class RouteRoutesRouteDestinationCsrfPolicyOutputReference extends cdktf.
 }
 export interface RouteRoutesRouteDestinationDestinationsCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -5303,21 +7820,21 @@ export class RouteRoutesRouteDestinationDestinationsClusterList extends cdktf.Co
 }
 export interface RouteRoutesRouteDestinationDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
   */
   readonly endpointSubsets?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#priority Route#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#priority Route#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#weight Route#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#weight Route#weight}
   */
   readonly weight?: number;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#cluster Route#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cluster Route#cluster}
   */
   readonly cluster: RouteRoutesRouteDestinationDestinationsCluster[] | cdktf.IResolvable;
 }
@@ -5517,47 +8034,47 @@ export class RouteRoutesRouteDestinationDestinationsList extends cdktf.ComplexLi
 }
 export interface RouteRoutesRouteDestinationHashPolicyCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_httponly Route#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_httponly Route#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#add_secure Route#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#add_secure Route#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_httponly Route#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_httponly Route#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_samesite Route#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_samesite Route#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ignore_secure Route#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ignore_secure Route#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#path Route#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path Route#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#samesite_lax Route#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_lax Route#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#samesite_none Route#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_none Route#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#samesite_strict Route#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#samesite_strict Route#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#ttl Route#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#ttl Route#ttl}
   */
   readonly ttl?: number;
 }
@@ -5928,21 +8445,21 @@ export class RouteRoutesRouteDestinationHashPolicyCookieOutputReference extends 
 }
 export interface RouteRoutesRouteDestinationHashPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#header_name Route#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#header_name Route#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#source_ip Route#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#source_ip Route#source_ip}
   */
   readonly sourceIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#terminal Route#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#terminal Route#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#cookie Route#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cookie Route#cookie}
   */
   readonly cookie?: RouteRoutesRouteDestinationHashPolicyCookie;
 }
@@ -6145,15 +8662,15 @@ export class RouteRoutesRouteDestinationHashPolicyList extends cdktf.ComplexList
 }
 export interface RouteRoutesRouteDestinationMirrorPolicyCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -6332,11 +8849,11 @@ export class RouteRoutesRouteDestinationMirrorPolicyClusterList extends cdktf.Co
 }
 export interface RouteRoutesRouteDestinationMirrorPolicyPercent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#denominator Route#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#denominator Route#denominator}
   */
   readonly denominator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#numerator Route#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#numerator Route#numerator}
   */
   readonly numerator: number;
 }
@@ -6445,13 +8962,13 @@ export interface RouteRoutesRouteDestinationMirrorPolicy {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#cluster Route#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cluster Route#cluster}
   */
   readonly cluster: RouteRoutesRouteDestinationMirrorPolicyCluster[] | cdktf.IResolvable;
   /**
   * percent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#percent Route#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#percent Route#percent}
   */
   readonly percent?: RouteRoutesRouteDestinationMirrorPolicyPercent;
 }
@@ -6561,15 +9078,15 @@ export class RouteRoutesRouteDestinationMirrorPolicyOutputReference extends cdkt
 }
 export interface RouteRoutesRouteDestinationQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#remove_all_params Route#remove_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#remove_all_params Route#remove_all_params}
   */
   readonly removeAllParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#replace_params Route#replace_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#replace_params Route#replace_params}
   */
   readonly replaceParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#retain_all_params Route#retain_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retain_all_params Route#retain_all_params}
   */
   readonly retainAllParams?: boolean | cdktf.IResolvable;
 }
@@ -6711,11 +9228,11 @@ export class RouteRoutesRouteDestinationQueryParamsOutputReference extends cdktf
 }
 export interface RouteRoutesRouteDestinationRegexRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#pattern Route#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#pattern Route#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#substitution Route#substitution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#substitution Route#substitution}
   */
   readonly substitution?: string;
 }
@@ -6828,11 +9345,11 @@ export class RouteRoutesRouteDestinationRegexRewriteOutputReference extends cdkt
 }
 export interface RouteRoutesRouteDestinationRetryPolicyBackOff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#base_interval Route#base_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#base_interval Route#base_interval}
   */
   readonly baseInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#max_interval Route#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#max_interval Route#max_interval}
   */
   readonly maxInterval?: number;
 }
@@ -6945,25 +9462,29 @@ export class RouteRoutesRouteDestinationRetryPolicyBackOffOutputReference extend
 }
 export interface RouteRoutesRouteDestinationRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#num_retries Route#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#num_retries Route#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#per_try_timeout Route#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#per_try_timeout Route#per_try_timeout}
   */
   readonly perTryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#retriable_status_codes Route#retriable_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retriable_status_codes Route#retriable_status_codes}
   */
   readonly retriableStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#retry_condition Route#retry_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retry_condition Route#retry_condition}
   */
   readonly retryCondition: string[];
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retry_on Route#retry_on}
+  */
+  readonly retryOn?: string;
+  /**
   * back_off block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#back_off Route#back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#back_off Route#back_off}
   */
   readonly backOff?: RouteRoutesRouteDestinationRetryPolicyBackOff;
 }
@@ -6978,6 +9499,7 @@ export function routeRoutesRouteDestinationRetryPolicyToTerraform(struct?: Route
     per_try_timeout: cdktf.numberToTerraform(struct!.perTryTimeout),
     retriable_status_codes: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.retriableStatusCodes),
     retry_condition: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.retryCondition),
+    retry_on: cdktf.stringToTerraform(struct!.retryOn),
     back_off: routeRoutesRouteDestinationRetryPolicyBackOffToTerraform(struct!.backOff),
   }
 }
@@ -7012,6 +9534,12 @@ export function routeRoutesRouteDestinationRetryPolicyToHclTerraform(struct?: Ro
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    retry_on: {
+      value: cdktf.stringToHclTerraform(struct!.retryOn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     back_off: {
       value: routeRoutesRouteDestinationRetryPolicyBackOffToHclTerraform(struct!.backOff),
@@ -7055,6 +9583,10 @@ export class RouteRoutesRouteDestinationRetryPolicyOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.retryCondition = this._retryCondition;
     }
+    if (this._retryOn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.retryOn = this._retryOn;
+    }
     if (this._backOff?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.backOff = this._backOff?.internalValue;
@@ -7069,6 +9601,7 @@ export class RouteRoutesRouteDestinationRetryPolicyOutputReference extends cdktf
       this._perTryTimeout = undefined;
       this._retriableStatusCodes = undefined;
       this._retryCondition = undefined;
+      this._retryOn = undefined;
       this._backOff.internalValue = undefined;
     }
     else {
@@ -7077,6 +9610,7 @@ export class RouteRoutesRouteDestinationRetryPolicyOutputReference extends cdktf
       this._perTryTimeout = value.perTryTimeout;
       this._retriableStatusCodes = value.retriableStatusCodes;
       this._retryCondition = value.retryCondition;
+      this._retryOn = value.retryOn;
       this._backOff.internalValue = value.backOff;
     }
   }
@@ -7142,6 +9676,22 @@ export class RouteRoutesRouteDestinationRetryPolicyOutputReference extends cdktf
     return this._retryCondition;
   }
 
+  // retry_on - computed: false, optional: true, required: false
+  private _retryOn?: string; 
+  public get retryOn() {
+    return this.getStringAttribute('retry_on');
+  }
+  public set retryOn(value: string) {
+    this._retryOn = value;
+  }
+  public resetRetryOn() {
+    this._retryOn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retryOnInput() {
+    return this._retryOn;
+  }
+
   // back_off - computed: false, optional: true, required: false
   private _backOff = new RouteRoutesRouteDestinationRetryPolicyBackOffOutputReference(this, "back_off");
   public get backOff() {
@@ -7160,7 +9710,7 @@ export class RouteRoutesRouteDestinationRetryPolicyOutputReference extends cdktf
 }
 export interface RouteRoutesRouteDestinationSpdyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#use_spdy Route#use_spdy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#use_spdy Route#use_spdy}
   */
   readonly useSpdy?: boolean | cdktf.IResolvable;
 }
@@ -7244,7 +9794,7 @@ export class RouteRoutesRouteDestinationSpdyConfigOutputReference extends cdktf.
 }
 export interface RouteRoutesRouteDestinationWebSocketConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#use_websocket Route#use_websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#use_websocket Route#use_websocket}
   */
   readonly useWebsocket?: boolean | cdktf.IResolvable;
 }
@@ -7328,101 +9878,101 @@ export class RouteRoutesRouteDestinationWebSocketConfigOutputReference extends c
 }
 export interface RouteRoutesRouteDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#auto_host_rewrite Route#auto_host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#auto_host_rewrite Route#auto_host_rewrite}
   */
   readonly autoHostRewrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#do_not_retract_cluster Route#do_not_retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#do_not_retract_cluster Route#do_not_retract_cluster}
   */
   readonly doNotRetractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#endpoint_subsets Route#endpoint_subsets}
   */
   readonly endpointSubsets?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#host_rewrite Route#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#host_rewrite Route#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
   */
   readonly prefixRewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#priority Route#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#priority Route#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#retract_cluster Route#retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retract_cluster Route#retract_cluster}
   */
   readonly retractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#timeout Route#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#timeout Route#timeout}
   */
   readonly timeout?: number;
   /**
   * buffer_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#buffer_policy Route#buffer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#buffer_policy Route#buffer_policy}
   */
   readonly bufferPolicy?: RouteRoutesRouteDestinationBufferPolicy;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#cors_policy Route#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#cors_policy Route#cors_policy}
   */
   readonly corsPolicy?: RouteRoutesRouteDestinationCorsPolicy;
   /**
   * csrf_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#csrf_policy Route#csrf_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#csrf_policy Route#csrf_policy}
   */
   readonly csrfPolicy?: RouteRoutesRouteDestinationCsrfPolicy;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#destinations Route#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#destinations Route#destinations}
   */
   readonly destinations: RouteRoutesRouteDestinationDestinations[] | cdktf.IResolvable;
   /**
   * hash_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#hash_policy Route#hash_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#hash_policy Route#hash_policy}
   */
   readonly hashPolicy?: RouteRoutesRouteDestinationHashPolicy[] | cdktf.IResolvable;
   /**
   * mirror_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#mirror_policy Route#mirror_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#mirror_policy Route#mirror_policy}
   */
   readonly mirrorPolicy?: RouteRoutesRouteDestinationMirrorPolicy;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#query_params Route#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#query_params Route#query_params}
   */
   readonly queryParams?: RouteRoutesRouteDestinationQueryParams;
   /**
   * regex_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#regex_rewrite Route#regex_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#regex_rewrite Route#regex_rewrite}
   */
   readonly regexRewrite?: RouteRoutesRouteDestinationRegexRewrite;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#retry_policy Route#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retry_policy Route#retry_policy}
   */
   readonly retryPolicy?: RouteRoutesRouteDestinationRetryPolicy;
   /**
   * spdy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#spdy_config Route#spdy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#spdy_config Route#spdy_config}
   */
   readonly spdyConfig?: RouteRoutesRouteDestinationSpdyConfig;
   /**
   * web_socket_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#web_socket_config Route#web_socket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#web_socket_config Route#web_socket_config}
   */
   readonly webSocketConfig?: RouteRoutesRouteDestinationWebSocketConfig;
 }
@@ -8025,11 +10575,15 @@ export class RouteRoutesRouteDestinationOutputReference extends cdktf.ComplexObj
 }
 export interface RouteRoutesRouteDirectResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_body Route#response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_body Route#response_body}
   */
   readonly responseBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_code Route#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_body_encoded Route#response_body_encoded}
+  */
+  readonly responseBodyEncoded?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_code Route#response_code}
   */
   readonly responseCode?: number;
 }
@@ -8041,6 +10595,7 @@ export function routeRoutesRouteDirectResponseToTerraform(struct?: RouteRoutesRo
   }
   return {
     response_body: cdktf.stringToTerraform(struct!.responseBody),
+    response_body_encoded: cdktf.stringToTerraform(struct!.responseBodyEncoded),
     response_code: cdktf.numberToTerraform(struct!.responseCode),
   }
 }
@@ -8054,6 +10609,12 @@ export function routeRoutesRouteDirectResponseToHclTerraform(struct?: RouteRoute
   const attrs = {
     response_body: {
       value: cdktf.stringToHclTerraform(struct!.responseBody),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    response_body_encoded: {
+      value: cdktf.stringToHclTerraform(struct!.responseBodyEncoded),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8088,6 +10649,10 @@ export class RouteRoutesRouteDirectResponseOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.responseBody = this._responseBody;
     }
+    if (this._responseBodyEncoded !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseBodyEncoded = this._responseBodyEncoded;
+    }
     if (this._responseCode !== undefined) {
       hasAnyValues = true;
       internalValueResult.responseCode = this._responseCode;
@@ -8099,11 +10664,13 @@ export class RouteRoutesRouteDirectResponseOutputReference extends cdktf.Complex
     if (value === undefined) {
       this.isEmptyObject = false;
       this._responseBody = undefined;
+      this._responseBodyEncoded = undefined;
       this._responseCode = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._responseBody = value.responseBody;
+      this._responseBodyEncoded = value.responseBodyEncoded;
       this._responseCode = value.responseCode;
     }
   }
@@ -8124,6 +10691,22 @@ export class RouteRoutesRouteDirectResponseOutputReference extends cdktf.Complex
     return this._responseBody;
   }
 
+  // response_body_encoded - computed: false, optional: true, required: false
+  private _responseBodyEncoded?: string; 
+  public get responseBodyEncoded() {
+    return this.getStringAttribute('response_body_encoded');
+  }
+  public set responseBodyEncoded(value: string) {
+    this._responseBodyEncoded = value;
+  }
+  public resetResponseBodyEncoded() {
+    this._responseBodyEncoded = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseBodyEncodedInput() {
+    return this._responseBodyEncoded;
+  }
+
   // response_code - computed: false, optional: true, required: false
   private _responseCode?: number; 
   public get responseCode() {
@@ -8140,39 +10723,137 @@ export class RouteRoutesRouteDirectResponseOutputReference extends cdktf.Complex
     return this._responseCode;
   }
 }
+export interface RouteRoutesRouteRedirectStripQueryParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#query_params Route#query_params}
+  */
+  readonly queryParams?: string[];
+}
+
+export function routeRoutesRouteRedirectStripQueryParamsToTerraform(struct?: RouteRoutesRouteRedirectStripQueryParamsOutputReference | RouteRoutesRouteRedirectStripQueryParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    query_params: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.queryParams),
+  }
+}
+
+
+export function routeRoutesRouteRedirectStripQueryParamsToHclTerraform(struct?: RouteRoutesRouteRedirectStripQueryParamsOutputReference | RouteRoutesRouteRedirectStripQueryParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    query_params: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.queryParams),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesRouteRedirectStripQueryParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesRouteRedirectStripQueryParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._queryParams !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.queryParams = this._queryParams;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesRouteRedirectStripQueryParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._queryParams = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._queryParams = value.queryParams;
+    }
+  }
+
+  // query_params - computed: false, optional: true, required: false
+  private _queryParams?: string[]; 
+  public get queryParams() {
+    return this.getListAttribute('query_params');
+  }
+  public set queryParams(value: string[]) {
+    this._queryParams = value;
+  }
+  public resetQueryParams() {
+    this._queryParams = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queryParamsInput() {
+    return this._queryParams;
+  }
+}
 export interface RouteRoutesRouteRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#host_redirect Route#host_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#all_params Route#all_params}
+  */
+  readonly allParams?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#host_redirect Route#host_redirect}
   */
   readonly hostRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#path_redirect Route#path_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#path_redirect Route#path_redirect}
   */
   readonly pathRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#port_redirect Route#port_redirect}
+  */
+  readonly portRedirect?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#prefix_rewrite Route#prefix_rewrite}
   */
   readonly prefixRewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#proto_redirect Route#proto_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#proto_redirect Route#proto_redirect}
   */
   readonly protoRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#remove_all_params Route#remove_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#remove_all_params Route#remove_all_params}
   */
   readonly removeAllParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#replace_params Route#replace_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#replace_params Route#replace_params}
   */
   readonly replaceParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_code Route#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_code Route#response_code}
   */
   readonly responseCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#retain_all_params Route#retain_all_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#retain_all_params Route#retain_all_params}
   */
   readonly retainAllParams?: boolean | cdktf.IResolvable;
+  /**
+  * strip_query_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#strip_query_params Route#strip_query_params}
+  */
+  readonly stripQueryParams?: RouteRoutesRouteRedirectStripQueryParams;
 }
 
 export function routeRoutesRouteRedirectToTerraform(struct?: RouteRoutesRouteRedirectOutputReference | RouteRoutesRouteRedirect): any {
@@ -8181,14 +10862,17 @@ export function routeRoutesRouteRedirectToTerraform(struct?: RouteRoutesRouteRed
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    all_params: cdktf.booleanToTerraform(struct!.allParams),
     host_redirect: cdktf.stringToTerraform(struct!.hostRedirect),
     path_redirect: cdktf.stringToTerraform(struct!.pathRedirect),
+    port_redirect: cdktf.numberToTerraform(struct!.portRedirect),
     prefix_rewrite: cdktf.stringToTerraform(struct!.prefixRewrite),
     proto_redirect: cdktf.stringToTerraform(struct!.protoRedirect),
     remove_all_params: cdktf.booleanToTerraform(struct!.removeAllParams),
     replace_params: cdktf.stringToTerraform(struct!.replaceParams),
     response_code: cdktf.numberToTerraform(struct!.responseCode),
     retain_all_params: cdktf.booleanToTerraform(struct!.retainAllParams),
+    strip_query_params: routeRoutesRouteRedirectStripQueryParamsToTerraform(struct!.stripQueryParams),
   }
 }
 
@@ -8199,6 +10883,12 @@ export function routeRoutesRouteRedirectToHclTerraform(struct?: RouteRoutesRoute
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    all_params: {
+      value: cdktf.booleanToHclTerraform(struct!.allParams),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     host_redirect: {
       value: cdktf.stringToHclTerraform(struct!.hostRedirect),
       isBlock: false,
@@ -8210,6 +10900,12 @@ export function routeRoutesRouteRedirectToHclTerraform(struct?: RouteRoutesRoute
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    port_redirect: {
+      value: cdktf.numberToHclTerraform(struct!.portRedirect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     prefix_rewrite: {
       value: cdktf.stringToHclTerraform(struct!.prefixRewrite),
@@ -8247,6 +10943,12 @@ export function routeRoutesRouteRedirectToHclTerraform(struct?: RouteRoutesRoute
       type: "simple",
       storageClassType: "boolean",
     },
+    strip_query_params: {
+      value: routeRoutesRouteRedirectStripQueryParamsToHclTerraform(struct!.stripQueryParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesRouteRedirectStripQueryParamsList",
+    },
   };
 
   // remove undefined attributes
@@ -8267,6 +10969,10 @@ export class RouteRoutesRouteRedirectOutputReference extends cdktf.ComplexObject
   public get internalValue(): RouteRoutesRouteRedirect | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._allParams !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allParams = this._allParams;
+    }
     if (this._hostRedirect !== undefined) {
       hasAnyValues = true;
       internalValueResult.hostRedirect = this._hostRedirect;
@@ -8274,6 +10980,10 @@ export class RouteRoutesRouteRedirectOutputReference extends cdktf.ComplexObject
     if (this._pathRedirect !== undefined) {
       hasAnyValues = true;
       internalValueResult.pathRedirect = this._pathRedirect;
+    }
+    if (this._portRedirect !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portRedirect = this._portRedirect;
     }
     if (this._prefixRewrite !== undefined) {
       hasAnyValues = true;
@@ -8299,32 +11009,58 @@ export class RouteRoutesRouteRedirectOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.retainAllParams = this._retainAllParams;
     }
+    if (this._stripQueryParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stripQueryParams = this._stripQueryParams?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: RouteRoutesRouteRedirect | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._allParams = undefined;
       this._hostRedirect = undefined;
       this._pathRedirect = undefined;
+      this._portRedirect = undefined;
       this._prefixRewrite = undefined;
       this._protoRedirect = undefined;
       this._removeAllParams = undefined;
       this._replaceParams = undefined;
       this._responseCode = undefined;
       this._retainAllParams = undefined;
+      this._stripQueryParams.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._allParams = value.allParams;
       this._hostRedirect = value.hostRedirect;
       this._pathRedirect = value.pathRedirect;
+      this._portRedirect = value.portRedirect;
       this._prefixRewrite = value.prefixRewrite;
       this._protoRedirect = value.protoRedirect;
       this._removeAllParams = value.removeAllParams;
       this._replaceParams = value.replaceParams;
       this._responseCode = value.responseCode;
       this._retainAllParams = value.retainAllParams;
+      this._stripQueryParams.internalValue = value.stripQueryParams;
     }
+  }
+
+  // all_params - computed: false, optional: true, required: false
+  private _allParams?: boolean | cdktf.IResolvable; 
+  public get allParams() {
+    return this.getBooleanAttribute('all_params');
+  }
+  public set allParams(value: boolean | cdktf.IResolvable) {
+    this._allParams = value;
+  }
+  public resetAllParams() {
+    this._allParams = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allParamsInput() {
+    return this._allParams;
   }
 
   // host_redirect - computed: false, optional: true, required: false
@@ -8357,6 +11093,22 @@ export class RouteRoutesRouteRedirectOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get pathRedirectInput() {
     return this._pathRedirect;
+  }
+
+  // port_redirect - computed: false, optional: true, required: false
+  private _portRedirect?: number; 
+  public get portRedirect() {
+    return this.getNumberAttribute('port_redirect');
+  }
+  public set portRedirect(value: number) {
+    this._portRedirect = value;
+  }
+  public resetPortRedirect() {
+    this._portRedirect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portRedirectInput() {
+    return this._portRedirect;
   }
 
   // prefix_rewrite - computed: false, optional: true, required: false
@@ -8454,12 +11206,118 @@ export class RouteRoutesRouteRedirectOutputReference extends cdktf.ComplexObject
   public get retainAllParamsInput() {
     return this._retainAllParams;
   }
+
+  // strip_query_params - computed: false, optional: true, required: false
+  private _stripQueryParams = new RouteRoutesRouteRedirectStripQueryParamsOutputReference(this, "strip_query_params");
+  public get stripQueryParams() {
+    return this._stripQueryParams;
+  }
+  public putStripQueryParams(value: RouteRoutesRouteRedirectStripQueryParams) {
+    this._stripQueryParams.internalValue = value;
+  }
+  public resetStripQueryParams() {
+    this._stripQueryParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stripQueryParamsInput() {
+    return this._stripQueryParams.internalValue;
+  }
+}
+export interface RouteRoutesServicePolicyContextExtensions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#context_extensions Route#context_extensions}
+  */
+  readonly contextExtensions?: { [key: string]: string };
+}
+
+export function routeRoutesServicePolicyContextExtensionsToTerraform(struct?: RouteRoutesServicePolicyContextExtensionsOutputReference | RouteRoutesServicePolicyContextExtensions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    context_extensions: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.contextExtensions),
+  }
+}
+
+
+export function routeRoutesServicePolicyContextExtensionsToHclTerraform(struct?: RouteRoutesServicePolicyContextExtensionsOutputReference | RouteRoutesServicePolicyContextExtensions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    context_extensions: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.contextExtensions),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesServicePolicyContextExtensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesServicePolicyContextExtensions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._contextExtensions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.contextExtensions = this._contextExtensions;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesServicePolicyContextExtensions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._contextExtensions = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._contextExtensions = value.contextExtensions;
+    }
+  }
+
+  // context_extensions - computed: false, optional: true, required: false
+  private _contextExtensions?: { [key: string]: string }; 
+  public get contextExtensions() {
+    return this.getStringMapAttribute('context_extensions');
+  }
+  public set contextExtensions(value: { [key: string]: string }) {
+    this._contextExtensions = value;
+  }
+  public resetContextExtensions() {
+    this._contextExtensions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contextExtensionsInput() {
+    return this._contextExtensions;
+  }
 }
 export interface RouteRoutesServicePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disable Route#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable Route#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * context_extensions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#context_extensions Route#context_extensions}
+  */
+  readonly contextExtensions?: RouteRoutesServicePolicyContextExtensions;
 }
 
 export function routeRoutesServicePolicyToTerraform(struct?: RouteRoutesServicePolicyOutputReference | RouteRoutesServicePolicy): any {
@@ -8469,6 +11327,7 @@ export function routeRoutesServicePolicyToTerraform(struct?: RouteRoutesServiceP
   }
   return {
     disable: cdktf.booleanToTerraform(struct!.disable),
+    context_extensions: routeRoutesServicePolicyContextExtensionsToTerraform(struct!.contextExtensions),
   }
 }
 
@@ -8484,6 +11343,12 @@ export function routeRoutesServicePolicyToHclTerraform(struct?: RouteRoutesServi
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    context_extensions: {
+      value: routeRoutesServicePolicyContextExtensionsToHclTerraform(struct!.contextExtensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesServicePolicyContextExtensionsList",
     },
   };
 
@@ -8509,6 +11374,10 @@ export class RouteRoutesServicePolicyOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.disable = this._disable;
     }
+    if (this._contextExtensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.contextExtensions = this._contextExtensions?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -8516,10 +11385,12 @@ export class RouteRoutesServicePolicyOutputReference extends cdktf.ComplexObject
     if (value === undefined) {
       this.isEmptyObject = false;
       this._disable = undefined;
+      this._contextExtensions.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._disable = value.disable;
+      this._contextExtensions.internalValue = value.contextExtensions;
     }
   }
 
@@ -8538,18 +11409,371 @@ export class RouteRoutesServicePolicyOutputReference extends cdktf.ComplexObject
   public get disableInput() {
     return this._disable;
   }
+
+  // context_extensions - computed: false, optional: true, required: false
+  private _contextExtensions = new RouteRoutesServicePolicyContextExtensionsOutputReference(this, "context_extensions");
+  public get contextExtensions() {
+    return this._contextExtensions;
+  }
+  public putContextExtensions(value: RouteRoutesServicePolicyContextExtensions) {
+    this._contextExtensions.internalValue = value;
+  }
+  public resetContextExtensions() {
+    this._contextExtensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contextExtensionsInput() {
+    return this._contextExtensions.internalValue;
+  }
 }
-export interface RouteRoutesWafTypeAppFirewallAppFirewall {
+export interface RouteRoutesWafExclusionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#name Route#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#namespace Route#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#tenant Route#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function routeRoutesWafExclusionPolicyToTerraform(struct?: RouteRoutesWafExclusionPolicyOutputReference | RouteRoutesWafExclusionPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function routeRoutesWafExclusionPolicyToHclTerraform(struct?: RouteRoutesWafExclusionPolicyOutputReference | RouteRoutesWafExclusionPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesWafExclusionPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouteRoutesWafExclusionPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesWafExclusionPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface RouteRoutesWafExclusionServicePolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function routeRoutesWafExclusionServicePolicyToTerraform(struct?: RouteRoutesWafExclusionServicePolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function routeRoutesWafExclusionServicePolicyToHclTerraform(struct?: RouteRoutesWafExclusionServicePolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteRoutesWafExclusionServicePolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RouteRoutesWafExclusionServicePolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteRoutesWafExclusionServicePolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class RouteRoutesWafExclusionServicePolicyList extends cdktf.ComplexList {
+  public internalValue? : RouteRoutesWafExclusionServicePolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RouteRoutesWafExclusionServicePolicyOutputReference {
+    return new RouteRoutesWafExclusionServicePolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RouteRoutesWafTypeAppFirewallAppFirewall {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#name Route#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#namespace Route#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#tenant Route#tenant}
   */
   readonly tenant?: string;
 }
@@ -8730,7 +11954,7 @@ export interface RouteRoutesWafTypeAppFirewall {
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#app_firewall Route#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#app_firewall Route#app_firewall}
   */
   readonly appFirewall: RouteRoutesWafTypeAppFirewallAppFirewall[] | cdktf.IResolvable;
 }
@@ -8811,17 +12035,17 @@ export class RouteRoutesWafTypeAppFirewallOutputReference extends cdktf.ComplexO
 }
 export interface RouteRoutesWafType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disable_waf Route#disable_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable_waf Route#disable_waf}
   */
   readonly disableWaf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#inherit_waf Route#inherit_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#inherit_waf Route#inherit_waf}
   */
   readonly inheritWaf?: boolean | cdktf.IResolvable;
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#app_firewall Route#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#app_firewall Route#app_firewall}
   */
   readonly appFirewall?: RouteRoutesWafTypeAppFirewall;
 }
@@ -8963,93 +12187,127 @@ export class RouteRoutesWafTypeOutputReference extends cdktf.ComplexObject {
 }
 export interface RouteRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#disable_location_add Route#disable_location_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable_custom_script Route#disable_custom_script}
+  */
+  readonly disableCustomScript?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#disable_location_add Route#disable_location_add}
   */
   readonly disableLocationAdd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#inherited_bot_defense_javascript_injection Route#inherited_bot_defense_javascript_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#inherited_bot_defense_javascript_injection Route#inherited_bot_defense_javascript_injection}
   */
   readonly inheritedBotDefenseJavascriptInjection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#request_cookies_to_remove Route#request_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#inherited_waf_exclusion Route#inherited_waf_exclusion}
+  */
+  readonly inheritedWafExclusion?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_cookies_to_remove Route#request_cookies_to_remove}
   */
   readonly requestCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#request_headers_to_remove Route#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_headers_to_remove Route#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_cookies_to_remove Route#response_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_cookies_to_remove Route#response_cookies_to_remove}
   */
   readonly responseCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_headers_to_remove Route#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_headers_to_remove Route#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#skip_lb_override Route#skip_lb_override}
+  */
+  readonly skipLbOverride?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#uuid Route#uuid}
+  */
+  readonly uuid?: string;
+  /**
   * bot_defense_javascript_injection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#bot_defense_javascript_injection Route#bot_defense_javascript_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#bot_defense_javascript_injection Route#bot_defense_javascript_injection}
   */
   readonly botDefenseJavascriptInjection?: RouteRoutesBotDefenseJavascriptInjection;
   /**
+  * bot_defense_javascript_injection_inline_mode block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#bot_defense_javascript_injection_inline_mode Route#bot_defense_javascript_injection_inline_mode}
+  */
+  readonly botDefenseJavascriptInjectionInlineMode?: RouteRoutesBotDefenseJavascriptInjectionInlineMode;
+  /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#match Route#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#match Route#match}
   */
   readonly match?: RouteRoutesMatch[] | cdktf.IResolvable;
   /**
   * request_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#request_cookies_to_add Route#request_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_cookies_to_add Route#request_cookies_to_add}
   */
   readonly requestCookiesToAdd?: RouteRoutesRequestCookiesToAdd[] | cdktf.IResolvable;
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#request_headers_to_add Route#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#request_headers_to_add Route#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: RouteRoutesRequestHeadersToAdd[] | cdktf.IResolvable;
   /**
   * response_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_cookies_to_add Route#response_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_cookies_to_add Route#response_cookies_to_add}
   */
   readonly responseCookiesToAdd?: RouteRoutesResponseCookiesToAdd[] | cdktf.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#response_headers_to_add Route#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#response_headers_to_add Route#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: RouteRoutesResponseHeadersToAdd[] | cdktf.IResolvable;
   /**
   * route_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#route_destination Route#route_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#route_destination Route#route_destination}
   */
   readonly routeDestination?: RouteRoutesRouteDestination;
   /**
   * route_direct_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#route_direct_response Route#route_direct_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#route_direct_response Route#route_direct_response}
   */
   readonly routeDirectResponse?: RouteRoutesRouteDirectResponse;
   /**
   * route_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#route_redirect Route#route_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#route_redirect Route#route_redirect}
   */
   readonly routeRedirect?: RouteRoutesRouteRedirect;
   /**
   * service_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#service_policy Route#service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#service_policy Route#service_policy}
   */
   readonly servicePolicy?: RouteRoutesServicePolicy;
   /**
+  * waf_exclusion_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#waf_exclusion_policy Route#waf_exclusion_policy}
+  */
+  readonly wafExclusionPolicy: RouteRoutesWafExclusionPolicy;
+  /**
+  * waf_exclusion_service_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#waf_exclusion_service_policy Route#waf_exclusion_service_policy}
+  */
+  readonly wafExclusionServicePolicy?: RouteRoutesWafExclusionServicePolicy[] | cdktf.IResolvable;
+  /**
   * waf_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#waf_type Route#waf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#waf_type Route#waf_type}
   */
   readonly wafType?: RouteRoutesWafType;
 }
@@ -9060,13 +12318,18 @@ export function routeRoutesToTerraform(struct?: RouteRoutes | cdktf.IResolvable)
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_custom_script: cdktf.booleanToTerraform(struct!.disableCustomScript),
     disable_location_add: cdktf.booleanToTerraform(struct!.disableLocationAdd),
     inherited_bot_defense_javascript_injection: cdktf.booleanToTerraform(struct!.inheritedBotDefenseJavascriptInjection),
+    inherited_waf_exclusion: cdktf.booleanToTerraform(struct!.inheritedWafExclusion),
     request_cookies_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestCookiesToRemove),
     request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
     response_cookies_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseCookiesToRemove),
     response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    skip_lb_override: cdktf.booleanToTerraform(struct!.skipLbOverride),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
     bot_defense_javascript_injection: routeRoutesBotDefenseJavascriptInjectionToTerraform(struct!.botDefenseJavascriptInjection),
+    bot_defense_javascript_injection_inline_mode: routeRoutesBotDefenseJavascriptInjectionInlineModeToTerraform(struct!.botDefenseJavascriptInjectionInlineMode),
     match: cdktf.listMapper(routeRoutesMatchToTerraform, true)(struct!.match),
     request_cookies_to_add: cdktf.listMapper(routeRoutesRequestCookiesToAddToTerraform, true)(struct!.requestCookiesToAdd),
     request_headers_to_add: cdktf.listMapper(routeRoutesRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
@@ -9076,6 +12339,8 @@ export function routeRoutesToTerraform(struct?: RouteRoutes | cdktf.IResolvable)
     route_direct_response: routeRoutesRouteDirectResponseToTerraform(struct!.routeDirectResponse),
     route_redirect: routeRoutesRouteRedirectToTerraform(struct!.routeRedirect),
     service_policy: routeRoutesServicePolicyToTerraform(struct!.servicePolicy),
+    waf_exclusion_policy: routeRoutesWafExclusionPolicyToTerraform(struct!.wafExclusionPolicy),
+    waf_exclusion_service_policy: cdktf.listMapper(routeRoutesWafExclusionServicePolicyToTerraform, true)(struct!.wafExclusionServicePolicy),
     waf_type: routeRoutesWafTypeToTerraform(struct!.wafType),
   }
 }
@@ -9087,6 +12352,12 @@ export function routeRoutesToHclTerraform(struct?: RouteRoutes | cdktf.IResolvab
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_custom_script: {
+      value: cdktf.booleanToHclTerraform(struct!.disableCustomScript),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     disable_location_add: {
       value: cdktf.booleanToHclTerraform(struct!.disableLocationAdd),
       isBlock: false,
@@ -9095,6 +12366,12 @@ export function routeRoutesToHclTerraform(struct?: RouteRoutes | cdktf.IResolvab
     },
     inherited_bot_defense_javascript_injection: {
       value: cdktf.booleanToHclTerraform(struct!.inheritedBotDefenseJavascriptInjection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    inherited_waf_exclusion: {
+      value: cdktf.booleanToHclTerraform(struct!.inheritedWafExclusion),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -9123,11 +12400,29 @@ export function routeRoutesToHclTerraform(struct?: RouteRoutes | cdktf.IResolvab
       type: "list",
       storageClassType: "stringList",
     },
+    skip_lb_override: {
+      value: cdktf.booleanToHclTerraform(struct!.skipLbOverride),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     bot_defense_javascript_injection: {
       value: routeRoutesBotDefenseJavascriptInjectionToHclTerraform(struct!.botDefenseJavascriptInjection),
       isBlock: true,
       type: "list",
       storageClassType: "RouteRoutesBotDefenseJavascriptInjectionList",
+    },
+    bot_defense_javascript_injection_inline_mode: {
+      value: routeRoutesBotDefenseJavascriptInjectionInlineModeToHclTerraform(struct!.botDefenseJavascriptInjectionInlineMode),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesBotDefenseJavascriptInjectionInlineModeList",
     },
     match: {
       value: cdktf.listMapperHcl(routeRoutesMatchToHclTerraform, true)(struct!.match),
@@ -9183,6 +12478,18 @@ export function routeRoutesToHclTerraform(struct?: RouteRoutes | cdktf.IResolvab
       type: "list",
       storageClassType: "RouteRoutesServicePolicyList",
     },
+    waf_exclusion_policy: {
+      value: routeRoutesWafExclusionPolicyToHclTerraform(struct!.wafExclusionPolicy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesWafExclusionPolicyList",
+    },
+    waf_exclusion_service_policy: {
+      value: cdktf.listMapperHcl(routeRoutesWafExclusionServicePolicyToHclTerraform, true)(struct!.wafExclusionServicePolicy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouteRoutesWafExclusionServicePolicyList",
+    },
     waf_type: {
       value: routeRoutesWafTypeToHclTerraform(struct!.wafType),
       isBlock: true,
@@ -9215,6 +12522,10 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableCustomScript !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableCustomScript = this._disableCustomScript;
+    }
     if (this._disableLocationAdd !== undefined) {
       hasAnyValues = true;
       internalValueResult.disableLocationAdd = this._disableLocationAdd;
@@ -9222,6 +12533,10 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
     if (this._inheritedBotDefenseJavascriptInjection !== undefined) {
       hasAnyValues = true;
       internalValueResult.inheritedBotDefenseJavascriptInjection = this._inheritedBotDefenseJavascriptInjection;
+    }
+    if (this._inheritedWafExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.inheritedWafExclusion = this._inheritedWafExclusion;
     }
     if (this._requestCookiesToRemove !== undefined) {
       hasAnyValues = true;
@@ -9239,9 +12554,21 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.responseHeadersToRemove = this._responseHeadersToRemove;
     }
+    if (this._skipLbOverride !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipLbOverride = this._skipLbOverride;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
     if (this._botDefenseJavascriptInjection?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.botDefenseJavascriptInjection = this._botDefenseJavascriptInjection?.internalValue;
+    }
+    if (this._botDefenseJavascriptInjectionInlineMode?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.botDefenseJavascriptInjectionInlineMode = this._botDefenseJavascriptInjectionInlineMode?.internalValue;
     }
     if (this._match?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -9279,6 +12606,14 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.servicePolicy = this._servicePolicy?.internalValue;
     }
+    if (this._wafExclusionPolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wafExclusionPolicy = this._wafExclusionPolicy?.internalValue;
+    }
+    if (this._wafExclusionServicePolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wafExclusionServicePolicy = this._wafExclusionServicePolicy?.internalValue;
+    }
     if (this._wafType?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.wafType = this._wafType?.internalValue;
@@ -9290,13 +12625,18 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._disableCustomScript = undefined;
       this._disableLocationAdd = undefined;
       this._inheritedBotDefenseJavascriptInjection = undefined;
+      this._inheritedWafExclusion = undefined;
       this._requestCookiesToRemove = undefined;
       this._requestHeadersToRemove = undefined;
       this._responseCookiesToRemove = undefined;
       this._responseHeadersToRemove = undefined;
+      this._skipLbOverride = undefined;
+      this._uuid = undefined;
       this._botDefenseJavascriptInjection.internalValue = undefined;
+      this._botDefenseJavascriptInjectionInlineMode.internalValue = undefined;
       this._match.internalValue = undefined;
       this._requestCookiesToAdd.internalValue = undefined;
       this._requestHeadersToAdd.internalValue = undefined;
@@ -9306,6 +12646,8 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
       this._routeDirectResponse.internalValue = undefined;
       this._routeRedirect.internalValue = undefined;
       this._servicePolicy.internalValue = undefined;
+      this._wafExclusionPolicy.internalValue = undefined;
+      this._wafExclusionServicePolicy.internalValue = undefined;
       this._wafType.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -9315,13 +12657,18 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._disableCustomScript = value.disableCustomScript;
       this._disableLocationAdd = value.disableLocationAdd;
       this._inheritedBotDefenseJavascriptInjection = value.inheritedBotDefenseJavascriptInjection;
+      this._inheritedWafExclusion = value.inheritedWafExclusion;
       this._requestCookiesToRemove = value.requestCookiesToRemove;
       this._requestHeadersToRemove = value.requestHeadersToRemove;
       this._responseCookiesToRemove = value.responseCookiesToRemove;
       this._responseHeadersToRemove = value.responseHeadersToRemove;
+      this._skipLbOverride = value.skipLbOverride;
+      this._uuid = value.uuid;
       this._botDefenseJavascriptInjection.internalValue = value.botDefenseJavascriptInjection;
+      this._botDefenseJavascriptInjectionInlineMode.internalValue = value.botDefenseJavascriptInjectionInlineMode;
       this._match.internalValue = value.match;
       this._requestCookiesToAdd.internalValue = value.requestCookiesToAdd;
       this._requestHeadersToAdd.internalValue = value.requestHeadersToAdd;
@@ -9331,8 +12678,26 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
       this._routeDirectResponse.internalValue = value.routeDirectResponse;
       this._routeRedirect.internalValue = value.routeRedirect;
       this._servicePolicy.internalValue = value.servicePolicy;
+      this._wafExclusionPolicy.internalValue = value.wafExclusionPolicy;
+      this._wafExclusionServicePolicy.internalValue = value.wafExclusionServicePolicy;
       this._wafType.internalValue = value.wafType;
     }
+  }
+
+  // disable_custom_script - computed: false, optional: true, required: false
+  private _disableCustomScript?: boolean | cdktf.IResolvable; 
+  public get disableCustomScript() {
+    return this.getBooleanAttribute('disable_custom_script');
+  }
+  public set disableCustomScript(value: boolean | cdktf.IResolvable) {
+    this._disableCustomScript = value;
+  }
+  public resetDisableCustomScript() {
+    this._disableCustomScript = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableCustomScriptInput() {
+    return this._disableCustomScript;
   }
 
   // disable_location_add - computed: false, optional: true, required: false
@@ -9365,6 +12730,22 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get inheritedBotDefenseJavascriptInjectionInput() {
     return this._inheritedBotDefenseJavascriptInjection;
+  }
+
+  // inherited_waf_exclusion - computed: false, optional: true, required: false
+  private _inheritedWafExclusion?: boolean | cdktf.IResolvable; 
+  public get inheritedWafExclusion() {
+    return this.getBooleanAttribute('inherited_waf_exclusion');
+  }
+  public set inheritedWafExclusion(value: boolean | cdktf.IResolvable) {
+    this._inheritedWafExclusion = value;
+  }
+  public resetInheritedWafExclusion() {
+    this._inheritedWafExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get inheritedWafExclusionInput() {
+    return this._inheritedWafExclusion;
   }
 
   // request_cookies_to_remove - computed: false, optional: true, required: false
@@ -9431,6 +12812,38 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
     return this._responseHeadersToRemove;
   }
 
+  // skip_lb_override - computed: false, optional: true, required: false
+  private _skipLbOverride?: boolean | cdktf.IResolvable; 
+  public get skipLbOverride() {
+    return this.getBooleanAttribute('skip_lb_override');
+  }
+  public set skipLbOverride(value: boolean | cdktf.IResolvable) {
+    this._skipLbOverride = value;
+  }
+  public resetSkipLbOverride() {
+    this._skipLbOverride = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipLbOverrideInput() {
+    return this._skipLbOverride;
+  }
+
+  // uuid - computed: false, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
   // bot_defense_javascript_injection - computed: false, optional: true, required: false
   private _botDefenseJavascriptInjection = new RouteRoutesBotDefenseJavascriptInjectionOutputReference(this, "bot_defense_javascript_injection");
   public get botDefenseJavascriptInjection() {
@@ -9445,6 +12858,22 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get botDefenseJavascriptInjectionInput() {
     return this._botDefenseJavascriptInjection.internalValue;
+  }
+
+  // bot_defense_javascript_injection_inline_mode - computed: false, optional: true, required: false
+  private _botDefenseJavascriptInjectionInlineMode = new RouteRoutesBotDefenseJavascriptInjectionInlineModeOutputReference(this, "bot_defense_javascript_injection_inline_mode");
+  public get botDefenseJavascriptInjectionInlineMode() {
+    return this._botDefenseJavascriptInjectionInlineMode;
+  }
+  public putBotDefenseJavascriptInjectionInlineMode(value: RouteRoutesBotDefenseJavascriptInjectionInlineMode) {
+    this._botDefenseJavascriptInjectionInlineMode.internalValue = value;
+  }
+  public resetBotDefenseJavascriptInjectionInlineMode() {
+    this._botDefenseJavascriptInjectionInlineMode.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get botDefenseJavascriptInjectionInlineModeInput() {
+    return this._botDefenseJavascriptInjectionInlineMode.internalValue;
   }
 
   // match - computed: false, optional: true, required: false
@@ -9591,6 +13020,35 @@ export class RouteRoutesOutputReference extends cdktf.ComplexObject {
     return this._servicePolicy.internalValue;
   }
 
+  // waf_exclusion_policy - computed: false, optional: false, required: true
+  private _wafExclusionPolicy = new RouteRoutesWafExclusionPolicyOutputReference(this, "waf_exclusion_policy");
+  public get wafExclusionPolicy() {
+    return this._wafExclusionPolicy;
+  }
+  public putWafExclusionPolicy(value: RouteRoutesWafExclusionPolicy) {
+    this._wafExclusionPolicy.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wafExclusionPolicyInput() {
+    return this._wafExclusionPolicy.internalValue;
+  }
+
+  // waf_exclusion_service_policy - computed: false, optional: true, required: false
+  private _wafExclusionServicePolicy = new RouteRoutesWafExclusionServicePolicyList(this, "waf_exclusion_service_policy", false);
+  public get wafExclusionServicePolicy() {
+    return this._wafExclusionServicePolicy;
+  }
+  public putWafExclusionServicePolicy(value: RouteRoutesWafExclusionServicePolicy[] | cdktf.IResolvable) {
+    this._wafExclusionServicePolicy.internalValue = value;
+  }
+  public resetWafExclusionServicePolicy() {
+    this._wafExclusionServicePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wafExclusionServicePolicyInput() {
+    return this._wafExclusionServicePolicy.internalValue;
+  }
+
   // waf_type - computed: false, optional: true, required: false
   private _wafType = new RouteRoutesWafTypeOutputReference(this, "waf_type");
   public get wafType() {
@@ -9629,7 +13087,7 @@ export class RouteRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route volterra_route}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route volterra_route}
 */
 export class Route extends cdktf.TerraformResource {
 
@@ -9645,7 +13103,7 @@ export class Route extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Route resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route to import
-  * @param importFromId The id of the existing Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9657,7 +13115,7 @@ export class Route extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/route volterra_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/route volterra_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9668,8 +13126,8 @@ export class Route extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_route',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,158 +8,158 @@ import * as cdktf from 'cdktf';
 
 export interface AwsTgwSiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#annotations AwsTgwSite#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#annotations AwsTgwSite#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#block_all_services AwsTgwSite#block_all_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#block_all_services AwsTgwSite#block_all_services}
   */
   readonly blockAllServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#default_blocked_services AwsTgwSite#default_blocked_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#default_blocked_services AwsTgwSite#default_blocked_services}
   */
   readonly defaultBlockedServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#description AwsTgwSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#description AwsTgwSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#direct_connect_disabled AwsTgwSite#direct_connect_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#direct_connect_disabled AwsTgwSite#direct_connect_disabled}
   */
   readonly directConnectDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#disable AwsTgwSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable AwsTgwSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#id AwsTgwSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#id AwsTgwSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#logs_streaming_disabled AwsTgwSite#logs_streaming_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#logs_streaming_disabled AwsTgwSite#logs_streaming_disabled}
   */
   readonly logsStreamingDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tags AwsTgwSite#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tags AwsTgwSite#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * aws_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#aws_parameters AwsTgwSite#aws_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#aws_parameters AwsTgwSite#aws_parameters}
   */
   readonly awsParameters: AwsTgwSiteAwsParameters;
   /**
   * blocked_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#blocked_services AwsTgwSite#blocked_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#blocked_services AwsTgwSite#blocked_services}
   */
   readonly blockedServices?: AwsTgwSiteBlockedServices;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#coordinates AwsTgwSite#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#coordinates AwsTgwSite#coordinates}
   */
   readonly coordinates?: AwsTgwSiteCoordinates;
   /**
   * custom_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_dns AwsTgwSite#custom_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_dns AwsTgwSite#custom_dns}
   */
   readonly customDns?: AwsTgwSiteCustomDns;
   /**
   * direct_connect_enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#direct_connect_enabled AwsTgwSite#direct_connect_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#direct_connect_enabled AwsTgwSite#direct_connect_enabled}
   */
   readonly directConnectEnabled?: AwsTgwSiteDirectConnectEnabled;
   /**
   * kubernetes_upgrade_drain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#kubernetes_upgrade_drain AwsTgwSite#kubernetes_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#kubernetes_upgrade_drain AwsTgwSite#kubernetes_upgrade_drain}
   */
   readonly kubernetesUpgradeDrain?: AwsTgwSiteKubernetesUpgradeDrain;
   /**
   * log_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#log_receiver AwsTgwSite#log_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#log_receiver AwsTgwSite#log_receiver}
   */
   readonly logReceiver?: AwsTgwSiteLogReceiver;
   /**
   * offline_survivability_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#offline_survivability_mode AwsTgwSite#offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#offline_survivability_mode AwsTgwSite#offline_survivability_mode}
   */
   readonly offlineSurvivabilityMode?: AwsTgwSiteOfflineSurvivabilityMode;
   /**
   * os block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#os AwsTgwSite#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#os AwsTgwSite#os}
   */
   readonly os?: AwsTgwSiteOs;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#performance_enhancement_mode AwsTgwSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#performance_enhancement_mode AwsTgwSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AwsTgwSitePerformanceEnhancementMode;
   /**
   * private_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#private_connectivity AwsTgwSite#private_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#private_connectivity AwsTgwSite#private_connectivity}
   */
   readonly privateConnectivity?: AwsTgwSitePrivateConnectivity;
   /**
   * sw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#sw AwsTgwSite#sw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#sw AwsTgwSite#sw}
   */
   readonly sw?: AwsTgwSiteSw;
   /**
   * tgw_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tgw_security AwsTgwSite#tgw_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tgw_security AwsTgwSite#tgw_security}
   */
   readonly tgwSecurity?: AwsTgwSiteTgwSecurity;
   /**
   * vn_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vn_config AwsTgwSite#vn_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vn_config AwsTgwSite#vn_config}
   */
   readonly vnConfig?: AwsTgwSiteVnConfig;
   /**
   * vpc_attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vpc_attachments AwsTgwSite#vpc_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vpc_attachments AwsTgwSite#vpc_attachments}
   */
   readonly vpcAttachments?: AwsTgwSiteVpcAttachments;
 }
 export interface AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#decryption_provider AwsTgwSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#decryption_provider AwsTgwSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#location AwsTgwSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#location AwsTgwSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#store_provider AwsTgwSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#store_provider AwsTgwSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -296,13 +296,160 @@ export class AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoOutputRefere
     return this._storeProvider;
   }
 }
+export interface AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#decryption_provider AwsTgwSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#location AwsTgwSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#store_provider AwsTgwSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function awsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalOutputReference | AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function awsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalOutputReference | AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface AwsTgwSiteAwsParametersAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#provider AwsTgwSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#provider AwsTgwSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#url AwsTgwSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#url AwsTgwSite#url}
   */
   readonly url: string;
 }
@@ -410,19 +557,332 @@ export class AwsTgwSiteAwsParametersAdminPasswordClearSecretInfoOutputReference 
     return this._url;
   }
 }
+export interface AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#key AwsTgwSite#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#location AwsTgwSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#provider AwsTgwSite#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#secret_encoding AwsTgwSite#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#version AwsTgwSite#version}
+  */
+  readonly version?: number;
+}
+
+export function awsTgwSiteAwsParametersAdminPasswordVaultSecretInfoToTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfoOutputReference | AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function awsTgwSiteAwsParametersAdminPasswordVaultSecretInfoToHclTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfoOutputReference | AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  */
+  readonly name: string;
+}
+
+export function awsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoToTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoOutputReference | AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function awsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoToHclTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoOutputReference | AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface AwsTgwSiteAwsParametersAdminPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#secret_encoding_type AwsTgwSite#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#blindfold_secret_info AwsTgwSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#blindfold_secret_info AwsTgwSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#blindfold_secret_info_internal AwsTgwSite#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#clear_secret_info AwsTgwSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#clear_secret_info AwsTgwSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AwsTgwSiteAwsParametersAdminPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vault_secret_info AwsTgwSite#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#wingman_secret_info AwsTgwSite#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo;
 }
 
 export function awsTgwSiteAwsParametersAdminPasswordToTerraform(struct?: AwsTgwSiteAwsParametersAdminPasswordOutputReference | AwsTgwSiteAwsParametersAdminPassword): any {
@@ -431,8 +891,12 @@ export function awsTgwSiteAwsParametersAdminPasswordToTerraform(struct?: AwsTgwS
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: awsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: awsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: awsTgwSiteAwsParametersAdminPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: awsTgwSiteAwsParametersAdminPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: awsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -443,17 +907,41 @@ export function awsTgwSiteAwsParametersAdminPasswordToHclTerraform(struct?: AwsT
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: awsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: awsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: awsTgwSiteAwsParametersAdminPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AwsTgwSiteAwsParametersAdminPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: awsTgwSiteAwsParametersAdminPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: awsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoList",
     },
   };
 
@@ -475,13 +963,29 @@ export class AwsTgwSiteAwsParametersAdminPasswordOutputReference extends cdktf.C
   public get internalValue(): AwsTgwSiteAwsParametersAdminPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -489,14 +993,38 @@ export class AwsTgwSiteAwsParametersAdminPasswordOutputReference extends cdktf.C
   public set internalValue(value: AwsTgwSiteAwsParametersAdminPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -515,6 +1043,22 @@ export class AwsTgwSiteAwsParametersAdminPasswordOutputReference extends cdktf.C
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AwsTgwSiteAwsParametersAdminPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new AwsTgwSiteAwsParametersAdminPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -530,18 +1074,50 @@ export class AwsTgwSiteAwsParametersAdminPasswordOutputReference extends cdktf.C
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AwsTgwSiteAwsParametersAdminPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AwsTgwSiteAwsParametersAdminPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface AwsTgwSiteAwsParametersAwsCred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -683,11 +1259,11 @@ export class AwsTgwSiteAwsParametersAwsCredOutputReference extends cdktf.Complex
 }
 export interface AwsTgwSiteAwsParametersAzNodesInsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -797,13 +1373,13 @@ export class AwsTgwSiteAwsParametersAzNodesInsideSubnetSubnetParamOutputReferenc
 }
 export interface AwsTgwSiteAwsParametersAzNodesInsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#existing_subnet_id AwsTgwSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#existing_subnet_id AwsTgwSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#subnet_param AwsTgwSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#subnet_param AwsTgwSite#subnet_param}
   */
   readonly subnetParam?: AwsTgwSiteAwsParametersAzNodesInsideSubnetSubnetParam;
 }
@@ -916,11 +1492,11 @@ export class AwsTgwSiteAwsParametersAzNodesInsideSubnetOutputReference extends c
 }
 export interface AwsTgwSiteAwsParametersAzNodesOutsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1030,13 +1606,13 @@ export class AwsTgwSiteAwsParametersAzNodesOutsideSubnetSubnetParamOutputReferen
 }
 export interface AwsTgwSiteAwsParametersAzNodesOutsideSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#existing_subnet_id AwsTgwSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#existing_subnet_id AwsTgwSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#subnet_param AwsTgwSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#subnet_param AwsTgwSite#subnet_param}
   */
   readonly subnetParam?: AwsTgwSiteAwsParametersAzNodesOutsideSubnetSubnetParam;
 }
@@ -1149,11 +1725,11 @@ export class AwsTgwSiteAwsParametersAzNodesOutsideSubnetOutputReference extends 
 }
 export interface AwsTgwSiteAwsParametersAzNodesWorkloadSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1263,13 +1839,13 @@ export class AwsTgwSiteAwsParametersAzNodesWorkloadSubnetSubnetParamOutputRefere
 }
 export interface AwsTgwSiteAwsParametersAzNodesWorkloadSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#existing_subnet_id AwsTgwSite#existing_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#existing_subnet_id AwsTgwSite#existing_subnet_id}
   */
   readonly existingSubnetId?: string;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#subnet_param AwsTgwSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#subnet_param AwsTgwSite#subnet_param}
   */
   readonly subnetParam?: AwsTgwSiteAwsParametersAzNodesWorkloadSubnetSubnetParam;
 }
@@ -1382,29 +1958,33 @@ export class AwsTgwSiteAwsParametersAzNodesWorkloadSubnetOutputReference extends
 }
 export interface AwsTgwSiteAwsParametersAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#aws_az_name AwsTgwSite#aws_az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#aws_az_name AwsTgwSite#aws_az_name}
   */
   readonly awsAzName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#reserved_inside_subnet AwsTgwSite#reserved_inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disk_size AwsTgwSite#disk_size}
+  */
+  readonly diskSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#reserved_inside_subnet AwsTgwSite#reserved_inside_subnet}
   */
   readonly reservedInsideSubnet?: boolean | cdktf.IResolvable;
   /**
   * inside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#inside_subnet AwsTgwSite#inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#inside_subnet AwsTgwSite#inside_subnet}
   */
   readonly insideSubnet?: AwsTgwSiteAwsParametersAzNodesInsideSubnet;
   /**
   * outside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#outside_subnet AwsTgwSite#outside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#outside_subnet AwsTgwSite#outside_subnet}
   */
   readonly outsideSubnet: AwsTgwSiteAwsParametersAzNodesOutsideSubnet;
   /**
   * workload_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#workload_subnet AwsTgwSite#workload_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#workload_subnet AwsTgwSite#workload_subnet}
   */
   readonly workloadSubnet?: AwsTgwSiteAwsParametersAzNodesWorkloadSubnet;
 }
@@ -1416,6 +1996,7 @@ export function awsTgwSiteAwsParametersAzNodesToTerraform(struct?: AwsTgwSiteAws
   }
   return {
     aws_az_name: cdktf.stringToTerraform(struct!.awsAzName),
+    disk_size: cdktf.numberToTerraform(struct!.diskSize),
     reserved_inside_subnet: cdktf.booleanToTerraform(struct!.reservedInsideSubnet),
     inside_subnet: awsTgwSiteAwsParametersAzNodesInsideSubnetToTerraform(struct!.insideSubnet),
     outside_subnet: awsTgwSiteAwsParametersAzNodesOutsideSubnetToTerraform(struct!.outsideSubnet),
@@ -1435,6 +2016,12 @@ export function awsTgwSiteAwsParametersAzNodesToHclTerraform(struct?: AwsTgwSite
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disk_size: {
+      value: cdktf.numberToHclTerraform(struct!.diskSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     reserved_inside_subnet: {
       value: cdktf.booleanToHclTerraform(struct!.reservedInsideSubnet),
@@ -1490,6 +2077,10 @@ export class AwsTgwSiteAwsParametersAzNodesOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.awsAzName = this._awsAzName;
     }
+    if (this._diskSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskSize = this._diskSize;
+    }
     if (this._reservedInsideSubnet !== undefined) {
       hasAnyValues = true;
       internalValueResult.reservedInsideSubnet = this._reservedInsideSubnet;
@@ -1514,6 +2105,7 @@ export class AwsTgwSiteAwsParametersAzNodesOutputReference extends cdktf.Complex
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._awsAzName = undefined;
+      this._diskSize = undefined;
       this._reservedInsideSubnet = undefined;
       this._insideSubnet.internalValue = undefined;
       this._outsideSubnet.internalValue = undefined;
@@ -1527,6 +2119,7 @@ export class AwsTgwSiteAwsParametersAzNodesOutputReference extends cdktf.Complex
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._awsAzName = value.awsAzName;
+      this._diskSize = value.diskSize;
       this._reservedInsideSubnet = value.reservedInsideSubnet;
       this._insideSubnet.internalValue = value.insideSubnet;
       this._outsideSubnet.internalValue = value.outsideSubnet;
@@ -1545,6 +2138,22 @@ export class AwsTgwSiteAwsParametersAzNodesOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get awsAzNameInput() {
     return this._awsAzName;
+  }
+
+  // disk_size - computed: false, optional: true, required: false
+  private _diskSize?: number; 
+  public get diskSize() {
+    return this.getNumberAttribute('disk_size');
+  }
+  public set diskSize(value: number) {
+    this._diskSize = value;
+  }
+  public resetDiskSize() {
+    this._diskSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskSizeInput() {
+    return this._diskSize;
   }
 
   // reserved_inside_subnet - computed: false, optional: true, required: false
@@ -1630,11 +2239,11 @@ export class AwsTgwSiteAwsParametersAzNodesList extends cdktf.ComplexList {
 }
 export interface AwsTgwSiteAwsParametersCustomSecurityGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#inside_security_group_id AwsTgwSite#inside_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#inside_security_group_id AwsTgwSite#inside_security_group_id}
   */
   readonly insideSecurityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#outside_security_group_id AwsTgwSite#outside_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#outside_security_group_id AwsTgwSite#outside_security_group_id}
   */
   readonly outsideSecurityGroupId?: string;
 }
@@ -1747,15 +2356,15 @@ export class AwsTgwSiteAwsParametersCustomSecurityGroupOutputReference extends c
 }
 export interface AwsTgwSiteAwsParametersExistingTgw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tgw_asn AwsTgwSite#tgw_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tgw_asn AwsTgwSite#tgw_asn}
   */
   readonly tgwAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tgw_id AwsTgwSite#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tgw_id AwsTgwSite#tgw_id}
   */
   readonly tgwId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#volterra_site_asn AwsTgwSite#volterra_site_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#volterra_site_asn AwsTgwSite#volterra_site_asn}
   */
   readonly volterraSiteAsn?: number;
 }
@@ -1897,11 +2506,11 @@ export class AwsTgwSiteAwsParametersExistingTgwOutputReference extends cdktf.Com
 }
 export interface AwsTgwSiteAwsParametersNewTgwUserAssigned {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tgw_asn AwsTgwSite#tgw_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tgw_asn AwsTgwSite#tgw_asn}
   */
   readonly tgwAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#volterra_site_asn AwsTgwSite#volterra_site_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#volterra_site_asn AwsTgwSite#volterra_site_asn}
   */
   readonly volterraSiteAsn?: number;
 }
@@ -2014,13 +2623,13 @@ export class AwsTgwSiteAwsParametersNewTgwUserAssignedOutputReference extends cd
 }
 export interface AwsTgwSiteAwsParametersNewTgw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#system_generated AwsTgwSite#system_generated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#system_generated AwsTgwSite#system_generated}
   */
   readonly systemGenerated?: boolean | cdktf.IResolvable;
   /**
   * user_assigned block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#user_assigned AwsTgwSite#user_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#user_assigned AwsTgwSite#user_assigned}
   */
   readonly userAssigned?: AwsTgwSiteAwsParametersNewTgwUserAssigned;
 }
@@ -2133,15 +2742,19 @@ export class AwsTgwSiteAwsParametersNewTgwOutputReference extends cdktf.ComplexO
 }
 export interface AwsTgwSiteAwsParametersNewVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#autogenerate AwsTgwSite#autogenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#allocate_ipv6 AwsTgwSite#allocate_ipv6}
+  */
+  readonly allocateIpv6?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#autogenerate AwsTgwSite#autogenerate}
   */
   readonly autogenerate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name_tag AwsTgwSite#name_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name_tag AwsTgwSite#name_tag}
   */
   readonly nameTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#primary_ipv4 AwsTgwSite#primary_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#primary_ipv4 AwsTgwSite#primary_ipv4}
   */
   readonly primaryIpv4: string;
 }
@@ -2152,6 +2765,7 @@ export function awsTgwSiteAwsParametersNewVpcToTerraform(struct?: AwsTgwSiteAwsP
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    allocate_ipv6: cdktf.booleanToTerraform(struct!.allocateIpv6),
     autogenerate: cdktf.booleanToTerraform(struct!.autogenerate),
     name_tag: cdktf.stringToTerraform(struct!.nameTag),
     primary_ipv4: cdktf.stringToTerraform(struct!.primaryIpv4),
@@ -2165,6 +2779,12 @@ export function awsTgwSiteAwsParametersNewVpcToHclTerraform(struct?: AwsTgwSiteA
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    allocate_ipv6: {
+      value: cdktf.booleanToHclTerraform(struct!.allocateIpv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     autogenerate: {
       value: cdktf.booleanToHclTerraform(struct!.autogenerate),
       isBlock: false,
@@ -2203,6 +2823,10 @@ export class AwsTgwSiteAwsParametersNewVpcOutputReference extends cdktf.ComplexO
   public get internalValue(): AwsTgwSiteAwsParametersNewVpc | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._allocateIpv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allocateIpv6 = this._allocateIpv6;
+    }
     if (this._autogenerate !== undefined) {
       hasAnyValues = true;
       internalValueResult.autogenerate = this._autogenerate;
@@ -2221,16 +2845,34 @@ export class AwsTgwSiteAwsParametersNewVpcOutputReference extends cdktf.ComplexO
   public set internalValue(value: AwsTgwSiteAwsParametersNewVpc | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._allocateIpv6 = undefined;
       this._autogenerate = undefined;
       this._nameTag = undefined;
       this._primaryIpv4 = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._allocateIpv6 = value.allocateIpv6;
       this._autogenerate = value.autogenerate;
       this._nameTag = value.nameTag;
       this._primaryIpv4 = value.primaryIpv4;
     }
+  }
+
+  // allocate_ipv6 - computed: false, optional: true, required: false
+  private _allocateIpv6?: boolean | cdktf.IResolvable; 
+  public get allocateIpv6() {
+    return this.getBooleanAttribute('allocate_ipv6');
+  }
+  public set allocateIpv6(value: boolean | cdktf.IResolvable) {
+    this._allocateIpv6 = value;
+  }
+  public resetAllocateIpv6() {
+    this._allocateIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allocateIpv6Input() {
+    return this._allocateIpv6;
   }
 
   // autogenerate - computed: false, optional: true, required: false
@@ -2280,11 +2922,11 @@ export class AwsTgwSiteAwsParametersNewVpcOutputReference extends cdktf.ComplexO
 }
 export interface AwsTgwSiteAwsParametersTgwCidr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2394,99 +3036,107 @@ export class AwsTgwSiteAwsParametersTgwCidrOutputReference extends cdktf.Complex
 }
 export interface AwsTgwSiteAwsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#aws_region AwsTgwSite#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#assisted AwsTgwSite#assisted}
+  */
+  readonly assisted?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#aws_certified_hw AwsTgwSite#aws_certified_hw}
+  */
+  readonly awsCertifiedHw?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#aws_region AwsTgwSite#aws_region}
   */
   readonly awsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#disable_internet_vip AwsTgwSite#disable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_internet_vip AwsTgwSite#disable_internet_vip}
   */
   readonly disableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#disk_size AwsTgwSite#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disk_size AwsTgwSite#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#enable_internet_vip AwsTgwSite#enable_internet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_internet_vip AwsTgwSite#enable_internet_vip}
   */
   readonly enableInternetVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#f5xc_security_group AwsTgwSite#f5xc_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#f5xc_security_group AwsTgwSite#f5xc_security_group}
   */
   readonly f5XcSecurityGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#instance_type AwsTgwSite#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#instance_type AwsTgwSite#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_worker_nodes AwsTgwSite#no_worker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_worker_nodes AwsTgwSite#no_worker_nodes}
   */
   readonly noWorkerNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#nodes_per_az AwsTgwSite#nodes_per_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#nodes_per_az AwsTgwSite#nodes_per_az}
   */
   readonly nodesPerAz?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#reserved_tgw_cidr AwsTgwSite#reserved_tgw_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#reserved_tgw_cidr AwsTgwSite#reserved_tgw_cidr}
   */
   readonly reservedTgwCidr?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ssh_key AwsTgwSite#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ssh_key AwsTgwSite#ssh_key}
   */
   readonly sshKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#total_nodes AwsTgwSite#total_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#total_nodes AwsTgwSite#total_nodes}
   */
   readonly totalNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vpc_id AwsTgwSite#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vpc_id AwsTgwSite#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * admin_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#admin_password AwsTgwSite#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#admin_password AwsTgwSite#admin_password}
   */
   readonly adminPassword?: AwsTgwSiteAwsParametersAdminPassword;
   /**
   * aws_cred block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#aws_cred AwsTgwSite#aws_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#aws_cred AwsTgwSite#aws_cred}
   */
   readonly awsCred?: AwsTgwSiteAwsParametersAwsCred;
   /**
   * az_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#az_nodes AwsTgwSite#az_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#az_nodes AwsTgwSite#az_nodes}
   */
   readonly azNodes: AwsTgwSiteAwsParametersAzNodes[] | cdktf.IResolvable;
   /**
   * custom_security_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_security_group AwsTgwSite#custom_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_security_group AwsTgwSite#custom_security_group}
   */
   readonly customSecurityGroup?: AwsTgwSiteAwsParametersCustomSecurityGroup;
   /**
   * existing_tgw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#existing_tgw AwsTgwSite#existing_tgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#existing_tgw AwsTgwSite#existing_tgw}
   */
   readonly existingTgw?: AwsTgwSiteAwsParametersExistingTgw;
   /**
   * new_tgw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#new_tgw AwsTgwSite#new_tgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#new_tgw AwsTgwSite#new_tgw}
   */
   readonly newTgw?: AwsTgwSiteAwsParametersNewTgw;
   /**
   * new_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#new_vpc AwsTgwSite#new_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#new_vpc AwsTgwSite#new_vpc}
   */
   readonly newVpc?: AwsTgwSiteAwsParametersNewVpc;
   /**
   * tgw_cidr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tgw_cidr AwsTgwSite#tgw_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tgw_cidr AwsTgwSite#tgw_cidr}
   */
   readonly tgwCidr?: AwsTgwSiteAwsParametersTgwCidr;
 }
@@ -2497,6 +3147,8 @@ export function awsTgwSiteAwsParametersToTerraform(struct?: AwsTgwSiteAwsParamet
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    assisted: cdktf.booleanToTerraform(struct!.assisted),
+    aws_certified_hw: cdktf.stringToTerraform(struct!.awsCertifiedHw),
     aws_region: cdktf.stringToTerraform(struct!.awsRegion),
     disable_internet_vip: cdktf.booleanToTerraform(struct!.disableInternetVip),
     disk_size: cdktf.numberToTerraform(struct!.diskSize),
@@ -2527,6 +3179,18 @@ export function awsTgwSiteAwsParametersToHclTerraform(struct?: AwsTgwSiteAwsPara
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    assisted: {
+      value: cdktf.booleanToHclTerraform(struct!.assisted),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    aws_certified_hw: {
+      value: cdktf.stringToHclTerraform(struct!.awsCertifiedHw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     aws_region: {
       value: cdktf.stringToHclTerraform(struct!.awsRegion),
       isBlock: false,
@@ -2667,6 +3331,14 @@ export class AwsTgwSiteAwsParametersOutputReference extends cdktf.ComplexObject 
   public get internalValue(): AwsTgwSiteAwsParameters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._assisted !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.assisted = this._assisted;
+    }
+    if (this._awsCertifiedHw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsCertifiedHw = this._awsCertifiedHw;
+    }
     if (this._awsRegion !== undefined) {
       hasAnyValues = true;
       internalValueResult.awsRegion = this._awsRegion;
@@ -2753,6 +3425,8 @@ export class AwsTgwSiteAwsParametersOutputReference extends cdktf.ComplexObject 
   public set internalValue(value: AwsTgwSiteAwsParameters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._assisted = undefined;
+      this._awsCertifiedHw = undefined;
       this._awsRegion = undefined;
       this._disableInternetVip = undefined;
       this._diskSize = undefined;
@@ -2776,6 +3450,8 @@ export class AwsTgwSiteAwsParametersOutputReference extends cdktf.ComplexObject 
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._assisted = value.assisted;
+      this._awsCertifiedHw = value.awsCertifiedHw;
       this._awsRegion = value.awsRegion;
       this._disableInternetVip = value.disableInternetVip;
       this._diskSize = value.diskSize;
@@ -2797,6 +3473,38 @@ export class AwsTgwSiteAwsParametersOutputReference extends cdktf.ComplexObject 
       this._newVpc.internalValue = value.newVpc;
       this._tgwCidr.internalValue = value.tgwCidr;
     }
+  }
+
+  // assisted - computed: false, optional: true, required: false
+  private _assisted?: boolean | cdktf.IResolvable; 
+  public get assisted() {
+    return this.getBooleanAttribute('assisted');
+  }
+  public set assisted(value: boolean | cdktf.IResolvable) {
+    this._assisted = value;
+  }
+  public resetAssisted() {
+    this._assisted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get assistedInput() {
+    return this._assisted;
+  }
+
+  // aws_certified_hw - computed: false, optional: true, required: false
+  private _awsCertifiedHw?: string; 
+  public get awsCertifiedHw() {
+    return this.getStringAttribute('aws_certified_hw');
+  }
+  public set awsCertifiedHw(value: string) {
+    this._awsCertifiedHw = value;
+  }
+  public resetAwsCertifiedHw() {
+    this._awsCertifiedHw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsCertifiedHwInput() {
+    return this._awsCertifiedHw;
   }
 
   // aws_region - computed: false, optional: false, required: true
@@ -3109,19 +3817,19 @@ export class AwsTgwSiteAwsParametersOutputReference extends cdktf.ComplexObject 
 }
 export interface AwsTgwSiteBlockedServicesBlockedSevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#dns AwsTgwSite#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#dns AwsTgwSite#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#network_type AwsTgwSite#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#network_type AwsTgwSite#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ssh AwsTgwSite#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ssh AwsTgwSite#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#web_user_interface AwsTgwSite#web_user_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#web_user_interface AwsTgwSite#web_user_interface}
   */
   readonly webUserInterface?: boolean | cdktf.IResolvable;
 }
@@ -3326,7 +4034,7 @@ export interface AwsTgwSiteBlockedServices {
   /**
   * blocked_sevice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#blocked_sevice AwsTgwSite#blocked_sevice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#blocked_sevice AwsTgwSite#blocked_sevice}
   */
   readonly blockedSevice?: AwsTgwSiteBlockedServicesBlockedSevice[] | cdktf.IResolvable;
 }
@@ -3410,11 +4118,11 @@ export class AwsTgwSiteBlockedServicesOutputReference extends cdktf.ComplexObjec
 }
 export interface AwsTgwSiteCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#latitude AwsTgwSite#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#latitude AwsTgwSite#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#longitude AwsTgwSite#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#longitude AwsTgwSite#longitude}
   */
   readonly longitude?: number;
 }
@@ -3527,19 +4235,19 @@ export class AwsTgwSiteCoordinatesOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSiteCustomDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#inside_nameserver AwsTgwSite#inside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#inside_nameserver AwsTgwSite#inside_nameserver}
   */
   readonly insideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#inside_nameserver_v6 AwsTgwSite#inside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#inside_nameserver_v6 AwsTgwSite#inside_nameserver_v6}
   */
   readonly insideNameserverV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#outside_nameserver AwsTgwSite#outside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#outside_nameserver AwsTgwSite#outside_nameserver}
   */
   readonly outsideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#outside_nameserver_v6 AwsTgwSite#outside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#outside_nameserver_v6 AwsTgwSite#outside_nameserver_v6}
   */
   readonly outsideNameserverV6?: string;
 }
@@ -3710,7 +4418,7 @@ export class AwsTgwSiteCustomDnsOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectConnect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#cloudlink_network_name AwsTgwSite#cloudlink_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#cloudlink_network_name AwsTgwSite#cloudlink_network_name}
   */
   readonly cloudlinkNetworkName: string;
 }
@@ -3791,15 +4499,15 @@ export class AwsTgwSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectC
 }
 export interface AwsTgwSiteDirectConnectEnabledHostedVifsVifListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#other_region AwsTgwSite#other_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#other_region AwsTgwSite#other_region}
   */
   readonly otherRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#same_as_site_region AwsTgwSite#same_as_site_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#same_as_site_region AwsTgwSite#same_as_site_region}
   */
   readonly sameAsSiteRegion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vif_id AwsTgwSite#vif_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vif_id AwsTgwSite#vif_id}
   */
   readonly vifId: string;
 }
@@ -3970,19 +4678,23 @@ export class AwsTgwSiteDirectConnectEnabledHostedVifsVifListStructList extends c
 }
 export interface AwsTgwSiteDirectConnectEnabledHostedVifs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#site_registration_over_internet AwsTgwSite#site_registration_over_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#site_registration_over_internet AwsTgwSite#site_registration_over_internet}
   */
   readonly siteRegistrationOverInternet?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vifs AwsTgwSite#vifs}
+  */
+  readonly vifs?: string[];
+  /**
   * site_registration_over_direct_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#site_registration_over_direct_connect AwsTgwSite#site_registration_over_direct_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#site_registration_over_direct_connect AwsTgwSite#site_registration_over_direct_connect}
   */
   readonly siteRegistrationOverDirectConnect?: AwsTgwSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectConnect;
   /**
   * vif_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vif_list AwsTgwSite#vif_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vif_list AwsTgwSite#vif_list}
   */
   readonly vifList?: AwsTgwSiteDirectConnectEnabledHostedVifsVifListStruct[] | cdktf.IResolvable;
 }
@@ -3994,6 +4706,7 @@ export function awsTgwSiteDirectConnectEnabledHostedVifsToTerraform(struct?: Aws
   }
   return {
     site_registration_over_internet: cdktf.booleanToTerraform(struct!.siteRegistrationOverInternet),
+    vifs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.vifs),
     site_registration_over_direct_connect: awsTgwSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectConnectToTerraform(struct!.siteRegistrationOverDirectConnect),
     vif_list: cdktf.listMapper(awsTgwSiteDirectConnectEnabledHostedVifsVifListStructToTerraform, true)(struct!.vifList),
   }
@@ -4011,6 +4724,12 @@ export function awsTgwSiteDirectConnectEnabledHostedVifsToHclTerraform(struct?: 
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    vifs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.vifs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
     site_registration_over_direct_connect: {
       value: awsTgwSiteDirectConnectEnabledHostedVifsSiteRegistrationOverDirectConnectToHclTerraform(struct!.siteRegistrationOverDirectConnect),
@@ -4048,6 +4767,10 @@ export class AwsTgwSiteDirectConnectEnabledHostedVifsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.siteRegistrationOverInternet = this._siteRegistrationOverInternet;
     }
+    if (this._vifs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vifs = this._vifs;
+    }
     if (this._siteRegistrationOverDirectConnect?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.siteRegistrationOverDirectConnect = this._siteRegistrationOverDirectConnect?.internalValue;
@@ -4063,12 +4786,14 @@ export class AwsTgwSiteDirectConnectEnabledHostedVifsOutputReference extends cdk
     if (value === undefined) {
       this.isEmptyObject = false;
       this._siteRegistrationOverInternet = undefined;
+      this._vifs = undefined;
       this._siteRegistrationOverDirectConnect.internalValue = undefined;
       this._vifList.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._siteRegistrationOverInternet = value.siteRegistrationOverInternet;
+      this._vifs = value.vifs;
       this._siteRegistrationOverDirectConnect.internalValue = value.siteRegistrationOverDirectConnect;
       this._vifList.internalValue = value.vifList;
     }
@@ -4088,6 +4813,22 @@ export class AwsTgwSiteDirectConnectEnabledHostedVifsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get siteRegistrationOverInternetInput() {
     return this._siteRegistrationOverInternet;
+  }
+
+  // vifs - computed: false, optional: true, required: false
+  private _vifs?: string[]; 
+  public get vifs() {
+    return this.getListAttribute('vifs');
+  }
+  public set vifs(value: string[]) {
+    this._vifs = value;
+  }
+  public resetVifs() {
+    this._vifs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vifsInput() {
+    return this._vifs;
   }
 
   // site_registration_over_direct_connect - computed: false, optional: true, required: false
@@ -4124,21 +4865,33 @@ export class AwsTgwSiteDirectConnectEnabledHostedVifsOutputReference extends cdk
 }
 export interface AwsTgwSiteDirectConnectEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#auto_asn AwsTgwSite#auto_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#auto_asn AwsTgwSite#auto_asn}
   */
   readonly autoAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_asn AwsTgwSite#custom_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#cloud_aggregated_prefix AwsTgwSite#cloud_aggregated_prefix}
+  */
+  readonly cloudAggregatedPrefix?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_asn AwsTgwSite#custom_asn}
   */
   readonly customAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#standard_vifs AwsTgwSite#standard_vifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#dc_connect_aggregated_prefix AwsTgwSite#dc_connect_aggregated_prefix}
+  */
+  readonly dcConnectAggregatedPrefix?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#manual_gw AwsTgwSite#manual_gw}
+  */
+  readonly manualGw?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#standard_vifs AwsTgwSite#standard_vifs}
   */
   readonly standardVifs?: boolean | cdktf.IResolvable;
   /**
   * hosted_vifs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#hosted_vifs AwsTgwSite#hosted_vifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#hosted_vifs AwsTgwSite#hosted_vifs}
   */
   readonly hostedVifs?: AwsTgwSiteDirectConnectEnabledHostedVifs;
 }
@@ -4150,7 +4903,10 @@ export function awsTgwSiteDirectConnectEnabledToTerraform(struct?: AwsTgwSiteDir
   }
   return {
     auto_asn: cdktf.booleanToTerraform(struct!.autoAsn),
+    cloud_aggregated_prefix: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cloudAggregatedPrefix),
     custom_asn: cdktf.numberToTerraform(struct!.customAsn),
+    dc_connect_aggregated_prefix: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dcConnectAggregatedPrefix),
+    manual_gw: cdktf.booleanToTerraform(struct!.manualGw),
     standard_vifs: cdktf.booleanToTerraform(struct!.standardVifs),
     hosted_vifs: awsTgwSiteDirectConnectEnabledHostedVifsToTerraform(struct!.hostedVifs),
   }
@@ -4169,11 +4925,29 @@ export function awsTgwSiteDirectConnectEnabledToHclTerraform(struct?: AwsTgwSite
       type: "simple",
       storageClassType: "boolean",
     },
+    cloud_aggregated_prefix: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cloudAggregatedPrefix),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     custom_asn: {
       value: cdktf.numberToHclTerraform(struct!.customAsn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    dc_connect_aggregated_prefix: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dcConnectAggregatedPrefix),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    manual_gw: {
+      value: cdktf.booleanToHclTerraform(struct!.manualGw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     standard_vifs: {
       value: cdktf.booleanToHclTerraform(struct!.standardVifs),
@@ -4211,9 +4985,21 @@ export class AwsTgwSiteDirectConnectEnabledOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.autoAsn = this._autoAsn;
     }
+    if (this._cloudAggregatedPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudAggregatedPrefix = this._cloudAggregatedPrefix;
+    }
     if (this._customAsn !== undefined) {
       hasAnyValues = true;
       internalValueResult.customAsn = this._customAsn;
+    }
+    if (this._dcConnectAggregatedPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dcConnectAggregatedPrefix = this._dcConnectAggregatedPrefix;
+    }
+    if (this._manualGw !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manualGw = this._manualGw;
     }
     if (this._standardVifs !== undefined) {
       hasAnyValues = true;
@@ -4230,14 +5016,20 @@ export class AwsTgwSiteDirectConnectEnabledOutputReference extends cdktf.Complex
     if (value === undefined) {
       this.isEmptyObject = false;
       this._autoAsn = undefined;
+      this._cloudAggregatedPrefix = undefined;
       this._customAsn = undefined;
+      this._dcConnectAggregatedPrefix = undefined;
+      this._manualGw = undefined;
       this._standardVifs = undefined;
       this._hostedVifs.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._autoAsn = value.autoAsn;
+      this._cloudAggregatedPrefix = value.cloudAggregatedPrefix;
       this._customAsn = value.customAsn;
+      this._dcConnectAggregatedPrefix = value.dcConnectAggregatedPrefix;
+      this._manualGw = value.manualGw;
       this._standardVifs = value.standardVifs;
       this._hostedVifs.internalValue = value.hostedVifs;
     }
@@ -4259,6 +5051,22 @@ export class AwsTgwSiteDirectConnectEnabledOutputReference extends cdktf.Complex
     return this._autoAsn;
   }
 
+  // cloud_aggregated_prefix - computed: false, optional: true, required: false
+  private _cloudAggregatedPrefix?: string[]; 
+  public get cloudAggregatedPrefix() {
+    return this.getListAttribute('cloud_aggregated_prefix');
+  }
+  public set cloudAggregatedPrefix(value: string[]) {
+    this._cloudAggregatedPrefix = value;
+  }
+  public resetCloudAggregatedPrefix() {
+    this._cloudAggregatedPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudAggregatedPrefixInput() {
+    return this._cloudAggregatedPrefix;
+  }
+
   // custom_asn - computed: false, optional: true, required: false
   private _customAsn?: number; 
   public get customAsn() {
@@ -4273,6 +5081,38 @@ export class AwsTgwSiteDirectConnectEnabledOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get customAsnInput() {
     return this._customAsn;
+  }
+
+  // dc_connect_aggregated_prefix - computed: false, optional: true, required: false
+  private _dcConnectAggregatedPrefix?: string[]; 
+  public get dcConnectAggregatedPrefix() {
+    return this.getListAttribute('dc_connect_aggregated_prefix');
+  }
+  public set dcConnectAggregatedPrefix(value: string[]) {
+    this._dcConnectAggregatedPrefix = value;
+  }
+  public resetDcConnectAggregatedPrefix() {
+    this._dcConnectAggregatedPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dcConnectAggregatedPrefixInput() {
+    return this._dcConnectAggregatedPrefix;
+  }
+
+  // manual_gw - computed: false, optional: true, required: false
+  private _manualGw?: boolean | cdktf.IResolvable; 
+  public get manualGw() {
+    return this.getBooleanAttribute('manual_gw');
+  }
+  public set manualGw(value: boolean | cdktf.IResolvable) {
+    this._manualGw = value;
+  }
+  public resetManualGw() {
+    this._manualGw = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualGwInput() {
+    return this._manualGw;
   }
 
   // standard_vifs - computed: false, optional: true, required: false
@@ -4309,13 +5149,25 @@ export class AwsTgwSiteDirectConnectEnabledOutputReference extends cdktf.Complex
 }
 export interface AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#drain_max_unavailable_node_count AwsTgwSite#drain_max_unavailable_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_vega_upgrade_mode AwsTgwSite#disable_vega_upgrade_mode}
+  */
+  readonly disableVegaUpgradeMode?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#drain_max_unavailable_node_count AwsTgwSite#drain_max_unavailable_node_count}
   */
   readonly drainMaxUnavailableNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#drain_node_timeout AwsTgwSite#drain_node_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#drain_max_unavailable_node_percentage AwsTgwSite#drain_max_unavailable_node_percentage}
+  */
+  readonly drainMaxUnavailableNodePercentage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#drain_node_timeout AwsTgwSite#drain_node_timeout}
   */
   readonly drainNodeTimeout: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_vega_upgrade_mode AwsTgwSite#enable_vega_upgrade_mode}
+  */
+  readonly enableVegaUpgradeMode?: boolean | cdktf.IResolvable;
 }
 
 export function awsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainToTerraform(struct?: AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference | AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrain): any {
@@ -4324,8 +5176,11 @@ export function awsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainToTerraform(st
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_vega_upgrade_mode: cdktf.booleanToTerraform(struct!.disableVegaUpgradeMode),
     drain_max_unavailable_node_count: cdktf.numberToTerraform(struct!.drainMaxUnavailableNodeCount),
+    drain_max_unavailable_node_percentage: cdktf.numberToTerraform(struct!.drainMaxUnavailableNodePercentage),
     drain_node_timeout: cdktf.numberToTerraform(struct!.drainNodeTimeout),
+    enable_vega_upgrade_mode: cdktf.booleanToTerraform(struct!.enableVegaUpgradeMode),
   }
 }
 
@@ -4336,8 +5191,20 @@ export function awsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainToHclTerraform
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_vega_upgrade_mode: {
+      value: cdktf.booleanToHclTerraform(struct!.disableVegaUpgradeMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     drain_max_unavailable_node_count: {
       value: cdktf.numberToHclTerraform(struct!.drainMaxUnavailableNodeCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    drain_max_unavailable_node_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.drainMaxUnavailableNodePercentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4347,6 +5214,12 @@ export function awsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainToHclTerraform
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    enable_vega_upgrade_mode: {
+      value: cdktf.booleanToHclTerraform(struct!.enableVegaUpgradeMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
   };
 
@@ -4368,13 +5241,25 @@ export class AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference e
   public get internalValue(): AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrain | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableVegaUpgradeMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableVegaUpgradeMode = this._disableVegaUpgradeMode;
+    }
     if (this._drainMaxUnavailableNodeCount !== undefined) {
       hasAnyValues = true;
       internalValueResult.drainMaxUnavailableNodeCount = this._drainMaxUnavailableNodeCount;
     }
+    if (this._drainMaxUnavailableNodePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.drainMaxUnavailableNodePercentage = this._drainMaxUnavailableNodePercentage;
+    }
     if (this._drainNodeTimeout !== undefined) {
       hasAnyValues = true;
       internalValueResult.drainNodeTimeout = this._drainNodeTimeout;
+    }
+    if (this._enableVegaUpgradeMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableVegaUpgradeMode = this._enableVegaUpgradeMode;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4382,14 +5267,36 @@ export class AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference e
   public set internalValue(value: AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrain | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._disableVegaUpgradeMode = undefined;
       this._drainMaxUnavailableNodeCount = undefined;
+      this._drainMaxUnavailableNodePercentage = undefined;
       this._drainNodeTimeout = undefined;
+      this._enableVegaUpgradeMode = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableVegaUpgradeMode = value.disableVegaUpgradeMode;
       this._drainMaxUnavailableNodeCount = value.drainMaxUnavailableNodeCount;
+      this._drainMaxUnavailableNodePercentage = value.drainMaxUnavailableNodePercentage;
       this._drainNodeTimeout = value.drainNodeTimeout;
+      this._enableVegaUpgradeMode = value.enableVegaUpgradeMode;
     }
+  }
+
+  // disable_vega_upgrade_mode - computed: false, optional: true, required: false
+  private _disableVegaUpgradeMode?: boolean | cdktf.IResolvable; 
+  public get disableVegaUpgradeMode() {
+    return this.getBooleanAttribute('disable_vega_upgrade_mode');
+  }
+  public set disableVegaUpgradeMode(value: boolean | cdktf.IResolvable) {
+    this._disableVegaUpgradeMode = value;
+  }
+  public resetDisableVegaUpgradeMode() {
+    this._disableVegaUpgradeMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableVegaUpgradeModeInput() {
+    return this._disableVegaUpgradeMode;
   }
 
   // drain_max_unavailable_node_count - computed: false, optional: true, required: false
@@ -4408,6 +5315,22 @@ export class AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference e
     return this._drainMaxUnavailableNodeCount;
   }
 
+  // drain_max_unavailable_node_percentage - computed: false, optional: true, required: false
+  private _drainMaxUnavailableNodePercentage?: number; 
+  public get drainMaxUnavailableNodePercentage() {
+    return this.getNumberAttribute('drain_max_unavailable_node_percentage');
+  }
+  public set drainMaxUnavailableNodePercentage(value: number) {
+    this._drainMaxUnavailableNodePercentage = value;
+  }
+  public resetDrainMaxUnavailableNodePercentage() {
+    this._drainMaxUnavailableNodePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get drainMaxUnavailableNodePercentageInput() {
+    return this._drainMaxUnavailableNodePercentage;
+  }
+
   // drain_node_timeout - computed: false, optional: false, required: true
   private _drainNodeTimeout?: number; 
   public get drainNodeTimeout() {
@@ -4420,16 +5343,32 @@ export class AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrainOutputReference e
   public get drainNodeTimeoutInput() {
     return this._drainNodeTimeout;
   }
+
+  // enable_vega_upgrade_mode - computed: false, optional: true, required: false
+  private _enableVegaUpgradeMode?: boolean | cdktf.IResolvable; 
+  public get enableVegaUpgradeMode() {
+    return this.getBooleanAttribute('enable_vega_upgrade_mode');
+  }
+  public set enableVegaUpgradeMode(value: boolean | cdktf.IResolvable) {
+    this._enableVegaUpgradeMode = value;
+  }
+  public resetEnableVegaUpgradeMode() {
+    this._enableVegaUpgradeMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableVegaUpgradeModeInput() {
+    return this._enableVegaUpgradeMode;
+  }
 }
 export interface AwsTgwSiteKubernetesUpgradeDrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#disable_upgrade_drain AwsTgwSite#disable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_upgrade_drain AwsTgwSite#disable_upgrade_drain}
   */
   readonly disableUpgradeDrain?: boolean | cdktf.IResolvable;
   /**
   * enable_upgrade_drain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#enable_upgrade_drain AwsTgwSite#enable_upgrade_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_upgrade_drain AwsTgwSite#enable_upgrade_drain}
   */
   readonly enableUpgradeDrain?: AwsTgwSiteKubernetesUpgradeDrainEnableUpgradeDrain;
 }
@@ -4542,15 +5481,15 @@ export class AwsTgwSiteKubernetesUpgradeDrainOutputReference extends cdktf.Compl
 }
 export interface AwsTgwSiteLogReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -4692,11 +5631,11 @@ export class AwsTgwSiteLogReceiverOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSiteOfflineSurvivabilityMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#enable_offline_survivability_mode AwsTgwSite#enable_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_offline_survivability_mode AwsTgwSite#enable_offline_survivability_mode}
   */
   readonly enableOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_offline_survivability_mode AwsTgwSite#no_offline_survivability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_offline_survivability_mode AwsTgwSite#no_offline_survivability_mode}
   */
   readonly noOfflineSurvivabilityMode?: boolean | cdktf.IResolvable;
 }
@@ -4809,11 +5748,11 @@ export class AwsTgwSiteOfflineSurvivabilityModeOutputReference extends cdktf.Com
 }
 export interface AwsTgwSiteOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#default_os_version AwsTgwSite#default_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#default_os_version AwsTgwSite#default_os_version}
   */
   readonly defaultOsVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#operating_system_version AwsTgwSite#operating_system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#operating_system_version AwsTgwSite#operating_system_version}
   */
   readonly operatingSystemVersion?: string;
 }
@@ -4926,11 +5865,11 @@ export class AwsTgwSiteOsOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSitePerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#jumbo AwsTgwSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#jumbo AwsTgwSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_jumbo AwsTgwSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_jumbo AwsTgwSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -5043,13 +5982,13 @@ export class AwsTgwSitePerformanceEnhancementModePerfModeL3EnhancedOutputReferen
 }
 export interface AwsTgwSitePerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#perf_mode_l7_enhanced AwsTgwSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#perf_mode_l7_enhanced AwsTgwSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#perf_mode_l3_enhanced AwsTgwSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#perf_mode_l3_enhanced AwsTgwSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AwsTgwSitePerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -5162,15 +6101,15 @@ export class AwsTgwSitePerformanceEnhancementModeOutputReference extends cdktf.C
 }
 export interface AwsTgwSitePrivateConnectivityCloudLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -5317,17 +6256,17 @@ export class AwsTgwSitePrivateConnectivityCloudLinkOutputReference extends cdktf
 }
 export interface AwsTgwSitePrivateConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#inside AwsTgwSite#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#inside AwsTgwSite#inside}
   */
   readonly inside?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#outside AwsTgwSite#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#outside AwsTgwSite#outside}
   */
   readonly outside?: boolean | cdktf.IResolvable;
   /**
   * cloud_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#cloud_link AwsTgwSite#cloud_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#cloud_link AwsTgwSite#cloud_link}
   */
   readonly cloudLink: AwsTgwSitePrivateConnectivityCloudLink;
 }
@@ -5466,11 +6405,11 @@ export class AwsTgwSitePrivateConnectivityOutputReference extends cdktf.ComplexO
 }
 export interface AwsTgwSiteSw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#default_sw_version AwsTgwSite#default_sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#default_sw_version AwsTgwSite#default_sw_version}
   */
   readonly defaultSwVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#volterra_software_version AwsTgwSite#volterra_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#volterra_software_version AwsTgwSite#volterra_software_version}
   */
   readonly volterraSoftwareVersion?: string;
 }
@@ -5583,15 +6522,15 @@ export class AwsTgwSiteSwOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSiteTgwSecurityActiveEastWestServicePoliciesServicePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -5767,7 +6706,7 @@ export interface AwsTgwSiteTgwSecurityActiveEastWestServicePolicies {
   /**
   * service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#service_policies AwsTgwSite#service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#service_policies AwsTgwSite#service_policies}
   */
   readonly servicePolicies?: AwsTgwSiteTgwSecurityActiveEastWestServicePoliciesServicePolicies[] | cdktf.IResolvable;
 }
@@ -5851,15 +6790,15 @@ export class AwsTgwSiteTgwSecurityActiveEastWestServicePoliciesOutputReference e
 }
 export interface AwsTgwSiteTgwSecurityActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -6035,7 +6974,7 @@ export interface AwsTgwSiteTgwSecurityActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#enhanced_firewall_policies AwsTgwSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enhanced_firewall_policies AwsTgwSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AwsTgwSiteTgwSecurityActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -6116,15 +7055,15 @@ export class AwsTgwSiteTgwSecurityActiveEnhancedFirewallPoliciesOutputReference 
 }
 export interface AwsTgwSiteTgwSecurityActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -6300,7 +7239,7 @@ export interface AwsTgwSiteTgwSecurityActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#forward_proxy_policies AwsTgwSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#forward_proxy_policies AwsTgwSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: AwsTgwSiteTgwSecurityActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -6381,15 +7320,15 @@ export class AwsTgwSiteTgwSecurityActiveForwardProxyPoliciesOutputReference exte
 }
 export interface AwsTgwSiteTgwSecurityActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -6565,7 +7504,7 @@ export interface AwsTgwSiteTgwSecurityActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#network_policies AwsTgwSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#network_policies AwsTgwSite#network_policies}
   */
   readonly networkPolicies: AwsTgwSiteTgwSecurityActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -6646,47 +7585,47 @@ export class AwsTgwSiteTgwSecurityActiveNetworkPoliciesOutputReference extends c
 }
 export interface AwsTgwSiteTgwSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#east_west_service_policy_allow_all AwsTgwSite#east_west_service_policy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#east_west_service_policy_allow_all AwsTgwSite#east_west_service_policy_allow_all}
   */
   readonly eastWestServicePolicyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#forward_proxy_allow_all AwsTgwSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#forward_proxy_allow_all AwsTgwSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_east_west_policy AwsTgwSite#no_east_west_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_east_west_policy AwsTgwSite#no_east_west_policy}
   */
   readonly noEastWestPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_forward_proxy AwsTgwSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_forward_proxy AwsTgwSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_network_policy AwsTgwSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_network_policy AwsTgwSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
   * active_east_west_service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#active_east_west_service_policies AwsTgwSite#active_east_west_service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#active_east_west_service_policies AwsTgwSite#active_east_west_service_policies}
   */
   readonly activeEastWestServicePolicies?: AwsTgwSiteTgwSecurityActiveEastWestServicePolicies;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#active_enhanced_firewall_policies AwsTgwSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#active_enhanced_firewall_policies AwsTgwSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: AwsTgwSiteTgwSecurityActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#active_forward_proxy_policies AwsTgwSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#active_forward_proxy_policies AwsTgwSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: AwsTgwSiteTgwSecurityActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#active_network_policies AwsTgwSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#active_network_policies AwsTgwSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: AwsTgwSiteTgwSecurityActiveNetworkPolicies;
 }
@@ -7002,7 +7941,7 @@ export class AwsTgwSiteTgwSecurityOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSiteVnConfigAllowedVipPortCustomPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#port_ranges AwsTgwSite#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#port_ranges AwsTgwSite#port_ranges}
   */
   readonly portRanges: string;
 }
@@ -7083,25 +8022,25 @@ export class AwsTgwSiteVnConfigAllowedVipPortCustomPortsOutputReference extends 
 }
 export interface AwsTgwSiteVnConfigAllowedVipPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#disable_allowed_vip_port AwsTgwSite#disable_allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_allowed_vip_port AwsTgwSite#disable_allowed_vip_port}
   */
   readonly disableAllowedVipPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#use_http_https_port AwsTgwSite#use_http_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_http_https_port AwsTgwSite#use_http_https_port}
   */
   readonly useHttpHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#use_http_port AwsTgwSite#use_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_http_port AwsTgwSite#use_http_port}
   */
   readonly useHttpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#use_https_port AwsTgwSite#use_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_https_port AwsTgwSite#use_https_port}
   */
   readonly useHttpsPort?: boolean | cdktf.IResolvable;
   /**
   * custom_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_ports AwsTgwSite#custom_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_ports AwsTgwSite#custom_ports}
   */
   readonly customPorts?: AwsTgwSiteVnConfigAllowedVipPortCustomPorts;
 }
@@ -7301,7 +8240,7 @@ export class AwsTgwSiteVnConfigAllowedVipPortOutputReference extends cdktf.Compl
 }
 export interface AwsTgwSiteVnConfigAllowedVipPortSliCustomPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#port_ranges AwsTgwSite#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#port_ranges AwsTgwSite#port_ranges}
   */
   readonly portRanges: string;
 }
@@ -7382,25 +8321,25 @@ export class AwsTgwSiteVnConfigAllowedVipPortSliCustomPortsOutputReference exten
 }
 export interface AwsTgwSiteVnConfigAllowedVipPortSli {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#disable_allowed_vip_port AwsTgwSite#disable_allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_allowed_vip_port AwsTgwSite#disable_allowed_vip_port}
   */
   readonly disableAllowedVipPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#use_http_https_port AwsTgwSite#use_http_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_http_https_port AwsTgwSite#use_http_https_port}
   */
   readonly useHttpHttpsPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#use_http_port AwsTgwSite#use_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_http_port AwsTgwSite#use_http_port}
   */
   readonly useHttpPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#use_https_port AwsTgwSite#use_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_https_port AwsTgwSite#use_https_port}
   */
   readonly useHttpsPort?: boolean | cdktf.IResolvable;
   /**
   * custom_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_ports AwsTgwSite#custom_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_ports AwsTgwSite#custom_ports}
   */
   readonly customPorts?: AwsTgwSiteVnConfigAllowedVipPortSliCustomPorts;
 }
@@ -7600,15 +8539,15 @@ export class AwsTgwSiteVnConfigAllowedVipPortSliOutputReference extends cdktf.Co
 }
 export interface AwsTgwSiteVnConfigDcClusterGroupInsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -7750,15 +8689,15 @@ export class AwsTgwSiteVnConfigDcClusterGroupInsideVnOutputReference extends cdk
 }
 export interface AwsTgwSiteVnConfigDcClusterGroupOutsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -7898,17 +8837,2323 @@ export class AwsTgwSiteVnConfigDcClusterGroupOutsideVnOutputReference extends cd
     return this._tenant;
   }
 }
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#hash_algorithms AwsTgwSite#hash_algorithms}
+  */
+  readonly hashAlgorithms: string[];
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hash_algorithms: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hashAlgorithms),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hash_algorithms: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.hashAlgorithms),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hashAlgorithms !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hashAlgorithms = this._hashAlgorithms;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._hashAlgorithms = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._hashAlgorithms = value.hashAlgorithms;
+    }
+  }
+
+  // hash_algorithms - computed: false, optional: false, required: true
+  private _hashAlgorithms?: string[]; 
+  public get hashAlgorithms() {
+    return this.getListAttribute('hash_algorithms');
+  }
+  public set hashAlgorithms(value: string[]) {
+    this._hashAlgorithms = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashAlgorithmsInput() {
+    return this._hashAlgorithms;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling {
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#decryption_provider AwsTgwSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#location AwsTgwSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#store_provider AwsTgwSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#decryption_provider AwsTgwSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#location AwsTgwSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#store_provider AwsTgwSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#provider AwsTgwSite#provider}
+  */
+  readonly provider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#url AwsTgwSite#url}
+  */
+  readonly url: string;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    provider: cdktf.stringToTerraform(struct!.provider),
+    url: cdktf.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._provider = undefined;
+      this._url = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._provider = value.provider;
+      this._url = value.url;
+    }
+  }
+
+  // provider - computed: false, optional: true, required: false
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  public resetProvider() {
+    this._provider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // url - computed: false, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#key AwsTgwSite#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#location AwsTgwSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#provider AwsTgwSite#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#secret_encoding AwsTgwSite#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#version AwsTgwSite#version}
+  */
+  readonly version?: number;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  */
+  readonly name: string;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#secret_encoding_type AwsTgwSite#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
+  /**
+  * blindfold_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#blindfold_secret_info AwsTgwSite#blindfold_secret_info}
+  */
+  readonly blindfoldSecretInfo?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
+  /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#blindfold_secret_info_internal AwsTgwSite#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
+  /**
+  * clear_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#clear_secret_info AwsTgwSite#clear_secret_info}
+  */
+  readonly clearSecretInfo?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vault_secret_info AwsTgwSite#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#wingman_secret_info AwsTgwSite#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
+    blindfold_secret_info: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
+    clear_secret_info: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    blindfold_secret_info: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoList",
+    },
+    blindfold_secret_info_internal: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalList",
+    },
+    clear_secret_info: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
+    if (this._blindfoldSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
+    }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
+    if (this._clearSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
+      this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
+      this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
+      this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
+      this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
+    }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
+  }
+
+  // blindfold_secret_info - computed: false, optional: true, required: false
+  private _blindfoldSecretInfo = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference(this, "blindfold_secret_info");
+  public get blindfoldSecretInfo() {
+    return this._blindfoldSecretInfo;
+  }
+  public putBlindfoldSecretInfo(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo) {
+    this._blindfoldSecretInfo.internalValue = value;
+  }
+  public resetBlindfoldSecretInfo() {
+    this._blindfoldSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInput() {
+    return this._blindfoldSecretInfo.internalValue;
+  }
+
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
+  // clear_secret_info - computed: false, optional: true, required: false
+  private _clearSecretInfo = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
+  public get clearSecretInfo() {
+    return this._clearSecretInfo;
+  }
+  public putClearSecretInfo(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo) {
+    this._clearSecretInfo.internalValue = value;
+  }
+  public resetClearSecretInfo() {
+    this._clearSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSecretInfoInput() {
+    return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults {
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#certificate_url AwsTgwSite#certificate_url}
+  */
+  readonly certificateUrl: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#description AwsTgwSite#description}
+  */
+  readonly description?: string;
+  /**
+  * custom_hash_algorithms block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_hash_algorithms AwsTgwSite#custom_hash_algorithms}
+  */
+  readonly customHashAlgorithms?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
+  /**
+  * disable_ocsp_stapling block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_ocsp_stapling AwsTgwSite#disable_ocsp_stapling}
+  */
+  readonly disableOcspStapling?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
+  /**
+  * private_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#private_key AwsTgwSite#private_key}
+  */
+  readonly privateKey: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
+  /**
+  * use_system_defaults block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#use_system_defaults AwsTgwSite#use_system_defaults}
+  */
+  readonly useSystemDefaults?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    certificate_url: cdktf.stringToTerraform(struct!.certificateUrl),
+    description: cdktf.stringToTerraform(struct!.description),
+    custom_hash_algorithms: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToTerraform(struct!.customHashAlgorithms),
+    disable_ocsp_stapling: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToTerraform(struct!.disableOcspStapling),
+    private_key: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToTerraform(struct!.privateKey),
+    use_system_defaults: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToTerraform(struct!.useSystemDefaults),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    certificate_url: {
+      value: cdktf.stringToHclTerraform(struct!.certificateUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_hash_algorithms: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToHclTerraform(struct!.customHashAlgorithms),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsList",
+    },
+    disable_ocsp_stapling: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToHclTerraform(struct!.disableOcspStapling),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingList",
+    },
+    private_key: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToHclTerraform(struct!.privateKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyList",
+    },
+    use_system_defaults: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToHclTerraform(struct!.useSystemDefaults),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._certificateUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificateUrl = this._certificateUrl;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._customHashAlgorithms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHashAlgorithms = this._customHashAlgorithms?.internalValue;
+    }
+    if (this._disableOcspStapling?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableOcspStapling = this._disableOcspStapling?.internalValue;
+    }
+    if (this._privateKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateKey = this._privateKey?.internalValue;
+    }
+    if (this._useSystemDefaults?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useSystemDefaults = this._useSystemDefaults?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._certificateUrl = undefined;
+      this._description = undefined;
+      this._customHashAlgorithms.internalValue = undefined;
+      this._disableOcspStapling.internalValue = undefined;
+      this._privateKey.internalValue = undefined;
+      this._useSystemDefaults.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._certificateUrl = value.certificateUrl;
+      this._description = value.description;
+      this._customHashAlgorithms.internalValue = value.customHashAlgorithms;
+      this._disableOcspStapling.internalValue = value.disableOcspStapling;
+      this._privateKey.internalValue = value.privateKey;
+      this._useSystemDefaults.internalValue = value.useSystemDefaults;
+    }
+  }
+
+  // certificate_url - computed: false, optional: false, required: true
+  private _certificateUrl?: string; 
+  public get certificateUrl() {
+    return this.getStringAttribute('certificate_url');
+  }
+  public set certificateUrl(value: string) {
+    this._certificateUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateUrlInput() {
+    return this._certificateUrl;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // custom_hash_algorithms - computed: false, optional: true, required: false
+  private _customHashAlgorithms = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference(this, "custom_hash_algorithms");
+  public get customHashAlgorithms() {
+    return this._customHashAlgorithms;
+  }
+  public putCustomHashAlgorithms(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms) {
+    this._customHashAlgorithms.internalValue = value;
+  }
+  public resetCustomHashAlgorithms() {
+    this._customHashAlgorithms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHashAlgorithmsInput() {
+    return this._customHashAlgorithms.internalValue;
+  }
+
+  // disable_ocsp_stapling - computed: false, optional: true, required: false
+  private _disableOcspStapling = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference(this, "disable_ocsp_stapling");
+  public get disableOcspStapling() {
+    return this._disableOcspStapling;
+  }
+  public putDisableOcspStapling(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling) {
+    this._disableOcspStapling.internalValue = value;
+  }
+  public resetDisableOcspStapling() {
+    this._disableOcspStapling.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableOcspStaplingInput() {
+    return this._disableOcspStapling.internalValue;
+  }
+
+  // private_key - computed: false, optional: false, required: true
+  private _privateKey = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference(this, "private_key");
+  public get privateKey() {
+    return this._privateKey;
+  }
+  public putPrivateKey(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey) {
+    this._privateKey.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateKeyInput() {
+    return this._privateKey.internalValue;
+  }
+
+  // use_system_defaults - computed: false, optional: true, required: false
+  private _useSystemDefaults = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference(this, "use_system_defaults");
+  public get useSystemDefaults() {
+    return this._useSystemDefaults;
+  }
+  public putUseSystemDefaults(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults) {
+    this._useSystemDefaults.internalValue = value;
+  }
+  public resetUseSystemDefaults() {
+    this._useSystemDefaults.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useSystemDefaultsInput() {
+    return this._useSystemDefaults.internalValue;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#exact_value AwsTgwSite#exact_value}
+  */
+  readonly exactValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#regex_value AwsTgwSite#regex_value}
+  */
+  readonly regexValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#suffix_value AwsTgwSite#suffix_value}
+  */
+  readonly suffixValue?: string;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exact_value: cdktf.stringToTerraform(struct!.exactValue),
+    regex_value: cdktf.stringToTerraform(struct!.regexValue),
+    suffix_value: cdktf.stringToTerraform(struct!.suffixValue),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exact_value: {
+      value: cdktf.stringToHclTerraform(struct!.exactValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex_value: {
+      value: cdktf.stringToHclTerraform(struct!.regexValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    suffix_value: {
+      value: cdktf.stringToHclTerraform(struct!.suffixValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exactValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exactValue = this._exactValue;
+    }
+    if (this._regexValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regexValue = this._regexValue;
+    }
+    if (this._suffixValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.suffixValue = this._suffixValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._exactValue = undefined;
+      this._regexValue = undefined;
+      this._suffixValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._exactValue = value.exactValue;
+      this._regexValue = value.regexValue;
+      this._suffixValue = value.suffixValue;
+    }
+  }
+
+  // exact_value - computed: false, optional: true, required: false
+  private _exactValue?: string; 
+  public get exactValue() {
+    return this.getStringAttribute('exact_value');
+  }
+  public set exactValue(value: string) {
+    this._exactValue = value;
+  }
+  public resetExactValue() {
+    this._exactValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exactValueInput() {
+    return this._exactValue;
+  }
+
+  // regex_value - computed: false, optional: true, required: false
+  private _regexValue?: string; 
+  public get regexValue() {
+    return this.getStringAttribute('regex_value');
+  }
+  public set regexValue(value: string) {
+    this._regexValue = value;
+  }
+  public resetRegexValue() {
+    this._regexValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexValueInput() {
+    return this._regexValue;
+  }
+
+  // suffix_value - computed: false, optional: true, required: false
+  private _suffixValue?: string; 
+  public get suffixValue() {
+    return this.getStringAttribute('suffix_value');
+  }
+  public set suffixValue(value: string) {
+    this._suffixValue = value;
+  }
+  public resetSuffixValue() {
+    this._suffixValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suffixValueInput() {
+    return this._suffixValue;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_interception AwsTgwSite#disable_interception}
+  */
+  readonly disableInterception?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_interception AwsTgwSite#enable_interception}
+  */
+  readonly enableInterception?: boolean | cdktf.IResolvable;
+  /**
+  * domain_match block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#domain_match AwsTgwSite#domain_match}
+  */
+  readonly domainMatch: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_interception: cdktf.booleanToTerraform(struct!.disableInterception),
+    enable_interception: cdktf.booleanToTerraform(struct!.enableInterception),
+    domain_match: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToTerraform(struct!.domainMatch),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.disableInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.enableInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    domain_match: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToHclTerraform(struct!.domainMatch),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableInterception = this._disableInterception;
+    }
+    if (this._enableInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableInterception = this._enableInterception;
+    }
+    if (this._domainMatch?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domainMatch = this._domainMatch?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._disableInterception = undefined;
+      this._enableInterception = undefined;
+      this._domainMatch.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._disableInterception = value.disableInterception;
+      this._enableInterception = value.enableInterception;
+      this._domainMatch.internalValue = value.domainMatch;
+    }
+  }
+
+  // disable_interception - computed: false, optional: true, required: false
+  private _disableInterception?: boolean | cdktf.IResolvable; 
+  public get disableInterception() {
+    return this.getBooleanAttribute('disable_interception');
+  }
+  public set disableInterception(value: boolean | cdktf.IResolvable) {
+    this._disableInterception = value;
+  }
+  public resetDisableInterception() {
+    this._disableInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInterceptionInput() {
+    return this._disableInterception;
+  }
+
+  // enable_interception - computed: false, optional: true, required: false
+  private _enableInterception?: boolean | cdktf.IResolvable; 
+  public get enableInterception() {
+    return this.getBooleanAttribute('enable_interception');
+  }
+  public set enableInterception(value: boolean | cdktf.IResolvable) {
+    this._enableInterception = value;
+  }
+  public resetEnableInterception() {
+    this._enableInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInterceptionInput() {
+    return this._enableInterception;
+  }
+
+  // domain_match - computed: false, optional: false, required: true
+  private _domainMatch = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference(this, "domain_match");
+  public get domainMatch() {
+    return this._domainMatch;
+  }
+  public putDomainMatch(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch) {
+    this._domainMatch.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainMatchInput() {
+    return this._domainMatch.internalValue;
+  }
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList extends cdktf.ComplexList {
+  public internalValue? : AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference {
+    return new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy {
+  /**
+  * interception_rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#interception_rules AwsTgwSite#interception_rules}
+  */
+  readonly interceptionRules: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interception_rules: cdktf.listMapper(awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToTerraform, true)(struct!.interceptionRules),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interception_rules: {
+      value: cdktf.listMapperHcl(awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToHclTerraform, true)(struct!.interceptionRules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interceptionRules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interceptionRules = this._interceptionRules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interceptionRules.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interceptionRules.internalValue = value.interceptionRules;
+    }
+  }
+
+  // interception_rules - computed: false, optional: false, required: true
+  private _interceptionRules = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList(this, "interception_rules", false);
+  public get interceptionRules() {
+    return this._interceptionRules;
+  }
+  public putInterceptionRules(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable) {
+    this._interceptionRules.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interceptionRulesInput() {
+    return this._interceptionRules.internalValue;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_for_all_domains AwsTgwSite#enable_for_all_domains}
+  */
+  readonly enableForAllDomains?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#trusted_ca_url AwsTgwSite#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#volterra_certificate AwsTgwSite#volterra_certificate}
+  */
+  readonly volterraCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#volterra_trusted_ca AwsTgwSite#volterra_trusted_ca}
+  */
+  readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
+  /**
+  * custom_certificate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_certificate AwsTgwSite#custom_certificate}
+  */
+  readonly customCertificate?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
+  /**
+  * policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#policy AwsTgwSite#policy}
+  */
+  readonly policy?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_for_all_domains: cdktf.booleanToTerraform(struct!.enableForAllDomains),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    volterra_certificate: cdktf.booleanToTerraform(struct!.volterraCertificate),
+    volterra_trusted_ca: cdktf.booleanToTerraform(struct!.volterraTrustedCa),
+    custom_certificate: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToTerraform(struct!.customCertificate),
+    policy: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToTerraform(struct!.policy),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_for_all_domains: {
+      value: cdktf.booleanToHclTerraform(struct!.enableForAllDomains),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    volterra_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.volterraCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    volterra_trusted_ca: {
+      value: cdktf.booleanToHclTerraform(struct!.volterraTrustedCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    custom_certificate: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToHclTerraform(struct!.customCertificate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateList",
+    },
+    policy: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToHclTerraform(struct!.policy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableForAllDomains !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableForAllDomains = this._enableForAllDomains;
+    }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
+    if (this._volterraCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraCertificate = this._volterraCertificate;
+    }
+    if (this._volterraTrustedCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraTrustedCa = this._volterraTrustedCa;
+    }
+    if (this._customCertificate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customCertificate = this._customCertificate?.internalValue;
+    }
+    if (this._policy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policy = this._policy?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableForAllDomains = undefined;
+      this._trustedCaUrl = undefined;
+      this._volterraCertificate = undefined;
+      this._volterraTrustedCa = undefined;
+      this._customCertificate.internalValue = undefined;
+      this._policy.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableForAllDomains = value.enableForAllDomains;
+      this._trustedCaUrl = value.trustedCaUrl;
+      this._volterraCertificate = value.volterraCertificate;
+      this._volterraTrustedCa = value.volterraTrustedCa;
+      this._customCertificate.internalValue = value.customCertificate;
+      this._policy.internalValue = value.policy;
+    }
+  }
+
+  // enable_for_all_domains - computed: false, optional: true, required: false
+  private _enableForAllDomains?: boolean | cdktf.IResolvable; 
+  public get enableForAllDomains() {
+    return this.getBooleanAttribute('enable_for_all_domains');
+  }
+  public set enableForAllDomains(value: boolean | cdktf.IResolvable) {
+    this._enableForAllDomains = value;
+  }
+  public resetEnableForAllDomains() {
+    this._enableForAllDomains = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForAllDomainsInput() {
+    return this._enableForAllDomains;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
+  // volterra_certificate - computed: false, optional: true, required: false
+  private _volterraCertificate?: boolean | cdktf.IResolvable; 
+  public get volterraCertificate() {
+    return this.getBooleanAttribute('volterra_certificate');
+  }
+  public set volterraCertificate(value: boolean | cdktf.IResolvable) {
+    this._volterraCertificate = value;
+  }
+  public resetVolterraCertificate() {
+    this._volterraCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraCertificateInput() {
+    return this._volterraCertificate;
+  }
+
+  // volterra_trusted_ca - computed: false, optional: true, required: false
+  private _volterraTrustedCa?: boolean | cdktf.IResolvable; 
+  public get volterraTrustedCa() {
+    return this.getBooleanAttribute('volterra_trusted_ca');
+  }
+  public set volterraTrustedCa(value: boolean | cdktf.IResolvable) {
+    this._volterraTrustedCa = value;
+  }
+  public resetVolterraTrustedCa() {
+    this._volterraTrustedCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraTrustedCaInput() {
+    return this._volterraTrustedCa;
+  }
+
+  // custom_certificate - computed: false, optional: true, required: false
+  private _customCertificate = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference(this, "custom_certificate");
+  public get customCertificate() {
+    return this._customCertificate;
+  }
+  public putCustomCertificate(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate) {
+    this._customCertificate.internalValue = value;
+  }
+  public resetCustomCertificate() {
+    this._customCertificate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customCertificateInput() {
+    return this._customCertificate.internalValue;
+  }
+
+  // policy - computed: false, optional: true, required: false
+  private _policy = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference(this, "policy");
+  public get policy() {
+    return this._policy;
+  }
+  public putPolicy(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy) {
+    this._policy.internalValue = value;
+  }
+  public resetPolicy() {
+    this._policy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy.internalValue;
+  }
+}
+export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#connection_timeout AwsTgwSite#connection_timeout}
+  */
+  readonly connectionTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#max_connect_attempts AwsTgwSite#max_connect_attempts}
+  */
+  readonly maxConnectAttempts?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_interception AwsTgwSite#no_interception}
+  */
+  readonly noInterception?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#white_listed_ports AwsTgwSite#white_listed_ports}
+  */
+  readonly whiteListedPorts?: number[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#white_listed_prefixes AwsTgwSite#white_listed_prefixes}
+  */
+  readonly whiteListedPrefixes?: string[];
+  /**
+  * tls_intercept block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tls_intercept AwsTgwSite#tls_intercept}
+  */
+  readonly tlsIntercept?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
+}
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_timeout: cdktf.numberToTerraform(struct!.connectionTimeout),
+    max_connect_attempts: cdktf.numberToTerraform(struct!.maxConnectAttempts),
+    no_interception: cdktf.booleanToTerraform(struct!.noInterception),
+    white_listed_ports: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.whiteListedPorts),
+    white_listed_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.whiteListedPrefixes),
+    tls_intercept: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToTerraform(struct!.tlsIntercept),
+  }
+}
+
+
+export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToHclTerraform(struct?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference | AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.connectionTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_connect_attempts: {
+      value: cdktf.numberToHclTerraform(struct!.maxConnectAttempts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    no_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.noInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    white_listed_ports: {
+      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.whiteListedPorts),
+      isBlock: false,
+      type: "list",
+      storageClassType: "numberList",
+    },
+    white_listed_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.whiteListedPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    tls_intercept: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToHclTerraform(struct!.tlsIntercept),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionTimeout = this._connectionTimeout;
+    }
+    if (this._maxConnectAttempts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxConnectAttempts = this._maxConnectAttempts;
+    }
+    if (this._noInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noInterception = this._noInterception;
+    }
+    if (this._whiteListedPorts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteListedPorts = this._whiteListedPorts;
+    }
+    if (this._whiteListedPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteListedPrefixes = this._whiteListedPrefixes;
+    }
+    if (this._tlsIntercept?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tlsIntercept = this._tlsIntercept?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._connectionTimeout = undefined;
+      this._maxConnectAttempts = undefined;
+      this._noInterception = undefined;
+      this._whiteListedPorts = undefined;
+      this._whiteListedPrefixes = undefined;
+      this._tlsIntercept.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._connectionTimeout = value.connectionTimeout;
+      this._maxConnectAttempts = value.maxConnectAttempts;
+      this._noInterception = value.noInterception;
+      this._whiteListedPorts = value.whiteListedPorts;
+      this._whiteListedPrefixes = value.whiteListedPrefixes;
+      this._tlsIntercept.internalValue = value.tlsIntercept;
+    }
+  }
+
+  // connection_timeout - computed: false, optional: true, required: false
+  private _connectionTimeout?: number; 
+  public get connectionTimeout() {
+    return this.getNumberAttribute('connection_timeout');
+  }
+  public set connectionTimeout(value: number) {
+    this._connectionTimeout = value;
+  }
+  public resetConnectionTimeout() {
+    this._connectionTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionTimeoutInput() {
+    return this._connectionTimeout;
+  }
+
+  // max_connect_attempts - computed: false, optional: true, required: false
+  private _maxConnectAttempts?: number; 
+  public get maxConnectAttempts() {
+    return this.getNumberAttribute('max_connect_attempts');
+  }
+  public set maxConnectAttempts(value: number) {
+    this._maxConnectAttempts = value;
+  }
+  public resetMaxConnectAttempts() {
+    this._maxConnectAttempts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxConnectAttemptsInput() {
+    return this._maxConnectAttempts;
+  }
+
+  // no_interception - computed: false, optional: true, required: false
+  private _noInterception?: boolean | cdktf.IResolvable; 
+  public get noInterception() {
+    return this.getBooleanAttribute('no_interception');
+  }
+  public set noInterception(value: boolean | cdktf.IResolvable) {
+    this._noInterception = value;
+  }
+  public resetNoInterception() {
+    this._noInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noInterceptionInput() {
+    return this._noInterception;
+  }
+
+  // white_listed_ports - computed: false, optional: true, required: false
+  private _whiteListedPorts?: number[]; 
+  public get whiteListedPorts() {
+    return this.getNumberListAttribute('white_listed_ports');
+  }
+  public set whiteListedPorts(value: number[]) {
+    this._whiteListedPorts = value;
+  }
+  public resetWhiteListedPorts() {
+    this._whiteListedPorts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListedPortsInput() {
+    return this._whiteListedPorts;
+  }
+
+  // white_listed_prefixes - computed: false, optional: true, required: false
+  private _whiteListedPrefixes?: string[]; 
+  public get whiteListedPrefixes() {
+    return this.getListAttribute('white_listed_prefixes');
+  }
+  public set whiteListedPrefixes(value: string[]) {
+    this._whiteListedPrefixes = value;
+  }
+  public resetWhiteListedPrefixes() {
+    this._whiteListedPrefixes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListedPrefixesInput() {
+    return this._whiteListedPrefixes;
+  }
+
+  // tls_intercept - computed: false, optional: true, required: false
+  private _tlsIntercept = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference(this, "tls_intercept");
+  public get tlsIntercept() {
+    return this._tlsIntercept;
+  }
+  public putTlsIntercept(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept) {
+    this._tlsIntercept.internalValue = value;
+  }
+  public resetTlsIntercept() {
+    this._tlsIntercept.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsInterceptInput() {
+    return this._tlsIntercept.internalValue;
+  }
+}
 export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8057,7 +11302,7 @@ export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliT
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#global_vn AwsTgwSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#global_vn AwsTgwSite#global_vn}
   */
   readonly globalVn: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn;
 }
@@ -8138,15 +11383,15 @@ export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlo
 }
 export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8295,7 +11540,7 @@ export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSloT
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#global_vn AwsTgwSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#global_vn AwsTgwSite#global_vn}
   */
   readonly globalVn: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn;
 }
@@ -8376,15 +11621,25 @@ export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlo
 }
 export interface AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnections {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#disable_forward_proxy AwsTgwSite#disable_forward_proxy}
+  */
+  readonly disableForwardProxy?: boolean | cdktf.IResolvable;
+  /**
+  * enable_forward_proxy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#enable_forward_proxy AwsTgwSite#enable_forward_proxy}
+  */
+  readonly enableForwardProxy?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy;
+  /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#sli_to_global_dr AwsTgwSite#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#sli_to_global_dr AwsTgwSite#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDr;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#slo_to_global_dr AwsTgwSite#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#slo_to_global_dr AwsTgwSite#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDr;
 }
@@ -8395,6 +11650,8 @@ export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsToTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_forward_proxy: cdktf.booleanToTerraform(struct!.disableForwardProxy),
+    enable_forward_proxy: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToTerraform(struct!.enableForwardProxy),
     sli_to_global_dr: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrToTerraform(struct!.sliToGlobalDr),
     slo_to_global_dr: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrToTerraform(struct!.sloToGlobalDr),
   }
@@ -8407,6 +11664,18 @@ export function awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsToHcl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_forward_proxy: {
+      value: cdktf.booleanToHclTerraform(struct!.disableForwardProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_forward_proxy: {
+      value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToHclTerraform(struct!.enableForwardProxy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyList",
+    },
     sli_to_global_dr: {
       value: awsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrToHclTerraform(struct!.sliToGlobalDr),
       isBlock: true,
@@ -8445,6 +11714,14 @@ export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsOutputRe
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableForwardProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableForwardProxy = this._disableForwardProxy;
+    }
+    if (this._enableForwardProxy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableForwardProxy = this._enableForwardProxy?.internalValue;
+    }
     if (this._sliToGlobalDr?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sliToGlobalDr = this._sliToGlobalDr?.internalValue;
@@ -8460,6 +11737,8 @@ export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsOutputRe
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._disableForwardProxy = undefined;
+      this._enableForwardProxy.internalValue = undefined;
       this._sliToGlobalDr.internalValue = undefined;
       this._sloToGlobalDr.internalValue = undefined;
     }
@@ -8470,9 +11749,43 @@ export class AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsOutputRe
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._disableForwardProxy = value.disableForwardProxy;
+      this._enableForwardProxy.internalValue = value.enableForwardProxy;
       this._sliToGlobalDr.internalValue = value.sliToGlobalDr;
       this._sloToGlobalDr.internalValue = value.sloToGlobalDr;
     }
+  }
+
+  // disable_forward_proxy - computed: false, optional: true, required: false
+  private _disableForwardProxy?: boolean | cdktf.IResolvable; 
+  public get disableForwardProxy() {
+    return this.getBooleanAttribute('disable_forward_proxy');
+  }
+  public set disableForwardProxy(value: boolean | cdktf.IResolvable) {
+    this._disableForwardProxy = value;
+  }
+  public resetDisableForwardProxy() {
+    this._disableForwardProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableForwardProxyInput() {
+    return this._disableForwardProxy;
+  }
+
+  // enable_forward_proxy - computed: false, optional: true, required: false
+  private _enableForwardProxy = new AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference(this, "enable_forward_proxy");
+  public get enableForwardProxy() {
+    return this._enableForwardProxy;
+  }
+  public putEnableForwardProxy(value: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy) {
+    this._enableForwardProxy.internalValue = value;
+  }
+  public resetEnableForwardProxy() {
+    this._enableForwardProxy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForwardProxyInput() {
+    return this._enableForwardProxy.internalValue;
   }
 
   // sli_to_global_dr - computed: false, optional: true, required: false
@@ -8531,7 +11844,7 @@ export interface AwsTgwSiteVnConfigGlobalNetworkListStruct {
   /**
   * global_network_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#global_network_connections AwsTgwSite#global_network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#global_network_connections AwsTgwSite#global_network_connections}
   */
   readonly globalNetworkConnections: AwsTgwSiteVnConfigGlobalNetworkListGlobalNetworkConnections[] | cdktf.IResolvable;
 }
@@ -8612,15 +11925,15 @@ export class AwsTgwSiteVnConfigGlobalNetworkListStructOutputReference extends cd
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8799,7 +12112,7 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
   */
   readonly addr?: string;
 }
@@ -8883,7 +12196,7 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
   */
   readonly addr?: string;
 }
@@ -8969,13 +12282,13 @@ export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStatic
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -9088,19 +12401,19 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#type AwsTgwSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#type AwsTgwSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#interface AwsTgwSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#interface AwsTgwSite#interface}
   */
   readonly interface?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#nexthop_address AwsTgwSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#nexthop_address AwsTgwSite#nexthop_address}
   */
   readonly nexthopAddress?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -9242,11 +12555,11 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -9359,11 +12672,11 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -9478,13 +12791,13 @@ export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStatic
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -9629,23 +12942,23 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#attrs AwsTgwSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#attrs AwsTgwSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#nexthop AwsTgwSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#nexthop AwsTgwSite#nexthop}
   */
   readonly nexthop?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#subnets AwsTgwSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#subnets AwsTgwSite#subnets}
   */
   readonly subnets: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -9813,13 +13126,13 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRout
 }
 export interface AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#simple_static_route AwsTgwSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#simple_static_route AwsTgwSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_static_route AwsTgwSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_static_route AwsTgwSite#custom_static_route}
   */
   readonly customStaticRoute?: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -9966,7 +13279,7 @@ export interface AwsTgwSiteVnConfigInsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#static_route_list AwsTgwSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#static_route_list AwsTgwSite#static_route_list}
   */
   readonly staticRouteList: AwsTgwSiteVnConfigInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -10047,15 +13360,15 @@ export class AwsTgwSiteVnConfigInsideStaticRoutesOutputReference extends cdktf.C
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#name AwsTgwSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#name AwsTgwSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#namespace AwsTgwSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#tenant AwsTgwSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -10234,7 +13547,7 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
   */
   readonly addr?: string;
 }
@@ -10318,7 +13631,7 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#addr AwsTgwSite#addr}
   */
   readonly addr?: string;
 }
@@ -10404,13 +13717,13 @@ export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStati
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -10523,19 +13836,19 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#type AwsTgwSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#type AwsTgwSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#interface AwsTgwSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#interface AwsTgwSite#interface}
   */
   readonly interface?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#nexthop_address AwsTgwSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#nexthop_address AwsTgwSite#nexthop_address}
   */
   readonly nexthopAddress?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -10677,11 +13990,11 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -10794,11 +14107,11 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#plen AwsTgwSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#prefix AwsTgwSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -10913,13 +14226,13 @@ export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStati
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv4 AwsTgwSite#ipv4}
   */
   readonly ipv4?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#ipv6 AwsTgwSite#ipv6}
   */
   readonly ipv6?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -11064,23 +14377,23 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#attrs AwsTgwSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#attrs AwsTgwSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#nexthop AwsTgwSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#nexthop AwsTgwSite#nexthop}
   */
   readonly nexthop?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#subnets AwsTgwSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#subnets AwsTgwSite#subnets}
   */
   readonly subnets: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -11248,13 +14561,13 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRou
 }
 export interface AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#simple_static_route AwsTgwSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#simple_static_route AwsTgwSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#custom_static_route AwsTgwSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#custom_static_route AwsTgwSite#custom_static_route}
   */
   readonly customStaticRoute?: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -11401,7 +14714,7 @@ export interface AwsTgwSiteVnConfigOutsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#static_route_list AwsTgwSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#static_route_list AwsTgwSite#static_route_list}
   */
   readonly staticRouteList: AwsTgwSiteVnConfigOutsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -11482,69 +14795,69 @@ export class AwsTgwSiteVnConfigOutsideStaticRoutesOutputReference extends cdktf.
 }
 export interface AwsTgwSiteVnConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_dc_cluster_group AwsTgwSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_dc_cluster_group AwsTgwSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_global_network AwsTgwSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_global_network AwsTgwSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_inside_static_routes AwsTgwSite#no_inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_inside_static_routes AwsTgwSite#no_inside_static_routes}
   */
   readonly noInsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#no_outside_static_routes AwsTgwSite#no_outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#no_outside_static_routes AwsTgwSite#no_outside_static_routes}
   */
   readonly noOutsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#sm_connection_public_ip AwsTgwSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#sm_connection_public_ip AwsTgwSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#sm_connection_pvt_ip AwsTgwSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#sm_connection_pvt_ip AwsTgwSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
   * allowed_vip_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#allowed_vip_port AwsTgwSite#allowed_vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#allowed_vip_port AwsTgwSite#allowed_vip_port}
   */
   readonly allowedVipPort?: AwsTgwSiteVnConfigAllowedVipPort;
   /**
   * allowed_vip_port_sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#allowed_vip_port_sli AwsTgwSite#allowed_vip_port_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#allowed_vip_port_sli AwsTgwSite#allowed_vip_port_sli}
   */
   readonly allowedVipPortSli?: AwsTgwSiteVnConfigAllowedVipPortSli;
   /**
   * dc_cluster_group_inside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#dc_cluster_group_inside_vn AwsTgwSite#dc_cluster_group_inside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#dc_cluster_group_inside_vn AwsTgwSite#dc_cluster_group_inside_vn}
   */
   readonly dcClusterGroupInsideVn?: AwsTgwSiteVnConfigDcClusterGroupInsideVn;
   /**
   * dc_cluster_group_outside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#dc_cluster_group_outside_vn AwsTgwSite#dc_cluster_group_outside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#dc_cluster_group_outside_vn AwsTgwSite#dc_cluster_group_outside_vn}
   */
   readonly dcClusterGroupOutsideVn?: AwsTgwSiteVnConfigDcClusterGroupOutsideVn;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#global_network_list AwsTgwSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#global_network_list AwsTgwSite#global_network_list}
   */
   readonly globalNetworkList?: AwsTgwSiteVnConfigGlobalNetworkListStruct;
   /**
   * inside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#inside_static_routes AwsTgwSite#inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#inside_static_routes AwsTgwSite#inside_static_routes}
   */
   readonly insideStaticRoutes?: AwsTgwSiteVnConfigInsideStaticRoutes;
   /**
   * outside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#outside_static_routes AwsTgwSite#outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#outside_static_routes AwsTgwSite#outside_static_routes}
   */
   readonly outsideStaticRoutes?: AwsTgwSiteVnConfigOutsideStaticRoutes;
 }
@@ -11976,11 +15289,11 @@ export class AwsTgwSiteVnConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsTgwSiteVpcAttachmentsVpcListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#labels AwsTgwSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vpc_id AwsTgwSite#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vpc_id AwsTgwSite#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -12127,7 +15440,7 @@ export interface AwsTgwSiteVpcAttachments {
   /**
   * vpc_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#vpc_list AwsTgwSite#vpc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#vpc_list AwsTgwSite#vpc_list}
   */
   readonly vpcList?: AwsTgwSiteVpcAttachmentsVpcListStruct[] | cdktf.IResolvable;
 }
@@ -12211,7 +15524,7 @@ export class AwsTgwSiteVpcAttachmentsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site volterra_aws_tgw_site}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site volterra_aws_tgw_site}
 */
 export class AwsTgwSite extends cdktf.TerraformResource {
 
@@ -12227,7 +15540,7 @@ export class AwsTgwSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwSite to import
-  * @param importFromId The id of the existing AwsTgwSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12239,7 +15552,7 @@ export class AwsTgwSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/aws_tgw_site volterra_aws_tgw_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/aws_tgw_site volterra_aws_tgw_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12250,8 +15563,8 @@ export class AwsTgwSite extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_aws_tgw_site',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

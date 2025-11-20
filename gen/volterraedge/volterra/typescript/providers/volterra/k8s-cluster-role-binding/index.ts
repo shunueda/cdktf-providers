@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface K8SClusterRoleBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#annotations K8SClusterRoleBinding#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#annotations K8SClusterRoleBinding#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#description K8SClusterRoleBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#description K8SClusterRoleBinding#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#disable K8SClusterRoleBinding#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#disable K8SClusterRoleBinding#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#id K8SClusterRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#id K8SClusterRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#labels K8SClusterRoleBinding#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#labels K8SClusterRoleBinding#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#name K8SClusterRoleBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#name K8SClusterRoleBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#namespace K8SClusterRoleBinding#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#namespace K8SClusterRoleBinding#namespace}
   */
   readonly namespace: string;
   /**
   * k8s_cluster_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#k8s_cluster_role K8SClusterRoleBinding#k8s_cluster_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#k8s_cluster_role K8SClusterRoleBinding#k8s_cluster_role}
   */
   readonly k8SClusterRole: K8SClusterRoleBindingK8SClusterRole;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#subjects K8SClusterRoleBinding#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#subjects K8SClusterRoleBinding#subjects}
   */
   readonly subjects: K8SClusterRoleBindingSubjects[] | cdktf.IResolvable;
 }
 export interface K8SClusterRoleBindingK8SClusterRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#name K8SClusterRoleBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#name K8SClusterRoleBinding#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#namespace K8SClusterRoleBinding#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#namespace K8SClusterRoleBinding#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#tenant K8SClusterRoleBinding#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#tenant K8SClusterRoleBinding#tenant}
   */
   readonly tenant?: string;
 }
@@ -203,11 +203,11 @@ export class K8SClusterRoleBindingK8SClusterRoleOutputReference extends cdktf.Co
 }
 export interface K8SClusterRoleBindingSubjectsServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#name K8SClusterRoleBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#name K8SClusterRoleBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#namespace K8SClusterRoleBinding#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#namespace K8SClusterRoleBinding#namespace}
   */
   readonly namespace: string;
 }
@@ -314,17 +314,17 @@ export class K8SClusterRoleBindingSubjectsServiceAccountOutputReference extends 
 }
 export interface K8SClusterRoleBindingSubjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#group K8SClusterRoleBinding#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#group K8SClusterRoleBinding#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#user K8SClusterRoleBinding#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#user K8SClusterRoleBinding#user}
   */
   readonly user?: string;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#service_account K8SClusterRoleBinding#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#service_account K8SClusterRoleBinding#service_account}
   */
   readonly serviceAccount?: K8SClusterRoleBindingSubjectsServiceAccount;
 }
@@ -498,7 +498,7 @@ export class K8SClusterRoleBindingSubjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding volterra_k8s_cluster_role_binding}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding volterra_k8s_cluster_role_binding}
 */
 export class K8SClusterRoleBinding extends cdktf.TerraformResource {
 
@@ -514,7 +514,7 @@ export class K8SClusterRoleBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SClusterRoleBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SClusterRoleBinding to import
-  * @param importFromId The id of the existing K8SClusterRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SClusterRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SClusterRoleBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -526,7 +526,7 @@ export class K8SClusterRoleBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/k8s_cluster_role_binding volterra_k8s_cluster_role_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/k8s_cluster_role_binding volterra_k8s_cluster_role_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,8 +537,8 @@ export class K8SClusterRoleBinding extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_k8s_cluster_role_binding',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface BgpRoutingPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#annotations BgpRoutingPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#annotations BgpRoutingPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#description BgpRoutingPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#description BgpRoutingPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#disable BgpRoutingPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#disable BgpRoutingPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#id BgpRoutingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#id BgpRoutingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#labels BgpRoutingPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#labels BgpRoutingPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#name BgpRoutingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#name BgpRoutingPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#namespace BgpRoutingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#namespace BgpRoutingPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#rules BgpRoutingPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#rules BgpRoutingPolicy#rules}
   */
   readonly rules: BgpRoutingPolicyRules[] | cdktf.IResolvable;
 }
 export interface BgpRoutingPolicyRulesActionCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
   */
   readonly community: string[];
 }
@@ -128,33 +128,33 @@ export class BgpRoutingPolicyRulesActionCommunityOutputReference extends cdktf.C
 }
 export interface BgpRoutingPolicyRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#aggregate BgpRoutingPolicy#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#aggregate BgpRoutingPolicy#aggregate}
   */
   readonly aggregate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#allow BgpRoutingPolicy#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#allow BgpRoutingPolicy#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#as_path BgpRoutingPolicy#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#as_path BgpRoutingPolicy#as_path}
   */
   readonly asPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#deny BgpRoutingPolicy#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#deny BgpRoutingPolicy#deny}
   */
   readonly deny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#local_preference BgpRoutingPolicy#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#local_preference BgpRoutingPolicy#local_preference}
   */
   readonly localPreference?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#metric BgpRoutingPolicy#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#metric BgpRoutingPolicy#metric}
   */
   readonly metric?: number;
   /**
   * community block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
   */
   readonly community?: BgpRoutingPolicyRulesActionCommunity;
 }
@@ -412,7 +412,7 @@ export class BgpRoutingPolicyRulesActionOutputReference extends cdktf.ComplexObj
 }
 export interface BgpRoutingPolicyRulesMatchCommunity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
   */
   readonly community: string[];
 }
@@ -493,19 +493,19 @@ export class BgpRoutingPolicyRulesMatchCommunityOutputReference extends cdktf.Co
 }
 export interface BgpRoutingPolicyRulesMatchIpPrefixesPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#equal_or_longer_than BgpRoutingPolicy#equal_or_longer_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#equal_or_longer_than BgpRoutingPolicy#equal_or_longer_than}
   */
   readonly equalOrLongerThan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#exact_match BgpRoutingPolicy#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#exact_match BgpRoutingPolicy#exact_match}
   */
   readonly exactMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#ip_prefixes BgpRoutingPolicy#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#ip_prefixes BgpRoutingPolicy#ip_prefixes}
   */
   readonly ipPrefixes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#longer_than BgpRoutingPolicy#longer_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#longer_than BgpRoutingPolicy#longer_than}
   */
   readonly longerThan?: boolean | cdktf.IResolvable;
 }
@@ -710,7 +710,7 @@ export interface BgpRoutingPolicyRulesMatchIpPrefixes {
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#prefixes BgpRoutingPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#prefixes BgpRoutingPolicy#prefixes}
   */
   readonly prefixes: BgpRoutingPolicyRulesMatchIpPrefixesPrefixes[] | cdktf.IResolvable;
 }
@@ -791,19 +791,19 @@ export class BgpRoutingPolicyRulesMatchIpPrefixesOutputReference extends cdktf.C
 }
 export interface BgpRoutingPolicyRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#as_path BgpRoutingPolicy#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#as_path BgpRoutingPolicy#as_path}
   */
   readonly asPath?: string;
   /**
   * community block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#community BgpRoutingPolicy#community}
   */
   readonly community?: BgpRoutingPolicyRulesMatchCommunity;
   /**
   * ip_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#ip_prefixes BgpRoutingPolicy#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#ip_prefixes BgpRoutingPolicy#ip_prefixes}
   */
   readonly ipPrefixes?: BgpRoutingPolicyRulesMatchIpPrefixes;
 }
@@ -947,13 +947,13 @@ export interface BgpRoutingPolicyRules {
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#action BgpRoutingPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#action BgpRoutingPolicy#action}
   */
   readonly action?: BgpRoutingPolicyRulesAction;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#match BgpRoutingPolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#match BgpRoutingPolicy#match}
   */
   readonly match?: BgpRoutingPolicyRulesMatch;
 }
@@ -1098,7 +1098,7 @@ export class BgpRoutingPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy volterra_bgp_routing_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy volterra_bgp_routing_policy}
 */
 export class BgpRoutingPolicy extends cdktf.TerraformResource {
 
@@ -1114,7 +1114,7 @@ export class BgpRoutingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpRoutingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpRoutingPolicy to import
-  * @param importFromId The id of the existing BgpRoutingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpRoutingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpRoutingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1126,7 +1126,7 @@ export class BgpRoutingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/bgp_routing_policy volterra_bgp_routing_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/bgp_routing_policy volterra_bgp_routing_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1137,8 +1137,8 @@ export class BgpRoutingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_bgp_routing_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

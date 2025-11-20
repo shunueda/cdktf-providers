@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/data-sources/synthetic_monitoring_probes
+// https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/data-sources/synthetic_monitoring_probes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataGrafanaSyntheticMonitoringProbesConfig extends cdktf.Terraf
   /**
   * If true, only probes that are not deprecated will be returned. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/data-sources/synthetic_monitoring_probes#filter_deprecated DataGrafanaSyntheticMonitoringProbes#filter_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/data-sources/synthetic_monitoring_probes#filter_deprecated DataGrafanaSyntheticMonitoringProbes#filter_deprecated}
   */
   readonly filterDeprecated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/data-sources/synthetic_monitoring_probes#id DataGrafanaSyntheticMonitoringProbes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/data-sources/synthetic_monitoring_probes#id DataGrafanaSyntheticMonitoringProbes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataGrafanaSyntheticMonitoringProbesConfig extends cdktf.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/data-sources/synthetic_monitoring_probes grafana_synthetic_monitoring_probes}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/data-sources/synthetic_monitoring_probes grafana_synthetic_monitoring_probes}
 */
 export class DataGrafanaSyntheticMonitoringProbes extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataGrafanaSyntheticMonitoringProbes extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataGrafanaSyntheticMonitoringProbes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGrafanaSyntheticMonitoringProbes to import
-  * @param importFromId The id of the existing DataGrafanaSyntheticMonitoringProbes that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/data-sources/synthetic_monitoring_probes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGrafanaSyntheticMonitoringProbes that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/data-sources/synthetic_monitoring_probes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGrafanaSyntheticMonitoringProbes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataGrafanaSyntheticMonitoringProbes extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/data-sources/synthetic_monitoring_probes grafana_synthetic_monitoring_probes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.17.0/docs/data-sources/synthetic_monitoring_probes grafana_synthetic_monitoring_probes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataGrafanaSyntheticMonitoringProbes extends cdktf.TerraformDataSou
       terraformResourceType: 'grafana_synthetic_monitoring_probes',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.14.0',
-        providerVersionConstraint: '4.14.0'
+        providerVersion: '4.17.0',
+        providerVersionConstraint: '4.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

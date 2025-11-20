@@ -10,6 +10,7 @@ Object.defineProperty(exports, 'connection', { get: function () { return require
 Object.defineProperty(exports, 'connectionClient', { get: function () { return require('./connection-client'); } });
 Object.defineProperty(exports, 'connectionClients', { get: function () { return require('./connection-clients'); } });
 Object.defineProperty(exports, 'connectionKeys', { get: function () { return require('./connection-keys'); } });
+Object.defineProperty(exports, 'connectionProfile', { get: function () { return require('./connection-profile'); } });
 Object.defineProperty(exports, 'connectionScimConfiguration', { get: function () { return require('./connection-scim-configuration'); } });
 Object.defineProperty(exports, 'connectionScimToken', { get: function () { return require('./connection-scim-token'); } });
 Object.defineProperty(exports, 'customDomain', { get: function () { return require('./custom-domain'); } });
@@ -74,8 +75,10 @@ Object.defineProperty(exports, 'dataAuth0ClientGrants', { get: function () { ret
 Object.defineProperty(exports, 'dataAuth0Clients', { get: function () { return require('./data-auth0-clients'); } });
 Object.defineProperty(exports, 'dataAuth0Connection', { get: function () { return require('./data-auth0-connection'); } });
 Object.defineProperty(exports, 'dataAuth0ConnectionKeys', { get: function () { return require('./data-auth0-connection-keys'); } });
+Object.defineProperty(exports, 'dataAuth0ConnectionProfile', { get: function () { return require('./data-auth0-connection-profile'); } });
 Object.defineProperty(exports, 'dataAuth0ConnectionScimConfiguration', { get: function () { return require('./data-auth0-connection-scim-configuration'); } });
 Object.defineProperty(exports, 'dataAuth0CustomDomain', { get: function () { return require('./data-auth0-custom-domain'); } });
+Object.defineProperty(exports, 'dataAuth0CustomDomains', { get: function () { return require('./data-auth0-custom-domains'); } });
 Object.defineProperty(exports, 'dataAuth0EventStream', { get: function () { return require('./data-auth0-event-stream'); } });
 Object.defineProperty(exports, 'dataAuth0Flow', { get: function () { return require('./data-auth0-flow'); } });
 Object.defineProperty(exports, 'dataAuth0FlowVaultConnection', { get: function () { return require('./data-auth0-flow-vault-connection'); } });

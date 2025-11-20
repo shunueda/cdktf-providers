@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface TgwVpcIpPrefixesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#id TgwVpcIpPrefixes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#id TgwVpcIpPrefixes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#name TgwVpcIpPrefixes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#name TgwVpcIpPrefixes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#namespace TgwVpcIpPrefixes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#namespace TgwVpcIpPrefixes#namespace}
   */
   readonly namespace: string;
   /**
   * vpc_ip_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#vpc_ip_prefixes TgwVpcIpPrefixes#vpc_ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#vpc_ip_prefixes TgwVpcIpPrefixes#vpc_ip_prefixes}
   */
   readonly vpcIpPrefixes: TgwVpcIpPrefixesVpcIpPrefixes[] | cdktf.IResolvable;
 }
 export interface TgwVpcIpPrefixesVpcIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#name TgwVpcIpPrefixes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#name TgwVpcIpPrefixes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#value TgwVpcIpPrefixes#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#value TgwVpcIpPrefixes#value}
   */
   readonly value: string[];
 }
@@ -174,7 +174,7 @@ export class TgwVpcIpPrefixesVpcIpPrefixesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes volterra_tgw_vpc_ip_prefixes}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes volterra_tgw_vpc_ip_prefixes}
 */
 export class TgwVpcIpPrefixes extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class TgwVpcIpPrefixes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TgwVpcIpPrefixes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TgwVpcIpPrefixes to import
-  * @param importFromId The id of the existing TgwVpcIpPrefixes that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TgwVpcIpPrefixes that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TgwVpcIpPrefixes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class TgwVpcIpPrefixes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tgw_vpc_ip_prefixes volterra_tgw_vpc_ip_prefixes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tgw_vpc_ip_prefixes volterra_tgw_vpc_ip_prefixes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class TgwVpcIpPrefixes extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_tgw_vpc_ip_prefixes',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

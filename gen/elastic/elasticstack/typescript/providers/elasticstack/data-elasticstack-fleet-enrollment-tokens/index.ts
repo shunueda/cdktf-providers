@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/fleet_enrollment_tokens
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/fleet_enrollment_tokens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,9 +10,15 @@ export interface DataElasticstackFleetEnrollmentTokensConfig extends cdktf.Terra
   /**
   * The identifier of the target agent policy. When provided, only the enrollment tokens associated with this agent policy will be selected. Omit this value to select all enrollment tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/fleet_enrollment_tokens#policy_id DataElasticstackFleetEnrollmentTokens#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/fleet_enrollment_tokens#policy_id DataElasticstackFleetEnrollmentTokens#policy_id}
   */
   readonly policyId?: string;
+  /**
+  * The Kibana space ID to query enrollment tokens from. When the agent policy is space-scoped, this must be set to match the policy's space. If not specified, queries the default space.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/fleet_enrollment_tokens#space_id DataElasticstackFleetEnrollmentTokens#space_id}
+  */
+  readonly spaceId?: string;
 }
 export interface DataElasticstackFleetEnrollmentTokensTokens {
 }
@@ -121,7 +127,7 @@ export class DataElasticstackFleetEnrollmentTokensTokensList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/fleet_enrollment_tokens elasticstack_fleet_enrollment_tokens}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/fleet_enrollment_tokens elasticstack_fleet_enrollment_tokens}
 */
 export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSource {
 
@@ -137,7 +143,7 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataElasticstackFleetEnrollmentTokens resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackFleetEnrollmentTokens to import
-  * @param importFromId The id of the existing DataElasticstackFleetEnrollmentTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/fleet_enrollment_tokens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackFleetEnrollmentTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/fleet_enrollment_tokens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackFleetEnrollmentTokens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +155,7 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/fleet_enrollment_tokens elasticstack_fleet_enrollment_tokens} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/fleet_enrollment_tokens elasticstack_fleet_enrollment_tokens} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +166,8 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
       terraformResourceType: 'elasticstack_fleet_enrollment_tokens',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -172,6 +178,7 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
       forEach: config.forEach
     });
     this._policyId = config.policyId;
+    this._spaceId = config.spaceId;
   }
 
   // ==========
@@ -199,6 +206,22 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
     return this._policyId;
   }
 
+  // space_id - computed: false, optional: true, required: false
+  private _spaceId?: string; 
+  public get spaceId() {
+    return this.getStringAttribute('space_id');
+  }
+  public set spaceId(value: string) {
+    this._spaceId = value;
+  }
+  public resetSpaceId() {
+    this._spaceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spaceIdInput() {
+    return this._spaceId;
+  }
+
   // tokens - computed: true, optional: false, required: false
   private _tokens = new DataElasticstackFleetEnrollmentTokensTokensList(this, "tokens", false);
   public get tokens() {
@@ -212,6 +235,7 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       policy_id: cdktf.stringToTerraform(this._policyId),
+      space_id: cdktf.stringToTerraform(this._spaceId),
     };
   }
 
@@ -219,6 +243,12 @@ export class DataElasticstackFleetEnrollmentTokens extends cdktf.TerraformDataSo
     const attrs = {
       policy_id: {
         value: cdktf.stringToHclTerraform(this._policyId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      space_id: {
+        value: cdktf.stringToHclTerraform(this._spaceId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

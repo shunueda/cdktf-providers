@@ -3,6 +3,7 @@ Object.defineProperty(exports, 'cloudAwsAccount', { get: function () { return re
 Object.defineProperty(exports, 'cloudAzureTenant', { get: function () { return require('./cloud-azure-tenant'); } });
 Object.defineProperty(exports, 'cloudAzureTenantEventhubSettings', { get: function () { return require('./cloud-azure-tenant-eventhub-settings'); } });
 Object.defineProperty(exports, 'cloudComplianceCustomFramework', { get: function () { return require('./cloud-compliance-custom-framework'); } });
+Object.defineProperty(exports, 'cloudGroup', { get: function () { return require('./cloud-group'); } });
 Object.defineProperty(exports, 'cloudSecurityCustomRule', { get: function () { return require('./cloud-security-custom-rule'); } });
 Object.defineProperty(exports, 'contentUpdatePolicy', { get: function () { return require('./content-update-policy'); } });
 Object.defineProperty(exports, 'contentUpdatePolicyPrecedence', { get: function () { return require('./content-update-policy-precedence'); } });

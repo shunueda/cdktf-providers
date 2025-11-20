@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EventStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of event stream destination (either 'eventbridge' or 'webhook').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#destination_type EventStream#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#destination_type EventStream#destination_type}
   */
   readonly destinationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#id EventStream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#id EventStream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,35 +23,35 @@ export interface EventStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the event stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#name EventStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#name EventStream#name}
   */
   readonly name: string;
   /**
   * List of event types this stream is subscribed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#subscriptions EventStream#subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#subscriptions EventStream#subscriptions}
   */
   readonly subscriptions: string[];
   /**
   * eventbridge_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#eventbridge_configuration EventStream#eventbridge_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#eventbridge_configuration EventStream#eventbridge_configuration}
   */
   readonly eventbridgeConfiguration?: EventStreamEventbridgeConfiguration;
   /**
   * webhook_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#webhook_configuration EventStream#webhook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#webhook_configuration EventStream#webhook_configuration}
   */
   readonly webhookConfiguration?: EventStreamWebhookConfiguration;
 }
 export interface EventStreamEventbridgeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#aws_account_id EventStream#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#aws_account_id EventStream#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#aws_region EventStream#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#aws_region EventStream#aws_region}
   */
   readonly awsRegion: string;
 }
@@ -165,25 +165,25 @@ export interface EventStreamWebhookConfigurationWebhookAuthorization {
   /**
   * The authorization method used to secure the webhook endpoint. Can be either `basic` or `bearer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#method EventStream#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#method EventStream#method}
   */
   readonly method: string;
   /**
   * The password for `basic` authentication. Required when `method` is set to `basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#password EventStream#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#password EventStream#password}
   */
   readonly password?: string;
   /**
   * The token used for `bearer` authentication. Required when `method` is set to `bearer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#token EventStream#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#token EventStream#token}
   */
   readonly token?: string;
   /**
   * The username for `basic` authentication. Required when `method` is set to `basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#username EventStream#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#username EventStream#username}
   */
   readonly username?: string;
 }
@@ -353,13 +353,13 @@ export interface EventStreamWebhookConfiguration {
   /**
   * The HTTPS endpoint that will receive the webhook events. Must be a valid, publicly accessible URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#webhook_endpoint EventStream#webhook_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#webhook_endpoint EventStream#webhook_endpoint}
   */
   readonly webhookEndpoint: string;
   /**
   * webhook_authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#webhook_authorization EventStream#webhook_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#webhook_authorization EventStream#webhook_authorization}
   */
   readonly webhookAuthorization: EventStreamWebhookConfigurationWebhookAuthorization;
 }
@@ -466,7 +466,7 @@ export class EventStreamWebhookConfigurationOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream auth0_event_stream}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream auth0_event_stream}
 */
 export class EventStream extends cdktf.TerraformResource {
 
@@ -482,7 +482,7 @@ export class EventStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventStream to import
-  * @param importFromId The id of the existing EventStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class EventStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/event_stream auth0_event_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/event_stream auth0_event_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class EventStream extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_event_stream',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

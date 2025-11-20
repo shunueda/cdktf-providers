@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataElasticstackElasticsearchSecurityRoleMappingConfig extends 
   /**
   * The distinct name that identifies the role mapping, used solely as an identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#name DataElasticstackElasticsearchSecurityRoleMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#name DataElasticstackElasticsearchSecurityRoleMapping#name}
   */
   readonly name: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#elasticsearch_connection DataElasticstackElasticsearchSecurityRoleMapping#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#elasticsearch_connection DataElasticstackElasticsearchSecurityRoleMapping#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: DataElasticstackElasticsearchSecurityRoleMappingElasticsearchConnection[] | cdktf.IResolvable;
 }
@@ -24,85 +24,85 @@ export interface DataElasticstackElasticsearchSecurityRoleMappingElasticsearchCo
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#api_key DataElasticstackElasticsearchSecurityRoleMapping#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#api_key DataElasticstackElasticsearchSecurityRoleMapping#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#bearer_token DataElasticstackElasticsearchSecurityRoleMapping#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#bearer_token DataElasticstackElasticsearchSecurityRoleMapping#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#ca_data DataElasticstackElasticsearchSecurityRoleMapping#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#ca_data DataElasticstackElasticsearchSecurityRoleMapping#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#ca_file DataElasticstackElasticsearchSecurityRoleMapping#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#ca_file DataElasticstackElasticsearchSecurityRoleMapping#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#cert_data DataElasticstackElasticsearchSecurityRoleMapping#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#cert_data DataElasticstackElasticsearchSecurityRoleMapping#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#cert_file DataElasticstackElasticsearchSecurityRoleMapping#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#cert_file DataElasticstackElasticsearchSecurityRoleMapping#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#endpoints DataElasticstackElasticsearchSecurityRoleMapping#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#endpoints DataElasticstackElasticsearchSecurityRoleMapping#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#es_client_authentication DataElasticstackElasticsearchSecurityRoleMapping#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#es_client_authentication DataElasticstackElasticsearchSecurityRoleMapping#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#headers DataElasticstackElasticsearchSecurityRoleMapping#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#headers DataElasticstackElasticsearchSecurityRoleMapping#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#insecure DataElasticstackElasticsearchSecurityRoleMapping#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#insecure DataElasticstackElasticsearchSecurityRoleMapping#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#key_data DataElasticstackElasticsearchSecurityRoleMapping#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#key_data DataElasticstackElasticsearchSecurityRoleMapping#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#key_file DataElasticstackElasticsearchSecurityRoleMapping#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#key_file DataElasticstackElasticsearchSecurityRoleMapping#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#password DataElasticstackElasticsearchSecurityRoleMapping#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#password DataElasticstackElasticsearchSecurityRoleMapping#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#username DataElasticstackElasticsearchSecurityRoleMapping#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#username DataElasticstackElasticsearchSecurityRoleMapping#username}
   */
   readonly username?: string;
 }
@@ -595,7 +595,7 @@ export class DataElasticstackElasticsearchSecurityRoleMappingElasticsearchConnec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping elasticstack_elasticsearch_security_role_mapping}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping elasticstack_elasticsearch_security_role_mapping}
 */
 export class DataElasticstackElasticsearchSecurityRoleMapping extends cdktf.TerraformDataSource {
 
@@ -611,7 +611,7 @@ export class DataElasticstackElasticsearchSecurityRoleMapping extends cdktf.Terr
   * Generates CDKTF code for importing a DataElasticstackElasticsearchSecurityRoleMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchSecurityRoleMapping to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchSecurityRoleMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchSecurityRoleMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchSecurityRoleMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -623,7 +623,7 @@ export class DataElasticstackElasticsearchSecurityRoleMapping extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_security_role_mapping elasticstack_elasticsearch_security_role_mapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_security_role_mapping elasticstack_elasticsearch_security_role_mapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,8 +634,8 @@ export class DataElasticstackElasticsearchSecurityRoleMapping extends cdktf.Terr
       terraformResourceType: 'elasticstack_elasticsearch_security_role_mapping',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

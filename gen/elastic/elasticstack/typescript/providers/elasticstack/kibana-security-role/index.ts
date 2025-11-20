@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KibanaSecurityRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description for the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#description KibanaSecurityRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#description KibanaSecurityRole#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#id KibanaSecurityRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#id KibanaSecurityRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface KibanaSecurityRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional meta-data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#metadata KibanaSecurityRole#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#metadata KibanaSecurityRole#metadata}
   */
   readonly metadata?: string;
   /**
   * The name for the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#name KibanaSecurityRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#name KibanaSecurityRole#name}
   */
   readonly name: string;
   /**
   * elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#elasticsearch KibanaSecurityRole#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#elasticsearch KibanaSecurityRole#elasticsearch}
   */
   readonly elasticsearch: KibanaSecurityRoleElasticsearch;
   /**
   * kibana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#kibana KibanaSecurityRole#kibana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#kibana KibanaSecurityRole#kibana}
   */
   readonly kibana?: KibanaSecurityRoleKibana[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface KibanaSecurityRoleElasticsearchIndicesFieldSecurity {
   /**
   * List of the fields to which the grants will not be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#except KibanaSecurityRole#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#except KibanaSecurityRole#except}
   */
   readonly except?: string[];
   /**
   * List of the fields to grant the access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#grant KibanaSecurityRole#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#grant KibanaSecurityRole#grant}
   */
   readonly grant?: string[];
 }
@@ -170,25 +170,25 @@ export interface KibanaSecurityRoleElasticsearchIndices {
   /**
   * A list of indices (or index name patterns) to which the permissions in this entry apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#names KibanaSecurityRole#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#names KibanaSecurityRole#names}
   */
   readonly names: string[];
   /**
   * The index level privileges that the owners of the role have on the specified indices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#privileges KibanaSecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#privileges KibanaSecurityRole#privileges}
   */
   readonly privileges: string[];
   /**
   * A search query that defines the documents the owners of the role have read access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#query KibanaSecurityRole#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#query KibanaSecurityRole#query}
   */
   readonly query?: string;
   /**
   * field_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#field_security KibanaSecurityRole#field_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#field_security KibanaSecurityRole#field_security}
   */
   readonly fieldSecurity?: KibanaSecurityRoleElasticsearchIndicesFieldSecurity;
 }
@@ -387,13 +387,13 @@ export interface KibanaSecurityRoleElasticsearchRemoteIndicesFieldSecurity {
   /**
   * List of the fields to which the grants will not be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#except KibanaSecurityRole#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#except KibanaSecurityRole#except}
   */
   readonly except?: string[];
   /**
   * List of the fields to grant the access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#grant KibanaSecurityRole#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#grant KibanaSecurityRole#grant}
   */
   readonly grant?: string[];
 }
@@ -508,31 +508,31 @@ export interface KibanaSecurityRoleElasticsearchRemoteIndices {
   /**
   * A list of cluster aliases to which the permissions in this entry apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#clusters KibanaSecurityRole#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#clusters KibanaSecurityRole#clusters}
   */
   readonly clusters: string[];
   /**
   * A list of indices (or index name patterns) to which the permissions in this entry apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#names KibanaSecurityRole#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#names KibanaSecurityRole#names}
   */
   readonly names: string[];
   /**
   * The index level privileges that the owners of the role have on the specified indices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#privileges KibanaSecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#privileges KibanaSecurityRole#privileges}
   */
   readonly privileges: string[];
   /**
   * A search query that defines the documents the owners of the role have read access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#query KibanaSecurityRole#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#query KibanaSecurityRole#query}
   */
   readonly query?: string;
   /**
   * field_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#field_security KibanaSecurityRole#field_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#field_security KibanaSecurityRole#field_security}
   */
   readonly fieldSecurity?: KibanaSecurityRoleElasticsearchRemoteIndicesFieldSecurity;
 }
@@ -757,25 +757,25 @@ export interface KibanaSecurityRoleElasticsearch {
   /**
   * List of the cluster privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#cluster KibanaSecurityRole#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#cluster KibanaSecurityRole#cluster}
   */
   readonly cluster?: string[];
   /**
   * A list of usernames the owners of this role can impersonate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#run_as KibanaSecurityRole#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#run_as KibanaSecurityRole#run_as}
   */
   readonly runAs?: string[];
   /**
   * indices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#indices KibanaSecurityRole#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#indices KibanaSecurityRole#indices}
   */
   readonly indices?: KibanaSecurityRoleElasticsearchIndices[] | cdktf.IResolvable;
   /**
   * remote_indices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#remote_indices KibanaSecurityRole#remote_indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#remote_indices KibanaSecurityRole#remote_indices}
   */
   readonly remoteIndices?: KibanaSecurityRoleElasticsearchRemoteIndices[] | cdktf.IResolvable;
 }
@@ -948,13 +948,13 @@ export interface KibanaSecurityRoleKibanaFeature {
   /**
   * Feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#name KibanaSecurityRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#name KibanaSecurityRole#name}
   */
   readonly name: string;
   /**
   * Feature privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#privileges KibanaSecurityRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#privileges KibanaSecurityRole#privileges}
   */
   readonly privileges: string[];
 }
@@ -1095,19 +1095,19 @@ export interface KibanaSecurityRoleKibana {
   /**
   * A base privilege. When specified, the base must be ["all"] or ["read"]. When the base privileges are specified, you are unable to use the "feature" section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#base KibanaSecurityRole#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#base KibanaSecurityRole#base}
   */
   readonly base?: string[];
   /**
   * The spaces to apply the privileges to. To grant access to all spaces, set to ["*"], or omit the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#spaces KibanaSecurityRole#spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#spaces KibanaSecurityRole#spaces}
   */
   readonly spaces: string[];
   /**
   * feature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#feature KibanaSecurityRole#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#feature KibanaSecurityRole#feature}
   */
   readonly feature?: KibanaSecurityRoleKibanaFeature[] | cdktf.IResolvable;
 }
@@ -1278,7 +1278,7 @@ export class KibanaSecurityRoleKibanaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role elasticstack_kibana_security_role}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role elasticstack_kibana_security_role}
 */
 export class KibanaSecurityRole extends cdktf.TerraformResource {
 
@@ -1294,7 +1294,7 @@ export class KibanaSecurityRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSecurityRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSecurityRole to import
-  * @param importFromId The id of the existing KibanaSecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSecurityRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1306,7 +1306,7 @@ export class KibanaSecurityRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_security_role elasticstack_kibana_security_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_security_role elasticstack_kibana_security_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1317,8 +1317,8 @@ export class KibanaSecurityRole extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_security_role',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

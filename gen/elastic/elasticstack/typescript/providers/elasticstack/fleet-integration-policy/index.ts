@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,85 @@ export interface FleetIntegrationPolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the agent policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#agent_policy_id FleetIntegrationPolicy#agent_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#agent_policy_id FleetIntegrationPolicy#agent_policy_id}
   */
   readonly agentPolicyId?: string;
   /**
   * List of agent policy IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#agent_policy_ids FleetIntegrationPolicy#agent_policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#agent_policy_ids FleetIntegrationPolicy#agent_policy_ids}
   */
   readonly agentPolicyIds?: string[];
   /**
   * The description of the integration policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#description FleetIntegrationPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#description FleetIntegrationPolicy#description}
   */
   readonly description?: string;
   /**
   * Enable the integration policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#enabled FleetIntegrationPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#enabled FleetIntegrationPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Force operations, such as creation and deletion, to occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#force FleetIntegrationPolicy#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#force FleetIntegrationPolicy#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * The name of the integration package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#integration_name FleetIntegrationPolicy#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#integration_name FleetIntegrationPolicy#integration_name}
   */
   readonly integrationName: string;
   /**
   * The version of the integration package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#integration_version FleetIntegrationPolicy#integration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#integration_version FleetIntegrationPolicy#integration_version}
   */
   readonly integrationVersion: string;
   /**
   * The name of the integration policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#name FleetIntegrationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#name FleetIntegrationPolicy#name}
   */
   readonly name: string;
   /**
   * The namespace of the integration policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#namespace FleetIntegrationPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#namespace FleetIntegrationPolicy#namespace}
   */
   readonly namespace: string;
   /**
+  * The ID of the output to send data to. When not specified, the default output of the agent policy will be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#output_id FleetIntegrationPolicy#output_id}
+  */
+  readonly outputId?: string;
+  /**
   * Unique identifier of the integration policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#policy_id FleetIntegrationPolicy#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#policy_id FleetIntegrationPolicy#policy_id}
   */
   readonly policyId?: string;
   /**
+  * The Kibana space IDs where this integration policy is available. When set, must match the space_ids of the referenced agent policy. If not set, will be inherited from the agent policy. Note: The order of space IDs does not matter as this is a set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#space_ids FleetIntegrationPolicy#space_ids}
+  */
+  readonly spaceIds?: string[];
+  /**
   * Integration-level variables as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#vars_json FleetIntegrationPolicy#vars_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#vars_json FleetIntegrationPolicy#vars_json}
   */
   readonly varsJson?: string;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#input FleetIntegrationPolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#input FleetIntegrationPolicy#input}
   */
   readonly input?: FleetIntegrationPolicyInput[] | cdktf.IResolvable;
 }
@@ -84,25 +96,25 @@ export interface FleetIntegrationPolicyInput {
   /**
   * Enable the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#enabled FleetIntegrationPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#enabled FleetIntegrationPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The identifier of the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#input_id FleetIntegrationPolicy#input_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#input_id FleetIntegrationPolicy#input_id}
   */
   readonly inputId: string;
   /**
   * Input streams as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#streams_json FleetIntegrationPolicy#streams_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#streams_json FleetIntegrationPolicy#streams_json}
   */
   readonly streamsJson?: string;
   /**
   * Input variables as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#vars_json FleetIntegrationPolicy#vars_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#vars_json FleetIntegrationPolicy#vars_json}
   */
   readonly varsJson?: string;
 }
@@ -302,7 +314,7 @@ export class FleetIntegrationPolicyInputList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy elasticstack_fleet_integration_policy}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy elasticstack_fleet_integration_policy}
 */
 export class FleetIntegrationPolicy extends cdktf.TerraformResource {
 
@@ -318,7 +330,7 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetIntegrationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetIntegrationPolicy to import
-  * @param importFromId The id of the existing FleetIntegrationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetIntegrationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetIntegrationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -330,7 +342,7 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_integration_policy elasticstack_fleet_integration_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_integration_policy elasticstack_fleet_integration_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -341,8 +353,8 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_fleet_integration_policy',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -361,7 +373,9 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
     this._integrationVersion = config.integrationVersion;
     this._name = config.name;
     this._namespace = config.namespace;
+    this._outputId = config.outputId;
     this._policyId = config.policyId;
+    this._spaceIds = config.spaceIds;
     this._varsJson = config.varsJson;
     this._input.internalValue = config.input;
   }
@@ -507,6 +521,22 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
     return this._namespace;
   }
 
+  // output_id - computed: false, optional: true, required: false
+  private _outputId?: string; 
+  public get outputId() {
+    return this.getStringAttribute('output_id');
+  }
+  public set outputId(value: string) {
+    this._outputId = value;
+  }
+  public resetOutputId() {
+    this._outputId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputIdInput() {
+    return this._outputId;
+  }
+
   // policy_id - computed: true, optional: true, required: false
   private _policyId?: string; 
   public get policyId() {
@@ -521,6 +551,22 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get policyIdInput() {
     return this._policyId;
+  }
+
+  // space_ids - computed: true, optional: true, required: false
+  private _spaceIds?: string[]; 
+  public get spaceIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('space_ids'));
+  }
+  public set spaceIds(value: string[]) {
+    this._spaceIds = value;
+  }
+  public resetSpaceIds() {
+    this._spaceIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spaceIdsInput() {
+    return this._spaceIds;
   }
 
   // vars_json - computed: true, optional: true, required: false
@@ -570,7 +616,9 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
       integration_version: cdktf.stringToTerraform(this._integrationVersion),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
+      output_id: cdktf.stringToTerraform(this._outputId),
       policy_id: cdktf.stringToTerraform(this._policyId),
+      space_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spaceIds),
       vars_json: cdktf.stringToTerraform(this._varsJson),
       input: cdktf.listMapper(fleetIntegrationPolicyInputToTerraform, true)(this._input.internalValue),
     };
@@ -632,11 +680,23 @@ export class FleetIntegrationPolicy extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      output_id: {
+        value: cdktf.stringToHclTerraform(this._outputId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       policy_id: {
         value: cdktf.stringToHclTerraform(this._policyId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      space_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._spaceIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       vars_json: {
         value: cdktf.stringToHclTerraform(this._varsJson),

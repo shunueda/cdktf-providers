@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,224 +8,328 @@ import * as cdktf from 'cdktf';
 
 export interface ServicePolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#action ServicePolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#action ServicePolicyRule#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#annotations ServicePolicyRule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#annotations ServicePolicyRule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#any_asn ServicePolicyRule#any_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#any_asn ServicePolicyRule#any_asn}
   */
   readonly anyAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#any_client ServicePolicyRule#any_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#any_client ServicePolicyRule#any_client}
   */
   readonly anyClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#any_ip ServicePolicyRule#any_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#any_dst_asn ServicePolicyRule#any_dst_asn}
+  */
+  readonly anyDstAsn?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#any_dst_ip ServicePolicyRule#any_dst_ip}
+  */
+  readonly anyDstIp?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#any_ip ServicePolicyRule#any_ip}
   */
   readonly anyIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#client_name ServicePolicyRule#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#challenge_action ServicePolicyRule#challenge_action}
+  */
+  readonly challengeAction: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#client_name ServicePolicyRule#client_name}
   */
   readonly clientName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#description ServicePolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#description ServicePolicyRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#disable ServicePolicyRule#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#disable ServicePolicyRule#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#expiration_timestamp ServicePolicyRule#expiration_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#expiration_timestamp ServicePolicyRule#expiration_timestamp}
   */
   readonly expirationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#id ServicePolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#id ServicePolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#labels ServicePolicyRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#labels ServicePolicyRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
   */
   readonly namespace: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#origin_server_subsets_action ServicePolicyRule#origin_server_subsets_action}
+  */
+  readonly originServerSubsetsAction?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#scheme ServicePolicyRule#scheme}
+  */
+  readonly scheme?: string[];
+  /**
   * api_group_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#api_group_matcher ServicePolicyRule#api_group_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#api_group_matcher ServicePolicyRule#api_group_matcher}
   */
   readonly apiGroupMatcher?: ServicePolicyRuleApiGroupMatcher;
   /**
   * arg_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#arg_matchers ServicePolicyRule#arg_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#arg_matchers ServicePolicyRule#arg_matchers}
   */
   readonly argMatchers?: ServicePolicyRuleArgMatchers[] | cdktf.IResolvable;
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#asn_list ServicePolicyRule#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#asn_list ServicePolicyRule#asn_list}
   */
   readonly asnList?: ServicePolicyRuleAsnListStruct;
   /**
   * asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#asn_matcher ServicePolicyRule#asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#asn_matcher ServicePolicyRule#asn_matcher}
   */
   readonly asnMatcher?: ServicePolicyRuleAsnMatcher;
   /**
   * body_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#body_matcher ServicePolicyRule#body_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#body_matcher ServicePolicyRule#body_matcher}
   */
   readonly bodyMatcher?: ServicePolicyRuleBodyMatcher;
   /**
   * bot_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#bot_action ServicePolicyRule#bot_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#bot_action ServicePolicyRule#bot_action}
   */
   readonly botAction?: ServicePolicyRuleBotAction;
   /**
   * client_name_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#client_name_matcher ServicePolicyRule#client_name_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#client_name_matcher ServicePolicyRule#client_name_matcher}
   */
   readonly clientNameMatcher?: ServicePolicyRuleClientNameMatcher;
   /**
+  * client_role block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#client_role ServicePolicyRule#client_role}
+  */
+  readonly clientRole?: ServicePolicyRuleClientRole;
+  /**
   * client_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#client_selector ServicePolicyRule#client_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#client_selector ServicePolicyRule#client_selector}
   */
   readonly clientSelector?: ServicePolicyRuleClientSelector;
   /**
+  * content_rewrite_action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#content_rewrite_action ServicePolicyRule#content_rewrite_action}
+  */
+  readonly contentRewriteAction?: ServicePolicyRuleContentRewriteAction;
+  /**
   * cookie_matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#cookie_matchers ServicePolicyRule#cookie_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#cookie_matchers ServicePolicyRule#cookie_matchers}
   */
   readonly cookieMatchers?: ServicePolicyRuleCookieMatchers[] | cdktf.IResolvable;
   /**
   * domain_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#domain_matcher ServicePolicyRule#domain_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#domain_matcher ServicePolicyRule#domain_matcher}
   */
   readonly domainMatcher?: ServicePolicyRuleDomainMatcher;
   /**
+  * dst_asn_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#dst_asn_list ServicePolicyRule#dst_asn_list}
+  */
+  readonly dstAsnList?: ServicePolicyRuleDstAsnListStruct;
+  /**
+  * dst_asn_matcher block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#dst_asn_matcher ServicePolicyRule#dst_asn_matcher}
+  */
+  readonly dstAsnMatcher?: ServicePolicyRuleDstAsnMatcher;
+  /**
+  * dst_ip_matcher block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#dst_ip_matcher ServicePolicyRule#dst_ip_matcher}
+  */
+  readonly dstIpMatcher?: ServicePolicyRuleDstIpMatcher;
+  /**
+  * dst_ip_prefix_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#dst_ip_prefix_list ServicePolicyRule#dst_ip_prefix_list}
+  */
+  readonly dstIpPrefixList?: ServicePolicyRuleDstIpPrefixListStruct;
+  /**
+  * goto_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#goto_policy ServicePolicyRule#goto_policy}
+  */
+  readonly gotoPolicy?: ServicePolicyRuleGotoPolicy[] | cdktf.IResolvable;
+  /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#headers ServicePolicyRule#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#headers ServicePolicyRule#headers}
   */
   readonly headers?: ServicePolicyRuleHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#http_method ServicePolicyRule#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#http_method ServicePolicyRule#http_method}
   */
   readonly httpMethod?: ServicePolicyRuleHttpMethod;
   /**
   * ip_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ip_matcher ServicePolicyRule#ip_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_matcher ServicePolicyRule#ip_matcher}
   */
   readonly ipMatcher?: ServicePolicyRuleIpMatcher;
   /**
   * ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ip_prefix_list ServicePolicyRule#ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_prefix_list ServicePolicyRule#ip_prefix_list}
   */
   readonly ipPrefixList?: ServicePolicyRuleIpPrefixListStruct;
   /**
+  * ip_reputation_action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_reputation_action ServicePolicyRule#ip_reputation_action}
+  */
+  readonly ipReputationAction?: ServicePolicyRuleIpReputationAction;
+  /**
   * ip_threat_category_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ip_threat_category_list ServicePolicyRule#ip_threat_category_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_threat_category_list ServicePolicyRule#ip_threat_category_list}
   */
   readonly ipThreatCategoryList?: ServicePolicyRuleIpThreatCategoryListStruct;
   /**
   * ja4_tls_fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ja4_tls_fingerprint ServicePolicyRule#ja4_tls_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ja4_tls_fingerprint ServicePolicyRule#ja4_tls_fingerprint}
   */
   readonly ja4TlsFingerprint?: ServicePolicyRuleJa4TlsFingerprint;
   /**
   * jwt_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#jwt_claims ServicePolicyRule#jwt_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#jwt_claims ServicePolicyRule#jwt_claims}
   */
   readonly jwtClaims?: ServicePolicyRuleJwtClaims[] | cdktf.IResolvable;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#label_matcher ServicePolicyRule#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#label_matcher ServicePolicyRule#label_matcher}
   */
   readonly labelMatcher?: ServicePolicyRuleLabelMatcher;
   /**
+  * mobile_identifier_matcher_action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#mobile_identifier_matcher_action ServicePolicyRule#mobile_identifier_matcher_action}
+  */
+  readonly mobileIdentifierMatcherAction?: ServicePolicyRuleMobileIdentifierMatcherAction;
+  /**
   * mum_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#mum_action ServicePolicyRule#mum_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#mum_action ServicePolicyRule#mum_action}
   */
   readonly mumAction?: ServicePolicyRuleMumAction;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#path ServicePolicyRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#path ServicePolicyRule#path}
   */
   readonly path?: ServicePolicyRulePath;
   /**
   * port_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#port_matcher ServicePolicyRule#port_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#port_matcher ServicePolicyRule#port_matcher}
   */
   readonly portMatcher?: ServicePolicyRulePortMatcher;
   /**
   * query_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#query_params ServicePolicyRule#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#query_params ServicePolicyRule#query_params}
   */
   readonly queryParams?: ServicePolicyRuleQueryParams[] | cdktf.IResolvable;
   /**
+  * rate_limiter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#rate_limiter ServicePolicyRule#rate_limiter}
+  */
+  readonly rateLimiter?: ServicePolicyRuleRateLimiter[] | cdktf.IResolvable;
+  /**
   * request_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#request_constraints ServicePolicyRule#request_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#request_constraints ServicePolicyRule#request_constraints}
   */
   readonly requestConstraints?: ServicePolicyRuleRequestConstraints;
   /**
   * segment_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#segment_policy ServicePolicyRule#segment_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#segment_policy ServicePolicyRule#segment_policy}
   */
   readonly segmentPolicy?: ServicePolicyRuleSegmentPolicy;
   /**
+  * server_selector block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#server_selector ServicePolicyRule#server_selector}
+  */
+  readonly serverSelector?: ServicePolicyRuleServerSelector;
+  /**
+  * shape_protected_endpoint_action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#shape_protected_endpoint_action ServicePolicyRule#shape_protected_endpoint_action}
+  */
+  readonly shapeProtectedEndpointAction?: ServicePolicyRuleShapeProtectedEndpointAction;
+  /**
   * tls_fingerprint_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#tls_fingerprint_matcher ServicePolicyRule#tls_fingerprint_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tls_fingerprint_matcher ServicePolicyRule#tls_fingerprint_matcher}
   */
   readonly tlsFingerprintMatcher?: ServicePolicyRuleTlsFingerprintMatcher;
   /**
+  * url_matcher block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#url_matcher ServicePolicyRule#url_matcher}
+  */
+  readonly urlMatcher?: ServicePolicyRuleUrlMatcher;
+  /**
+  * virtual_host_matcher block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#virtual_host_matcher ServicePolicyRule#virtual_host_matcher}
+  */
+  readonly virtualHostMatcher?: ServicePolicyRuleVirtualHostMatcher;
+  /**
   * waf_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#waf_action ServicePolicyRule#waf_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#waf_action ServicePolicyRule#waf_action}
   */
   readonly wafAction: ServicePolicyRuleWafAction;
 }
 export interface ServicePolicyRuleApiGroupMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#match ServicePolicyRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#match ServicePolicyRule#match}
   */
   readonly match: string[];
 }
@@ -335,15 +439,15 @@ export class ServicePolicyRuleApiGroupMatcherOutputReference extends cdktf.Compl
 }
 export interface ServicePolicyRuleArgMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -485,25 +589,29 @@ export class ServicePolicyRuleArgMatchersItemOutputReference extends cdktf.Compl
 }
 export interface ServicePolicyRuleArgMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#presence ServicePolicyRule#presence}
+  */
+  readonly presence?: boolean | cdktf.IResolvable;
+  /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#item ServicePolicyRule#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#item ServicePolicyRule#item}
   */
   readonly item?: ServicePolicyRuleArgMatchersItem;
 }
@@ -518,6 +626,7 @@ export function servicePolicyRuleArgMatchersToTerraform(struct?: ServicePolicyRu
     check_present: cdktf.booleanToTerraform(struct!.checkPresent),
     invert_matcher: cdktf.booleanToTerraform(struct!.invertMatcher),
     name: cdktf.stringToTerraform(struct!.name),
+    presence: cdktf.booleanToTerraform(struct!.presence),
     item: servicePolicyRuleArgMatchersItemToTerraform(struct!.item),
   }
 }
@@ -552,6 +661,12 @@ export function servicePolicyRuleArgMatchersToHclTerraform(struct?: ServicePolic
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    presence: {
+      value: cdktf.booleanToHclTerraform(struct!.presence),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     item: {
       value: servicePolicyRuleArgMatchersItemToHclTerraform(struct!.item),
@@ -601,6 +716,10 @@ export class ServicePolicyRuleArgMatchersOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._presence !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.presence = this._presence;
+    }
     if (this._item?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.item = this._item?.internalValue;
@@ -616,6 +735,7 @@ export class ServicePolicyRuleArgMatchersOutputReference extends cdktf.ComplexOb
       this._checkPresent = undefined;
       this._invertMatcher = undefined;
       this._name = undefined;
+      this._presence = undefined;
       this._item.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -629,6 +749,7 @@ export class ServicePolicyRuleArgMatchersOutputReference extends cdktf.ComplexOb
       this._checkPresent = value.checkPresent;
       this._invertMatcher = value.invertMatcher;
       this._name = value.name;
+      this._presence = value.presence;
       this._item.internalValue = value.item;
     }
   }
@@ -694,6 +815,22 @@ export class ServicePolicyRuleArgMatchersOutputReference extends cdktf.ComplexOb
     return this._name;
   }
 
+  // presence - computed: false, optional: true, required: false
+  private _presence?: boolean | cdktf.IResolvable; 
+  public get presence() {
+    return this.getBooleanAttribute('presence');
+  }
+  public set presence(value: boolean | cdktf.IResolvable) {
+    this._presence = value;
+  }
+  public resetPresence() {
+    this._presence = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get presenceInput() {
+    return this._presence;
+  }
+
   // item - computed: false, optional: true, required: false
   private _item = new ServicePolicyRuleArgMatchersItemOutputReference(this, "item");
   public get item() {
@@ -732,7 +869,7 @@ export class ServicePolicyRuleArgMatchersList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#as_numbers ServicePolicyRule#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#as_numbers ServicePolicyRule#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -813,15 +950,15 @@ export class ServicePolicyRuleAsnListStructOutputReference extends cdktf.Complex
 }
 export interface ServicePolicyRuleAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
   */
   readonly tenant?: string;
 }
@@ -1002,7 +1139,7 @@ export interface ServicePolicyRuleAsnMatcher {
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#asn_sets ServicePolicyRule#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#asn_sets ServicePolicyRule#asn_sets}
   */
   readonly asnSets: ServicePolicyRuleAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -1083,15 +1220,15 @@ export class ServicePolicyRuleAsnMatcherOutputReference extends cdktf.ComplexObj
 }
 export interface ServicePolicyRuleBodyMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -1233,11 +1370,11 @@ export class ServicePolicyRuleBodyMatcherOutputReference extends cdktf.ComplexOb
 }
 export interface ServicePolicyRuleBotAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#bot_skip_processing ServicePolicyRule#bot_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#bot_skip_processing ServicePolicyRule#bot_skip_processing}
   */
   readonly botSkipProcessing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#none ServicePolicyRule#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#none ServicePolicyRule#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
 }
@@ -1350,11 +1487,11 @@ export class ServicePolicyRuleBotActionOutputReference extends cdktf.ComplexObje
 }
 export interface ServicePolicyRuleClientNameMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
 }
@@ -1465,9 +1602,90 @@ export class ServicePolicyRuleClientNameMatcherOutputReference extends cdktf.Com
     return this._regexValues;
   }
 }
+export interface ServicePolicyRuleClientRole {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#match ServicePolicyRule#match}
+  */
+  readonly match: string;
+}
+
+export function servicePolicyRuleClientRoleToTerraform(struct?: ServicePolicyRuleClientRoleOutputReference | ServicePolicyRuleClientRole): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    match: cdktf.stringToTerraform(struct!.match),
+  }
+}
+
+
+export function servicePolicyRuleClientRoleToHclTerraform(struct?: ServicePolicyRuleClientRoleOutputReference | ServicePolicyRuleClientRole): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    match: {
+      value: cdktf.stringToHclTerraform(struct!.match),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleClientRoleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleClientRole | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._match !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.match = this._match;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleClientRole | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._match = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._match = value.match;
+    }
+  }
+
+  // match - computed: false, optional: false, required: true
+  private _match?: string; 
+  public get match() {
+    return this.getStringAttribute('match');
+  }
+  public set match(value: string) {
+    this._match = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchInput() {
+    return this._match;
+  }
+}
 export interface ServicePolicyRuleClientSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#expressions ServicePolicyRule#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#expressions ServicePolicyRule#expressions}
   */
   readonly expressions: string[];
 }
@@ -1546,17 +1764,197 @@ export class ServicePolicyRuleClientSelectorOutputReference extends cdktf.Comple
     return this._expressions;
   }
 }
+export interface ServicePolicyRuleContentRewriteAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#element_selector ServicePolicyRule#element_selector}
+  */
+  readonly elementSelector: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#insert_content ServicePolicyRule#insert_content}
+  */
+  readonly insertContent?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#inserted_types ServicePolicyRule#inserted_types}
+  */
+  readonly insertedTypes?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#position ServicePolicyRule#position}
+  */
+  readonly position?: string;
+}
+
+export function servicePolicyRuleContentRewriteActionToTerraform(struct?: ServicePolicyRuleContentRewriteActionOutputReference | ServicePolicyRuleContentRewriteAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    element_selector: cdktf.stringToTerraform(struct!.elementSelector),
+    insert_content: cdktf.stringToTerraform(struct!.insertContent),
+    inserted_types: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.insertedTypes),
+    position: cdktf.stringToTerraform(struct!.position),
+  }
+}
+
+
+export function servicePolicyRuleContentRewriteActionToHclTerraform(struct?: ServicePolicyRuleContentRewriteActionOutputReference | ServicePolicyRuleContentRewriteAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    element_selector: {
+      value: cdktf.stringToHclTerraform(struct!.elementSelector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    insert_content: {
+      value: cdktf.stringToHclTerraform(struct!.insertContent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    inserted_types: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.insertedTypes),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    position: {
+      value: cdktf.stringToHclTerraform(struct!.position),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleContentRewriteActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleContentRewriteAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._elementSelector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.elementSelector = this._elementSelector;
+    }
+    if (this._insertContent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.insertContent = this._insertContent;
+    }
+    if (this._insertedTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.insertedTypes = this._insertedTypes;
+    }
+    if (this._position !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.position = this._position;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleContentRewriteAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._elementSelector = undefined;
+      this._insertContent = undefined;
+      this._insertedTypes = undefined;
+      this._position = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._elementSelector = value.elementSelector;
+      this._insertContent = value.insertContent;
+      this._insertedTypes = value.insertedTypes;
+      this._position = value.position;
+    }
+  }
+
+  // element_selector - computed: false, optional: false, required: true
+  private _elementSelector?: string; 
+  public get elementSelector() {
+    return this.getStringAttribute('element_selector');
+  }
+  public set elementSelector(value: string) {
+    this._elementSelector = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get elementSelectorInput() {
+    return this._elementSelector;
+  }
+
+  // insert_content - computed: false, optional: true, required: false
+  private _insertContent?: string; 
+  public get insertContent() {
+    return this.getStringAttribute('insert_content');
+  }
+  public set insertContent(value: string) {
+    this._insertContent = value;
+  }
+  public resetInsertContent() {
+    this._insertContent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertContentInput() {
+    return this._insertContent;
+  }
+
+  // inserted_types - computed: false, optional: true, required: false
+  private _insertedTypes?: { [key: string]: string }; 
+  public get insertedTypes() {
+    return this.getStringMapAttribute('inserted_types');
+  }
+  public set insertedTypes(value: { [key: string]: string }) {
+    this._insertedTypes = value;
+  }
+  public resetInsertedTypes() {
+    this._insertedTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertedTypesInput() {
+    return this._insertedTypes;
+  }
+
+  // position - computed: false, optional: true, required: false
+  private _position?: string; 
+  public get position() {
+    return this.getStringAttribute('position');
+  }
+  public set position(value: string) {
+    this._position = value;
+  }
+  public resetPosition() {
+    this._position = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get positionInput() {
+    return this._position;
+  }
+}
 export interface ServicePolicyRuleCookieMatchersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -1698,25 +2096,29 @@ export class ServicePolicyRuleCookieMatchersItemOutputReference extends cdktf.Co
 }
 export interface ServicePolicyRuleCookieMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#presence ServicePolicyRule#presence}
+  */
+  readonly presence?: boolean | cdktf.IResolvable;
+  /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#item ServicePolicyRule#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#item ServicePolicyRule#item}
   */
   readonly item?: ServicePolicyRuleCookieMatchersItem;
 }
@@ -1731,6 +2133,7 @@ export function servicePolicyRuleCookieMatchersToTerraform(struct?: ServicePolic
     check_present: cdktf.booleanToTerraform(struct!.checkPresent),
     invert_matcher: cdktf.booleanToTerraform(struct!.invertMatcher),
     name: cdktf.stringToTerraform(struct!.name),
+    presence: cdktf.booleanToTerraform(struct!.presence),
     item: servicePolicyRuleCookieMatchersItemToTerraform(struct!.item),
   }
 }
@@ -1765,6 +2168,12 @@ export function servicePolicyRuleCookieMatchersToHclTerraform(struct?: ServicePo
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    presence: {
+      value: cdktf.booleanToHclTerraform(struct!.presence),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     item: {
       value: servicePolicyRuleCookieMatchersItemToHclTerraform(struct!.item),
@@ -1814,6 +2223,10 @@ export class ServicePolicyRuleCookieMatchersOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._presence !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.presence = this._presence;
+    }
     if (this._item?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.item = this._item?.internalValue;
@@ -1829,6 +2242,7 @@ export class ServicePolicyRuleCookieMatchersOutputReference extends cdktf.Comple
       this._checkPresent = undefined;
       this._invertMatcher = undefined;
       this._name = undefined;
+      this._presence = undefined;
       this._item.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -1842,6 +2256,7 @@ export class ServicePolicyRuleCookieMatchersOutputReference extends cdktf.Comple
       this._checkPresent = value.checkPresent;
       this._invertMatcher = value.invertMatcher;
       this._name = value.name;
+      this._presence = value.presence;
       this._item.internalValue = value.item;
     }
   }
@@ -1907,6 +2322,22 @@ export class ServicePolicyRuleCookieMatchersOutputReference extends cdktf.Comple
     return this._name;
   }
 
+  // presence - computed: false, optional: true, required: false
+  private _presence?: boolean | cdktf.IResolvable; 
+  public get presence() {
+    return this.getBooleanAttribute('presence');
+  }
+  public set presence(value: boolean | cdktf.IResolvable) {
+    this._presence = value;
+  }
+  public resetPresence() {
+    this._presence = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get presenceInput() {
+    return this._presence;
+  }
+
   // item - computed: false, optional: true, required: false
   private _item = new ServicePolicyRuleCookieMatchersItemOutputReference(this, "item");
   public get item() {
@@ -1945,11 +2376,11 @@ export class ServicePolicyRuleCookieMatchersList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleDomainMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
 }
@@ -2060,17 +2491,1008 @@ export class ServicePolicyRuleDomainMatcherOutputReference extends cdktf.Complex
     return this._regexValues;
   }
 }
+export interface ServicePolicyRuleDstAsnListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#as_numbers ServicePolicyRule#as_numbers}
+  */
+  readonly asNumbers: number[];
+}
+
+export function servicePolicyRuleDstAsnListStructToTerraform(struct?: ServicePolicyRuleDstAsnListStructOutputReference | ServicePolicyRuleDstAsnListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    as_numbers: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.asNumbers),
+  }
+}
+
+
+export function servicePolicyRuleDstAsnListStructToHclTerraform(struct?: ServicePolicyRuleDstAsnListStructOutputReference | ServicePolicyRuleDstAsnListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    as_numbers: {
+      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.asNumbers),
+      isBlock: false,
+      type: "list",
+      storageClassType: "numberList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleDstAsnListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleDstAsnListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._asNumbers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.asNumbers = this._asNumbers;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleDstAsnListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._asNumbers = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._asNumbers = value.asNumbers;
+    }
+  }
+
+  // as_numbers - computed: false, optional: false, required: true
+  private _asNumbers?: number[]; 
+  public get asNumbers() {
+    return this.getNumberListAttribute('as_numbers');
+  }
+  public set asNumbers(value: number[]) {
+    this._asNumbers = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get asNumbersInput() {
+    return this._asNumbers;
+  }
+}
+export interface ServicePolicyRuleDstAsnMatcherAsnSets {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function servicePolicyRuleDstAsnMatcherAsnSetsToTerraform(struct?: ServicePolicyRuleDstAsnMatcherAsnSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function servicePolicyRuleDstAsnMatcherAsnSetsToHclTerraform(struct?: ServicePolicyRuleDstAsnMatcherAsnSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleDstAsnMatcherAsnSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleDstAsnMatcherAsnSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleDstAsnMatcherAsnSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class ServicePolicyRuleDstAsnMatcherAsnSetsList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleDstAsnMatcherAsnSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleDstAsnMatcherAsnSetsOutputReference {
+    return new ServicePolicyRuleDstAsnMatcherAsnSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ServicePolicyRuleDstAsnMatcher {
+  /**
+  * asn_sets block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#asn_sets ServicePolicyRule#asn_sets}
+  */
+  readonly asnSets: ServicePolicyRuleDstAsnMatcherAsnSets[] | cdktf.IResolvable;
+}
+
+export function servicePolicyRuleDstAsnMatcherToTerraform(struct?: ServicePolicyRuleDstAsnMatcherOutputReference | ServicePolicyRuleDstAsnMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    asn_sets: cdktf.listMapper(servicePolicyRuleDstAsnMatcherAsnSetsToTerraform, true)(struct!.asnSets),
+  }
+}
+
+
+export function servicePolicyRuleDstAsnMatcherToHclTerraform(struct?: ServicePolicyRuleDstAsnMatcherOutputReference | ServicePolicyRuleDstAsnMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    asn_sets: {
+      value: cdktf.listMapperHcl(servicePolicyRuleDstAsnMatcherAsnSetsToHclTerraform, true)(struct!.asnSets),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleDstAsnMatcherAsnSetsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleDstAsnMatcherOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleDstAsnMatcher | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._asnSets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.asnSets = this._asnSets?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleDstAsnMatcher | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._asnSets.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._asnSets.internalValue = value.asnSets;
+    }
+  }
+
+  // asn_sets - computed: false, optional: false, required: true
+  private _asnSets = new ServicePolicyRuleDstAsnMatcherAsnSetsList(this, "asn_sets", false);
+  public get asnSets() {
+    return this._asnSets;
+  }
+  public putAsnSets(value: ServicePolicyRuleDstAsnMatcherAsnSets[] | cdktf.IResolvable) {
+    this._asnSets.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get asnSetsInput() {
+    return this._asnSets.internalValue;
+  }
+}
+export interface ServicePolicyRuleDstIpMatcherPrefixSets {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function servicePolicyRuleDstIpMatcherPrefixSetsToTerraform(struct?: ServicePolicyRuleDstIpMatcherPrefixSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function servicePolicyRuleDstIpMatcherPrefixSetsToHclTerraform(struct?: ServicePolicyRuleDstIpMatcherPrefixSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleDstIpMatcherPrefixSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleDstIpMatcherPrefixSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleDstIpMatcherPrefixSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class ServicePolicyRuleDstIpMatcherPrefixSetsList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleDstIpMatcherPrefixSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleDstIpMatcherPrefixSetsOutputReference {
+    return new ServicePolicyRuleDstIpMatcherPrefixSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ServicePolicyRuleDstIpMatcher {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  */
+  readonly invertMatcher?: boolean | cdktf.IResolvable;
+  /**
+  * prefix_sets block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#prefix_sets ServicePolicyRule#prefix_sets}
+  */
+  readonly prefixSets: ServicePolicyRuleDstIpMatcherPrefixSets[] | cdktf.IResolvable;
+}
+
+export function servicePolicyRuleDstIpMatcherToTerraform(struct?: ServicePolicyRuleDstIpMatcherOutputReference | ServicePolicyRuleDstIpMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    invert_matcher: cdktf.booleanToTerraform(struct!.invertMatcher),
+    prefix_sets: cdktf.listMapper(servicePolicyRuleDstIpMatcherPrefixSetsToTerraform, true)(struct!.prefixSets),
+  }
+}
+
+
+export function servicePolicyRuleDstIpMatcherToHclTerraform(struct?: ServicePolicyRuleDstIpMatcherOutputReference | ServicePolicyRuleDstIpMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    invert_matcher: {
+      value: cdktf.booleanToHclTerraform(struct!.invertMatcher),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    prefix_sets: {
+      value: cdktf.listMapperHcl(servicePolicyRuleDstIpMatcherPrefixSetsToHclTerraform, true)(struct!.prefixSets),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleDstIpMatcherPrefixSetsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleDstIpMatcherOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleDstIpMatcher | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._invertMatcher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.invertMatcher = this._invertMatcher;
+    }
+    if (this._prefixSets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prefixSets = this._prefixSets?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleDstIpMatcher | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._invertMatcher = undefined;
+      this._prefixSets.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._invertMatcher = value.invertMatcher;
+      this._prefixSets.internalValue = value.prefixSets;
+    }
+  }
+
+  // invert_matcher - computed: false, optional: true, required: false
+  private _invertMatcher?: boolean | cdktf.IResolvable; 
+  public get invertMatcher() {
+    return this.getBooleanAttribute('invert_matcher');
+  }
+  public set invertMatcher(value: boolean | cdktf.IResolvable) {
+    this._invertMatcher = value;
+  }
+  public resetInvertMatcher() {
+    this._invertMatcher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get invertMatcherInput() {
+    return this._invertMatcher;
+  }
+
+  // prefix_sets - computed: false, optional: false, required: true
+  private _prefixSets = new ServicePolicyRuleDstIpMatcherPrefixSetsList(this, "prefix_sets", false);
+  public get prefixSets() {
+    return this._prefixSets;
+  }
+  public putPrefixSets(value: ServicePolicyRuleDstIpMatcherPrefixSets[] | cdktf.IResolvable) {
+    this._prefixSets.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prefixSetsInput() {
+    return this._prefixSets.internalValue;
+  }
+}
+export interface ServicePolicyRuleDstIpPrefixListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_match ServicePolicyRule#invert_match}
+  */
+  readonly invertMatch?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_prefixes ServicePolicyRule#ip_prefixes}
+  */
+  readonly ipPrefixes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ipv6_prefixes ServicePolicyRule#ipv6_prefixes}
+  */
+  readonly ipv6Prefixes?: string[];
+}
+
+export function servicePolicyRuleDstIpPrefixListStructToTerraform(struct?: ServicePolicyRuleDstIpPrefixListStructOutputReference | ServicePolicyRuleDstIpPrefixListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    invert_match: cdktf.booleanToTerraform(struct!.invertMatch),
+    ip_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipPrefixes),
+    ipv6_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipv6Prefixes),
+  }
+}
+
+
+export function servicePolicyRuleDstIpPrefixListStructToHclTerraform(struct?: ServicePolicyRuleDstIpPrefixListStructOutputReference | ServicePolicyRuleDstIpPrefixListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    invert_match: {
+      value: cdktf.booleanToHclTerraform(struct!.invertMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ip_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    ipv6_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipv6Prefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleDstIpPrefixListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleDstIpPrefixListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._invertMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.invertMatch = this._invertMatch;
+    }
+    if (this._ipPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipPrefixes = this._ipPrefixes;
+    }
+    if (this._ipv6Prefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Prefixes = this._ipv6Prefixes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleDstIpPrefixListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._invertMatch = undefined;
+      this._ipPrefixes = undefined;
+      this._ipv6Prefixes = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._invertMatch = value.invertMatch;
+      this._ipPrefixes = value.ipPrefixes;
+      this._ipv6Prefixes = value.ipv6Prefixes;
+    }
+  }
+
+  // invert_match - computed: false, optional: true, required: false
+  private _invertMatch?: boolean | cdktf.IResolvable; 
+  public get invertMatch() {
+    return this.getBooleanAttribute('invert_match');
+  }
+  public set invertMatch(value: boolean | cdktf.IResolvable) {
+    this._invertMatch = value;
+  }
+  public resetInvertMatch() {
+    this._invertMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get invertMatchInput() {
+    return this._invertMatch;
+  }
+
+  // ip_prefixes - computed: false, optional: true, required: false
+  private _ipPrefixes?: string[]; 
+  public get ipPrefixes() {
+    return this.getListAttribute('ip_prefixes');
+  }
+  public set ipPrefixes(value: string[]) {
+    this._ipPrefixes = value;
+  }
+  public resetIpPrefixes() {
+    this._ipPrefixes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipPrefixesInput() {
+    return this._ipPrefixes;
+  }
+
+  // ipv6_prefixes - computed: false, optional: true, required: false
+  private _ipv6Prefixes?: string[]; 
+  public get ipv6Prefixes() {
+    return this.getListAttribute('ipv6_prefixes');
+  }
+  public set ipv6Prefixes(value: string[]) {
+    this._ipv6Prefixes = value;
+  }
+  public resetIpv6Prefixes() {
+    this._ipv6Prefixes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6PrefixesInput() {
+    return this._ipv6Prefixes;
+  }
+}
+export interface ServicePolicyRuleGotoPolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function servicePolicyRuleGotoPolicyToTerraform(struct?: ServicePolicyRuleGotoPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function servicePolicyRuleGotoPolicyToHclTerraform(struct?: ServicePolicyRuleGotoPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleGotoPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleGotoPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleGotoPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class ServicePolicyRuleGotoPolicyList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleGotoPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleGotoPolicyOutputReference {
+    return new ServicePolicyRuleGotoPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ServicePolicyRuleHeadersItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -2212,25 +3634,29 @@ export class ServicePolicyRuleHeadersItemOutputReference extends cdktf.ComplexOb
 }
 export interface ServicePolicyRuleHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#presence ServicePolicyRule#presence}
+  */
+  readonly presence?: boolean | cdktf.IResolvable;
+  /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#item ServicePolicyRule#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#item ServicePolicyRule#item}
   */
   readonly item?: ServicePolicyRuleHeadersItem;
 }
@@ -2245,6 +3671,7 @@ export function servicePolicyRuleHeadersToTerraform(struct?: ServicePolicyRuleHe
     check_present: cdktf.booleanToTerraform(struct!.checkPresent),
     invert_matcher: cdktf.booleanToTerraform(struct!.invertMatcher),
     name: cdktf.stringToTerraform(struct!.name),
+    presence: cdktf.booleanToTerraform(struct!.presence),
     item: servicePolicyRuleHeadersItemToTerraform(struct!.item),
   }
 }
@@ -2279,6 +3706,12 @@ export function servicePolicyRuleHeadersToHclTerraform(struct?: ServicePolicyRul
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    presence: {
+      value: cdktf.booleanToHclTerraform(struct!.presence),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     item: {
       value: servicePolicyRuleHeadersItemToHclTerraform(struct!.item),
@@ -2328,6 +3761,10 @@ export class ServicePolicyRuleHeadersOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._presence !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.presence = this._presence;
+    }
     if (this._item?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.item = this._item?.internalValue;
@@ -2343,6 +3780,7 @@ export class ServicePolicyRuleHeadersOutputReference extends cdktf.ComplexObject
       this._checkPresent = undefined;
       this._invertMatcher = undefined;
       this._name = undefined;
+      this._presence = undefined;
       this._item.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -2356,6 +3794,7 @@ export class ServicePolicyRuleHeadersOutputReference extends cdktf.ComplexObject
       this._checkPresent = value.checkPresent;
       this._invertMatcher = value.invertMatcher;
       this._name = value.name;
+      this._presence = value.presence;
       this._item.internalValue = value.item;
     }
   }
@@ -2421,6 +3860,22 @@ export class ServicePolicyRuleHeadersOutputReference extends cdktf.ComplexObject
     return this._name;
   }
 
+  // presence - computed: false, optional: true, required: false
+  private _presence?: boolean | cdktf.IResolvable; 
+  public get presence() {
+    return this.getBooleanAttribute('presence');
+  }
+  public set presence(value: boolean | cdktf.IResolvable) {
+    this._presence = value;
+  }
+  public resetPresence() {
+    this._presence = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get presenceInput() {
+    return this._presence;
+  }
+
   // item - computed: false, optional: true, required: false
   private _item = new ServicePolicyRuleHeadersItemOutputReference(this, "item");
   public get item() {
@@ -2459,11 +3914,11 @@ export class ServicePolicyRuleHeadersList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleHttpMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#methods ServicePolicyRule#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#methods ServicePolicyRule#methods}
   */
   readonly methods?: string[];
 }
@@ -2576,15 +4031,15 @@ export class ServicePolicyRuleHttpMethodOutputReference extends cdktf.ComplexObj
 }
 export interface ServicePolicyRuleIpMatcherPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
   */
   readonly tenant?: string;
 }
@@ -2763,13 +4218,13 @@ export class ServicePolicyRuleIpMatcherPrefixSetsList extends cdktf.ComplexList 
 }
 export interface ServicePolicyRuleIpMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#prefix_sets ServicePolicyRule#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#prefix_sets ServicePolicyRule#prefix_sets}
   */
   readonly prefixSets: ServicePolicyRuleIpMatcherPrefixSets[] | cdktf.IResolvable;
 }
@@ -2879,15 +4334,15 @@ export class ServicePolicyRuleIpMatcherOutputReference extends cdktf.ComplexObje
 }
 export interface ServicePolicyRuleIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_match ServicePolicyRule#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_match ServicePolicyRule#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ip_prefixes ServicePolicyRule#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_prefixes ServicePolicyRule#ip_prefixes}
   */
   readonly ipPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ipv6_prefixes ServicePolicyRule#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ipv6_prefixes ServicePolicyRule#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -3027,9 +4482,126 @@ export class ServicePolicyRuleIpPrefixListStructOutputReference extends cdktf.Co
     return this._ipv6Prefixes;
   }
 }
+export interface ServicePolicyRuleIpReputationAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#default ServicePolicyRule#default}
+  */
+  readonly default?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#skip_processing ServicePolicyRule#skip_processing}
+  */
+  readonly skipProcessing?: boolean | cdktf.IResolvable;
+}
+
+export function servicePolicyRuleIpReputationActionToTerraform(struct?: ServicePolicyRuleIpReputationActionOutputReference | ServicePolicyRuleIpReputationAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default: cdktf.booleanToTerraform(struct!.default),
+    skip_processing: cdktf.booleanToTerraform(struct!.skipProcessing),
+  }
+}
+
+
+export function servicePolicyRuleIpReputationActionToHclTerraform(struct?: ServicePolicyRuleIpReputationActionOutputReference | ServicePolicyRuleIpReputationAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default: {
+      value: cdktf.booleanToHclTerraform(struct!.default),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    skip_processing: {
+      value: cdktf.booleanToHclTerraform(struct!.skipProcessing),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleIpReputationActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleIpReputationAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._default !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.default = this._default;
+    }
+    if (this._skipProcessing !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipProcessing = this._skipProcessing;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleIpReputationAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._default = undefined;
+      this._skipProcessing = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._default = value.default;
+      this._skipProcessing = value.skipProcessing;
+    }
+  }
+
+  // default - computed: false, optional: true, required: false
+  private _default?: boolean | cdktf.IResolvable; 
+  public get default() {
+    return this.getBooleanAttribute('default');
+  }
+  public set default(value: boolean | cdktf.IResolvable) {
+    this._default = value;
+  }
+  public resetDefault() {
+    this._default = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultInput() {
+    return this._default;
+  }
+
+  // skip_processing - computed: false, optional: true, required: false
+  private _skipProcessing?: boolean | cdktf.IResolvable; 
+  public get skipProcessing() {
+    return this.getBooleanAttribute('skip_processing');
+  }
+  public set skipProcessing(value: boolean | cdktf.IResolvable) {
+    this._skipProcessing = value;
+  }
+  public resetSkipProcessing() {
+    this._skipProcessing = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipProcessingInput() {
+    return this._skipProcessing;
+  }
+}
 export interface ServicePolicyRuleIpThreatCategoryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ip_threat_categories ServicePolicyRule#ip_threat_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ip_threat_categories ServicePolicyRule#ip_threat_categories}
   */
   readonly ipThreatCategories: string[];
 }
@@ -3110,7 +4682,7 @@ export class ServicePolicyRuleIpThreatCategoryListStructOutputReference extends 
 }
 export interface ServicePolicyRuleJa4TlsFingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
 }
@@ -3194,15 +4766,15 @@ export class ServicePolicyRuleJa4TlsFingerprintOutputReference extends cdktf.Com
 }
 export interface ServicePolicyRuleJwtClaimsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -3344,25 +4916,25 @@ export class ServicePolicyRuleJwtClaimsItemOutputReference extends cdktf.Complex
 }
 export interface ServicePolicyRuleJwtClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name: string;
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#item ServicePolicyRule#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#item ServicePolicyRule#item}
   */
   readonly item?: ServicePolicyRuleJwtClaimsItem;
 }
@@ -3591,7 +5163,7 @@ export class ServicePolicyRuleJwtClaimsList extends cdktf.ComplexList {
 }
 export interface ServicePolicyRuleLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#keys ServicePolicyRule#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#keys ServicePolicyRule#keys}
   */
   readonly keys?: string[];
 }
@@ -3673,13 +5245,163 @@ export class ServicePolicyRuleLabelMatcherOutputReference extends cdktf.ComplexO
     return this._keys;
   }
 }
+export interface ServicePolicyRuleMobileIdentifierMatcherAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#mobile_identifier ServicePolicyRule#mobile_identifier}
+  */
+  readonly mobileIdentifier?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#mobile_traffic ServicePolicyRule#mobile_traffic}
+  */
+  readonly mobileTraffic?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#web_traffic ServicePolicyRule#web_traffic}
+  */
+  readonly webTraffic?: boolean | cdktf.IResolvable;
+}
+
+export function servicePolicyRuleMobileIdentifierMatcherActionToTerraform(struct?: ServicePolicyRuleMobileIdentifierMatcherActionOutputReference | ServicePolicyRuleMobileIdentifierMatcherAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    mobile_identifier: cdktf.booleanToTerraform(struct!.mobileIdentifier),
+    mobile_traffic: cdktf.booleanToTerraform(struct!.mobileTraffic),
+    web_traffic: cdktf.booleanToTerraform(struct!.webTraffic),
+  }
+}
+
+
+export function servicePolicyRuleMobileIdentifierMatcherActionToHclTerraform(struct?: ServicePolicyRuleMobileIdentifierMatcherActionOutputReference | ServicePolicyRuleMobileIdentifierMatcherAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    mobile_identifier: {
+      value: cdktf.booleanToHclTerraform(struct!.mobileIdentifier),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    mobile_traffic: {
+      value: cdktf.booleanToHclTerraform(struct!.mobileTraffic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    web_traffic: {
+      value: cdktf.booleanToHclTerraform(struct!.webTraffic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleMobileIdentifierMatcherActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleMobileIdentifierMatcherAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._mobileIdentifier !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mobileIdentifier = this._mobileIdentifier;
+    }
+    if (this._mobileTraffic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mobileTraffic = this._mobileTraffic;
+    }
+    if (this._webTraffic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.webTraffic = this._webTraffic;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleMobileIdentifierMatcherAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._mobileIdentifier = undefined;
+      this._mobileTraffic = undefined;
+      this._webTraffic = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._mobileIdentifier = value.mobileIdentifier;
+      this._mobileTraffic = value.mobileTraffic;
+      this._webTraffic = value.webTraffic;
+    }
+  }
+
+  // mobile_identifier - computed: false, optional: true, required: false
+  private _mobileIdentifier?: boolean | cdktf.IResolvable; 
+  public get mobileIdentifier() {
+    return this.getBooleanAttribute('mobile_identifier');
+  }
+  public set mobileIdentifier(value: boolean | cdktf.IResolvable) {
+    this._mobileIdentifier = value;
+  }
+  public resetMobileIdentifier() {
+    this._mobileIdentifier = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mobileIdentifierInput() {
+    return this._mobileIdentifier;
+  }
+
+  // mobile_traffic - computed: false, optional: true, required: false
+  private _mobileTraffic?: boolean | cdktf.IResolvable; 
+  public get mobileTraffic() {
+    return this.getBooleanAttribute('mobile_traffic');
+  }
+  public set mobileTraffic(value: boolean | cdktf.IResolvable) {
+    this._mobileTraffic = value;
+  }
+  public resetMobileTraffic() {
+    this._mobileTraffic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mobileTrafficInput() {
+    return this._mobileTraffic;
+  }
+
+  // web_traffic - computed: false, optional: true, required: false
+  private _webTraffic?: boolean | cdktf.IResolvable; 
+  public get webTraffic() {
+    return this.getBooleanAttribute('web_traffic');
+  }
+  public set webTraffic(value: boolean | cdktf.IResolvable) {
+    this._webTraffic = value;
+  }
+  public resetWebTraffic() {
+    this._webTraffic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get webTrafficInput() {
+    return this._webTraffic;
+  }
+}
 export interface ServicePolicyRuleMumAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#default ServicePolicyRule#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#default ServicePolicyRule#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#skip_processing ServicePolicyRule#skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#skip_processing ServicePolicyRule#skip_processing}
   */
   readonly skipProcessing?: boolean | cdktf.IResolvable;
 }
@@ -3792,27 +5514,27 @@ export class ServicePolicyRuleMumActionOutputReference extends cdktf.ComplexObje
 }
 export interface ServicePolicyRulePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#prefix_values ServicePolicyRule#prefix_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#prefix_values ServicePolicyRule#prefix_values}
   */
   readonly prefixValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#suffix_values ServicePolicyRule#suffix_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#suffix_values ServicePolicyRule#suffix_values}
   */
   readonly suffixValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -4041,11 +5763,11 @@ export class ServicePolicyRulePathOutputReference extends cdktf.ComplexObject {
 }
 export interface ServicePolicyRulePortMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#ports ServicePolicyRule#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#ports ServicePolicyRule#ports}
   */
   readonly ports: string[];
 }
@@ -4155,15 +5877,15 @@ export class ServicePolicyRulePortMatcherOutputReference extends cdktf.ComplexOb
 }
 export interface ServicePolicyRuleQueryParamsItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
   */
   readonly regexValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transformers ServicePolicyRule#transformers}
   */
   readonly transformers?: string[];
 }
@@ -4305,25 +6027,29 @@ export class ServicePolicyRuleQueryParamsItemOutputReference extends cdktf.Compl
 }
 export interface ServicePolicyRuleQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_not_present ServicePolicyRule#check_not_present}
   */
   readonly checkNotPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#check_present ServicePolicyRule#check_present}
   */
   readonly checkPresent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#key ServicePolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#key ServicePolicyRule#key}
   */
   readonly key: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#presence ServicePolicyRule#presence}
+  */
+  readonly presence?: boolean | cdktf.IResolvable;
+  /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#item ServicePolicyRule#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#item ServicePolicyRule#item}
   */
   readonly item?: ServicePolicyRuleQueryParamsItem;
 }
@@ -4338,6 +6064,7 @@ export function servicePolicyRuleQueryParamsToTerraform(struct?: ServicePolicyRu
     check_present: cdktf.booleanToTerraform(struct!.checkPresent),
     invert_matcher: cdktf.booleanToTerraform(struct!.invertMatcher),
     key: cdktf.stringToTerraform(struct!.key),
+    presence: cdktf.booleanToTerraform(struct!.presence),
     item: servicePolicyRuleQueryParamsItemToTerraform(struct!.item),
   }
 }
@@ -4372,6 +6099,12 @@ export function servicePolicyRuleQueryParamsToHclTerraform(struct?: ServicePolic
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    presence: {
+      value: cdktf.booleanToHclTerraform(struct!.presence),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     item: {
       value: servicePolicyRuleQueryParamsItemToHclTerraform(struct!.item),
@@ -4421,6 +6154,10 @@ export class ServicePolicyRuleQueryParamsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.key = this._key;
     }
+    if (this._presence !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.presence = this._presence;
+    }
     if (this._item?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.item = this._item?.internalValue;
@@ -4436,6 +6173,7 @@ export class ServicePolicyRuleQueryParamsOutputReference extends cdktf.ComplexOb
       this._checkPresent = undefined;
       this._invertMatcher = undefined;
       this._key = undefined;
+      this._presence = undefined;
       this._item.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -4449,6 +6187,7 @@ export class ServicePolicyRuleQueryParamsOutputReference extends cdktf.ComplexOb
       this._checkPresent = value.checkPresent;
       this._invertMatcher = value.invertMatcher;
       this._key = value.key;
+      this._presence = value.presence;
       this._item.internalValue = value.item;
     }
   }
@@ -4514,6 +6253,22 @@ export class ServicePolicyRuleQueryParamsOutputReference extends cdktf.ComplexOb
     return this._key;
   }
 
+  // presence - computed: false, optional: true, required: false
+  private _presence?: boolean | cdktf.IResolvable; 
+  public get presence() {
+    return this.getBooleanAttribute('presence');
+  }
+  public set presence(value: boolean | cdktf.IResolvable) {
+    this._presence = value;
+  }
+  public resetPresence() {
+    this._presence = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get presenceInput() {
+    return this._presence;
+  }
+
   // item - computed: false, optional: true, required: false
   private _item = new ServicePolicyRuleQueryParamsItemOutputReference(this, "item");
   public get item() {
@@ -4550,109 +6305,296 @@ export class ServicePolicyRuleQueryParamsList extends cdktf.ComplexList {
     return new ServicePolicyRuleQueryParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ServicePolicyRuleRateLimiter {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function servicePolicyRuleRateLimiterToTerraform(struct?: ServicePolicyRuleRateLimiter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function servicePolicyRuleRateLimiterToHclTerraform(struct?: ServicePolicyRuleRateLimiter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleRateLimiterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleRateLimiter | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleRateLimiter | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class ServicePolicyRuleRateLimiterList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleRateLimiter[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleRateLimiterOutputReference {
+    return new ServicePolicyRuleRateLimiterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ServicePolicyRuleRequestConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_cookie_count_exceeds ServicePolicyRule#max_cookie_count_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_cookie_count_exceeds ServicePolicyRule#max_cookie_count_exceeds}
   */
   readonly maxCookieCountExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_cookie_count_none ServicePolicyRule#max_cookie_count_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_cookie_count_none ServicePolicyRule#max_cookie_count_none}
   */
   readonly maxCookieCountNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_cookie_key_size_exceeds ServicePolicyRule#max_cookie_key_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_cookie_key_size_exceeds ServicePolicyRule#max_cookie_key_size_exceeds}
   */
   readonly maxCookieKeySizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_cookie_key_size_none ServicePolicyRule#max_cookie_key_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_cookie_key_size_none ServicePolicyRule#max_cookie_key_size_none}
   */
   readonly maxCookieKeySizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_cookie_value_size_exceeds ServicePolicyRule#max_cookie_value_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_cookie_value_size_exceeds ServicePolicyRule#max_cookie_value_size_exceeds}
   */
   readonly maxCookieValueSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_cookie_value_size_none ServicePolicyRule#max_cookie_value_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_cookie_value_size_none ServicePolicyRule#max_cookie_value_size_none}
   */
   readonly maxCookieValueSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_header_count_exceeds ServicePolicyRule#max_header_count_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_header_count_exceeds ServicePolicyRule#max_header_count_exceeds}
   */
   readonly maxHeaderCountExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_header_count_none ServicePolicyRule#max_header_count_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_header_count_none ServicePolicyRule#max_header_count_none}
   */
   readonly maxHeaderCountNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_header_key_size_exceeds ServicePolicyRule#max_header_key_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_header_key_size_exceeds ServicePolicyRule#max_header_key_size_exceeds}
   */
   readonly maxHeaderKeySizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_header_key_size_none ServicePolicyRule#max_header_key_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_header_key_size_none ServicePolicyRule#max_header_key_size_none}
   */
   readonly maxHeaderKeySizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_header_value_size_exceeds ServicePolicyRule#max_header_value_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_header_value_size_exceeds ServicePolicyRule#max_header_value_size_exceeds}
   */
   readonly maxHeaderValueSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_header_value_size_none ServicePolicyRule#max_header_value_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_header_value_size_none ServicePolicyRule#max_header_value_size_none}
   */
   readonly maxHeaderValueSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_parameter_count_exceeds ServicePolicyRule#max_parameter_count_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_parameter_count_exceeds ServicePolicyRule#max_parameter_count_exceeds}
   */
   readonly maxParameterCountExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_parameter_count_none ServicePolicyRule#max_parameter_count_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_parameter_count_none ServicePolicyRule#max_parameter_count_none}
   */
   readonly maxParameterCountNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_parameter_name_size_exceeds ServicePolicyRule#max_parameter_name_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_parameter_name_size_exceeds ServicePolicyRule#max_parameter_name_size_exceeds}
   */
   readonly maxParameterNameSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_parameter_name_size_none ServicePolicyRule#max_parameter_name_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_parameter_name_size_none ServicePolicyRule#max_parameter_name_size_none}
   */
   readonly maxParameterNameSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_parameter_value_size_exceeds ServicePolicyRule#max_parameter_value_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_parameter_value_size_exceeds ServicePolicyRule#max_parameter_value_size_exceeds}
   */
   readonly maxParameterValueSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_parameter_value_size_none ServicePolicyRule#max_parameter_value_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_parameter_value_size_none ServicePolicyRule#max_parameter_value_size_none}
   */
   readonly maxParameterValueSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_query_size_exceeds ServicePolicyRule#max_query_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_query_size_exceeds ServicePolicyRule#max_query_size_exceeds}
   */
   readonly maxQuerySizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_query_size_none ServicePolicyRule#max_query_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_query_size_none ServicePolicyRule#max_query_size_none}
   */
   readonly maxQuerySizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_request_line_size_exceeds ServicePolicyRule#max_request_line_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_request_line_size_exceeds ServicePolicyRule#max_request_line_size_exceeds}
   */
   readonly maxRequestLineSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_request_line_size_none ServicePolicyRule#max_request_line_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_request_line_size_none ServicePolicyRule#max_request_line_size_none}
   */
   readonly maxRequestLineSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_request_size_exceeds ServicePolicyRule#max_request_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_request_size_exceeds ServicePolicyRule#max_request_size_exceeds}
   */
   readonly maxRequestSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_request_size_none ServicePolicyRule#max_request_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_request_size_none ServicePolicyRule#max_request_size_none}
   */
   readonly maxRequestSizeNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_url_size_exceeds ServicePolicyRule#max_url_size_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_url_size_exceeds ServicePolicyRule#max_url_size_exceeds}
   */
   readonly maxUrlSizeExceeds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#max_url_size_none ServicePolicyRule#max_url_size_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#max_url_size_none ServicePolicyRule#max_url_size_none}
   */
   readonly maxUrlSizeNone?: boolean | cdktf.IResolvable;
 }
@@ -5461,15 +7403,15 @@ export class ServicePolicyRuleRequestConstraintsOutputReference extends cdktf.Co
 }
 export interface ServicePolicyRuleSegmentPolicyDstSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
   */
   readonly tenant?: string;
 }
@@ -5650,7 +7592,7 @@ export interface ServicePolicyRuleSegmentPolicyDstSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#segments ServicePolicyRule#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#segments ServicePolicyRule#segments}
   */
   readonly segments: ServicePolicyRuleSegmentPolicyDstSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -5731,15 +7673,15 @@ export class ServicePolicyRuleSegmentPolicyDstSegmentsOutputReference extends cd
 }
 export interface ServicePolicyRuleSegmentPolicySrcSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#namespace ServicePolicyRule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#tenant ServicePolicyRule#tenant}
   */
   readonly tenant?: string;
 }
@@ -5920,7 +7862,7 @@ export interface ServicePolicyRuleSegmentPolicySrcSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#segments ServicePolicyRule#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#segments ServicePolicyRule#segments}
   */
   readonly segments: ServicePolicyRuleSegmentPolicySrcSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -6001,27 +7943,27 @@ export class ServicePolicyRuleSegmentPolicySrcSegmentsOutputReference extends cd
 }
 export interface ServicePolicyRuleSegmentPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#dst_any ServicePolicyRule#dst_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#dst_any ServicePolicyRule#dst_any}
   */
   readonly dstAny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#intra_segment ServicePolicyRule#intra_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#intra_segment ServicePolicyRule#intra_segment}
   */
   readonly intraSegment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#src_any ServicePolicyRule#src_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#src_any ServicePolicyRule#src_any}
   */
   readonly srcAny?: boolean | cdktf.IResolvable;
   /**
   * dst_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#dst_segments ServicePolicyRule#dst_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#dst_segments ServicePolicyRule#dst_segments}
   */
   readonly dstSegments?: ServicePolicyRuleSegmentPolicyDstSegments;
   /**
   * src_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#src_segments ServicePolicyRule#src_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#src_segments ServicePolicyRule#src_segments}
   */
   readonly srcSegments?: ServicePolicyRuleSegmentPolicySrcSegments;
 }
@@ -6219,17 +8161,1465 @@ export class ServicePolicyRuleSegmentPolicyOutputReference extends cdktf.Complex
     return this._srcSegments.internalValue;
   }
 }
+export interface ServicePolicyRuleServerSelector {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#expressions ServicePolicyRule#expressions}
+  */
+  readonly expressions: string[];
+}
+
+export function servicePolicyRuleServerSelectorToTerraform(struct?: ServicePolicyRuleServerSelectorOutputReference | ServicePolicyRuleServerSelector): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    expressions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.expressions),
+  }
+}
+
+
+export function servicePolicyRuleServerSelectorToHclTerraform(struct?: ServicePolicyRuleServerSelectorOutputReference | ServicePolicyRuleServerSelector): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    expressions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.expressions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleServerSelectorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleServerSelector | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expressions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expressions = this._expressions;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleServerSelector | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._expressions = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._expressions = value.expressions;
+    }
+  }
+
+  // expressions - computed: false, optional: false, required: true
+  private _expressions?: string[]; 
+  public get expressions() {
+    return this.getListAttribute('expressions');
+  }
+  public set expressions(value: string[]) {
+    this._expressions = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expressionsInput() {
+    return this._expressions;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#body ServicePolicyRule#body}
+  */
+  readonly body?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#body_hash ServicePolicyRule#body_hash}
+  */
+  readonly bodyHash?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#status ServicePolicyRule#status}
+  */
+  readonly status?: string;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationBlockToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationBlockOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    body: cdktf.stringToTerraform(struct!.body),
+    body_hash: cdktf.stringToTerraform(struct!.bodyHash),
+    status: cdktf.stringToTerraform(struct!.status),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationBlockToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationBlockOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    body: {
+      value: cdktf.stringToHclTerraform(struct!.body),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    body_hash: {
+      value: cdktf.stringToHclTerraform(struct!.bodyHash),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    status: {
+      value: cdktf.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionMitigationBlockOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._body !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.body = this._body;
+    }
+    if (this._bodyHash !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bodyHash = this._bodyHash;
+    }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._body = undefined;
+      this._bodyHash = undefined;
+      this._status = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._body = value.body;
+      this._bodyHash = value.bodyHash;
+      this._status = value.status;
+    }
+  }
+
+  // body - computed: false, optional: true, required: false
+  private _body?: string; 
+  public get body() {
+    return this.getStringAttribute('body');
+  }
+  public set body(value: string) {
+    this._body = value;
+  }
+  public resetBody() {
+    this._body = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bodyInput() {
+    return this._body;
+  }
+
+  // body_hash - computed: false, optional: true, required: false
+  private _bodyHash?: string; 
+  public get bodyHash() {
+    return this.getStringAttribute('body_hash');
+  }
+  public set bodyHash(value: string) {
+    this._bodyHash = value;
+  }
+  public resetBodyHash() {
+    this._bodyHash = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bodyHashInput() {
+    return this._bodyHash;
+  }
+
+  // status - computed: false, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#auto_type_header_name ServicePolicyRule#auto_type_header_name}
+  */
+  readonly autoTypeHeaderName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#inference_header_name ServicePolicyRule#inference_header_name}
+  */
+  readonly inferenceHeaderName: string;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    auto_type_header_name: cdktf.stringToTerraform(struct!.autoTypeHeaderName),
+    inference_header_name: cdktf.stringToTerraform(struct!.inferenceHeaderName),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    auto_type_header_name: {
+      value: cdktf.stringToHclTerraform(struct!.autoTypeHeaderName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    inference_header_name: {
+      value: cdktf.stringToHclTerraform(struct!.inferenceHeaderName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._autoTypeHeaderName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoTypeHeaderName = this._autoTypeHeaderName;
+    }
+    if (this._inferenceHeaderName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.inferenceHeaderName = this._inferenceHeaderName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._autoTypeHeaderName = undefined;
+      this._inferenceHeaderName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._autoTypeHeaderName = value.autoTypeHeaderName;
+      this._inferenceHeaderName = value.inferenceHeaderName;
+    }
+  }
+
+  // auto_type_header_name - computed: false, optional: false, required: true
+  private _autoTypeHeaderName?: string; 
+  public get autoTypeHeaderName() {
+    return this.getStringAttribute('auto_type_header_name');
+  }
+  public set autoTypeHeaderName(value: string) {
+    this._autoTypeHeaderName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoTypeHeaderNameInput() {
+    return this._autoTypeHeaderName;
+  }
+
+  // inference_header_name - computed: false, optional: false, required: true
+  private _inferenceHeaderName?: string; 
+  public get inferenceHeaderName() {
+    return this.getStringAttribute('inference_header_name');
+  }
+  public set inferenceHeaderName(value: string) {
+    this._inferenceHeaderName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get inferenceHeaderNameInput() {
+    return this._inferenceHeaderName;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#no_headers ServicePolicyRule#no_headers}
+  */
+  readonly noHeaders?: boolean | cdktf.IResolvable;
+  /**
+  * append_headers block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#append_headers ServicePolicyRule#append_headers}
+  */
+  readonly appendHeaders?: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationFlagToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    no_headers: cdktf.booleanToTerraform(struct!.noHeaders),
+    append_headers: servicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersToTerraform(struct!.appendHeaders),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationFlagToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    no_headers: {
+      value: cdktf.booleanToHclTerraform(struct!.noHeaders),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    append_headers: {
+      value: servicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersToHclTerraform(struct!.appendHeaders),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._noHeaders !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noHeaders = this._noHeaders;
+    }
+    if (this._appendHeaders?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appendHeaders = this._appendHeaders?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._noHeaders = undefined;
+      this._appendHeaders.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._noHeaders = value.noHeaders;
+      this._appendHeaders.internalValue = value.appendHeaders;
+    }
+  }
+
+  // no_headers - computed: false, optional: true, required: false
+  private _noHeaders?: boolean | cdktf.IResolvable; 
+  public get noHeaders() {
+    return this.getBooleanAttribute('no_headers');
+  }
+  public set noHeaders(value: boolean | cdktf.IResolvable) {
+    this._noHeaders = value;
+  }
+  public resetNoHeaders() {
+    this._noHeaders = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noHeadersInput() {
+    return this._noHeaders;
+  }
+
+  // append_headers - computed: false, optional: true, required: false
+  private _appendHeaders = new ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeadersOutputReference(this, "append_headers");
+  public get appendHeaders() {
+    return this._appendHeaders;
+  }
+  public putAppendHeaders(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagAppendHeaders) {
+    this._appendHeaders.internalValue = value;
+  }
+  public resetAppendHeaders() {
+    this._appendHeaders.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appendHeadersInput() {
+    return this._appendHeaders.internalValue;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#uri ServicePolicyRule#uri}
+  */
+  readonly uri: string;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationRedirectToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirectOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    uri: cdktf.stringToTerraform(struct!.uri),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationRedirectToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirectOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    uri: {
+      value: cdktf.stringToHclTerraform(struct!.uri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirectOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._uri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uri = this._uri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._uri = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._uri = value.uri;
+    }
+  }
+
+  // uri - computed: false, optional: false, required: true
+  private _uri?: string; 
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+  public set uri(value: string) {
+    this._uri = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uriInput() {
+    return this._uri;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionMitigation {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#none ServicePolicyRule#none}
+  */
+  readonly none?: boolean | cdktf.IResolvable;
+  /**
+  * block block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#block ServicePolicyRule#block}
+  */
+  readonly block?: ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock;
+  /**
+  * flag block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#flag ServicePolicyRule#flag}
+  */
+  readonly flag?: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag;
+  /**
+  * redirect block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#redirect ServicePolicyRule#redirect}
+  */
+  readonly redirect?: ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    none: cdktf.booleanToTerraform(struct!.none),
+    block: servicePolicyRuleShapeProtectedEndpointActionMitigationBlockToTerraform(struct!.block),
+    flag: servicePolicyRuleShapeProtectedEndpointActionMitigationFlagToTerraform(struct!.flag),
+    redirect: servicePolicyRuleShapeProtectedEndpointActionMitigationRedirectToTerraform(struct!.redirect),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionMitigationToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionMitigationOutputReference | ServicePolicyRuleShapeProtectedEndpointActionMitigation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    none: {
+      value: cdktf.booleanToHclTerraform(struct!.none),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    block: {
+      value: servicePolicyRuleShapeProtectedEndpointActionMitigationBlockToHclTerraform(struct!.block),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionMitigationBlockList",
+    },
+    flag: {
+      value: servicePolicyRuleShapeProtectedEndpointActionMitigationFlagToHclTerraform(struct!.flag),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagList",
+    },
+    redirect: {
+      value: servicePolicyRuleShapeProtectedEndpointActionMitigationRedirectToHclTerraform(struct!.redirect),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirectList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionMitigationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionMitigation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._none !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.none = this._none;
+    }
+    if (this._block?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.block = this._block?.internalValue;
+    }
+    if (this._flag?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.flag = this._flag?.internalValue;
+    }
+    if (this._redirect?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.redirect = this._redirect?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionMitigation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._none = undefined;
+      this._block.internalValue = undefined;
+      this._flag.internalValue = undefined;
+      this._redirect.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._none = value.none;
+      this._block.internalValue = value.block;
+      this._flag.internalValue = value.flag;
+      this._redirect.internalValue = value.redirect;
+    }
+  }
+
+  // none - computed: false, optional: true, required: false
+  private _none?: boolean | cdktf.IResolvable; 
+  public get none() {
+    return this.getBooleanAttribute('none');
+  }
+  public set none(value: boolean | cdktf.IResolvable) {
+    this._none = value;
+  }
+  public resetNone() {
+    this._none = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noneInput() {
+    return this._none;
+  }
+
+  // block - computed: false, optional: true, required: false
+  private _block = new ServicePolicyRuleShapeProtectedEndpointActionMitigationBlockOutputReference(this, "block");
+  public get block() {
+    return this._block;
+  }
+  public putBlock(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationBlock) {
+    this._block.internalValue = value;
+  }
+  public resetBlock() {
+    this._block.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blockInput() {
+    return this._block.internalValue;
+  }
+
+  // flag - computed: false, optional: true, required: false
+  private _flag = new ServicePolicyRuleShapeProtectedEndpointActionMitigationFlagOutputReference(this, "flag");
+  public get flag() {
+    return this._flag;
+  }
+  public putFlag(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationFlag) {
+    this._flag.internalValue = value;
+  }
+  public resetFlag() {
+    this._flag.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flagInput() {
+    return this._flag.internalValue;
+  }
+
+  // redirect - computed: false, optional: true, required: false
+  private _redirect = new ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirectOutputReference(this, "redirect");
+  public get redirect() {
+    return this._redirect;
+  }
+  public putRedirect(value: ServicePolicyRuleShapeProtectedEndpointActionMitigationRedirect) {
+    this._redirect.internalValue = value;
+  }
+  public resetRedirect() {
+    this._redirect.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get redirectInput() {
+    return this._redirect.internalValue;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  */
+  readonly regexValues?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#status ServicePolicyRule#status}
+  */
+  readonly status: string;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    regex_values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.regexValues),
+    status: cdktf.stringToTerraform(struct!.status),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex_values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.regexValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    status: {
+      value: cdktf.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._regexValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regexValues = this._regexValues;
+    }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._regexValues = undefined;
+      this._status = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._regexValues = value.regexValues;
+      this._status = value.status;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // regex_values - computed: false, optional: true, required: false
+  private _regexValues?: string[]; 
+  public get regexValues() {
+    return this.getListAttribute('regex_values');
+  }
+  public set regexValues(value: string[]) {
+    this._regexValues = value;
+  }
+  public resetRegexValues() {
+    this._regexValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexValuesInput() {
+    return this._regexValues;
+  }
+
+  // status - computed: false, optional: false, required: true
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsOutputReference {
+    return new ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#name ServicePolicyRule#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  */
+  readonly regexValues?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#status ServicePolicyRule#status}
+  */
+  readonly status: string;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    regex_values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.regexValues),
+    status: cdktf.stringToTerraform(struct!.status),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex_values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.regexValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    status: {
+      value: cdktf.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._regexValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regexValues = this._regexValues;
+    }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._regexValues = undefined;
+      this._status = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._regexValues = value.regexValues;
+      this._status = value.status;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // regex_values - computed: false, optional: true, required: false
+  private _regexValues?: string[]; 
+  public get regexValues() {
+    return this.getListAttribute('regex_values');
+  }
+  public set regexValues(value: string[]) {
+    this._regexValues = value;
+  }
+  public resetRegexValues() {
+    this._regexValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexValuesInput() {
+    return this._regexValues;
+  }
+
+  // status - computed: false, optional: false, required: true
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsOutputReference {
+    return new ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointActionTransactionResult {
+  /**
+  * failure_conditions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#failure_conditions ServicePolicyRule#failure_conditions}
+  */
+  readonly failureConditions?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions[] | cdktf.IResolvable;
+  /**
+  * success_conditions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#success_conditions ServicePolicyRule#success_conditions}
+  */
+  readonly successConditions?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions[] | cdktf.IResolvable;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionTransactionResultToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultOutputReference | ServicePolicyRuleShapeProtectedEndpointActionTransactionResult): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    failure_conditions: cdktf.listMapper(servicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsToTerraform, true)(struct!.failureConditions),
+    success_conditions: cdktf.listMapper(servicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsToTerraform, true)(struct!.successConditions),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionTransactionResultToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultOutputReference | ServicePolicyRuleShapeProtectedEndpointActionTransactionResult): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    failure_conditions: {
+      value: cdktf.listMapperHcl(servicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsToHclTerraform, true)(struct!.failureConditions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsList",
+    },
+    success_conditions: {
+      value: cdktf.listMapperHcl(servicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsToHclTerraform, true)(struct!.successConditions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionTransactionResultOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointActionTransactionResult | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._failureConditions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failureConditions = this._failureConditions?.internalValue;
+    }
+    if (this._successConditions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.successConditions = this._successConditions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointActionTransactionResult | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._failureConditions.internalValue = undefined;
+      this._successConditions.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._failureConditions.internalValue = value.failureConditions;
+      this._successConditions.internalValue = value.successConditions;
+    }
+  }
+
+  // failure_conditions - computed: false, optional: true, required: false
+  private _failureConditions = new ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditionsList(this, "failure_conditions", false);
+  public get failureConditions() {
+    return this._failureConditions;
+  }
+  public putFailureConditions(value: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultFailureConditions[] | cdktf.IResolvable) {
+    this._failureConditions.internalValue = value;
+  }
+  public resetFailureConditions() {
+    this._failureConditions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failureConditionsInput() {
+    return this._failureConditions.internalValue;
+  }
+
+  // success_conditions - computed: false, optional: true, required: false
+  private _successConditions = new ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditionsList(this, "success_conditions", false);
+  public get successConditions() {
+    return this._successConditions;
+  }
+  public putSuccessConditions(value: ServicePolicyRuleShapeProtectedEndpointActionTransactionResultSuccessConditions[] | cdktf.IResolvable) {
+    this._successConditions.internalValue = value;
+  }
+  public resetSuccessConditions() {
+    this._successConditions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get successConditionsInput() {
+    return this._successConditions.internalValue;
+  }
+}
+export interface ServicePolicyRuleShapeProtectedEndpointAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#allow_goodbot ServicePolicyRule#allow_goodbot}
+  */
+  readonly allowGoodbot: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#app_traffic_type ServicePolicyRule#app_traffic_type}
+  */
+  readonly appTrafficType: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#flow_label ServicePolicyRule#flow_label}
+  */
+  readonly flowLabel: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#web_scraping ServicePolicyRule#web_scraping}
+  */
+  readonly webScraping: boolean | cdktf.IResolvable;
+  /**
+  * mitigation block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#mitigation ServicePolicyRule#mitigation}
+  */
+  readonly mitigation: ServicePolicyRuleShapeProtectedEndpointActionMitigation;
+  /**
+  * transaction_result block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#transaction_result ServicePolicyRule#transaction_result}
+  */
+  readonly transactionResult?: ServicePolicyRuleShapeProtectedEndpointActionTransactionResult;
+}
+
+export function servicePolicyRuleShapeProtectedEndpointActionToTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionOutputReference | ServicePolicyRuleShapeProtectedEndpointAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_goodbot: cdktf.booleanToTerraform(struct!.allowGoodbot),
+    app_traffic_type: cdktf.stringToTerraform(struct!.appTrafficType),
+    flow_label: cdktf.stringToTerraform(struct!.flowLabel),
+    web_scraping: cdktf.booleanToTerraform(struct!.webScraping),
+    mitigation: servicePolicyRuleShapeProtectedEndpointActionMitigationToTerraform(struct!.mitigation),
+    transaction_result: servicePolicyRuleShapeProtectedEndpointActionTransactionResultToTerraform(struct!.transactionResult),
+  }
+}
+
+
+export function servicePolicyRuleShapeProtectedEndpointActionToHclTerraform(struct?: ServicePolicyRuleShapeProtectedEndpointActionOutputReference | ServicePolicyRuleShapeProtectedEndpointAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_goodbot: {
+      value: cdktf.booleanToHclTerraform(struct!.allowGoodbot),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    app_traffic_type: {
+      value: cdktf.stringToHclTerraform(struct!.appTrafficType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    flow_label: {
+      value: cdktf.stringToHclTerraform(struct!.flowLabel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    web_scraping: {
+      value: cdktf.booleanToHclTerraform(struct!.webScraping),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    mitigation: {
+      value: servicePolicyRuleShapeProtectedEndpointActionMitigationToHclTerraform(struct!.mitigation),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionMitigationList",
+    },
+    transaction_result: {
+      value: servicePolicyRuleShapeProtectedEndpointActionTransactionResultToHclTerraform(struct!.transactionResult),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionTransactionResultList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleShapeProtectedEndpointActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleShapeProtectedEndpointAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowGoodbot !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowGoodbot = this._allowGoodbot;
+    }
+    if (this._appTrafficType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appTrafficType = this._appTrafficType;
+    }
+    if (this._flowLabel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.flowLabel = this._flowLabel;
+    }
+    if (this._webScraping !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.webScraping = this._webScraping;
+    }
+    if (this._mitigation?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mitigation = this._mitigation?.internalValue;
+    }
+    if (this._transactionResult?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.transactionResult = this._transactionResult?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleShapeProtectedEndpointAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowGoodbot = undefined;
+      this._appTrafficType = undefined;
+      this._flowLabel = undefined;
+      this._webScraping = undefined;
+      this._mitigation.internalValue = undefined;
+      this._transactionResult.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowGoodbot = value.allowGoodbot;
+      this._appTrafficType = value.appTrafficType;
+      this._flowLabel = value.flowLabel;
+      this._webScraping = value.webScraping;
+      this._mitigation.internalValue = value.mitigation;
+      this._transactionResult.internalValue = value.transactionResult;
+    }
+  }
+
+  // allow_goodbot - computed: false, optional: false, required: true
+  private _allowGoodbot?: boolean | cdktf.IResolvable; 
+  public get allowGoodbot() {
+    return this.getBooleanAttribute('allow_goodbot');
+  }
+  public set allowGoodbot(value: boolean | cdktf.IResolvable) {
+    this._allowGoodbot = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowGoodbotInput() {
+    return this._allowGoodbot;
+  }
+
+  // app_traffic_type - computed: false, optional: false, required: true
+  private _appTrafficType?: string; 
+  public get appTrafficType() {
+    return this.getStringAttribute('app_traffic_type');
+  }
+  public set appTrafficType(value: string) {
+    this._appTrafficType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appTrafficTypeInput() {
+    return this._appTrafficType;
+  }
+
+  // flow_label - computed: false, optional: false, required: true
+  private _flowLabel?: string; 
+  public get flowLabel() {
+    return this.getStringAttribute('flow_label');
+  }
+  public set flowLabel(value: string) {
+    this._flowLabel = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowLabelInput() {
+    return this._flowLabel;
+  }
+
+  // web_scraping - computed: false, optional: false, required: true
+  private _webScraping?: boolean | cdktf.IResolvable; 
+  public get webScraping() {
+    return this.getBooleanAttribute('web_scraping');
+  }
+  public set webScraping(value: boolean | cdktf.IResolvable) {
+    this._webScraping = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get webScrapingInput() {
+    return this._webScraping;
+  }
+
+  // mitigation - computed: false, optional: false, required: true
+  private _mitigation = new ServicePolicyRuleShapeProtectedEndpointActionMitigationOutputReference(this, "mitigation");
+  public get mitigation() {
+    return this._mitigation;
+  }
+  public putMitigation(value: ServicePolicyRuleShapeProtectedEndpointActionMitigation) {
+    this._mitigation.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mitigationInput() {
+    return this._mitigation.internalValue;
+  }
+
+  // transaction_result - computed: false, optional: true, required: false
+  private _transactionResult = new ServicePolicyRuleShapeProtectedEndpointActionTransactionResultOutputReference(this, "transaction_result");
+  public get transactionResult() {
+    return this._transactionResult;
+  }
+  public putTransactionResult(value: ServicePolicyRuleShapeProtectedEndpointActionTransactionResult) {
+    this._transactionResult.internalValue = value;
+  }
+  public resetTransactionResult() {
+    this._transactionResult.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transactionResultInput() {
+    return this._transactionResult.internalValue;
+  }
+}
 export interface ServicePolicyRuleTlsFingerprintMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#classes ServicePolicyRule#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#classes ServicePolicyRule#classes}
   */
   readonly classes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
   */
   readonly exactValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#excluded_values ServicePolicyRule#excluded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#excluded_values ServicePolicyRule#excluded_values}
   */
   readonly excludedValues?: string[];
 }
@@ -6369,17 +9759,498 @@ export class ServicePolicyRuleTlsFingerprintMatcherOutputReference extends cdktf
     return this._excludedValues;
   }
 }
+export interface ServicePolicyRuleUrlMatcherUrlItems {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#domain_regex ServicePolicyRule#domain_regex}
+  */
+  readonly domainRegex?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#domain_value ServicePolicyRule#domain_value}
+  */
+  readonly domainValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#path_prefix ServicePolicyRule#path_prefix}
+  */
+  readonly pathPrefix?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#path_regex ServicePolicyRule#path_regex}
+  */
+  readonly pathRegex?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#path_value ServicePolicyRule#path_value}
+  */
+  readonly pathValue?: string;
+}
+
+export function servicePolicyRuleUrlMatcherUrlItemsToTerraform(struct?: ServicePolicyRuleUrlMatcherUrlItems | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    domain_regex: cdktf.stringToTerraform(struct!.domainRegex),
+    domain_value: cdktf.stringToTerraform(struct!.domainValue),
+    path_prefix: cdktf.stringToTerraform(struct!.pathPrefix),
+    path_regex: cdktf.stringToTerraform(struct!.pathRegex),
+    path_value: cdktf.stringToTerraform(struct!.pathValue),
+  }
+}
+
+
+export function servicePolicyRuleUrlMatcherUrlItemsToHclTerraform(struct?: ServicePolicyRuleUrlMatcherUrlItems | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    domain_regex: {
+      value: cdktf.stringToHclTerraform(struct!.domainRegex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    domain_value: {
+      value: cdktf.stringToHclTerraform(struct!.domainValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.pathPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path_regex: {
+      value: cdktf.stringToHclTerraform(struct!.pathRegex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path_value: {
+      value: cdktf.stringToHclTerraform(struct!.pathValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleUrlMatcherUrlItemsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServicePolicyRuleUrlMatcherUrlItems | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._domainRegex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domainRegex = this._domainRegex;
+    }
+    if (this._domainValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domainValue = this._domainValue;
+    }
+    if (this._pathPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pathPrefix = this._pathPrefix;
+    }
+    if (this._pathRegex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pathRegex = this._pathRegex;
+    }
+    if (this._pathValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pathValue = this._pathValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleUrlMatcherUrlItems | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._domainRegex = undefined;
+      this._domainValue = undefined;
+      this._pathPrefix = undefined;
+      this._pathRegex = undefined;
+      this._pathValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._domainRegex = value.domainRegex;
+      this._domainValue = value.domainValue;
+      this._pathPrefix = value.pathPrefix;
+      this._pathRegex = value.pathRegex;
+      this._pathValue = value.pathValue;
+    }
+  }
+
+  // domain_regex - computed: false, optional: true, required: false
+  private _domainRegex?: string; 
+  public get domainRegex() {
+    return this.getStringAttribute('domain_regex');
+  }
+  public set domainRegex(value: string) {
+    this._domainRegex = value;
+  }
+  public resetDomainRegex() {
+    this._domainRegex = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainRegexInput() {
+    return this._domainRegex;
+  }
+
+  // domain_value - computed: false, optional: true, required: false
+  private _domainValue?: string; 
+  public get domainValue() {
+    return this.getStringAttribute('domain_value');
+  }
+  public set domainValue(value: string) {
+    this._domainValue = value;
+  }
+  public resetDomainValue() {
+    this._domainValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainValueInput() {
+    return this._domainValue;
+  }
+
+  // path_prefix - computed: false, optional: true, required: false
+  private _pathPrefix?: string; 
+  public get pathPrefix() {
+    return this.getStringAttribute('path_prefix');
+  }
+  public set pathPrefix(value: string) {
+    this._pathPrefix = value;
+  }
+  public resetPathPrefix() {
+    this._pathPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathPrefixInput() {
+    return this._pathPrefix;
+  }
+
+  // path_regex - computed: false, optional: true, required: false
+  private _pathRegex?: string; 
+  public get pathRegex() {
+    return this.getStringAttribute('path_regex');
+  }
+  public set pathRegex(value: string) {
+    this._pathRegex = value;
+  }
+  public resetPathRegex() {
+    this._pathRegex = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathRegexInput() {
+    return this._pathRegex;
+  }
+
+  // path_value - computed: false, optional: true, required: false
+  private _pathValue?: string; 
+  public get pathValue() {
+    return this.getStringAttribute('path_value');
+  }
+  public set pathValue(value: string) {
+    this._pathValue = value;
+  }
+  public resetPathValue() {
+    this._pathValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathValueInput() {
+    return this._pathValue;
+  }
+}
+
+export class ServicePolicyRuleUrlMatcherUrlItemsList extends cdktf.ComplexList {
+  public internalValue? : ServicePolicyRuleUrlMatcherUrlItems[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServicePolicyRuleUrlMatcherUrlItemsOutputReference {
+    return new ServicePolicyRuleUrlMatcherUrlItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ServicePolicyRuleUrlMatcher {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#invert_matcher ServicePolicyRule#invert_matcher}
+  */
+  readonly invertMatcher?: boolean | cdktf.IResolvable;
+  /**
+  * url_items block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#url_items ServicePolicyRule#url_items}
+  */
+  readonly urlItems: ServicePolicyRuleUrlMatcherUrlItems[] | cdktf.IResolvable;
+}
+
+export function servicePolicyRuleUrlMatcherToTerraform(struct?: ServicePolicyRuleUrlMatcherOutputReference | ServicePolicyRuleUrlMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    invert_matcher: cdktf.booleanToTerraform(struct!.invertMatcher),
+    url_items: cdktf.listMapper(servicePolicyRuleUrlMatcherUrlItemsToTerraform, true)(struct!.urlItems),
+  }
+}
+
+
+export function servicePolicyRuleUrlMatcherToHclTerraform(struct?: ServicePolicyRuleUrlMatcherOutputReference | ServicePolicyRuleUrlMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    invert_matcher: {
+      value: cdktf.booleanToHclTerraform(struct!.invertMatcher),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    url_items: {
+      value: cdktf.listMapperHcl(servicePolicyRuleUrlMatcherUrlItemsToHclTerraform, true)(struct!.urlItems),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleUrlMatcherUrlItemsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleUrlMatcherOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleUrlMatcher | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._invertMatcher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.invertMatcher = this._invertMatcher;
+    }
+    if (this._urlItems?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.urlItems = this._urlItems?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleUrlMatcher | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._invertMatcher = undefined;
+      this._urlItems.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._invertMatcher = value.invertMatcher;
+      this._urlItems.internalValue = value.urlItems;
+    }
+  }
+
+  // invert_matcher - computed: false, optional: true, required: false
+  private _invertMatcher?: boolean | cdktf.IResolvable; 
+  public get invertMatcher() {
+    return this.getBooleanAttribute('invert_matcher');
+  }
+  public set invertMatcher(value: boolean | cdktf.IResolvable) {
+    this._invertMatcher = value;
+  }
+  public resetInvertMatcher() {
+    this._invertMatcher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get invertMatcherInput() {
+    return this._invertMatcher;
+  }
+
+  // url_items - computed: false, optional: false, required: true
+  private _urlItems = new ServicePolicyRuleUrlMatcherUrlItemsList(this, "url_items", false);
+  public get urlItems() {
+    return this._urlItems;
+  }
+  public putUrlItems(value: ServicePolicyRuleUrlMatcherUrlItems[] | cdktf.IResolvable) {
+    this._urlItems.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlItemsInput() {
+    return this._urlItems.internalValue;
+  }
+}
+export interface ServicePolicyRuleVirtualHostMatcher {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exact_values ServicePolicyRule#exact_values}
+  */
+  readonly exactValues?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#regex_values ServicePolicyRule#regex_values}
+  */
+  readonly regexValues?: string[];
+}
+
+export function servicePolicyRuleVirtualHostMatcherToTerraform(struct?: ServicePolicyRuleVirtualHostMatcherOutputReference | ServicePolicyRuleVirtualHostMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exact_values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exactValues),
+    regex_values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.regexValues),
+  }
+}
+
+
+export function servicePolicyRuleVirtualHostMatcherToHclTerraform(struct?: ServicePolicyRuleVirtualHostMatcherOutputReference | ServicePolicyRuleVirtualHostMatcher): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exact_values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exactValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    regex_values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.regexValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleVirtualHostMatcherOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleVirtualHostMatcher | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exactValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exactValues = this._exactValues;
+    }
+    if (this._regexValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regexValues = this._regexValues;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleVirtualHostMatcher | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._exactValues = undefined;
+      this._regexValues = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._exactValues = value.exactValues;
+      this._regexValues = value.regexValues;
+    }
+  }
+
+  // exact_values - computed: false, optional: true, required: false
+  private _exactValues?: string[]; 
+  public get exactValues() {
+    return this.getListAttribute('exact_values');
+  }
+  public set exactValues(value: string[]) {
+    this._exactValues = value;
+  }
+  public resetExactValues() {
+    this._exactValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exactValuesInput() {
+    return this._exactValues;
+  }
+
+  // regex_values - computed: false, optional: true, required: false
+  private _regexValues?: string[]; 
+  public get regexValues() {
+    return this.getListAttribute('regex_values');
+  }
+  public set regexValues(value: string[]) {
+    this._regexValues = value;
+  }
+  public resetRegexValues() {
+    this._regexValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexValuesInput() {
+    return this._regexValues;
+  }
+}
 export interface ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeAttackTypeContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#context ServicePolicyRule#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#context ServicePolicyRule#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#context_name ServicePolicyRule#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#context_name ServicePolicyRule#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exclude_attack_type ServicePolicyRule#exclude_attack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exclude_attack_type ServicePolicyRule#exclude_attack_type}
   */
   readonly excludeAttackType: string;
 }
@@ -6547,7 +10418,7 @@ export class ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeAttackT
 }
 export interface ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeBotNameContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#bot_name ServicePolicyRule#bot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#bot_name ServicePolicyRule#bot_name}
   */
   readonly botName: string;
 }
@@ -6660,15 +10531,15 @@ export class ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeBotName
 }
 export interface ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeSignatureContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#context ServicePolicyRule#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#context ServicePolicyRule#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#context_name ServicePolicyRule#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#context_name ServicePolicyRule#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#signature_id ServicePolicyRule#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#signature_id ServicePolicyRule#signature_id}
   */
   readonly signatureId: number;
 }
@@ -6836,15 +10707,15 @@ export class ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeSignatu
 }
 export interface ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeViolationContexts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#context ServicePolicyRule#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#context ServicePolicyRule#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#context_name ServicePolicyRule#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#context_name ServicePolicyRule#context_name}
   */
   readonly contextName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exclude_violation ServicePolicyRule#exclude_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exclude_violation ServicePolicyRule#exclude_violation}
   */
   readonly excludeViolation: string;
 }
@@ -7014,25 +10885,25 @@ export interface ServicePolicyRuleWafActionAppFirewallDetectionControl {
   /**
   * exclude_attack_type_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exclude_attack_type_contexts ServicePolicyRule#exclude_attack_type_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exclude_attack_type_contexts ServicePolicyRule#exclude_attack_type_contexts}
   */
   readonly excludeAttackTypeContexts?: ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeAttackTypeContexts[] | cdktf.IResolvable;
   /**
   * exclude_bot_name_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exclude_bot_name_contexts ServicePolicyRule#exclude_bot_name_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exclude_bot_name_contexts ServicePolicyRule#exclude_bot_name_contexts}
   */
   readonly excludeBotNameContexts?: ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeBotNameContexts[] | cdktf.IResolvable;
   /**
   * exclude_signature_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exclude_signature_contexts ServicePolicyRule#exclude_signature_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exclude_signature_contexts ServicePolicyRule#exclude_signature_contexts}
   */
   readonly excludeSignatureContexts?: ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeSignatureContexts[] | cdktf.IResolvable;
   /**
   * exclude_violation_contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#exclude_violation_contexts ServicePolicyRule#exclude_violation_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#exclude_violation_contexts ServicePolicyRule#exclude_violation_contexts}
   */
   readonly excludeViolationContexts?: ServicePolicyRuleWafActionAppFirewallDetectionControlExcludeViolationContexts[] | cdktf.IResolvable;
 }
@@ -7201,21 +11072,123 @@ export class ServicePolicyRuleWafActionAppFirewallDetectionControlOutputReferenc
     return this._excludeViolationContexts.internalValue;
   }
 }
+export interface ServicePolicyRuleWafActionDataGuardControl {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#policy_name ServicePolicyRule#policy_name}
+  */
+  readonly policyName?: string;
+}
+
+export function servicePolicyRuleWafActionDataGuardControlToTerraform(struct?: ServicePolicyRuleWafActionDataGuardControlOutputReference | ServicePolicyRuleWafActionDataGuardControl): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    policy_name: cdktf.stringToTerraform(struct!.policyName),
+  }
+}
+
+
+export function servicePolicyRuleWafActionDataGuardControlToHclTerraform(struct?: ServicePolicyRuleWafActionDataGuardControlOutputReference | ServicePolicyRuleWafActionDataGuardControl): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.policyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServicePolicyRuleWafActionDataGuardControlOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ServicePolicyRuleWafActionDataGuardControl | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServicePolicyRuleWafActionDataGuardControl | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._policyName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._policyName = value.policyName;
+    }
+  }
+
+  // policy_name - computed: false, optional: true, required: false
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  public resetPolicyName() {
+    this._policyName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+}
 export interface ServicePolicyRuleWafAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#none ServicePolicyRule#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#jwt_claims_validation ServicePolicyRule#jwt_claims_validation}
+  */
+  readonly jwtClaimsValidation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#jwt_validation ServicePolicyRule#jwt_validation}
+  */
+  readonly jwtValidation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#none ServicePolicyRule#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#waf_skip_processing ServicePolicyRule#waf_skip_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#waf_in_monitoring_mode ServicePolicyRule#waf_in_monitoring_mode}
+  */
+  readonly wafInMonitoringMode?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#waf_skip_processing ServicePolicyRule#waf_skip_processing}
   */
   readonly wafSkipProcessing?: boolean | cdktf.IResolvable;
   /**
   * app_firewall_detection_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#app_firewall_detection_control ServicePolicyRule#app_firewall_detection_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#app_firewall_detection_control ServicePolicyRule#app_firewall_detection_control}
   */
   readonly appFirewallDetectionControl?: ServicePolicyRuleWafActionAppFirewallDetectionControl;
+  /**
+  * data_guard_control block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#data_guard_control ServicePolicyRule#data_guard_control}
+  */
+  readonly dataGuardControl?: ServicePolicyRuleWafActionDataGuardControl;
 }
 
 export function servicePolicyRuleWafActionToTerraform(struct?: ServicePolicyRuleWafActionOutputReference | ServicePolicyRuleWafAction): any {
@@ -7224,9 +11197,13 @@ export function servicePolicyRuleWafActionToTerraform(struct?: ServicePolicyRule
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    jwt_claims_validation: cdktf.booleanToTerraform(struct!.jwtClaimsValidation),
+    jwt_validation: cdktf.booleanToTerraform(struct!.jwtValidation),
     none: cdktf.booleanToTerraform(struct!.none),
+    waf_in_monitoring_mode: cdktf.booleanToTerraform(struct!.wafInMonitoringMode),
     waf_skip_processing: cdktf.booleanToTerraform(struct!.wafSkipProcessing),
     app_firewall_detection_control: servicePolicyRuleWafActionAppFirewallDetectionControlToTerraform(struct!.appFirewallDetectionControl),
+    data_guard_control: servicePolicyRuleWafActionDataGuardControlToTerraform(struct!.dataGuardControl),
   }
 }
 
@@ -7237,8 +11214,26 @@ export function servicePolicyRuleWafActionToHclTerraform(struct?: ServicePolicyR
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    jwt_claims_validation: {
+      value: cdktf.booleanToHclTerraform(struct!.jwtClaimsValidation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    jwt_validation: {
+      value: cdktf.booleanToHclTerraform(struct!.jwtValidation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     none: {
       value: cdktf.booleanToHclTerraform(struct!.none),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    waf_in_monitoring_mode: {
+      value: cdktf.booleanToHclTerraform(struct!.wafInMonitoringMode),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7254,6 +11249,12 @@ export function servicePolicyRuleWafActionToHclTerraform(struct?: ServicePolicyR
       isBlock: true,
       type: "list",
       storageClassType: "ServicePolicyRuleWafActionAppFirewallDetectionControlList",
+    },
+    data_guard_control: {
+      value: servicePolicyRuleWafActionDataGuardControlToHclTerraform(struct!.dataGuardControl),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServicePolicyRuleWafActionDataGuardControlList",
     },
   };
 
@@ -7275,9 +11276,21 @@ export class ServicePolicyRuleWafActionOutputReference extends cdktf.ComplexObje
   public get internalValue(): ServicePolicyRuleWafAction | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._jwtClaimsValidation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwtClaimsValidation = this._jwtClaimsValidation;
+    }
+    if (this._jwtValidation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwtValidation = this._jwtValidation;
+    }
     if (this._none !== undefined) {
       hasAnyValues = true;
       internalValueResult.none = this._none;
+    }
+    if (this._wafInMonitoringMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wafInMonitoringMode = this._wafInMonitoringMode;
     }
     if (this._wafSkipProcessing !== undefined) {
       hasAnyValues = true;
@@ -7287,22 +11300,66 @@ export class ServicePolicyRuleWafActionOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.appFirewallDetectionControl = this._appFirewallDetectionControl?.internalValue;
     }
+    if (this._dataGuardControl?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataGuardControl = this._dataGuardControl?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: ServicePolicyRuleWafAction | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._jwtClaimsValidation = undefined;
+      this._jwtValidation = undefined;
       this._none = undefined;
+      this._wafInMonitoringMode = undefined;
       this._wafSkipProcessing = undefined;
       this._appFirewallDetectionControl.internalValue = undefined;
+      this._dataGuardControl.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._jwtClaimsValidation = value.jwtClaimsValidation;
+      this._jwtValidation = value.jwtValidation;
       this._none = value.none;
+      this._wafInMonitoringMode = value.wafInMonitoringMode;
       this._wafSkipProcessing = value.wafSkipProcessing;
       this._appFirewallDetectionControl.internalValue = value.appFirewallDetectionControl;
+      this._dataGuardControl.internalValue = value.dataGuardControl;
     }
+  }
+
+  // jwt_claims_validation - computed: false, optional: true, required: false
+  private _jwtClaimsValidation?: boolean | cdktf.IResolvable; 
+  public get jwtClaimsValidation() {
+    return this.getBooleanAttribute('jwt_claims_validation');
+  }
+  public set jwtClaimsValidation(value: boolean | cdktf.IResolvable) {
+    this._jwtClaimsValidation = value;
+  }
+  public resetJwtClaimsValidation() {
+    this._jwtClaimsValidation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtClaimsValidationInput() {
+    return this._jwtClaimsValidation;
+  }
+
+  // jwt_validation - computed: false, optional: true, required: false
+  private _jwtValidation?: boolean | cdktf.IResolvable; 
+  public get jwtValidation() {
+    return this.getBooleanAttribute('jwt_validation');
+  }
+  public set jwtValidation(value: boolean | cdktf.IResolvable) {
+    this._jwtValidation = value;
+  }
+  public resetJwtValidation() {
+    this._jwtValidation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtValidationInput() {
+    return this._jwtValidation;
   }
 
   // none - computed: false, optional: true, required: false
@@ -7319,6 +11376,22 @@ export class ServicePolicyRuleWafActionOutputReference extends cdktf.ComplexObje
   // Temporarily expose input value. Use with caution.
   public get noneInput() {
     return this._none;
+  }
+
+  // waf_in_monitoring_mode - computed: false, optional: true, required: false
+  private _wafInMonitoringMode?: boolean | cdktf.IResolvable; 
+  public get wafInMonitoringMode() {
+    return this.getBooleanAttribute('waf_in_monitoring_mode');
+  }
+  public set wafInMonitoringMode(value: boolean | cdktf.IResolvable) {
+    this._wafInMonitoringMode = value;
+  }
+  public resetWafInMonitoringMode() {
+    this._wafInMonitoringMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wafInMonitoringModeInput() {
+    return this._wafInMonitoringMode;
   }
 
   // waf_skip_processing - computed: false, optional: true, required: false
@@ -7352,10 +11425,26 @@ export class ServicePolicyRuleWafActionOutputReference extends cdktf.ComplexObje
   public get appFirewallDetectionControlInput() {
     return this._appFirewallDetectionControl.internalValue;
   }
+
+  // data_guard_control - computed: false, optional: true, required: false
+  private _dataGuardControl = new ServicePolicyRuleWafActionDataGuardControlOutputReference(this, "data_guard_control");
+  public get dataGuardControl() {
+    return this._dataGuardControl;
+  }
+  public putDataGuardControl(value: ServicePolicyRuleWafActionDataGuardControl) {
+    this._dataGuardControl.internalValue = value;
+  }
+  public resetDataGuardControl() {
+    this._dataGuardControl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataGuardControlInput() {
+    return this._dataGuardControl.internalValue;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule volterra_service_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule volterra_service_policy_rule}
 */
 export class ServicePolicyRule extends cdktf.TerraformResource {
 
@@ -7371,7 +11460,7 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicePolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicePolicyRule to import
-  * @param importFromId The id of the existing ServicePolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicePolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicePolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7383,7 +11472,7 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/service_policy_rule volterra_service_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/service_policy_rule volterra_service_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7394,8 +11483,8 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_service_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -7409,7 +11498,10 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     this._annotations = config.annotations;
     this._anyAsn = config.anyAsn;
     this._anyClient = config.anyClient;
+    this._anyDstAsn = config.anyDstAsn;
+    this._anyDstIp = config.anyDstIp;
     this._anyIp = config.anyIp;
+    this._challengeAction = config.challengeAction;
     this._clientName = config.clientName;
     this._description = config.description;
     this._disable = config.disable;
@@ -7418,6 +11510,8 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     this._labels = config.labels;
     this._name = config.name;
     this._namespace = config.namespace;
+    this._originServerSubsetsAction = config.originServerSubsetsAction;
+    this._scheme = config.scheme;
     this._apiGroupMatcher.internalValue = config.apiGroupMatcher;
     this._argMatchers.internalValue = config.argMatchers;
     this._asnList.internalValue = config.asnList;
@@ -7425,24 +11519,38 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     this._bodyMatcher.internalValue = config.bodyMatcher;
     this._botAction.internalValue = config.botAction;
     this._clientNameMatcher.internalValue = config.clientNameMatcher;
+    this._clientRole.internalValue = config.clientRole;
     this._clientSelector.internalValue = config.clientSelector;
+    this._contentRewriteAction.internalValue = config.contentRewriteAction;
     this._cookieMatchers.internalValue = config.cookieMatchers;
     this._domainMatcher.internalValue = config.domainMatcher;
+    this._dstAsnList.internalValue = config.dstAsnList;
+    this._dstAsnMatcher.internalValue = config.dstAsnMatcher;
+    this._dstIpMatcher.internalValue = config.dstIpMatcher;
+    this._dstIpPrefixList.internalValue = config.dstIpPrefixList;
+    this._gotoPolicy.internalValue = config.gotoPolicy;
     this._headers.internalValue = config.headers;
     this._httpMethod.internalValue = config.httpMethod;
     this._ipMatcher.internalValue = config.ipMatcher;
     this._ipPrefixList.internalValue = config.ipPrefixList;
+    this._ipReputationAction.internalValue = config.ipReputationAction;
     this._ipThreatCategoryList.internalValue = config.ipThreatCategoryList;
     this._ja4TlsFingerprint.internalValue = config.ja4TlsFingerprint;
     this._jwtClaims.internalValue = config.jwtClaims;
     this._labelMatcher.internalValue = config.labelMatcher;
+    this._mobileIdentifierMatcherAction.internalValue = config.mobileIdentifierMatcherAction;
     this._mumAction.internalValue = config.mumAction;
     this._path.internalValue = config.path;
     this._portMatcher.internalValue = config.portMatcher;
     this._queryParams.internalValue = config.queryParams;
+    this._rateLimiter.internalValue = config.rateLimiter;
     this._requestConstraints.internalValue = config.requestConstraints;
     this._segmentPolicy.internalValue = config.segmentPolicy;
+    this._serverSelector.internalValue = config.serverSelector;
+    this._shapeProtectedEndpointAction.internalValue = config.shapeProtectedEndpointAction;
     this._tlsFingerprintMatcher.internalValue = config.tlsFingerprintMatcher;
+    this._urlMatcher.internalValue = config.urlMatcher;
+    this._virtualHostMatcher.internalValue = config.virtualHostMatcher;
     this._wafAction.internalValue = config.wafAction;
   }
 
@@ -7511,6 +11619,38 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     return this._anyClient;
   }
 
+  // any_dst_asn - computed: false, optional: true, required: false
+  private _anyDstAsn?: boolean | cdktf.IResolvable; 
+  public get anyDstAsn() {
+    return this.getBooleanAttribute('any_dst_asn');
+  }
+  public set anyDstAsn(value: boolean | cdktf.IResolvable) {
+    this._anyDstAsn = value;
+  }
+  public resetAnyDstAsn() {
+    this._anyDstAsn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get anyDstAsnInput() {
+    return this._anyDstAsn;
+  }
+
+  // any_dst_ip - computed: false, optional: true, required: false
+  private _anyDstIp?: boolean | cdktf.IResolvable; 
+  public get anyDstIp() {
+    return this.getBooleanAttribute('any_dst_ip');
+  }
+  public set anyDstIp(value: boolean | cdktf.IResolvable) {
+    this._anyDstIp = value;
+  }
+  public resetAnyDstIp() {
+    this._anyDstIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get anyDstIpInput() {
+    return this._anyDstIp;
+  }
+
   // any_ip - computed: false, optional: true, required: false
   private _anyIp?: boolean | cdktf.IResolvable; 
   public get anyIp() {
@@ -7525,6 +11665,19 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get anyIpInput() {
     return this._anyIp;
+  }
+
+  // challenge_action - computed: false, optional: false, required: true
+  private _challengeAction?: string; 
+  public get challengeAction() {
+    return this.getStringAttribute('challenge_action');
+  }
+  public set challengeAction(value: string) {
+    this._challengeAction = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get challengeActionInput() {
+    return this._challengeAction;
   }
 
   // client_name - computed: false, optional: true, required: false
@@ -7649,6 +11802,38 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     return this._namespace;
   }
 
+  // origin_server_subsets_action - computed: false, optional: true, required: false
+  private _originServerSubsetsAction?: { [key: string]: string }; 
+  public get originServerSubsetsAction() {
+    return this.getStringMapAttribute('origin_server_subsets_action');
+  }
+  public set originServerSubsetsAction(value: { [key: string]: string }) {
+    this._originServerSubsetsAction = value;
+  }
+  public resetOriginServerSubsetsAction() {
+    this._originServerSubsetsAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get originServerSubsetsActionInput() {
+    return this._originServerSubsetsAction;
+  }
+
+  // scheme - computed: false, optional: true, required: false
+  private _scheme?: string[]; 
+  public get scheme() {
+    return this.getListAttribute('scheme');
+  }
+  public set scheme(value: string[]) {
+    this._scheme = value;
+  }
+  public resetScheme() {
+    this._scheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemeInput() {
+    return this._scheme;
+  }
+
   // api_group_matcher - computed: false, optional: true, required: false
   private _apiGroupMatcher = new ServicePolicyRuleApiGroupMatcherOutputReference(this, "api_group_matcher");
   public get apiGroupMatcher() {
@@ -7761,6 +11946,22 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     return this._clientNameMatcher.internalValue;
   }
 
+  // client_role - computed: false, optional: true, required: false
+  private _clientRole = new ServicePolicyRuleClientRoleOutputReference(this, "client_role");
+  public get clientRole() {
+    return this._clientRole;
+  }
+  public putClientRole(value: ServicePolicyRuleClientRole) {
+    this._clientRole.internalValue = value;
+  }
+  public resetClientRole() {
+    this._clientRole.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientRoleInput() {
+    return this._clientRole.internalValue;
+  }
+
   // client_selector - computed: false, optional: true, required: false
   private _clientSelector = new ServicePolicyRuleClientSelectorOutputReference(this, "client_selector");
   public get clientSelector() {
@@ -7775,6 +11976,22 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get clientSelectorInput() {
     return this._clientSelector.internalValue;
+  }
+
+  // content_rewrite_action - computed: false, optional: true, required: false
+  private _contentRewriteAction = new ServicePolicyRuleContentRewriteActionOutputReference(this, "content_rewrite_action");
+  public get contentRewriteAction() {
+    return this._contentRewriteAction;
+  }
+  public putContentRewriteAction(value: ServicePolicyRuleContentRewriteAction) {
+    this._contentRewriteAction.internalValue = value;
+  }
+  public resetContentRewriteAction() {
+    this._contentRewriteAction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentRewriteActionInput() {
+    return this._contentRewriteAction.internalValue;
   }
 
   // cookie_matchers - computed: false, optional: true, required: false
@@ -7807,6 +12024,86 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get domainMatcherInput() {
     return this._domainMatcher.internalValue;
+  }
+
+  // dst_asn_list - computed: false, optional: true, required: false
+  private _dstAsnList = new ServicePolicyRuleDstAsnListStructOutputReference(this, "dst_asn_list");
+  public get dstAsnList() {
+    return this._dstAsnList;
+  }
+  public putDstAsnList(value: ServicePolicyRuleDstAsnListStruct) {
+    this._dstAsnList.internalValue = value;
+  }
+  public resetDstAsnList() {
+    this._dstAsnList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dstAsnListInput() {
+    return this._dstAsnList.internalValue;
+  }
+
+  // dst_asn_matcher - computed: false, optional: true, required: false
+  private _dstAsnMatcher = new ServicePolicyRuleDstAsnMatcherOutputReference(this, "dst_asn_matcher");
+  public get dstAsnMatcher() {
+    return this._dstAsnMatcher;
+  }
+  public putDstAsnMatcher(value: ServicePolicyRuleDstAsnMatcher) {
+    this._dstAsnMatcher.internalValue = value;
+  }
+  public resetDstAsnMatcher() {
+    this._dstAsnMatcher.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dstAsnMatcherInput() {
+    return this._dstAsnMatcher.internalValue;
+  }
+
+  // dst_ip_matcher - computed: false, optional: true, required: false
+  private _dstIpMatcher = new ServicePolicyRuleDstIpMatcherOutputReference(this, "dst_ip_matcher");
+  public get dstIpMatcher() {
+    return this._dstIpMatcher;
+  }
+  public putDstIpMatcher(value: ServicePolicyRuleDstIpMatcher) {
+    this._dstIpMatcher.internalValue = value;
+  }
+  public resetDstIpMatcher() {
+    this._dstIpMatcher.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dstIpMatcherInput() {
+    return this._dstIpMatcher.internalValue;
+  }
+
+  // dst_ip_prefix_list - computed: false, optional: true, required: false
+  private _dstIpPrefixList = new ServicePolicyRuleDstIpPrefixListStructOutputReference(this, "dst_ip_prefix_list");
+  public get dstIpPrefixList() {
+    return this._dstIpPrefixList;
+  }
+  public putDstIpPrefixList(value: ServicePolicyRuleDstIpPrefixListStruct) {
+    this._dstIpPrefixList.internalValue = value;
+  }
+  public resetDstIpPrefixList() {
+    this._dstIpPrefixList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dstIpPrefixListInput() {
+    return this._dstIpPrefixList.internalValue;
+  }
+
+  // goto_policy - computed: false, optional: true, required: false
+  private _gotoPolicy = new ServicePolicyRuleGotoPolicyList(this, "goto_policy", false);
+  public get gotoPolicy() {
+    return this._gotoPolicy;
+  }
+  public putGotoPolicy(value: ServicePolicyRuleGotoPolicy[] | cdktf.IResolvable) {
+    this._gotoPolicy.internalValue = value;
+  }
+  public resetGotoPolicy() {
+    this._gotoPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gotoPolicyInput() {
+    return this._gotoPolicy.internalValue;
   }
 
   // headers - computed: false, optional: true, required: false
@@ -7873,6 +12170,22 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     return this._ipPrefixList.internalValue;
   }
 
+  // ip_reputation_action - computed: false, optional: true, required: false
+  private _ipReputationAction = new ServicePolicyRuleIpReputationActionOutputReference(this, "ip_reputation_action");
+  public get ipReputationAction() {
+    return this._ipReputationAction;
+  }
+  public putIpReputationAction(value: ServicePolicyRuleIpReputationAction) {
+    this._ipReputationAction.internalValue = value;
+  }
+  public resetIpReputationAction() {
+    this._ipReputationAction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipReputationActionInput() {
+    return this._ipReputationAction.internalValue;
+  }
+
   // ip_threat_category_list - computed: false, optional: true, required: false
   private _ipThreatCategoryList = new ServicePolicyRuleIpThreatCategoryListStructOutputReference(this, "ip_threat_category_list");
   public get ipThreatCategoryList() {
@@ -7935,6 +12248,22 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get labelMatcherInput() {
     return this._labelMatcher.internalValue;
+  }
+
+  // mobile_identifier_matcher_action - computed: false, optional: true, required: false
+  private _mobileIdentifierMatcherAction = new ServicePolicyRuleMobileIdentifierMatcherActionOutputReference(this, "mobile_identifier_matcher_action");
+  public get mobileIdentifierMatcherAction() {
+    return this._mobileIdentifierMatcherAction;
+  }
+  public putMobileIdentifierMatcherAction(value: ServicePolicyRuleMobileIdentifierMatcherAction) {
+    this._mobileIdentifierMatcherAction.internalValue = value;
+  }
+  public resetMobileIdentifierMatcherAction() {
+    this._mobileIdentifierMatcherAction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mobileIdentifierMatcherActionInput() {
+    return this._mobileIdentifierMatcherAction.internalValue;
   }
 
   // mum_action - computed: false, optional: true, required: false
@@ -8001,6 +12330,22 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     return this._queryParams.internalValue;
   }
 
+  // rate_limiter - computed: false, optional: true, required: false
+  private _rateLimiter = new ServicePolicyRuleRateLimiterList(this, "rate_limiter", false);
+  public get rateLimiter() {
+    return this._rateLimiter;
+  }
+  public putRateLimiter(value: ServicePolicyRuleRateLimiter[] | cdktf.IResolvable) {
+    this._rateLimiter.internalValue = value;
+  }
+  public resetRateLimiter() {
+    this._rateLimiter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimiterInput() {
+    return this._rateLimiter.internalValue;
+  }
+
   // request_constraints - computed: false, optional: true, required: false
   private _requestConstraints = new ServicePolicyRuleRequestConstraintsOutputReference(this, "request_constraints");
   public get requestConstraints() {
@@ -8033,6 +12378,38 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
     return this._segmentPolicy.internalValue;
   }
 
+  // server_selector - computed: false, optional: true, required: false
+  private _serverSelector = new ServicePolicyRuleServerSelectorOutputReference(this, "server_selector");
+  public get serverSelector() {
+    return this._serverSelector;
+  }
+  public putServerSelector(value: ServicePolicyRuleServerSelector) {
+    this._serverSelector.internalValue = value;
+  }
+  public resetServerSelector() {
+    this._serverSelector.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverSelectorInput() {
+    return this._serverSelector.internalValue;
+  }
+
+  // shape_protected_endpoint_action - computed: false, optional: true, required: false
+  private _shapeProtectedEndpointAction = new ServicePolicyRuleShapeProtectedEndpointActionOutputReference(this, "shape_protected_endpoint_action");
+  public get shapeProtectedEndpointAction() {
+    return this._shapeProtectedEndpointAction;
+  }
+  public putShapeProtectedEndpointAction(value: ServicePolicyRuleShapeProtectedEndpointAction) {
+    this._shapeProtectedEndpointAction.internalValue = value;
+  }
+  public resetShapeProtectedEndpointAction() {
+    this._shapeProtectedEndpointAction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shapeProtectedEndpointActionInput() {
+    return this._shapeProtectedEndpointAction.internalValue;
+  }
+
   // tls_fingerprint_matcher - computed: false, optional: true, required: false
   private _tlsFingerprintMatcher = new ServicePolicyRuleTlsFingerprintMatcherOutputReference(this, "tls_fingerprint_matcher");
   public get tlsFingerprintMatcher() {
@@ -8047,6 +12424,38 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get tlsFingerprintMatcherInput() {
     return this._tlsFingerprintMatcher.internalValue;
+  }
+
+  // url_matcher - computed: false, optional: true, required: false
+  private _urlMatcher = new ServicePolicyRuleUrlMatcherOutputReference(this, "url_matcher");
+  public get urlMatcher() {
+    return this._urlMatcher;
+  }
+  public putUrlMatcher(value: ServicePolicyRuleUrlMatcher) {
+    this._urlMatcher.internalValue = value;
+  }
+  public resetUrlMatcher() {
+    this._urlMatcher.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlMatcherInput() {
+    return this._urlMatcher.internalValue;
+  }
+
+  // virtual_host_matcher - computed: false, optional: true, required: false
+  private _virtualHostMatcher = new ServicePolicyRuleVirtualHostMatcherOutputReference(this, "virtual_host_matcher");
+  public get virtualHostMatcher() {
+    return this._virtualHostMatcher;
+  }
+  public putVirtualHostMatcher(value: ServicePolicyRuleVirtualHostMatcher) {
+    this._virtualHostMatcher.internalValue = value;
+  }
+  public resetVirtualHostMatcher() {
+    this._virtualHostMatcher.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualHostMatcherInput() {
+    return this._virtualHostMatcher.internalValue;
   }
 
   // waf_action - computed: false, optional: false, required: true
@@ -8072,7 +12481,10 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
       annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
       any_asn: cdktf.booleanToTerraform(this._anyAsn),
       any_client: cdktf.booleanToTerraform(this._anyClient),
+      any_dst_asn: cdktf.booleanToTerraform(this._anyDstAsn),
+      any_dst_ip: cdktf.booleanToTerraform(this._anyDstIp),
       any_ip: cdktf.booleanToTerraform(this._anyIp),
+      challenge_action: cdktf.stringToTerraform(this._challengeAction),
       client_name: cdktf.stringToTerraform(this._clientName),
       description: cdktf.stringToTerraform(this._description),
       disable: cdktf.booleanToTerraform(this._disable),
@@ -8081,6 +12493,8 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
       labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
+      origin_server_subsets_action: cdktf.hashMapper(cdktf.stringToTerraform)(this._originServerSubsetsAction),
+      scheme: cdktf.listMapper(cdktf.stringToTerraform, false)(this._scheme),
       api_group_matcher: servicePolicyRuleApiGroupMatcherToTerraform(this._apiGroupMatcher.internalValue),
       arg_matchers: cdktf.listMapper(servicePolicyRuleArgMatchersToTerraform, true)(this._argMatchers.internalValue),
       asn_list: servicePolicyRuleAsnListStructToTerraform(this._asnList.internalValue),
@@ -8088,24 +12502,38 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
       body_matcher: servicePolicyRuleBodyMatcherToTerraform(this._bodyMatcher.internalValue),
       bot_action: servicePolicyRuleBotActionToTerraform(this._botAction.internalValue),
       client_name_matcher: servicePolicyRuleClientNameMatcherToTerraform(this._clientNameMatcher.internalValue),
+      client_role: servicePolicyRuleClientRoleToTerraform(this._clientRole.internalValue),
       client_selector: servicePolicyRuleClientSelectorToTerraform(this._clientSelector.internalValue),
+      content_rewrite_action: servicePolicyRuleContentRewriteActionToTerraform(this._contentRewriteAction.internalValue),
       cookie_matchers: cdktf.listMapper(servicePolicyRuleCookieMatchersToTerraform, true)(this._cookieMatchers.internalValue),
       domain_matcher: servicePolicyRuleDomainMatcherToTerraform(this._domainMatcher.internalValue),
+      dst_asn_list: servicePolicyRuleDstAsnListStructToTerraform(this._dstAsnList.internalValue),
+      dst_asn_matcher: servicePolicyRuleDstAsnMatcherToTerraform(this._dstAsnMatcher.internalValue),
+      dst_ip_matcher: servicePolicyRuleDstIpMatcherToTerraform(this._dstIpMatcher.internalValue),
+      dst_ip_prefix_list: servicePolicyRuleDstIpPrefixListStructToTerraform(this._dstIpPrefixList.internalValue),
+      goto_policy: cdktf.listMapper(servicePolicyRuleGotoPolicyToTerraform, true)(this._gotoPolicy.internalValue),
       headers: cdktf.listMapper(servicePolicyRuleHeadersToTerraform, true)(this._headers.internalValue),
       http_method: servicePolicyRuleHttpMethodToTerraform(this._httpMethod.internalValue),
       ip_matcher: servicePolicyRuleIpMatcherToTerraform(this._ipMatcher.internalValue),
       ip_prefix_list: servicePolicyRuleIpPrefixListStructToTerraform(this._ipPrefixList.internalValue),
+      ip_reputation_action: servicePolicyRuleIpReputationActionToTerraform(this._ipReputationAction.internalValue),
       ip_threat_category_list: servicePolicyRuleIpThreatCategoryListStructToTerraform(this._ipThreatCategoryList.internalValue),
       ja4_tls_fingerprint: servicePolicyRuleJa4TlsFingerprintToTerraform(this._ja4TlsFingerprint.internalValue),
       jwt_claims: cdktf.listMapper(servicePolicyRuleJwtClaimsToTerraform, true)(this._jwtClaims.internalValue),
       label_matcher: servicePolicyRuleLabelMatcherToTerraform(this._labelMatcher.internalValue),
+      mobile_identifier_matcher_action: servicePolicyRuleMobileIdentifierMatcherActionToTerraform(this._mobileIdentifierMatcherAction.internalValue),
       mum_action: servicePolicyRuleMumActionToTerraform(this._mumAction.internalValue),
       path: servicePolicyRulePathToTerraform(this._path.internalValue),
       port_matcher: servicePolicyRulePortMatcherToTerraform(this._portMatcher.internalValue),
       query_params: cdktf.listMapper(servicePolicyRuleQueryParamsToTerraform, true)(this._queryParams.internalValue),
+      rate_limiter: cdktf.listMapper(servicePolicyRuleRateLimiterToTerraform, true)(this._rateLimiter.internalValue),
       request_constraints: servicePolicyRuleRequestConstraintsToTerraform(this._requestConstraints.internalValue),
       segment_policy: servicePolicyRuleSegmentPolicyToTerraform(this._segmentPolicy.internalValue),
+      server_selector: servicePolicyRuleServerSelectorToTerraform(this._serverSelector.internalValue),
+      shape_protected_endpoint_action: servicePolicyRuleShapeProtectedEndpointActionToTerraform(this._shapeProtectedEndpointAction.internalValue),
       tls_fingerprint_matcher: servicePolicyRuleTlsFingerprintMatcherToTerraform(this._tlsFingerprintMatcher.internalValue),
+      url_matcher: servicePolicyRuleUrlMatcherToTerraform(this._urlMatcher.internalValue),
+      virtual_host_matcher: servicePolicyRuleVirtualHostMatcherToTerraform(this._virtualHostMatcher.internalValue),
       waf_action: servicePolicyRuleWafActionToTerraform(this._wafAction.internalValue),
     };
   }
@@ -8136,11 +12564,29 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      any_dst_asn: {
+        value: cdktf.booleanToHclTerraform(this._anyDstAsn),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      any_dst_ip: {
+        value: cdktf.booleanToHclTerraform(this._anyDstIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       any_ip: {
         value: cdktf.booleanToHclTerraform(this._anyIp),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      challenge_action: {
+        value: cdktf.stringToHclTerraform(this._challengeAction),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       client_name: {
         value: cdktf.stringToHclTerraform(this._clientName),
@@ -8190,6 +12636,18 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      origin_server_subsets_action: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._originServerSubsetsAction),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      scheme: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._scheme),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       api_group_matcher: {
         value: servicePolicyRuleApiGroupMatcherToHclTerraform(this._apiGroupMatcher.internalValue),
         isBlock: true,
@@ -8232,11 +12690,23 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "ServicePolicyRuleClientNameMatcherList",
       },
+      client_role: {
+        value: servicePolicyRuleClientRoleToHclTerraform(this._clientRole.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleClientRoleList",
+      },
       client_selector: {
         value: servicePolicyRuleClientSelectorToHclTerraform(this._clientSelector.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "ServicePolicyRuleClientSelectorList",
+      },
+      content_rewrite_action: {
+        value: servicePolicyRuleContentRewriteActionToHclTerraform(this._contentRewriteAction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleContentRewriteActionList",
       },
       cookie_matchers: {
         value: cdktf.listMapperHcl(servicePolicyRuleCookieMatchersToHclTerraform, true)(this._cookieMatchers.internalValue),
@@ -8249,6 +12719,36 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ServicePolicyRuleDomainMatcherList",
+      },
+      dst_asn_list: {
+        value: servicePolicyRuleDstAsnListStructToHclTerraform(this._dstAsnList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleDstAsnListStructList",
+      },
+      dst_asn_matcher: {
+        value: servicePolicyRuleDstAsnMatcherToHclTerraform(this._dstAsnMatcher.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleDstAsnMatcherList",
+      },
+      dst_ip_matcher: {
+        value: servicePolicyRuleDstIpMatcherToHclTerraform(this._dstIpMatcher.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleDstIpMatcherList",
+      },
+      dst_ip_prefix_list: {
+        value: servicePolicyRuleDstIpPrefixListStructToHclTerraform(this._dstIpPrefixList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleDstIpPrefixListStructList",
+      },
+      goto_policy: {
+        value: cdktf.listMapperHcl(servicePolicyRuleGotoPolicyToHclTerraform, true)(this._gotoPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleGotoPolicyList",
       },
       headers: {
         value: cdktf.listMapperHcl(servicePolicyRuleHeadersToHclTerraform, true)(this._headers.internalValue),
@@ -8274,6 +12774,12 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "ServicePolicyRuleIpPrefixListStructList",
       },
+      ip_reputation_action: {
+        value: servicePolicyRuleIpReputationActionToHclTerraform(this._ipReputationAction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleIpReputationActionList",
+      },
       ip_threat_category_list: {
         value: servicePolicyRuleIpThreatCategoryListStructToHclTerraform(this._ipThreatCategoryList.internalValue),
         isBlock: true,
@@ -8297,6 +12803,12 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ServicePolicyRuleLabelMatcherList",
+      },
+      mobile_identifier_matcher_action: {
+        value: servicePolicyRuleMobileIdentifierMatcherActionToHclTerraform(this._mobileIdentifierMatcherAction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleMobileIdentifierMatcherActionList",
       },
       mum_action: {
         value: servicePolicyRuleMumActionToHclTerraform(this._mumAction.internalValue),
@@ -8322,6 +12834,12 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "ServicePolicyRuleQueryParamsList",
       },
+      rate_limiter: {
+        value: cdktf.listMapperHcl(servicePolicyRuleRateLimiterToHclTerraform, true)(this._rateLimiter.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleRateLimiterList",
+      },
       request_constraints: {
         value: servicePolicyRuleRequestConstraintsToHclTerraform(this._requestConstraints.internalValue),
         isBlock: true,
@@ -8334,11 +12852,35 @@ export class ServicePolicyRule extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "ServicePolicyRuleSegmentPolicyList",
       },
+      server_selector: {
+        value: servicePolicyRuleServerSelectorToHclTerraform(this._serverSelector.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleServerSelectorList",
+      },
+      shape_protected_endpoint_action: {
+        value: servicePolicyRuleShapeProtectedEndpointActionToHclTerraform(this._shapeProtectedEndpointAction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleShapeProtectedEndpointActionList",
+      },
       tls_fingerprint_matcher: {
         value: servicePolicyRuleTlsFingerprintMatcherToHclTerraform(this._tlsFingerprintMatcher.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "ServicePolicyRuleTlsFingerprintMatcherList",
+      },
+      url_matcher: {
+        value: servicePolicyRuleUrlMatcherToHclTerraform(this._urlMatcher.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleUrlMatcherList",
+      },
+      virtual_host_matcher: {
+        value: servicePolicyRuleVirtualHostMatcherToHclTerraform(this._virtualHostMatcher.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServicePolicyRuleVirtualHostMatcherList",
       },
       waf_action: {
         value: servicePolicyRuleWafActionToHclTerraform(this._wafAction.internalValue),

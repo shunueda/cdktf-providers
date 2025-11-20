@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control
+// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceControlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#administrators_only ResourceControl#administrators_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#administrators_only ResourceControl#administrators_only}
   */
   readonly administratorsOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#id ResourceControl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#id ResourceControl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#public ResourceControl#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#public ResourceControl#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#resource_id ResourceControl#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#resource_control_id ResourceControl#resource_control_id}
   */
-  readonly resourceId: string;
+  readonly resourceControlId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#teams ResourceControl#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#resource_id ResourceControl#resource_id}
+  */
+  readonly resourceId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#teams ResourceControl#teams}
   */
   readonly teams?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#type ResourceControl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#type ResourceControl#type}
   */
   readonly type?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#users ResourceControl#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#users ResourceControl#users}
   */
   readonly users?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control portainer_resource_control}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control portainer_resource_control}
 */
 export class ResourceControl extends cdktf.TerraformResource {
 
@@ -57,7 +61,7 @@ export class ResourceControl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceControl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceControl to import
-  * @param importFromId The id of the existing ResourceControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,19 +73,19 @@ export class ResourceControl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/resource_control portainer_resource_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/resource_control portainer_resource_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options ResourceControlConfig
+  * @param options ResourceControlConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: ResourceControlConfig) {
+  public constructor(scope: Construct, id: string, config: ResourceControlConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'portainer_resource_control',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.1',
-        providerVersionConstraint: '1.16.1'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,6 +98,7 @@ export class ResourceControl extends cdktf.TerraformResource {
     this._administratorsOnly = config.administratorsOnly;
     this._id = config.id;
     this._public = config.public;
+    this._resourceControlId = config.resourceControlId;
     this._resourceId = config.resourceId;
     this._teams = config.teams;
     this._type = config.type;
@@ -152,13 +157,32 @@ export class ResourceControl extends cdktf.TerraformResource {
     return this._public;
   }
 
-  // resource_id - computed: false, optional: false, required: true
+  // resource_control_id - computed: false, optional: true, required: false
+  private _resourceControlId?: number; 
+  public get resourceControlId() {
+    return this.getNumberAttribute('resource_control_id');
+  }
+  public set resourceControlId(value: number) {
+    this._resourceControlId = value;
+  }
+  public resetResourceControlId() {
+    this._resourceControlId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceControlIdInput() {
+    return this._resourceControlId;
+  }
+
+  // resource_id - computed: false, optional: true, required: false
   private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
   public set resourceId(value: string) {
     this._resourceId = value;
+  }
+  public resetResourceId() {
+    this._resourceId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get resourceIdInput() {
@@ -222,6 +246,7 @@ export class ResourceControl extends cdktf.TerraformResource {
       administrators_only: cdktf.booleanToTerraform(this._administratorsOnly),
       id: cdktf.stringToTerraform(this._id),
       public: cdktf.booleanToTerraform(this._public),
+      resource_control_id: cdktf.numberToTerraform(this._resourceControlId),
       resource_id: cdktf.stringToTerraform(this._resourceId),
       teams: cdktf.listMapper(cdktf.numberToTerraform, false)(this._teams),
       type: cdktf.numberToTerraform(this._type),
@@ -248,6 +273,12 @@ export class ResourceControl extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      resource_control_id: {
+        value: cdktf.numberToHclTerraform(this._resourceControlId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       resource_id: {
         value: cdktf.stringToHclTerraform(this._resourceId),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface EnhancedFirewallPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#allow_all EnhancedFirewallPolicy#allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#allow_all EnhancedFirewallPolicy#allow_all}
   */
   readonly allowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#annotations EnhancedFirewallPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#annotations EnhancedFirewallPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#deny_all EnhancedFirewallPolicy#deny_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#deny_all EnhancedFirewallPolicy#deny_all}
   */
   readonly denyAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#description EnhancedFirewallPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#description EnhancedFirewallPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#disable EnhancedFirewallPolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#disable EnhancedFirewallPolicy#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#id EnhancedFirewallPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#id EnhancedFirewallPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#labels EnhancedFirewallPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#labels EnhancedFirewallPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * allowed_destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#allowed_destinations EnhancedFirewallPolicy#allowed_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#allowed_destinations EnhancedFirewallPolicy#allowed_destinations}
   */
   readonly allowedDestinations?: EnhancedFirewallPolicyAllowedDestinations;
   /**
   * allowed_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#allowed_sources EnhancedFirewallPolicy#allowed_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#allowed_sources EnhancedFirewallPolicy#allowed_sources}
   */
   readonly allowedSources?: EnhancedFirewallPolicyAllowedSources;
   /**
   * denied_destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#denied_destinations EnhancedFirewallPolicy#denied_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#denied_destinations EnhancedFirewallPolicy#denied_destinations}
   */
   readonly deniedDestinations?: EnhancedFirewallPolicyDeniedDestinations;
   /**
   * denied_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#denied_sources EnhancedFirewallPolicy#denied_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#denied_sources EnhancedFirewallPolicy#denied_sources}
   */
   readonly deniedSources?: EnhancedFirewallPolicyDeniedSources;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#rule_list EnhancedFirewallPolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#rule_list EnhancedFirewallPolicy#rule_list}
   */
   readonly ruleList?: EnhancedFirewallPolicyRuleListStruct;
   /**
   * segment_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#segment_policy EnhancedFirewallPolicy#segment_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#segment_policy EnhancedFirewallPolicy#segment_policy}
   */
   readonly segmentPolicy?: EnhancedFirewallPolicySegmentPolicy;
 }
 export interface EnhancedFirewallPolicyAllowedDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
   */
   readonly prefix?: string[];
 }
@@ -202,11 +202,11 @@ export class EnhancedFirewallPolicyAllowedDestinationsOutputReference extends cd
 }
 export interface EnhancedFirewallPolicyAllowedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
   */
   readonly prefix?: string[];
 }
@@ -319,11 +319,11 @@ export class EnhancedFirewallPolicyAllowedSourcesOutputReference extends cdktf.C
 }
 export interface EnhancedFirewallPolicyDeniedDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
   */
   readonly prefix?: string[];
 }
@@ -436,11 +436,11 @@ export class EnhancedFirewallPolicyDeniedDestinationsOutputReference extends cdk
 }
 export interface EnhancedFirewallPolicyDeniedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ipv6_prefix EnhancedFirewallPolicy#ipv6_prefix}
   */
   readonly ipv6Prefix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#prefix EnhancedFirewallPolicy#prefix}
   */
   readonly prefix?: string[];
 }
@@ -553,7 +553,7 @@ export class EnhancedFirewallPolicyDeniedSourcesOutputReference extends cdktf.Co
 }
 export interface EnhancedFirewallPolicyRuleListRulesAdvancedAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#action EnhancedFirewallPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#action EnhancedFirewallPolicy#action}
   */
   readonly action?: string;
 }
@@ -637,7 +637,7 @@ export class EnhancedFirewallPolicyRuleListRulesAdvancedActionOutputReference ex
 }
 export interface EnhancedFirewallPolicyRuleListRulesApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#applications EnhancedFirewallPolicy#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#applications EnhancedFirewallPolicy#applications}
   */
   readonly applications?: string[];
 }
@@ -719,9 +719,90 @@ export class EnhancedFirewallPolicyRuleListRulesApplicationsOutputReference exte
     return this._applications;
   }
 }
+export interface EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#subnet_id EnhancedFirewallPolicy#subnet_id}
+  */
+  readonly subnetId: string[];
+}
+
+export function enhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsToTerraform(struct?: EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsOutputReference | EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    subnet_id: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subnetId),
+  }
+}
+
+
+export function enhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsToHclTerraform(struct?: EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsOutputReference | EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    subnet_id: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subnetId),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._subnetId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetId = this._subnetId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._subnetId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._subnetId = value.subnetId;
+    }
+  }
+
+  // subnet_id - computed: false, optional: false, required: true
+  private _subnetId?: string[]; 
+  public get subnetId() {
+    return this.getListAttribute('subnet_id');
+  }
+  public set subnetId(value: string[]) {
+    this._subnetId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdInput() {
+    return this._subnetId;
+  }
+}
 export interface EnhancedFirewallPolicyRuleListRulesDestinationAwsVpcIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#vpc_id EnhancedFirewallPolicy#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#vpc_id EnhancedFirewallPolicy#vpc_id}
   */
   readonly vpcId: string[];
 }
@@ -802,15 +883,15 @@ export class EnhancedFirewallPolicyRuleListRulesDestinationAwsVpcIdsOutputRefere
 }
 export interface EnhancedFirewallPolicyRuleListRulesDestinationIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -991,7 +1072,7 @@ export interface EnhancedFirewallPolicyRuleListRulesDestinationIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ref EnhancedFirewallPolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ref EnhancedFirewallPolicy#ref}
   */
   readonly ref?: EnhancedFirewallPolicyRuleListRulesDestinationIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -1075,7 +1156,7 @@ export class EnhancedFirewallPolicyRuleListRulesDestinationIpPrefixSetOutputRefe
 }
 export interface EnhancedFirewallPolicyRuleListRulesDestinationLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#expressions EnhancedFirewallPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#expressions EnhancedFirewallPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -1156,11 +1237,11 @@ export class EnhancedFirewallPolicyRuleListRulesDestinationLabelSelectorOutputRe
 }
 export interface EnhancedFirewallPolicyRuleListRulesDestinationPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ipv6_prefixes EnhancedFirewallPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ipv6_prefixes EnhancedFirewallPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#prefixes EnhancedFirewallPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#prefixes EnhancedFirewallPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -1273,15 +1354,15 @@ export class EnhancedFirewallPolicyRuleListRulesDestinationPrefixListStructOutpu
 }
 export interface EnhancedFirewallPolicyRuleListRulesInsertServiceNfvService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -1425,7 +1506,7 @@ export interface EnhancedFirewallPolicyRuleListRulesInsertService {
   /**
   * nfv_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#nfv_service EnhancedFirewallPolicy#nfv_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#nfv_service EnhancedFirewallPolicy#nfv_service}
   */
   readonly nfvService: EnhancedFirewallPolicyRuleListRulesInsertServiceNfvService;
 }
@@ -1506,7 +1587,7 @@ export class EnhancedFirewallPolicyRuleListRulesInsertServiceOutputReference ext
 }
 export interface EnhancedFirewallPolicyRuleListRulesLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#keys EnhancedFirewallPolicy#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#keys EnhancedFirewallPolicy#keys}
   */
   readonly keys?: string[];
 }
@@ -1590,11 +1671,15 @@ export class EnhancedFirewallPolicyRuleListRulesLabelMatcherOutputReference exte
 }
 export interface EnhancedFirewallPolicyRuleListRulesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#description EnhancedFirewallPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#description EnhancedFirewallPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#disable EnhancedFirewallPolicy#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name: string;
 }
@@ -1606,6 +1691,7 @@ export function enhancedFirewallPolicyRuleListRulesMetadataToTerraform(struct?: 
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -1622,6 +1708,12 @@ export function enhancedFirewallPolicyRuleListRulesMetadataToHclTerraform(struct
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -1653,6 +1745,10 @@ export class EnhancedFirewallPolicyRuleListRulesMetadataOutputReference extends 
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -1664,11 +1760,13 @@ export class EnhancedFirewallPolicyRuleListRulesMetadataOutputReference extends 
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -1689,6 +1787,22 @@ export class EnhancedFirewallPolicyRuleListRulesMetadataOutputReference extends 
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -1704,11 +1818,11 @@ export class EnhancedFirewallPolicyRuleListRulesMetadataOutputReference extends 
 }
 export interface EnhancedFirewallPolicyRuleListRulesProtocolPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#port_ranges EnhancedFirewallPolicy#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#port_ranges EnhancedFirewallPolicy#port_ranges}
   */
   readonly portRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#protocol EnhancedFirewallPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#protocol EnhancedFirewallPolicy#protocol}
   */
   readonly protocol?: string;
 }
@@ -1819,9 +1933,90 @@ export class EnhancedFirewallPolicyRuleListRulesProtocolPortRangeOutputReference
     return this._protocol;
   }
 }
+export interface EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#subnet_id EnhancedFirewallPolicy#subnet_id}
+  */
+  readonly subnetId: string[];
+}
+
+export function enhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsToTerraform(struct?: EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsOutputReference | EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    subnet_id: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subnetId),
+  }
+}
+
+
+export function enhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsToHclTerraform(struct?: EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsOutputReference | EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    subnet_id: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subnetId),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._subnetId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetId = this._subnetId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._subnetId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._subnetId = value.subnetId;
+    }
+  }
+
+  // subnet_id - computed: false, optional: false, required: true
+  private _subnetId?: string[]; 
+  public get subnetId() {
+    return this.getListAttribute('subnet_id');
+  }
+  public set subnetId(value: string[]) {
+    this._subnetId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdInput() {
+    return this._subnetId;
+  }
+}
 export interface EnhancedFirewallPolicyRuleListRulesSourceAwsVpcIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#vpc_id EnhancedFirewallPolicy#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#vpc_id EnhancedFirewallPolicy#vpc_id}
   */
   readonly vpcId: string[];
 }
@@ -1902,15 +2097,15 @@ export class EnhancedFirewallPolicyRuleListRulesSourceAwsVpcIdsOutputReference e
 }
 export interface EnhancedFirewallPolicyRuleListRulesSourceIpPrefixSetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -2091,7 +2286,7 @@ export interface EnhancedFirewallPolicyRuleListRulesSourceIpPrefixSet {
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ref EnhancedFirewallPolicy#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ref EnhancedFirewallPolicy#ref}
   */
   readonly ref?: EnhancedFirewallPolicyRuleListRulesSourceIpPrefixSetRef[] | cdktf.IResolvable;
 }
@@ -2175,7 +2370,7 @@ export class EnhancedFirewallPolicyRuleListRulesSourceIpPrefixSetOutputReference
 }
 export interface EnhancedFirewallPolicyRuleListRulesSourceLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#expressions EnhancedFirewallPolicy#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#expressions EnhancedFirewallPolicy#expressions}
   */
   readonly expressions: string[];
 }
@@ -2256,11 +2451,11 @@ export class EnhancedFirewallPolicyRuleListRulesSourceLabelSelectorOutputReferen
 }
 export interface EnhancedFirewallPolicyRuleListRulesSourcePrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#ipv6_prefixes EnhancedFirewallPolicy#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#ipv6_prefixes EnhancedFirewallPolicy#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#prefixes EnhancedFirewallPolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#prefixes EnhancedFirewallPolicy#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -2373,139 +2568,159 @@ export class EnhancedFirewallPolicyRuleListRulesSourcePrefixListStructOutputRefe
 }
 export interface EnhancedFirewallPolicyRuleListRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_destinations EnhancedFirewallPolicy#all_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_destinations EnhancedFirewallPolicy#all_destinations}
   */
   readonly allDestinations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_sli_vips EnhancedFirewallPolicy#all_sli_vips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_sli_vips EnhancedFirewallPolicy#all_sli_vips}
   */
   readonly allSliVips?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_slo_vips EnhancedFirewallPolicy#all_slo_vips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_slo_vips EnhancedFirewallPolicy#all_slo_vips}
   */
   readonly allSloVips?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_sources EnhancedFirewallPolicy#all_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_sources EnhancedFirewallPolicy#all_sources}
   */
   readonly allSources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_tcp_traffic EnhancedFirewallPolicy#all_tcp_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_tcp_traffic EnhancedFirewallPolicy#all_tcp_traffic}
   */
   readonly allTcpTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_traffic EnhancedFirewallPolicy#all_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_traffic EnhancedFirewallPolicy#all_traffic}
   */
   readonly allTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#all_udp_traffic EnhancedFirewallPolicy#all_udp_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#all_udp_traffic EnhancedFirewallPolicy#all_udp_traffic}
   */
   readonly allUdpTraffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#allow EnhancedFirewallPolicy#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#allow EnhancedFirewallPolicy#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#deny EnhancedFirewallPolicy#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#deny EnhancedFirewallPolicy#deny}
   */
   readonly deny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#inside_destinations EnhancedFirewallPolicy#inside_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#destination_namespace EnhancedFirewallPolicy#destination_namespace}
+  */
+  readonly destinationNamespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#inside_destinations EnhancedFirewallPolicy#inside_destinations}
   */
   readonly insideDestinations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#inside_sources EnhancedFirewallPolicy#inside_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#inside_sources EnhancedFirewallPolicy#inside_sources}
   */
   readonly insideSources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#outside_destinations EnhancedFirewallPolicy#outside_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#outside_destinations EnhancedFirewallPolicy#outside_destinations}
   */
   readonly outsideDestinations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#outside_sources EnhancedFirewallPolicy#outside_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#outside_sources EnhancedFirewallPolicy#outside_sources}
   */
   readonly outsideSources?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#source_namespace EnhancedFirewallPolicy#source_namespace}
+  */
+  readonly sourceNamespace?: string;
+  /**
   * advanced_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#advanced_action EnhancedFirewallPolicy#advanced_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#advanced_action EnhancedFirewallPolicy#advanced_action}
   */
   readonly advancedAction?: EnhancedFirewallPolicyRuleListRulesAdvancedAction;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#applications EnhancedFirewallPolicy#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#applications EnhancedFirewallPolicy#applications}
   */
   readonly applications?: EnhancedFirewallPolicyRuleListRulesApplications;
   /**
+  * destination_aws_subnet_ids block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#destination_aws_subnet_ids EnhancedFirewallPolicy#destination_aws_subnet_ids}
+  */
+  readonly destinationAwsSubnetIds?: EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds;
+  /**
   * destination_aws_vpc_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#destination_aws_vpc_ids EnhancedFirewallPolicy#destination_aws_vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#destination_aws_vpc_ids EnhancedFirewallPolicy#destination_aws_vpc_ids}
   */
   readonly destinationAwsVpcIds?: EnhancedFirewallPolicyRuleListRulesDestinationAwsVpcIds;
   /**
   * destination_ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#destination_ip_prefix_set EnhancedFirewallPolicy#destination_ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#destination_ip_prefix_set EnhancedFirewallPolicy#destination_ip_prefix_set}
   */
   readonly destinationIpPrefixSet?: EnhancedFirewallPolicyRuleListRulesDestinationIpPrefixSet;
   /**
   * destination_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#destination_label_selector EnhancedFirewallPolicy#destination_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#destination_label_selector EnhancedFirewallPolicy#destination_label_selector}
   */
   readonly destinationLabelSelector?: EnhancedFirewallPolicyRuleListRulesDestinationLabelSelector;
   /**
   * destination_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#destination_prefix_list EnhancedFirewallPolicy#destination_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#destination_prefix_list EnhancedFirewallPolicy#destination_prefix_list}
   */
   readonly destinationPrefixList?: EnhancedFirewallPolicyRuleListRulesDestinationPrefixListStruct;
   /**
   * insert_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#insert_service EnhancedFirewallPolicy#insert_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#insert_service EnhancedFirewallPolicy#insert_service}
   */
   readonly insertService?: EnhancedFirewallPolicyRuleListRulesInsertService;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#label_matcher EnhancedFirewallPolicy#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#label_matcher EnhancedFirewallPolicy#label_matcher}
   */
   readonly labelMatcher?: EnhancedFirewallPolicyRuleListRulesLabelMatcher;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#metadata EnhancedFirewallPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#metadata EnhancedFirewallPolicy#metadata}
   */
   readonly metadata: EnhancedFirewallPolicyRuleListRulesMetadata;
   /**
   * protocol_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#protocol_port_range EnhancedFirewallPolicy#protocol_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#protocol_port_range EnhancedFirewallPolicy#protocol_port_range}
   */
   readonly protocolPortRange?: EnhancedFirewallPolicyRuleListRulesProtocolPortRange;
   /**
+  * source_aws_subnet_ids block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#source_aws_subnet_ids EnhancedFirewallPolicy#source_aws_subnet_ids}
+  */
+  readonly sourceAwsSubnetIds?: EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds;
+  /**
   * source_aws_vpc_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#source_aws_vpc_ids EnhancedFirewallPolicy#source_aws_vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#source_aws_vpc_ids EnhancedFirewallPolicy#source_aws_vpc_ids}
   */
   readonly sourceAwsVpcIds?: EnhancedFirewallPolicyRuleListRulesSourceAwsVpcIds;
   /**
   * source_ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#source_ip_prefix_set EnhancedFirewallPolicy#source_ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#source_ip_prefix_set EnhancedFirewallPolicy#source_ip_prefix_set}
   */
   readonly sourceIpPrefixSet?: EnhancedFirewallPolicyRuleListRulesSourceIpPrefixSet;
   /**
   * source_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#source_label_selector EnhancedFirewallPolicy#source_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#source_label_selector EnhancedFirewallPolicy#source_label_selector}
   */
   readonly sourceLabelSelector?: EnhancedFirewallPolicyRuleListRulesSourceLabelSelector;
   /**
   * source_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#source_prefix_list EnhancedFirewallPolicy#source_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#source_prefix_list EnhancedFirewallPolicy#source_prefix_list}
   */
   readonly sourcePrefixList?: EnhancedFirewallPolicyRuleListRulesSourcePrefixListStruct;
 }
@@ -2525,12 +2740,15 @@ export function enhancedFirewallPolicyRuleListRulesToTerraform(struct?: Enhanced
     all_udp_traffic: cdktf.booleanToTerraform(struct!.allUdpTraffic),
     allow: cdktf.booleanToTerraform(struct!.allow),
     deny: cdktf.booleanToTerraform(struct!.deny),
+    destination_namespace: cdktf.stringToTerraform(struct!.destinationNamespace),
     inside_destinations: cdktf.booleanToTerraform(struct!.insideDestinations),
     inside_sources: cdktf.booleanToTerraform(struct!.insideSources),
     outside_destinations: cdktf.booleanToTerraform(struct!.outsideDestinations),
     outside_sources: cdktf.booleanToTerraform(struct!.outsideSources),
+    source_namespace: cdktf.stringToTerraform(struct!.sourceNamespace),
     advanced_action: enhancedFirewallPolicyRuleListRulesAdvancedActionToTerraform(struct!.advancedAction),
     applications: enhancedFirewallPolicyRuleListRulesApplicationsToTerraform(struct!.applications),
+    destination_aws_subnet_ids: enhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsToTerraform(struct!.destinationAwsSubnetIds),
     destination_aws_vpc_ids: enhancedFirewallPolicyRuleListRulesDestinationAwsVpcIdsToTerraform(struct!.destinationAwsVpcIds),
     destination_ip_prefix_set: enhancedFirewallPolicyRuleListRulesDestinationIpPrefixSetToTerraform(struct!.destinationIpPrefixSet),
     destination_label_selector: enhancedFirewallPolicyRuleListRulesDestinationLabelSelectorToTerraform(struct!.destinationLabelSelector),
@@ -2539,6 +2757,7 @@ export function enhancedFirewallPolicyRuleListRulesToTerraform(struct?: Enhanced
     label_matcher: enhancedFirewallPolicyRuleListRulesLabelMatcherToTerraform(struct!.labelMatcher),
     metadata: enhancedFirewallPolicyRuleListRulesMetadataToTerraform(struct!.metadata),
     protocol_port_range: enhancedFirewallPolicyRuleListRulesProtocolPortRangeToTerraform(struct!.protocolPortRange),
+    source_aws_subnet_ids: enhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsToTerraform(struct!.sourceAwsSubnetIds),
     source_aws_vpc_ids: enhancedFirewallPolicyRuleListRulesSourceAwsVpcIdsToTerraform(struct!.sourceAwsVpcIds),
     source_ip_prefix_set: enhancedFirewallPolicyRuleListRulesSourceIpPrefixSetToTerraform(struct!.sourceIpPrefixSet),
     source_label_selector: enhancedFirewallPolicyRuleListRulesSourceLabelSelectorToTerraform(struct!.sourceLabelSelector),
@@ -2607,6 +2826,12 @@ export function enhancedFirewallPolicyRuleListRulesToHclTerraform(struct?: Enhan
       type: "simple",
       storageClassType: "boolean",
     },
+    destination_namespace: {
+      value: cdktf.stringToHclTerraform(struct!.destinationNamespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     inside_destinations: {
       value: cdktf.booleanToHclTerraform(struct!.insideDestinations),
       isBlock: false,
@@ -2631,6 +2856,12 @@ export function enhancedFirewallPolicyRuleListRulesToHclTerraform(struct?: Enhan
       type: "simple",
       storageClassType: "boolean",
     },
+    source_namespace: {
+      value: cdktf.stringToHclTerraform(struct!.sourceNamespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     advanced_action: {
       value: enhancedFirewallPolicyRuleListRulesAdvancedActionToHclTerraform(struct!.advancedAction),
       isBlock: true,
@@ -2642,6 +2873,12 @@ export function enhancedFirewallPolicyRuleListRulesToHclTerraform(struct?: Enhan
       isBlock: true,
       type: "list",
       storageClassType: "EnhancedFirewallPolicyRuleListRulesApplicationsList",
+    },
+    destination_aws_subnet_ids: {
+      value: enhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsToHclTerraform(struct!.destinationAwsSubnetIds),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsList",
     },
     destination_aws_vpc_ids: {
       value: enhancedFirewallPolicyRuleListRulesDestinationAwsVpcIdsToHclTerraform(struct!.destinationAwsVpcIds),
@@ -2690,6 +2927,12 @@ export function enhancedFirewallPolicyRuleListRulesToHclTerraform(struct?: Enhan
       isBlock: true,
       type: "list",
       storageClassType: "EnhancedFirewallPolicyRuleListRulesProtocolPortRangeList",
+    },
+    source_aws_subnet_ids: {
+      value: enhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsToHclTerraform(struct!.sourceAwsSubnetIds),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsList",
     },
     source_aws_vpc_ids: {
       value: enhancedFirewallPolicyRuleListRulesSourceAwsVpcIdsToHclTerraform(struct!.sourceAwsVpcIds),
@@ -2777,6 +3020,10 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.deny = this._deny;
     }
+    if (this._destinationNamespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationNamespace = this._destinationNamespace;
+    }
     if (this._insideDestinations !== undefined) {
       hasAnyValues = true;
       internalValueResult.insideDestinations = this._insideDestinations;
@@ -2793,6 +3040,10 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.outsideSources = this._outsideSources;
     }
+    if (this._sourceNamespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceNamespace = this._sourceNamespace;
+    }
     if (this._advancedAction?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.advancedAction = this._advancedAction?.internalValue;
@@ -2800,6 +3051,10 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
     if (this._applications?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.applications = this._applications?.internalValue;
+    }
+    if (this._destinationAwsSubnetIds?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationAwsSubnetIds = this._destinationAwsSubnetIds?.internalValue;
     }
     if (this._destinationAwsVpcIds?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2833,6 +3088,10 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.protocolPortRange = this._protocolPortRange?.internalValue;
     }
+    if (this._sourceAwsSubnetIds?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceAwsSubnetIds = this._sourceAwsSubnetIds?.internalValue;
+    }
     if (this._sourceAwsVpcIds?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sourceAwsVpcIds = this._sourceAwsVpcIds?.internalValue;
@@ -2865,12 +3124,15 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       this._allUdpTraffic = undefined;
       this._allow = undefined;
       this._deny = undefined;
+      this._destinationNamespace = undefined;
       this._insideDestinations = undefined;
       this._insideSources = undefined;
       this._outsideDestinations = undefined;
       this._outsideSources = undefined;
+      this._sourceNamespace = undefined;
       this._advancedAction.internalValue = undefined;
       this._applications.internalValue = undefined;
+      this._destinationAwsSubnetIds.internalValue = undefined;
       this._destinationAwsVpcIds.internalValue = undefined;
       this._destinationIpPrefixSet.internalValue = undefined;
       this._destinationLabelSelector.internalValue = undefined;
@@ -2879,6 +3141,7 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       this._labelMatcher.internalValue = undefined;
       this._metadata.internalValue = undefined;
       this._protocolPortRange.internalValue = undefined;
+      this._sourceAwsSubnetIds.internalValue = undefined;
       this._sourceAwsVpcIds.internalValue = undefined;
       this._sourceIpPrefixSet.internalValue = undefined;
       this._sourceLabelSelector.internalValue = undefined;
@@ -2900,12 +3163,15 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       this._allUdpTraffic = value.allUdpTraffic;
       this._allow = value.allow;
       this._deny = value.deny;
+      this._destinationNamespace = value.destinationNamespace;
       this._insideDestinations = value.insideDestinations;
       this._insideSources = value.insideSources;
       this._outsideDestinations = value.outsideDestinations;
       this._outsideSources = value.outsideSources;
+      this._sourceNamespace = value.sourceNamespace;
       this._advancedAction.internalValue = value.advancedAction;
       this._applications.internalValue = value.applications;
+      this._destinationAwsSubnetIds.internalValue = value.destinationAwsSubnetIds;
       this._destinationAwsVpcIds.internalValue = value.destinationAwsVpcIds;
       this._destinationIpPrefixSet.internalValue = value.destinationIpPrefixSet;
       this._destinationLabelSelector.internalValue = value.destinationLabelSelector;
@@ -2914,6 +3180,7 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
       this._labelMatcher.internalValue = value.labelMatcher;
       this._metadata.internalValue = value.metadata;
       this._protocolPortRange.internalValue = value.protocolPortRange;
+      this._sourceAwsSubnetIds.internalValue = value.sourceAwsSubnetIds;
       this._sourceAwsVpcIds.internalValue = value.sourceAwsVpcIds;
       this._sourceIpPrefixSet.internalValue = value.sourceIpPrefixSet;
       this._sourceLabelSelector.internalValue = value.sourceLabelSelector;
@@ -3065,6 +3332,22 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
     return this._deny;
   }
 
+  // destination_namespace - computed: false, optional: true, required: false
+  private _destinationNamespace?: string; 
+  public get destinationNamespace() {
+    return this.getStringAttribute('destination_namespace');
+  }
+  public set destinationNamespace(value: string) {
+    this._destinationNamespace = value;
+  }
+  public resetDestinationNamespace() {
+    this._destinationNamespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationNamespaceInput() {
+    return this._destinationNamespace;
+  }
+
   // inside_destinations - computed: false, optional: true, required: false
   private _insideDestinations?: boolean | cdktf.IResolvable; 
   public get insideDestinations() {
@@ -3129,6 +3412,22 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
     return this._outsideSources;
   }
 
+  // source_namespace - computed: false, optional: true, required: false
+  private _sourceNamespace?: string; 
+  public get sourceNamespace() {
+    return this.getStringAttribute('source_namespace');
+  }
+  public set sourceNamespace(value: string) {
+    this._sourceNamespace = value;
+  }
+  public resetSourceNamespace() {
+    this._sourceNamespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceNamespaceInput() {
+    return this._sourceNamespace;
+  }
+
   // advanced_action - computed: false, optional: true, required: false
   private _advancedAction = new EnhancedFirewallPolicyRuleListRulesAdvancedActionOutputReference(this, "advanced_action");
   public get advancedAction() {
@@ -3159,6 +3458,22 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get applicationsInput() {
     return this._applications.internalValue;
+  }
+
+  // destination_aws_subnet_ids - computed: false, optional: true, required: false
+  private _destinationAwsSubnetIds = new EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIdsOutputReference(this, "destination_aws_subnet_ids");
+  public get destinationAwsSubnetIds() {
+    return this._destinationAwsSubnetIds;
+  }
+  public putDestinationAwsSubnetIds(value: EnhancedFirewallPolicyRuleListRulesDestinationAwsSubnetIds) {
+    this._destinationAwsSubnetIds.internalValue = value;
+  }
+  public resetDestinationAwsSubnetIds() {
+    this._destinationAwsSubnetIds.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationAwsSubnetIdsInput() {
+    return this._destinationAwsSubnetIds.internalValue;
   }
 
   // destination_aws_vpc_ids - computed: false, optional: true, required: false
@@ -3286,6 +3601,22 @@ export class EnhancedFirewallPolicyRuleListRulesOutputReference extends cdktf.Co
     return this._protocolPortRange.internalValue;
   }
 
+  // source_aws_subnet_ids - computed: false, optional: true, required: false
+  private _sourceAwsSubnetIds = new EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIdsOutputReference(this, "source_aws_subnet_ids");
+  public get sourceAwsSubnetIds() {
+    return this._sourceAwsSubnetIds;
+  }
+  public putSourceAwsSubnetIds(value: EnhancedFirewallPolicyRuleListRulesSourceAwsSubnetIds) {
+    this._sourceAwsSubnetIds.internalValue = value;
+  }
+  public resetSourceAwsSubnetIds() {
+    this._sourceAwsSubnetIds.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceAwsSubnetIdsInput() {
+    return this._sourceAwsSubnetIds.internalValue;
+  }
+
   // source_aws_vpc_ids - computed: false, optional: true, required: false
   private _sourceAwsVpcIds = new EnhancedFirewallPolicyRuleListRulesSourceAwsVpcIdsOutputReference(this, "source_aws_vpc_ids");
   public get sourceAwsVpcIds() {
@@ -3374,7 +3705,7 @@ export interface EnhancedFirewallPolicyRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#rules EnhancedFirewallPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#rules EnhancedFirewallPolicy#rules}
   */
   readonly rules: EnhancedFirewallPolicyRuleListRules[] | cdktf.IResolvable;
 }
@@ -3455,15 +3786,15 @@ export class EnhancedFirewallPolicyRuleListStructOutputReference extends cdktf.C
 }
 export interface EnhancedFirewallPolicySegmentPolicyDstSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3644,7 +3975,7 @@ export interface EnhancedFirewallPolicySegmentPolicyDstSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#segments EnhancedFirewallPolicy#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#segments EnhancedFirewallPolicy#segments}
   */
   readonly segments: EnhancedFirewallPolicySegmentPolicyDstSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -3725,15 +4056,15 @@ export class EnhancedFirewallPolicySegmentPolicyDstSegmentsOutputReference exten
 }
 export interface EnhancedFirewallPolicySegmentPolicySrcSegmentsSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#name EnhancedFirewallPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#namespace EnhancedFirewallPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#tenant EnhancedFirewallPolicy#tenant}
   */
   readonly tenant?: string;
 }
@@ -3914,7 +4245,7 @@ export interface EnhancedFirewallPolicySegmentPolicySrcSegments {
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#segments EnhancedFirewallPolicy#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#segments EnhancedFirewallPolicy#segments}
   */
   readonly segments: EnhancedFirewallPolicySegmentPolicySrcSegmentsSegments[] | cdktf.IResolvable;
 }
@@ -3995,27 +4326,27 @@ export class EnhancedFirewallPolicySegmentPolicySrcSegmentsOutputReference exten
 }
 export interface EnhancedFirewallPolicySegmentPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#dst_any EnhancedFirewallPolicy#dst_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#dst_any EnhancedFirewallPolicy#dst_any}
   */
   readonly dstAny?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#intra_segment EnhancedFirewallPolicy#intra_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#intra_segment EnhancedFirewallPolicy#intra_segment}
   */
   readonly intraSegment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#src_any EnhancedFirewallPolicy#src_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#src_any EnhancedFirewallPolicy#src_any}
   */
   readonly srcAny?: boolean | cdktf.IResolvable;
   /**
   * dst_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#dst_segments EnhancedFirewallPolicy#dst_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#dst_segments EnhancedFirewallPolicy#dst_segments}
   */
   readonly dstSegments?: EnhancedFirewallPolicySegmentPolicyDstSegments;
   /**
   * src_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#src_segments EnhancedFirewallPolicy#src_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#src_segments EnhancedFirewallPolicy#src_segments}
   */
   readonly srcSegments?: EnhancedFirewallPolicySegmentPolicySrcSegments;
 }
@@ -4215,7 +4546,7 @@ export class EnhancedFirewallPolicySegmentPolicyOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy volterra_enhanced_firewall_policy}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy volterra_enhanced_firewall_policy}
 */
 export class EnhancedFirewallPolicy extends cdktf.TerraformResource {
 
@@ -4231,7 +4562,7 @@ export class EnhancedFirewallPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnhancedFirewallPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnhancedFirewallPolicy to import
-  * @param importFromId The id of the existing EnhancedFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnhancedFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnhancedFirewallPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4243,7 +4574,7 @@ export class EnhancedFirewallPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/enhanced_firewall_policy volterra_enhanced_firewall_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/enhanced_firewall_policy volterra_enhanced_firewall_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4254,8 +4585,8 @@ export class EnhancedFirewallPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_enhanced_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

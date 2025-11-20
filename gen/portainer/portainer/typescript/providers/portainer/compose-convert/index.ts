@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/compose_convert
+// https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/compose_convert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ComposeConvertConfig extends cdktf.TerraformMetaArguments {
   /**
   * The content of the docker-compose.yml file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/compose_convert#compose_content ComposeConvert#compose_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/compose_convert#compose_content ComposeConvert#compose_content}
   */
   readonly composeContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/compose_convert#id ComposeConvert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/compose_convert#id ComposeConvert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ComposeConvertConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/compose_convert portainer_compose_convert}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/compose_convert portainer_compose_convert}
 */
 export class ComposeConvert extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ComposeConvert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComposeConvert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComposeConvert to import
-  * @param importFromId The id of the existing ComposeConvert that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/compose_convert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComposeConvert that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/compose_convert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComposeConvert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ComposeConvert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/compose_convert portainer_compose_convert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.17.0/docs/resources/compose_convert portainer_compose_convert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class ComposeConvert extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_compose_convert',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.1',
-        providerVersionConstraint: '1.16.1'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface DnsLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#annotations DnsLoadBalancer#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#annotations DnsLoadBalancer#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#description DnsLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#description DnsLoadBalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#disable DnsLoadBalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#disable DnsLoadBalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#id DnsLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#id DnsLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#labels DnsLoadBalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#labels DnsLoadBalancer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#record_type DnsLoadBalancer#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#record_type DnsLoadBalancer#record_type}
   */
   readonly recordType: string;
   /**
   * fallback_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#fallback_pool DnsLoadBalancer#fallback_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#fallback_pool DnsLoadBalancer#fallback_pool}
   */
   readonly fallbackPool?: DnsLoadBalancerFallbackPool;
   /**
   * response_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#response_cache DnsLoadBalancer#response_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#response_cache DnsLoadBalancer#response_cache}
   */
   readonly responseCache?: DnsLoadBalancerResponseCache;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#rule_list DnsLoadBalancer#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#rule_list DnsLoadBalancer#rule_list}
   */
   readonly ruleList: DnsLoadBalancerRuleListStruct;
 }
 export interface DnsLoadBalancerFallbackPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -213,15 +213,15 @@ export class DnsLoadBalancerFallbackPoolOutputReference extends cdktf.ComplexObj
 }
 export interface DnsLoadBalancerResponseCacheResponseCacheParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#cache_cidr_ipv4 DnsLoadBalancer#cache_cidr_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#cache_cidr_ipv4 DnsLoadBalancer#cache_cidr_ipv4}
   */
   readonly cacheCidrIpv4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#cache_cidr_ipv6 DnsLoadBalancer#cache_cidr_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#cache_cidr_ipv6 DnsLoadBalancer#cache_cidr_ipv6}
   */
   readonly cacheCidrIpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#cache_ttl DnsLoadBalancer#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#cache_ttl DnsLoadBalancer#cache_ttl}
   */
   readonly cacheTtl?: number;
 }
@@ -363,17 +363,17 @@ export class DnsLoadBalancerResponseCacheResponseCacheParametersOutputReference 
 }
 export interface DnsLoadBalancerResponseCache {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#default_response_cache_parameters DnsLoadBalancer#default_response_cache_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#default_response_cache_parameters DnsLoadBalancer#default_response_cache_parameters}
   */
   readonly defaultResponseCacheParameters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#disable DnsLoadBalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#disable DnsLoadBalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * response_cache_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#response_cache_parameters DnsLoadBalancer#response_cache_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#response_cache_parameters DnsLoadBalancer#response_cache_parameters}
   */
   readonly responseCacheParameters?: DnsLoadBalancerResponseCacheResponseCacheParameters;
 }
@@ -515,7 +515,7 @@ export class DnsLoadBalancerResponseCacheOutputReference extends cdktf.ComplexOb
 }
 export interface DnsLoadBalancerRuleListRulesAsnListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#as_numbers DnsLoadBalancer#as_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#as_numbers DnsLoadBalancer#as_numbers}
   */
   readonly asNumbers: number[];
 }
@@ -596,15 +596,15 @@ export class DnsLoadBalancerRuleListRulesAsnListStructOutputReference extends cd
 }
 export interface DnsLoadBalancerRuleListRulesAsnMatcherAsnSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -785,7 +785,7 @@ export interface DnsLoadBalancerRuleListRulesAsnMatcher {
   /**
   * asn_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#asn_sets DnsLoadBalancer#asn_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#asn_sets DnsLoadBalancer#asn_sets}
   */
   readonly asnSets: DnsLoadBalancerRuleListRulesAsnMatcherAsnSets[] | cdktf.IResolvable;
 }
@@ -866,7 +866,7 @@ export class DnsLoadBalancerRuleListRulesAsnMatcherOutputReference extends cdktf
 }
 export interface DnsLoadBalancerRuleListRulesGeoLocationLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#expressions DnsLoadBalancer#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#expressions DnsLoadBalancer#expressions}
   */
   readonly expressions: string[];
 }
@@ -947,15 +947,15 @@ export class DnsLoadBalancerRuleListRulesGeoLocationLabelSelectorOutputReference
 }
 export interface DnsLoadBalancerRuleListRulesGeoLocationSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1097,15 +1097,15 @@ export class DnsLoadBalancerRuleListRulesGeoLocationSetOutputReference extends c
 }
 export interface DnsLoadBalancerRuleListRulesIpPrefixListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#invert_match DnsLoadBalancer#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#invert_match DnsLoadBalancer#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#ip_prefixes DnsLoadBalancer#ip_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#ip_prefixes DnsLoadBalancer#ip_prefixes}
   */
   readonly ipPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#ipv6_prefixes DnsLoadBalancer#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#ipv6_prefixes DnsLoadBalancer#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: string[];
 }
@@ -1247,15 +1247,15 @@ export class DnsLoadBalancerRuleListRulesIpPrefixListStructOutputReference exten
 }
 export interface DnsLoadBalancerRuleListRulesIpPrefixSetPrefixSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1434,13 +1434,13 @@ export class DnsLoadBalancerRuleListRulesIpPrefixSetPrefixSetsList extends cdktf
 }
 export interface DnsLoadBalancerRuleListRulesIpPrefixSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#invert_matcher DnsLoadBalancer#invert_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#invert_matcher DnsLoadBalancer#invert_matcher}
   */
   readonly invertMatcher?: boolean | cdktf.IResolvable;
   /**
   * prefix_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#prefix_sets DnsLoadBalancer#prefix_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#prefix_sets DnsLoadBalancer#prefix_sets}
   */
   readonly prefixSets: DnsLoadBalancerRuleListRulesIpPrefixSetPrefixSets[] | cdktf.IResolvable;
 }
@@ -1550,15 +1550,15 @@ export class DnsLoadBalancerRuleListRulesIpPrefixSetOutputReference extends cdkt
 }
 export interface DnsLoadBalancerRuleListRulesPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#name DnsLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#namespace DnsLoadBalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#tenant DnsLoadBalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1700,49 +1700,53 @@ export class DnsLoadBalancerRuleListRulesPoolOutputReference extends cdktf.Compl
 }
 export interface DnsLoadBalancerRuleListRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#score DnsLoadBalancer#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#nxdomain DnsLoadBalancer#nxdomain}
+  */
+  readonly nxdomain?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#score DnsLoadBalancer#score}
   */
   readonly score?: number;
   /**
   * asn_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#asn_list DnsLoadBalancer#asn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#asn_list DnsLoadBalancer#asn_list}
   */
   readonly asnList?: DnsLoadBalancerRuleListRulesAsnListStruct;
   /**
   * asn_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#asn_matcher DnsLoadBalancer#asn_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#asn_matcher DnsLoadBalancer#asn_matcher}
   */
   readonly asnMatcher?: DnsLoadBalancerRuleListRulesAsnMatcher;
   /**
   * geo_location_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#geo_location_label_selector DnsLoadBalancer#geo_location_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#geo_location_label_selector DnsLoadBalancer#geo_location_label_selector}
   */
   readonly geoLocationLabelSelector?: DnsLoadBalancerRuleListRulesGeoLocationLabelSelector;
   /**
   * geo_location_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#geo_location_set DnsLoadBalancer#geo_location_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#geo_location_set DnsLoadBalancer#geo_location_set}
   */
   readonly geoLocationSet?: DnsLoadBalancerRuleListRulesGeoLocationSet;
   /**
   * ip_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#ip_prefix_list DnsLoadBalancer#ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#ip_prefix_list DnsLoadBalancer#ip_prefix_list}
   */
   readonly ipPrefixList?: DnsLoadBalancerRuleListRulesIpPrefixListStruct;
   /**
   * ip_prefix_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#ip_prefix_set DnsLoadBalancer#ip_prefix_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#ip_prefix_set DnsLoadBalancer#ip_prefix_set}
   */
   readonly ipPrefixSet?: DnsLoadBalancerRuleListRulesIpPrefixSet;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#pool DnsLoadBalancer#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#pool DnsLoadBalancer#pool}
   */
   readonly pool?: DnsLoadBalancerRuleListRulesPool;
 }
@@ -1753,6 +1757,7 @@ export function dnsLoadBalancerRuleListRulesToTerraform(struct?: DnsLoadBalancer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    nxdomain: cdktf.booleanToTerraform(struct!.nxdomain),
     score: cdktf.numberToTerraform(struct!.score),
     asn_list: dnsLoadBalancerRuleListRulesAsnListStructToTerraform(struct!.asnList),
     asn_matcher: dnsLoadBalancerRuleListRulesAsnMatcherToTerraform(struct!.asnMatcher),
@@ -1771,6 +1776,12 @@ export function dnsLoadBalancerRuleListRulesToHclTerraform(struct?: DnsLoadBalan
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    nxdomain: {
+      value: cdktf.booleanToHclTerraform(struct!.nxdomain),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     score: {
       value: cdktf.numberToHclTerraform(struct!.score),
       isBlock: false,
@@ -1845,6 +1856,10 @@ export class DnsLoadBalancerRuleListRulesOutputReference extends cdktf.ComplexOb
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._nxdomain !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nxdomain = this._nxdomain;
+    }
     if (this._score !== undefined) {
       hasAnyValues = true;
       internalValueResult.score = this._score;
@@ -1884,6 +1899,7 @@ export class DnsLoadBalancerRuleListRulesOutputReference extends cdktf.ComplexOb
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._nxdomain = undefined;
       this._score = undefined;
       this._asnList.internalValue = undefined;
       this._asnMatcher.internalValue = undefined;
@@ -1900,6 +1916,7 @@ export class DnsLoadBalancerRuleListRulesOutputReference extends cdktf.ComplexOb
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._nxdomain = value.nxdomain;
       this._score = value.score;
       this._asnList.internalValue = value.asnList;
       this._asnMatcher.internalValue = value.asnMatcher;
@@ -1909,6 +1926,22 @@ export class DnsLoadBalancerRuleListRulesOutputReference extends cdktf.ComplexOb
       this._ipPrefixSet.internalValue = value.ipPrefixSet;
       this._pool.internalValue = value.pool;
     }
+  }
+
+  // nxdomain - computed: false, optional: true, required: false
+  private _nxdomain?: boolean | cdktf.IResolvable; 
+  public get nxdomain() {
+    return this.getBooleanAttribute('nxdomain');
+  }
+  public set nxdomain(value: boolean | cdktf.IResolvable) {
+    this._nxdomain = value;
+  }
+  public resetNxdomain() {
+    this._nxdomain = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nxdomainInput() {
+    return this._nxdomain;
   }
 
   // score - computed: false, optional: true, required: false
@@ -2063,7 +2096,7 @@ export interface DnsLoadBalancerRuleListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#rules DnsLoadBalancer#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#rules DnsLoadBalancer#rules}
   */
   readonly rules: DnsLoadBalancerRuleListRules[] | cdktf.IResolvable;
 }
@@ -2144,7 +2177,7 @@ export class DnsLoadBalancerRuleListStructOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer volterra_dns_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer volterra_dns_load_balancer}
 */
 export class DnsLoadBalancer extends cdktf.TerraformResource {
 
@@ -2160,7 +2193,7 @@ export class DnsLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsLoadBalancer to import
-  * @param importFromId The id of the existing DnsLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2172,7 +2205,7 @@ export class DnsLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_load_balancer volterra_dns_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_load_balancer volterra_dns_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2183,8 +2216,8 @@ export class DnsLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

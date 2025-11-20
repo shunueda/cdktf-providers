@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataPanosTemplateStackConfig extends cdktf.TerraformMetaArgumen
   /**
   * Default virtual system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#default_vsys DataPanosTemplateStack#default_vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#default_vsys DataPanosTemplateStack#default_vsys}
   */
   readonly defaultVsys?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#description DataPanosTemplateStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#description DataPanosTemplateStack#description}
   */
   readonly description?: string;
   /**
   * List of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#devices DataPanosTemplateStack#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#devices DataPanosTemplateStack#devices}
   */
   readonly devices?: string[];
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#location DataPanosTemplateStack#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#location DataPanosTemplateStack#location}
   */
   readonly location: DataPanosTemplateStackLocation;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#name DataPanosTemplateStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#name DataPanosTemplateStack#name}
   */
   readonly name: string;
   /**
   * List of templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#templates DataPanosTemplateStack#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#templates DataPanosTemplateStack#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#user_group_source DataPanosTemplateStack#user_group_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#user_group_source DataPanosTemplateStack#user_group_source}
   */
   readonly userGroupSource?: DataPanosTemplateStackUserGroupSource;
 }
@@ -52,7 +52,7 @@ export interface DataPanosTemplateStackLocationPanorama {
   /**
   * The Panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#panorama_device DataPanosTemplateStack#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#panorama_device DataPanosTemplateStack#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -148,7 +148,7 @@ export interface DataPanosTemplateStackLocation {
   /**
   * Located in a specific Panorama.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#panorama DataPanosTemplateStack#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#panorama DataPanosTemplateStack#panorama}
   */
   readonly panorama?: DataPanosTemplateStackLocationPanorama;
 }
@@ -242,7 +242,7 @@ export class DataPanosTemplateStackLocationOutputReference extends cdktf.Complex
 }
 export interface DataPanosTemplateStackUserGroupSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#master_device DataPanosTemplateStack#master_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#master_device DataPanosTemplateStack#master_device}
   */
   readonly masterDevice?: string;
 }
@@ -336,7 +336,7 @@ export class DataPanosTemplateStackUserGroupSourceOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack panos_template_stack}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack panos_template_stack}
 */
 export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
 
@@ -352,7 +352,7 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosTemplateStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosTemplateStack to import
-  * @param importFromId The id of the existing DataPanosTemplateStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosTemplateStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosTemplateStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/template_stack panos_template_stack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/template_stack panos_template_stack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_template_stack',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

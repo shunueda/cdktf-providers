@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPanosDecryptionPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#location DataPanosDecryptionPolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#location DataPanosDecryptionPolicy#location}
   */
   readonly location: DataPanosDecryptionPolicyLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#rules DataPanosDecryptionPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#rules DataPanosDecryptionPolicy#rules}
   */
   readonly rules: DataPanosDecryptionPolicyRules[] | cdktf.IResolvable;
 }
@@ -22,19 +22,19 @@ export interface DataPanosDecryptionPolicyLocationDeviceGroup {
   /**
   * The device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
   */
   readonly name?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#panorama_device DataPanosDecryptionPolicy#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#panorama_device DataPanosDecryptionPolicy#panorama_device}
   */
   readonly panoramaDevice?: string;
   /**
   * The rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#rulebase DataPanosDecryptionPolicy#rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#rulebase DataPanosDecryptionPolicy#rulebase}
   */
   readonly rulebase?: string;
 }
@@ -188,7 +188,7 @@ export interface DataPanosDecryptionPolicyLocationShared {
   /**
   * Rulebase name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#rulebase DataPanosDecryptionPolicy#rulebase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#rulebase DataPanosDecryptionPolicy#rulebase}
   */
   readonly rulebase?: string;
 }
@@ -284,13 +284,13 @@ export interface DataPanosDecryptionPolicyLocationVsys {
   /**
   * The vsys name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#ngfw_device DataPanosDecryptionPolicy#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#ngfw_device DataPanosDecryptionPolicy#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -415,19 +415,19 @@ export interface DataPanosDecryptionPolicyLocation {
   /**
   * Located in a specific device group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#device_group DataPanosDecryptionPolicy#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#device_group DataPanosDecryptionPolicy#device_group}
   */
   readonly deviceGroup?: DataPanosDecryptionPolicyLocationDeviceGroup;
   /**
   * Located in a shared rulebase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#shared DataPanosDecryptionPolicy#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#shared DataPanosDecryptionPolicy#shared}
   */
   readonly shared?: DataPanosDecryptionPolicyLocationShared;
   /**
   * Located in a specific vsys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#vsys DataPanosDecryptionPolicy#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#vsys DataPanosDecryptionPolicy#vsys}
   */
   readonly vsys?: DataPanosDecryptionPolicyLocationVsys;
 }
@@ -579,7 +579,7 @@ export class DataPanosDecryptionPolicyLocationOutputReference extends cdktf.Comp
 }
 export interface DataPanosDecryptionPolicyRulesTargetDevicesVsys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
   */
   readonly name: string;
 }
@@ -692,11 +692,11 @@ export class DataPanosDecryptionPolicyRulesTargetDevicesVsysList extends cdktf.C
 }
 export interface DataPanosDecryptionPolicyRulesTargetDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#vsys DataPanosDecryptionPolicy#vsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#vsys DataPanosDecryptionPolicy#vsys}
   */
   readonly vsys?: DataPanosDecryptionPolicyRulesTargetDevicesVsys[] | cdktf.IResolvable;
 }
@@ -838,17 +838,17 @@ export class DataPanosDecryptionPolicyRulesTargetDevicesList extends cdktf.Compl
 }
 export interface DataPanosDecryptionPolicyRulesTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#devices DataPanosDecryptionPolicy#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#devices DataPanosDecryptionPolicy#devices}
   */
   readonly devices?: DataPanosDecryptionPolicyRulesTargetDevices[] | cdktf.IResolvable;
   /**
   * Target to all but these specified devices and tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#negate DataPanosDecryptionPolicy#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#negate DataPanosDecryptionPolicy#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#tags DataPanosDecryptionPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#tags DataPanosDecryptionPolicy#tags}
   */
   readonly tags?: string[];
 }
@@ -1118,7 +1118,7 @@ export class DataPanosDecryptionPolicyRulesTypeSslForwardProxyOutputReference ex
 }
 export interface DataPanosDecryptionPolicyRulesTypeSslInboundInspection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#certificates DataPanosDecryptionPolicy#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#certificates DataPanosDecryptionPolicy#certificates}
   */
   readonly certificates?: string[];
 }
@@ -1212,15 +1212,15 @@ export class DataPanosDecryptionPolicyRulesTypeSslInboundInspectionOutputReferen
 }
 export interface DataPanosDecryptionPolicyRulesType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#ssh_proxy DataPanosDecryptionPolicy#ssh_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#ssh_proxy DataPanosDecryptionPolicy#ssh_proxy}
   */
   readonly sshProxy?: DataPanosDecryptionPolicyRulesTypeSshProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#ssl_forward_proxy DataPanosDecryptionPolicy#ssl_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#ssl_forward_proxy DataPanosDecryptionPolicy#ssl_forward_proxy}
   */
   readonly sslForwardProxy?: DataPanosDecryptionPolicyRulesTypeSslForwardProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#ssl_inbound_inspection DataPanosDecryptionPolicy#ssl_inbound_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#ssl_inbound_inspection DataPanosDecryptionPolicy#ssl_inbound_inspection}
   */
   readonly sslInboundInspection?: DataPanosDecryptionPolicyRulesTypeSslInboundInspection;
 }
@@ -1372,109 +1372,109 @@ export class DataPanosDecryptionPolicyRulesTypeOutputReference extends cdktf.Com
 }
 export interface DataPanosDecryptionPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#action DataPanosDecryptionPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#action DataPanosDecryptionPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#category DataPanosDecryptionPolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#category DataPanosDecryptionPolicy#category}
   */
   readonly category?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#description DataPanosDecryptionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#description DataPanosDecryptionPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#destination_addresses DataPanosDecryptionPolicy#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#destination_addresses DataPanosDecryptionPolicy#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#destination_hip DataPanosDecryptionPolicy#destination_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#destination_hip DataPanosDecryptionPolicy#destination_hip}
   */
   readonly destinationHip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#destination_zones DataPanosDecryptionPolicy#destination_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#destination_zones DataPanosDecryptionPolicy#destination_zones}
   */
   readonly destinationZones?: string[];
   /**
   * Disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#disabled DataPanosDecryptionPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#disabled DataPanosDecryptionPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#group_tag DataPanosDecryptionPolicy#group_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#group_tag DataPanosDecryptionPolicy#group_tag}
   */
   readonly groupTag?: string;
   /**
   * Log unsuccessful TLS handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#log_fail DataPanosDecryptionPolicy#log_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#log_fail DataPanosDecryptionPolicy#log_fail}
   */
   readonly logFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#log_setting DataPanosDecryptionPolicy#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#log_setting DataPanosDecryptionPolicy#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Log successful TLS handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#log_success DataPanosDecryptionPolicy#log_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#log_success DataPanosDecryptionPolicy#log_success}
   */
   readonly logSuccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#name DataPanosDecryptionPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#negate_destination DataPanosDecryptionPolicy#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#negate_destination DataPanosDecryptionPolicy#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#negate_source DataPanosDecryptionPolicy#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#negate_source DataPanosDecryptionPolicy#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
   * packet-broker profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#packet_broker_profile DataPanosDecryptionPolicy#packet_broker_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#packet_broker_profile DataPanosDecryptionPolicy#packet_broker_profile}
   */
   readonly packetBrokerProfile?: string;
   /**
   * decryption profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#profile DataPanosDecryptionPolicy#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#profile DataPanosDecryptionPolicy#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#services DataPanosDecryptionPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#services DataPanosDecryptionPolicy#services}
   */
   readonly services?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#source_addresses DataPanosDecryptionPolicy#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#source_addresses DataPanosDecryptionPolicy#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#source_hip DataPanosDecryptionPolicy#source_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#source_hip DataPanosDecryptionPolicy#source_hip}
   */
   readonly sourceHip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#source_user DataPanosDecryptionPolicy#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#source_user DataPanosDecryptionPolicy#source_user}
   */
   readonly sourceUser?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#source_zones DataPanosDecryptionPolicy#source_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#source_zones DataPanosDecryptionPolicy#source_zones}
   */
   readonly sourceZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#tag DataPanosDecryptionPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#tag DataPanosDecryptionPolicy#tag}
   */
   readonly tag?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#target DataPanosDecryptionPolicy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#target DataPanosDecryptionPolicy#target}
   */
   readonly target?: DataPanosDecryptionPolicyRulesTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#type DataPanosDecryptionPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#type DataPanosDecryptionPolicy#type}
   */
   readonly type?: DataPanosDecryptionPolicyRulesType;
 }
@@ -2254,7 +2254,7 @@ export class DataPanosDecryptionPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy panos_decryption_policy}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy panos_decryption_policy}
 */
 export class DataPanosDecryptionPolicy extends cdktf.TerraformDataSource {
 
@@ -2270,7 +2270,7 @@ export class DataPanosDecryptionPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosDecryptionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosDecryptionPolicy to import
-  * @param importFromId The id of the existing DataPanosDecryptionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosDecryptionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosDecryptionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2282,7 +2282,7 @@ export class DataPanosDecryptionPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/decryption_policy panos_decryption_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/decryption_policy panos_decryption_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2293,8 +2293,8 @@ export class DataPanosDecryptionPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_decryption_policy',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

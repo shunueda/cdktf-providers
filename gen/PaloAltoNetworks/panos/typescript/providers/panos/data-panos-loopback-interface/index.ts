@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosLoopbackInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#adjust_tcp_mss DataPanosLoopbackInterface#adjust_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#adjust_tcp_mss DataPanosLoopbackInterface#adjust_tcp_mss}
   */
   readonly adjustTcpMss?: DataPanosLoopbackInterfaceAdjustTcpMss;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#comment DataPanosLoopbackInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#comment DataPanosLoopbackInterface#comment}
   */
   readonly comment?: string;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#interface_management_profile DataPanosLoopbackInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#interface_management_profile DataPanosLoopbackInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ip DataPanosLoopbackInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ip DataPanosLoopbackInterface#ip}
   */
   readonly ip?: DataPanosLoopbackInterfaceIp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ipv6 DataPanosLoopbackInterface#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ipv6 DataPanosLoopbackInterface#ipv6}
   */
   readonly ipv6?: DataPanosLoopbackInterfaceIpv6;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#location DataPanosLoopbackInterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#location DataPanosLoopbackInterface#location}
   */
   readonly location: DataPanosLoopbackInterfaceLocation;
   /**
   * Maximum Transfer Unit, up to 9216 in Jumbo-Frame mode, up to 1500 otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#mtu DataPanosLoopbackInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#mtu DataPanosLoopbackInterface#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
   */
   readonly name: string;
   /**
   * Netflow Server Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#netflow_profile DataPanosLoopbackInterface#netflow_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#netflow_profile DataPanosLoopbackInterface#netflow_profile}
   */
   readonly netflowProfile?: string;
 }
@@ -56,19 +56,19 @@ export interface DataPanosLoopbackInterfaceAdjustTcpMss {
   /**
   * Set if TCP MSS value should be reduced based on mtu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#enable DataPanosLoopbackInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#enable DataPanosLoopbackInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IPv4 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ipv4_mss_adjustment DataPanosLoopbackInterface#ipv4_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ipv4_mss_adjustment DataPanosLoopbackInterface#ipv4_mss_adjustment}
   */
   readonly ipv4MssAdjustment?: number;
   /**
   * IPv6 MSS adjustment size (in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ipv6_mss_adjustment DataPanosLoopbackInterface#ipv6_mss_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ipv6_mss_adjustment DataPanosLoopbackInterface#ipv6_mss_adjustment}
   */
   readonly ipv6MssAdjustment?: number;
 }
@@ -220,7 +220,7 @@ export class DataPanosLoopbackInterfaceAdjustTcpMssOutputReference extends cdktf
 }
 export interface DataPanosLoopbackInterfaceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
   */
   readonly name: string;
 }
@@ -451,21 +451,21 @@ export class DataPanosLoopbackInterfaceIpv6AddressPrefixOutputReference extends 
 }
 export interface DataPanosLoopbackInterfaceIpv6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#anycast DataPanosLoopbackInterface#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#anycast DataPanosLoopbackInterface#anycast}
   */
   readonly anycast?: DataPanosLoopbackInterfaceIpv6AddressAnycast;
   /**
   * configure this address on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#enable_on_interface DataPanosLoopbackInterface#enable_on_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#enable_on_interface DataPanosLoopbackInterface#enable_on_interface}
   */
   readonly enableOnInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#prefix DataPanosLoopbackInterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#prefix DataPanosLoopbackInterface#prefix}
   */
   readonly prefix?: DataPanosLoopbackInterfaceIpv6AddressPrefix;
 }
@@ -665,17 +665,17 @@ export class DataPanosLoopbackInterfaceIpv6AddressList extends cdktf.ComplexList
 }
 export interface DataPanosLoopbackInterfaceIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#address DataPanosLoopbackInterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#address DataPanosLoopbackInterface#address}
   */
   readonly address?: DataPanosLoopbackInterfaceIpv6Address[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#enabled DataPanosLoopbackInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#enabled DataPanosLoopbackInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#interface_id DataPanosLoopbackInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#interface_id DataPanosLoopbackInterface#interface_id}
   */
   readonly interfaceId?: string;
 }
@@ -829,7 +829,7 @@ export interface DataPanosLoopbackInterfaceLocationNgfw {
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ngfw_device DataPanosLoopbackInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ngfw_device DataPanosLoopbackInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -925,19 +925,19 @@ export interface DataPanosLoopbackInterfaceLocationTemplate {
   /**
   * Specific Panorama template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ngfw_device DataPanosLoopbackInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ngfw_device DataPanosLoopbackInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#panorama_device DataPanosLoopbackInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#panorama_device DataPanosLoopbackInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1091,19 +1091,19 @@ export interface DataPanosLoopbackInterfaceLocationTemplateStack {
   /**
   * Specific Panorama template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#name DataPanosLoopbackInterface#name}
   */
   readonly name?: string;
   /**
   * The NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ngfw_device DataPanosLoopbackInterface#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ngfw_device DataPanosLoopbackInterface#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * Specific Panorama device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#panorama_device DataPanosLoopbackInterface#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#panorama_device DataPanosLoopbackInterface#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -1257,19 +1257,19 @@ export interface DataPanosLoopbackInterfaceLocation {
   /**
   * Located in a specific NGFW device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#ngfw DataPanosLoopbackInterface#ngfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#ngfw DataPanosLoopbackInterface#ngfw}
   */
   readonly ngfw?: DataPanosLoopbackInterfaceLocationNgfw;
   /**
   * Located in a specific template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#template DataPanosLoopbackInterface#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#template DataPanosLoopbackInterface#template}
   */
   readonly template?: DataPanosLoopbackInterfaceLocationTemplate;
   /**
   * Located in a specific template stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#template_stack DataPanosLoopbackInterface#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#template_stack DataPanosLoopbackInterface#template_stack}
   */
   readonly templateStack?: DataPanosLoopbackInterfaceLocationTemplateStack;
 }
@@ -1421,7 +1421,7 @@ export class DataPanosLoopbackInterfaceLocationOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface panos_loopback_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface panos_loopback_interface}
 */
 export class DataPanosLoopbackInterface extends cdktf.TerraformDataSource {
 
@@ -1437,7 +1437,7 @@ export class DataPanosLoopbackInterface extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosLoopbackInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosLoopbackInterface to import
-  * @param importFromId The id of the existing DataPanosLoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosLoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosLoopbackInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1449,7 +1449,7 @@ export class DataPanosLoopbackInterface extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/loopback_interface panos_loopback_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/loopback_interface panos_loopback_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1460,8 +1460,8 @@ export class DataPanosLoopbackInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_loopback_interface',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

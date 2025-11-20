@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DnsComplianceChecksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#annotations DnsComplianceChecks#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#annotations DnsComplianceChecks#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#description DnsComplianceChecks#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#description DnsComplianceChecks#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#disable DnsComplianceChecks#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#disable DnsComplianceChecks#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#disallowed_query_type_list DnsComplianceChecks#disallowed_query_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#disallowed_query_type_list DnsComplianceChecks#disallowed_query_type_list}
   */
   readonly disallowedQueryTypeList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#disallowed_resource_record_type_list DnsComplianceChecks#disallowed_resource_record_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#disallowed_resource_record_type_list DnsComplianceChecks#disallowed_resource_record_type_list}
   */
   readonly disallowedResourceRecordTypeList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#domain_denylist DnsComplianceChecks#domain_denylist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#domain_denylist DnsComplianceChecks#domain_denylist}
   */
   readonly domainDenylist: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#id DnsComplianceChecks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#id DnsComplianceChecks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#labels DnsComplianceChecks#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#labels DnsComplianceChecks#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#name DnsComplianceChecks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#name DnsComplianceChecks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#namespace DnsComplianceChecks#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#namespace DnsComplianceChecks#namespace}
   */
   readonly namespace: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks volterra_dns_compliance_checks}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks volterra_dns_compliance_checks}
 */
 export class DnsComplianceChecks extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class DnsComplianceChecks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsComplianceChecks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsComplianceChecks to import
-  * @param importFromId The id of the existing DnsComplianceChecks that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsComplianceChecks that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsComplianceChecks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DnsComplianceChecks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/dns_compliance_checks volterra_dns_compliance_checks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/dns_compliance_checks volterra_dns_compliance_checks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DnsComplianceChecks extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_compliance_checks',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

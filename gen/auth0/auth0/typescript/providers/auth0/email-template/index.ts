@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template
+// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EmailTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Body of the email template. You can include [common variables](https://auth0.com/docs/customize/email/email-templates#common-variables).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#body EmailTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#body EmailTemplate#body}
   */
   readonly body: string;
   /**
   * Indicates whether the template is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#enabled EmailTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#enabled EmailTemplate#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Email address to use as the sender. You can include [common variables](https://auth0.com/docs/customize/email/email-templates#common-variables).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#from EmailTemplate#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#from EmailTemplate#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#id EmailTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#id EmailTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface EmailTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the `reset_email` and `verify_email` templates should include the user's email address as the email parameter in the `returnUrl` (true) or whether no email address should be included in the redirect (false). Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#include_email_in_redirect EmailTemplate#include_email_in_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#include_email_in_redirect EmailTemplate#include_email_in_redirect}
   */
   readonly includeEmailInRedirect?: boolean | cdktf.IResolvable;
   /**
   * URL to redirect the user to after a successful action. [Learn more](https://auth0.com/docs/customize/email/email-templates#configure-template-fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#result_url EmailTemplate#result_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#result_url EmailTemplate#result_url}
   */
   readonly resultUrl?: string;
   /**
   * Subject line of the email. You can include [common variables](https://auth0.com/docs/customize/email/email-templates#common-variables).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#subject EmailTemplate#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#subject EmailTemplate#subject}
   */
   readonly subject: string;
   /**
   * Syntax of the template body. You can use either text or HTML with Liquid syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#syntax EmailTemplate#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#syntax EmailTemplate#syntax}
   */
   readonly syntax: string;
   /**
   * Template name. Options include `verify_email`, `verify_email_by_code`, `reset_email`, `reset_email_by_code`, `welcome_email`, `blocked_account`, `stolen_credentials`, `enrollment_email`, `mfa_oob_code`, `user_invitation`, `change_password` (legacy), `password_reset` (legacy), or `async_approval`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#template EmailTemplate#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#template EmailTemplate#template}
   */
   readonly template: string;
   /**
   * Number of seconds during which the link within the email will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#url_lifetime_in_seconds EmailTemplate#url_lifetime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#url_lifetime_in_seconds EmailTemplate#url_lifetime_in_seconds}
   */
   readonly urlLifetimeInSeconds?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template auth0_email_template}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template auth0_email_template}
 */
 export class EmailTemplate extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class EmailTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmailTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmailTemplate to import
-  * @param importFromId The id of the existing EmailTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmailTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmailTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class EmailTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_template auth0_email_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/email_template auth0_email_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class EmailTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_email_template',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.34.0',
-        providerVersionConstraint: '1.34.0'
+        providerVersion: '1.36.0',
+        providerVersionConstraint: '1.36.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

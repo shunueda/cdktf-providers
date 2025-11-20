@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.388/docs/data-sources/lock
+// https://registry.terraform.io/providers/files-com/files/0.1.391/docs/data-sources/lock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFilesLockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/data-sources/lock#path DataFilesLock#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/data-sources/lock#path DataFilesLock#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/data-sources/lock files_lock}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/data-sources/lock files_lock}
 */
 export class DataFilesLock extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataFilesLock extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFilesLock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFilesLock to import
-  * @param importFromId The id of the existing DataFilesLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/data-sources/lock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFilesLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/data-sources/lock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFilesLock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataFilesLock extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/data-sources/lock files_lock} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.391/docs/data-sources/lock files_lock} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataFilesLock extends cdktf.TerraformDataSource {
       terraformResourceType: 'files_lock',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.388',
-        providerVersionConstraint: '0.1.388'
+        providerVersion: '0.1.391',
+        providerVersionConstraint: '0.1.391'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

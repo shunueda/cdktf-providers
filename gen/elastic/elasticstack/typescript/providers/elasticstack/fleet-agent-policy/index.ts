@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,103 @@ export interface FleetAgentPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the data output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#data_output_id FleetAgentPolicy#data_output_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#data_output_id FleetAgentPolicy#data_output_id}
   */
   readonly dataOutputId?: string;
   /**
   * The description of the agent policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#description FleetAgentPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#description FleetAgentPolicy#description}
   */
   readonly description?: string;
   /**
   * The identifier for the Elastic Agent binary download server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#download_source_id FleetAgentPolicy#download_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#download_source_id FleetAgentPolicy#download_source_id}
   */
   readonly downloadSourceId?: string;
   /**
   * The identifier for the Fleet server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#fleet_server_host_id FleetAgentPolicy#fleet_server_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#fleet_server_host_id FleetAgentPolicy#fleet_server_host_id}
   */
   readonly fleetServerHostId?: string;
   /**
   * User-defined data tags to apply to all inputs. Values can be strings (string_value) or numbers (number_value) but not both. Example -- key1 = {string_value = value1}, key2 = {number_value = 42}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#global_data_tags FleetAgentPolicy#global_data_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#global_data_tags FleetAgentPolicy#global_data_tags}
   */
   readonly globalDataTags?: { [key: string]: FleetAgentPolicyGlobalDataTags } | cdktf.IResolvable;
   /**
   * The inactivity timeout for the agent policy. If an agent does not report within this time period, it will be considered inactive. Supports duration strings (e.g., '30s', '2m', '1h').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#inactivity_timeout FleetAgentPolicy#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#inactivity_timeout FleetAgentPolicy#inactivity_timeout}
   */
   readonly inactivityTimeout?: string;
   /**
   * Enable collection of agent logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#monitor_logs FleetAgentPolicy#monitor_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#monitor_logs FleetAgentPolicy#monitor_logs}
   */
   readonly monitorLogs?: boolean | cdktf.IResolvable;
   /**
   * Enable collection of agent metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#monitor_metrics FleetAgentPolicy#monitor_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#monitor_metrics FleetAgentPolicy#monitor_metrics}
   */
   readonly monitorMetrics?: boolean | cdktf.IResolvable;
   /**
   * The identifier for monitoring output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#monitoring_output_id FleetAgentPolicy#monitoring_output_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#monitoring_output_id FleetAgentPolicy#monitoring_output_id}
   */
   readonly monitoringOutputId?: string;
   /**
   * The name of the agent policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#name FleetAgentPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#name FleetAgentPolicy#name}
   */
   readonly name: string;
   /**
   * The namespace of the agent policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#namespace FleetAgentPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#namespace FleetAgentPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * Unique identifier of the agent policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#policy_id FleetAgentPolicy#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#policy_id FleetAgentPolicy#policy_id}
   */
   readonly policyId?: string;
   /**
   * Set to true if you do not wish the agent policy to be deleted at destroy time, and instead just remove the agent policy from the Terraform state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#skip_destroy FleetAgentPolicy#skip_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#skip_destroy FleetAgentPolicy#skip_destroy}
   */
   readonly skipDestroy?: boolean | cdktf.IResolvable;
   /**
+  * The Kibana space IDs that this agent policy should be available in. When not specified, defaults to ["default"]. Note: The order of space IDs does not matter as this is a set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#space_ids FleetAgentPolicy#space_ids}
+  */
+  readonly spaceIds?: string[];
+  /**
   * Set to true to enable agentless data collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#supports_agentless FleetAgentPolicy#supports_agentless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#supports_agentless FleetAgentPolicy#supports_agentless}
   */
   readonly supportsAgentless?: boolean | cdktf.IResolvable;
   /**
   * Enable collection of system logs and metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#sys_monitoring FleetAgentPolicy#sys_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#sys_monitoring FleetAgentPolicy#sys_monitoring}
   */
   readonly sysMonitoring?: boolean | cdktf.IResolvable;
   /**
   * The unenrollment timeout for the agent policy. If an agent is inactive for this period, it will be automatically unenrolled. Supports duration strings (e.g., '30s', '2m', '1h').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#unenrollment_timeout FleetAgentPolicy#unenrollment_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#unenrollment_timeout FleetAgentPolicy#unenrollment_timeout}
   */
   readonly unenrollmentTimeout?: string;
 }
@@ -108,13 +114,13 @@ export interface FleetAgentPolicyGlobalDataTags {
   /**
   * Number value for the field. If this is set, string_value must not be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#number_value FleetAgentPolicy#number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#number_value FleetAgentPolicy#number_value}
   */
   readonly numberValue?: number;
   /**
   * String value for the field. If this is set, number_value must not be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#string_value FleetAgentPolicy#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#string_value FleetAgentPolicy#string_value}
   */
   readonly stringValue?: string;
 }
@@ -257,7 +263,7 @@ export class FleetAgentPolicyGlobalDataTagsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy elasticstack_fleet_agent_policy}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy elasticstack_fleet_agent_policy}
 */
 export class FleetAgentPolicy extends cdktf.TerraformResource {
 
@@ -273,7 +279,7 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAgentPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAgentPolicy to import
-  * @param importFromId The id of the existing FleetAgentPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAgentPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAgentPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +291,7 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/fleet_agent_policy elasticstack_fleet_agent_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/fleet_agent_policy elasticstack_fleet_agent_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +302,8 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_fleet_agent_policy',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -320,6 +326,7 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
     this._namespace = config.namespace;
     this._policyId = config.policyId;
     this._skipDestroy = config.skipDestroy;
+    this._spaceIds = config.spaceIds;
     this._supportsAgentless = config.supportsAgentless;
     this._sysMonitoring = config.sysMonitoring;
     this._unenrollmentTimeout = config.unenrollmentTimeout;
@@ -536,6 +543,22 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
     return this._skipDestroy;
   }
 
+  // space_ids - computed: true, optional: true, required: false
+  private _spaceIds?: string[]; 
+  public get spaceIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('space_ids'));
+  }
+  public set spaceIds(value: string[]) {
+    this._spaceIds = value;
+  }
+  public resetSpaceIds() {
+    this._spaceIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spaceIdsInput() {
+    return this._spaceIds;
+  }
+
   // supports_agentless - computed: false, optional: true, required: false
   private _supportsAgentless?: boolean | cdktf.IResolvable; 
   public get supportsAgentless() {
@@ -603,6 +626,7 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
       namespace: cdktf.stringToTerraform(this._namespace),
       policy_id: cdktf.stringToTerraform(this._policyId),
       skip_destroy: cdktf.booleanToTerraform(this._skipDestroy),
+      space_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spaceIds),
       supports_agentless: cdktf.booleanToTerraform(this._supportsAgentless),
       sys_monitoring: cdktf.booleanToTerraform(this._sysMonitoring),
       unenrollment_timeout: cdktf.stringToTerraform(this._unenrollmentTimeout),
@@ -688,6 +712,12 @@ export class FleetAgentPolicy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      space_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._spaceIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       supports_agentless: {
         value: cdktf.booleanToHclTerraform(this._supportsAgentless),

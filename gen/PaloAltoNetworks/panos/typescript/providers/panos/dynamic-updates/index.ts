@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DynamicUpdatesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#location DynamicUpdates#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#location DynamicUpdates#location}
   */
   readonly location: DynamicUpdatesLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#update_schedule DynamicUpdates#update_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#update_schedule DynamicUpdates#update_schedule}
   */
   readonly updateSchedule?: DynamicUpdatesUpdateSchedule;
 }
@@ -22,7 +22,7 @@ export interface DynamicUpdatesLocationSystem {
   /**
   * The NGFW device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#ngfw_device DynamicUpdates#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#ngfw_device DynamicUpdates#ngfw_device}
   */
   readonly ngfwDevice?: string;
 }
@@ -118,19 +118,19 @@ export interface DynamicUpdatesLocationTemplate {
   /**
   * The template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#name DynamicUpdates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#name DynamicUpdates#name}
   */
   readonly name?: string;
   /**
   * The NGFW device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#ngfw_device DynamicUpdates#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#ngfw_device DynamicUpdates#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#panorama_device DynamicUpdates#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#panorama_device DynamicUpdates#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -284,19 +284,19 @@ export interface DynamicUpdatesLocationTemplateStack {
   /**
   * The template stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#name DynamicUpdates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#name DynamicUpdates#name}
   */
   readonly name?: string;
   /**
   * The NGFW device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#ngfw_device DynamicUpdates#ngfw_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#ngfw_device DynamicUpdates#ngfw_device}
   */
   readonly ngfwDevice?: string;
   /**
   * The panorama device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#panorama_device DynamicUpdates#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#panorama_device DynamicUpdates#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -450,19 +450,19 @@ export interface DynamicUpdatesLocation {
   /**
   * Located in a system settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#system DynamicUpdates#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#system DynamicUpdates#system}
   */
   readonly systemAttribute?: DynamicUpdatesLocationSystem;
   /**
   * Located in a specific template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#template DynamicUpdates#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#template DynamicUpdates#template}
   */
   readonly template?: DynamicUpdatesLocationTemplate;
   /**
   * Located in a specific template stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#template_stack DynamicUpdates#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#template_stack DynamicUpdates#template_stack}
   */
   readonly templateStack?: DynamicUpdatesLocationTemplateStack;
 }
@@ -614,13 +614,13 @@ export class DynamicUpdatesLocationOutputReference extends cdktf.ComplexObject {
 }
 export interface DynamicUpdatesUpdateScheduleAntiVirusRecurringDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
 }
@@ -743,13 +743,13 @@ export class DynamicUpdatesUpdateScheduleAntiVirusRecurringDailyOutputReference 
 }
 export interface DynamicUpdatesUpdateScheduleAntiVirusRecurringHourly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -931,17 +931,17 @@ export class DynamicUpdatesUpdateScheduleAntiVirusRecurringNoneOutputReference e
 }
 export interface DynamicUpdatesUpdateScheduleAntiVirusRecurringWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -1093,31 +1093,31 @@ export class DynamicUpdatesUpdateScheduleAntiVirusRecurringWeeklyOutputReference
 }
 export interface DynamicUpdatesUpdateScheduleAntiVirusRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
   */
   readonly daily?: DynamicUpdatesUpdateScheduleAntiVirusRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
   */
   readonly hourly?: DynamicUpdatesUpdateScheduleAntiVirusRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleAntiVirusRecurringNone;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
   /**
   * ignore if release date is new (hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threshold DynamicUpdates#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threshold DynamicUpdates#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
   */
   readonly weekly?: DynamicUpdatesUpdateScheduleAntiVirusRecurringWeekly;
 }
@@ -1356,7 +1356,7 @@ export class DynamicUpdatesUpdateScheduleAntiVirusRecurringOutputReference exten
 }
 export interface DynamicUpdatesUpdateScheduleAntiVirus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleAntiVirusRecurring;
 }
@@ -1450,13 +1450,13 @@ export class DynamicUpdatesUpdateScheduleAntiVirusOutputReference extends cdktf.
 }
 export interface DynamicUpdatesUpdateScheduleAppProfileRecurringDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
 }
@@ -1638,17 +1638,17 @@ export class DynamicUpdatesUpdateScheduleAppProfileRecurringNoneOutputReference 
 }
 export interface DynamicUpdatesUpdateScheduleAppProfileRecurringWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -1800,27 +1800,27 @@ export class DynamicUpdatesUpdateScheduleAppProfileRecurringWeeklyOutputReferenc
 }
 export interface DynamicUpdatesUpdateScheduleAppProfileRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
   */
   readonly daily?: DynamicUpdatesUpdateScheduleAppProfileRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleAppProfileRecurringNone;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
   /**
   * ignore if release date is new (hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threshold DynamicUpdates#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threshold DynamicUpdates#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
   */
   readonly weekly?: DynamicUpdatesUpdateScheduleAppProfileRecurringWeekly;
 }
@@ -2030,7 +2030,7 @@ export class DynamicUpdatesUpdateScheduleAppProfileRecurringOutputReference exte
 }
 export interface DynamicUpdatesUpdateScheduleAppProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleAppProfileRecurring;
 }
@@ -2124,13 +2124,13 @@ export class DynamicUpdatesUpdateScheduleAppProfileOutputReference extends cdktf
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
 }
@@ -2253,13 +2253,13 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringDail
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringHourly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -2441,17 +2441,17 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringNone
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -2603,19 +2603,19 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringWeek
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
   */
   readonly daily?: DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
   */
   readonly hourly?: DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
   */
   readonly weekly?: DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringWeekly;
 }
@@ -2796,7 +2796,7 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurringOutp
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnRecurring;
 }
@@ -2890,13 +2890,13 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpnOutputReferen
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
 }
@@ -3019,13 +3019,13 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringDailyOutp
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringHourly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -3207,17 +3207,17 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringNoneOutpu
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
   */
   readonly dayOfWeek?: string;
 }
@@ -3369,19 +3369,19 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringWeeklyOut
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
   */
   readonly daily?: DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
   */
   readonly hourly?: DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringHourly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
   */
   readonly weekly?: DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringWeekly;
 }
@@ -3562,7 +3562,7 @@ export class DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurringOutputRef
 }
 export interface DynamicUpdatesUpdateScheduleGlobalProtectDatafile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleGlobalProtectDatafileRecurring;
 }
@@ -3658,49 +3658,49 @@ export interface DynamicUpdatesUpdateScheduleStatisticsService {
   /**
   * Application Reports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#application_reports DynamicUpdates#application_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#application_reports DynamicUpdates#application_reports}
   */
   readonly applicationReports?: boolean | cdktf.IResolvable;
   /**
   * File Type Identification Reports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#file_identification_reports DynamicUpdates#file_identification_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#file_identification_reports DynamicUpdates#file_identification_reports}
   */
   readonly fileIdentificationReports?: boolean | cdktf.IResolvable;
   /**
   * Health and Performance Reports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#health_performance_reports DynamicUpdates#health_performance_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#health_performance_reports DynamicUpdates#health_performance_reports}
   */
   readonly healthPerformanceReports?: boolean | cdktf.IResolvable;
   /**
   * Passive DNS Monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#passive_dns_monitoring DynamicUpdates#passive_dns_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#passive_dns_monitoring DynamicUpdates#passive_dns_monitoring}
   */
   readonly passiveDnsMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Threat Prevention Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threat_prevention_information DynamicUpdates#threat_prevention_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threat_prevention_information DynamicUpdates#threat_prevention_information}
   */
   readonly threatPreventionInformation?: boolean | cdktf.IResolvable;
   /**
   * Enable sending packet-captures with threat prevention information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threat_prevention_pcap DynamicUpdates#threat_prevention_pcap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threat_prevention_pcap DynamicUpdates#threat_prevention_pcap}
   */
   readonly threatPreventionPcap?: boolean | cdktf.IResolvable;
   /**
   * Threat Reports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threat_prevention_reports DynamicUpdates#threat_prevention_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threat_prevention_reports DynamicUpdates#threat_prevention_reports}
   */
   readonly threatPreventionReports?: boolean | cdktf.IResolvable;
   /**
   * URL Reports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#url_reports DynamicUpdates#url_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#url_reports DynamicUpdates#url_reports}
   */
   readonly urlReports?: boolean | cdktf.IResolvable;
 }
@@ -3997,19 +3997,19 @@ export class DynamicUpdatesUpdateScheduleStatisticsServiceOutputReference extend
 }
 export interface DynamicUpdatesUpdateScheduleThreatsRecurringDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
   /**
   * Disable new applications after installation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
   */
   readonly disableNewContent?: boolean | cdktf.IResolvable;
 }
@@ -4161,19 +4161,19 @@ export class DynamicUpdatesUpdateScheduleThreatsRecurringDailyOutputReference ex
 }
 export interface DynamicUpdatesUpdateScheduleThreatsRecurringEvery30Mins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past half-hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
   /**
   * Disable new applications after installation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
   */
   readonly disableNewContent?: boolean | cdktf.IResolvable;
 }
@@ -4325,19 +4325,19 @@ export class DynamicUpdatesUpdateScheduleThreatsRecurringEvery30MinsOutputRefere
 }
 export interface DynamicUpdatesUpdateScheduleThreatsRecurringHourly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
   /**
   * Disable new applications after installation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
   */
   readonly disableNewContent?: boolean | cdktf.IResolvable;
 }
@@ -4548,23 +4548,23 @@ export class DynamicUpdatesUpdateScheduleThreatsRecurringNoneOutputReference ext
 }
 export interface DynamicUpdatesUpdateScheduleThreatsRecurringWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Time specification hh:mm (e.g. 20:10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#day_of_week DynamicUpdates#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * Disable new applications after installation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#disable_new_content DynamicUpdates#disable_new_content}
   */
   readonly disableNewContent?: boolean | cdktf.IResolvable;
 }
@@ -4745,41 +4745,41 @@ export class DynamicUpdatesUpdateScheduleThreatsRecurringWeeklyOutputReference e
 }
 export interface DynamicUpdatesUpdateScheduleThreatsRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#daily DynamicUpdates#daily}
   */
   readonly daily?: DynamicUpdatesUpdateScheduleThreatsRecurringDaily;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_30_mins DynamicUpdates#every_30_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_30_mins DynamicUpdates#every_30_mins}
   */
   readonly every30Mins?: DynamicUpdatesUpdateScheduleThreatsRecurringEvery30Mins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#hourly DynamicUpdates#hourly}
   */
   readonly hourly?: DynamicUpdatesUpdateScheduleThreatsRecurringHourly;
   /**
   * ignore new apps if release date is new (hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#new_app_threshold DynamicUpdates#new_app_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#new_app_threshold DynamicUpdates#new_app_threshold}
   */
   readonly newAppThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleThreatsRecurringNone;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
   /**
   * ignore if release date is new (hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threshold DynamicUpdates#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threshold DynamicUpdates#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#weekly DynamicUpdates#weekly}
   */
   readonly weekly?: DynamicUpdatesUpdateScheduleThreatsRecurringWeekly;
 }
@@ -5076,7 +5076,7 @@ export class DynamicUpdatesUpdateScheduleThreatsRecurringOutputReference extends
 }
 export interface DynamicUpdatesUpdateScheduleThreats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleThreatsRecurring;
 }
@@ -5170,13 +5170,13 @@ export class DynamicUpdatesUpdateScheduleThreatsOutputReference extends cdktf.Co
 }
 export interface DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery15Mins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes Past Quarter-Hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -5299,13 +5299,13 @@ export class DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery15MinsOutputRefe
 }
 export interface DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery30Mins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes Past Half-Hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -5428,13 +5428,13 @@ export class DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery30MinsOutputRefe
 }
 export interface DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery5Mins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes Past five minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -5557,13 +5557,13 @@ export class DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery5MinsOutputRefer
 }
 export interface DynamicUpdatesUpdateScheduleWfPrivateRecurringEveryHour {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes Past Hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
 }
@@ -5745,29 +5745,29 @@ export class DynamicUpdatesUpdateScheduleWfPrivateRecurringNoneOutputReference e
 }
 export interface DynamicUpdatesUpdateScheduleWfPrivateRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_15_mins DynamicUpdates#every_15_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_15_mins DynamicUpdates#every_15_mins}
   */
   readonly every15Mins?: DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery15Mins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_30_mins DynamicUpdates#every_30_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_30_mins DynamicUpdates#every_30_mins}
   */
   readonly every30Mins?: DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery30Mins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_5_mins DynamicUpdates#every_5_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_5_mins DynamicUpdates#every_5_mins}
   */
   readonly every5Mins?: DynamicUpdatesUpdateScheduleWfPrivateRecurringEvery5Mins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_hour DynamicUpdates#every_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_hour DynamicUpdates#every_hour}
   */
   readonly everyHour?: DynamicUpdatesUpdateScheduleWfPrivateRecurringEveryHour;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleWfPrivateRecurringNone;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
 }
@@ -6006,7 +6006,7 @@ export class DynamicUpdatesUpdateScheduleWfPrivateRecurringOutputReference exten
 }
 export interface DynamicUpdatesUpdateScheduleWfPrivate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleWfPrivateRecurring;
 }
@@ -6100,19 +6100,19 @@ export class DynamicUpdatesUpdateScheduleWfPrivateOutputReference extends cdktf.
 }
 export interface DynamicUpdatesUpdateScheduleWildfireRecurringEvery15Mins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past quarter-hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
 }
@@ -6264,19 +6264,19 @@ export class DynamicUpdatesUpdateScheduleWildfireRecurringEvery15MinsOutputRefer
 }
 export interface DynamicUpdatesUpdateScheduleWildfireRecurringEvery30Mins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past half-hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
 }
@@ -6428,19 +6428,19 @@ export class DynamicUpdatesUpdateScheduleWildfireRecurringEvery30MinsOutputRefer
 }
 export interface DynamicUpdatesUpdateScheduleWildfireRecurringEveryHour {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Minutes past hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#at DynamicUpdates#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#at DynamicUpdates#at}
   */
   readonly at?: number;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
 }
@@ -6592,13 +6592,13 @@ export class DynamicUpdatesUpdateScheduleWildfireRecurringEveryHourOutputReferen
 }
 export interface DynamicUpdatesUpdateScheduleWildfireRecurringEveryMin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#action DynamicUpdates#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#action DynamicUpdates#action}
   */
   readonly action?: string;
   /**
   * Synchronize content with HA peer after download/install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#sync_to_peer DynamicUpdates#sync_to_peer}
   */
   readonly syncToPeer?: boolean | cdktf.IResolvable;
 }
@@ -6839,27 +6839,27 @@ export class DynamicUpdatesUpdateScheduleWildfireRecurringRealTimeOutputReferenc
 }
 export interface DynamicUpdatesUpdateScheduleWildfireRecurring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_15_mins DynamicUpdates#every_15_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_15_mins DynamicUpdates#every_15_mins}
   */
   readonly every15Mins?: DynamicUpdatesUpdateScheduleWildfireRecurringEvery15Mins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_30_mins DynamicUpdates#every_30_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_30_mins DynamicUpdates#every_30_mins}
   */
   readonly every30Mins?: DynamicUpdatesUpdateScheduleWildfireRecurringEvery30Mins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_hour DynamicUpdates#every_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_hour DynamicUpdates#every_hour}
   */
   readonly everyHour?: DynamicUpdatesUpdateScheduleWildfireRecurringEveryHour;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#every_min DynamicUpdates#every_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#every_min DynamicUpdates#every_min}
   */
   readonly everyMin?: DynamicUpdatesUpdateScheduleWildfireRecurringEveryMin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#none DynamicUpdates#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#none DynamicUpdates#none}
   */
   readonly none?: DynamicUpdatesUpdateScheduleWildfireRecurringNone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#real_time DynamicUpdates#real_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#real_time DynamicUpdates#real_time}
   */
   readonly realTime?: DynamicUpdatesUpdateScheduleWildfireRecurringRealTime;
 }
@@ -7098,7 +7098,7 @@ export class DynamicUpdatesUpdateScheduleWildfireRecurringOutputReference extend
 }
 export interface DynamicUpdatesUpdateScheduleWildfire {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#recurring DynamicUpdates#recurring}
   */
   readonly recurring?: DynamicUpdatesUpdateScheduleWildfireRecurring;
 }
@@ -7192,35 +7192,35 @@ export class DynamicUpdatesUpdateScheduleWildfireOutputReference extends cdktf.C
 }
 export interface DynamicUpdatesUpdateSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#anti_virus DynamicUpdates#anti_virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#anti_virus DynamicUpdates#anti_virus}
   */
   readonly antiVirus?: DynamicUpdatesUpdateScheduleAntiVirus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#app_profile DynamicUpdates#app_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#app_profile DynamicUpdates#app_profile}
   */
   readonly appProfile?: DynamicUpdatesUpdateScheduleAppProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#global_protect_clientless_vpn DynamicUpdates#global_protect_clientless_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#global_protect_clientless_vpn DynamicUpdates#global_protect_clientless_vpn}
   */
   readonly globalProtectClientlessVpn?: DynamicUpdatesUpdateScheduleGlobalProtectClientlessVpn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#global_protect_datafile DynamicUpdates#global_protect_datafile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#global_protect_datafile DynamicUpdates#global_protect_datafile}
   */
   readonly globalProtectDatafile?: DynamicUpdatesUpdateScheduleGlobalProtectDatafile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#statistics_service DynamicUpdates#statistics_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#statistics_service DynamicUpdates#statistics_service}
   */
   readonly statisticsService?: DynamicUpdatesUpdateScheduleStatisticsService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#threats DynamicUpdates#threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#threats DynamicUpdates#threats}
   */
   readonly threats?: DynamicUpdatesUpdateScheduleThreats;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#wf_private DynamicUpdates#wf_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#wf_private DynamicUpdates#wf_private}
   */
   readonly wfPrivate?: DynamicUpdatesUpdateScheduleWfPrivate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#wildfire DynamicUpdates#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#wildfire DynamicUpdates#wildfire}
   */
   readonly wildfire?: DynamicUpdatesUpdateScheduleWildfire;
 }
@@ -7517,7 +7517,7 @@ export class DynamicUpdatesUpdateScheduleOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates panos_dynamic_updates}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates panos_dynamic_updates}
 */
 export class DynamicUpdates extends cdktf.TerraformResource {
 
@@ -7533,7 +7533,7 @@ export class DynamicUpdates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicUpdates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicUpdates to import
-  * @param importFromId The id of the existing DynamicUpdates that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicUpdates that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicUpdates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7545,7 +7545,7 @@ export class DynamicUpdates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/resources/dynamic_updates panos_dynamic_updates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/resources/dynamic_updates panos_dynamic_updates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7556,8 +7556,8 @@ export class DynamicUpdates extends cdktf.TerraformResource {
       terraformResourceType: 'panos_dynamic_updates',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

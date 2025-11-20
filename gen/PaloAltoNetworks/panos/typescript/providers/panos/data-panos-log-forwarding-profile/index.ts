@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile
+// https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface DataPanosLogForwardingProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#description DataPanosLogForwardingProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#description DataPanosLogForwardingProfile#description}
   */
   readonly description?: string;
   /**
   * disable object override in child device groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#disable_override DataPanosLogForwardingProfile#disable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#disable_override DataPanosLogForwardingProfile#disable_override}
   */
   readonly disableOverride?: string;
   /**
   * Enabling enhanced-application-logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#enhanced_application_logging DataPanosLogForwardingProfile#enhanced_application_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#enhanced_application_logging DataPanosLogForwardingProfile#enhanced_application_logging}
   */
   readonly enhancedApplicationLogging?: boolean | cdktf.IResolvable;
   /**
   * The location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#location DataPanosLogForwardingProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#location DataPanosLogForwardingProfile#location}
   */
   readonly location: DataPanosLogForwardingProfileLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#match_list DataPanosLogForwardingProfile#match_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#match_list DataPanosLogForwardingProfile#match_list}
   */
   readonly matchList?: DataPanosLogForwardingProfileMatchListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
   */
   readonly name: string;
 }
@@ -42,13 +42,13 @@ export interface DataPanosLogForwardingProfileLocationDeviceGroup {
   /**
   * Device Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
   */
   readonly name?: string;
   /**
   * Panorama device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#panorama_device DataPanosLogForwardingProfile#panorama_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#panorama_device DataPanosLogForwardingProfile#panorama_device}
   */
   readonly panoramaDevice?: string;
 }
@@ -232,13 +232,13 @@ export interface DataPanosLogForwardingProfileLocation {
   /**
   * Located in a specific Device Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#device_group DataPanosLogForwardingProfile#device_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#device_group DataPanosLogForwardingProfile#device_group}
   */
   readonly deviceGroup?: DataPanosLogForwardingProfileLocationDeviceGroup;
   /**
   * Panorama shared object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#shared DataPanosLogForwardingProfile#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#shared DataPanosLogForwardingProfile#shared}
   */
   readonly shared?: DataPanosLogForwardingProfileLocationShared;
 }
@@ -361,7 +361,7 @@ export class DataPanosLogForwardingProfileLocationOutputReference extends cdktf.
 }
 export interface DataPanosLogForwardingProfileMatchListActionsTypeIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#action DataPanosLogForwardingProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#action DataPanosLogForwardingProfile#action}
   */
   readonly action?: string;
 }
@@ -573,7 +573,7 @@ export class DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistratio
 }
 export interface DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistrationRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#http_profile DataPanosLogForwardingProfile#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#http_profile DataPanosLogForwardingProfile#http_profile}
   */
   readonly httpProfile?: string;
 }
@@ -667,15 +667,15 @@ export class DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistratio
 }
 export interface DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#localhost DataPanosLogForwardingProfile#localhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#localhost DataPanosLogForwardingProfile#localhost}
   */
   readonly localhost?: DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistrationLocalhost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#panorama DataPanosLogForwardingProfile#panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#panorama DataPanosLogForwardingProfile#panorama}
   */
   readonly panorama?: DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistrationPanorama;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#remote DataPanosLogForwardingProfile#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#remote DataPanosLogForwardingProfile#remote}
   */
   readonly remote?: DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistrationRemote;
 }
@@ -827,25 +827,25 @@ export class DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistratio
 }
 export interface DataPanosLogForwardingProfileMatchListActionsTypeTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#action DataPanosLogForwardingProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#action DataPanosLogForwardingProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#registration DataPanosLogForwardingProfile#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#registration DataPanosLogForwardingProfile#registration}
   */
   readonly registration?: DataPanosLogForwardingProfileMatchListActionsTypeTaggingRegistration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#tags DataPanosLogForwardingProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#tags DataPanosLogForwardingProfile#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#target DataPanosLogForwardingProfile#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#target DataPanosLogForwardingProfile#target}
   */
   readonly target?: string;
   /**
   * timeout in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#timeout DataPanosLogForwardingProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#timeout DataPanosLogForwardingProfile#timeout}
   */
   readonly timeout?: number;
 }
@@ -1055,11 +1055,11 @@ export class DataPanosLogForwardingProfileMatchListActionsTypeTaggingOutputRefer
 }
 export interface DataPanosLogForwardingProfileMatchListActionsType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#integration DataPanosLogForwardingProfile#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#integration DataPanosLogForwardingProfile#integration}
   */
   readonly integration?: DataPanosLogForwardingProfileMatchListActionsTypeIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#tagging DataPanosLogForwardingProfile#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#tagging DataPanosLogForwardingProfile#tagging}
   */
   readonly tagging?: DataPanosLogForwardingProfileMatchListActionsTypeTagging;
 }
@@ -1182,11 +1182,11 @@ export class DataPanosLogForwardingProfileMatchListActionsTypeOutputReference ex
 }
 export interface DataPanosLogForwardingProfileMatchListActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#type DataPanosLogForwardingProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#type DataPanosLogForwardingProfile#type}
   */
   readonly type?: DataPanosLogForwardingProfileMatchListActionsType;
 }
@@ -1328,49 +1328,49 @@ export class DataPanosLogForwardingProfileMatchListActionsList extends cdktf.Com
 }
 export interface DataPanosLogForwardingProfileMatchListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#action_desc DataPanosLogForwardingProfile#action_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#action_desc DataPanosLogForwardingProfile#action_desc}
   */
   readonly actionDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#actions DataPanosLogForwardingProfile#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#actions DataPanosLogForwardingProfile#actions}
   */
   readonly actions?: DataPanosLogForwardingProfileMatchListActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#filter DataPanosLogForwardingProfile#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#filter DataPanosLogForwardingProfile#filter}
   */
   readonly filter?: string;
   /**
   * Pick log type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#log_type DataPanosLogForwardingProfile#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#log_type DataPanosLogForwardingProfile#log_type}
   */
   readonly logType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#name DataPanosLogForwardingProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#quarantine DataPanosLogForwardingProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#quarantine DataPanosLogForwardingProfile#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#send_email DataPanosLogForwardingProfile#send_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#send_email DataPanosLogForwardingProfile#send_email}
   */
   readonly sendEmail?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#send_http DataPanosLogForwardingProfile#send_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#send_http DataPanosLogForwardingProfile#send_http}
   */
   readonly sendHttp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#send_snmptrap DataPanosLogForwardingProfile#send_snmptrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#send_snmptrap DataPanosLogForwardingProfile#send_snmptrap}
   */
   readonly sendSnmptrap?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#send_syslog DataPanosLogForwardingProfile#send_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#send_syslog DataPanosLogForwardingProfile#send_syslog}
   */
   readonly sendSyslog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#send_to_panorama DataPanosLogForwardingProfile#send_to_panorama}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#send_to_panorama DataPanosLogForwardingProfile#send_to_panorama}
   */
   readonly sendToPanorama?: boolean | cdktf.IResolvable;
 }
@@ -1773,7 +1773,7 @@ export class DataPanosLogForwardingProfileMatchListStructList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile panos_log_forwarding_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile panos_log_forwarding_profile}
 */
 export class DataPanosLogForwardingProfile extends cdktf.TerraformDataSource {
 
@@ -1789,7 +1789,7 @@ export class DataPanosLogForwardingProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPanosLogForwardingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPanosLogForwardingProfile to import
-  * @param importFromId The id of the existing DataPanosLogForwardingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPanosLogForwardingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPanosLogForwardingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1801,7 +1801,7 @@ export class DataPanosLogForwardingProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.5/docs/data-sources/log_forwarding_profile panos_log_forwarding_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/panos/2.0.6/docs/data-sources/log_forwarding_profile panos_log_forwarding_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1812,8 +1812,8 @@ export class DataPanosLogForwardingProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_log_forwarding_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5',
-        providerVersionConstraint: '2.0.5'
+        providerVersion: '2.0.6',
+        providerVersionConstraint: '2.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface KibanaActionConnectorConfig extends cdktf.TerraformMetaArgument
   /**
   * The configuration for the connector. Configuration properties vary depending on the connector type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#config KibanaActionConnector#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#config KibanaActionConnector#config}
   */
   readonly config?: string;
   /**
   * A UUID v1 or v4 to use instead of a randomly generated ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#connector_id KibanaActionConnector#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#connector_id KibanaActionConnector#connector_id}
   */
   readonly connectorId?: string;
   /**
   * The ID of the connector type, e.g. `.index`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#connector_type_id KibanaActionConnector#connector_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#connector_type_id KibanaActionConnector#connector_type_id}
   */
   readonly connectorTypeId: string;
   /**
   * The name of the connector. While this name does not have to be unique, a distinctive name can help you identify a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#name KibanaActionConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#name KibanaActionConnector#name}
   */
   readonly name: string;
   /**
   * The secrets configuration for the connector. Secrets configuration properties vary depending on the connector type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#secrets KibanaActionConnector#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#secrets KibanaActionConnector#secrets}
   */
   readonly secrets?: string;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#space_id KibanaActionConnector#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#space_id KibanaActionConnector#space_id}
   */
   readonly spaceId?: string;
   /**
   * kibana_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#kibana_connection KibanaActionConnector#kibana_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#kibana_connection KibanaActionConnector#kibana_connection}
   */
   readonly kibanaConnection?: KibanaActionConnectorKibanaConnection[] | cdktf.IResolvable;
 }
@@ -54,37 +54,37 @@ export interface KibanaActionConnectorKibanaConnection {
   /**
   * API Key to use for authentication to Kibana
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#api_key KibanaActionConnector#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#api_key KibanaActionConnector#api_key}
   */
   readonly apiKey?: string;
   /**
   * A list of paths to CA certificates to validate the certificate presented by the Kibana server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#ca_certs KibanaActionConnector#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#ca_certs KibanaActionConnector#ca_certs}
   */
   readonly caCerts?: string[];
   /**
   * A comma-separated list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#endpoints KibanaActionConnector#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#endpoints KibanaActionConnector#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#insecure KibanaActionConnector#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#insecure KibanaActionConnector#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password to use for API authentication to Kibana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#password KibanaActionConnector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#password KibanaActionConnector#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Kibana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#username KibanaActionConnector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#username KibanaActionConnector#username}
   */
   readonly username?: string;
 }
@@ -345,7 +345,7 @@ export class KibanaActionConnectorKibanaConnectionList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector elasticstack_kibana_action_connector}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector elasticstack_kibana_action_connector}
 */
 export class KibanaActionConnector extends cdktf.TerraformResource {
 
@@ -361,7 +361,7 @@ export class KibanaActionConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaActionConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaActionConnector to import
-  * @param importFromId The id of the existing KibanaActionConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaActionConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaActionConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class KibanaActionConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/resources/kibana_action_connector elasticstack_kibana_action_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/resources/kibana_action_connector elasticstack_kibana_action_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class KibanaActionConnector extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_action_connector',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

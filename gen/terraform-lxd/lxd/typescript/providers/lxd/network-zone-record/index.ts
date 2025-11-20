@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record
+// https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#config NetworkZoneRecord#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#config NetworkZoneRecord#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#description NetworkZoneRecord#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#description NetworkZoneRecord#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#name NetworkZoneRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#name NetworkZoneRecord#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#project NetworkZoneRecord#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#project NetworkZoneRecord#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#remote NetworkZoneRecord#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#remote NetworkZoneRecord#remote}
   */
   readonly remote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#zone NetworkZoneRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#zone NetworkZoneRecord#zone}
   */
   readonly zone: string;
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#entry NetworkZoneRecord#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#entry NetworkZoneRecord#entry}
   */
   readonly entry?: NetworkZoneRecordEntry[] | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface NetworkZoneRecordEntry {
   /**
   * Record entry TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#ttl NetworkZoneRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#ttl NetworkZoneRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * Record entry type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#type NetworkZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#type NetworkZoneRecord#type}
   */
   readonly type: string;
   /**
   * Record entry value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#value NetworkZoneRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#value NetworkZoneRecord#value}
   */
   readonly value: string;
 }
@@ -222,7 +222,7 @@ export class NetworkZoneRecordEntryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record lxd_network_zone_record}
+* Represents a {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record lxd_network_zone_record}
 */
 export class NetworkZoneRecord extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class NetworkZoneRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkZoneRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkZoneRecord to import
-  * @param importFromId The id of the existing NetworkZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkZoneRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class NetworkZoneRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.0/docs/resources/network_zone_record lxd_network_zone_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-lxd/lxd/2.6.1/docs/resources/network_zone_record lxd_network_zone_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class NetworkZoneRecord extends cdktf.TerraformResource {
       terraformResourceType: 'lxd_network_zone_record',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

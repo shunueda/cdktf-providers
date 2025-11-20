@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudComplianceCustomFrameworkConfig extends cdktf.TerraformMet
   /**
   * A description of the custom compliance framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#description CloudComplianceCustomFramework#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#description CloudComplianceCustomFramework#description}
   */
   readonly description: string;
   /**
   * The name of the custom compliance framework.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#name CloudComplianceCustomFramework#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#name CloudComplianceCustomFramework#name}
   */
   readonly name: string;
   /**
   * Map of sections within the framework. Key is an immutable unique string. Changing the section key will trigger a complete delete and create of the section. Sections cannot exist without controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#sections CloudComplianceCustomFramework#sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#sections CloudComplianceCustomFramework#sections}
   */
   readonly sections?: { [key: string]: CloudComplianceCustomFrameworkSections } | cdktf.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface CloudComplianceCustomFrameworkSectionsControls {
   /**
   * Description of the control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#description CloudComplianceCustomFramework#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#description CloudComplianceCustomFramework#description}
   */
   readonly description: string;
   /**
   * Display name of the compliance framework control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#name CloudComplianceCustomFramework#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#name CloudComplianceCustomFramework#name}
   */
   readonly name: string;
   /**
   * Set of rule IDs assigned to this control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#rules CloudComplianceCustomFramework#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#rules CloudComplianceCustomFramework#rules}
   */
   readonly rules?: string[];
 }
@@ -215,13 +215,13 @@ export interface CloudComplianceCustomFrameworkSections {
   /**
   * Map of controls within the section. Key is an immutable unique string. Changing the control key will trigger a complete delete and create of the control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#controls CloudComplianceCustomFramework#controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#controls CloudComplianceCustomFramework#controls}
   */
   readonly controls: { [key: string]: CloudComplianceCustomFrameworkSectionsControls } | cdktf.IResolvable;
   /**
   * Display name of the compliance framework section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#name CloudComplianceCustomFramework#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#name CloudComplianceCustomFramework#name}
   */
   readonly name: string;
 }
@@ -358,7 +358,7 @@ export class CloudComplianceCustomFrameworkSectionsMap extends cdktf.ComplexMap 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework crowdstrike_cloud_compliance_custom_framework}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework crowdstrike_cloud_compliance_custom_framework}
 */
 export class CloudComplianceCustomFramework extends cdktf.TerraformResource {
 
@@ -374,7 +374,7 @@ export class CloudComplianceCustomFramework extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudComplianceCustomFramework resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudComplianceCustomFramework to import
-  * @param importFromId The id of the existing CloudComplianceCustomFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudComplianceCustomFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudComplianceCustomFramework to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +386,7 @@ export class CloudComplianceCustomFramework extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/cloud_compliance_custom_framework crowdstrike_cloud_compliance_custom_framework} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/cloud_compliance_custom_framework crowdstrike_cloud_compliance_custom_framework} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +397,8 @@ export class CloudComplianceCustomFramework extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_compliance_custom_framework',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.46',
-        providerVersionConstraint: '0.0.46'
+        providerVersion: '0.0.47',
+        providerVersionConstraint: '0.0.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

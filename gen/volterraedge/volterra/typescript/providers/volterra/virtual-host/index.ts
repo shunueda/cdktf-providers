@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,272 +8,427 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_location VirtualHost#add_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_location VirtualHost#add_location}
   */
   readonly addLocation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#annotations VirtualHost#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#annotations VirtualHost#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#append_server_name VirtualHost#append_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#append_server_name VirtualHost#append_server_name}
   */
   readonly appendServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#connection_idle_timeout VirtualHost#connection_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#connection_idle_timeout VirtualHost#connection_idle_timeout}
   */
   readonly connectionIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#custom_errors VirtualHost#custom_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_errors VirtualHost#custom_errors}
   */
   readonly customErrors?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#default_header VirtualHost#default_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_header VirtualHost#default_header}
   */
   readonly defaultHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#default_loadbalancer VirtualHost#default_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_loadbalancer VirtualHost#default_loadbalancer}
   */
   readonly defaultLoadbalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#description VirtualHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#description VirtualHost#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable VirtualHost#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable VirtualHost#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable_default_error_pages VirtualHost#disable_default_error_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_default_error_pages VirtualHost#disable_default_error_pages}
   */
   readonly disableDefaultErrorPages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable_dns_resolve VirtualHost#disable_dns_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_dns_resolve VirtualHost#disable_dns_resolve}
   */
   readonly disableDnsResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable_path_normalize VirtualHost#disable_path_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_path_normalize VirtualHost#disable_path_normalize}
   */
   readonly disablePathNormalize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#domains VirtualHost#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domains VirtualHost#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#enable_path_normalize VirtualHost#enable_path_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_path_normalize VirtualHost#enable_path_normalize}
   */
   readonly enablePathNormalize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#id VirtualHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_strict_sni_host_header_check VirtualHost#enable_strict_sni_host_header_check}
+  */
+  readonly enableStrictSniHostHeaderCheck?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#id VirtualHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#idle_timeout VirtualHost#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#idle_timeout VirtualHost#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#labels VirtualHost#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#labels VirtualHost#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#max_request_header_size VirtualHost#max_request_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_direct_response_body_size VirtualHost#max_direct_response_body_size}
+  */
+  readonly maxDirectResponseBodySize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_request_header_size VirtualHost#max_request_header_size}
   */
   readonly maxRequestHeaderSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#no_authentication VirtualHost#no_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_authentication VirtualHost#no_authentication}
   */
   readonly noAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#no_challenge VirtualHost#no_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_challenge VirtualHost#no_challenge}
   */
   readonly noChallenge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#non_default_loadbalancer VirtualHost#non_default_loadbalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#non_default_loadbalancer VirtualHost#non_default_loadbalancer}
   */
   readonly nonDefaultLoadbalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#pass_through VirtualHost#pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#pass_through VirtualHost#pass_through}
   */
   readonly passThrough?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#proxy VirtualHost#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#proxy VirtualHost#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#request_cookies_to_remove VirtualHost#request_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_cookies_to_remove VirtualHost#request_cookies_to_remove}
   */
   readonly requestCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#request_headers_to_remove VirtualHost#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_headers_to_remove VirtualHost#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#response_cookies_to_remove VirtualHost#response_cookies_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_cookies_to_remove VirtualHost#response_cookies_to_remove}
   */
   readonly responseCookiesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#response_headers_to_remove VirtualHost#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_headers_to_remove VirtualHost#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#server_name VirtualHost#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#server_name VirtualHost#server_name}
   */
   readonly serverName?: string;
   /**
+  * additional_domains block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#additional_domains VirtualHost#additional_domains}
+  */
+  readonly additionalDomains?: VirtualHostAdditionalDomains;
+  /**
   * advertise_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#advertise_policies VirtualHost#advertise_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#advertise_policies VirtualHost#advertise_policies}
   */
   readonly advertisePolicies?: VirtualHostAdvertisePolicies[] | cdktf.IResolvable;
   /**
+  * api_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#api_spec VirtualHost#api_spec}
+  */
+  readonly apiSpec?: VirtualHostApiSpec;
+  /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#authentication VirtualHost#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#authentication VirtualHost#authentication}
   */
   readonly authentication?: VirtualHostAuthentication;
   /**
   * buffer_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#buffer_policy VirtualHost#buffer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#buffer_policy VirtualHost#buffer_policy}
   */
   readonly bufferPolicy?: VirtualHostBufferPolicy;
   /**
   * captcha_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#captcha_challenge VirtualHost#captcha_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#captcha_challenge VirtualHost#captcha_challenge}
   */
   readonly captchaChallenge?: VirtualHostCaptchaChallenge;
   /**
   * coalescing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#coalescing_options VirtualHost#coalescing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#coalescing_options VirtualHost#coalescing_options}
   */
   readonly coalescingOptions?: VirtualHostCoalescingOptions;
   /**
   * compression_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#compression_params VirtualHost#compression_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#compression_params VirtualHost#compression_params}
   */
   readonly compressionParams?: VirtualHostCompressionParams;
   /**
+  * cookies_to_modify block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookies_to_modify VirtualHost#cookies_to_modify}
+  */
+  readonly cookiesToModify?: VirtualHostCookiesToModify[] | cdktf.IResolvable;
+  /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#cors_policy VirtualHost#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cors_policy VirtualHost#cors_policy}
   */
   readonly corsPolicy?: VirtualHostCorsPolicy;
   /**
   * csrf_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#csrf_policy VirtualHost#csrf_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#csrf_policy VirtualHost#csrf_policy}
   */
   readonly csrfPolicy?: VirtualHostCsrfPolicy;
   /**
+  * dns_proxy_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#dns_proxy_configuration VirtualHost#dns_proxy_configuration}
+  */
+  readonly dnsProxyConfiguration?: VirtualHostDnsProxyConfiguration;
+  /**
+  * domain_cert_map block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domain_cert_map VirtualHost#domain_cert_map}
+  */
+  readonly domainCertMap?: VirtualHostDomainCertMap;
+  /**
   * dynamic_reverse_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#dynamic_reverse_proxy VirtualHost#dynamic_reverse_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#dynamic_reverse_proxy VirtualHost#dynamic_reverse_proxy}
   */
   readonly dynamicReverseProxy?: VirtualHostDynamicReverseProxy;
   /**
+  * header_transformation_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#header_transformation_type VirtualHost#header_transformation_type}
+  */
+  readonly headerTransformationType?: VirtualHostHeaderTransformationType;
+  /**
   * http_protocol_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#http_protocol_options VirtualHost#http_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_options VirtualHost#http_protocol_options}
   */
   readonly httpProtocolOptions?: VirtualHostHttpProtocolOptions;
   /**
   * js_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#js_challenge VirtualHost#js_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#js_challenge VirtualHost#js_challenge}
   */
   readonly jsChallenge?: VirtualHostJsChallenge;
   /**
+  * masking_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#masking_config VirtualHost#masking_config}
+  */
+  readonly maskingConfig?: VirtualHostMaskingConfig;
+  /**
   * rate_limiter_allowed_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#rate_limiter_allowed_prefixes VirtualHost#rate_limiter_allowed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#rate_limiter_allowed_prefixes VirtualHost#rate_limiter_allowed_prefixes}
   */
   readonly rateLimiterAllowedPrefixes?: VirtualHostRateLimiterAllowedPrefixes[] | cdktf.IResolvable;
   /**
   * request_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#request_cookies_to_add VirtualHost#request_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_cookies_to_add VirtualHost#request_cookies_to_add}
   */
   readonly requestCookiesToAdd?: VirtualHostRequestCookiesToAdd[] | cdktf.IResolvable;
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#request_headers_to_add VirtualHost#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_headers_to_add VirtualHost#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: VirtualHostRequestHeadersToAdd[] | cdktf.IResolvable;
   /**
   * response_cookies_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#response_cookies_to_add VirtualHost#response_cookies_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_cookies_to_add VirtualHost#response_cookies_to_add}
   */
   readonly responseCookiesToAdd?: VirtualHostResponseCookiesToAdd[] | cdktf.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#response_headers_to_add VirtualHost#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#response_headers_to_add VirtualHost#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: VirtualHostResponseHeadersToAdd[] | cdktf.IResolvable;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#retry_policy VirtualHost#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retry_policy VirtualHost#retry_policy}
   */
   readonly retryPolicy?: VirtualHostRetryPolicy;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#routes VirtualHost#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#routes VirtualHost#routes}
   */
   readonly routes?: VirtualHostRoutes[] | cdktf.IResolvable;
   /**
   * sensitive_data_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#sensitive_data_policy VirtualHost#sensitive_data_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#sensitive_data_policy VirtualHost#sensitive_data_policy}
   */
   readonly sensitiveDataPolicy?: VirtualHostSensitiveDataPolicy[] | cdktf.IResolvable;
   /**
   * slow_ddos_mitigation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#slow_ddos_mitigation VirtualHost#slow_ddos_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#slow_ddos_mitigation VirtualHost#slow_ddos_mitigation}
   */
   readonly slowDdosMitigation?: VirtualHostSlowDdosMitigation;
   /**
+  * temporary_user_blocking block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#temporary_user_blocking VirtualHost#temporary_user_blocking}
+  */
+  readonly temporaryUserBlocking?: VirtualHostTemporaryUserBlocking;
+  /**
+  * tls_cert_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tls_cert_params VirtualHost#tls_cert_params}
+  */
+  readonly tlsCertParams?: VirtualHostTlsCertParams;
+  /**
+  * tls_parameters block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tls_parameters VirtualHost#tls_parameters}
+  */
+  readonly tlsParameters?: VirtualHostTlsParameters;
+  /**
   * user_identification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#user_identification VirtualHost#user_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#user_identification VirtualHost#user_identification}
   */
   readonly userIdentification?: VirtualHostUserIdentification[] | cdktf.IResolvable;
   /**
   * waf_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#waf_type VirtualHost#waf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#waf_type VirtualHost#waf_type}
   */
   readonly wafType?: VirtualHostWafType;
+  /**
+  * ztna_proxy_configurations block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ztna_proxy_configurations VirtualHost#ztna_proxy_configurations}
+  */
+  readonly ztnaProxyConfigurations?: VirtualHostZtnaProxyConfigurations;
+}
+export interface VirtualHostAdditionalDomains {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domains VirtualHost#domains}
+  */
+  readonly domains: string[];
+}
+
+export function virtualHostAdditionalDomainsToTerraform(struct?: VirtualHostAdditionalDomainsOutputReference | VirtualHostAdditionalDomains): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    domains: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.domains),
+  }
+}
+
+
+export function virtualHostAdditionalDomainsToHclTerraform(struct?: VirtualHostAdditionalDomainsOutputReference | VirtualHostAdditionalDomains): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    domains: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.domains),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAdditionalDomainsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAdditionalDomains | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._domains !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domains = this._domains;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAdditionalDomains | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._domains = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._domains = value.domains;
+    }
+  }
+
+  // domains - computed: false, optional: false, required: true
+  private _domains?: string[]; 
+  public get domains() {
+    return this.getListAttribute('domains');
+  }
+  public set domains(value: string[]) {
+    this._domains = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainsInput() {
+    return this._domains;
+  }
 }
 export interface VirtualHostAdvertisePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -450,17 +605,501 @@ export class VirtualHostAdvertisePoliciesList extends cdktf.ComplexList {
     return new VirtualHostAdvertisePoliciesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface VirtualHostAuthenticationAuthConfig {
+export interface VirtualHostApiSpecApiDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostApiSpecApiDefinitionToTerraform(struct?: VirtualHostApiSpecApiDefinitionOutputReference | VirtualHostApiSpecApiDefinition): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostApiSpecApiDefinitionToHclTerraform(struct?: VirtualHostApiSpecApiDefinitionOutputReference | VirtualHostApiSpecApiDefinition): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostApiSpecApiDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostApiSpecApiDefinition | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostApiSpecApiDefinition | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface VirtualHostApiSpecEnableOpenApiValidation {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_only_specified_headers VirtualHost#allow_only_specified_headers}
+  */
+  readonly allowOnlySpecifiedHeaders?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_only_specified_query_params VirtualHost#allow_only_specified_query_params}
+  */
+  readonly allowOnlySpecifiedQueryParams?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#fail_close VirtualHost#fail_close}
+  */
+  readonly failClose?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#fail_oversized_body_validation VirtualHost#fail_oversized_body_validation}
+  */
+  readonly failOversizedBodyValidation?: boolean | cdktf.IResolvable;
+}
+
+export function virtualHostApiSpecEnableOpenApiValidationToTerraform(struct?: VirtualHostApiSpecEnableOpenApiValidationOutputReference | VirtualHostApiSpecEnableOpenApiValidation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_only_specified_headers: cdktf.booleanToTerraform(struct!.allowOnlySpecifiedHeaders),
+    allow_only_specified_query_params: cdktf.booleanToTerraform(struct!.allowOnlySpecifiedQueryParams),
+    fail_close: cdktf.booleanToTerraform(struct!.failClose),
+    fail_oversized_body_validation: cdktf.booleanToTerraform(struct!.failOversizedBodyValidation),
+  }
+}
+
+
+export function virtualHostApiSpecEnableOpenApiValidationToHclTerraform(struct?: VirtualHostApiSpecEnableOpenApiValidationOutputReference | VirtualHostApiSpecEnableOpenApiValidation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_only_specified_headers: {
+      value: cdktf.booleanToHclTerraform(struct!.allowOnlySpecifiedHeaders),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    allow_only_specified_query_params: {
+      value: cdktf.booleanToHclTerraform(struct!.allowOnlySpecifiedQueryParams),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    fail_close: {
+      value: cdktf.booleanToHclTerraform(struct!.failClose),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    fail_oversized_body_validation: {
+      value: cdktf.booleanToHclTerraform(struct!.failOversizedBodyValidation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostApiSpecEnableOpenApiValidationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostApiSpecEnableOpenApiValidation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowOnlySpecifiedHeaders !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowOnlySpecifiedHeaders = this._allowOnlySpecifiedHeaders;
+    }
+    if (this._allowOnlySpecifiedQueryParams !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowOnlySpecifiedQueryParams = this._allowOnlySpecifiedQueryParams;
+    }
+    if (this._failClose !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failClose = this._failClose;
+    }
+    if (this._failOversizedBodyValidation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failOversizedBodyValidation = this._failOversizedBodyValidation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostApiSpecEnableOpenApiValidation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowOnlySpecifiedHeaders = undefined;
+      this._allowOnlySpecifiedQueryParams = undefined;
+      this._failClose = undefined;
+      this._failOversizedBodyValidation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowOnlySpecifiedHeaders = value.allowOnlySpecifiedHeaders;
+      this._allowOnlySpecifiedQueryParams = value.allowOnlySpecifiedQueryParams;
+      this._failClose = value.failClose;
+      this._failOversizedBodyValidation = value.failOversizedBodyValidation;
+    }
+  }
+
+  // allow_only_specified_headers - computed: false, optional: true, required: false
+  private _allowOnlySpecifiedHeaders?: boolean | cdktf.IResolvable; 
+  public get allowOnlySpecifiedHeaders() {
+    return this.getBooleanAttribute('allow_only_specified_headers');
+  }
+  public set allowOnlySpecifiedHeaders(value: boolean | cdktf.IResolvable) {
+    this._allowOnlySpecifiedHeaders = value;
+  }
+  public resetAllowOnlySpecifiedHeaders() {
+    this._allowOnlySpecifiedHeaders = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowOnlySpecifiedHeadersInput() {
+    return this._allowOnlySpecifiedHeaders;
+  }
+
+  // allow_only_specified_query_params - computed: false, optional: true, required: false
+  private _allowOnlySpecifiedQueryParams?: boolean | cdktf.IResolvable; 
+  public get allowOnlySpecifiedQueryParams() {
+    return this.getBooleanAttribute('allow_only_specified_query_params');
+  }
+  public set allowOnlySpecifiedQueryParams(value: boolean | cdktf.IResolvable) {
+    this._allowOnlySpecifiedQueryParams = value;
+  }
+  public resetAllowOnlySpecifiedQueryParams() {
+    this._allowOnlySpecifiedQueryParams = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowOnlySpecifiedQueryParamsInput() {
+    return this._allowOnlySpecifiedQueryParams;
+  }
+
+  // fail_close - computed: false, optional: true, required: false
+  private _failClose?: boolean | cdktf.IResolvable; 
+  public get failClose() {
+    return this.getBooleanAttribute('fail_close');
+  }
+  public set failClose(value: boolean | cdktf.IResolvable) {
+    this._failClose = value;
+  }
+  public resetFailClose() {
+    this._failClose = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failCloseInput() {
+    return this._failClose;
+  }
+
+  // fail_oversized_body_validation - computed: false, optional: true, required: false
+  private _failOversizedBodyValidation?: boolean | cdktf.IResolvable; 
+  public get failOversizedBodyValidation() {
+    return this.getBooleanAttribute('fail_oversized_body_validation');
+  }
+  public set failOversizedBodyValidation(value: boolean | cdktf.IResolvable) {
+    this._failOversizedBodyValidation = value;
+  }
+  public resetFailOversizedBodyValidation() {
+    this._failOversizedBodyValidation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failOversizedBodyValidationInput() {
+    return this._failOversizedBodyValidation;
+  }
+}
+export interface VirtualHostApiSpec {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_open_api_validation VirtualHost#disable_open_api_validation}
+  */
+  readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
+  /**
+  * api_definition block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#api_definition VirtualHost#api_definition}
+  */
+  readonly apiDefinition: VirtualHostApiSpecApiDefinition;
+  /**
+  * enable_open_api_validation block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_open_api_validation VirtualHost#enable_open_api_validation}
+  */
+  readonly enableOpenApiValidation?: VirtualHostApiSpecEnableOpenApiValidation;
+}
+
+export function virtualHostApiSpecToTerraform(struct?: VirtualHostApiSpecOutputReference | VirtualHostApiSpec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_open_api_validation: cdktf.booleanToTerraform(struct!.disableOpenApiValidation),
+    api_definition: virtualHostApiSpecApiDefinitionToTerraform(struct!.apiDefinition),
+    enable_open_api_validation: virtualHostApiSpecEnableOpenApiValidationToTerraform(struct!.enableOpenApiValidation),
+  }
+}
+
+
+export function virtualHostApiSpecToHclTerraform(struct?: VirtualHostApiSpecOutputReference | VirtualHostApiSpec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_open_api_validation: {
+      value: cdktf.booleanToHclTerraform(struct!.disableOpenApiValidation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    api_definition: {
+      value: virtualHostApiSpecApiDefinitionToHclTerraform(struct!.apiDefinition),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostApiSpecApiDefinitionList",
+    },
+    enable_open_api_validation: {
+      value: virtualHostApiSpecEnableOpenApiValidationToHclTerraform(struct!.enableOpenApiValidation),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostApiSpecEnableOpenApiValidationList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostApiSpecOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostApiSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableOpenApiValidation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableOpenApiValidation = this._disableOpenApiValidation;
+    }
+    if (this._apiDefinition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiDefinition = this._apiDefinition?.internalValue;
+    }
+    if (this._enableOpenApiValidation?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableOpenApiValidation = this._enableOpenApiValidation?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostApiSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disableOpenApiValidation = undefined;
+      this._apiDefinition.internalValue = undefined;
+      this._enableOpenApiValidation.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableOpenApiValidation = value.disableOpenApiValidation;
+      this._apiDefinition.internalValue = value.apiDefinition;
+      this._enableOpenApiValidation.internalValue = value.enableOpenApiValidation;
+    }
+  }
+
+  // disable_open_api_validation - computed: false, optional: true, required: false
+  private _disableOpenApiValidation?: boolean | cdktf.IResolvable; 
+  public get disableOpenApiValidation() {
+    return this.getBooleanAttribute('disable_open_api_validation');
+  }
+  public set disableOpenApiValidation(value: boolean | cdktf.IResolvable) {
+    this._disableOpenApiValidation = value;
+  }
+  public resetDisableOpenApiValidation() {
+    this._disableOpenApiValidation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableOpenApiValidationInput() {
+    return this._disableOpenApiValidation;
+  }
+
+  // api_definition - computed: false, optional: false, required: true
+  private _apiDefinition = new VirtualHostApiSpecApiDefinitionOutputReference(this, "api_definition");
+  public get apiDefinition() {
+    return this._apiDefinition;
+  }
+  public putApiDefinition(value: VirtualHostApiSpecApiDefinition) {
+    this._apiDefinition.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiDefinitionInput() {
+    return this._apiDefinition.internalValue;
+  }
+
+  // enable_open_api_validation - computed: false, optional: true, required: false
+  private _enableOpenApiValidation = new VirtualHostApiSpecEnableOpenApiValidationOutputReference(this, "enable_open_api_validation");
+  public get enableOpenApiValidation() {
+    return this._enableOpenApiValidation;
+  }
+  public putEnableOpenApiValidation(value: VirtualHostApiSpecEnableOpenApiValidation) {
+    this._enableOpenApiValidation.internalValue = value;
+  }
+  public resetEnableOpenApiValidation() {
+    this._enableOpenApiValidation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableOpenApiValidationInput() {
+    return this._enableOpenApiValidation.internalValue;
+  }
+}
+export interface VirtualHostAuthenticationAuthConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -639,15 +1278,15 @@ export class VirtualHostAuthenticationAuthConfigList extends cdktf.ComplexList {
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -784,13 +1423,160 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecret
     return this._storeProvider;
   }
 }
+export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -898,19 +1684,332 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfo
     return this._url;
   }
 }
+export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface VirtualHostAuthenticationCookieParamsAuthHmacPrimKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo;
 }
 
 export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacPrimKey): any {
@@ -919,8 +2018,12 @@ export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyToTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -931,17 +2034,41 @@ export function virtualHostAuthenticationCookieParamsAuthHmacPrimKeyToHclTerrafo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoList",
     },
   };
 
@@ -963,13 +2090,29 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyOutputReference
   public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacPrimKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -977,14 +2120,38 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyOutputReference
   public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -1003,6 +2170,22 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyOutputReference
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -1018,18 +2201,50 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyOutputReference
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostAuthenticationCookieParamsAuthHmacPrimKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -1166,13 +2381,160 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretI
     return this._storeProvider;
   }
 }
+export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -1280,19 +2642,332 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfoO
     return this._url;
   }
 }
+export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface VirtualHostAuthenticationCookieParamsAuthHmacSecKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo;
 }
 
 export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyToTerraform(struct?: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyOutputReference | VirtualHostAuthenticationCookieParamsAuthHmacSecKey): any {
@@ -1301,8 +2976,12 @@ export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyToTerraform(s
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: virtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: virtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -1313,17 +2992,41 @@ export function virtualHostAuthenticationCookieParamsAuthHmacSecKeyToHclTerrafor
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: virtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: virtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: virtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoList",
     },
   };
 
@@ -1345,13 +3048,29 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyOutputReference 
   public get internalValue(): VirtualHostAuthenticationCookieParamsAuthHmacSecKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1359,14 +3078,38 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyOutputReference 
   public set internalValue(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -1385,6 +3128,22 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyOutputReference 
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new VirtualHostAuthenticationCookieParamsAuthHmacSecKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -1400,26 +3159,58 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacSecKeyOutputReference 
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostAuthenticationCookieParamsAuthHmacSecKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface VirtualHostAuthenticationCookieParamsAuthHmac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#prim_key_expiry VirtualHost#prim_key_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#prim_key_expiry VirtualHost#prim_key_expiry}
   */
   readonly primKeyExpiry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#sec_key_expiry VirtualHost#sec_key_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#sec_key_expiry VirtualHost#sec_key_expiry}
   */
   readonly secKeyExpiry: string;
   /**
   * prim_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#prim_key VirtualHost#prim_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#prim_key VirtualHost#prim_key}
   */
   readonly primKey: VirtualHostAuthenticationCookieParamsAuthHmacPrimKey;
   /**
   * sec_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#sec_key VirtualHost#sec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#sec_key VirtualHost#sec_key}
   */
   readonly secKey: VirtualHostAuthenticationCookieParamsAuthHmacSecKey;
 }
@@ -1576,7 +3367,163 @@ export class VirtualHostAuthenticationCookieParamsAuthHmacOutputReference extend
     return this._secKey.internalValue;
   }
 }
+export interface VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsToTerraform(struct?: VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsOutputReference | VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsToHclTerraform(struct?: VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsOutputReference | VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
 export interface VirtualHostAuthenticationCookieParamsKmsKeyHmac {
+  /**
+  * auth_hmac_kms block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#auth_hmac_kms VirtualHost#auth_hmac_kms}
+  */
+  readonly authHmacKms?: VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms;
 }
 
 export function virtualHostAuthenticationCookieParamsKmsKeyHmacToTerraform(struct?: VirtualHostAuthenticationCookieParamsKmsKeyHmacOutputReference | VirtualHostAuthenticationCookieParamsKmsKeyHmac): any {
@@ -1585,6 +3532,7 @@ export function virtualHostAuthenticationCookieParamsKmsKeyHmacToTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    auth_hmac_kms: virtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsToTerraform(struct!.authHmacKms),
   }
 }
 
@@ -1595,8 +3543,16 @@ export function virtualHostAuthenticationCookieParamsKmsKeyHmacToHclTerraform(st
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    auth_hmac_kms: {
+      value: virtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsToHclTerraform(struct!.authHmacKms),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsList",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class VirtualHostAuthenticationCookieParamsKmsKeyHmacOutputReference extends cdktf.ComplexObject {
@@ -1613,41 +3569,63 @@ export class VirtualHostAuthenticationCookieParamsKmsKeyHmacOutputReference exte
   public get internalValue(): VirtualHostAuthenticationCookieParamsKmsKeyHmac | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._authHmacKms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authHmacKms = this._authHmacKms?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: VirtualHostAuthenticationCookieParamsKmsKeyHmac | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._authHmacKms.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._authHmacKms.internalValue = value.authHmacKms;
     }
+  }
+
+  // auth_hmac_kms - computed: false, optional: true, required: false
+  private _authHmacKms = new VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKmsOutputReference(this, "auth_hmac_kms");
+  public get authHmacKms() {
+    return this._authHmacKms;
+  }
+  public putAuthHmacKms(value: VirtualHostAuthenticationCookieParamsKmsKeyHmacAuthHmacKms) {
+    this._authHmacKms.internalValue = value;
+  }
+  public resetAuthHmacKms() {
+    this._authHmacKms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authHmacKmsInput() {
+    return this._authHmacKms.internalValue;
   }
 }
 export interface VirtualHostAuthenticationCookieParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
   */
   readonly cookieExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#cookie_refresh_interval VirtualHost#cookie_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_refresh_interval VirtualHost#cookie_refresh_interval}
   */
   readonly cookieRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#session_expiry VirtualHost#session_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#session_expiry VirtualHost#session_expiry}
   */
   readonly sessionExpiry?: number;
   /**
   * auth_hmac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#auth_hmac VirtualHost#auth_hmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#auth_hmac VirtualHost#auth_hmac}
   */
   readonly authHmac?: VirtualHostAuthenticationCookieParamsAuthHmac;
   /**
   * kms_key_hmac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#kms_key_hmac VirtualHost#kms_key_hmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#kms_key_hmac VirtualHost#kms_key_hmac}
   */
   readonly kmsKeyHmac?: VirtualHostAuthenticationCookieParamsKmsKeyHmac;
 }
@@ -1847,27 +3825,27 @@ export class VirtualHostAuthenticationCookieParamsOutputReference extends cdktf.
 }
 export interface VirtualHostAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#redirect_dynamic VirtualHost#redirect_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#redirect_dynamic VirtualHost#redirect_dynamic}
   */
   readonly redirectDynamic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#redirect_url VirtualHost#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#redirect_url VirtualHost#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#use_auth_object_config VirtualHost#use_auth_object_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_auth_object_config VirtualHost#use_auth_object_config}
   */
   readonly useAuthObjectConfig?: boolean | cdktf.IResolvable;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#auth_config VirtualHost#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#auth_config VirtualHost#auth_config}
   */
   readonly authConfig: VirtualHostAuthenticationAuthConfig[] | cdktf.IResolvable;
   /**
   * cookie_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#cookie_params VirtualHost#cookie_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_params VirtualHost#cookie_params}
   */
   readonly cookieParams?: VirtualHostAuthenticationCookieParams;
 }
@@ -2064,13 +4042,17 @@ export class VirtualHostAuthenticationOutputReference extends cdktf.ComplexObjec
 }
 export interface VirtualHostBufferPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disabled VirtualHost#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disabled VirtualHost#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#max_request_bytes VirtualHost#max_request_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_request_bytes VirtualHost#max_request_bytes}
   */
   readonly maxRequestBytes?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_request_time VirtualHost#max_request_time}
+  */
+  readonly maxRequestTime?: number;
 }
 
 export function virtualHostBufferPolicyToTerraform(struct?: VirtualHostBufferPolicyOutputReference | VirtualHostBufferPolicy): any {
@@ -2081,6 +4063,7 @@ export function virtualHostBufferPolicyToTerraform(struct?: VirtualHostBufferPol
   return {
     disabled: cdktf.booleanToTerraform(struct!.disabled),
     max_request_bytes: cdktf.numberToTerraform(struct!.maxRequestBytes),
+    max_request_time: cdktf.numberToTerraform(struct!.maxRequestTime),
   }
 }
 
@@ -2099,6 +4082,12 @@ export function virtualHostBufferPolicyToHclTerraform(struct?: VirtualHostBuffer
     },
     max_request_bytes: {
       value: cdktf.numberToHclTerraform(struct!.maxRequestBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_request_time: {
+      value: cdktf.numberToHclTerraform(struct!.maxRequestTime),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2131,6 +4120,10 @@ export class VirtualHostBufferPolicyOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.maxRequestBytes = this._maxRequestBytes;
     }
+    if (this._maxRequestTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxRequestTime = this._maxRequestTime;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2139,11 +4132,13 @@ export class VirtualHostBufferPolicyOutputReference extends cdktf.ComplexObject 
       this.isEmptyObject = false;
       this._disabled = undefined;
       this._maxRequestBytes = undefined;
+      this._maxRequestTime = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._disabled = value.disabled;
       this._maxRequestBytes = value.maxRequestBytes;
+      this._maxRequestTime = value.maxRequestTime;
     }
   }
 
@@ -2178,14 +4173,30 @@ export class VirtualHostBufferPolicyOutputReference extends cdktf.ComplexObject 
   public get maxRequestBytesInput() {
     return this._maxRequestBytes;
   }
+
+  // max_request_time - computed: false, optional: true, required: false
+  private _maxRequestTime?: number; 
+  public get maxRequestTime() {
+    return this.getNumberAttribute('max_request_time');
+  }
+  public set maxRequestTime(value: number) {
+    this._maxRequestTime = value;
+  }
+  public resetMaxRequestTime() {
+    this._maxRequestTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxRequestTimeInput() {
+    return this._maxRequestTime;
+  }
 }
 export interface VirtualHostCaptchaChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
   */
   readonly cookieExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
   */
   readonly customPage?: string;
 }
@@ -2298,11 +4309,11 @@ export class VirtualHostCaptchaChallengeOutputReference extends cdktf.ComplexObj
 }
 export interface VirtualHostCoalescingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#default_coalescing VirtualHost#default_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_coalescing VirtualHost#default_coalescing}
   */
   readonly defaultCoalescing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#strict_coalescing VirtualHost#strict_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#strict_coalescing VirtualHost#strict_coalescing}
   */
   readonly strictCoalescing?: boolean | cdktf.IResolvable;
 }
@@ -2415,19 +4426,19 @@ export class VirtualHostCoalescingOptionsOutputReference extends cdktf.ComplexOb
 }
 export interface VirtualHostCompressionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#content_length VirtualHost#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#content_length VirtualHost#content_length}
   */
   readonly contentLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#content_type VirtualHost#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#content_type VirtualHost#content_type}
   */
   readonly contentType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable_on_etag_header VirtualHost#disable_on_etag_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_on_etag_header VirtualHost#disable_on_etag_header}
   */
   readonly disableOnEtagHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#remove_accept_encoding_header VirtualHost#remove_accept_encoding_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#remove_accept_encoding_header VirtualHost#remove_accept_encoding_header}
   */
   readonly removeAcceptEncodingHeader?: boolean | cdktf.IResolvable;
 }
@@ -2596,37 +4607,550 @@ export class VirtualHostCompressionParamsOutputReference extends cdktf.ComplexOb
     return this._removeAcceptEncodingHeader;
   }
 }
+export interface VirtualHostCookiesToModify {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
+  */
+  readonly addHttponly?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
+  */
+  readonly addSecure?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_tampering_protection VirtualHost#disable_tampering_protection}
+  */
+  readonly disableTamperingProtection?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_tampering_protection VirtualHost#enable_tampering_protection}
+  */
+  readonly enableTamperingProtection?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
+  */
+  readonly ignoreHttponly?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
+  */
+  readonly ignoreMaxAge?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
+  */
+  readonly ignoreSamesite?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
+  */
+  readonly ignoreSecure?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
+  */
+  readonly maxAgeValue?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
+  */
+  readonly samesiteLax?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
+  */
+  readonly samesiteNone?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
+  */
+  readonly samesiteStrict?: boolean | cdktf.IResolvable;
+}
+
+export function virtualHostCookiesToModifyToTerraform(struct?: VirtualHostCookiesToModify | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    add_httponly: cdktf.booleanToTerraform(struct!.addHttponly),
+    add_secure: cdktf.booleanToTerraform(struct!.addSecure),
+    disable_tampering_protection: cdktf.booleanToTerraform(struct!.disableTamperingProtection),
+    enable_tampering_protection: cdktf.booleanToTerraform(struct!.enableTamperingProtection),
+    ignore_httponly: cdktf.booleanToTerraform(struct!.ignoreHttponly),
+    ignore_max_age: cdktf.booleanToTerraform(struct!.ignoreMaxAge),
+    ignore_samesite: cdktf.booleanToTerraform(struct!.ignoreSamesite),
+    ignore_secure: cdktf.booleanToTerraform(struct!.ignoreSecure),
+    max_age_value: cdktf.numberToTerraform(struct!.maxAgeValue),
+    name: cdktf.stringToTerraform(struct!.name),
+    samesite_lax: cdktf.booleanToTerraform(struct!.samesiteLax),
+    samesite_none: cdktf.booleanToTerraform(struct!.samesiteNone),
+    samesite_strict: cdktf.booleanToTerraform(struct!.samesiteStrict),
+  }
+}
+
+
+export function virtualHostCookiesToModifyToHclTerraform(struct?: VirtualHostCookiesToModify | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    add_httponly: {
+      value: cdktf.booleanToHclTerraform(struct!.addHttponly),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    add_secure: {
+      value: cdktf.booleanToHclTerraform(struct!.addSecure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    disable_tampering_protection: {
+      value: cdktf.booleanToHclTerraform(struct!.disableTamperingProtection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_tampering_protection: {
+      value: cdktf.booleanToHclTerraform(struct!.enableTamperingProtection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ignore_httponly: {
+      value: cdktf.booleanToHclTerraform(struct!.ignoreHttponly),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ignore_max_age: {
+      value: cdktf.booleanToHclTerraform(struct!.ignoreMaxAge),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ignore_samesite: {
+      value: cdktf.booleanToHclTerraform(struct!.ignoreSamesite),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ignore_secure: {
+      value: cdktf.booleanToHclTerraform(struct!.ignoreSecure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    max_age_value: {
+      value: cdktf.numberToHclTerraform(struct!.maxAgeValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    samesite_lax: {
+      value: cdktf.booleanToHclTerraform(struct!.samesiteLax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    samesite_none: {
+      value: cdktf.booleanToHclTerraform(struct!.samesiteNone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    samesite_strict: {
+      value: cdktf.booleanToHclTerraform(struct!.samesiteStrict),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostCookiesToModifyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostCookiesToModify | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addHttponly !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addHttponly = this._addHttponly;
+    }
+    if (this._addSecure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addSecure = this._addSecure;
+    }
+    if (this._disableTamperingProtection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableTamperingProtection = this._disableTamperingProtection;
+    }
+    if (this._enableTamperingProtection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableTamperingProtection = this._enableTamperingProtection;
+    }
+    if (this._ignoreHttponly !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreHttponly = this._ignoreHttponly;
+    }
+    if (this._ignoreMaxAge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreMaxAge = this._ignoreMaxAge;
+    }
+    if (this._ignoreSamesite !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreSamesite = this._ignoreSamesite;
+    }
+    if (this._ignoreSecure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreSecure = this._ignoreSecure;
+    }
+    if (this._maxAgeValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxAgeValue = this._maxAgeValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._samesiteLax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samesiteLax = this._samesiteLax;
+    }
+    if (this._samesiteNone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samesiteNone = this._samesiteNone;
+    }
+    if (this._samesiteStrict !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samesiteStrict = this._samesiteStrict;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostCookiesToModify | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addHttponly = undefined;
+      this._addSecure = undefined;
+      this._disableTamperingProtection = undefined;
+      this._enableTamperingProtection = undefined;
+      this._ignoreHttponly = undefined;
+      this._ignoreMaxAge = undefined;
+      this._ignoreSamesite = undefined;
+      this._ignoreSecure = undefined;
+      this._maxAgeValue = undefined;
+      this._name = undefined;
+      this._samesiteLax = undefined;
+      this._samesiteNone = undefined;
+      this._samesiteStrict = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addHttponly = value.addHttponly;
+      this._addSecure = value.addSecure;
+      this._disableTamperingProtection = value.disableTamperingProtection;
+      this._enableTamperingProtection = value.enableTamperingProtection;
+      this._ignoreHttponly = value.ignoreHttponly;
+      this._ignoreMaxAge = value.ignoreMaxAge;
+      this._ignoreSamesite = value.ignoreSamesite;
+      this._ignoreSecure = value.ignoreSecure;
+      this._maxAgeValue = value.maxAgeValue;
+      this._name = value.name;
+      this._samesiteLax = value.samesiteLax;
+      this._samesiteNone = value.samesiteNone;
+      this._samesiteStrict = value.samesiteStrict;
+    }
+  }
+
+  // add_httponly - computed: false, optional: true, required: false
+  private _addHttponly?: boolean | cdktf.IResolvable; 
+  public get addHttponly() {
+    return this.getBooleanAttribute('add_httponly');
+  }
+  public set addHttponly(value: boolean | cdktf.IResolvable) {
+    this._addHttponly = value;
+  }
+  public resetAddHttponly() {
+    this._addHttponly = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addHttponlyInput() {
+    return this._addHttponly;
+  }
+
+  // add_secure - computed: false, optional: true, required: false
+  private _addSecure?: boolean | cdktf.IResolvable; 
+  public get addSecure() {
+    return this.getBooleanAttribute('add_secure');
+  }
+  public set addSecure(value: boolean | cdktf.IResolvable) {
+    this._addSecure = value;
+  }
+  public resetAddSecure() {
+    this._addSecure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addSecureInput() {
+    return this._addSecure;
+  }
+
+  // disable_tampering_protection - computed: false, optional: true, required: false
+  private _disableTamperingProtection?: boolean | cdktf.IResolvable; 
+  public get disableTamperingProtection() {
+    return this.getBooleanAttribute('disable_tampering_protection');
+  }
+  public set disableTamperingProtection(value: boolean | cdktf.IResolvable) {
+    this._disableTamperingProtection = value;
+  }
+  public resetDisableTamperingProtection() {
+    this._disableTamperingProtection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableTamperingProtectionInput() {
+    return this._disableTamperingProtection;
+  }
+
+  // enable_tampering_protection - computed: false, optional: true, required: false
+  private _enableTamperingProtection?: boolean | cdktf.IResolvable; 
+  public get enableTamperingProtection() {
+    return this.getBooleanAttribute('enable_tampering_protection');
+  }
+  public set enableTamperingProtection(value: boolean | cdktf.IResolvable) {
+    this._enableTamperingProtection = value;
+  }
+  public resetEnableTamperingProtection() {
+    this._enableTamperingProtection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableTamperingProtectionInput() {
+    return this._enableTamperingProtection;
+  }
+
+  // ignore_httponly - computed: false, optional: true, required: false
+  private _ignoreHttponly?: boolean | cdktf.IResolvable; 
+  public get ignoreHttponly() {
+    return this.getBooleanAttribute('ignore_httponly');
+  }
+  public set ignoreHttponly(value: boolean | cdktf.IResolvable) {
+    this._ignoreHttponly = value;
+  }
+  public resetIgnoreHttponly() {
+    this._ignoreHttponly = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreHttponlyInput() {
+    return this._ignoreHttponly;
+  }
+
+  // ignore_max_age - computed: false, optional: true, required: false
+  private _ignoreMaxAge?: boolean | cdktf.IResolvable; 
+  public get ignoreMaxAge() {
+    return this.getBooleanAttribute('ignore_max_age');
+  }
+  public set ignoreMaxAge(value: boolean | cdktf.IResolvable) {
+    this._ignoreMaxAge = value;
+  }
+  public resetIgnoreMaxAge() {
+    this._ignoreMaxAge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreMaxAgeInput() {
+    return this._ignoreMaxAge;
+  }
+
+  // ignore_samesite - computed: false, optional: true, required: false
+  private _ignoreSamesite?: boolean | cdktf.IResolvable; 
+  public get ignoreSamesite() {
+    return this.getBooleanAttribute('ignore_samesite');
+  }
+  public set ignoreSamesite(value: boolean | cdktf.IResolvable) {
+    this._ignoreSamesite = value;
+  }
+  public resetIgnoreSamesite() {
+    this._ignoreSamesite = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreSamesiteInput() {
+    return this._ignoreSamesite;
+  }
+
+  // ignore_secure - computed: false, optional: true, required: false
+  private _ignoreSecure?: boolean | cdktf.IResolvable; 
+  public get ignoreSecure() {
+    return this.getBooleanAttribute('ignore_secure');
+  }
+  public set ignoreSecure(value: boolean | cdktf.IResolvable) {
+    this._ignoreSecure = value;
+  }
+  public resetIgnoreSecure() {
+    this._ignoreSecure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreSecureInput() {
+    return this._ignoreSecure;
+  }
+
+  // max_age_value - computed: false, optional: true, required: false
+  private _maxAgeValue?: number; 
+  public get maxAgeValue() {
+    return this.getNumberAttribute('max_age_value');
+  }
+  public set maxAgeValue(value: number) {
+    this._maxAgeValue = value;
+  }
+  public resetMaxAgeValue() {
+    this._maxAgeValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxAgeValueInput() {
+    return this._maxAgeValue;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // samesite_lax - computed: false, optional: true, required: false
+  private _samesiteLax?: boolean | cdktf.IResolvable; 
+  public get samesiteLax() {
+    return this.getBooleanAttribute('samesite_lax');
+  }
+  public set samesiteLax(value: boolean | cdktf.IResolvable) {
+    this._samesiteLax = value;
+  }
+  public resetSamesiteLax() {
+    this._samesiteLax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samesiteLaxInput() {
+    return this._samesiteLax;
+  }
+
+  // samesite_none - computed: false, optional: true, required: false
+  private _samesiteNone?: boolean | cdktf.IResolvable; 
+  public get samesiteNone() {
+    return this.getBooleanAttribute('samesite_none');
+  }
+  public set samesiteNone(value: boolean | cdktf.IResolvable) {
+    this._samesiteNone = value;
+  }
+  public resetSamesiteNone() {
+    this._samesiteNone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samesiteNoneInput() {
+    return this._samesiteNone;
+  }
+
+  // samesite_strict - computed: false, optional: true, required: false
+  private _samesiteStrict?: boolean | cdktf.IResolvable; 
+  public get samesiteStrict() {
+    return this.getBooleanAttribute('samesite_strict');
+  }
+  public set samesiteStrict(value: boolean | cdktf.IResolvable) {
+    this._samesiteStrict = value;
+  }
+  public resetSamesiteStrict() {
+    this._samesiteStrict = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samesiteStrictInput() {
+    return this._samesiteStrict;
+  }
+}
+
+export class VirtualHostCookiesToModifyList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostCookiesToModify[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostCookiesToModifyOutputReference {
+    return new VirtualHostCookiesToModifyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface VirtualHostCorsPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#allow_credentials VirtualHost#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_credentials VirtualHost#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#allow_headers VirtualHost#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_headers VirtualHost#allow_headers}
   */
   readonly allowHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#allow_methods VirtualHost#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_methods VirtualHost#allow_methods}
   */
   readonly allowMethods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#allow_origin VirtualHost#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_origin VirtualHost#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#allow_origin_regex VirtualHost#allow_origin_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#allow_origin_regex VirtualHost#allow_origin_regex}
   */
   readonly allowOriginRegex?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disabled VirtualHost#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disabled VirtualHost#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#expose_headers VirtualHost#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#expose_headers VirtualHost#expose_headers}
   */
   readonly exposeHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#maximum_age VirtualHost#maximum_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_age VirtualHost#max_age}
+  */
+  readonly maxAge?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#maximum_age VirtualHost#maximum_age}
   */
   readonly maximumAge?: number;
 }
@@ -2644,6 +5168,7 @@ export function virtualHostCorsPolicyToTerraform(struct?: VirtualHostCorsPolicyO
     allow_origin_regex: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOriginRegex),
     disabled: cdktf.booleanToTerraform(struct!.disabled),
     expose_headers: cdktf.stringToTerraform(struct!.exposeHeaders),
+    max_age: cdktf.stringToTerraform(struct!.maxAge),
     maximum_age: cdktf.numberToTerraform(struct!.maximumAge),
   }
 }
@@ -2693,6 +5218,12 @@ export function virtualHostCorsPolicyToHclTerraform(struct?: VirtualHostCorsPoli
     },
     expose_headers: {
       value: cdktf.stringToHclTerraform(struct!.exposeHeaders),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_age: {
+      value: cdktf.stringToHclTerraform(struct!.maxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2751,6 +5282,10 @@ export class VirtualHostCorsPolicyOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.exposeHeaders = this._exposeHeaders;
     }
+    if (this._maxAge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxAge = this._maxAge;
+    }
     if (this._maximumAge !== undefined) {
       hasAnyValues = true;
       internalValueResult.maximumAge = this._maximumAge;
@@ -2768,6 +5303,7 @@ export class VirtualHostCorsPolicyOutputReference extends cdktf.ComplexObject {
       this._allowOriginRegex = undefined;
       this._disabled = undefined;
       this._exposeHeaders = undefined;
+      this._maxAge = undefined;
       this._maximumAge = undefined;
     }
     else {
@@ -2779,6 +5315,7 @@ export class VirtualHostCorsPolicyOutputReference extends cdktf.ComplexObject {
       this._allowOriginRegex = value.allowOriginRegex;
       this._disabled = value.disabled;
       this._exposeHeaders = value.exposeHeaders;
+      this._maxAge = value.maxAge;
       this._maximumAge = value.maximumAge;
     }
   }
@@ -2895,6 +5432,22 @@ export class VirtualHostCorsPolicyOutputReference extends cdktf.ComplexObject {
     return this._exposeHeaders;
   }
 
+  // max_age - computed: false, optional: true, required: false
+  private _maxAge?: string; 
+  public get maxAge() {
+    return this.getStringAttribute('max_age');
+  }
+  public set maxAge(value: string) {
+    this._maxAge = value;
+  }
+  public resetMaxAge() {
+    this._maxAge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxAgeInput() {
+    return this._maxAge;
+  }
+
   // maximum_age - computed: false, optional: true, required: false
   private _maximumAge?: number; 
   public get maximumAge() {
@@ -2913,7 +5466,7 @@ export class VirtualHostCorsPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostCsrfPolicyCustomDomainListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#domains VirtualHost#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#domains VirtualHost#domains}
   */
   readonly domains: string[];
 }
@@ -2994,17 +5547,17 @@ export class VirtualHostCsrfPolicyCustomDomainListStructOutputReference extends 
 }
 export interface VirtualHostCsrfPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#all_load_balancer_domains VirtualHost#all_load_balancer_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#all_load_balancer_domains VirtualHost#all_load_balancer_domains}
   */
   readonly allLoadBalancerDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disabled VirtualHost#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disabled VirtualHost#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * custom_domain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#custom_domain_list VirtualHost#custom_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_domain_list VirtualHost#custom_domain_list}
   */
   readonly customDomainList?: VirtualHostCsrfPolicyCustomDomainListStruct;
 }
@@ -3144,17 +5697,1501 @@ export class VirtualHostCsrfPolicyOutputReference extends cdktf.ComplexObject {
     return this._customDomainList.internalValue;
   }
 }
-export interface VirtualHostDynamicReverseProxyResolutionNetwork {
+export interface VirtualHostDnsProxyConfigurationCacheProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cache_size VirtualHost#cache_size}
+  */
+  readonly cacheSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_cache_profile VirtualHost#disable_cache_profile}
+  */
+  readonly disableCacheProfile?: boolean | cdktf.IResolvable;
+}
+
+export function virtualHostDnsProxyConfigurationCacheProfileToTerraform(struct?: VirtualHostDnsProxyConfigurationCacheProfileOutputReference | VirtualHostDnsProxyConfigurationCacheProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cache_size: cdktf.numberToTerraform(struct!.cacheSize),
+    disable_cache_profile: cdktf.booleanToTerraform(struct!.disableCacheProfile),
+  }
+}
+
+
+export function virtualHostDnsProxyConfigurationCacheProfileToHclTerraform(struct?: VirtualHostDnsProxyConfigurationCacheProfileOutputReference | VirtualHostDnsProxyConfigurationCacheProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cache_size: {
+      value: cdktf.numberToHclTerraform(struct!.cacheSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    disable_cache_profile: {
+      value: cdktf.booleanToHclTerraform(struct!.disableCacheProfile),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDnsProxyConfigurationCacheProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostDnsProxyConfigurationCacheProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cacheSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheSize = this._cacheSize;
+    }
+    if (this._disableCacheProfile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableCacheProfile = this._disableCacheProfile;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDnsProxyConfigurationCacheProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cacheSize = undefined;
+      this._disableCacheProfile = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cacheSize = value.cacheSize;
+      this._disableCacheProfile = value.disableCacheProfile;
+    }
+  }
+
+  // cache_size - computed: false, optional: true, required: false
+  private _cacheSize?: number; 
+  public get cacheSize() {
+    return this.getNumberAttribute('cache_size');
+  }
+  public set cacheSize(value: number) {
+    this._cacheSize = value;
+  }
+  public resetCacheSize() {
+    this._cacheSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheSizeInput() {
+    return this._cacheSize;
+  }
+
+  // disable_cache_profile - computed: false, optional: true, required: false
+  private _disableCacheProfile?: boolean | cdktf.IResolvable; 
+  public get disableCacheProfile() {
+    return this.getBooleanAttribute('disable_cache_profile');
+  }
+  public set disableCacheProfile(value: boolean | cdktf.IResolvable) {
+    this._disableCacheProfile = value;
+  }
+  public resetDisableCacheProfile() {
+    this._disableCacheProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableCacheProfileInput() {
+    return this._disableCacheProfile;
+  }
+}
+export interface VirtualHostDnsProxyConfigurationDdosProfile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_ddos_mitigation VirtualHost#disable_ddos_mitigation}
+  */
+  readonly disableDdosMitigation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_ddos_mitigation VirtualHost#enable_ddos_mitigation}
+  */
+  readonly enableDdosMitigation?: boolean | cdktf.IResolvable;
+}
+
+export function virtualHostDnsProxyConfigurationDdosProfileToTerraform(struct?: VirtualHostDnsProxyConfigurationDdosProfileOutputReference | VirtualHostDnsProxyConfigurationDdosProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_ddos_mitigation: cdktf.booleanToTerraform(struct!.disableDdosMitigation),
+    enable_ddos_mitigation: cdktf.booleanToTerraform(struct!.enableDdosMitigation),
+  }
+}
+
+
+export function virtualHostDnsProxyConfigurationDdosProfileToHclTerraform(struct?: VirtualHostDnsProxyConfigurationDdosProfileOutputReference | VirtualHostDnsProxyConfigurationDdosProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_ddos_mitigation: {
+      value: cdktf.booleanToHclTerraform(struct!.disableDdosMitigation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_ddos_mitigation: {
+      value: cdktf.booleanToHclTerraform(struct!.enableDdosMitigation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDnsProxyConfigurationDdosProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostDnsProxyConfigurationDdosProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableDdosMitigation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableDdosMitigation = this._disableDdosMitigation;
+    }
+    if (this._enableDdosMitigation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableDdosMitigation = this._enableDdosMitigation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDnsProxyConfigurationDdosProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disableDdosMitigation = undefined;
+      this._enableDdosMitigation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableDdosMitigation = value.disableDdosMitigation;
+      this._enableDdosMitigation = value.enableDdosMitigation;
+    }
+  }
+
+  // disable_ddos_mitigation - computed: false, optional: true, required: false
+  private _disableDdosMitigation?: boolean | cdktf.IResolvable; 
+  public get disableDdosMitigation() {
+    return this.getBooleanAttribute('disable_ddos_mitigation');
+  }
+  public set disableDdosMitigation(value: boolean | cdktf.IResolvable) {
+    this._disableDdosMitigation = value;
+  }
+  public resetDisableDdosMitigation() {
+    this._disableDdosMitigation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableDdosMitigationInput() {
+    return this._disableDdosMitigation;
+  }
+
+  // enable_ddos_mitigation - computed: false, optional: true, required: false
+  private _enableDdosMitigation?: boolean | cdktf.IResolvable; 
+  public get enableDdosMitigation() {
+    return this.getBooleanAttribute('enable_ddos_mitigation');
+  }
+  public set enableDdosMitigation(value: boolean | cdktf.IResolvable) {
+    this._enableDdosMitigation = value;
+  }
+  public resetEnableDdosMitigation() {
+    this._enableDdosMitigation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDdosMitigationInput() {
+    return this._enableDdosMitigation;
+  }
+}
+export interface VirtualHostDnsProxyConfigurationIrules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostDnsProxyConfigurationIrulesToTerraform(struct?: VirtualHostDnsProxyConfigurationIrules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostDnsProxyConfigurationIrulesToHclTerraform(struct?: VirtualHostDnsProxyConfigurationIrules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDnsProxyConfigurationIrulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostDnsProxyConfigurationIrules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDnsProxyConfigurationIrules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostDnsProxyConfigurationIrulesList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostDnsProxyConfigurationIrules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostDnsProxyConfigurationIrulesOutputReference {
+    return new VirtualHostDnsProxyConfigurationIrulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostDnsProxyConfigurationProtocolInspection {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostDnsProxyConfigurationProtocolInspectionToTerraform(struct?: VirtualHostDnsProxyConfigurationProtocolInspectionOutputReference | VirtualHostDnsProxyConfigurationProtocolInspection): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostDnsProxyConfigurationProtocolInspectionToHclTerraform(struct?: VirtualHostDnsProxyConfigurationProtocolInspectionOutputReference | VirtualHostDnsProxyConfigurationProtocolInspection): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDnsProxyConfigurationProtocolInspectionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostDnsProxyConfigurationProtocolInspection | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDnsProxyConfigurationProtocolInspection | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface VirtualHostDnsProxyConfiguration {
+  /**
+  * cache_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cache_profile VirtualHost#cache_profile}
+  */
+  readonly cacheProfile?: VirtualHostDnsProxyConfigurationCacheProfile;
+  /**
+  * ddos_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ddos_profile VirtualHost#ddos_profile}
+  */
+  readonly ddosProfile: VirtualHostDnsProxyConfigurationDdosProfile;
+  /**
+  * irules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#irules VirtualHost#irules}
+  */
+  readonly irules?: VirtualHostDnsProxyConfigurationIrules[] | cdktf.IResolvable;
+  /**
+  * protocol_inspection block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#protocol_inspection VirtualHost#protocol_inspection}
+  */
+  readonly protocolInspection?: VirtualHostDnsProxyConfigurationProtocolInspection;
+}
+
+export function virtualHostDnsProxyConfigurationToTerraform(struct?: VirtualHostDnsProxyConfigurationOutputReference | VirtualHostDnsProxyConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cache_profile: virtualHostDnsProxyConfigurationCacheProfileToTerraform(struct!.cacheProfile),
+    ddos_profile: virtualHostDnsProxyConfigurationDdosProfileToTerraform(struct!.ddosProfile),
+    irules: cdktf.listMapper(virtualHostDnsProxyConfigurationIrulesToTerraform, true)(struct!.irules),
+    protocol_inspection: virtualHostDnsProxyConfigurationProtocolInspectionToTerraform(struct!.protocolInspection),
+  }
+}
+
+
+export function virtualHostDnsProxyConfigurationToHclTerraform(struct?: VirtualHostDnsProxyConfigurationOutputReference | VirtualHostDnsProxyConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cache_profile: {
+      value: virtualHostDnsProxyConfigurationCacheProfileToHclTerraform(struct!.cacheProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDnsProxyConfigurationCacheProfileList",
+    },
+    ddos_profile: {
+      value: virtualHostDnsProxyConfigurationDdosProfileToHclTerraform(struct!.ddosProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDnsProxyConfigurationDdosProfileList",
+    },
+    irules: {
+      value: cdktf.listMapperHcl(virtualHostDnsProxyConfigurationIrulesToHclTerraform, true)(struct!.irules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDnsProxyConfigurationIrulesList",
+    },
+    protocol_inspection: {
+      value: virtualHostDnsProxyConfigurationProtocolInspectionToHclTerraform(struct!.protocolInspection),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDnsProxyConfigurationProtocolInspectionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDnsProxyConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostDnsProxyConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cacheProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheProfile = this._cacheProfile?.internalValue;
+    }
+    if (this._ddosProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ddosProfile = this._ddosProfile?.internalValue;
+    }
+    if (this._irules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.irules = this._irules?.internalValue;
+    }
+    if (this._protocolInspection?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocolInspection = this._protocolInspection?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDnsProxyConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cacheProfile.internalValue = undefined;
+      this._ddosProfile.internalValue = undefined;
+      this._irules.internalValue = undefined;
+      this._protocolInspection.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cacheProfile.internalValue = value.cacheProfile;
+      this._ddosProfile.internalValue = value.ddosProfile;
+      this._irules.internalValue = value.irules;
+      this._protocolInspection.internalValue = value.protocolInspection;
+    }
+  }
+
+  // cache_profile - computed: false, optional: true, required: false
+  private _cacheProfile = new VirtualHostDnsProxyConfigurationCacheProfileOutputReference(this, "cache_profile");
+  public get cacheProfile() {
+    return this._cacheProfile;
+  }
+  public putCacheProfile(value: VirtualHostDnsProxyConfigurationCacheProfile) {
+    this._cacheProfile.internalValue = value;
+  }
+  public resetCacheProfile() {
+    this._cacheProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheProfileInput() {
+    return this._cacheProfile.internalValue;
+  }
+
+  // ddos_profile - computed: false, optional: false, required: true
+  private _ddosProfile = new VirtualHostDnsProxyConfigurationDdosProfileOutputReference(this, "ddos_profile");
+  public get ddosProfile() {
+    return this._ddosProfile;
+  }
+  public putDdosProfile(value: VirtualHostDnsProxyConfigurationDdosProfile) {
+    this._ddosProfile.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ddosProfileInput() {
+    return this._ddosProfile.internalValue;
+  }
+
+  // irules - computed: false, optional: true, required: false
+  private _irules = new VirtualHostDnsProxyConfigurationIrulesList(this, "irules", false);
+  public get irules() {
+    return this._irules;
+  }
+  public putIrules(value: VirtualHostDnsProxyConfigurationIrules[] | cdktf.IResolvable) {
+    this._irules.internalValue = value;
+  }
+  public resetIrules() {
+    this._irules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get irulesInput() {
+    return this._irules.internalValue;
+  }
+
+  // protocol_inspection - computed: false, optional: true, required: false
+  private _protocolInspection = new VirtualHostDnsProxyConfigurationProtocolInspectionOutputReference(this, "protocol_inspection");
+  public get protocolInspection() {
+    return this._protocolInspection;
+  }
+  public putProtocolInspection(value: VirtualHostDnsProxyConfigurationProtocolInspection) {
+    this._protocolInspection.internalValue = value;
+  }
+  public resetProtocolInspection() {
+    this._protocolInspection.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInspectionInput() {
+    return this._protocolInspection.internalValue;
+  }
+}
+export interface VirtualHostDomainCertMapValueEcdsaCertificates {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#kind VirtualHost#kind}
+  */
+  readonly kind?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#uid VirtualHost#uid}
+  */
+  readonly uid?: string;
+}
+
+export function virtualHostDomainCertMapValueEcdsaCertificatesToTerraform(struct?: VirtualHostDomainCertMapValueEcdsaCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kind: cdktf.stringToTerraform(struct!.kind),
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+    uid: cdktf.stringToTerraform(struct!.uid),
+  }
+}
+
+
+export function virtualHostDomainCertMapValueEcdsaCertificatesToHclTerraform(struct?: VirtualHostDomainCertMapValueEcdsaCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uid: {
+      value: cdktf.stringToHclTerraform(struct!.uid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDomainCertMapValueEcdsaCertificatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostDomainCertMapValueEcdsaCertificates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    if (this._uid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uid = this._uid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDomainCertMapValueEcdsaCertificates | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._kind = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+      this._uid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._kind = value.kind;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+      this._uid = value.uid;
+    }
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+
+  // uid - computed: false, optional: true, required: false
+  private _uid?: string; 
+  public get uid() {
+    return this.getStringAttribute('uid');
+  }
+  public set uid(value: string) {
+    this._uid = value;
+  }
+  public resetUid() {
+    this._uid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uidInput() {
+    return this._uid;
+  }
+}
+
+export class VirtualHostDomainCertMapValueEcdsaCertificatesList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostDomainCertMapValueEcdsaCertificates[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostDomainCertMapValueEcdsaCertificatesOutputReference {
+    return new VirtualHostDomainCertMapValueEcdsaCertificatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostDomainCertMapValueRsaCertificates {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#kind VirtualHost#kind}
+  */
+  readonly kind?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#uid VirtualHost#uid}
+  */
+  readonly uid?: string;
+}
+
+export function virtualHostDomainCertMapValueRsaCertificatesToTerraform(struct?: VirtualHostDomainCertMapValueRsaCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kind: cdktf.stringToTerraform(struct!.kind),
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+    uid: cdktf.stringToTerraform(struct!.uid),
+  }
+}
+
+
+export function virtualHostDomainCertMapValueRsaCertificatesToHclTerraform(struct?: VirtualHostDomainCertMapValueRsaCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uid: {
+      value: cdktf.stringToHclTerraform(struct!.uid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDomainCertMapValueRsaCertificatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostDomainCertMapValueRsaCertificates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    if (this._uid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uid = this._uid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDomainCertMapValueRsaCertificates | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._kind = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+      this._uid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._kind = value.kind;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+      this._uid = value.uid;
+    }
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+
+  // uid - computed: false, optional: true, required: false
+  private _uid?: string; 
+  public get uid() {
+    return this.getStringAttribute('uid');
+  }
+  public set uid(value: string) {
+    this._uid = value;
+  }
+  public resetUid() {
+    this._uid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uidInput() {
+    return this._uid;
+  }
+}
+
+export class VirtualHostDomainCertMapValueRsaCertificatesList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostDomainCertMapValueRsaCertificates[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostDomainCertMapValueRsaCertificatesOutputReference {
+    return new VirtualHostDomainCertMapValueRsaCertificatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostDomainCertMapValue {
+  /**
+  * ecdsa_certificates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ecdsa_certificates VirtualHost#ecdsa_certificates}
+  */
+  readonly ecdsaCertificates?: VirtualHostDomainCertMapValueEcdsaCertificates[] | cdktf.IResolvable;
+  /**
+  * rsa_certificates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#rsa_certificates VirtualHost#rsa_certificates}
+  */
+  readonly rsaCertificates?: VirtualHostDomainCertMapValueRsaCertificates[] | cdktf.IResolvable;
+}
+
+export function virtualHostDomainCertMapValueToTerraform(struct?: VirtualHostDomainCertMapValueOutputReference | VirtualHostDomainCertMapValue): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ecdsa_certificates: cdktf.listMapper(virtualHostDomainCertMapValueEcdsaCertificatesToTerraform, true)(struct!.ecdsaCertificates),
+    rsa_certificates: cdktf.listMapper(virtualHostDomainCertMapValueRsaCertificatesToTerraform, true)(struct!.rsaCertificates),
+  }
+}
+
+
+export function virtualHostDomainCertMapValueToHclTerraform(struct?: VirtualHostDomainCertMapValueOutputReference | VirtualHostDomainCertMapValue): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ecdsa_certificates: {
+      value: cdktf.listMapperHcl(virtualHostDomainCertMapValueEcdsaCertificatesToHclTerraform, true)(struct!.ecdsaCertificates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDomainCertMapValueEcdsaCertificatesList",
+    },
+    rsa_certificates: {
+      value: cdktf.listMapperHcl(virtualHostDomainCertMapValueRsaCertificatesToHclTerraform, true)(struct!.rsaCertificates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDomainCertMapValueRsaCertificatesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDomainCertMapValueOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostDomainCertMapValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ecdsaCertificates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ecdsaCertificates = this._ecdsaCertificates?.internalValue;
+    }
+    if (this._rsaCertificates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rsaCertificates = this._rsaCertificates?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDomainCertMapValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ecdsaCertificates.internalValue = undefined;
+      this._rsaCertificates.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ecdsaCertificates.internalValue = value.ecdsaCertificates;
+      this._rsaCertificates.internalValue = value.rsaCertificates;
+    }
+  }
+
+  // ecdsa_certificates - computed: false, optional: true, required: false
+  private _ecdsaCertificates = new VirtualHostDomainCertMapValueEcdsaCertificatesList(this, "ecdsa_certificates", false);
+  public get ecdsaCertificates() {
+    return this._ecdsaCertificates;
+  }
+  public putEcdsaCertificates(value: VirtualHostDomainCertMapValueEcdsaCertificates[] | cdktf.IResolvable) {
+    this._ecdsaCertificates.internalValue = value;
+  }
+  public resetEcdsaCertificates() {
+    this._ecdsaCertificates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ecdsaCertificatesInput() {
+    return this._ecdsaCertificates.internalValue;
+  }
+
+  // rsa_certificates - computed: false, optional: true, required: false
+  private _rsaCertificates = new VirtualHostDomainCertMapValueRsaCertificatesList(this, "rsa_certificates", false);
+  public get rsaCertificates() {
+    return this._rsaCertificates;
+  }
+  public putRsaCertificates(value: VirtualHostDomainCertMapValueRsaCertificates[] | cdktf.IResolvable) {
+    this._rsaCertificates.internalValue = value;
+  }
+  public resetRsaCertificates() {
+    this._rsaCertificates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rsaCertificatesInput() {
+    return this._rsaCertificates.internalValue;
+  }
+}
+export interface VirtualHostDomainCertMap {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+  /**
+  * value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
+  */
+  readonly value: VirtualHostDomainCertMapValue;
+}
+
+export function virtualHostDomainCertMapToTerraform(struct?: VirtualHostDomainCertMapOutputReference | VirtualHostDomainCertMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    value: virtualHostDomainCertMapValueToTerraform(struct!.value),
+  }
+}
+
+
+export function virtualHostDomainCertMapToHclTerraform(struct?: VirtualHostDomainCertMapOutputReference | VirtualHostDomainCertMap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: virtualHostDomainCertMapValueToHclTerraform(struct!.value),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostDomainCertMapValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostDomainCertMapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostDomainCertMap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostDomainCertMap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._value.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._value.internalValue = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value = new VirtualHostDomainCertMapValueOutputReference(this, "value");
+  public get value() {
+    return this._value;
+  }
+  public putValue(value: VirtualHostDomainCertMapValue) {
+    this._value.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value.internalValue;
+  }
+}
+export interface VirtualHostDynamicReverseProxyResolutionNetwork {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -3333,21 +7370,21 @@ export class VirtualHostDynamicReverseProxyResolutionNetworkList extends cdktf.C
 }
 export interface VirtualHostDynamicReverseProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#connection_timeout VirtualHost#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#connection_timeout VirtualHost#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#resolution_network_type VirtualHost#resolution_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#resolution_network_type VirtualHost#resolution_network_type}
   */
   readonly resolutionNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#resolve_endpoint_dynamically VirtualHost#resolve_endpoint_dynamically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#resolve_endpoint_dynamically VirtualHost#resolve_endpoint_dynamically}
   */
   readonly resolveEndpointDynamically?: boolean | cdktf.IResolvable;
   /**
   * resolution_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#resolution_network VirtualHost#resolution_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#resolution_network VirtualHost#resolution_network}
   */
   readonly resolutionNetwork?: VirtualHostDynamicReverseProxyResolutionNetwork[] | cdktf.IResolvable;
 }
@@ -3516,21 +7553,204 @@ export class VirtualHostDynamicReverseProxyOutputReference extends cdktf.Complex
     return this._resolutionNetwork.internalValue;
   }
 }
-export interface VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyHeaderTransformation {
+export interface VirtualHostHeaderTransformationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
   */
   readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
   */
   readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
   */
   readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
+  */
+  readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
+}
+
+export function virtualHostHeaderTransformationTypeToTerraform(struct?: VirtualHostHeaderTransformationTypeOutputReference | VirtualHostHeaderTransformationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_header_transformation: cdktf.booleanToTerraform(struct!.defaultHeaderTransformation),
+    legacy_header_transformation: cdktf.booleanToTerraform(struct!.legacyHeaderTransformation),
+    preserve_case_header_transformation: cdktf.booleanToTerraform(struct!.preserveCaseHeaderTransformation),
+    proper_case_header_transformation: cdktf.booleanToTerraform(struct!.properCaseHeaderTransformation),
+  }
+}
+
+
+export function virtualHostHeaderTransformationTypeToHclTerraform(struct?: VirtualHostHeaderTransformationTypeOutputReference | VirtualHostHeaderTransformationType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.defaultHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    legacy_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.legacyHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    preserve_case_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.preserveCaseHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    proper_case_header_transformation: {
+      value: cdktf.booleanToHclTerraform(struct!.properCaseHeaderTransformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostHeaderTransformationTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostHeaderTransformationType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultHeaderTransformation = this._defaultHeaderTransformation;
+    }
+    if (this._legacyHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.legacyHeaderTransformation = this._legacyHeaderTransformation;
+    }
+    if (this._preserveCaseHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preserveCaseHeaderTransformation = this._preserveCaseHeaderTransformation;
+    }
+    if (this._properCaseHeaderTransformation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.properCaseHeaderTransformation = this._properCaseHeaderTransformation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostHeaderTransformationType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultHeaderTransformation = undefined;
+      this._legacyHeaderTransformation = undefined;
+      this._preserveCaseHeaderTransformation = undefined;
+      this._properCaseHeaderTransformation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultHeaderTransformation = value.defaultHeaderTransformation;
+      this._legacyHeaderTransformation = value.legacyHeaderTransformation;
+      this._preserveCaseHeaderTransformation = value.preserveCaseHeaderTransformation;
+      this._properCaseHeaderTransformation = value.properCaseHeaderTransformation;
+    }
+  }
+
+  // default_header_transformation - computed: false, optional: true, required: false
+  private _defaultHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get defaultHeaderTransformation() {
+    return this.getBooleanAttribute('default_header_transformation');
+  }
+  public set defaultHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._defaultHeaderTransformation = value;
+  }
+  public resetDefaultHeaderTransformation() {
+    this._defaultHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultHeaderTransformationInput() {
+    return this._defaultHeaderTransformation;
+  }
+
+  // legacy_header_transformation - computed: false, optional: true, required: false
+  private _legacyHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get legacyHeaderTransformation() {
+    return this.getBooleanAttribute('legacy_header_transformation');
+  }
+  public set legacyHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._legacyHeaderTransformation = value;
+  }
+  public resetLegacyHeaderTransformation() {
+    this._legacyHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get legacyHeaderTransformationInput() {
+    return this._legacyHeaderTransformation;
+  }
+
+  // preserve_case_header_transformation - computed: false, optional: true, required: false
+  private _preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get preserveCaseHeaderTransformation() {
+    return this.getBooleanAttribute('preserve_case_header_transformation');
+  }
+  public set preserveCaseHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._preserveCaseHeaderTransformation = value;
+  }
+  public resetPreserveCaseHeaderTransformation() {
+    this._preserveCaseHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preserveCaseHeaderTransformationInput() {
+    return this._preserveCaseHeaderTransformation;
+  }
+
+  // proper_case_header_transformation - computed: false, optional: true, required: false
+  private _properCaseHeaderTransformation?: boolean | cdktf.IResolvable; 
+  public get properCaseHeaderTransformation() {
+    return this.getBooleanAttribute('proper_case_header_transformation');
+  }
+  public set properCaseHeaderTransformation(value: boolean | cdktf.IResolvable) {
+    this._properCaseHeaderTransformation = value;
+  }
+  public resetProperCaseHeaderTransformation() {
+    this._properCaseHeaderTransformation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get properCaseHeaderTransformationInput() {
+    return this._properCaseHeaderTransformation;
+  }
+}
+export interface VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyHeaderTransformation {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#default_header_transformation VirtualHost#default_header_transformation}
+  */
+  readonly defaultHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#legacy_header_transformation VirtualHost#legacy_header_transformation}
+  */
+  readonly legacyHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#preserve_case_header_transformation VirtualHost#preserve_case_header_transformation}
+  */
+  readonly preserveCaseHeaderTransformation?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#proper_case_header_transformation VirtualHost#proper_case_header_transformation}
   */
   readonly properCaseHeaderTransformation?: boolean | cdktf.IResolvable;
 }
@@ -3703,7 +7923,7 @@ export interface VirtualHostHttpProtocolOptionsHttpProtocolEnableV1Only {
   /**
   * header_transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#header_transformation VirtualHost#header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#header_transformation VirtualHost#header_transformation}
   */
   readonly headerTransformation?: VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyHeaderTransformation;
 }
@@ -3787,17 +8007,17 @@ export class VirtualHostHttpProtocolOptionsHttpProtocolEnableV1OnlyOutputReferen
 }
 export interface VirtualHostHttpProtocolOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#http_protocol_enable_v1_v2 VirtualHost#http_protocol_enable_v1_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_enable_v1_v2 VirtualHost#http_protocol_enable_v1_v2}
   */
   readonly httpProtocolEnableV1V2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#http_protocol_enable_v2_only VirtualHost#http_protocol_enable_v2_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_enable_v2_only VirtualHost#http_protocol_enable_v2_only}
   */
   readonly httpProtocolEnableV2Only?: boolean | cdktf.IResolvable;
   /**
   * http_protocol_enable_v1_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#http_protocol_enable_v1_only VirtualHost#http_protocol_enable_v1_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#http_protocol_enable_v1_only VirtualHost#http_protocol_enable_v1_only}
   */
   readonly httpProtocolEnableV1Only?: VirtualHostHttpProtocolOptionsHttpProtocolEnableV1Only;
 }
@@ -3939,15 +8159,15 @@ export class VirtualHostHttpProtocolOptionsOutputReference extends cdktf.Complex
 }
 export interface VirtualHostJsChallenge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cookie_expiry VirtualHost#cookie_expiry}
   */
   readonly cookieExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
   */
   readonly customPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#js_script_delay VirtualHost#js_script_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#js_script_delay VirtualHost#js_script_delay}
   */
   readonly jsScriptDelay?: number;
 }
@@ -4087,17 +8307,134 @@ export class VirtualHostJsChallengeOutputReference extends cdktf.ComplexObject {
     return this._jsScriptDelay;
   }
 }
+export interface VirtualHostMaskingConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_masking VirtualHost#disable_masking}
+  */
+  readonly disableMasking?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#enable_masking VirtualHost#enable_masking}
+  */
+  readonly enableMasking?: boolean | cdktf.IResolvable;
+}
+
+export function virtualHostMaskingConfigToTerraform(struct?: VirtualHostMaskingConfigOutputReference | VirtualHostMaskingConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_masking: cdktf.booleanToTerraform(struct!.disableMasking),
+    enable_masking: cdktf.booleanToTerraform(struct!.enableMasking),
+  }
+}
+
+
+export function virtualHostMaskingConfigToHclTerraform(struct?: VirtualHostMaskingConfigOutputReference | VirtualHostMaskingConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_masking: {
+      value: cdktf.booleanToHclTerraform(struct!.disableMasking),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_masking: {
+      value: cdktf.booleanToHclTerraform(struct!.enableMasking),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostMaskingConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostMaskingConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableMasking !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableMasking = this._disableMasking;
+    }
+    if (this._enableMasking !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableMasking = this._enableMasking;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostMaskingConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disableMasking = undefined;
+      this._enableMasking = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableMasking = value.disableMasking;
+      this._enableMasking = value.enableMasking;
+    }
+  }
+
+  // disable_masking - computed: false, optional: true, required: false
+  private _disableMasking?: boolean | cdktf.IResolvable; 
+  public get disableMasking() {
+    return this.getBooleanAttribute('disable_masking');
+  }
+  public set disableMasking(value: boolean | cdktf.IResolvable) {
+    this._disableMasking = value;
+  }
+  public resetDisableMasking() {
+    this._disableMasking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableMaskingInput() {
+    return this._disableMasking;
+  }
+
+  // enable_masking - computed: false, optional: true, required: false
+  private _enableMasking?: boolean | cdktf.IResolvable; 
+  public get enableMasking() {
+    return this.getBooleanAttribute('enable_masking');
+  }
+  public set enableMasking(value: boolean | cdktf.IResolvable) {
+    this._enableMasking = value;
+  }
+  public resetEnableMasking() {
+    this._enableMasking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableMaskingInput() {
+    return this._enableMasking;
+  }
+}
 export interface VirtualHostRateLimiterAllowedPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -4276,15 +8613,15 @@ export class VirtualHostRateLimiterAllowedPrefixesList extends cdktf.ComplexList
 }
 export interface VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4421,13 +8758,160 @@ export class VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoOutputR
     return this._storeProvider;
   }
 }
+export interface VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface VirtualHostRequestCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -4535,19 +9019,332 @@ export class VirtualHostRequestCookiesToAddSecretValueClearSecretInfoOutputRefer
     return this._url;
   }
 }
+export interface VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostRequestCookiesToAddSecretValueVaultSecretInfoToTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueVaultSecretInfoOutputReference | VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostRequestCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueVaultSecretInfoOutputReference | VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostRequestCookiesToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostRequestCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostRequestCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface VirtualHostRequestCookiesToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostRequestCookiesToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo;
 }
 
 export function virtualHostRequestCookiesToAddSecretValueToTerraform(struct?: VirtualHostRequestCookiesToAddSecretValueOutputReference | VirtualHostRequestCookiesToAddSecretValue): any {
@@ -4556,8 +9353,12 @@ export function virtualHostRequestCookiesToAddSecretValueToTerraform(struct?: Vi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: virtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: virtualHostRequestCookiesToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostRequestCookiesToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostRequestCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -4568,17 +9369,41 @@ export function virtualHostRequestCookiesToAddSecretValueToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: virtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: virtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: virtualHostRequestCookiesToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostRequestCookiesToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostRequestCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostRequestCookiesToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostRequestCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -4600,13 +9425,29 @@ export class VirtualHostRequestCookiesToAddSecretValueOutputReference extends cd
   public get internalValue(): VirtualHostRequestCookiesToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4614,14 +9455,38 @@ export class VirtualHostRequestCookiesToAddSecretValueOutputReference extends cd
   public set internalValue(value: VirtualHostRequestCookiesToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -4640,6 +9505,22 @@ export class VirtualHostRequestCookiesToAddSecretValueOutputReference extends cd
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostRequestCookiesToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new VirtualHostRequestCookiesToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -4655,24 +9536,56 @@ export class VirtualHostRequestCookiesToAddSecretValueOutputReference extends cd
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostRequestCookiesToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostRequestCookiesToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostRequestCookiesToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface VirtualHostRequestCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostRequestCookiesToAddSecretValue;
 }
@@ -4872,15 +9785,15 @@ export class VirtualHostRequestCookiesToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5017,13 +9930,160 @@ export class VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoOutputR
     return this._storeProvider;
   }
 }
+export interface VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface VirtualHostRequestHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -5131,19 +10191,332 @@ export class VirtualHostRequestHeadersToAddSecretValueClearSecretInfoOutputRefer
     return this._url;
   }
 }
+export interface VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostRequestHeadersToAddSecretValueVaultSecretInfoToTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueVaultSecretInfoOutputReference | VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostRequestHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueVaultSecretInfoOutputReference | VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostRequestHeadersToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostRequestHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostRequestHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface VirtualHostRequestHeadersToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostRequestHeadersToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo;
 }
 
 export function virtualHostRequestHeadersToAddSecretValueToTerraform(struct?: VirtualHostRequestHeadersToAddSecretValueOutputReference | VirtualHostRequestHeadersToAddSecretValue): any {
@@ -5152,8 +10525,12 @@ export function virtualHostRequestHeadersToAddSecretValueToTerraform(struct?: Vi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: virtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: virtualHostRequestHeadersToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostRequestHeadersToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostRequestHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -5164,17 +10541,41 @@ export function virtualHostRequestHeadersToAddSecretValueToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: virtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: virtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: virtualHostRequestHeadersToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostRequestHeadersToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostRequestHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostRequestHeadersToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostRequestHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -5196,13 +10597,29 @@ export class VirtualHostRequestHeadersToAddSecretValueOutputReference extends cd
   public get internalValue(): VirtualHostRequestHeadersToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -5210,14 +10627,38 @@ export class VirtualHostRequestHeadersToAddSecretValueOutputReference extends cd
   public set internalValue(value: VirtualHostRequestHeadersToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -5236,6 +10677,22 @@ export class VirtualHostRequestHeadersToAddSecretValueOutputReference extends cd
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostRequestHeadersToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new VirtualHostRequestHeadersToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -5251,24 +10708,56 @@ export class VirtualHostRequestHeadersToAddSecretValueOutputReference extends cd
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostRequestHeadersToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostRequestHeadersToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostRequestHeadersToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface VirtualHostRequestHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#append VirtualHost#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#append VirtualHost#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostRequestHeadersToAddSecretValue;
 }
@@ -5468,15 +10957,15 @@ export class VirtualHostRequestHeadersToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -5613,13 +11102,160 @@ export class VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoOutput
     return this._storeProvider;
   }
 }
+export interface VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface VirtualHostResponseCookiesToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -5727,19 +11363,332 @@ export class VirtualHostResponseCookiesToAddSecretValueClearSecretInfoOutputRefe
     return this._url;
   }
 }
+export interface VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostResponseCookiesToAddSecretValueVaultSecretInfoToTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueVaultSecretInfoOutputReference | VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostResponseCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueVaultSecretInfoOutputReference | VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostResponseCookiesToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostResponseCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostResponseCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface VirtualHostResponseCookiesToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostResponseCookiesToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo;
 }
 
 export function virtualHostResponseCookiesToAddSecretValueToTerraform(struct?: VirtualHostResponseCookiesToAddSecretValueOutputReference | VirtualHostResponseCookiesToAddSecretValue): any {
@@ -5748,8 +11697,12 @@ export function virtualHostResponseCookiesToAddSecretValueToTerraform(struct?: V
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: virtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: virtualHostResponseCookiesToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostResponseCookiesToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostResponseCookiesToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -5760,17 +11713,41 @@ export function virtualHostResponseCookiesToAddSecretValueToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: virtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: virtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: virtualHostResponseCookiesToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostResponseCookiesToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostResponseCookiesToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostResponseCookiesToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostResponseCookiesToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -5792,13 +11769,29 @@ export class VirtualHostResponseCookiesToAddSecretValueOutputReference extends c
   public get internalValue(): VirtualHostResponseCookiesToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -5806,14 +11799,38 @@ export class VirtualHostResponseCookiesToAddSecretValueOutputReference extends c
   public set internalValue(value: VirtualHostResponseCookiesToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -5832,6 +11849,22 @@ export class VirtualHostResponseCookiesToAddSecretValueOutputReference extends c
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostResponseCookiesToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new VirtualHostResponseCookiesToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -5847,100 +11880,132 @@ export class VirtualHostResponseCookiesToAddSecretValueOutputReference extends c
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostResponseCookiesToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostResponseCookiesToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostResponseCookiesToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface VirtualHostResponseCookiesToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_domain VirtualHost#add_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_domain VirtualHost#add_domain}
   */
   readonly addDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_expiry VirtualHost#add_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_expiry VirtualHost#add_expiry}
   */
   readonly addExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_httponly VirtualHost#add_httponly}
   */
   readonly addHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_partitioned VirtualHost#add_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_partitioned VirtualHost#add_partitioned}
   */
   readonly addPartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_path VirtualHost#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_path VirtualHost#add_path}
   */
   readonly addPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#add_secure VirtualHost#add_secure}
   */
   readonly addSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_domain VirtualHost#ignore_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_domain VirtualHost#ignore_domain}
   */
   readonly ignoreDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_expiry VirtualHost#ignore_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_expiry VirtualHost#ignore_expiry}
   */
   readonly ignoreExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_httponly VirtualHost#ignore_httponly}
   */
   readonly ignoreHttponly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_max_age VirtualHost#ignore_max_age}
   */
   readonly ignoreMaxAge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_partitioned VirtualHost#ignore_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_partitioned VirtualHost#ignore_partitioned}
   */
   readonly ignorePartitioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_path VirtualHost#ignore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_path VirtualHost#ignore_path}
   */
   readonly ignorePath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_samesite VirtualHost#ignore_samesite}
   */
   readonly ignoreSamesite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_secure VirtualHost#ignore_secure}
   */
   readonly ignoreSecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#ignore_value VirtualHost#ignore_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ignore_value VirtualHost#ignore_value}
   */
   readonly ignoreValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_age_value VirtualHost#max_age_value}
   */
   readonly maxAgeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#overwrite VirtualHost#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_lax VirtualHost#samesite_lax}
   */
   readonly samesiteLax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_none VirtualHost#samesite_none}
   */
   readonly samesiteNone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#samesite_strict VirtualHost#samesite_strict}
   */
   readonly samesiteStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostResponseCookiesToAddSecretValue;
 }
@@ -6691,15 +12756,15 @@ export class VirtualHostResponseCookiesToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#location VirtualHost#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6836,13 +12901,160 @@ export class VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoOutput
     return this._storeProvider;
   }
 }
+export interface VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference | VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface VirtualHostResponseHeadersToAddSecretValueClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#provider VirtualHost#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#url VirtualHost#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
   */
   readonly url: string;
 }
@@ -6950,19 +13162,332 @@ export class VirtualHostResponseHeadersToAddSecretValueClearSecretInfoOutputRefe
     return this._url;
   }
 }
+export interface VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostResponseHeadersToAddSecretValueVaultSecretInfoToTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueVaultSecretInfoOutputReference | VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostResponseHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueVaultSecretInfoOutputReference | VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostResponseHeadersToAddSecretValueVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostResponseHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostResponseHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference | VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface VirtualHostResponseHeadersToAddSecretValue {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
   */
   readonly clearSecretInfo?: VirtualHostResponseHeadersToAddSecretValueClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo;
 }
 
 export function virtualHostResponseHeadersToAddSecretValueToTerraform(struct?: VirtualHostResponseHeadersToAddSecretValueOutputReference | VirtualHostResponseHeadersToAddSecretValue): any {
@@ -6971,8 +13496,12 @@ export function virtualHostResponseHeadersToAddSecretValueToTerraform(struct?: V
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: virtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: virtualHostResponseHeadersToAddSecretValueClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostResponseHeadersToAddSecretValueVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostResponseHeadersToAddSecretValueWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -6983,17 +13512,41 @@ export function virtualHostResponseHeadersToAddSecretValueToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: virtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: virtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: virtualHostResponseHeadersToAddSecretValueClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "VirtualHostResponseHeadersToAddSecretValueClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostResponseHeadersToAddSecretValueVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostResponseHeadersToAddSecretValueVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostResponseHeadersToAddSecretValueWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfoList",
     },
   };
 
@@ -7015,13 +13568,29 @@ export class VirtualHostResponseHeadersToAddSecretValueOutputReference extends c
   public get internalValue(): VirtualHostResponseHeadersToAddSecretValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -7029,14 +13598,38 @@ export class VirtualHostResponseHeadersToAddSecretValueOutputReference extends c
   public set internalValue(value: VirtualHostResponseHeadersToAddSecretValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -7055,6 +13648,22 @@ export class VirtualHostResponseHeadersToAddSecretValueOutputReference extends c
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostResponseHeadersToAddSecretValueBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new VirtualHostResponseHeadersToAddSecretValueClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -7070,24 +13679,56 @@ export class VirtualHostResponseHeadersToAddSecretValueOutputReference extends c
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostResponseHeadersToAddSecretValueVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostResponseHeadersToAddSecretValueVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostResponseHeadersToAddSecretValueWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface VirtualHostResponseHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#append VirtualHost#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#append VirtualHost#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#value VirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#value VirtualHost#value}
   */
   readonly value?: string;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_value VirtualHost#secret_value}
   */
   readonly secretValue?: VirtualHostResponseHeadersToAddSecretValue;
 }
@@ -7287,11 +13928,11 @@ export class VirtualHostResponseHeadersToAddList extends cdktf.ComplexList {
 }
 export interface VirtualHostRetryPolicyBackOff {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#base_interval VirtualHost#base_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#base_interval VirtualHost#base_interval}
   */
   readonly baseInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#max_interval VirtualHost#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#max_interval VirtualHost#max_interval}
   */
   readonly maxInterval?: number;
 }
@@ -7404,25 +14045,29 @@ export class VirtualHostRetryPolicyBackOffOutputReference extends cdktf.ComplexO
 }
 export interface VirtualHostRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#num_retries VirtualHost#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#num_retries VirtualHost#num_retries}
   */
   readonly numRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#per_try_timeout VirtualHost#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#per_try_timeout VirtualHost#per_try_timeout}
   */
   readonly perTryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#retriable_status_codes VirtualHost#retriable_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retriable_status_codes VirtualHost#retriable_status_codes}
   */
   readonly retriableStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#retry_condition VirtualHost#retry_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retry_condition VirtualHost#retry_condition}
   */
   readonly retryCondition: string[];
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#retry_on VirtualHost#retry_on}
+  */
+  readonly retryOn?: string;
+  /**
   * back_off block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#back_off VirtualHost#back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#back_off VirtualHost#back_off}
   */
   readonly backOff?: VirtualHostRetryPolicyBackOff;
 }
@@ -7437,6 +14082,7 @@ export function virtualHostRetryPolicyToTerraform(struct?: VirtualHostRetryPolic
     per_try_timeout: cdktf.numberToTerraform(struct!.perTryTimeout),
     retriable_status_codes: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.retriableStatusCodes),
     retry_condition: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.retryCondition),
+    retry_on: cdktf.stringToTerraform(struct!.retryOn),
     back_off: virtualHostRetryPolicyBackOffToTerraform(struct!.backOff),
   }
 }
@@ -7471,6 +14117,12 @@ export function virtualHostRetryPolicyToHclTerraform(struct?: VirtualHostRetryPo
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    retry_on: {
+      value: cdktf.stringToHclTerraform(struct!.retryOn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     back_off: {
       value: virtualHostRetryPolicyBackOffToHclTerraform(struct!.backOff),
@@ -7514,6 +14166,10 @@ export class VirtualHostRetryPolicyOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.retryCondition = this._retryCondition;
     }
+    if (this._retryOn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.retryOn = this._retryOn;
+    }
     if (this._backOff?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.backOff = this._backOff?.internalValue;
@@ -7528,6 +14184,7 @@ export class VirtualHostRetryPolicyOutputReference extends cdktf.ComplexObject {
       this._perTryTimeout = undefined;
       this._retriableStatusCodes = undefined;
       this._retryCondition = undefined;
+      this._retryOn = undefined;
       this._backOff.internalValue = undefined;
     }
     else {
@@ -7536,6 +14193,7 @@ export class VirtualHostRetryPolicyOutputReference extends cdktf.ComplexObject {
       this._perTryTimeout = value.perTryTimeout;
       this._retriableStatusCodes = value.retriableStatusCodes;
       this._retryCondition = value.retryCondition;
+      this._retryOn = value.retryOn;
       this._backOff.internalValue = value.backOff;
     }
   }
@@ -7601,6 +14259,22 @@ export class VirtualHostRetryPolicyOutputReference extends cdktf.ComplexObject {
     return this._retryCondition;
   }
 
+  // retry_on - computed: false, optional: true, required: false
+  private _retryOn?: string; 
+  public get retryOn() {
+    return this.getStringAttribute('retry_on');
+  }
+  public set retryOn(value: string) {
+    this._retryOn = value;
+  }
+  public resetRetryOn() {
+    this._retryOn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retryOnInput() {
+    return this._retryOn;
+  }
+
   // back_off - computed: false, optional: true, required: false
   private _backOff = new VirtualHostRetryPolicyBackOffOutputReference(this, "back_off");
   public get backOff() {
@@ -7619,15 +14293,15 @@ export class VirtualHostRetryPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface VirtualHostRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -7806,15 +14480,15 @@ export class VirtualHostRoutesList extends cdktf.ComplexList {
 }
 export interface VirtualHostSensitiveDataPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -7993,15 +14667,15 @@ export class VirtualHostSensitiveDataPolicyList extends cdktf.ComplexList {
 }
 export interface VirtualHostSlowDdosMitigation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable_request_timeout VirtualHost#disable_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_request_timeout VirtualHost#disable_request_timeout}
   */
   readonly disableRequestTimeout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#request_headers_timeout VirtualHost#request_headers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_headers_timeout VirtualHost#request_headers_timeout}
   */
   readonly requestHeadersTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#request_timeout VirtualHost#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#request_timeout VirtualHost#request_timeout}
   */
   readonly requestTimeout?: number;
 }
@@ -8141,17 +14815,4326 @@ export class VirtualHostSlowDdosMitigationOutputReference extends cdktf.ComplexO
     return this._requestTimeout;
   }
 }
-export interface VirtualHostUserIdentification {
+export interface VirtualHostTemporaryUserBlocking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_page VirtualHost#custom_page}
+  */
+  readonly customPage?: string;
+}
+
+export function virtualHostTemporaryUserBlockingToTerraform(struct?: VirtualHostTemporaryUserBlockingOutputReference | VirtualHostTemporaryUserBlocking): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    custom_page: cdktf.stringToTerraform(struct!.customPage),
+  }
+}
+
+
+export function virtualHostTemporaryUserBlockingToHclTerraform(struct?: VirtualHostTemporaryUserBlockingOutputReference | VirtualHostTemporaryUserBlocking): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    custom_page: {
+      value: cdktf.stringToHclTerraform(struct!.customPage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTemporaryUserBlockingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTemporaryUserBlocking | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._customPage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customPage = this._customPage;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTemporaryUserBlocking | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._customPage = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._customPage = value.customPage;
+    }
+  }
+
+  // custom_page - computed: false, optional: true, required: false
+  private _customPage?: string; 
+  public get customPage() {
+    return this.getStringAttribute('custom_page');
+  }
+  public set customPage(value: string) {
+    this._customPage = value;
+  }
+  public resetCustomPage() {
+    this._customPage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customPageInput() {
+    return this._customPage;
+  }
+}
+export interface VirtualHostTlsCertParamsCertificates {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostTlsCertParamsCertificatesToTerraform(struct?: VirtualHostTlsCertParamsCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostTlsCertParamsCertificatesToHclTerraform(struct?: VirtualHostTlsCertParamsCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsCertParamsCertificatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsCertificates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsCertificates | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostTlsCertParamsCertificatesList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostTlsCertParamsCertificates[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostTlsCertParamsCertificatesOutputReference {
+    return new VirtualHostTlsCertParamsCertificatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostTlsCertParamsClientCertificateOptional {
+}
+
+export function virtualHostTlsCertParamsClientCertificateOptionalToTerraform(struct?: VirtualHostTlsCertParamsClientCertificateOptionalOutputReference | VirtualHostTlsCertParamsClientCertificateOptional): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsCertParamsClientCertificateOptionalToHclTerraform(struct?: VirtualHostTlsCertParamsClientCertificateOptionalOutputReference | VirtualHostTlsCertParamsClientCertificateOptional): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsCertParamsClientCertificateOptionalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsClientCertificateOptional | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsClientCertificateOptional | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsCertParamsClientCertificateRequired {
+}
+
+export function virtualHostTlsCertParamsClientCertificateRequiredToTerraform(struct?: VirtualHostTlsCertParamsClientCertificateRequiredOutputReference | VirtualHostTlsCertParamsClientCertificateRequired): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsCertParamsClientCertificateRequiredToHclTerraform(struct?: VirtualHostTlsCertParamsClientCertificateRequiredOutputReference | VirtualHostTlsCertParamsClientCertificateRequired): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsCertParamsClientCertificateRequiredOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsClientCertificateRequired | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsClientCertificateRequired | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsCertParamsCrl {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostTlsCertParamsCrlToTerraform(struct?: VirtualHostTlsCertParamsCrl | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostTlsCertParamsCrlToHclTerraform(struct?: VirtualHostTlsCertParamsCrl | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsCertParamsCrlOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsCrl | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsCrl | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostTlsCertParamsCrlList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostTlsCertParamsCrl[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostTlsCertParamsCrlOutputReference {
+    return new VirtualHostTlsCertParamsCrlOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostTlsCertParamsNoClientCertificate {
+}
+
+export function virtualHostTlsCertParamsNoClientCertificateToTerraform(struct?: VirtualHostTlsCertParamsNoClientCertificateOutputReference | VirtualHostTlsCertParamsNoClientCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsCertParamsNoClientCertificateToHclTerraform(struct?: VirtualHostTlsCertParamsNoClientCertificateOutputReference | VirtualHostTlsCertParamsNoClientCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsCertParamsNoClientCertificateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsNoClientCertificate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsNoClientCertificate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructToTerraform(struct?: VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructToHclTerraform(struct?: VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructOutputReference {
+    return new VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostTlsCertParamsValidationParamsTrustedCa {
+  /**
+  * trusted_ca_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_list VirtualHost#trusted_ca_list}
+  */
+  readonly trustedCaList?: VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
+}
+
+export function virtualHostTlsCertParamsValidationParamsTrustedCaToTerraform(struct?: VirtualHostTlsCertParamsValidationParamsTrustedCaOutputReference | VirtualHostTlsCertParamsValidationParamsTrustedCa): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    trusted_ca_list: cdktf.listMapper(virtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructToTerraform, true)(struct!.trustedCaList),
+  }
+}
+
+
+export function virtualHostTlsCertParamsValidationParamsTrustedCaToHclTerraform(struct?: VirtualHostTlsCertParamsValidationParamsTrustedCaOutputReference | VirtualHostTlsCertParamsValidationParamsTrustedCa): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    trusted_ca_list: {
+      value: cdktf.listMapperHcl(virtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructToHclTerraform, true)(struct!.trustedCaList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsCertParamsValidationParamsTrustedCaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsValidationParamsTrustedCa | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._trustedCaList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaList = this._trustedCaList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsValidationParamsTrustedCa | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._trustedCaList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._trustedCaList.internalValue = value.trustedCaList;
+    }
+  }
+
+  // trusted_ca_list - computed: false, optional: true, required: false
+  private _trustedCaList = new VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStructList(this, "trusted_ca_list", false);
+  public get trustedCaList() {
+    return this._trustedCaList;
+  }
+  public putTrustedCaList(value: VirtualHostTlsCertParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable) {
+    this._trustedCaList.internalValue = value;
+  }
+  public resetTrustedCaList() {
+    this._trustedCaList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaListInput() {
+    return this._trustedCaList.internalValue;
+  }
+}
+export interface VirtualHostTlsCertParamsValidationParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#skip_hostname_verification VirtualHost#skip_hostname_verification}
+  */
+  readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_volterra_trusted_ca_url VirtualHost#use_volterra_trusted_ca_url}
+  */
+  readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#verify_subject_alt_names VirtualHost#verify_subject_alt_names}
+  */
+  readonly verifySubjectAltNames?: string[];
+  /**
+  * trusted_ca block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca VirtualHost#trusted_ca}
+  */
+  readonly trustedCa?: VirtualHostTlsCertParamsValidationParamsTrustedCa;
+}
+
+export function virtualHostTlsCertParamsValidationParamsToTerraform(struct?: VirtualHostTlsCertParamsValidationParamsOutputReference | VirtualHostTlsCertParamsValidationParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    skip_hostname_verification: cdktf.booleanToTerraform(struct!.skipHostnameVerification),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    use_volterra_trusted_ca_url: cdktf.booleanToTerraform(struct!.useVolterraTrustedCaUrl),
+    verify_subject_alt_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.verifySubjectAltNames),
+    trusted_ca: virtualHostTlsCertParamsValidationParamsTrustedCaToTerraform(struct!.trustedCa),
+  }
+}
+
+
+export function virtualHostTlsCertParamsValidationParamsToHclTerraform(struct?: VirtualHostTlsCertParamsValidationParamsOutputReference | VirtualHostTlsCertParamsValidationParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    skip_hostname_verification: {
+      value: cdktf.booleanToHclTerraform(struct!.skipHostnameVerification),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    use_volterra_trusted_ca_url: {
+      value: cdktf.booleanToHclTerraform(struct!.useVolterraTrustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    verify_subject_alt_names: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.verifySubjectAltNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    trusted_ca: {
+      value: virtualHostTlsCertParamsValidationParamsTrustedCaToHclTerraform(struct!.trustedCa),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsValidationParamsTrustedCaList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsCertParamsValidationParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParamsValidationParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._skipHostnameVerification !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipHostnameVerification = this._skipHostnameVerification;
+    }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
+    if (this._useVolterraTrustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useVolterraTrustedCaUrl = this._useVolterraTrustedCaUrl;
+    }
+    if (this._verifySubjectAltNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verifySubjectAltNames = this._verifySubjectAltNames;
+    }
+    if (this._trustedCa?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCa = this._trustedCa?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParamsValidationParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._skipHostnameVerification = undefined;
+      this._trustedCaUrl = undefined;
+      this._useVolterraTrustedCaUrl = undefined;
+      this._verifySubjectAltNames = undefined;
+      this._trustedCa.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._skipHostnameVerification = value.skipHostnameVerification;
+      this._trustedCaUrl = value.trustedCaUrl;
+      this._useVolterraTrustedCaUrl = value.useVolterraTrustedCaUrl;
+      this._verifySubjectAltNames = value.verifySubjectAltNames;
+      this._trustedCa.internalValue = value.trustedCa;
+    }
+  }
+
+  // skip_hostname_verification - computed: false, optional: true, required: false
+  private _skipHostnameVerification?: boolean | cdktf.IResolvable; 
+  public get skipHostnameVerification() {
+    return this.getBooleanAttribute('skip_hostname_verification');
+  }
+  public set skipHostnameVerification(value: boolean | cdktf.IResolvable) {
+    this._skipHostnameVerification = value;
+  }
+  public resetSkipHostnameVerification() {
+    this._skipHostnameVerification = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipHostnameVerificationInput() {
+    return this._skipHostnameVerification;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
+  // use_volterra_trusted_ca_url - computed: false, optional: true, required: false
+  private _useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable; 
+  public get useVolterraTrustedCaUrl() {
+    return this.getBooleanAttribute('use_volterra_trusted_ca_url');
+  }
+  public set useVolterraTrustedCaUrl(value: boolean | cdktf.IResolvable) {
+    this._useVolterraTrustedCaUrl = value;
+  }
+  public resetUseVolterraTrustedCaUrl() {
+    this._useVolterraTrustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useVolterraTrustedCaUrlInput() {
+    return this._useVolterraTrustedCaUrl;
+  }
+
+  // verify_subject_alt_names - computed: false, optional: true, required: false
+  private _verifySubjectAltNames?: string[]; 
+  public get verifySubjectAltNames() {
+    return this.getListAttribute('verify_subject_alt_names');
+  }
+  public set verifySubjectAltNames(value: string[]) {
+    this._verifySubjectAltNames = value;
+  }
+  public resetVerifySubjectAltNames() {
+    this._verifySubjectAltNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifySubjectAltNamesInput() {
+    return this._verifySubjectAltNames;
+  }
+
+  // trusted_ca - computed: false, optional: true, required: false
+  private _trustedCa = new VirtualHostTlsCertParamsValidationParamsTrustedCaOutputReference(this, "trusted_ca");
+  public get trustedCa() {
+    return this._trustedCa;
+  }
+  public putTrustedCa(value: VirtualHostTlsCertParamsValidationParamsTrustedCa) {
+    this._trustedCa.internalValue = value;
+  }
+  public resetTrustedCa() {
+    this._trustedCa.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaInput() {
+    return this._trustedCa.internalValue;
+  }
+}
+export interface VirtualHostTlsCertParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cipher_suites VirtualHost#cipher_suites}
+  */
+  readonly cipherSuites?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#maximum_protocol_version VirtualHost#maximum_protocol_version}
+  */
+  readonly maximumProtocolVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#minimum_protocol_version VirtualHost#minimum_protocol_version}
+  */
+  readonly minimumProtocolVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#require_client_certificate VirtualHost#require_client_certificate}
+  */
+  readonly requireClientCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#xfcc_header_elements VirtualHost#xfcc_header_elements}
+  */
+  readonly xfccHeaderElements?: string[];
+  /**
+  * certificates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#certificates VirtualHost#certificates}
+  */
+  readonly certificates: VirtualHostTlsCertParamsCertificates[] | cdktf.IResolvable;
+  /**
+  * client_certificate_optional block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_optional VirtualHost#client_certificate_optional}
+  */
+  readonly clientCertificateOptional?: VirtualHostTlsCertParamsClientCertificateOptional;
+  /**
+  * client_certificate_required block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_required VirtualHost#client_certificate_required}
+  */
+  readonly clientCertificateRequired?: VirtualHostTlsCertParamsClientCertificateRequired;
+  /**
+  * crl block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#crl VirtualHost#crl}
+  */
+  readonly crl?: VirtualHostTlsCertParamsCrl[] | cdktf.IResolvable;
+  /**
+  * no_client_certificate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_client_certificate VirtualHost#no_client_certificate}
+  */
+  readonly noClientCertificate?: VirtualHostTlsCertParamsNoClientCertificate;
+  /**
+  * validation_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#validation_params VirtualHost#validation_params}
+  */
+  readonly validationParams?: VirtualHostTlsCertParamsValidationParams;
+}
+
+export function virtualHostTlsCertParamsToTerraform(struct?: VirtualHostTlsCertParamsOutputReference | VirtualHostTlsCertParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cipher_suites: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cipherSuites),
+    maximum_protocol_version: cdktf.stringToTerraform(struct!.maximumProtocolVersion),
+    minimum_protocol_version: cdktf.stringToTerraform(struct!.minimumProtocolVersion),
+    require_client_certificate: cdktf.booleanToTerraform(struct!.requireClientCertificate),
+    xfcc_header_elements: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.xfccHeaderElements),
+    certificates: cdktf.listMapper(virtualHostTlsCertParamsCertificatesToTerraform, true)(struct!.certificates),
+    client_certificate_optional: virtualHostTlsCertParamsClientCertificateOptionalToTerraform(struct!.clientCertificateOptional),
+    client_certificate_required: virtualHostTlsCertParamsClientCertificateRequiredToTerraform(struct!.clientCertificateRequired),
+    crl: cdktf.listMapper(virtualHostTlsCertParamsCrlToTerraform, true)(struct!.crl),
+    no_client_certificate: virtualHostTlsCertParamsNoClientCertificateToTerraform(struct!.noClientCertificate),
+    validation_params: virtualHostTlsCertParamsValidationParamsToTerraform(struct!.validationParams),
+  }
+}
+
+
+export function virtualHostTlsCertParamsToHclTerraform(struct?: VirtualHostTlsCertParamsOutputReference | VirtualHostTlsCertParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cipher_suites: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cipherSuites),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    maximum_protocol_version: {
+      value: cdktf.stringToHclTerraform(struct!.maximumProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minimum_protocol_version: {
+      value: cdktf.stringToHclTerraform(struct!.minimumProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    require_client_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.requireClientCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    xfcc_header_elements: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.xfccHeaderElements),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    certificates: {
+      value: cdktf.listMapperHcl(virtualHostTlsCertParamsCertificatesToHclTerraform, true)(struct!.certificates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsCertificatesList",
+    },
+    client_certificate_optional: {
+      value: virtualHostTlsCertParamsClientCertificateOptionalToHclTerraform(struct!.clientCertificateOptional),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsClientCertificateOptionalList",
+    },
+    client_certificate_required: {
+      value: virtualHostTlsCertParamsClientCertificateRequiredToHclTerraform(struct!.clientCertificateRequired),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsClientCertificateRequiredList",
+    },
+    crl: {
+      value: cdktf.listMapperHcl(virtualHostTlsCertParamsCrlToHclTerraform, true)(struct!.crl),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsCrlList",
+    },
+    no_client_certificate: {
+      value: virtualHostTlsCertParamsNoClientCertificateToHclTerraform(struct!.noClientCertificate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsNoClientCertificateList",
+    },
+    validation_params: {
+      value: virtualHostTlsCertParamsValidationParamsToHclTerraform(struct!.validationParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsCertParamsValidationParamsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsCertParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsCertParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cipherSuites !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cipherSuites = this._cipherSuites;
+    }
+    if (this._maximumProtocolVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumProtocolVersion = this._maximumProtocolVersion;
+    }
+    if (this._minimumProtocolVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumProtocolVersion = this._minimumProtocolVersion;
+    }
+    if (this._requireClientCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requireClientCertificate = this._requireClientCertificate;
+    }
+    if (this._xfccHeaderElements !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.xfccHeaderElements = this._xfccHeaderElements;
+    }
+    if (this._certificates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificates = this._certificates?.internalValue;
+    }
+    if (this._clientCertificateOptional?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientCertificateOptional = this._clientCertificateOptional?.internalValue;
+    }
+    if (this._clientCertificateRequired?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientCertificateRequired = this._clientCertificateRequired?.internalValue;
+    }
+    if (this._crl?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.crl = this._crl?.internalValue;
+    }
+    if (this._noClientCertificate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noClientCertificate = this._noClientCertificate?.internalValue;
+    }
+    if (this._validationParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.validationParams = this._validationParams?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsCertParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cipherSuites = undefined;
+      this._maximumProtocolVersion = undefined;
+      this._minimumProtocolVersion = undefined;
+      this._requireClientCertificate = undefined;
+      this._xfccHeaderElements = undefined;
+      this._certificates.internalValue = undefined;
+      this._clientCertificateOptional.internalValue = undefined;
+      this._clientCertificateRequired.internalValue = undefined;
+      this._crl.internalValue = undefined;
+      this._noClientCertificate.internalValue = undefined;
+      this._validationParams.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cipherSuites = value.cipherSuites;
+      this._maximumProtocolVersion = value.maximumProtocolVersion;
+      this._minimumProtocolVersion = value.minimumProtocolVersion;
+      this._requireClientCertificate = value.requireClientCertificate;
+      this._xfccHeaderElements = value.xfccHeaderElements;
+      this._certificates.internalValue = value.certificates;
+      this._clientCertificateOptional.internalValue = value.clientCertificateOptional;
+      this._clientCertificateRequired.internalValue = value.clientCertificateRequired;
+      this._crl.internalValue = value.crl;
+      this._noClientCertificate.internalValue = value.noClientCertificate;
+      this._validationParams.internalValue = value.validationParams;
+    }
+  }
+
+  // cipher_suites - computed: false, optional: true, required: false
+  private _cipherSuites?: string[]; 
+  public get cipherSuites() {
+    return this.getListAttribute('cipher_suites');
+  }
+  public set cipherSuites(value: string[]) {
+    this._cipherSuites = value;
+  }
+  public resetCipherSuites() {
+    this._cipherSuites = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cipherSuitesInput() {
+    return this._cipherSuites;
+  }
+
+  // maximum_protocol_version - computed: false, optional: true, required: false
+  private _maximumProtocolVersion?: string; 
+  public get maximumProtocolVersion() {
+    return this.getStringAttribute('maximum_protocol_version');
+  }
+  public set maximumProtocolVersion(value: string) {
+    this._maximumProtocolVersion = value;
+  }
+  public resetMaximumProtocolVersion() {
+    this._maximumProtocolVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumProtocolVersionInput() {
+    return this._maximumProtocolVersion;
+  }
+
+  // minimum_protocol_version - computed: false, optional: true, required: false
+  private _minimumProtocolVersion?: string; 
+  public get minimumProtocolVersion() {
+    return this.getStringAttribute('minimum_protocol_version');
+  }
+  public set minimumProtocolVersion(value: string) {
+    this._minimumProtocolVersion = value;
+  }
+  public resetMinimumProtocolVersion() {
+    this._minimumProtocolVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumProtocolVersionInput() {
+    return this._minimumProtocolVersion;
+  }
+
+  // require_client_certificate - computed: false, optional: true, required: false
+  private _requireClientCertificate?: boolean | cdktf.IResolvable; 
+  public get requireClientCertificate() {
+    return this.getBooleanAttribute('require_client_certificate');
+  }
+  public set requireClientCertificate(value: boolean | cdktf.IResolvable) {
+    this._requireClientCertificate = value;
+  }
+  public resetRequireClientCertificate() {
+    this._requireClientCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requireClientCertificateInput() {
+    return this._requireClientCertificate;
+  }
+
+  // xfcc_header_elements - computed: false, optional: true, required: false
+  private _xfccHeaderElements?: string[]; 
+  public get xfccHeaderElements() {
+    return this.getListAttribute('xfcc_header_elements');
+  }
+  public set xfccHeaderElements(value: string[]) {
+    this._xfccHeaderElements = value;
+  }
+  public resetXfccHeaderElements() {
+    this._xfccHeaderElements = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get xfccHeaderElementsInput() {
+    return this._xfccHeaderElements;
+  }
+
+  // certificates - computed: false, optional: false, required: true
+  private _certificates = new VirtualHostTlsCertParamsCertificatesList(this, "certificates", false);
+  public get certificates() {
+    return this._certificates;
+  }
+  public putCertificates(value: VirtualHostTlsCertParamsCertificates[] | cdktf.IResolvable) {
+    this._certificates.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificatesInput() {
+    return this._certificates.internalValue;
+  }
+
+  // client_certificate_optional - computed: false, optional: true, required: false
+  private _clientCertificateOptional = new VirtualHostTlsCertParamsClientCertificateOptionalOutputReference(this, "client_certificate_optional");
+  public get clientCertificateOptional() {
+    return this._clientCertificateOptional;
+  }
+  public putClientCertificateOptional(value: VirtualHostTlsCertParamsClientCertificateOptional) {
+    this._clientCertificateOptional.internalValue = value;
+  }
+  public resetClientCertificateOptional() {
+    this._clientCertificateOptional.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientCertificateOptionalInput() {
+    return this._clientCertificateOptional.internalValue;
+  }
+
+  // client_certificate_required - computed: false, optional: true, required: false
+  private _clientCertificateRequired = new VirtualHostTlsCertParamsClientCertificateRequiredOutputReference(this, "client_certificate_required");
+  public get clientCertificateRequired() {
+    return this._clientCertificateRequired;
+  }
+  public putClientCertificateRequired(value: VirtualHostTlsCertParamsClientCertificateRequired) {
+    this._clientCertificateRequired.internalValue = value;
+  }
+  public resetClientCertificateRequired() {
+    this._clientCertificateRequired.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientCertificateRequiredInput() {
+    return this._clientCertificateRequired.internalValue;
+  }
+
+  // crl - computed: false, optional: true, required: false
+  private _crl = new VirtualHostTlsCertParamsCrlList(this, "crl", false);
+  public get crl() {
+    return this._crl;
+  }
+  public putCrl(value: VirtualHostTlsCertParamsCrl[] | cdktf.IResolvable) {
+    this._crl.internalValue = value;
+  }
+  public resetCrl() {
+    this._crl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get crlInput() {
+    return this._crl.internalValue;
+  }
+
+  // no_client_certificate - computed: false, optional: true, required: false
+  private _noClientCertificate = new VirtualHostTlsCertParamsNoClientCertificateOutputReference(this, "no_client_certificate");
+  public get noClientCertificate() {
+    return this._noClientCertificate;
+  }
+  public putNoClientCertificate(value: VirtualHostTlsCertParamsNoClientCertificate) {
+    this._noClientCertificate.internalValue = value;
+  }
+  public resetNoClientCertificate() {
+    this._noClientCertificate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noClientCertificateInput() {
+    return this._noClientCertificate.internalValue;
+  }
+
+  // validation_params - computed: false, optional: true, required: false
+  private _validationParams = new VirtualHostTlsCertParamsValidationParamsOutputReference(this, "validation_params");
+  public get validationParams() {
+    return this._validationParams;
+  }
+  public putValidationParams(value: VirtualHostTlsCertParamsValidationParams) {
+    this._validationParams.internalValue = value;
+  }
+  public resetValidationParams() {
+    this._validationParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validationParamsInput() {
+    return this._validationParams.internalValue;
+  }
+}
+export interface VirtualHostTlsParametersClientCertificateOptional {
+}
+
+export function virtualHostTlsParametersClientCertificateOptionalToTerraform(struct?: VirtualHostTlsParametersClientCertificateOptionalOutputReference | VirtualHostTlsParametersClientCertificateOptional): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsParametersClientCertificateOptionalToHclTerraform(struct?: VirtualHostTlsParametersClientCertificateOptionalOutputReference | VirtualHostTlsParametersClientCertificateOptional): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsParametersClientCertificateOptionalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersClientCertificateOptional | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersClientCertificateOptional | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsParametersClientCertificateRequired {
+}
+
+export function virtualHostTlsParametersClientCertificateRequiredToTerraform(struct?: VirtualHostTlsParametersClientCertificateRequiredOutputReference | VirtualHostTlsParametersClientCertificateRequired): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsParametersClientCertificateRequiredToHclTerraform(struct?: VirtualHostTlsParametersClientCertificateRequiredOutputReference | VirtualHostTlsParametersClientCertificateRequired): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsParametersClientCertificateRequiredOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersClientCertificateRequired | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersClientCertificateRequired | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#hash_algorithms VirtualHost#hash_algorithms}
+  */
+  readonly hashAlgorithms: string[];
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hash_algorithms: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hashAlgorithms),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hash_algorithms: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.hashAlgorithms),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hashAlgorithms !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hashAlgorithms = this._hashAlgorithms;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._hashAlgorithms = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._hashAlgorithms = value.hashAlgorithms;
+    }
+  }
+
+  // hash_algorithms - computed: false, optional: false, required: true
+  private _hashAlgorithms?: string[]; 
+  public get hashAlgorithms() {
+    return this.getListAttribute('hash_algorithms');
+  }
+  public set hashAlgorithms(value: string[]) {
+    this._hashAlgorithms = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashAlgorithmsInput() {
+    return this._hashAlgorithms;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling {
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#decryption_provider VirtualHost#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#store_provider VirtualHost#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#url VirtualHost#url}
+  */
+  readonly url: string;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    provider: cdktf.stringToTerraform(struct!.provider),
+    url: cdktf.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._provider = undefined;
+      this._url = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._provider = value.provider;
+      this._url = value.url;
+    }
+  }
+
+  // provider - computed: false, optional: true, required: false
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  public resetProvider() {
+    this._provider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // url - computed: false, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#key VirtualHost#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#location VirtualHost#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#provider VirtualHost#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding VirtualHost#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#version VirtualHost#version}
+  */
+  readonly version?: number;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name: string;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#secret_encoding_type VirtualHost#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
+  /**
+  * blindfold_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info VirtualHost#blindfold_secret_info}
+  */
+  readonly blindfoldSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo;
+  /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#blindfold_secret_info_internal VirtualHost#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
+  * clear_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#clear_secret_info VirtualHost#clear_secret_info}
+  */
+  readonly clearSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#vault_secret_info VirtualHost#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#wingman_secret_info VirtualHost#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
+    blindfold_secret_info: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
+    clear_secret_info: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    blindfold_secret_info: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
+    },
+    blindfold_secret_info_internal: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
+    clear_secret_info: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
+    if (this._blindfoldSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
+    }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
+    if (this._clearSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
+      this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
+      this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
+      this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
+      this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
+    }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
+  }
+
+  // blindfold_secret_info - computed: false, optional: true, required: false
+  private _blindfoldSecretInfo = new VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoOutputReference(this, "blindfold_secret_info");
+  public get blindfoldSecretInfo() {
+    return this._blindfoldSecretInfo;
+  }
+  public putBlindfoldSecretInfo(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfo) {
+    this._blindfoldSecretInfo.internalValue = value;
+  }
+  public resetBlindfoldSecretInfo() {
+    this._blindfoldSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInput() {
+    return this._blindfoldSecretInfo.internalValue;
+  }
+
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
+  // clear_secret_info - computed: false, optional: true, required: false
+  private _clearSecretInfo = new VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
+  public get clearSecretInfo() {
+    return this._clearSecretInfo;
+  }
+  public putClearSecretInfo(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyClearSecretInfo) {
+    this._clearSecretInfo.internalValue = value;
+  }
+  public resetClearSecretInfo() {
+    this._clearSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSecretInfoInput() {
+    return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults {
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsOutputReference | VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsTlsCertificates {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#certificate_url VirtualHost#certificate_url}
+  */
+  readonly certificateUrl: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#description VirtualHost#description}
+  */
+  readonly description?: string;
+  /**
+  * custom_hash_algorithms block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#custom_hash_algorithms VirtualHost#custom_hash_algorithms}
+  */
+  readonly customHashAlgorithms?: VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms;
+  /**
+  * disable_ocsp_stapling block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_ocsp_stapling VirtualHost#disable_ocsp_stapling}
+  */
+  readonly disableOcspStapling?: VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling;
+  /**
+  * private_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#private_key VirtualHost#private_key}
+  */
+  readonly privateKey: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey;
+  /**
+  * use_system_defaults block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_system_defaults VirtualHost#use_system_defaults}
+  */
+  readonly useSystemDefaults?: VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults;
+}
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesToTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    certificate_url: cdktf.stringToTerraform(struct!.certificateUrl),
+    description: cdktf.stringToTerraform(struct!.description),
+    custom_hash_algorithms: virtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsToTerraform(struct!.customHashAlgorithms),
+    disable_ocsp_stapling: virtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingToTerraform(struct!.disableOcspStapling),
+    private_key: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyToTerraform(struct!.privateKey),
+    use_system_defaults: virtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsToTerraform(struct!.useSystemDefaults),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsTlsCertificatesToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsTlsCertificates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    certificate_url: {
+      value: cdktf.stringToHclTerraform(struct!.certificateUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_hash_algorithms: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsToHclTerraform(struct!.customHashAlgorithms),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsList",
+    },
+    disable_ocsp_stapling: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingToHclTerraform(struct!.disableOcspStapling),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingList",
+    },
+    private_key: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyToHclTerraform(struct!.privateKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyList",
+    },
+    use_system_defaults: {
+      value: virtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsToHclTerraform(struct!.useSystemDefaults),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsTlsCertificates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._certificateUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificateUrl = this._certificateUrl;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._customHashAlgorithms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHashAlgorithms = this._customHashAlgorithms?.internalValue;
+    }
+    if (this._disableOcspStapling?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableOcspStapling = this._disableOcspStapling?.internalValue;
+    }
+    if (this._privateKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateKey = this._privateKey?.internalValue;
+    }
+    if (this._useSystemDefaults?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useSystemDefaults = this._useSystemDefaults?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsTlsCertificates | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._certificateUrl = undefined;
+      this._description = undefined;
+      this._customHashAlgorithms.internalValue = undefined;
+      this._disableOcspStapling.internalValue = undefined;
+      this._privateKey.internalValue = undefined;
+      this._useSystemDefaults.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._certificateUrl = value.certificateUrl;
+      this._description = value.description;
+      this._customHashAlgorithms.internalValue = value.customHashAlgorithms;
+      this._disableOcspStapling.internalValue = value.disableOcspStapling;
+      this._privateKey.internalValue = value.privateKey;
+      this._useSystemDefaults.internalValue = value.useSystemDefaults;
+    }
+  }
+
+  // certificate_url - computed: false, optional: false, required: true
+  private _certificateUrl?: string; 
+  public get certificateUrl() {
+    return this.getStringAttribute('certificate_url');
+  }
+  public set certificateUrl(value: string) {
+    this._certificateUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateUrlInput() {
+    return this._certificateUrl;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // custom_hash_algorithms - computed: false, optional: true, required: false
+  private _customHashAlgorithms = new VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithmsOutputReference(this, "custom_hash_algorithms");
+  public get customHashAlgorithms() {
+    return this._customHashAlgorithms;
+  }
+  public putCustomHashAlgorithms(value: VirtualHostTlsParametersCommonParamsTlsCertificatesCustomHashAlgorithms) {
+    this._customHashAlgorithms.internalValue = value;
+  }
+  public resetCustomHashAlgorithms() {
+    this._customHashAlgorithms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHashAlgorithmsInput() {
+    return this._customHashAlgorithms.internalValue;
+  }
+
+  // disable_ocsp_stapling - computed: false, optional: true, required: false
+  private _disableOcspStapling = new VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStaplingOutputReference(this, "disable_ocsp_stapling");
+  public get disableOcspStapling() {
+    return this._disableOcspStapling;
+  }
+  public putDisableOcspStapling(value: VirtualHostTlsParametersCommonParamsTlsCertificatesDisableOcspStapling) {
+    this._disableOcspStapling.internalValue = value;
+  }
+  public resetDisableOcspStapling() {
+    this._disableOcspStapling.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableOcspStaplingInput() {
+    return this._disableOcspStapling.internalValue;
+  }
+
+  // private_key - computed: false, optional: false, required: true
+  private _privateKey = new VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKeyOutputReference(this, "private_key");
+  public get privateKey() {
+    return this._privateKey;
+  }
+  public putPrivateKey(value: VirtualHostTlsParametersCommonParamsTlsCertificatesPrivateKey) {
+    this._privateKey.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateKeyInput() {
+    return this._privateKey.internalValue;
+  }
+
+  // use_system_defaults - computed: false, optional: true, required: false
+  private _useSystemDefaults = new VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaultsOutputReference(this, "use_system_defaults");
+  public get useSystemDefaults() {
+    return this._useSystemDefaults;
+  }
+  public putUseSystemDefaults(value: VirtualHostTlsParametersCommonParamsTlsCertificatesUseSystemDefaults) {
+    this._useSystemDefaults.internalValue = value;
+  }
+  public resetUseSystemDefaults() {
+    this._useSystemDefaults.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useSystemDefaultsInput() {
+    return this._useSystemDefaults.internalValue;
+  }
+}
+
+export class VirtualHostTlsParametersCommonParamsTlsCertificatesList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostTlsParametersCommonParamsTlsCertificatesOutputReference {
+    return new VirtualHostTlsParametersCommonParamsTlsCertificatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructToTerraform(struct?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructOutputReference {
+    return new VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa {
+  /**
+  * trusted_ca_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_list VirtualHost#trusted_ca_list}
+  */
+  readonly trustedCaList?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable;
+}
+
+export function virtualHostTlsParametersCommonParamsValidationParamsTrustedCaToTerraform(struct?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaOutputReference | VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    trusted_ca_list: cdktf.listMapper(virtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructToTerraform, true)(struct!.trustedCaList),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsValidationParamsTrustedCaToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaOutputReference | VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    trusted_ca_list: {
+      value: cdktf.listMapperHcl(virtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructToHclTerraform, true)(struct!.trustedCaList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._trustedCaList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaList = this._trustedCaList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._trustedCaList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._trustedCaList.internalValue = value.trustedCaList;
+    }
+  }
+
+  // trusted_ca_list - computed: false, optional: true, required: false
+  private _trustedCaList = new VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStructList(this, "trusted_ca_list", false);
+  public get trustedCaList() {
+    return this._trustedCaList;
+  }
+  public putTrustedCaList(value: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaTrustedCaListStruct[] | cdktf.IResolvable) {
+    this._trustedCaList.internalValue = value;
+  }
+  public resetTrustedCaList() {
+    this._trustedCaList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaListInput() {
+    return this._trustedCaList.internalValue;
+  }
+}
+export interface VirtualHostTlsParametersCommonParamsValidationParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#skip_hostname_verification VirtualHost#skip_hostname_verification}
+  */
+  readonly skipHostnameVerification?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#use_volterra_trusted_ca_url VirtualHost#use_volterra_trusted_ca_url}
+  */
+  readonly useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#verify_subject_alt_names VirtualHost#verify_subject_alt_names}
+  */
+  readonly verifySubjectAltNames?: string[];
+  /**
+  * trusted_ca block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca VirtualHost#trusted_ca}
+  */
+  readonly trustedCa?: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa;
+}
+
+export function virtualHostTlsParametersCommonParamsValidationParamsToTerraform(struct?: VirtualHostTlsParametersCommonParamsValidationParamsOutputReference | VirtualHostTlsParametersCommonParamsValidationParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    skip_hostname_verification: cdktf.booleanToTerraform(struct!.skipHostnameVerification),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    use_volterra_trusted_ca_url: cdktf.booleanToTerraform(struct!.useVolterraTrustedCaUrl),
+    verify_subject_alt_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.verifySubjectAltNames),
+    trusted_ca: virtualHostTlsParametersCommonParamsValidationParamsTrustedCaToTerraform(struct!.trustedCa),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsValidationParamsToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsValidationParamsOutputReference | VirtualHostTlsParametersCommonParamsValidationParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    skip_hostname_verification: {
+      value: cdktf.booleanToHclTerraform(struct!.skipHostnameVerification),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    use_volterra_trusted_ca_url: {
+      value: cdktf.booleanToHclTerraform(struct!.useVolterraTrustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    verify_subject_alt_names: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.verifySubjectAltNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    trusted_ca: {
+      value: virtualHostTlsParametersCommonParamsValidationParamsTrustedCaToHclTerraform(struct!.trustedCa),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsValidationParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParamsValidationParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._skipHostnameVerification !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipHostnameVerification = this._skipHostnameVerification;
+    }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
+    if (this._useVolterraTrustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useVolterraTrustedCaUrl = this._useVolterraTrustedCaUrl;
+    }
+    if (this._verifySubjectAltNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verifySubjectAltNames = this._verifySubjectAltNames;
+    }
+    if (this._trustedCa?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCa = this._trustedCa?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParamsValidationParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._skipHostnameVerification = undefined;
+      this._trustedCaUrl = undefined;
+      this._useVolterraTrustedCaUrl = undefined;
+      this._verifySubjectAltNames = undefined;
+      this._trustedCa.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._skipHostnameVerification = value.skipHostnameVerification;
+      this._trustedCaUrl = value.trustedCaUrl;
+      this._useVolterraTrustedCaUrl = value.useVolterraTrustedCaUrl;
+      this._verifySubjectAltNames = value.verifySubjectAltNames;
+      this._trustedCa.internalValue = value.trustedCa;
+    }
+  }
+
+  // skip_hostname_verification - computed: false, optional: true, required: false
+  private _skipHostnameVerification?: boolean | cdktf.IResolvable; 
+  public get skipHostnameVerification() {
+    return this.getBooleanAttribute('skip_hostname_verification');
+  }
+  public set skipHostnameVerification(value: boolean | cdktf.IResolvable) {
+    this._skipHostnameVerification = value;
+  }
+  public resetSkipHostnameVerification() {
+    this._skipHostnameVerification = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipHostnameVerificationInput() {
+    return this._skipHostnameVerification;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
+  // use_volterra_trusted_ca_url - computed: false, optional: true, required: false
+  private _useVolterraTrustedCaUrl?: boolean | cdktf.IResolvable; 
+  public get useVolterraTrustedCaUrl() {
+    return this.getBooleanAttribute('use_volterra_trusted_ca_url');
+  }
+  public set useVolterraTrustedCaUrl(value: boolean | cdktf.IResolvable) {
+    this._useVolterraTrustedCaUrl = value;
+  }
+  public resetUseVolterraTrustedCaUrl() {
+    this._useVolterraTrustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useVolterraTrustedCaUrlInput() {
+    return this._useVolterraTrustedCaUrl;
+  }
+
+  // verify_subject_alt_names - computed: false, optional: true, required: false
+  private _verifySubjectAltNames?: string[]; 
+  public get verifySubjectAltNames() {
+    return this.getListAttribute('verify_subject_alt_names');
+  }
+  public set verifySubjectAltNames(value: string[]) {
+    this._verifySubjectAltNames = value;
+  }
+  public resetVerifySubjectAltNames() {
+    this._verifySubjectAltNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifySubjectAltNamesInput() {
+    return this._verifySubjectAltNames;
+  }
+
+  // trusted_ca - computed: false, optional: true, required: false
+  private _trustedCa = new VirtualHostTlsParametersCommonParamsValidationParamsTrustedCaOutputReference(this, "trusted_ca");
+  public get trustedCa() {
+    return this._trustedCa;
+  }
+  public putTrustedCa(value: VirtualHostTlsParametersCommonParamsValidationParamsTrustedCa) {
+    this._trustedCa.internalValue = value;
+  }
+  public resetTrustedCa() {
+    this._trustedCa.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaInput() {
+    return this._trustedCa.internalValue;
+  }
+}
+export interface VirtualHostTlsParametersCommonParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#cipher_suites VirtualHost#cipher_suites}
+  */
+  readonly cipherSuites?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#maximum_protocol_version VirtualHost#maximum_protocol_version}
+  */
+  readonly maximumProtocolVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#minimum_protocol_version VirtualHost#minimum_protocol_version}
+  */
+  readonly minimumProtocolVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#trusted_ca_url VirtualHost#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
+  * tls_certificates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tls_certificates VirtualHost#tls_certificates}
+  */
+  readonly tlsCertificates?: VirtualHostTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable;
+  /**
+  * validation_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#validation_params VirtualHost#validation_params}
+  */
+  readonly validationParams?: VirtualHostTlsParametersCommonParamsValidationParams;
+}
+
+export function virtualHostTlsParametersCommonParamsToTerraform(struct?: VirtualHostTlsParametersCommonParamsOutputReference | VirtualHostTlsParametersCommonParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cipher_suites: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cipherSuites),
+    maximum_protocol_version: cdktf.stringToTerraform(struct!.maximumProtocolVersion),
+    minimum_protocol_version: cdktf.stringToTerraform(struct!.minimumProtocolVersion),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    tls_certificates: cdktf.listMapper(virtualHostTlsParametersCommonParamsTlsCertificatesToTerraform, true)(struct!.tlsCertificates),
+    validation_params: virtualHostTlsParametersCommonParamsValidationParamsToTerraform(struct!.validationParams),
+  }
+}
+
+
+export function virtualHostTlsParametersCommonParamsToHclTerraform(struct?: VirtualHostTlsParametersCommonParamsOutputReference | VirtualHostTlsParametersCommonParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cipher_suites: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cipherSuites),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    maximum_protocol_version: {
+      value: cdktf.stringToHclTerraform(struct!.maximumProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minimum_protocol_version: {
+      value: cdktf.stringToHclTerraform(struct!.minimumProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tls_certificates: {
+      value: cdktf.listMapperHcl(virtualHostTlsParametersCommonParamsTlsCertificatesToHclTerraform, true)(struct!.tlsCertificates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsTlsCertificatesList",
+    },
+    validation_params: {
+      value: virtualHostTlsParametersCommonParamsValidationParamsToHclTerraform(struct!.validationParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsValidationParamsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCommonParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCommonParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cipherSuites !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cipherSuites = this._cipherSuites;
+    }
+    if (this._maximumProtocolVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumProtocolVersion = this._maximumProtocolVersion;
+    }
+    if (this._minimumProtocolVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumProtocolVersion = this._minimumProtocolVersion;
+    }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
+    if (this._tlsCertificates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tlsCertificates = this._tlsCertificates?.internalValue;
+    }
+    if (this._validationParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.validationParams = this._validationParams?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCommonParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cipherSuites = undefined;
+      this._maximumProtocolVersion = undefined;
+      this._minimumProtocolVersion = undefined;
+      this._trustedCaUrl = undefined;
+      this._tlsCertificates.internalValue = undefined;
+      this._validationParams.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cipherSuites = value.cipherSuites;
+      this._maximumProtocolVersion = value.maximumProtocolVersion;
+      this._minimumProtocolVersion = value.minimumProtocolVersion;
+      this._trustedCaUrl = value.trustedCaUrl;
+      this._tlsCertificates.internalValue = value.tlsCertificates;
+      this._validationParams.internalValue = value.validationParams;
+    }
+  }
+
+  // cipher_suites - computed: false, optional: true, required: false
+  private _cipherSuites?: string[]; 
+  public get cipherSuites() {
+    return this.getListAttribute('cipher_suites');
+  }
+  public set cipherSuites(value: string[]) {
+    this._cipherSuites = value;
+  }
+  public resetCipherSuites() {
+    this._cipherSuites = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cipherSuitesInput() {
+    return this._cipherSuites;
+  }
+
+  // maximum_protocol_version - computed: false, optional: true, required: false
+  private _maximumProtocolVersion?: string; 
+  public get maximumProtocolVersion() {
+    return this.getStringAttribute('maximum_protocol_version');
+  }
+  public set maximumProtocolVersion(value: string) {
+    this._maximumProtocolVersion = value;
+  }
+  public resetMaximumProtocolVersion() {
+    this._maximumProtocolVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumProtocolVersionInput() {
+    return this._maximumProtocolVersion;
+  }
+
+  // minimum_protocol_version - computed: false, optional: true, required: false
+  private _minimumProtocolVersion?: string; 
+  public get minimumProtocolVersion() {
+    return this.getStringAttribute('minimum_protocol_version');
+  }
+  public set minimumProtocolVersion(value: string) {
+    this._minimumProtocolVersion = value;
+  }
+  public resetMinimumProtocolVersion() {
+    this._minimumProtocolVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumProtocolVersionInput() {
+    return this._minimumProtocolVersion;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
+  // tls_certificates - computed: false, optional: true, required: false
+  private _tlsCertificates = new VirtualHostTlsParametersCommonParamsTlsCertificatesList(this, "tls_certificates", false);
+  public get tlsCertificates() {
+    return this._tlsCertificates;
+  }
+  public putTlsCertificates(value: VirtualHostTlsParametersCommonParamsTlsCertificates[] | cdktf.IResolvable) {
+    this._tlsCertificates.internalValue = value;
+  }
+  public resetTlsCertificates() {
+    this._tlsCertificates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsCertificatesInput() {
+    return this._tlsCertificates.internalValue;
+  }
+
+  // validation_params - computed: false, optional: true, required: false
+  private _validationParams = new VirtualHostTlsParametersCommonParamsValidationParamsOutputReference(this, "validation_params");
+  public get validationParams() {
+    return this._validationParams;
+  }
+  public putValidationParams(value: VirtualHostTlsParametersCommonParamsValidationParams) {
+    this._validationParams.internalValue = value;
+  }
+  public resetValidationParams() {
+    this._validationParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validationParamsInput() {
+    return this._validationParams.internalValue;
+  }
+}
+export interface VirtualHostTlsParametersCrl {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostTlsParametersCrlToTerraform(struct?: VirtualHostTlsParametersCrl | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostTlsParametersCrlToHclTerraform(struct?: VirtualHostTlsParametersCrl | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersCrlOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersCrl | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersCrl | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostTlsParametersCrlList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostTlsParametersCrl[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostTlsParametersCrlOutputReference {
+    return new VirtualHostTlsParametersCrlOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostTlsParametersNoClientCertificate {
+}
+
+export function virtualHostTlsParametersNoClientCertificateToTerraform(struct?: VirtualHostTlsParametersNoClientCertificateOutputReference | VirtualHostTlsParametersNoClientCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function virtualHostTlsParametersNoClientCertificateToHclTerraform(struct?: VirtualHostTlsParametersNoClientCertificateOutputReference | VirtualHostTlsParametersNoClientCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VirtualHostTlsParametersNoClientCertificateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParametersNoClientCertificate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParametersNoClientCertificate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface VirtualHostTlsParameters {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#require_client_certificate VirtualHost#require_client_certificate}
+  */
+  readonly requireClientCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#xfcc_header_elements VirtualHost#xfcc_header_elements}
+  */
+  readonly xfccHeaderElements?: string[];
+  /**
+  * client_certificate_optional block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_optional VirtualHost#client_certificate_optional}
+  */
+  readonly clientCertificateOptional?: VirtualHostTlsParametersClientCertificateOptional;
+  /**
+  * client_certificate_required block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#client_certificate_required VirtualHost#client_certificate_required}
+  */
+  readonly clientCertificateRequired?: VirtualHostTlsParametersClientCertificateRequired;
+  /**
+  * common_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#common_params VirtualHost#common_params}
+  */
+  readonly commonParams?: VirtualHostTlsParametersCommonParams;
+  /**
+  * crl block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#crl VirtualHost#crl}
+  */
+  readonly crl?: VirtualHostTlsParametersCrl[] | cdktf.IResolvable;
+  /**
+  * no_client_certificate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#no_client_certificate VirtualHost#no_client_certificate}
+  */
+  readonly noClientCertificate?: VirtualHostTlsParametersNoClientCertificate;
+}
+
+export function virtualHostTlsParametersToTerraform(struct?: VirtualHostTlsParametersOutputReference | VirtualHostTlsParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    require_client_certificate: cdktf.booleanToTerraform(struct!.requireClientCertificate),
+    xfcc_header_elements: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.xfccHeaderElements),
+    client_certificate_optional: virtualHostTlsParametersClientCertificateOptionalToTerraform(struct!.clientCertificateOptional),
+    client_certificate_required: virtualHostTlsParametersClientCertificateRequiredToTerraform(struct!.clientCertificateRequired),
+    common_params: virtualHostTlsParametersCommonParamsToTerraform(struct!.commonParams),
+    crl: cdktf.listMapper(virtualHostTlsParametersCrlToTerraform, true)(struct!.crl),
+    no_client_certificate: virtualHostTlsParametersNoClientCertificateToTerraform(struct!.noClientCertificate),
+  }
+}
+
+
+export function virtualHostTlsParametersToHclTerraform(struct?: VirtualHostTlsParametersOutputReference | VirtualHostTlsParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    require_client_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.requireClientCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    xfcc_header_elements: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.xfccHeaderElements),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    client_certificate_optional: {
+      value: virtualHostTlsParametersClientCertificateOptionalToHclTerraform(struct!.clientCertificateOptional),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersClientCertificateOptionalList",
+    },
+    client_certificate_required: {
+      value: virtualHostTlsParametersClientCertificateRequiredToHclTerraform(struct!.clientCertificateRequired),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersClientCertificateRequiredList",
+    },
+    common_params: {
+      value: virtualHostTlsParametersCommonParamsToHclTerraform(struct!.commonParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCommonParamsList",
+    },
+    crl: {
+      value: cdktf.listMapperHcl(virtualHostTlsParametersCrlToHclTerraform, true)(struct!.crl),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersCrlList",
+    },
+    no_client_certificate: {
+      value: virtualHostTlsParametersNoClientCertificateToHclTerraform(struct!.noClientCertificate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostTlsParametersNoClientCertificateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostTlsParametersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostTlsParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._requireClientCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requireClientCertificate = this._requireClientCertificate;
+    }
+    if (this._xfccHeaderElements !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.xfccHeaderElements = this._xfccHeaderElements;
+    }
+    if (this._clientCertificateOptional?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientCertificateOptional = this._clientCertificateOptional?.internalValue;
+    }
+    if (this._clientCertificateRequired?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientCertificateRequired = this._clientCertificateRequired?.internalValue;
+    }
+    if (this._commonParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.commonParams = this._commonParams?.internalValue;
+    }
+    if (this._crl?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.crl = this._crl?.internalValue;
+    }
+    if (this._noClientCertificate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noClientCertificate = this._noClientCertificate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostTlsParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._requireClientCertificate = undefined;
+      this._xfccHeaderElements = undefined;
+      this._clientCertificateOptional.internalValue = undefined;
+      this._clientCertificateRequired.internalValue = undefined;
+      this._commonParams.internalValue = undefined;
+      this._crl.internalValue = undefined;
+      this._noClientCertificate.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._requireClientCertificate = value.requireClientCertificate;
+      this._xfccHeaderElements = value.xfccHeaderElements;
+      this._clientCertificateOptional.internalValue = value.clientCertificateOptional;
+      this._clientCertificateRequired.internalValue = value.clientCertificateRequired;
+      this._commonParams.internalValue = value.commonParams;
+      this._crl.internalValue = value.crl;
+      this._noClientCertificate.internalValue = value.noClientCertificate;
+    }
+  }
+
+  // require_client_certificate - computed: false, optional: true, required: false
+  private _requireClientCertificate?: boolean | cdktf.IResolvable; 
+  public get requireClientCertificate() {
+    return this.getBooleanAttribute('require_client_certificate');
+  }
+  public set requireClientCertificate(value: boolean | cdktf.IResolvable) {
+    this._requireClientCertificate = value;
+  }
+  public resetRequireClientCertificate() {
+    this._requireClientCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requireClientCertificateInput() {
+    return this._requireClientCertificate;
+  }
+
+  // xfcc_header_elements - computed: false, optional: true, required: false
+  private _xfccHeaderElements?: string[]; 
+  public get xfccHeaderElements() {
+    return this.getListAttribute('xfcc_header_elements');
+  }
+  public set xfccHeaderElements(value: string[]) {
+    this._xfccHeaderElements = value;
+  }
+  public resetXfccHeaderElements() {
+    this._xfccHeaderElements = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get xfccHeaderElementsInput() {
+    return this._xfccHeaderElements;
+  }
+
+  // client_certificate_optional - computed: false, optional: true, required: false
+  private _clientCertificateOptional = new VirtualHostTlsParametersClientCertificateOptionalOutputReference(this, "client_certificate_optional");
+  public get clientCertificateOptional() {
+    return this._clientCertificateOptional;
+  }
+  public putClientCertificateOptional(value: VirtualHostTlsParametersClientCertificateOptional) {
+    this._clientCertificateOptional.internalValue = value;
+  }
+  public resetClientCertificateOptional() {
+    this._clientCertificateOptional.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientCertificateOptionalInput() {
+    return this._clientCertificateOptional.internalValue;
+  }
+
+  // client_certificate_required - computed: false, optional: true, required: false
+  private _clientCertificateRequired = new VirtualHostTlsParametersClientCertificateRequiredOutputReference(this, "client_certificate_required");
+  public get clientCertificateRequired() {
+    return this._clientCertificateRequired;
+  }
+  public putClientCertificateRequired(value: VirtualHostTlsParametersClientCertificateRequired) {
+    this._clientCertificateRequired.internalValue = value;
+  }
+  public resetClientCertificateRequired() {
+    this._clientCertificateRequired.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientCertificateRequiredInput() {
+    return this._clientCertificateRequired.internalValue;
+  }
+
+  // common_params - computed: false, optional: true, required: false
+  private _commonParams = new VirtualHostTlsParametersCommonParamsOutputReference(this, "common_params");
+  public get commonParams() {
+    return this._commonParams;
+  }
+  public putCommonParams(value: VirtualHostTlsParametersCommonParams) {
+    this._commonParams.internalValue = value;
+  }
+  public resetCommonParams() {
+    this._commonParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commonParamsInput() {
+    return this._commonParams.internalValue;
+  }
+
+  // crl - computed: false, optional: true, required: false
+  private _crl = new VirtualHostTlsParametersCrlList(this, "crl", false);
+  public get crl() {
+    return this._crl;
+  }
+  public putCrl(value: VirtualHostTlsParametersCrl[] | cdktf.IResolvable) {
+    this._crl.internalValue = value;
+  }
+  public resetCrl() {
+    this._crl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get crlInput() {
+    return this._crl.internalValue;
+  }
+
+  // no_client_certificate - computed: false, optional: true, required: false
+  private _noClientCertificate = new VirtualHostTlsParametersNoClientCertificateOutputReference(this, "no_client_certificate");
+  public get noClientCertificate() {
+    return this._noClientCertificate;
+  }
+  public putNoClientCertificate(value: VirtualHostTlsParametersNoClientCertificate) {
+    this._noClientCertificate.internalValue = value;
+  }
+  public resetNoClientCertificate() {
+    this._noClientCertificate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noClientCertificateInput() {
+    return this._noClientCertificate.internalValue;
+  }
+}
+export interface VirtualHostUserIdentification {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -8330,15 +19313,15 @@ export class VirtualHostUserIdentificationList extends cdktf.ComplexList {
 }
 export interface VirtualHostWafTypeAppFirewallAppFirewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#name VirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
   */
   readonly tenant?: string;
 }
@@ -8519,7 +19502,7 @@ export interface VirtualHostWafTypeAppFirewall {
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
   */
   readonly appFirewall: VirtualHostWafTypeAppFirewallAppFirewall[] | cdktf.IResolvable;
 }
@@ -8600,17 +19583,17 @@ export class VirtualHostWafTypeAppFirewallOutputReference extends cdktf.ComplexO
 }
 export interface VirtualHostWafType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#disable_waf VirtualHost#disable_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#disable_waf VirtualHost#disable_waf}
   */
   readonly disableWaf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#inherit_waf VirtualHost#inherit_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#inherit_waf VirtualHost#inherit_waf}
   */
   readonly inheritWaf?: boolean | cdktf.IResolvable;
   /**
   * app_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#app_firewall VirtualHost#app_firewall}
   */
   readonly appFirewall?: VirtualHostWafTypeAppFirewall;
 }
@@ -8750,9 +19733,504 @@ export class VirtualHostWafTypeOutputReference extends cdktf.ComplexObject {
     return this._appFirewall.internalValue;
   }
 }
+export interface VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostZtnaProxyConfigurationsZtnaApplicationConfigToTerraform(struct?: VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostZtnaProxyConfigurationsZtnaApplicationConfigToHclTerraform(struct?: VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigOutputReference {
+    return new VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#name VirtualHost#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#namespace VirtualHost#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#tenant VirtualHost#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function virtualHostZtnaProxyConfigurationsZtnaPolicyConfigToTerraform(struct?: VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function virtualHostZtnaProxyConfigurationsZtnaPolicyConfigToHclTerraform(struct?: VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostZtnaProxyConfigurationsZtnaPolicyConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+
+export class VirtualHostZtnaProxyConfigurationsZtnaPolicyConfigList extends cdktf.ComplexList {
+  public internalValue? : VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualHostZtnaProxyConfigurationsZtnaPolicyConfigOutputReference {
+    return new VirtualHostZtnaProxyConfigurationsZtnaPolicyConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualHostZtnaProxyConfigurations {
+  /**
+  * ztna_application_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ztna_application_config VirtualHost#ztna_application_config}
+  */
+  readonly ztnaApplicationConfig?: VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig[] | cdktf.IResolvable;
+  /**
+  * ztna_policy_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#ztna_policy_config VirtualHost#ztna_policy_config}
+  */
+  readonly ztnaPolicyConfig?: VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig[] | cdktf.IResolvable;
+}
+
+export function virtualHostZtnaProxyConfigurationsToTerraform(struct?: VirtualHostZtnaProxyConfigurationsOutputReference | VirtualHostZtnaProxyConfigurations): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ztna_application_config: cdktf.listMapper(virtualHostZtnaProxyConfigurationsZtnaApplicationConfigToTerraform, true)(struct!.ztnaApplicationConfig),
+    ztna_policy_config: cdktf.listMapper(virtualHostZtnaProxyConfigurationsZtnaPolicyConfigToTerraform, true)(struct!.ztnaPolicyConfig),
+  }
+}
+
+
+export function virtualHostZtnaProxyConfigurationsToHclTerraform(struct?: VirtualHostZtnaProxyConfigurationsOutputReference | VirtualHostZtnaProxyConfigurations): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ztna_application_config: {
+      value: cdktf.listMapperHcl(virtualHostZtnaProxyConfigurationsZtnaApplicationConfigToHclTerraform, true)(struct!.ztnaApplicationConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigList",
+    },
+    ztna_policy_config: {
+      value: cdktf.listMapperHcl(virtualHostZtnaProxyConfigurationsZtnaPolicyConfigToHclTerraform, true)(struct!.ztnaPolicyConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VirtualHostZtnaProxyConfigurationsZtnaPolicyConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualHostZtnaProxyConfigurationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VirtualHostZtnaProxyConfigurations | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ztnaApplicationConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ztnaApplicationConfig = this._ztnaApplicationConfig?.internalValue;
+    }
+    if (this._ztnaPolicyConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ztnaPolicyConfig = this._ztnaPolicyConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualHostZtnaProxyConfigurations | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ztnaApplicationConfig.internalValue = undefined;
+      this._ztnaPolicyConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ztnaApplicationConfig.internalValue = value.ztnaApplicationConfig;
+      this._ztnaPolicyConfig.internalValue = value.ztnaPolicyConfig;
+    }
+  }
+
+  // ztna_application_config - computed: false, optional: true, required: false
+  private _ztnaApplicationConfig = new VirtualHostZtnaProxyConfigurationsZtnaApplicationConfigList(this, "ztna_application_config", false);
+  public get ztnaApplicationConfig() {
+    return this._ztnaApplicationConfig;
+  }
+  public putZtnaApplicationConfig(value: VirtualHostZtnaProxyConfigurationsZtnaApplicationConfig[] | cdktf.IResolvable) {
+    this._ztnaApplicationConfig.internalValue = value;
+  }
+  public resetZtnaApplicationConfig() {
+    this._ztnaApplicationConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ztnaApplicationConfigInput() {
+    return this._ztnaApplicationConfig.internalValue;
+  }
+
+  // ztna_policy_config - computed: false, optional: true, required: false
+  private _ztnaPolicyConfig = new VirtualHostZtnaProxyConfigurationsZtnaPolicyConfigList(this, "ztna_policy_config", false);
+  public get ztnaPolicyConfig() {
+    return this._ztnaPolicyConfig;
+  }
+  public putZtnaPolicyConfig(value: VirtualHostZtnaProxyConfigurationsZtnaPolicyConfig[] | cdktf.IResolvable) {
+    this._ztnaPolicyConfig.internalValue = value;
+  }
+  public resetZtnaPolicyConfig() {
+    this._ztnaPolicyConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ztnaPolicyConfigInput() {
+    return this._ztnaPolicyConfig.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host volterra_virtual_host}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host volterra_virtual_host}
 */
 export class VirtualHost extends cdktf.TerraformResource {
 
@@ -8768,7 +20246,7 @@ export class VirtualHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualHost to import
-  * @param importFromId The id of the existing VirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8780,7 +20258,7 @@ export class VirtualHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/virtual_host volterra_virtual_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/virtual_host volterra_virtual_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8791,8 +20269,8 @@ export class VirtualHost extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_virtual_host',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -8816,9 +20294,11 @@ export class VirtualHost extends cdktf.TerraformResource {
     this._disablePathNormalize = config.disablePathNormalize;
     this._domains = config.domains;
     this._enablePathNormalize = config.enablePathNormalize;
+    this._enableStrictSniHostHeaderCheck = config.enableStrictSniHostHeaderCheck;
     this._id = config.id;
     this._idleTimeout = config.idleTimeout;
     this._labels = config.labels;
+    this._maxDirectResponseBodySize = config.maxDirectResponseBodySize;
     this._maxRequestHeaderSize = config.maxRequestHeaderSize;
     this._name = config.name;
     this._namespace = config.namespace;
@@ -8832,17 +20312,24 @@ export class VirtualHost extends cdktf.TerraformResource {
     this._responseCookiesToRemove = config.responseCookiesToRemove;
     this._responseHeadersToRemove = config.responseHeadersToRemove;
     this._serverName = config.serverName;
+    this._additionalDomains.internalValue = config.additionalDomains;
     this._advertisePolicies.internalValue = config.advertisePolicies;
+    this._apiSpec.internalValue = config.apiSpec;
     this._authentication.internalValue = config.authentication;
     this._bufferPolicy.internalValue = config.bufferPolicy;
     this._captchaChallenge.internalValue = config.captchaChallenge;
     this._coalescingOptions.internalValue = config.coalescingOptions;
     this._compressionParams.internalValue = config.compressionParams;
+    this._cookiesToModify.internalValue = config.cookiesToModify;
     this._corsPolicy.internalValue = config.corsPolicy;
     this._csrfPolicy.internalValue = config.csrfPolicy;
+    this._dnsProxyConfiguration.internalValue = config.dnsProxyConfiguration;
+    this._domainCertMap.internalValue = config.domainCertMap;
     this._dynamicReverseProxy.internalValue = config.dynamicReverseProxy;
+    this._headerTransformationType.internalValue = config.headerTransformationType;
     this._httpProtocolOptions.internalValue = config.httpProtocolOptions;
     this._jsChallenge.internalValue = config.jsChallenge;
+    this._maskingConfig.internalValue = config.maskingConfig;
     this._rateLimiterAllowedPrefixes.internalValue = config.rateLimiterAllowedPrefixes;
     this._requestCookiesToAdd.internalValue = config.requestCookiesToAdd;
     this._requestHeadersToAdd.internalValue = config.requestHeadersToAdd;
@@ -8852,8 +20339,12 @@ export class VirtualHost extends cdktf.TerraformResource {
     this._routes.internalValue = config.routes;
     this._sensitiveDataPolicy.internalValue = config.sensitiveDataPolicy;
     this._slowDdosMitigation.internalValue = config.slowDdosMitigation;
+    this._temporaryUserBlocking.internalValue = config.temporaryUserBlocking;
+    this._tlsCertParams.internalValue = config.tlsCertParams;
+    this._tlsParameters.internalValue = config.tlsParameters;
     this._userIdentification.internalValue = config.userIdentification;
     this._wafType.internalValue = config.wafType;
+    this._ztnaProxyConfigurations.internalValue = config.ztnaProxyConfigurations;
   }
 
   // ==========
@@ -9084,6 +20575,22 @@ export class VirtualHost extends cdktf.TerraformResource {
     return this._enablePathNormalize;
   }
 
+  // enable_strict_sni_host_header_check - computed: false, optional: true, required: false
+  private _enableStrictSniHostHeaderCheck?: boolean | cdktf.IResolvable; 
+  public get enableStrictSniHostHeaderCheck() {
+    return this.getBooleanAttribute('enable_strict_sni_host_header_check');
+  }
+  public set enableStrictSniHostHeaderCheck(value: boolean | cdktf.IResolvable) {
+    this._enableStrictSniHostHeaderCheck = value;
+  }
+  public resetEnableStrictSniHostHeaderCheck() {
+    this._enableStrictSniHostHeaderCheck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableStrictSniHostHeaderCheckInput() {
+    return this._enableStrictSniHostHeaderCheck;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -9130,6 +20637,22 @@ export class VirtualHost extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get labelsInput() {
     return this._labels;
+  }
+
+  // max_direct_response_body_size - computed: false, optional: true, required: false
+  private _maxDirectResponseBodySize?: number; 
+  public get maxDirectResponseBodySize() {
+    return this.getNumberAttribute('max_direct_response_body_size');
+  }
+  public set maxDirectResponseBodySize(value: number) {
+    this._maxDirectResponseBodySize = value;
+  }
+  public resetMaxDirectResponseBodySize() {
+    this._maxDirectResponseBodySize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxDirectResponseBodySizeInput() {
+    return this._maxDirectResponseBodySize;
   }
 
   // max_request_header_size - computed: false, optional: true, required: false
@@ -9334,6 +20857,22 @@ export class VirtualHost extends cdktf.TerraformResource {
     return this._serverName;
   }
 
+  // additional_domains - computed: false, optional: true, required: false
+  private _additionalDomains = new VirtualHostAdditionalDomainsOutputReference(this, "additional_domains");
+  public get additionalDomains() {
+    return this._additionalDomains;
+  }
+  public putAdditionalDomains(value: VirtualHostAdditionalDomains) {
+    this._additionalDomains.internalValue = value;
+  }
+  public resetAdditionalDomains() {
+    this._additionalDomains.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalDomainsInput() {
+    return this._additionalDomains.internalValue;
+  }
+
   // advertise_policies - computed: false, optional: true, required: false
   private _advertisePolicies = new VirtualHostAdvertisePoliciesList(this, "advertise_policies", false);
   public get advertisePolicies() {
@@ -9348,6 +20887,22 @@ export class VirtualHost extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get advertisePoliciesInput() {
     return this._advertisePolicies.internalValue;
+  }
+
+  // api_spec - computed: false, optional: true, required: false
+  private _apiSpec = new VirtualHostApiSpecOutputReference(this, "api_spec");
+  public get apiSpec() {
+    return this._apiSpec;
+  }
+  public putApiSpec(value: VirtualHostApiSpec) {
+    this._apiSpec.internalValue = value;
+  }
+  public resetApiSpec() {
+    this._apiSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiSpecInput() {
+    return this._apiSpec.internalValue;
   }
 
   // authentication - computed: false, optional: true, required: false
@@ -9430,6 +20985,22 @@ export class VirtualHost extends cdktf.TerraformResource {
     return this._compressionParams.internalValue;
   }
 
+  // cookies_to_modify - computed: false, optional: true, required: false
+  private _cookiesToModify = new VirtualHostCookiesToModifyList(this, "cookies_to_modify", false);
+  public get cookiesToModify() {
+    return this._cookiesToModify;
+  }
+  public putCookiesToModify(value: VirtualHostCookiesToModify[] | cdktf.IResolvable) {
+    this._cookiesToModify.internalValue = value;
+  }
+  public resetCookiesToModify() {
+    this._cookiesToModify.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cookiesToModifyInput() {
+    return this._cookiesToModify.internalValue;
+  }
+
   // cors_policy - computed: false, optional: true, required: false
   private _corsPolicy = new VirtualHostCorsPolicyOutputReference(this, "cors_policy");
   public get corsPolicy() {
@@ -9462,6 +21033,38 @@ export class VirtualHost extends cdktf.TerraformResource {
     return this._csrfPolicy.internalValue;
   }
 
+  // dns_proxy_configuration - computed: false, optional: true, required: false
+  private _dnsProxyConfiguration = new VirtualHostDnsProxyConfigurationOutputReference(this, "dns_proxy_configuration");
+  public get dnsProxyConfiguration() {
+    return this._dnsProxyConfiguration;
+  }
+  public putDnsProxyConfiguration(value: VirtualHostDnsProxyConfiguration) {
+    this._dnsProxyConfiguration.internalValue = value;
+  }
+  public resetDnsProxyConfiguration() {
+    this._dnsProxyConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsProxyConfigurationInput() {
+    return this._dnsProxyConfiguration.internalValue;
+  }
+
+  // domain_cert_map - computed: false, optional: true, required: false
+  private _domainCertMap = new VirtualHostDomainCertMapOutputReference(this, "domain_cert_map");
+  public get domainCertMap() {
+    return this._domainCertMap;
+  }
+  public putDomainCertMap(value: VirtualHostDomainCertMap) {
+    this._domainCertMap.internalValue = value;
+  }
+  public resetDomainCertMap() {
+    this._domainCertMap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainCertMapInput() {
+    return this._domainCertMap.internalValue;
+  }
+
   // dynamic_reverse_proxy - computed: false, optional: true, required: false
   private _dynamicReverseProxy = new VirtualHostDynamicReverseProxyOutputReference(this, "dynamic_reverse_proxy");
   public get dynamicReverseProxy() {
@@ -9476,6 +21079,22 @@ export class VirtualHost extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dynamicReverseProxyInput() {
     return this._dynamicReverseProxy.internalValue;
+  }
+
+  // header_transformation_type - computed: false, optional: true, required: false
+  private _headerTransformationType = new VirtualHostHeaderTransformationTypeOutputReference(this, "header_transformation_type");
+  public get headerTransformationType() {
+    return this._headerTransformationType;
+  }
+  public putHeaderTransformationType(value: VirtualHostHeaderTransformationType) {
+    this._headerTransformationType.internalValue = value;
+  }
+  public resetHeaderTransformationType() {
+    this._headerTransformationType.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get headerTransformationTypeInput() {
+    return this._headerTransformationType.internalValue;
   }
 
   // http_protocol_options - computed: false, optional: true, required: false
@@ -9508,6 +21127,22 @@ export class VirtualHost extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get jsChallengeInput() {
     return this._jsChallenge.internalValue;
+  }
+
+  // masking_config - computed: false, optional: true, required: false
+  private _maskingConfig = new VirtualHostMaskingConfigOutputReference(this, "masking_config");
+  public get maskingConfig() {
+    return this._maskingConfig;
+  }
+  public putMaskingConfig(value: VirtualHostMaskingConfig) {
+    this._maskingConfig.internalValue = value;
+  }
+  public resetMaskingConfig() {
+    this._maskingConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maskingConfigInput() {
+    return this._maskingConfig.internalValue;
   }
 
   // rate_limiter_allowed_prefixes - computed: false, optional: true, required: false
@@ -9654,6 +21289,54 @@ export class VirtualHost extends cdktf.TerraformResource {
     return this._slowDdosMitigation.internalValue;
   }
 
+  // temporary_user_blocking - computed: false, optional: true, required: false
+  private _temporaryUserBlocking = new VirtualHostTemporaryUserBlockingOutputReference(this, "temporary_user_blocking");
+  public get temporaryUserBlocking() {
+    return this._temporaryUserBlocking;
+  }
+  public putTemporaryUserBlocking(value: VirtualHostTemporaryUserBlocking) {
+    this._temporaryUserBlocking.internalValue = value;
+  }
+  public resetTemporaryUserBlocking() {
+    this._temporaryUserBlocking.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get temporaryUserBlockingInput() {
+    return this._temporaryUserBlocking.internalValue;
+  }
+
+  // tls_cert_params - computed: false, optional: true, required: false
+  private _tlsCertParams = new VirtualHostTlsCertParamsOutputReference(this, "tls_cert_params");
+  public get tlsCertParams() {
+    return this._tlsCertParams;
+  }
+  public putTlsCertParams(value: VirtualHostTlsCertParams) {
+    this._tlsCertParams.internalValue = value;
+  }
+  public resetTlsCertParams() {
+    this._tlsCertParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsCertParamsInput() {
+    return this._tlsCertParams.internalValue;
+  }
+
+  // tls_parameters - computed: false, optional: true, required: false
+  private _tlsParameters = new VirtualHostTlsParametersOutputReference(this, "tls_parameters");
+  public get tlsParameters() {
+    return this._tlsParameters;
+  }
+  public putTlsParameters(value: VirtualHostTlsParameters) {
+    this._tlsParameters.internalValue = value;
+  }
+  public resetTlsParameters() {
+    this._tlsParameters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsParametersInput() {
+    return this._tlsParameters.internalValue;
+  }
+
   // user_identification - computed: false, optional: true, required: false
   private _userIdentification = new VirtualHostUserIdentificationList(this, "user_identification", false);
   public get userIdentification() {
@@ -9686,6 +21369,22 @@ export class VirtualHost extends cdktf.TerraformResource {
     return this._wafType.internalValue;
   }
 
+  // ztna_proxy_configurations - computed: false, optional: true, required: false
+  private _ztnaProxyConfigurations = new VirtualHostZtnaProxyConfigurationsOutputReference(this, "ztna_proxy_configurations");
+  public get ztnaProxyConfigurations() {
+    return this._ztnaProxyConfigurations;
+  }
+  public putZtnaProxyConfigurations(value: VirtualHostZtnaProxyConfigurations) {
+    this._ztnaProxyConfigurations.internalValue = value;
+  }
+  public resetZtnaProxyConfigurations() {
+    this._ztnaProxyConfigurations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ztnaProxyConfigurationsInput() {
+    return this._ztnaProxyConfigurations.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -9706,9 +21405,11 @@ export class VirtualHost extends cdktf.TerraformResource {
       disable_path_normalize: cdktf.booleanToTerraform(this._disablePathNormalize),
       domains: cdktf.listMapper(cdktf.stringToTerraform, false)(this._domains),
       enable_path_normalize: cdktf.booleanToTerraform(this._enablePathNormalize),
+      enable_strict_sni_host_header_check: cdktf.booleanToTerraform(this._enableStrictSniHostHeaderCheck),
       id: cdktf.stringToTerraform(this._id),
       idle_timeout: cdktf.numberToTerraform(this._idleTimeout),
       labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
+      max_direct_response_body_size: cdktf.numberToTerraform(this._maxDirectResponseBodySize),
       max_request_header_size: cdktf.numberToTerraform(this._maxRequestHeaderSize),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
@@ -9722,17 +21423,24 @@ export class VirtualHost extends cdktf.TerraformResource {
       response_cookies_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(this._responseCookiesToRemove),
       response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(this._responseHeadersToRemove),
       server_name: cdktf.stringToTerraform(this._serverName),
+      additional_domains: virtualHostAdditionalDomainsToTerraform(this._additionalDomains.internalValue),
       advertise_policies: cdktf.listMapper(virtualHostAdvertisePoliciesToTerraform, true)(this._advertisePolicies.internalValue),
+      api_spec: virtualHostApiSpecToTerraform(this._apiSpec.internalValue),
       authentication: virtualHostAuthenticationToTerraform(this._authentication.internalValue),
       buffer_policy: virtualHostBufferPolicyToTerraform(this._bufferPolicy.internalValue),
       captcha_challenge: virtualHostCaptchaChallengeToTerraform(this._captchaChallenge.internalValue),
       coalescing_options: virtualHostCoalescingOptionsToTerraform(this._coalescingOptions.internalValue),
       compression_params: virtualHostCompressionParamsToTerraform(this._compressionParams.internalValue),
+      cookies_to_modify: cdktf.listMapper(virtualHostCookiesToModifyToTerraform, true)(this._cookiesToModify.internalValue),
       cors_policy: virtualHostCorsPolicyToTerraform(this._corsPolicy.internalValue),
       csrf_policy: virtualHostCsrfPolicyToTerraform(this._csrfPolicy.internalValue),
+      dns_proxy_configuration: virtualHostDnsProxyConfigurationToTerraform(this._dnsProxyConfiguration.internalValue),
+      domain_cert_map: virtualHostDomainCertMapToTerraform(this._domainCertMap.internalValue),
       dynamic_reverse_proxy: virtualHostDynamicReverseProxyToTerraform(this._dynamicReverseProxy.internalValue),
+      header_transformation_type: virtualHostHeaderTransformationTypeToTerraform(this._headerTransformationType.internalValue),
       http_protocol_options: virtualHostHttpProtocolOptionsToTerraform(this._httpProtocolOptions.internalValue),
       js_challenge: virtualHostJsChallengeToTerraform(this._jsChallenge.internalValue),
+      masking_config: virtualHostMaskingConfigToTerraform(this._maskingConfig.internalValue),
       rate_limiter_allowed_prefixes: cdktf.listMapper(virtualHostRateLimiterAllowedPrefixesToTerraform, true)(this._rateLimiterAllowedPrefixes.internalValue),
       request_cookies_to_add: cdktf.listMapper(virtualHostRequestCookiesToAddToTerraform, true)(this._requestCookiesToAdd.internalValue),
       request_headers_to_add: cdktf.listMapper(virtualHostRequestHeadersToAddToTerraform, true)(this._requestHeadersToAdd.internalValue),
@@ -9742,8 +21450,12 @@ export class VirtualHost extends cdktf.TerraformResource {
       routes: cdktf.listMapper(virtualHostRoutesToTerraform, true)(this._routes.internalValue),
       sensitive_data_policy: cdktf.listMapper(virtualHostSensitiveDataPolicyToTerraform, true)(this._sensitiveDataPolicy.internalValue),
       slow_ddos_mitigation: virtualHostSlowDdosMitigationToTerraform(this._slowDdosMitigation.internalValue),
+      temporary_user_blocking: virtualHostTemporaryUserBlockingToTerraform(this._temporaryUserBlocking.internalValue),
+      tls_cert_params: virtualHostTlsCertParamsToTerraform(this._tlsCertParams.internalValue),
+      tls_parameters: virtualHostTlsParametersToTerraform(this._tlsParameters.internalValue),
       user_identification: cdktf.listMapper(virtualHostUserIdentificationToTerraform, true)(this._userIdentification.internalValue),
       waf_type: virtualHostWafTypeToTerraform(this._wafType.internalValue),
+      ztna_proxy_configurations: virtualHostZtnaProxyConfigurationsToTerraform(this._ztnaProxyConfigurations.internalValue),
     };
   }
 
@@ -9833,6 +21545,12 @@ export class VirtualHost extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      enable_strict_sni_host_header_check: {
+        value: cdktf.booleanToHclTerraform(this._enableStrictSniHostHeaderCheck),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -9850,6 +21568,12 @@ export class VirtualHost extends cdktf.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      max_direct_response_body_size: {
+        value: cdktf.numberToHclTerraform(this._maxDirectResponseBodySize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       max_request_header_size: {
         value: cdktf.numberToHclTerraform(this._maxRequestHeaderSize),
@@ -9929,11 +21653,23 @@ export class VirtualHost extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      additional_domains: {
+        value: virtualHostAdditionalDomainsToHclTerraform(this._additionalDomains.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostAdditionalDomainsList",
+      },
       advertise_policies: {
         value: cdktf.listMapperHcl(virtualHostAdvertisePoliciesToHclTerraform, true)(this._advertisePolicies.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "VirtualHostAdvertisePoliciesList",
+      },
+      api_spec: {
+        value: virtualHostApiSpecToHclTerraform(this._apiSpec.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostApiSpecList",
       },
       authentication: {
         value: virtualHostAuthenticationToHclTerraform(this._authentication.internalValue),
@@ -9965,6 +21701,12 @@ export class VirtualHost extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "VirtualHostCompressionParamsList",
       },
+      cookies_to_modify: {
+        value: cdktf.listMapperHcl(virtualHostCookiesToModifyToHclTerraform, true)(this._cookiesToModify.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostCookiesToModifyList",
+      },
       cors_policy: {
         value: virtualHostCorsPolicyToHclTerraform(this._corsPolicy.internalValue),
         isBlock: true,
@@ -9977,11 +21719,29 @@ export class VirtualHost extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "VirtualHostCsrfPolicyList",
       },
+      dns_proxy_configuration: {
+        value: virtualHostDnsProxyConfigurationToHclTerraform(this._dnsProxyConfiguration.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostDnsProxyConfigurationList",
+      },
+      domain_cert_map: {
+        value: virtualHostDomainCertMapToHclTerraform(this._domainCertMap.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostDomainCertMapList",
+      },
       dynamic_reverse_proxy: {
         value: virtualHostDynamicReverseProxyToHclTerraform(this._dynamicReverseProxy.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "VirtualHostDynamicReverseProxyList",
+      },
+      header_transformation_type: {
+        value: virtualHostHeaderTransformationTypeToHclTerraform(this._headerTransformationType.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostHeaderTransformationTypeList",
       },
       http_protocol_options: {
         value: virtualHostHttpProtocolOptionsToHclTerraform(this._httpProtocolOptions.internalValue),
@@ -9994,6 +21754,12 @@ export class VirtualHost extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "VirtualHostJsChallengeList",
+      },
+      masking_config: {
+        value: virtualHostMaskingConfigToHclTerraform(this._maskingConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostMaskingConfigList",
       },
       rate_limiter_allowed_prefixes: {
         value: cdktf.listMapperHcl(virtualHostRateLimiterAllowedPrefixesToHclTerraform, true)(this._rateLimiterAllowedPrefixes.internalValue),
@@ -10049,6 +21815,24 @@ export class VirtualHost extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "VirtualHostSlowDdosMitigationList",
       },
+      temporary_user_blocking: {
+        value: virtualHostTemporaryUserBlockingToHclTerraform(this._temporaryUserBlocking.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostTemporaryUserBlockingList",
+      },
+      tls_cert_params: {
+        value: virtualHostTlsCertParamsToHclTerraform(this._tlsCertParams.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostTlsCertParamsList",
+      },
+      tls_parameters: {
+        value: virtualHostTlsParametersToHclTerraform(this._tlsParameters.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostTlsParametersList",
+      },
       user_identification: {
         value: cdktf.listMapperHcl(virtualHostUserIdentificationToHclTerraform, true)(this._userIdentification.internalValue),
         isBlock: true,
@@ -10060,6 +21844,12 @@ export class VirtualHost extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "VirtualHostWafTypeList",
+      },
+      ztna_proxy_configurations: {
+        value: virtualHostZtnaProxyConfigurationsToHclTerraform(this._ztnaProxyConfigurations.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VirtualHostZtnaProxyConfigurationsList",
       },
     };
 

@@ -1,15 +1,15 @@
 import * as cdktf from 'cdktf';
 export interface AzureVnetSiteAdminPasswordBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -146,13 +146,160 @@ export class AzureVnetSiteAdminPasswordBlindfoldSecretInfoOutputReference extend
     return this._storeProvider;
   }
 }
+export interface AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function azureVnetSiteAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct?: AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function azureVnetSiteAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct?: AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface AzureVnetSiteAdminPasswordClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#url AzureVnetSite#url}
   */
   readonly url: string;
 }
@@ -260,19 +407,332 @@ export class AzureVnetSiteAdminPasswordClearSecretInfoOutputReference extends cd
     return this._url;
   }
 }
+export interface AzureVnetSiteAdminPasswordVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#key AzureVnetSite#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#version AzureVnetSite#version}
+  */
+  readonly version?: number;
+}
+
+export function azureVnetSiteAdminPasswordVaultSecretInfoToTerraform(struct?: AzureVnetSiteAdminPasswordVaultSecretInfoOutputReference | AzureVnetSiteAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function azureVnetSiteAdminPasswordVaultSecretInfoToHclTerraform(struct?: AzureVnetSiteAdminPasswordVaultSecretInfoOutputReference | AzureVnetSiteAdminPasswordVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteAdminPasswordVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteAdminPasswordVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteAdminPasswordVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AzureVnetSiteAdminPasswordWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  */
+  readonly name: string;
+}
+
+export function azureVnetSiteAdminPasswordWingmanSecretInfoToTerraform(struct?: AzureVnetSiteAdminPasswordWingmanSecretInfoOutputReference | AzureVnetSiteAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function azureVnetSiteAdminPasswordWingmanSecretInfoToHclTerraform(struct?: AzureVnetSiteAdminPasswordWingmanSecretInfoOutputReference | AzureVnetSiteAdminPasswordWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteAdminPasswordWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteAdminPasswordWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteAdminPasswordWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface AzureVnetSiteAdminPassword {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AzureVnetSiteAdminPasswordBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AzureVnetSiteAdminPasswordClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AzureVnetSiteAdminPasswordVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AzureVnetSiteAdminPasswordWingmanSecretInfo;
 }
 
 export function azureVnetSiteAdminPasswordToTerraform(struct?: AzureVnetSiteAdminPasswordOutputReference | AzureVnetSiteAdminPassword): any {
@@ -281,8 +741,12 @@ export function azureVnetSiteAdminPasswordToTerraform(struct?: AzureVnetSiteAdmi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: azureVnetSiteAdminPasswordBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: azureVnetSiteAdminPasswordBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: azureVnetSiteAdminPasswordClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: azureVnetSiteAdminPasswordVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: azureVnetSiteAdminPasswordWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -293,17 +757,41 @@ export function azureVnetSiteAdminPasswordToHclTerraform(struct?: AzureVnetSiteA
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: azureVnetSiteAdminPasswordBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AzureVnetSiteAdminPasswordBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: azureVnetSiteAdminPasswordBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: azureVnetSiteAdminPasswordClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AzureVnetSiteAdminPasswordClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: azureVnetSiteAdminPasswordVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteAdminPasswordVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: azureVnetSiteAdminPasswordWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteAdminPasswordWingmanSecretInfoList",
     },
   };
 
@@ -325,13 +813,29 @@ export class AzureVnetSiteAdminPasswordOutputReference extends cdktf.ComplexObje
   public get internalValue(): AzureVnetSiteAdminPassword | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -339,14 +843,38 @@ export class AzureVnetSiteAdminPasswordOutputReference extends cdktf.ComplexObje
   public set internalValue(value: AzureVnetSiteAdminPassword | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -365,6 +893,22 @@ export class AzureVnetSiteAdminPasswordOutputReference extends cdktf.ComplexObje
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AzureVnetSiteAdminPasswordBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new AzureVnetSiteAdminPasswordClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -380,18 +924,50 @@ export class AzureVnetSiteAdminPasswordOutputReference extends cdktf.ComplexObje
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AzureVnetSiteAdminPasswordVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AzureVnetSiteAdminPasswordVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AzureVnetSiteAdminPasswordWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AzureVnetSiteAdminPasswordWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface AzureVnetSiteAzureCred {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -533,19 +1109,19 @@ export class AzureVnetSiteAzureCredOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureVnetSiteBlockedServicesBlockedSevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#dns AzureVnetSite#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#dns AzureVnetSite#dns}
   */
   readonly dns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#network_type AzureVnetSite#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#network_type AzureVnetSite#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ssh AzureVnetSite#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ssh AzureVnetSite#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#web_user_interface AzureVnetSite#web_user_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#web_user_interface AzureVnetSite#web_user_interface}
   */
   readonly webUserInterface?: boolean | cdktf.IResolvable;
 }
@@ -750,7 +1326,7 @@ export interface AzureVnetSiteBlockedServices {
   /**
   * blocked_sevice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#blocked_sevice AzureVnetSite#blocked_sevice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blocked_sevice AzureVnetSite#blocked_sevice}
   */
   readonly blockedSevice?: AzureVnetSiteBlockedServicesBlockedSevice[] | cdktf.IResolvable;
 }
@@ -834,11 +1410,11 @@ export class AzureVnetSiteBlockedServicesOutputReference extends cdktf.ComplexOb
 }
 export interface AzureVnetSiteCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#latitude AzureVnetSite#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#latitude AzureVnetSite#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#longitude AzureVnetSite#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#longitude AzureVnetSite#longitude}
   */
   readonly longitude?: number;
 }
@@ -951,19 +1527,19 @@ export class AzureVnetSiteCoordinatesOutputReference extends cdktf.ComplexObject
 }
 export interface AzureVnetSiteCustomDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#inside_nameserver AzureVnetSite#inside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#inside_nameserver AzureVnetSite#inside_nameserver}
   */
   readonly insideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#inside_nameserver_v6 AzureVnetSite#inside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#inside_nameserver_v6 AzureVnetSite#inside_nameserver_v6}
   */
   readonly insideNameserverV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#outside_nameserver AzureVnetSite#outside_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_nameserver AzureVnetSite#outside_nameserver}
   */
   readonly outsideNameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#outside_nameserver_v6 AzureVnetSite#outside_nameserver_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_nameserver_v6 AzureVnetSite#outside_nameserver_v6}
   */
   readonly outsideNameserverV6?: string;
 }
@@ -1134,11 +1710,11 @@ export class AzureVnetSiteCustomDnsOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureVnetSiteIngressEgressGwAcceleratedNetworking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1251,15 +1827,15 @@ export class AzureVnetSiteIngressEgressGwAcceleratedNetworkingOutputReference ex
 }
 export interface AzureVnetSiteIngressEgressGwActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1435,7 +2011,7 @@ export interface AzureVnetSiteIngressEgressGwActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AzureVnetSiteIngressEgressGwActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -1516,15 +2092,15 @@ export class AzureVnetSiteIngressEgressGwActiveEnhancedFirewallPoliciesOutputRef
 }
 export interface AzureVnetSiteIngressEgressGwActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1700,7 +2276,7 @@ export interface AzureVnetSiteIngressEgressGwActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#forward_proxy_policies AzureVnetSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#forward_proxy_policies AzureVnetSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: AzureVnetSiteIngressEgressGwActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -1781,15 +2357,15 @@ export class AzureVnetSiteIngressEgressGwActiveForwardProxyPoliciesOutputReferen
 }
 export interface AzureVnetSiteIngressEgressGwActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -1965,7 +2541,7 @@ export interface AzureVnetSiteIngressEgressGwActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#network_policies AzureVnetSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#network_policies AzureVnetSite#network_policies}
   */
   readonly networkPolicies: AzureVnetSiteIngressEgressGwActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -2046,15 +2622,15 @@ export class AzureVnetSiteIngressEgressGwActiveNetworkPoliciesOutputReference ex
 }
 export interface AzureVnetSiteIngressEgressGwAzNodesInsideSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -2193,11 +2769,11 @@ export class AzureVnetSiteIngressEgressGwAzNodesInsideSubnetSubnetOutputReferenc
 }
 export interface AzureVnetSiteIngressEgressGwAzNodesInsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2309,13 +2885,13 @@ export interface AzureVnetSiteIngressEgressGwAzNodesInsideSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwAzNodesInsideSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwAzNodesInsideSubnetSubnetParam;
 }
@@ -2428,15 +3004,15 @@ export class AzureVnetSiteIngressEgressGwAzNodesInsideSubnetOutputReference exte
 }
 export interface AzureVnetSiteIngressEgressGwAzNodesOutsideSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
   */
   readonly subnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -2575,11 +3151,11 @@ export class AzureVnetSiteIngressEgressGwAzNodesOutsideSubnetSubnetOutputReferen
 }
 export interface AzureVnetSiteIngressEgressGwAzNodesOutsideSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -2691,13 +3267,13 @@ export interface AzureVnetSiteIngressEgressGwAzNodesOutsideSubnet {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwAzNodesOutsideSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwAzNodesOutsideSubnetSubnetParam;
 }
@@ -2810,19 +3386,23 @@ export class AzureVnetSiteIngressEgressGwAzNodesOutsideSubnetOutputReference ext
 }
 export interface AzureVnetSiteIngressEgressGwAzNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#azure_az AzureVnetSite#azure_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_az AzureVnetSite#azure_az}
   */
   readonly azureAz: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disk_size AzureVnetSite#disk_size}
+  */
+  readonly diskSize?: number;
+  /**
   * inside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#inside_subnet AzureVnetSite#inside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#inside_subnet AzureVnetSite#inside_subnet}
   */
   readonly insideSubnet?: AzureVnetSiteIngressEgressGwAzNodesInsideSubnet;
   /**
   * outside_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#outside_subnet AzureVnetSite#outside_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_subnet AzureVnetSite#outside_subnet}
   */
   readonly outsideSubnet?: AzureVnetSiteIngressEgressGwAzNodesOutsideSubnet;
 }
@@ -2834,6 +3414,7 @@ export function azureVnetSiteIngressEgressGwAzNodesToTerraform(struct?: AzureVne
   }
   return {
     azure_az: cdktf.stringToTerraform(struct!.azureAz),
+    disk_size: cdktf.numberToTerraform(struct!.diskSize),
     inside_subnet: azureVnetSiteIngressEgressGwAzNodesInsideSubnetToTerraform(struct!.insideSubnet),
     outside_subnet: azureVnetSiteIngressEgressGwAzNodesOutsideSubnetToTerraform(struct!.outsideSubnet),
   }
@@ -2851,6 +3432,12 @@ export function azureVnetSiteIngressEgressGwAzNodesToHclTerraform(struct?: Azure
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disk_size: {
+      value: cdktf.numberToHclTerraform(struct!.diskSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     inside_subnet: {
       value: azureVnetSiteIngressEgressGwAzNodesInsideSubnetToHclTerraform(struct!.insideSubnet),
@@ -2894,6 +3481,10 @@ export class AzureVnetSiteIngressEgressGwAzNodesOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.azureAz = this._azureAz;
     }
+    if (this._diskSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskSize = this._diskSize;
+    }
     if (this._insideSubnet?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.insideSubnet = this._insideSubnet?.internalValue;
@@ -2910,6 +3501,7 @@ export class AzureVnetSiteIngressEgressGwAzNodesOutputReference extends cdktf.Co
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._azureAz = undefined;
+      this._diskSize = undefined;
       this._insideSubnet.internalValue = undefined;
       this._outsideSubnet.internalValue = undefined;
     }
@@ -2921,6 +3513,7 @@ export class AzureVnetSiteIngressEgressGwAzNodesOutputReference extends cdktf.Co
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._azureAz = value.azureAz;
+      this._diskSize = value.diskSize;
       this._insideSubnet.internalValue = value.insideSubnet;
       this._outsideSubnet.internalValue = value.outsideSubnet;
     }
@@ -2937,6 +3530,22 @@ export class AzureVnetSiteIngressEgressGwAzNodesOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get azureAzInput() {
     return this._azureAz;
+  }
+
+  // disk_size - computed: false, optional: true, required: false
+  private _diskSize?: number; 
+  public get diskSize() {
+    return this.getNumberAttribute('disk_size');
+  }
+  public set diskSize(value: number) {
+    this._diskSize = value;
+  }
+  public resetDiskSize() {
+    this._diskSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskSizeInput() {
+    return this._diskSize;
   }
 
   // inside_subnet - computed: false, optional: true, required: false
@@ -2993,15 +3602,15 @@ export class AzureVnetSiteIngressEgressGwAzNodesList extends cdktf.ComplexList {
 }
 export interface AzureVnetSiteIngressEgressGwDcClusterGroupInsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3143,15 +3752,15 @@ export class AzureVnetSiteIngressEgressGwDcClusterGroupInsideVnOutputReference e
 }
 export interface AzureVnetSiteIngressEgressGwDcClusterGroupOutsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3291,17 +3900,2323 @@ export class AzureVnetSiteIngressEgressGwDcClusterGroupOutsideVnOutputReference 
     return this._tenant;
   }
 }
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#hash_algorithms AzureVnetSite#hash_algorithms}
+  */
+  readonly hashAlgorithms: string[];
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hash_algorithms: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hashAlgorithms),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hash_algorithms: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.hashAlgorithms),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hashAlgorithms !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hashAlgorithms = this._hashAlgorithms;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._hashAlgorithms = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._hashAlgorithms = value.hashAlgorithms;
+    }
+  }
+
+  // hash_algorithms - computed: false, optional: false, required: true
+  private _hashAlgorithms?: string[]; 
+  public get hashAlgorithms() {
+    return this.getListAttribute('hash_algorithms');
+  }
+  public set hashAlgorithms(value: string[]) {
+    this._hashAlgorithms = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashAlgorithmsInput() {
+    return this._hashAlgorithms;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling {
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  */
+  readonly provider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  */
+  readonly url: string;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    provider: cdktf.stringToTerraform(struct!.provider),
+    url: cdktf.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._provider = undefined;
+      this._url = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._provider = value.provider;
+      this._url = value.url;
+    }
+  }
+
+  // provider - computed: false, optional: true, required: false
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  public resetProvider() {
+    this._provider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // url - computed: false, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#key AzureVnetSite#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#version AzureVnetSite#version}
+  */
+  readonly version?: number;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  */
+  readonly name: string;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
+  /**
+  * blindfold_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
+  */
+  readonly blindfoldSecretInfo?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
+  /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
+  /**
+  * clear_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
+  */
+  readonly clearSecretInfo?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
+    blindfold_secret_info: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
+    clear_secret_info: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    blindfold_secret_info: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoList",
+    },
+    blindfold_secret_info_internal: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalList",
+    },
+    clear_secret_info: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
+    if (this._blindfoldSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
+    }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
+    if (this._clearSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
+      this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
+      this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
+      this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
+      this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
+    }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
+  }
+
+  // blindfold_secret_info - computed: false, optional: true, required: false
+  private _blindfoldSecretInfo = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference(this, "blindfold_secret_info");
+  public get blindfoldSecretInfo() {
+    return this._blindfoldSecretInfo;
+  }
+  public putBlindfoldSecretInfo(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo) {
+    this._blindfoldSecretInfo.internalValue = value;
+  }
+  public resetBlindfoldSecretInfo() {
+    this._blindfoldSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInput() {
+    return this._blindfoldSecretInfo.internalValue;
+  }
+
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
+  // clear_secret_info - computed: false, optional: true, required: false
+  private _clearSecretInfo = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
+  public get clearSecretInfo() {
+    return this._clearSecretInfo;
+  }
+  public putClearSecretInfo(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo) {
+    this._clearSecretInfo.internalValue = value;
+  }
+  public resetClearSecretInfo() {
+    this._clearSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSecretInfoInput() {
+    return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults {
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#certificate_url AzureVnetSite#certificate_url}
+  */
+  readonly certificateUrl: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#description AzureVnetSite#description}
+  */
+  readonly description?: string;
+  /**
+  * custom_hash_algorithms block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_hash_algorithms AzureVnetSite#custom_hash_algorithms}
+  */
+  readonly customHashAlgorithms?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
+  /**
+  * disable_ocsp_stapling block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_ocsp_stapling AzureVnetSite#disable_ocsp_stapling}
+  */
+  readonly disableOcspStapling?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
+  /**
+  * private_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#private_key AzureVnetSite#private_key}
+  */
+  readonly privateKey: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
+  /**
+  * use_system_defaults block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#use_system_defaults AzureVnetSite#use_system_defaults}
+  */
+  readonly useSystemDefaults?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    certificate_url: cdktf.stringToTerraform(struct!.certificateUrl),
+    description: cdktf.stringToTerraform(struct!.description),
+    custom_hash_algorithms: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToTerraform(struct!.customHashAlgorithms),
+    disable_ocsp_stapling: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToTerraform(struct!.disableOcspStapling),
+    private_key: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToTerraform(struct!.privateKey),
+    use_system_defaults: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToTerraform(struct!.useSystemDefaults),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    certificate_url: {
+      value: cdktf.stringToHclTerraform(struct!.certificateUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_hash_algorithms: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToHclTerraform(struct!.customHashAlgorithms),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsList",
+    },
+    disable_ocsp_stapling: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToHclTerraform(struct!.disableOcspStapling),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingList",
+    },
+    private_key: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToHclTerraform(struct!.privateKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyList",
+    },
+    use_system_defaults: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToHclTerraform(struct!.useSystemDefaults),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._certificateUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificateUrl = this._certificateUrl;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._customHashAlgorithms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHashAlgorithms = this._customHashAlgorithms?.internalValue;
+    }
+    if (this._disableOcspStapling?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableOcspStapling = this._disableOcspStapling?.internalValue;
+    }
+    if (this._privateKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateKey = this._privateKey?.internalValue;
+    }
+    if (this._useSystemDefaults?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useSystemDefaults = this._useSystemDefaults?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._certificateUrl = undefined;
+      this._description = undefined;
+      this._customHashAlgorithms.internalValue = undefined;
+      this._disableOcspStapling.internalValue = undefined;
+      this._privateKey.internalValue = undefined;
+      this._useSystemDefaults.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._certificateUrl = value.certificateUrl;
+      this._description = value.description;
+      this._customHashAlgorithms.internalValue = value.customHashAlgorithms;
+      this._disableOcspStapling.internalValue = value.disableOcspStapling;
+      this._privateKey.internalValue = value.privateKey;
+      this._useSystemDefaults.internalValue = value.useSystemDefaults;
+    }
+  }
+
+  // certificate_url - computed: false, optional: false, required: true
+  private _certificateUrl?: string; 
+  public get certificateUrl() {
+    return this.getStringAttribute('certificate_url');
+  }
+  public set certificateUrl(value: string) {
+    this._certificateUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateUrlInput() {
+    return this._certificateUrl;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // custom_hash_algorithms - computed: false, optional: true, required: false
+  private _customHashAlgorithms = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference(this, "custom_hash_algorithms");
+  public get customHashAlgorithms() {
+    return this._customHashAlgorithms;
+  }
+  public putCustomHashAlgorithms(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms) {
+    this._customHashAlgorithms.internalValue = value;
+  }
+  public resetCustomHashAlgorithms() {
+    this._customHashAlgorithms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHashAlgorithmsInput() {
+    return this._customHashAlgorithms.internalValue;
+  }
+
+  // disable_ocsp_stapling - computed: false, optional: true, required: false
+  private _disableOcspStapling = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference(this, "disable_ocsp_stapling");
+  public get disableOcspStapling() {
+    return this._disableOcspStapling;
+  }
+  public putDisableOcspStapling(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling) {
+    this._disableOcspStapling.internalValue = value;
+  }
+  public resetDisableOcspStapling() {
+    this._disableOcspStapling.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableOcspStaplingInput() {
+    return this._disableOcspStapling.internalValue;
+  }
+
+  // private_key - computed: false, optional: false, required: true
+  private _privateKey = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference(this, "private_key");
+  public get privateKey() {
+    return this._privateKey;
+  }
+  public putPrivateKey(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey) {
+    this._privateKey.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateKeyInput() {
+    return this._privateKey.internalValue;
+  }
+
+  // use_system_defaults - computed: false, optional: true, required: false
+  private _useSystemDefaults = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference(this, "use_system_defaults");
+  public get useSystemDefaults() {
+    return this._useSystemDefaults;
+  }
+  public putUseSystemDefaults(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults) {
+    this._useSystemDefaults.internalValue = value;
+  }
+  public resetUseSystemDefaults() {
+    this._useSystemDefaults.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useSystemDefaultsInput() {
+    return this._useSystemDefaults.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#exact_value AzureVnetSite#exact_value}
+  */
+  readonly exactValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#regex_value AzureVnetSite#regex_value}
+  */
+  readonly regexValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#suffix_value AzureVnetSite#suffix_value}
+  */
+  readonly suffixValue?: string;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exact_value: cdktf.stringToTerraform(struct!.exactValue),
+    regex_value: cdktf.stringToTerraform(struct!.regexValue),
+    suffix_value: cdktf.stringToTerraform(struct!.suffixValue),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exact_value: {
+      value: cdktf.stringToHclTerraform(struct!.exactValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex_value: {
+      value: cdktf.stringToHclTerraform(struct!.regexValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    suffix_value: {
+      value: cdktf.stringToHclTerraform(struct!.suffixValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exactValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exactValue = this._exactValue;
+    }
+    if (this._regexValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regexValue = this._regexValue;
+    }
+    if (this._suffixValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.suffixValue = this._suffixValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._exactValue = undefined;
+      this._regexValue = undefined;
+      this._suffixValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._exactValue = value.exactValue;
+      this._regexValue = value.regexValue;
+      this._suffixValue = value.suffixValue;
+    }
+  }
+
+  // exact_value - computed: false, optional: true, required: false
+  private _exactValue?: string; 
+  public get exactValue() {
+    return this.getStringAttribute('exact_value');
+  }
+  public set exactValue(value: string) {
+    this._exactValue = value;
+  }
+  public resetExactValue() {
+    this._exactValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exactValueInput() {
+    return this._exactValue;
+  }
+
+  // regex_value - computed: false, optional: true, required: false
+  private _regexValue?: string; 
+  public get regexValue() {
+    return this.getStringAttribute('regex_value');
+  }
+  public set regexValue(value: string) {
+    this._regexValue = value;
+  }
+  public resetRegexValue() {
+    this._regexValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexValueInput() {
+    return this._regexValue;
+  }
+
+  // suffix_value - computed: false, optional: true, required: false
+  private _suffixValue?: string; 
+  public get suffixValue() {
+    return this.getStringAttribute('suffix_value');
+  }
+  public set suffixValue(value: string) {
+    this._suffixValue = value;
+  }
+  public resetSuffixValue() {
+    this._suffixValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suffixValueInput() {
+    return this._suffixValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_interception AzureVnetSite#disable_interception}
+  */
+  readonly disableInterception?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_interception AzureVnetSite#enable_interception}
+  */
+  readonly enableInterception?: boolean | cdktf.IResolvable;
+  /**
+  * domain_match block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#domain_match AzureVnetSite#domain_match}
+  */
+  readonly domainMatch: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_interception: cdktf.booleanToTerraform(struct!.disableInterception),
+    enable_interception: cdktf.booleanToTerraform(struct!.enableInterception),
+    domain_match: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToTerraform(struct!.domainMatch),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.disableInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.enableInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    domain_match: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToHclTerraform(struct!.domainMatch),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableInterception = this._disableInterception;
+    }
+    if (this._enableInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableInterception = this._enableInterception;
+    }
+    if (this._domainMatch?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domainMatch = this._domainMatch?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._disableInterception = undefined;
+      this._enableInterception = undefined;
+      this._domainMatch.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._disableInterception = value.disableInterception;
+      this._enableInterception = value.enableInterception;
+      this._domainMatch.internalValue = value.domainMatch;
+    }
+  }
+
+  // disable_interception - computed: false, optional: true, required: false
+  private _disableInterception?: boolean | cdktf.IResolvable; 
+  public get disableInterception() {
+    return this.getBooleanAttribute('disable_interception');
+  }
+  public set disableInterception(value: boolean | cdktf.IResolvable) {
+    this._disableInterception = value;
+  }
+  public resetDisableInterception() {
+    this._disableInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInterceptionInput() {
+    return this._disableInterception;
+  }
+
+  // enable_interception - computed: false, optional: true, required: false
+  private _enableInterception?: boolean | cdktf.IResolvable; 
+  public get enableInterception() {
+    return this.getBooleanAttribute('enable_interception');
+  }
+  public set enableInterception(value: boolean | cdktf.IResolvable) {
+    this._enableInterception = value;
+  }
+  public resetEnableInterception() {
+    this._enableInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInterceptionInput() {
+    return this._enableInterception;
+  }
+
+  // domain_match - computed: false, optional: false, required: true
+  private _domainMatch = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference(this, "domain_match");
+  public get domainMatch() {
+    return this._domainMatch;
+  }
+  public putDomainMatch(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch) {
+    this._domainMatch.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainMatchInput() {
+    return this._domainMatch.internalValue;
+  }
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList extends cdktf.ComplexList {
+  public internalValue? : AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference {
+    return new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy {
+  /**
+  * interception_rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interception_rules AzureVnetSite#interception_rules}
+  */
+  readonly interceptionRules: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interception_rules: cdktf.listMapper(azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToTerraform, true)(struct!.interceptionRules),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interception_rules: {
+      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToHclTerraform, true)(struct!.interceptionRules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interceptionRules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interceptionRules = this._interceptionRules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interceptionRules.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interceptionRules.internalValue = value.interceptionRules;
+    }
+  }
+
+  // interception_rules - computed: false, optional: false, required: true
+  private _interceptionRules = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList(this, "interception_rules", false);
+  public get interceptionRules() {
+    return this._interceptionRules;
+  }
+  public putInterceptionRules(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable) {
+    this._interceptionRules.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interceptionRulesInput() {
+    return this._interceptionRules.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_for_all_domains AzureVnetSite#enable_for_all_domains}
+  */
+  readonly enableForAllDomains?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#trusted_ca_url AzureVnetSite#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_certificate AzureVnetSite#volterra_certificate}
+  */
+  readonly volterraCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_trusted_ca AzureVnetSite#volterra_trusted_ca}
+  */
+  readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
+  /**
+  * custom_certificate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_certificate AzureVnetSite#custom_certificate}
+  */
+  readonly customCertificate?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
+  /**
+  * policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#policy AzureVnetSite#policy}
+  */
+  readonly policy?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_for_all_domains: cdktf.booleanToTerraform(struct!.enableForAllDomains),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    volterra_certificate: cdktf.booleanToTerraform(struct!.volterraCertificate),
+    volterra_trusted_ca: cdktf.booleanToTerraform(struct!.volterraTrustedCa),
+    custom_certificate: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToTerraform(struct!.customCertificate),
+    policy: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToTerraform(struct!.policy),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_for_all_domains: {
+      value: cdktf.booleanToHclTerraform(struct!.enableForAllDomains),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    volterra_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.volterraCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    volterra_trusted_ca: {
+      value: cdktf.booleanToHclTerraform(struct!.volterraTrustedCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    custom_certificate: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToHclTerraform(struct!.customCertificate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateList",
+    },
+    policy: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToHclTerraform(struct!.policy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableForAllDomains !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableForAllDomains = this._enableForAllDomains;
+    }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
+    if (this._volterraCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraCertificate = this._volterraCertificate;
+    }
+    if (this._volterraTrustedCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraTrustedCa = this._volterraTrustedCa;
+    }
+    if (this._customCertificate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customCertificate = this._customCertificate?.internalValue;
+    }
+    if (this._policy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policy = this._policy?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableForAllDomains = undefined;
+      this._trustedCaUrl = undefined;
+      this._volterraCertificate = undefined;
+      this._volterraTrustedCa = undefined;
+      this._customCertificate.internalValue = undefined;
+      this._policy.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableForAllDomains = value.enableForAllDomains;
+      this._trustedCaUrl = value.trustedCaUrl;
+      this._volterraCertificate = value.volterraCertificate;
+      this._volterraTrustedCa = value.volterraTrustedCa;
+      this._customCertificate.internalValue = value.customCertificate;
+      this._policy.internalValue = value.policy;
+    }
+  }
+
+  // enable_for_all_domains - computed: false, optional: true, required: false
+  private _enableForAllDomains?: boolean | cdktf.IResolvable; 
+  public get enableForAllDomains() {
+    return this.getBooleanAttribute('enable_for_all_domains');
+  }
+  public set enableForAllDomains(value: boolean | cdktf.IResolvable) {
+    this._enableForAllDomains = value;
+  }
+  public resetEnableForAllDomains() {
+    this._enableForAllDomains = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForAllDomainsInput() {
+    return this._enableForAllDomains;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
+  // volterra_certificate - computed: false, optional: true, required: false
+  private _volterraCertificate?: boolean | cdktf.IResolvable; 
+  public get volterraCertificate() {
+    return this.getBooleanAttribute('volterra_certificate');
+  }
+  public set volterraCertificate(value: boolean | cdktf.IResolvable) {
+    this._volterraCertificate = value;
+  }
+  public resetVolterraCertificate() {
+    this._volterraCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraCertificateInput() {
+    return this._volterraCertificate;
+  }
+
+  // volterra_trusted_ca - computed: false, optional: true, required: false
+  private _volterraTrustedCa?: boolean | cdktf.IResolvable; 
+  public get volterraTrustedCa() {
+    return this.getBooleanAttribute('volterra_trusted_ca');
+  }
+  public set volterraTrustedCa(value: boolean | cdktf.IResolvable) {
+    this._volterraTrustedCa = value;
+  }
+  public resetVolterraTrustedCa() {
+    this._volterraTrustedCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraTrustedCaInput() {
+    return this._volterraTrustedCa;
+  }
+
+  // custom_certificate - computed: false, optional: true, required: false
+  private _customCertificate = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference(this, "custom_certificate");
+  public get customCertificate() {
+    return this._customCertificate;
+  }
+  public putCustomCertificate(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate) {
+    this._customCertificate.internalValue = value;
+  }
+  public resetCustomCertificate() {
+    this._customCertificate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customCertificateInput() {
+    return this._customCertificate.internalValue;
+  }
+
+  // policy - computed: false, optional: true, required: false
+  private _policy = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference(this, "policy");
+  public get policy() {
+    return this._policy;
+  }
+  public putPolicy(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy) {
+    this._policy.internalValue = value;
+  }
+  public resetPolicy() {
+    this._policy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#connection_timeout AzureVnetSite#connection_timeout}
+  */
+  readonly connectionTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#max_connect_attempts AzureVnetSite#max_connect_attempts}
+  */
+  readonly maxConnectAttempts?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_interception AzureVnetSite#no_interception}
+  */
+  readonly noInterception?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#white_listed_ports AzureVnetSite#white_listed_ports}
+  */
+  readonly whiteListedPorts?: number[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#white_listed_prefixes AzureVnetSite#white_listed_prefixes}
+  */
+  readonly whiteListedPrefixes?: string[];
+  /**
+  * tls_intercept block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tls_intercept AzureVnetSite#tls_intercept}
+  */
+  readonly tlsIntercept?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
+}
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_timeout: cdktf.numberToTerraform(struct!.connectionTimeout),
+    max_connect_attempts: cdktf.numberToTerraform(struct!.maxConnectAttempts),
+    no_interception: cdktf.booleanToTerraform(struct!.noInterception),
+    white_listed_ports: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.whiteListedPorts),
+    white_listed_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.whiteListedPrefixes),
+    tls_intercept: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToTerraform(struct!.tlsIntercept),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference | AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.connectionTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_connect_attempts: {
+      value: cdktf.numberToHclTerraform(struct!.maxConnectAttempts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    no_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.noInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    white_listed_ports: {
+      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.whiteListedPorts),
+      isBlock: false,
+      type: "list",
+      storageClassType: "numberList",
+    },
+    white_listed_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.whiteListedPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    tls_intercept: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToHclTerraform(struct!.tlsIntercept),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionTimeout = this._connectionTimeout;
+    }
+    if (this._maxConnectAttempts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxConnectAttempts = this._maxConnectAttempts;
+    }
+    if (this._noInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noInterception = this._noInterception;
+    }
+    if (this._whiteListedPorts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteListedPorts = this._whiteListedPorts;
+    }
+    if (this._whiteListedPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteListedPrefixes = this._whiteListedPrefixes;
+    }
+    if (this._tlsIntercept?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tlsIntercept = this._tlsIntercept?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._connectionTimeout = undefined;
+      this._maxConnectAttempts = undefined;
+      this._noInterception = undefined;
+      this._whiteListedPorts = undefined;
+      this._whiteListedPrefixes = undefined;
+      this._tlsIntercept.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._connectionTimeout = value.connectionTimeout;
+      this._maxConnectAttempts = value.maxConnectAttempts;
+      this._noInterception = value.noInterception;
+      this._whiteListedPorts = value.whiteListedPorts;
+      this._whiteListedPrefixes = value.whiteListedPrefixes;
+      this._tlsIntercept.internalValue = value.tlsIntercept;
+    }
+  }
+
+  // connection_timeout - computed: false, optional: true, required: false
+  private _connectionTimeout?: number; 
+  public get connectionTimeout() {
+    return this.getNumberAttribute('connection_timeout');
+  }
+  public set connectionTimeout(value: number) {
+    this._connectionTimeout = value;
+  }
+  public resetConnectionTimeout() {
+    this._connectionTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionTimeoutInput() {
+    return this._connectionTimeout;
+  }
+
+  // max_connect_attempts - computed: false, optional: true, required: false
+  private _maxConnectAttempts?: number; 
+  public get maxConnectAttempts() {
+    return this.getNumberAttribute('max_connect_attempts');
+  }
+  public set maxConnectAttempts(value: number) {
+    this._maxConnectAttempts = value;
+  }
+  public resetMaxConnectAttempts() {
+    this._maxConnectAttempts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxConnectAttemptsInput() {
+    return this._maxConnectAttempts;
+  }
+
+  // no_interception - computed: false, optional: true, required: false
+  private _noInterception?: boolean | cdktf.IResolvable; 
+  public get noInterception() {
+    return this.getBooleanAttribute('no_interception');
+  }
+  public set noInterception(value: boolean | cdktf.IResolvable) {
+    this._noInterception = value;
+  }
+  public resetNoInterception() {
+    this._noInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noInterceptionInput() {
+    return this._noInterception;
+  }
+
+  // white_listed_ports - computed: false, optional: true, required: false
+  private _whiteListedPorts?: number[]; 
+  public get whiteListedPorts() {
+    return this.getNumberListAttribute('white_listed_ports');
+  }
+  public set whiteListedPorts(value: number[]) {
+    this._whiteListedPorts = value;
+  }
+  public resetWhiteListedPorts() {
+    this._whiteListedPorts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListedPortsInput() {
+    return this._whiteListedPorts;
+  }
+
+  // white_listed_prefixes - computed: false, optional: true, required: false
+  private _whiteListedPrefixes?: string[]; 
+  public get whiteListedPrefixes() {
+    return this.getListAttribute('white_listed_prefixes');
+  }
+  public set whiteListedPrefixes(value: string[]) {
+    this._whiteListedPrefixes = value;
+  }
+  public resetWhiteListedPrefixes() {
+    this._whiteListedPrefixes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListedPrefixesInput() {
+    return this._whiteListedPrefixes;
+  }
+
+  // tls_intercept - computed: false, optional: true, required: false
+  private _tlsIntercept = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference(this, "tls_intercept");
+  public get tlsIntercept() {
+    return this._tlsIntercept;
+  }
+  public putTlsIntercept(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept) {
+    this._tlsIntercept.internalValue = value;
+  }
+  public resetTlsIntercept() {
+    this._tlsIntercept.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsInterceptInput() {
+    return this._tlsIntercept.internalValue;
+  }
+}
 export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3450,7 +6365,7 @@ export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConne
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
   */
   readonly globalVn: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn;
 }
@@ -3531,15 +6446,15 @@ export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectio
 }
 export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -3688,7 +6603,7 @@ export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConne
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
   */
   readonly globalVn: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn;
 }
@@ -3769,15 +6684,25 @@ export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectio
 }
 export interface AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnections {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_forward_proxy AzureVnetSite#disable_forward_proxy}
+  */
+  readonly disableForwardProxy?: boolean | cdktf.IResolvable;
+  /**
+  * enable_forward_proxy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_forward_proxy AzureVnetSite#enable_forward_proxy}
+  */
+  readonly enableForwardProxy?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy;
+  /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sli_to_global_dr AzureVnetSite#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sli_to_global_dr AzureVnetSite#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDr;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#slo_to_global_dr AzureVnetSite#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#slo_to_global_dr AzureVnetSite#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDr;
 }
@@ -3788,6 +6713,8 @@ export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnec
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_forward_proxy: cdktf.booleanToTerraform(struct!.disableForwardProxy),
+    enable_forward_proxy: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToTerraform(struct!.enableForwardProxy),
     sli_to_global_dr: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrToTerraform(struct!.sliToGlobalDr),
     slo_to_global_dr: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrToTerraform(struct!.sloToGlobalDr),
   }
@@ -3800,6 +6727,18 @@ export function azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnec
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_forward_proxy: {
+      value: cdktf.booleanToHclTerraform(struct!.disableForwardProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_forward_proxy: {
+      value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToHclTerraform(struct!.enableForwardProxy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyList",
+    },
     sli_to_global_dr: {
       value: azureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrToHclTerraform(struct!.sliToGlobalDr),
       isBlock: true,
@@ -3838,6 +6777,14 @@ export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectio
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableForwardProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableForwardProxy = this._disableForwardProxy;
+    }
+    if (this._enableForwardProxy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableForwardProxy = this._enableForwardProxy?.internalValue;
+    }
     if (this._sliToGlobalDr?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sliToGlobalDr = this._sliToGlobalDr?.internalValue;
@@ -3853,6 +6800,8 @@ export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectio
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._disableForwardProxy = undefined;
+      this._enableForwardProxy.internalValue = undefined;
       this._sliToGlobalDr.internalValue = undefined;
       this._sloToGlobalDr.internalValue = undefined;
     }
@@ -3863,9 +6812,43 @@ export class AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectio
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._disableForwardProxy = value.disableForwardProxy;
+      this._enableForwardProxy.internalValue = value.enableForwardProxy;
       this._sliToGlobalDr.internalValue = value.sliToGlobalDr;
       this._sloToGlobalDr.internalValue = value.sloToGlobalDr;
     }
+  }
+
+  // disable_forward_proxy - computed: false, optional: true, required: false
+  private _disableForwardProxy?: boolean | cdktf.IResolvable; 
+  public get disableForwardProxy() {
+    return this.getBooleanAttribute('disable_forward_proxy');
+  }
+  public set disableForwardProxy(value: boolean | cdktf.IResolvable) {
+    this._disableForwardProxy = value;
+  }
+  public resetDisableForwardProxy() {
+    this._disableForwardProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableForwardProxyInput() {
+    return this._disableForwardProxy;
+  }
+
+  // enable_forward_proxy - computed: false, optional: true, required: false
+  private _enableForwardProxy = new AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference(this, "enable_forward_proxy");
+  public get enableForwardProxy() {
+    return this._enableForwardProxy;
+  }
+  public putEnableForwardProxy(value: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy) {
+    this._enableForwardProxy.internalValue = value;
+  }
+  public resetEnableForwardProxy() {
+    this._enableForwardProxy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForwardProxyInput() {
+    return this._enableForwardProxy.internalValue;
   }
 
   // sli_to_global_dr - computed: false, optional: true, required: false
@@ -3924,7 +6907,7 @@ export interface AzureVnetSiteIngressEgressGwGlobalNetworkListStruct {
   /**
   * global_network_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_network_connections AzureVnetSite#global_network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_network_connections AzureVnetSite#global_network_connections}
   */
   readonly globalNetworkConnections: AzureVnetSiteIngressEgressGwGlobalNetworkListGlobalNetworkConnections[] | cdktf.IResolvable;
 }
@@ -4005,11 +6988,15 @@ export class AzureVnetSiteIngressEgressGwGlobalNetworkListStructOutputReference 
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#description AzureVnetSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#description AzureVnetSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name: string;
 }
@@ -4021,6 +7008,7 @@ export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMet
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -4037,6 +7025,12 @@ export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMet
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -4068,6 +7062,10 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMetada
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -4079,11 +7077,13 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMetada
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -4104,6 +7104,22 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMetada
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -4119,15 +7135,15 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMetada
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -4264,13 +7280,160 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
     return this._storeProvider;
   }
 }
+export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalToTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#url AzureVnetSite#url}
   */
   readonly url: string;
 }
@@ -4378,19 +7541,332 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
     return this._url;
   }
 }
+export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#key AzureVnetSite#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#version AzureVnetSite#version}
+  */
+  readonly version?: number;
+}
+
+export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  */
+  readonly name: string;
+}
+
+export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
   */
   readonly clearSecretInfo?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo;
 }
 
 export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyToTerraform(struct?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyOutputReference | AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey): any {
@@ -4399,8 +7875,12 @@ export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOth
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -4411,17 +7891,41 @@ export function azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOth
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: azureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoList",
     },
   };
 
@@ -4443,13 +7947,29 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
   public get internalValue(): AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4457,14 +7977,38 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
   public set internalValue(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -4483,6 +8027,22 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -4498,16 +8058,48 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
   }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
   */
   readonly circuitId?: string;
   /**
   * authorized_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#authorized_key AzureVnetSite#authorized_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#authorized_key AzureVnetSite#authorized_key}
   */
   readonly authorizedKey?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey;
 }
@@ -4620,23 +8212,23 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherS
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#weight AzureVnetSite#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#weight AzureVnetSite#weight}
   */
   readonly weight?: number;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#metadata AzureVnetSite#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#metadata AzureVnetSite#metadata}
   */
   readonly metadata: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsMetadata;
   /**
   * other_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#other_subscription AzureVnetSite#other_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#other_subscription AzureVnetSite#other_subscription}
   */
   readonly otherSubscription?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsOtherSubscription;
 }
@@ -4836,11 +8428,11 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnectionsList e
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -4953,11 +8545,11 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetSubn
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -5067,19 +8659,19 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetSubn
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetSubnetParam;
 }
@@ -5221,11 +8813,11 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnetOutp
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
   */
   readonly subnetResourceGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
   */
   readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
 }
@@ -5338,11 +8930,11 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnet
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnetSubnetParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -5452,19 +9044,19 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnet
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
   */
   readonly subnet?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnetSubnet;
   /**
   * subnet_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
   */
   readonly subnetParam?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnetSubnetParam;
 }
@@ -5606,7 +9198,7 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnet
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabledSiteRegistrationOverExpressRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#cloudlink_network_name AzureVnetSite#cloudlink_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#cloudlink_network_name AzureVnetSite#cloudlink_network_name}
   */
   readonly cloudlinkNetworkName: string;
 }
@@ -5687,63 +9279,63 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledSiteRegistrationO
 }
 export interface AzureVnetSiteIngressEgressGwHubExpressRouteEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#advertise_to_route_server AzureVnetSite#advertise_to_route_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#advertise_to_route_server AzureVnetSite#advertise_to_route_server}
   */
   readonly advertiseToRouteServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto_asn AzureVnetSite#auto_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto_asn AzureVnetSite#auto_asn}
   */
   readonly autoAsn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#custom_asn AzureVnetSite#custom_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_asn AzureVnetSite#custom_asn}
   */
   readonly customAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#do_not_advertise_to_route_server AzureVnetSite#do_not_advertise_to_route_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#do_not_advertise_to_route_server AzureVnetSite#do_not_advertise_to_route_server}
   */
   readonly doNotAdvertiseToRouteServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#site_registration_over_internet AzureVnetSite#site_registration_over_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#site_registration_over_internet AzureVnetSite#site_registration_over_internet}
   */
   readonly siteRegistrationOverInternet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_ergw1az AzureVnetSite#sku_ergw1az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_ergw1az AzureVnetSite#sku_ergw1az}
   */
   readonly skuErgw1Az?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_ergw2az AzureVnetSite#sku_ergw2az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_ergw2az AzureVnetSite#sku_ergw2az}
   */
   readonly skuErgw2Az?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_high_perf AzureVnetSite#sku_high_perf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_high_perf AzureVnetSite#sku_high_perf}
   */
   readonly skuHighPerf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_standard AzureVnetSite#sku_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sku_standard AzureVnetSite#sku_standard}
   */
   readonly skuStandard?: boolean | cdktf.IResolvable;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#connections AzureVnetSite#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#connections AzureVnetSite#connections}
   */
   readonly connections: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledConnections[] | cdktf.IResolvable;
   /**
   * gateway_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#gateway_subnet AzureVnetSite#gateway_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#gateway_subnet AzureVnetSite#gateway_subnet}
   */
   readonly gatewaySubnet?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledGatewaySubnet;
   /**
   * route_server_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#route_server_subnet AzureVnetSite#route_server_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#route_server_subnet AzureVnetSite#route_server_subnet}
   */
   readonly routeServerSubnet?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledRouteServerSubnet;
   /**
   * site_registration_over_express_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#site_registration_over_express_route AzureVnetSite#site_registration_over_express_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#site_registration_over_express_route AzureVnetSite#site_registration_over_express_route}
   */
   readonly siteRegistrationOverExpressRoute?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabledSiteRegistrationOverExpressRoute;
 }
@@ -6172,19 +9764,19 @@ export class AzureVnetSiteIngressEgressGwHubExpressRouteEnabledOutputReference e
 }
 export interface AzureVnetSiteIngressEgressGwHubSpokeVnetsVnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
   */
   readonly f5OrchestratedRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
   */
   readonly manualRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
   */
   readonly vnetName: string;
 }
@@ -6349,21 +9941,21 @@ export class AzureVnetSiteIngressEgressGwHubSpokeVnetsVnetOutputReference extend
 }
 export interface AzureVnetSiteIngressEgressGwHubSpokeVnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#manual AzureVnetSite#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#manual AzureVnetSite#manual}
   */
   readonly manual?: boolean | cdktf.IResolvable;
   /**
   * vnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet AzureVnetSite#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vnet AzureVnetSite#vnet}
   */
   readonly vnet?: AzureVnetSiteIngressEgressGwHubSpokeVnetsVnet;
 }
@@ -6566,19 +10158,19 @@ export class AzureVnetSiteIngressEgressGwHubSpokeVnetsList extends cdktf.Complex
 }
 export interface AzureVnetSiteIngressEgressGwHub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#express_route_disabled AzureVnetSite#express_route_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#express_route_disabled AzureVnetSite#express_route_disabled}
   */
   readonly expressRouteDisabled?: boolean | cdktf.IResolvable;
   /**
   * express_route_enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#express_route_enabled AzureVnetSite#express_route_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#express_route_enabled AzureVnetSite#express_route_enabled}
   */
   readonly expressRouteEnabled?: AzureVnetSiteIngressEgressGwHubExpressRouteEnabled;
   /**
   * spoke_vnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#spoke_vnets AzureVnetSite#spoke_vnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#spoke_vnets AzureVnetSite#spoke_vnets}
   */
   readonly spokeVnets?: AzureVnetSiteIngressEgressGwHubSpokeVnets[] | cdktf.IResolvable;
 }
@@ -6720,15 +10312,15 @@ export class AzureVnetSiteIngressEgressGwHubOutputReference extends cdktf.Comple
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -6907,7 +10499,7 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -6991,7 +10583,7 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -7077,13 +10669,13 @@ export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCu
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -7196,19 +10788,19 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#type AzureVnetSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#type AzureVnetSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
   */
   readonly interface?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
   */
   readonly nexthopAddress?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -7350,11 +10942,11 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -7467,11 +11059,11 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -7586,13 +11178,13 @@ export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCu
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -7737,23 +11329,23 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
   */
   readonly nexthop?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
   */
   readonly subnets: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -7921,13 +11513,13 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustom
 }
 export interface AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
   */
   readonly customStaticRoute?: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -8074,7 +11666,7 @@ export interface AzureVnetSiteIngressEgressGwInsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
   */
   readonly staticRouteList: AzureVnetSiteIngressEgressGwInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -8155,15 +11747,15 @@ export class AzureVnetSiteIngressEgressGwInsideStaticRoutesOutputReference exten
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -8342,7 +11934,7 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -8426,7 +12018,7 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
   */
   readonly addr?: string;
 }
@@ -8512,13 +12104,13 @@ export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListC
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
 }
@@ -8631,19 +12223,19 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#type AzureVnetSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#type AzureVnetSite#type}
   */
   readonly type?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
   */
   readonly interface?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
   /**
   * nexthop_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
   */
   readonly nexthopAddress?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
 }
@@ -8785,11 +12377,11 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -8902,11 +12494,11 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
   */
   readonly plen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
   */
   readonly prefix?: string;
 }
@@ -9021,13 +12613,13 @@ export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListC
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
   */
   readonly ipv4?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
   */
   readonly ipv6?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
 }
@@ -9172,23 +12764,23 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
   */
   readonly attrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * nexthop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
   */
   readonly nexthop?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
   */
   readonly subnets: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
 }
@@ -9356,13 +12948,13 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCusto
 }
 export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
   */
   readonly simpleStaticRoute?: string;
   /**
   * custom_static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
   */
   readonly customStaticRoute?: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListCustomStaticRoute;
 }
@@ -9509,7 +13101,7 @@ export interface AzureVnetSiteIngressEgressGwOutsideStaticRoutes {
   /**
   * static_route_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
   */
   readonly staticRouteList: AzureVnetSiteIngressEgressGwOutsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
 }
@@ -9590,11 +13182,11 @@ export class AzureVnetSiteIngressEgressGwOutsideStaticRoutesOutputReference exte
 }
 export interface AzureVnetSiteIngressEgressGwPerformanceEnhancementModePerfModeL3Enhanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#jumbo AzureVnetSite#jumbo}
   */
   readonly jumbo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_jumbo AzureVnetSite#no_jumbo}
   */
   readonly noJumbo?: boolean | cdktf.IResolvable;
 }
@@ -9707,13 +13299,13 @@ export class AzureVnetSiteIngressEgressGwPerformanceEnhancementModePerfModeL3Enh
 }
 export interface AzureVnetSiteIngressEgressGwPerformanceEnhancementMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l7_enhanced AzureVnetSite#perf_mode_l7_enhanced}
   */
   readonly perfModeL7Enhanced?: boolean | cdktf.IResolvable;
   /**
   * perf_mode_l3_enhanced block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#perf_mode_l3_enhanced AzureVnetSite#perf_mode_l3_enhanced}
   */
   readonly perfModeL3Enhanced?: AzureVnetSiteIngressEgressGwPerformanceEnhancementModePerfModeL3Enhanced;
 }
@@ -9826,119 +13418,119 @@ export class AzureVnetSiteIngressEgressGwPerformanceEnhancementModeOutputReferen
 }
 export interface AzureVnetSiteIngressEgressGw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#azure_certified_hw AzureVnetSite#azure_certified_hw}
   */
   readonly azureCertifiedHw: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#forward_proxy_allow_all AzureVnetSite#forward_proxy_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#forward_proxy_allow_all AzureVnetSite#forward_proxy_allow_all}
   */
   readonly forwardProxyAllowAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_dc_cluster_group AzureVnetSite#no_dc_cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_dc_cluster_group AzureVnetSite#no_dc_cluster_group}
   */
   readonly noDcClusterGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_forward_proxy AzureVnetSite#no_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_forward_proxy AzureVnetSite#no_forward_proxy}
   */
   readonly noForwardProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_global_network AzureVnetSite#no_global_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_global_network AzureVnetSite#no_global_network}
   */
   readonly noGlobalNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_inside_static_routes AzureVnetSite#no_inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_inside_static_routes AzureVnetSite#no_inside_static_routes}
   */
   readonly noInsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_network_policy AzureVnetSite#no_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_network_policy AzureVnetSite#no_network_policy}
   */
   readonly noNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#no_outside_static_routes AzureVnetSite#no_outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_outside_static_routes AzureVnetSite#no_outside_static_routes}
   */
   readonly noOutsideStaticRoutes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#not_hub AzureVnetSite#not_hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#not_hub AzureVnetSite#not_hub}
   */
   readonly notHub?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sm_connection_public_ip AzureVnetSite#sm_connection_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sm_connection_public_ip AzureVnetSite#sm_connection_public_ip}
   */
   readonly smConnectionPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sm_connection_pvt_ip AzureVnetSite#sm_connection_pvt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sm_connection_pvt_ip AzureVnetSite#sm_connection_pvt_ip}
   */
   readonly smConnectionPvtIp?: boolean | cdktf.IResolvable;
   /**
   * accelerated_networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#accelerated_networking AzureVnetSite#accelerated_networking}
   */
   readonly acceleratedNetworking?: AzureVnetSiteIngressEgressGwAcceleratedNetworking;
   /**
   * active_enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#active_enhanced_firewall_policies AzureVnetSite#active_enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_enhanced_firewall_policies AzureVnetSite#active_enhanced_firewall_policies}
   */
   readonly activeEnhancedFirewallPolicies?: AzureVnetSiteIngressEgressGwActiveEnhancedFirewallPolicies;
   /**
   * active_forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#active_forward_proxy_policies AzureVnetSite#active_forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_forward_proxy_policies AzureVnetSite#active_forward_proxy_policies}
   */
   readonly activeForwardProxyPolicies?: AzureVnetSiteIngressEgressGwActiveForwardProxyPolicies;
   /**
   * active_network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#active_network_policies AzureVnetSite#active_network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#active_network_policies AzureVnetSite#active_network_policies}
   */
   readonly activeNetworkPolicies?: AzureVnetSiteIngressEgressGwActiveNetworkPolicies;
   /**
   * az_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#az_nodes AzureVnetSite#az_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#az_nodes AzureVnetSite#az_nodes}
   */
   readonly azNodes: AzureVnetSiteIngressEgressGwAzNodes[] | cdktf.IResolvable;
   /**
   * dc_cluster_group_inside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#dc_cluster_group_inside_vn AzureVnetSite#dc_cluster_group_inside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#dc_cluster_group_inside_vn AzureVnetSite#dc_cluster_group_inside_vn}
   */
   readonly dcClusterGroupInsideVn?: AzureVnetSiteIngressEgressGwDcClusterGroupInsideVn;
   /**
   * dc_cluster_group_outside_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#dc_cluster_group_outside_vn AzureVnetSite#dc_cluster_group_outside_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#dc_cluster_group_outside_vn AzureVnetSite#dc_cluster_group_outside_vn}
   */
   readonly dcClusterGroupOutsideVn?: AzureVnetSiteIngressEgressGwDcClusterGroupOutsideVn;
   /**
   * global_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_network_list AzureVnetSite#global_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_network_list AzureVnetSite#global_network_list}
   */
   readonly globalNetworkList?: AzureVnetSiteIngressEgressGwGlobalNetworkListStruct;
   /**
   * hub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#hub AzureVnetSite#hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#hub AzureVnetSite#hub}
   */
   readonly hub?: AzureVnetSiteIngressEgressGwHub;
   /**
   * inside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#inside_static_routes AzureVnetSite#inside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#inside_static_routes AzureVnetSite#inside_static_routes}
   */
   readonly insideStaticRoutes?: AzureVnetSiteIngressEgressGwInsideStaticRoutes;
   /**
   * outside_static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#outside_static_routes AzureVnetSite#outside_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#outside_static_routes AzureVnetSite#outside_static_routes}
   */
   readonly outsideStaticRoutes?: AzureVnetSiteIngressEgressGwOutsideStaticRoutes;
   /**
   * performance_enhancement_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#performance_enhancement_mode AzureVnetSite#performance_enhancement_mode}
   */
   readonly performanceEnhancementMode?: AzureVnetSiteIngressEgressGwPerformanceEnhancementMode;
 }
@@ -10654,11 +14246,11 @@ export class AzureVnetSiteIngressEgressGwOutputReference extends cdktf.ComplexOb
 }
 export interface AzureVnetSiteIngressEgressGwArAcceleratedNetworking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable AzureVnetSite#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -10771,15 +14363,15 @@ export class AzureVnetSiteIngressEgressGwArAcceleratedNetworkingOutputReference 
 }
 export interface AzureVnetSiteIngressEgressGwArActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -10955,7 +14547,7 @@ export interface AzureVnetSiteIngressEgressGwArActiveEnhancedFirewallPolicies {
   /**
   * enhanced_firewall_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enhanced_firewall_policies AzureVnetSite#enhanced_firewall_policies}
   */
   readonly enhancedFirewallPolicies: AzureVnetSiteIngressEgressGwArActiveEnhancedFirewallPoliciesEnhancedFirewallPolicies[] | cdktf.IResolvable;
 }
@@ -11036,15 +14628,15 @@ export class AzureVnetSiteIngressEgressGwArActiveEnhancedFirewallPoliciesOutputR
 }
 export interface AzureVnetSiteIngressEgressGwArActiveForwardProxyPoliciesForwardProxyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11220,7 +14812,7 @@ export interface AzureVnetSiteIngressEgressGwArActiveForwardProxyPolicies {
   /**
   * forward_proxy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#forward_proxy_policies AzureVnetSite#forward_proxy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#forward_proxy_policies AzureVnetSite#forward_proxy_policies}
   */
   readonly forwardProxyPolicies: AzureVnetSiteIngressEgressGwArActiveForwardProxyPoliciesForwardProxyPolicies[] | cdktf.IResolvable;
 }
@@ -11301,15 +14893,15 @@ export class AzureVnetSiteIngressEgressGwArActiveForwardProxyPoliciesOutputRefer
 }
 export interface AzureVnetSiteIngressEgressGwArActiveNetworkPoliciesNetworkPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11485,7 +15077,7 @@ export interface AzureVnetSiteIngressEgressGwArActiveNetworkPolicies {
   /**
   * network_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#network_policies AzureVnetSite#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#network_policies AzureVnetSite#network_policies}
   */
   readonly networkPolicies: AzureVnetSiteIngressEgressGwArActiveNetworkPoliciesNetworkPolicies[] | cdktf.IResolvable;
 }
@@ -11566,15 +15158,15 @@ export class AzureVnetSiteIngressEgressGwArActiveNetworkPoliciesOutputReference 
 }
 export interface AzureVnetSiteIngressEgressGwArDcClusterGroupInsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11716,15 +15308,15 @@ export class AzureVnetSiteIngressEgressGwArDcClusterGroupInsideVnOutputReference
 }
 export interface AzureVnetSiteIngressEgressGwArDcClusterGroupOutsideVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -11864,17 +15456,2323 @@ export class AzureVnetSiteIngressEgressGwArDcClusterGroupOutsideVnOutputReferenc
     return this._tenant;
   }
 }
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#hash_algorithms AzureVnetSite#hash_algorithms}
+  */
+  readonly hashAlgorithms: string[];
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hash_algorithms: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hashAlgorithms),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hash_algorithms: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.hashAlgorithms),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hashAlgorithms !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hashAlgorithms = this._hashAlgorithms;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._hashAlgorithms = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._hashAlgorithms = value.hashAlgorithms;
+    }
+  }
+
+  // hash_algorithms - computed: false, optional: false, required: true
+  private _hashAlgorithms?: string[]; 
+  public get hashAlgorithms() {
+    return this.getListAttribute('hash_algorithms');
+  }
+  public set hashAlgorithms(value: string[]) {
+    this._hashAlgorithms = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashAlgorithmsInput() {
+    return this._hashAlgorithms;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling {
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  */
+  readonly provider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  */
+  readonly url: string;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    provider: cdktf.stringToTerraform(struct!.provider),
+    url: cdktf.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._provider = undefined;
+      this._url = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._provider = value.provider;
+      this._url = value.url;
+    }
+  }
+
+  // provider - computed: false, optional: true, required: false
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  public resetProvider() {
+    this._provider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // url - computed: false, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#key AzureVnetSite#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding AzureVnetSite#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#version AzureVnetSite#version}
+  */
+  readonly version?: number;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  */
+  readonly name: string;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#secret_encoding_type AzureVnetSite#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
+  /**
+  * blindfold_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
+  */
+  readonly blindfoldSecretInfo?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo;
+  /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#blindfold_secret_info_internal AzureVnetSite#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal;
+  /**
+  * clear_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
+  */
+  readonly clearSecretInfo?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#vault_secret_info AzureVnetSite#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#wingman_secret_info AzureVnetSite#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
+    blindfold_secret_info: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
+    clear_secret_info: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    blindfold_secret_info: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoList",
+    },
+    blindfold_secret_info_internal: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalList",
+    },
+    clear_secret_info: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
+    if (this._blindfoldSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
+    }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
+    if (this._clearSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
+      this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
+      this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
+      this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
+      this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
+    }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
+  }
+
+  // blindfold_secret_info - computed: false, optional: true, required: false
+  private _blindfoldSecretInfo = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoOutputReference(this, "blindfold_secret_info");
+  public get blindfoldSecretInfo() {
+    return this._blindfoldSecretInfo;
+  }
+  public putBlindfoldSecretInfo(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfo) {
+    this._blindfoldSecretInfo.internalValue = value;
+  }
+  public resetBlindfoldSecretInfo() {
+    this._blindfoldSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInput() {
+    return this._blindfoldSecretInfo.internalValue;
+  }
+
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
+  // clear_secret_info - computed: false, optional: true, required: false
+  private _clearSecretInfo = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
+  public get clearSecretInfo() {
+    return this._clearSecretInfo;
+  }
+  public putClearSecretInfo(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyClearSecretInfo) {
+    this._clearSecretInfo.internalValue = value;
+  }
+  public resetClearSecretInfo() {
+    this._clearSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSecretInfoInput() {
+    return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults {
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#certificate_url AzureVnetSite#certificate_url}
+  */
+  readonly certificateUrl: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#description AzureVnetSite#description}
+  */
+  readonly description?: string;
+  /**
+  * custom_hash_algorithms block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_hash_algorithms AzureVnetSite#custom_hash_algorithms}
+  */
+  readonly customHashAlgorithms?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms;
+  /**
+  * disable_ocsp_stapling block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_ocsp_stapling AzureVnetSite#disable_ocsp_stapling}
+  */
+  readonly disableOcspStapling?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling;
+  /**
+  * private_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#private_key AzureVnetSite#private_key}
+  */
+  readonly privateKey: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey;
+  /**
+  * use_system_defaults block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#use_system_defaults AzureVnetSite#use_system_defaults}
+  */
+  readonly useSystemDefaults?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    certificate_url: cdktf.stringToTerraform(struct!.certificateUrl),
+    description: cdktf.stringToTerraform(struct!.description),
+    custom_hash_algorithms: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToTerraform(struct!.customHashAlgorithms),
+    disable_ocsp_stapling: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToTerraform(struct!.disableOcspStapling),
+    private_key: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToTerraform(struct!.privateKey),
+    use_system_defaults: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToTerraform(struct!.useSystemDefaults),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    certificate_url: {
+      value: cdktf.stringToHclTerraform(struct!.certificateUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_hash_algorithms: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsToHclTerraform(struct!.customHashAlgorithms),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsList",
+    },
+    disable_ocsp_stapling: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingToHclTerraform(struct!.disableOcspStapling),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingList",
+    },
+    private_key: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyToHclTerraform(struct!.privateKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyList",
+    },
+    use_system_defaults: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsToHclTerraform(struct!.useSystemDefaults),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._certificateUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificateUrl = this._certificateUrl;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._customHashAlgorithms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHashAlgorithms = this._customHashAlgorithms?.internalValue;
+    }
+    if (this._disableOcspStapling?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableOcspStapling = this._disableOcspStapling?.internalValue;
+    }
+    if (this._privateKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateKey = this._privateKey?.internalValue;
+    }
+    if (this._useSystemDefaults?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useSystemDefaults = this._useSystemDefaults?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._certificateUrl = undefined;
+      this._description = undefined;
+      this._customHashAlgorithms.internalValue = undefined;
+      this._disableOcspStapling.internalValue = undefined;
+      this._privateKey.internalValue = undefined;
+      this._useSystemDefaults.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._certificateUrl = value.certificateUrl;
+      this._description = value.description;
+      this._customHashAlgorithms.internalValue = value.customHashAlgorithms;
+      this._disableOcspStapling.internalValue = value.disableOcspStapling;
+      this._privateKey.internalValue = value.privateKey;
+      this._useSystemDefaults.internalValue = value.useSystemDefaults;
+    }
+  }
+
+  // certificate_url - computed: false, optional: false, required: true
+  private _certificateUrl?: string; 
+  public get certificateUrl() {
+    return this.getStringAttribute('certificate_url');
+  }
+  public set certificateUrl(value: string) {
+    this._certificateUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateUrlInput() {
+    return this._certificateUrl;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // custom_hash_algorithms - computed: false, optional: true, required: false
+  private _customHashAlgorithms = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithmsOutputReference(this, "custom_hash_algorithms");
+  public get customHashAlgorithms() {
+    return this._customHashAlgorithms;
+  }
+  public putCustomHashAlgorithms(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateCustomHashAlgorithms) {
+    this._customHashAlgorithms.internalValue = value;
+  }
+  public resetCustomHashAlgorithms() {
+    this._customHashAlgorithms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHashAlgorithmsInput() {
+    return this._customHashAlgorithms.internalValue;
+  }
+
+  // disable_ocsp_stapling - computed: false, optional: true, required: false
+  private _disableOcspStapling = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStaplingOutputReference(this, "disable_ocsp_stapling");
+  public get disableOcspStapling() {
+    return this._disableOcspStapling;
+  }
+  public putDisableOcspStapling(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateDisableOcspStapling) {
+    this._disableOcspStapling.internalValue = value;
+  }
+  public resetDisableOcspStapling() {
+    this._disableOcspStapling.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableOcspStaplingInput() {
+    return this._disableOcspStapling.internalValue;
+  }
+
+  // private_key - computed: false, optional: false, required: true
+  private _privateKey = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKeyOutputReference(this, "private_key");
+  public get privateKey() {
+    return this._privateKey;
+  }
+  public putPrivateKey(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificatePrivateKey) {
+    this._privateKey.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateKeyInput() {
+    return this._privateKey.internalValue;
+  }
+
+  // use_system_defaults - computed: false, optional: true, required: false
+  private _useSystemDefaults = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaultsOutputReference(this, "use_system_defaults");
+  public get useSystemDefaults() {
+    return this._useSystemDefaults;
+  }
+  public putUseSystemDefaults(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateUseSystemDefaults) {
+    this._useSystemDefaults.internalValue = value;
+  }
+  public resetUseSystemDefaults() {
+    this._useSystemDefaults.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useSystemDefaultsInput() {
+    return this._useSystemDefaults.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#exact_value AzureVnetSite#exact_value}
+  */
+  readonly exactValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#regex_value AzureVnetSite#regex_value}
+  */
+  readonly regexValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#suffix_value AzureVnetSite#suffix_value}
+  */
+  readonly suffixValue?: string;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exact_value: cdktf.stringToTerraform(struct!.exactValue),
+    regex_value: cdktf.stringToTerraform(struct!.regexValue),
+    suffix_value: cdktf.stringToTerraform(struct!.suffixValue),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exact_value: {
+      value: cdktf.stringToHclTerraform(struct!.exactValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex_value: {
+      value: cdktf.stringToHclTerraform(struct!.regexValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    suffix_value: {
+      value: cdktf.stringToHclTerraform(struct!.suffixValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exactValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exactValue = this._exactValue;
+    }
+    if (this._regexValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regexValue = this._regexValue;
+    }
+    if (this._suffixValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.suffixValue = this._suffixValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._exactValue = undefined;
+      this._regexValue = undefined;
+      this._suffixValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._exactValue = value.exactValue;
+      this._regexValue = value.regexValue;
+      this._suffixValue = value.suffixValue;
+    }
+  }
+
+  // exact_value - computed: false, optional: true, required: false
+  private _exactValue?: string; 
+  public get exactValue() {
+    return this.getStringAttribute('exact_value');
+  }
+  public set exactValue(value: string) {
+    this._exactValue = value;
+  }
+  public resetExactValue() {
+    this._exactValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exactValueInput() {
+    return this._exactValue;
+  }
+
+  // regex_value - computed: false, optional: true, required: false
+  private _regexValue?: string; 
+  public get regexValue() {
+    return this.getStringAttribute('regex_value');
+  }
+  public set regexValue(value: string) {
+    this._regexValue = value;
+  }
+  public resetRegexValue() {
+    this._regexValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexValueInput() {
+    return this._regexValue;
+  }
+
+  // suffix_value - computed: false, optional: true, required: false
+  private _suffixValue?: string; 
+  public get suffixValue() {
+    return this.getStringAttribute('suffix_value');
+  }
+  public set suffixValue(value: string) {
+    this._suffixValue = value;
+  }
+  public resetSuffixValue() {
+    this._suffixValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suffixValueInput() {
+    return this._suffixValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_interception AzureVnetSite#disable_interception}
+  */
+  readonly disableInterception?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_interception AzureVnetSite#enable_interception}
+  */
+  readonly enableInterception?: boolean | cdktf.IResolvable;
+  /**
+  * domain_match block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#domain_match AzureVnetSite#domain_match}
+  */
+  readonly domainMatch: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_interception: cdktf.booleanToTerraform(struct!.disableInterception),
+    enable_interception: cdktf.booleanToTerraform(struct!.enableInterception),
+    domain_match: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToTerraform(struct!.domainMatch),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.disableInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.enableInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    domain_match: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchToHclTerraform(struct!.domainMatch),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableInterception = this._disableInterception;
+    }
+    if (this._enableInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableInterception = this._enableInterception;
+    }
+    if (this._domainMatch?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domainMatch = this._domainMatch?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._disableInterception = undefined;
+      this._enableInterception = undefined;
+      this._domainMatch.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._disableInterception = value.disableInterception;
+      this._enableInterception = value.enableInterception;
+      this._domainMatch.internalValue = value.domainMatch;
+    }
+  }
+
+  // disable_interception - computed: false, optional: true, required: false
+  private _disableInterception?: boolean | cdktf.IResolvable; 
+  public get disableInterception() {
+    return this.getBooleanAttribute('disable_interception');
+  }
+  public set disableInterception(value: boolean | cdktf.IResolvable) {
+    this._disableInterception = value;
+  }
+  public resetDisableInterception() {
+    this._disableInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInterceptionInput() {
+    return this._disableInterception;
+  }
+
+  // enable_interception - computed: false, optional: true, required: false
+  private _enableInterception?: boolean | cdktf.IResolvable; 
+  public get enableInterception() {
+    return this.getBooleanAttribute('enable_interception');
+  }
+  public set enableInterception(value: boolean | cdktf.IResolvable) {
+    this._enableInterception = value;
+  }
+  public resetEnableInterception() {
+    this._enableInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInterceptionInput() {
+    return this._enableInterception;
+  }
+
+  // domain_match - computed: false, optional: false, required: true
+  private _domainMatch = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatchOutputReference(this, "domain_match");
+  public get domainMatch() {
+    return this._domainMatch;
+  }
+  public putDomainMatch(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesDomainMatch) {
+    this._domainMatch.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainMatchInput() {
+    return this._domainMatch.internalValue;
+  }
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList extends cdktf.ComplexList {
+  public internalValue? : AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference {
+    return new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy {
+  /**
+  * interception_rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#interception_rules AzureVnetSite#interception_rules}
+  */
+  readonly interceptionRules: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interception_rules: cdktf.listMapper(azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToTerraform, true)(struct!.interceptionRules),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interception_rules: {
+      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesToHclTerraform, true)(struct!.interceptionRules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interceptionRules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interceptionRules = this._interceptionRules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._interceptionRules.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._interceptionRules.internalValue = value.interceptionRules;
+    }
+  }
+
+  // interception_rules - computed: false, optional: false, required: true
+  private _interceptionRules = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRulesList(this, "interception_rules", false);
+  public get interceptionRules() {
+    return this._interceptionRules;
+  }
+  public putInterceptionRules(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyInterceptionRules[] | cdktf.IResolvable) {
+    this._interceptionRules.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interceptionRulesInput() {
+    return this._interceptionRules.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_for_all_domains AzureVnetSite#enable_for_all_domains}
+  */
+  readonly enableForAllDomains?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#trusted_ca_url AzureVnetSite#trusted_ca_url}
+  */
+  readonly trustedCaUrl?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_certificate AzureVnetSite#volterra_certificate}
+  */
+  readonly volterraCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#volterra_trusted_ca AzureVnetSite#volterra_trusted_ca}
+  */
+  readonly volterraTrustedCa?: boolean | cdktf.IResolvable;
+  /**
+  * custom_certificate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#custom_certificate AzureVnetSite#custom_certificate}
+  */
+  readonly customCertificate?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate;
+  /**
+  * policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#policy AzureVnetSite#policy}
+  */
+  readonly policy?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_for_all_domains: cdktf.booleanToTerraform(struct!.enableForAllDomains),
+    trusted_ca_url: cdktf.stringToTerraform(struct!.trustedCaUrl),
+    volterra_certificate: cdktf.booleanToTerraform(struct!.volterraCertificate),
+    volterra_trusted_ca: cdktf.booleanToTerraform(struct!.volterraTrustedCa),
+    custom_certificate: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToTerraform(struct!.customCertificate),
+    policy: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToTerraform(struct!.policy),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_for_all_domains: {
+      value: cdktf.booleanToHclTerraform(struct!.enableForAllDomains),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    trusted_ca_url: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCaUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    volterra_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.volterraCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    volterra_trusted_ca: {
+      value: cdktf.booleanToHclTerraform(struct!.volterraTrustedCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    custom_certificate: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateToHclTerraform(struct!.customCertificate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateList",
+    },
+    policy: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyToHclTerraform(struct!.policy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableForAllDomains !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableForAllDomains = this._enableForAllDomains;
+    }
+    if (this._trustedCaUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCaUrl = this._trustedCaUrl;
+    }
+    if (this._volterraCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraCertificate = this._volterraCertificate;
+    }
+    if (this._volterraTrustedCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volterraTrustedCa = this._volterraTrustedCa;
+    }
+    if (this._customCertificate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customCertificate = this._customCertificate?.internalValue;
+    }
+    if (this._policy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policy = this._policy?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableForAllDomains = undefined;
+      this._trustedCaUrl = undefined;
+      this._volterraCertificate = undefined;
+      this._volterraTrustedCa = undefined;
+      this._customCertificate.internalValue = undefined;
+      this._policy.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableForAllDomains = value.enableForAllDomains;
+      this._trustedCaUrl = value.trustedCaUrl;
+      this._volterraCertificate = value.volterraCertificate;
+      this._volterraTrustedCa = value.volterraTrustedCa;
+      this._customCertificate.internalValue = value.customCertificate;
+      this._policy.internalValue = value.policy;
+    }
+  }
+
+  // enable_for_all_domains - computed: false, optional: true, required: false
+  private _enableForAllDomains?: boolean | cdktf.IResolvable; 
+  public get enableForAllDomains() {
+    return this.getBooleanAttribute('enable_for_all_domains');
+  }
+  public set enableForAllDomains(value: boolean | cdktf.IResolvable) {
+    this._enableForAllDomains = value;
+  }
+  public resetEnableForAllDomains() {
+    this._enableForAllDomains = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForAllDomainsInput() {
+    return this._enableForAllDomains;
+  }
+
+  // trusted_ca_url - computed: false, optional: true, required: false
+  private _trustedCaUrl?: string; 
+  public get trustedCaUrl() {
+    return this.getStringAttribute('trusted_ca_url');
+  }
+  public set trustedCaUrl(value: string) {
+    this._trustedCaUrl = value;
+  }
+  public resetTrustedCaUrl() {
+    this._trustedCaUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaUrlInput() {
+    return this._trustedCaUrl;
+  }
+
+  // volterra_certificate - computed: false, optional: true, required: false
+  private _volterraCertificate?: boolean | cdktf.IResolvable; 
+  public get volterraCertificate() {
+    return this.getBooleanAttribute('volterra_certificate');
+  }
+  public set volterraCertificate(value: boolean | cdktf.IResolvable) {
+    this._volterraCertificate = value;
+  }
+  public resetVolterraCertificate() {
+    this._volterraCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraCertificateInput() {
+    return this._volterraCertificate;
+  }
+
+  // volterra_trusted_ca - computed: false, optional: true, required: false
+  private _volterraTrustedCa?: boolean | cdktf.IResolvable; 
+  public get volterraTrustedCa() {
+    return this.getBooleanAttribute('volterra_trusted_ca');
+  }
+  public set volterraTrustedCa(value: boolean | cdktf.IResolvable) {
+    this._volterraTrustedCa = value;
+  }
+  public resetVolterraTrustedCa() {
+    this._volterraTrustedCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volterraTrustedCaInput() {
+    return this._volterraTrustedCa;
+  }
+
+  // custom_certificate - computed: false, optional: true, required: false
+  private _customCertificate = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificateOutputReference(this, "custom_certificate");
+  public get customCertificate() {
+    return this._customCertificate;
+  }
+  public putCustomCertificate(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptCustomCertificate) {
+    this._customCertificate.internalValue = value;
+  }
+  public resetCustomCertificate() {
+    this._customCertificate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customCertificateInput() {
+    return this._customCertificate.internalValue;
+  }
+
+  // policy - computed: false, optional: true, required: false
+  private _policy = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicyOutputReference(this, "policy");
+  public get policy() {
+    return this._policy;
+  }
+  public putPolicy(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptPolicy) {
+    this._policy.internalValue = value;
+  }
+  public resetPolicy() {
+    this._policy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy.internalValue;
+  }
+}
+export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#connection_timeout AzureVnetSite#connection_timeout}
+  */
+  readonly connectionTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#max_connect_attempts AzureVnetSite#max_connect_attempts}
+  */
+  readonly maxConnectAttempts?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#no_interception AzureVnetSite#no_interception}
+  */
+  readonly noInterception?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#white_listed_ports AzureVnetSite#white_listed_ports}
+  */
+  readonly whiteListedPorts?: number[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#white_listed_prefixes AzureVnetSite#white_listed_prefixes}
+  */
+  readonly whiteListedPrefixes?: string[];
+  /**
+  * tls_intercept block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tls_intercept AzureVnetSite#tls_intercept}
+  */
+  readonly tlsIntercept?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept;
+}
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_timeout: cdktf.numberToTerraform(struct!.connectionTimeout),
+    max_connect_attempts: cdktf.numberToTerraform(struct!.maxConnectAttempts),
+    no_interception: cdktf.booleanToTerraform(struct!.noInterception),
+    white_listed_ports: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.whiteListedPorts),
+    white_listed_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.whiteListedPrefixes),
+    tls_intercept: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToTerraform(struct!.tlsIntercept),
+  }
+}
+
+
+export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference | AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.connectionTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_connect_attempts: {
+      value: cdktf.numberToHclTerraform(struct!.maxConnectAttempts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    no_interception: {
+      value: cdktf.booleanToHclTerraform(struct!.noInterception),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    white_listed_ports: {
+      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.whiteListedPorts),
+      isBlock: false,
+      type: "list",
+      storageClassType: "numberList",
+    },
+    white_listed_prefixes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.whiteListedPrefixes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    tls_intercept: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptToHclTerraform(struct!.tlsIntercept),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionTimeout = this._connectionTimeout;
+    }
+    if (this._maxConnectAttempts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxConnectAttempts = this._maxConnectAttempts;
+    }
+    if (this._noInterception !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noInterception = this._noInterception;
+    }
+    if (this._whiteListedPorts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteListedPorts = this._whiteListedPorts;
+    }
+    if (this._whiteListedPrefixes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteListedPrefixes = this._whiteListedPrefixes;
+    }
+    if (this._tlsIntercept?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tlsIntercept = this._tlsIntercept?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._connectionTimeout = undefined;
+      this._maxConnectAttempts = undefined;
+      this._noInterception = undefined;
+      this._whiteListedPorts = undefined;
+      this._whiteListedPrefixes = undefined;
+      this._tlsIntercept.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._connectionTimeout = value.connectionTimeout;
+      this._maxConnectAttempts = value.maxConnectAttempts;
+      this._noInterception = value.noInterception;
+      this._whiteListedPorts = value.whiteListedPorts;
+      this._whiteListedPrefixes = value.whiteListedPrefixes;
+      this._tlsIntercept.internalValue = value.tlsIntercept;
+    }
+  }
+
+  // connection_timeout - computed: false, optional: true, required: false
+  private _connectionTimeout?: number; 
+  public get connectionTimeout() {
+    return this.getNumberAttribute('connection_timeout');
+  }
+  public set connectionTimeout(value: number) {
+    this._connectionTimeout = value;
+  }
+  public resetConnectionTimeout() {
+    this._connectionTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionTimeoutInput() {
+    return this._connectionTimeout;
+  }
+
+  // max_connect_attempts - computed: false, optional: true, required: false
+  private _maxConnectAttempts?: number; 
+  public get maxConnectAttempts() {
+    return this.getNumberAttribute('max_connect_attempts');
+  }
+  public set maxConnectAttempts(value: number) {
+    this._maxConnectAttempts = value;
+  }
+  public resetMaxConnectAttempts() {
+    this._maxConnectAttempts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxConnectAttemptsInput() {
+    return this._maxConnectAttempts;
+  }
+
+  // no_interception - computed: false, optional: true, required: false
+  private _noInterception?: boolean | cdktf.IResolvable; 
+  public get noInterception() {
+    return this.getBooleanAttribute('no_interception');
+  }
+  public set noInterception(value: boolean | cdktf.IResolvable) {
+    this._noInterception = value;
+  }
+  public resetNoInterception() {
+    this._noInterception = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noInterceptionInput() {
+    return this._noInterception;
+  }
+
+  // white_listed_ports - computed: false, optional: true, required: false
+  private _whiteListedPorts?: number[]; 
+  public get whiteListedPorts() {
+    return this.getNumberListAttribute('white_listed_ports');
+  }
+  public set whiteListedPorts(value: number[]) {
+    this._whiteListedPorts = value;
+  }
+  public resetWhiteListedPorts() {
+    this._whiteListedPorts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListedPortsInput() {
+    return this._whiteListedPorts;
+  }
+
+  // white_listed_prefixes - computed: false, optional: true, required: false
+  private _whiteListedPrefixes?: string[]; 
+  public get whiteListedPrefixes() {
+    return this.getListAttribute('white_listed_prefixes');
+  }
+  public set whiteListedPrefixes(value: string[]) {
+    this._whiteListedPrefixes = value;
+  }
+  public resetWhiteListedPrefixes() {
+    this._whiteListedPrefixes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListedPrefixesInput() {
+    return this._whiteListedPrefixes;
+  }
+
+  // tls_intercept - computed: false, optional: true, required: false
+  private _tlsIntercept = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsInterceptOutputReference(this, "tls_intercept");
+  public get tlsIntercept() {
+    return this._tlsIntercept;
+  }
+  public putTlsIntercept(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyTlsIntercept) {
+    this._tlsIntercept.internalValue = value;
+  }
+  public resetTlsIntercept() {
+    this._tlsIntercept.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsInterceptInput() {
+    return this._tlsIntercept.internalValue;
+  }
+}
 export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -12023,7 +17921,7 @@ export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkCon
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
   */
   readonly globalVn: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrGlobalVn;
 }
@@ -12104,15 +18002,15 @@ export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnect
 }
 export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
   */
   readonly tenant?: string;
 }
@@ -12261,7 +18159,7 @@ export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkCon
   /**
   * global_vn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_vn AzureVnetSite#global_vn}
   */
   readonly globalVn: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrGlobalVn;
 }
@@ -12342,15 +18240,25 @@ export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnect
 }
 export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnections {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable_forward_proxy AzureVnetSite#disable_forward_proxy}
+  */
+  readonly disableForwardProxy?: boolean | cdktf.IResolvable;
+  /**
+  * enable_forward_proxy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#enable_forward_proxy AzureVnetSite#enable_forward_proxy}
+  */
+  readonly enableForwardProxy?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy;
+  /**
   * sli_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sli_to_global_dr AzureVnetSite#sli_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#sli_to_global_dr AzureVnetSite#sli_to_global_dr}
   */
   readonly sliToGlobalDr?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDr;
   /**
   * slo_to_global_dr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#slo_to_global_dr AzureVnetSite#slo_to_global_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#slo_to_global_dr AzureVnetSite#slo_to_global_dr}
   */
   readonly sloToGlobalDr?: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDr;
 }
@@ -12361,6 +18269,8 @@ export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConn
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_forward_proxy: cdktf.booleanToTerraform(struct!.disableForwardProxy),
+    enable_forward_proxy: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToTerraform(struct!.enableForwardProxy),
     sli_to_global_dr: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrToTerraform(struct!.sliToGlobalDr),
     slo_to_global_dr: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSloToGlobalDrToTerraform(struct!.sloToGlobalDr),
   }
@@ -12373,6 +18283,18 @@ export function azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConn
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_forward_proxy: {
+      value: cdktf.booleanToHclTerraform(struct!.disableForwardProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_forward_proxy: {
+      value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyToHclTerraform(struct!.enableForwardProxy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyList",
+    },
     sli_to_global_dr: {
       value: azureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsSliToGlobalDrToHclTerraform(struct!.sliToGlobalDr),
       isBlock: true,
@@ -12411,6 +18333,14 @@ export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnect
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableForwardProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableForwardProxy = this._disableForwardProxy;
+    }
+    if (this._enableForwardProxy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableForwardProxy = this._enableForwardProxy?.internalValue;
+    }
     if (this._sliToGlobalDr?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sliToGlobalDr = this._sliToGlobalDr?.internalValue;
@@ -12426,6 +18356,8 @@ export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnect
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._disableForwardProxy = undefined;
+      this._enableForwardProxy.internalValue = undefined;
       this._sliToGlobalDr.internalValue = undefined;
       this._sloToGlobalDr.internalValue = undefined;
     }
@@ -12436,9 +18368,43 @@ export class AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnect
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._disableForwardProxy = value.disableForwardProxy;
+      this._enableForwardProxy.internalValue = value.enableForwardProxy;
       this._sliToGlobalDr.internalValue = value.sliToGlobalDr;
       this._sloToGlobalDr.internalValue = value.sloToGlobalDr;
     }
+  }
+
+  // disable_forward_proxy - computed: false, optional: true, required: false
+  private _disableForwardProxy?: boolean | cdktf.IResolvable; 
+  public get disableForwardProxy() {
+    return this.getBooleanAttribute('disable_forward_proxy');
+  }
+  public set disableForwardProxy(value: boolean | cdktf.IResolvable) {
+    this._disableForwardProxy = value;
+  }
+  public resetDisableForwardProxy() {
+    this._disableForwardProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableForwardProxyInput() {
+    return this._disableForwardProxy;
+  }
+
+  // enable_forward_proxy - computed: false, optional: true, required: false
+  private _enableForwardProxy = new AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxyOutputReference(this, "enable_forward_proxy");
+  public get enableForwardProxy() {
+    return this._enableForwardProxy;
+  }
+  public putEnableForwardProxy(value: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnectionsEnableForwardProxy) {
+    this._enableForwardProxy.internalValue = value;
+  }
+  public resetEnableForwardProxy() {
+    this._enableForwardProxy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForwardProxyInput() {
+    return this._enableForwardProxy.internalValue;
   }
 
   // sli_to_global_dr - computed: false, optional: true, required: false
@@ -12497,7 +18463,7 @@ export interface AzureVnetSiteIngressEgressGwArGlobalNetworkListStruct {
   /**
   * global_network_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#global_network_connections AzureVnetSite#global_network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#global_network_connections AzureVnetSite#global_network_connections}
   */
   readonly globalNetworkConnections: AzureVnetSiteIngressEgressGwArGlobalNetworkListGlobalNetworkConnections[] | cdktf.IResolvable;
 }
@@ -12578,11 +18544,15 @@ export class AzureVnetSiteIngressEgressGwArGlobalNetworkListStructOutputReferenc
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#description AzureVnetSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#description AzureVnetSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#disable AzureVnetSite#disable}
+  */
+  readonly disable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#name AzureVnetSite#name}
   */
   readonly name: string;
 }
@@ -12594,6 +18564,7 @@ export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsM
   }
   return {
     description: cdktf.stringToTerraform(struct!.description),
+    disable: cdktf.booleanToTerraform(struct!.disable),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -12610,6 +18581,12 @@ export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsM
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable: {
+      value: cdktf.booleanToHclTerraform(struct!.disable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -12641,6 +18618,10 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMeta
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disable = this._disable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -12652,11 +18633,13 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMeta
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._disable = undefined;
       this._name = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._disable = value.disable;
       this._name = value.name;
     }
   }
@@ -12677,6 +18660,22 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMeta
     return this._description;
   }
 
+  // disable - computed: false, optional: true, required: false
+  private _disable?: boolean | cdktf.IResolvable; 
+  public get disable() {
+    return this.getBooleanAttribute('disable');
+  }
+  public set disable(value: boolean | cdktf.IResolvable) {
+    this._disable = value;
+  }
+  public resetDisable() {
+    this._disable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableInput() {
+    return this._disable;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -12692,15 +18691,15 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMeta
 }
 export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#location AzureVnetSite#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -12837,43 +18836,54 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
     return this._storeProvider;
   }
 }
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo {
+export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#provider AzureVnetSite#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#decryption_provider AzureVnetSite#decryption_provider}
   */
-  readonly provider?: string;
+  readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#url AzureVnetSite#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#location AzureVnetSite#location}
   */
-  readonly url: string;
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/azure_vnet_site#store_provider AzureVnetSite#store_provider}
+  */
+  readonly storeProvider?: string;
 }
 
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo): any {
+export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    provider: cdktf.stringToTerraform(struct!.provider),
-    url: cdktf.stringToTerraform(struct!.url),
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
   }
 }
 
 
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo): any {
+export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    provider: {
-      value: cdktf.stringToHclTerraform(struct!.provider),
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    url: {
-      value: cdktf.stringToHclTerraform(struct!.url),
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -12884,7 +18894,7 @@ export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoOutputReference extends cdktf.ComplexObject {
+export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -12895,5170 +18905,81 @@ export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOthe
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo | undefined {
+  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._provider !== undefined) {
+    if (this._decryptionProvider !== undefined) {
       hasAnyValues = true;
-      internalValueResult.provider = this._provider;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
     }
-    if (this._url !== undefined) {
+    if (this._location !== undefined) {
       hasAnyValues = true;
-      internalValueResult.url = this._url;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo | undefined) {
+  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoInternal | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._provider = undefined;
-      this._url = undefined;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._provider = value.provider;
-      this._url = value.url;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
     }
   }
 
-  // provider - computed: false, optional: true, required: false
-  private _provider?: string; 
-  public get provider() {
-    return this.getStringAttribute('provider');
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
   }
-  public set provider(value: string) {
-    this._provider = value;
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
   }
-  public resetProvider() {
-    this._provider = undefined;
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get providerInput() {
-    return this._provider;
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
   }
 
-  // url - computed: false, optional: false, required: true
-  private _url?: string; 
-  public get url() {
-    return this.getStringAttribute('url');
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
   }
-  public set url(value: string) {
-    this._url = value;
+  public set location(value: string) {
+    this._location = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get urlInput() {
-    return this._url;
+  public get locationInput() {
+    return this._location;
   }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey {
-  /**
-  * blindfold_secret_info block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#blindfold_secret_info AzureVnetSite#blindfold_secret_info}
-  */
-  readonly blindfoldSecretInfo?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfo;
-  /**
-  * clear_secret_info block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#clear_secret_info AzureVnetSite#clear_secret_info}
-  */
-  readonly clearSecretInfo?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo;
-}
 
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
   }
-  return {
-    blindfold_secret_info: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
-    clear_secret_info: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
   }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    blindfold_secret_info: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoList",
-    },
-    clear_secret_info: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._blindfoldSecretInfo?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
-    }
-    if (this._clearSecretInfo?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._blindfoldSecretInfo.internalValue = undefined;
-      this._clearSecretInfo.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
-      this._clearSecretInfo.internalValue = value.clearSecretInfo;
-    }
-  }
-
-  // blindfold_secret_info - computed: false, optional: true, required: false
-  private _blindfoldSecretInfo = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfoOutputReference(this, "blindfold_secret_info");
-  public get blindfoldSecretInfo() {
-    return this._blindfoldSecretInfo;
-  }
-  public putBlindfoldSecretInfo(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyBlindfoldSecretInfo) {
-    this._blindfoldSecretInfo.internalValue = value;
-  }
-  public resetBlindfoldSecretInfo() {
-    this._blindfoldSecretInfo.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get blindfoldSecretInfoInput() {
-    return this._blindfoldSecretInfo.internalValue;
-  }
-
-  // clear_secret_info - computed: false, optional: true, required: false
-  private _clearSecretInfo = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfoOutputReference(this, "clear_secret_info");
-  public get clearSecretInfo() {
-    return this._clearSecretInfo;
-  }
-  public putClearSecretInfo(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyClearSecretInfo) {
-    this._clearSecretInfo.internalValue = value;
-  }
-  public resetClearSecretInfo() {
-    this._clearSecretInfo.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clearSecretInfoInput() {
-    return this._clearSecretInfo.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
-  */
-  readonly circuitId?: string;
-  /**
-  * authorized_key block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#authorized_key AzureVnetSite#authorized_key}
-  */
-  readonly authorizedKey?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    circuit_id: cdktf.stringToTerraform(struct!.circuitId),
-    authorized_key: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyToTerraform(struct!.authorizedKey),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    circuit_id: {
-      value: cdktf.stringToHclTerraform(struct!.circuitId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    authorized_key: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyToHclTerraform(struct!.authorizedKey),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._circuitId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.circuitId = this._circuitId;
-    }
-    if (this._authorizedKey?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.authorizedKey = this._authorizedKey?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._circuitId = undefined;
-      this._authorizedKey.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._circuitId = value.circuitId;
-      this._authorizedKey.internalValue = value.authorizedKey;
-    }
-  }
-
-  // circuit_id - computed: false, optional: true, required: false
-  private _circuitId?: string; 
-  public get circuitId() {
-    return this.getStringAttribute('circuit_id');
-  }
-  public set circuitId(value: string) {
-    this._circuitId = value;
-  }
-  public resetCircuitId() {
-    this._circuitId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get circuitIdInput() {
-    return this._circuitId;
-  }
-
-  // authorized_key - computed: false, optional: true, required: false
-  private _authorizedKey = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKeyOutputReference(this, "authorized_key");
-  public get authorizedKey() {
-    return this._authorizedKey;
-  }
-  public putAuthorizedKey(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionAuthorizedKey) {
-    this._authorizedKey.internalValue = value;
-  }
-  public resetAuthorizedKey() {
-    this._authorizedKey.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get authorizedKeyInput() {
-    return this._authorizedKey.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#circuit_id AzureVnetSite#circuit_id}
-  */
-  readonly circuitId?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#weight AzureVnetSite#weight}
-  */
-  readonly weight?: number;
-  /**
-  * metadata block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#metadata AzureVnetSite#metadata}
-  */
-  readonly metadata: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadata;
-  /**
-  * other_subscription block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#other_subscription AzureVnetSite#other_subscription}
-  */
-  readonly otherSubscription?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    circuit_id: cdktf.stringToTerraform(struct!.circuitId),
-    weight: cdktf.numberToTerraform(struct!.weight),
-    metadata: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadataToTerraform(struct!.metadata),
-    other_subscription: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionToTerraform(struct!.otherSubscription),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    circuit_id: {
-      value: cdktf.stringToHclTerraform(struct!.circuitId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    weight: {
-      value: cdktf.numberToHclTerraform(struct!.weight),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    metadata: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadataToHclTerraform(struct!.metadata),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadataList",
-    },
-    other_subscription: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionToHclTerraform(struct!.otherSubscription),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._circuitId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.circuitId = this._circuitId;
-    }
-    if (this._weight !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.weight = this._weight;
-    }
-    if (this._metadata?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.metadata = this._metadata?.internalValue;
-    }
-    if (this._otherSubscription?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.otherSubscription = this._otherSubscription?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._circuitId = undefined;
-      this._weight = undefined;
-      this._metadata.internalValue = undefined;
-      this._otherSubscription.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._circuitId = value.circuitId;
-      this._weight = value.weight;
-      this._metadata.internalValue = value.metadata;
-      this._otherSubscription.internalValue = value.otherSubscription;
-    }
-  }
-
-  // circuit_id - computed: false, optional: true, required: false
-  private _circuitId?: string; 
-  public get circuitId() {
-    return this.getStringAttribute('circuit_id');
-  }
-  public set circuitId(value: string) {
-    this._circuitId = value;
-  }
-  public resetCircuitId() {
-    this._circuitId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get circuitIdInput() {
-    return this._circuitId;
-  }
-
-  // weight - computed: false, optional: true, required: false
-  private _weight?: number; 
-  public get weight() {
-    return this.getNumberAttribute('weight');
-  }
-  public set weight(value: number) {
-    this._weight = value;
-  }
-  public resetWeight() {
-    this._weight = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get weightInput() {
-    return this._weight;
-  }
-
-  // metadata - computed: false, optional: false, required: true
-  private _metadata = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-  public putMetadata(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsMetadata) {
-    this._metadata.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get metadataInput() {
-    return this._metadata.internalValue;
-  }
-
-  // other_subscription - computed: false, optional: true, required: false
-  private _otherSubscription = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscriptionOutputReference(this, "other_subscription");
-  public get otherSubscription() {
-    return this._otherSubscription;
-  }
-  public putOtherSubscription(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOtherSubscription) {
-    this._otherSubscription.internalValue = value;
-  }
-  public resetOtherSubscription() {
-    this._otherSubscription.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get otherSubscriptionInput() {
-    return this._otherSubscription.internalValue;
-  }
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsList extends cdktf.ComplexList {
-  public internalValue? : AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOutputReference {
-    return new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
-  */
-  readonly subnetResourceGrp?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
-  */
-  readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    subnet_resource_grp: cdktf.stringToTerraform(struct!.subnetResourceGrp),
-    vnet_resource_group: cdktf.booleanToTerraform(struct!.vnetResourceGroup),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    subnet_resource_grp: {
-      value: cdktf.stringToHclTerraform(struct!.subnetResourceGrp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    vnet_resource_group: {
-      value: cdktf.booleanToHclTerraform(struct!.vnetResourceGroup),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._subnetResourceGrp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetResourceGrp = this._subnetResourceGrp;
-    }
-    if (this._vnetResourceGroup !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vnetResourceGroup = this._vnetResourceGroup;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._subnetResourceGrp = undefined;
-      this._vnetResourceGroup = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._subnetResourceGrp = value.subnetResourceGrp;
-      this._vnetResourceGroup = value.vnetResourceGroup;
-    }
-  }
-
-  // subnet_resource_grp - computed: false, optional: true, required: false
-  private _subnetResourceGrp?: string; 
-  public get subnetResourceGrp() {
-    return this.getStringAttribute('subnet_resource_grp');
-  }
-  public set subnetResourceGrp(value: string) {
-    this._subnetResourceGrp = value;
-  }
-  public resetSubnetResourceGrp() {
-    this._subnetResourceGrp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetResourceGrpInput() {
-    return this._subnetResourceGrp;
-  }
-
-  // vnet_resource_group - computed: false, optional: true, required: false
-  private _vnetResourceGroup?: boolean | cdktf.IResolvable; 
-  public get vnetResourceGroup() {
-    return this.getBooleanAttribute('vnet_resource_group');
-  }
-  public set vnetResourceGroup(value: boolean | cdktf.IResolvable) {
-    this._vnetResourceGroup = value;
-  }
-  public resetVnetResourceGroup() {
-    this._vnetResourceGroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vnetResourceGroupInput() {
-    return this._vnetResourceGroup;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
-  */
-  readonly ipv4: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
-  */
-  readonly ipv6?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ipv4: cdktf.stringToTerraform(struct!.ipv4),
-    ipv6: cdktf.stringToTerraform(struct!.ipv6),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ipv4: {
-      value: cdktf.stringToHclTerraform(struct!.ipv4),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ipv6: {
-      value: cdktf.stringToHclTerraform(struct!.ipv6),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ipv4 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4;
-    }
-    if (this._ipv6 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6 = this._ipv6;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._ipv4 = undefined;
-      this._ipv6 = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._ipv4 = value.ipv4;
-      this._ipv6 = value.ipv6;
-    }
-  }
-
-  // ipv4 - computed: false, optional: false, required: true
-  private _ipv4?: string; 
-  public get ipv4() {
-    return this.getStringAttribute('ipv4');
-  }
-  public set ipv4(value: string) {
-    this._ipv4 = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4;
-  }
-
-  // ipv6 - computed: false, optional: true, required: false
-  private _ipv6?: string; 
-  public get ipv6() {
-    return this.getStringAttribute('ipv6');
-  }
-  public set ipv6(value: string) {
-    this._ipv6 = value;
-  }
-  public resetIpv6() {
-    this._ipv6 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6Input() {
-    return this._ipv6;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
-  */
-  readonly auto?: boolean | cdktf.IResolvable;
-  /**
-  * subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
-  */
-  readonly subnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet;
-  /**
-  * subnet_param block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
-  */
-  readonly subnetParam?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    auto: cdktf.booleanToTerraform(struct!.auto),
-    subnet: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetToTerraform(struct!.subnet),
-    subnet_param: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamToTerraform(struct!.subnetParam),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    auto: {
-      value: cdktf.booleanToHclTerraform(struct!.auto),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    subnet: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetToHclTerraform(struct!.subnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetList",
-    },
-    subnet_param: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamToHclTerraform(struct!.subnetParam),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._auto !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.auto = this._auto;
-    }
-    if (this._subnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnet = this._subnet?.internalValue;
-    }
-    if (this._subnetParam?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetParam = this._subnetParam?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._auto = undefined;
-      this._subnet.internalValue = undefined;
-      this._subnetParam.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._auto = value.auto;
-      this._subnet.internalValue = value.subnet;
-      this._subnetParam.internalValue = value.subnetParam;
-    }
-  }
-
-  // auto - computed: false, optional: true, required: false
-  private _auto?: boolean | cdktf.IResolvable; 
-  public get auto() {
-    return this.getBooleanAttribute('auto');
-  }
-  public set auto(value: boolean | cdktf.IResolvable) {
-    this._auto = value;
-  }
-  public resetAuto() {
-    this._auto = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoInput() {
-    return this._auto;
-  }
-
-  // subnet - computed: false, optional: true, required: false
-  private _subnet = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetOutputReference(this, "subnet");
-  public get subnet() {
-    return this._subnet;
-  }
-  public putSubnet(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnet) {
-    this._subnet.internalValue = value;
-  }
-  public resetSubnet() {
-    this._subnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetInput() {
-    return this._subnet.internalValue;
-  }
-
-  // subnet_param - computed: false, optional: true, required: false
-  private _subnetParam = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParamOutputReference(this, "subnet_param");
-  public get subnetParam() {
-    return this._subnetParam;
-  }
-  public putSubnetParam(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetSubnetParam) {
-    this._subnetParam.internalValue = value;
-  }
-  public resetSubnetParam() {
-    this._subnetParam.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetParamInput() {
-    return this._subnetParam.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
-  */
-  readonly subnetResourceGrp?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
-  */
-  readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    subnet_resource_grp: cdktf.stringToTerraform(struct!.subnetResourceGrp),
-    vnet_resource_group: cdktf.booleanToTerraform(struct!.vnetResourceGroup),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    subnet_resource_grp: {
-      value: cdktf.stringToHclTerraform(struct!.subnetResourceGrp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    vnet_resource_group: {
-      value: cdktf.booleanToHclTerraform(struct!.vnetResourceGroup),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._subnetResourceGrp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetResourceGrp = this._subnetResourceGrp;
-    }
-    if (this._vnetResourceGroup !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vnetResourceGroup = this._vnetResourceGroup;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._subnetResourceGrp = undefined;
-      this._vnetResourceGroup = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._subnetResourceGrp = value.subnetResourceGrp;
-      this._vnetResourceGroup = value.vnetResourceGroup;
-    }
-  }
-
-  // subnet_resource_grp - computed: false, optional: true, required: false
-  private _subnetResourceGrp?: string; 
-  public get subnetResourceGrp() {
-    return this.getStringAttribute('subnet_resource_grp');
-  }
-  public set subnetResourceGrp(value: string) {
-    this._subnetResourceGrp = value;
-  }
-  public resetSubnetResourceGrp() {
-    this._subnetResourceGrp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetResourceGrpInput() {
-    return this._subnetResourceGrp;
-  }
-
-  // vnet_resource_group - computed: false, optional: true, required: false
-  private _vnetResourceGroup?: boolean | cdktf.IResolvable; 
-  public get vnetResourceGroup() {
-    return this.getBooleanAttribute('vnet_resource_group');
-  }
-  public set vnetResourceGroup(value: boolean | cdktf.IResolvable) {
-    this._vnetResourceGroup = value;
-  }
-  public resetVnetResourceGroup() {
-    this._vnetResourceGroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vnetResourceGroupInput() {
-    return this._vnetResourceGroup;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
-  */
-  readonly ipv4: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
-  */
-  readonly ipv6?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ipv4: cdktf.stringToTerraform(struct!.ipv4),
-    ipv6: cdktf.stringToTerraform(struct!.ipv6),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ipv4: {
-      value: cdktf.stringToHclTerraform(struct!.ipv4),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ipv6: {
-      value: cdktf.stringToHclTerraform(struct!.ipv6),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ipv4 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4;
-    }
-    if (this._ipv6 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6 = this._ipv6;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._ipv4 = undefined;
-      this._ipv6 = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._ipv4 = value.ipv4;
-      this._ipv6 = value.ipv6;
-    }
-  }
-
-  // ipv4 - computed: false, optional: false, required: true
-  private _ipv4?: string; 
-  public get ipv4() {
-    return this.getStringAttribute('ipv4');
-  }
-  public set ipv4(value: string) {
-    this._ipv4 = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4;
-  }
-
-  // ipv6 - computed: false, optional: true, required: false
-  private _ipv6?: string; 
-  public get ipv6() {
-    return this.getStringAttribute('ipv6');
-  }
-  public set ipv6(value: string) {
-    this._ipv6 = value;
-  }
-  public resetIpv6() {
-    this._ipv6 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6Input() {
-    return this._ipv6;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
-  */
-  readonly auto?: boolean | cdktf.IResolvable;
-  /**
-  * subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
-  */
-  readonly subnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet;
-  /**
-  * subnet_param block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
-  */
-  readonly subnetParam?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    auto: cdktf.booleanToTerraform(struct!.auto),
-    subnet: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetToTerraform(struct!.subnet),
-    subnet_param: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamToTerraform(struct!.subnetParam),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    auto: {
-      value: cdktf.booleanToHclTerraform(struct!.auto),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    subnet: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetToHclTerraform(struct!.subnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetList",
-    },
-    subnet_param: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamToHclTerraform(struct!.subnetParam),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._auto !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.auto = this._auto;
-    }
-    if (this._subnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnet = this._subnet?.internalValue;
-    }
-    if (this._subnetParam?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetParam = this._subnetParam?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._auto = undefined;
-      this._subnet.internalValue = undefined;
-      this._subnetParam.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._auto = value.auto;
-      this._subnet.internalValue = value.subnet;
-      this._subnetParam.internalValue = value.subnetParam;
-    }
-  }
-
-  // auto - computed: false, optional: true, required: false
-  private _auto?: boolean | cdktf.IResolvable; 
-  public get auto() {
-    return this.getBooleanAttribute('auto');
-  }
-  public set auto(value: boolean | cdktf.IResolvable) {
-    this._auto = value;
-  }
-  public resetAuto() {
-    this._auto = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoInput() {
-    return this._auto;
-  }
-
-  // subnet - computed: false, optional: true, required: false
-  private _subnet = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetOutputReference(this, "subnet");
-  public get subnet() {
-    return this._subnet;
-  }
-  public putSubnet(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnet) {
-    this._subnet.internalValue = value;
-  }
-  public resetSubnet() {
-    this._subnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetInput() {
-    return this._subnet.internalValue;
-  }
-
-  // subnet_param - computed: false, optional: true, required: false
-  private _subnetParam = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParamOutputReference(this, "subnet_param");
-  public get subnetParam() {
-    return this._subnetParam;
-  }
-  public putSubnetParam(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetSubnetParam) {
-    this._subnetParam.internalValue = value;
-  }
-  public resetSubnetParam() {
-    this._subnetParam.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetParamInput() {
-    return this._subnetParam.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#cloudlink_network_name AzureVnetSite#cloudlink_network_name}
-  */
-  readonly cloudlinkNetworkName: string;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    cloudlink_network_name: cdktf.stringToTerraform(struct!.cloudlinkNetworkName),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    cloudlink_network_name: {
-      value: cdktf.stringToHclTerraform(struct!.cloudlinkNetworkName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._cloudlinkNetworkName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.cloudlinkNetworkName = this._cloudlinkNetworkName;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._cloudlinkNetworkName = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._cloudlinkNetworkName = value.cloudlinkNetworkName;
-    }
-  }
-
-  // cloudlink_network_name - computed: false, optional: false, required: true
-  private _cloudlinkNetworkName?: string; 
-  public get cloudlinkNetworkName() {
-    return this.getStringAttribute('cloudlink_network_name');
-  }
-  public set cloudlinkNetworkName(value: string) {
-    this._cloudlinkNetworkName = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cloudlinkNetworkNameInput() {
-    return this._cloudlinkNetworkName;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#advertise_to_route_server AzureVnetSite#advertise_to_route_server}
-  */
-  readonly advertiseToRouteServer?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto_asn AzureVnetSite#auto_asn}
-  */
-  readonly autoAsn?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#custom_asn AzureVnetSite#custom_asn}
-  */
-  readonly customAsn?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#do_not_advertise_to_route_server AzureVnetSite#do_not_advertise_to_route_server}
-  */
-  readonly doNotAdvertiseToRouteServer?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#site_registration_over_internet AzureVnetSite#site_registration_over_internet}
-  */
-  readonly siteRegistrationOverInternet?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_ergw1az AzureVnetSite#sku_ergw1az}
-  */
-  readonly skuErgw1Az?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_ergw2az AzureVnetSite#sku_ergw2az}
-  */
-  readonly skuErgw2Az?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_high_perf AzureVnetSite#sku_high_perf}
-  */
-  readonly skuHighPerf?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#sku_standard AzureVnetSite#sku_standard}
-  */
-  readonly skuStandard?: boolean | cdktf.IResolvable;
-  /**
-  * connections block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#connections AzureVnetSite#connections}
-  */
-  readonly connections: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections[] | cdktf.IResolvable;
-  /**
-  * gateway_subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#gateway_subnet AzureVnetSite#gateway_subnet}
-  */
-  readonly gatewaySubnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet;
-  /**
-  * route_server_subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#route_server_subnet AzureVnetSite#route_server_subnet}
-  */
-  readonly routeServerSubnet?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet;
-  /**
-  * site_registration_over_express_route block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#site_registration_over_express_route AzureVnetSite#site_registration_over_express_route}
-  */
-  readonly siteRegistrationOverExpressRoute?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute;
-}
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    advertise_to_route_server: cdktf.booleanToTerraform(struct!.advertiseToRouteServer),
-    auto_asn: cdktf.booleanToTerraform(struct!.autoAsn),
-    custom_asn: cdktf.numberToTerraform(struct!.customAsn),
-    do_not_advertise_to_route_server: cdktf.booleanToTerraform(struct!.doNotAdvertiseToRouteServer),
-    site_registration_over_internet: cdktf.booleanToTerraform(struct!.siteRegistrationOverInternet),
-    sku_ergw1az: cdktf.booleanToTerraform(struct!.skuErgw1Az),
-    sku_ergw2az: cdktf.booleanToTerraform(struct!.skuErgw2Az),
-    sku_high_perf: cdktf.booleanToTerraform(struct!.skuHighPerf),
-    sku_standard: cdktf.booleanToTerraform(struct!.skuStandard),
-    connections: cdktf.listMapper(azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsToTerraform, true)(struct!.connections),
-    gateway_subnet: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetToTerraform(struct!.gatewaySubnet),
-    route_server_subnet: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetToTerraform(struct!.routeServerSubnet),
-    site_registration_over_express_route: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteToTerraform(struct!.siteRegistrationOverExpressRoute),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubExpressRouteEnabledToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledOutputReference | AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    advertise_to_route_server: {
-      value: cdktf.booleanToHclTerraform(struct!.advertiseToRouteServer),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    auto_asn: {
-      value: cdktf.booleanToHclTerraform(struct!.autoAsn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    custom_asn: {
-      value: cdktf.numberToHclTerraform(struct!.customAsn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    do_not_advertise_to_route_server: {
-      value: cdktf.booleanToHclTerraform(struct!.doNotAdvertiseToRouteServer),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    site_registration_over_internet: {
-      value: cdktf.booleanToHclTerraform(struct!.siteRegistrationOverInternet),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    sku_ergw1az: {
-      value: cdktf.booleanToHclTerraform(struct!.skuErgw1Az),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    sku_ergw2az: {
-      value: cdktf.booleanToHclTerraform(struct!.skuErgw2Az),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    sku_high_perf: {
-      value: cdktf.booleanToHclTerraform(struct!.skuHighPerf),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    sku_standard: {
-      value: cdktf.booleanToHclTerraform(struct!.skuStandard),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    connections: {
-      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsToHclTerraform, true)(struct!.connections),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsList",
-    },
-    gateway_subnet: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetToHclTerraform(struct!.gatewaySubnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetList",
-    },
-    route_server_subnet: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetToHclTerraform(struct!.routeServerSubnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetList",
-    },
-    site_registration_over_express_route: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteToHclTerraform(struct!.siteRegistrationOverExpressRoute),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._advertiseToRouteServer !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.advertiseToRouteServer = this._advertiseToRouteServer;
-    }
-    if (this._autoAsn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.autoAsn = this._autoAsn;
-    }
-    if (this._customAsn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.customAsn = this._customAsn;
-    }
-    if (this._doNotAdvertiseToRouteServer !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.doNotAdvertiseToRouteServer = this._doNotAdvertiseToRouteServer;
-    }
-    if (this._siteRegistrationOverInternet !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.siteRegistrationOverInternet = this._siteRegistrationOverInternet;
-    }
-    if (this._skuErgw1Az !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.skuErgw1Az = this._skuErgw1Az;
-    }
-    if (this._skuErgw2Az !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.skuErgw2Az = this._skuErgw2Az;
-    }
-    if (this._skuHighPerf !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.skuHighPerf = this._skuHighPerf;
-    }
-    if (this._skuStandard !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.skuStandard = this._skuStandard;
-    }
-    if (this._connections?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.connections = this._connections?.internalValue;
-    }
-    if (this._gatewaySubnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gatewaySubnet = this._gatewaySubnet?.internalValue;
-    }
-    if (this._routeServerSubnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.routeServerSubnet = this._routeServerSubnet?.internalValue;
-    }
-    if (this._siteRegistrationOverExpressRoute?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.siteRegistrationOverExpressRoute = this._siteRegistrationOverExpressRoute?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._advertiseToRouteServer = undefined;
-      this._autoAsn = undefined;
-      this._customAsn = undefined;
-      this._doNotAdvertiseToRouteServer = undefined;
-      this._siteRegistrationOverInternet = undefined;
-      this._skuErgw1Az = undefined;
-      this._skuErgw2Az = undefined;
-      this._skuHighPerf = undefined;
-      this._skuStandard = undefined;
-      this._connections.internalValue = undefined;
-      this._gatewaySubnet.internalValue = undefined;
-      this._routeServerSubnet.internalValue = undefined;
-      this._siteRegistrationOverExpressRoute.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._advertiseToRouteServer = value.advertiseToRouteServer;
-      this._autoAsn = value.autoAsn;
-      this._customAsn = value.customAsn;
-      this._doNotAdvertiseToRouteServer = value.doNotAdvertiseToRouteServer;
-      this._siteRegistrationOverInternet = value.siteRegistrationOverInternet;
-      this._skuErgw1Az = value.skuErgw1Az;
-      this._skuErgw2Az = value.skuErgw2Az;
-      this._skuHighPerf = value.skuHighPerf;
-      this._skuStandard = value.skuStandard;
-      this._connections.internalValue = value.connections;
-      this._gatewaySubnet.internalValue = value.gatewaySubnet;
-      this._routeServerSubnet.internalValue = value.routeServerSubnet;
-      this._siteRegistrationOverExpressRoute.internalValue = value.siteRegistrationOverExpressRoute;
-    }
-  }
-
-  // advertise_to_route_server - computed: false, optional: true, required: false
-  private _advertiseToRouteServer?: boolean | cdktf.IResolvable; 
-  public get advertiseToRouteServer() {
-    return this.getBooleanAttribute('advertise_to_route_server');
-  }
-  public set advertiseToRouteServer(value: boolean | cdktf.IResolvable) {
-    this._advertiseToRouteServer = value;
-  }
-  public resetAdvertiseToRouteServer() {
-    this._advertiseToRouteServer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get advertiseToRouteServerInput() {
-    return this._advertiseToRouteServer;
-  }
-
-  // auto_asn - computed: false, optional: true, required: false
-  private _autoAsn?: boolean | cdktf.IResolvable; 
-  public get autoAsn() {
-    return this.getBooleanAttribute('auto_asn');
-  }
-  public set autoAsn(value: boolean | cdktf.IResolvable) {
-    this._autoAsn = value;
-  }
-  public resetAutoAsn() {
-    this._autoAsn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoAsnInput() {
-    return this._autoAsn;
-  }
-
-  // custom_asn - computed: false, optional: true, required: false
-  private _customAsn?: number; 
-  public get customAsn() {
-    return this.getNumberAttribute('custom_asn');
-  }
-  public set customAsn(value: number) {
-    this._customAsn = value;
-  }
-  public resetCustomAsn() {
-    this._customAsn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get customAsnInput() {
-    return this._customAsn;
-  }
-
-  // do_not_advertise_to_route_server - computed: false, optional: true, required: false
-  private _doNotAdvertiseToRouteServer?: boolean | cdktf.IResolvable; 
-  public get doNotAdvertiseToRouteServer() {
-    return this.getBooleanAttribute('do_not_advertise_to_route_server');
-  }
-  public set doNotAdvertiseToRouteServer(value: boolean | cdktf.IResolvable) {
-    this._doNotAdvertiseToRouteServer = value;
-  }
-  public resetDoNotAdvertiseToRouteServer() {
-    this._doNotAdvertiseToRouteServer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get doNotAdvertiseToRouteServerInput() {
-    return this._doNotAdvertiseToRouteServer;
-  }
-
-  // site_registration_over_internet - computed: false, optional: true, required: false
-  private _siteRegistrationOverInternet?: boolean | cdktf.IResolvable; 
-  public get siteRegistrationOverInternet() {
-    return this.getBooleanAttribute('site_registration_over_internet');
-  }
-  public set siteRegistrationOverInternet(value: boolean | cdktf.IResolvable) {
-    this._siteRegistrationOverInternet = value;
-  }
-  public resetSiteRegistrationOverInternet() {
-    this._siteRegistrationOverInternet = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get siteRegistrationOverInternetInput() {
-    return this._siteRegistrationOverInternet;
-  }
-
-  // sku_ergw1az - computed: false, optional: true, required: false
-  private _skuErgw1Az?: boolean | cdktf.IResolvable; 
-  public get skuErgw1Az() {
-    return this.getBooleanAttribute('sku_ergw1az');
-  }
-  public set skuErgw1Az(value: boolean | cdktf.IResolvable) {
-    this._skuErgw1Az = value;
-  }
-  public resetSkuErgw1Az() {
-    this._skuErgw1Az = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get skuErgw1AzInput() {
-    return this._skuErgw1Az;
-  }
-
-  // sku_ergw2az - computed: false, optional: true, required: false
-  private _skuErgw2Az?: boolean | cdktf.IResolvable; 
-  public get skuErgw2Az() {
-    return this.getBooleanAttribute('sku_ergw2az');
-  }
-  public set skuErgw2Az(value: boolean | cdktf.IResolvable) {
-    this._skuErgw2Az = value;
-  }
-  public resetSkuErgw2Az() {
-    this._skuErgw2Az = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get skuErgw2AzInput() {
-    return this._skuErgw2Az;
-  }
-
-  // sku_high_perf - computed: false, optional: true, required: false
-  private _skuHighPerf?: boolean | cdktf.IResolvable; 
-  public get skuHighPerf() {
-    return this.getBooleanAttribute('sku_high_perf');
-  }
-  public set skuHighPerf(value: boolean | cdktf.IResolvable) {
-    this._skuHighPerf = value;
-  }
-  public resetSkuHighPerf() {
-    this._skuHighPerf = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get skuHighPerfInput() {
-    return this._skuHighPerf;
-  }
-
-  // sku_standard - computed: false, optional: true, required: false
-  private _skuStandard?: boolean | cdktf.IResolvable; 
-  public get skuStandard() {
-    return this.getBooleanAttribute('sku_standard');
-  }
-  public set skuStandard(value: boolean | cdktf.IResolvable) {
-    this._skuStandard = value;
-  }
-  public resetSkuStandard() {
-    this._skuStandard = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get skuStandardInput() {
-    return this._skuStandard;
-  }
-
-  // connections - computed: false, optional: false, required: true
-  private _connections = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnectionsList(this, "connections", false);
-  public get connections() {
-    return this._connections;
-  }
-  public putConnections(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledConnections[] | cdktf.IResolvable) {
-    this._connections.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get connectionsInput() {
-    return this._connections.internalValue;
-  }
-
-  // gateway_subnet - computed: false, optional: true, required: false
-  private _gatewaySubnet = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnetOutputReference(this, "gateway_subnet");
-  public get gatewaySubnet() {
-    return this._gatewaySubnet;
-  }
-  public putGatewaySubnet(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledGatewaySubnet) {
-    this._gatewaySubnet.internalValue = value;
-  }
-  public resetGatewaySubnet() {
-    this._gatewaySubnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gatewaySubnetInput() {
-    return this._gatewaySubnet.internalValue;
-  }
-
-  // route_server_subnet - computed: false, optional: true, required: false
-  private _routeServerSubnet = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnetOutputReference(this, "route_server_subnet");
-  public get routeServerSubnet() {
-    return this._routeServerSubnet;
-  }
-  public putRouteServerSubnet(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledRouteServerSubnet) {
-    this._routeServerSubnet.internalValue = value;
-  }
-  public resetRouteServerSubnet() {
-    this._routeServerSubnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get routeServerSubnetInput() {
-    return this._routeServerSubnet.internalValue;
-  }
-
-  // site_registration_over_express_route - computed: false, optional: true, required: false
-  private _siteRegistrationOverExpressRoute = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRouteOutputReference(this, "site_registration_over_express_route");
-  public get siteRegistrationOverExpressRoute() {
-    return this._siteRegistrationOverExpressRoute;
-  }
-  public putSiteRegistrationOverExpressRoute(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledSiteRegistrationOverExpressRoute) {
-    this._siteRegistrationOverExpressRoute.internalValue = value;
-  }
-  public resetSiteRegistrationOverExpressRoute() {
-    this._siteRegistrationOverExpressRoute.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get siteRegistrationOverExpressRouteInput() {
-    return this._siteRegistrationOverExpressRoute.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#f5_orchestrated_routing AzureVnetSite#f5_orchestrated_routing}
-  */
-  readonly f5OrchestratedRouting?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#manual_routing AzureVnetSite#manual_routing}
-  */
-  readonly manualRouting?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#resource_group AzureVnetSite#resource_group}
-  */
-  readonly resourceGroup: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_name AzureVnetSite#vnet_name}
-  */
-  readonly vnetName: string;
-}
-
-export function azureVnetSiteIngressEgressGwArHubSpokeVnetsVnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnetOutputReference | AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    f5_orchestrated_routing: cdktf.booleanToTerraform(struct!.f5OrchestratedRouting),
-    manual_routing: cdktf.booleanToTerraform(struct!.manualRouting),
-    resource_group: cdktf.stringToTerraform(struct!.resourceGroup),
-    vnet_name: cdktf.stringToTerraform(struct!.vnetName),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubSpokeVnetsVnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnetOutputReference | AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    f5_orchestrated_routing: {
-      value: cdktf.booleanToHclTerraform(struct!.f5OrchestratedRouting),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    manual_routing: {
-      value: cdktf.booleanToHclTerraform(struct!.manualRouting),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    resource_group: {
-      value: cdktf.stringToHclTerraform(struct!.resourceGroup),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    vnet_name: {
-      value: cdktf.stringToHclTerraform(struct!.vnetName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._f5OrchestratedRouting !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.f5OrchestratedRouting = this._f5OrchestratedRouting;
-    }
-    if (this._manualRouting !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.manualRouting = this._manualRouting;
-    }
-    if (this._resourceGroup !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.resourceGroup = this._resourceGroup;
-    }
-    if (this._vnetName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vnetName = this._vnetName;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._f5OrchestratedRouting = undefined;
-      this._manualRouting = undefined;
-      this._resourceGroup = undefined;
-      this._vnetName = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._f5OrchestratedRouting = value.f5OrchestratedRouting;
-      this._manualRouting = value.manualRouting;
-      this._resourceGroup = value.resourceGroup;
-      this._vnetName = value.vnetName;
-    }
-  }
-
-  // f5_orchestrated_routing - computed: false, optional: true, required: false
-  private _f5OrchestratedRouting?: boolean | cdktf.IResolvable; 
-  public get f5OrchestratedRouting() {
-    return this.getBooleanAttribute('f5_orchestrated_routing');
-  }
-  public set f5OrchestratedRouting(value: boolean | cdktf.IResolvable) {
-    this._f5OrchestratedRouting = value;
-  }
-  public resetF5OrchestratedRouting() {
-    this._f5OrchestratedRouting = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get f5OrchestratedRoutingInput() {
-    return this._f5OrchestratedRouting;
-  }
-
-  // manual_routing - computed: false, optional: true, required: false
-  private _manualRouting?: boolean | cdktf.IResolvable; 
-  public get manualRouting() {
-    return this.getBooleanAttribute('manual_routing');
-  }
-  public set manualRouting(value: boolean | cdktf.IResolvable) {
-    this._manualRouting = value;
-  }
-  public resetManualRouting() {
-    this._manualRouting = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get manualRoutingInput() {
-    return this._manualRouting;
-  }
-
-  // resource_group - computed: false, optional: false, required: true
-  private _resourceGroup?: string; 
-  public get resourceGroup() {
-    return this.getStringAttribute('resource_group');
-  }
-  public set resourceGroup(value: string) {
-    this._resourceGroup = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get resourceGroupInput() {
-    return this._resourceGroup;
-  }
-
-  // vnet_name - computed: false, optional: false, required: true
-  private _vnetName?: string; 
-  public get vnetName() {
-    return this.getStringAttribute('vnet_name');
-  }
-  public set vnetName(value: string) {
-    this._vnetName = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vnetNameInput() {
-    return this._vnetName;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHubSpokeVnets {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#auto AzureVnetSite#auto}
-  */
-  readonly auto?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
-  */
-  readonly labels?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#manual AzureVnetSite#manual}
-  */
-  readonly manual?: boolean | cdktf.IResolvable;
-  /**
-  * vnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet AzureVnetSite#vnet}
-  */
-  readonly vnet?: AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet;
-}
-
-export function azureVnetSiteIngressEgressGwArHubSpokeVnetsToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubSpokeVnets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    auto: cdktf.booleanToTerraform(struct!.auto),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    manual: cdktf.booleanToTerraform(struct!.manual),
-    vnet: azureVnetSiteIngressEgressGwArHubSpokeVnetsVnetToTerraform(struct!.vnet),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubSpokeVnetsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubSpokeVnets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    auto: {
-      value: cdktf.booleanToHclTerraform(struct!.auto),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    manual: {
-      value: cdktf.booleanToHclTerraform(struct!.manual),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    vnet: {
-      value: azureVnetSiteIngressEgressGwArHubSpokeVnetsVnetToHclTerraform(struct!.vnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnetList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubSpokeVnetsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHubSpokeVnets | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._auto !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.auto = this._auto;
-    }
-    if (this._labels !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.labels = this._labels;
-    }
-    if (this._manual !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.manual = this._manual;
-    }
-    if (this._vnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vnet = this._vnet?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHubSpokeVnets | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._auto = undefined;
-      this._labels = undefined;
-      this._manual = undefined;
-      this._vnet.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._auto = value.auto;
-      this._labels = value.labels;
-      this._manual = value.manual;
-      this._vnet.internalValue = value.vnet;
-    }
-  }
-
-  // auto - computed: false, optional: true, required: false
-  private _auto?: boolean | cdktf.IResolvable; 
-  public get auto() {
-    return this.getBooleanAttribute('auto');
-  }
-  public set auto(value: boolean | cdktf.IResolvable) {
-    this._auto = value;
-  }
-  public resetAuto() {
-    this._auto = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoInput() {
-    return this._auto;
-  }
-
-  // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string }; 
-  public get labels() {
-    return this.getStringMapAttribute('labels');
-  }
-  public set labels(value: { [key: string]: string }) {
-    this._labels = value;
-  }
-  public resetLabels() {
-    this._labels = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelsInput() {
-    return this._labels;
-  }
-
-  // manual - computed: false, optional: true, required: false
-  private _manual?: boolean | cdktf.IResolvable; 
-  public get manual() {
-    return this.getBooleanAttribute('manual');
-  }
-  public set manual(value: boolean | cdktf.IResolvable) {
-    this._manual = value;
-  }
-  public resetManual() {
-    this._manual = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get manualInput() {
-    return this._manual;
-  }
-
-  // vnet - computed: false, optional: true, required: false
-  private _vnet = new AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnetOutputReference(this, "vnet");
-  public get vnet() {
-    return this._vnet;
-  }
-  public putVnet(value: AzureVnetSiteIngressEgressGwArHubSpokeVnetsVnet) {
-    this._vnet.internalValue = value;
-  }
-  public resetVnet() {
-    this._vnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vnetInput() {
-    return this._vnet.internalValue;
-  }
-}
-
-export class AzureVnetSiteIngressEgressGwArHubSpokeVnetsList extends cdktf.ComplexList {
-  public internalValue? : AzureVnetSiteIngressEgressGwArHubSpokeVnets[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): AzureVnetSiteIngressEgressGwArHubSpokeVnetsOutputReference {
-    return new AzureVnetSiteIngressEgressGwArHubSpokeVnetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArHub {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#express_route_disabled AzureVnetSite#express_route_disabled}
-  */
-  readonly expressRouteDisabled?: boolean | cdktf.IResolvable;
-  /**
-  * express_route_enabled block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#express_route_enabled AzureVnetSite#express_route_enabled}
-  */
-  readonly expressRouteEnabled?: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled;
-  /**
-  * spoke_vnets block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#spoke_vnets AzureVnetSite#spoke_vnets}
-  */
-  readonly spokeVnets?: AzureVnetSiteIngressEgressGwArHubSpokeVnets[] | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArHubToTerraform(struct?: AzureVnetSiteIngressEgressGwArHubOutputReference | AzureVnetSiteIngressEgressGwArHub): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    express_route_disabled: cdktf.booleanToTerraform(struct!.expressRouteDisabled),
-    express_route_enabled: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledToTerraform(struct!.expressRouteEnabled),
-    spoke_vnets: cdktf.listMapper(azureVnetSiteIngressEgressGwArHubSpokeVnetsToTerraform, true)(struct!.spokeVnets),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArHubToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArHubOutputReference | AzureVnetSiteIngressEgressGwArHub): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    express_route_disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.expressRouteDisabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    express_route_enabled: {
-      value: azureVnetSiteIngressEgressGwArHubExpressRouteEnabledToHclTerraform(struct!.expressRouteEnabled),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledList",
-    },
-    spoke_vnets: {
-      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwArHubSpokeVnetsToHclTerraform, true)(struct!.spokeVnets),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArHubSpokeVnetsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArHubOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArHub | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._expressRouteDisabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.expressRouteDisabled = this._expressRouteDisabled;
-    }
-    if (this._expressRouteEnabled?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.expressRouteEnabled = this._expressRouteEnabled?.internalValue;
-    }
-    if (this._spokeVnets?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.spokeVnets = this._spokeVnets?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArHub | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._expressRouteDisabled = undefined;
-      this._expressRouteEnabled.internalValue = undefined;
-      this._spokeVnets.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._expressRouteDisabled = value.expressRouteDisabled;
-      this._expressRouteEnabled.internalValue = value.expressRouteEnabled;
-      this._spokeVnets.internalValue = value.spokeVnets;
-    }
-  }
-
-  // express_route_disabled - computed: false, optional: true, required: false
-  private _expressRouteDisabled?: boolean | cdktf.IResolvable; 
-  public get expressRouteDisabled() {
-    return this.getBooleanAttribute('express_route_disabled');
-  }
-  public set expressRouteDisabled(value: boolean | cdktf.IResolvable) {
-    this._expressRouteDisabled = value;
-  }
-  public resetExpressRouteDisabled() {
-    this._expressRouteDisabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get expressRouteDisabledInput() {
-    return this._expressRouteDisabled;
-  }
-
-  // express_route_enabled - computed: false, optional: true, required: false
-  private _expressRouteEnabled = new AzureVnetSiteIngressEgressGwArHubExpressRouteEnabledOutputReference(this, "express_route_enabled");
-  public get expressRouteEnabled() {
-    return this._expressRouteEnabled;
-  }
-  public putExpressRouteEnabled(value: AzureVnetSiteIngressEgressGwArHubExpressRouteEnabled) {
-    this._expressRouteEnabled.internalValue = value;
-  }
-  public resetExpressRouteEnabled() {
-    this._expressRouteEnabled.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get expressRouteEnabledInput() {
-    return this._expressRouteEnabled.internalValue;
-  }
-
-  // spoke_vnets - computed: false, optional: true, required: false
-  private _spokeVnets = new AzureVnetSiteIngressEgressGwArHubSpokeVnetsList(this, "spoke_vnets", false);
-  public get spokeVnets() {
-    return this._spokeVnets;
-  }
-  public putSpokeVnets(value: AzureVnetSiteIngressEgressGwArHubSpokeVnets[] | cdktf.IResolvable) {
-    this._spokeVnets.internalValue = value;
-  }
-  public resetSpokeVnets() {
-    this._spokeVnets.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get spokeVnetsInput() {
-    return this._spokeVnets.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
-  */
-  readonly name?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
-  */
-  readonly namespace?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
-  */
-  readonly tenant?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    namespace: cdktf.stringToTerraform(struct!.namespace),
-    tenant: cdktf.stringToTerraform(struct!.tenant),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    namespace: {
-      value: cdktf.stringToHclTerraform(struct!.namespace),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tenant: {
-      value: cdktf.stringToHclTerraform(struct!.tenant),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._namespace !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.namespace = this._namespace;
-    }
-    if (this._tenant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tenant = this._tenant;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._namespace = undefined;
-      this._tenant = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._namespace = value.namespace;
-      this._tenant = value.tenant;
-    }
-  }
-
-  // kind - computed: true, optional: false, required: false
-  public get kind() {
-    return this.getStringAttribute('kind');
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // namespace - computed: false, optional: true, required: false
-  private _namespace?: string; 
-  public get namespace() {
-    return this.getStringAttribute('namespace');
-  }
-  public set namespace(value: string) {
-    this._namespace = value;
-  }
-  public resetNamespace() {
-    this._namespace = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get namespaceInput() {
-    return this._namespace;
-  }
-
-  // tenant - computed: false, optional: true, required: false
-  private _tenant?: string; 
-  public get tenant() {
-    return this.getStringAttribute('tenant');
-  }
-  public set tenant(value: string) {
-    this._tenant = value;
-  }
-  public resetTenant() {
-    this._tenant = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tenantInput() {
-    return this._tenant;
-  }
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceList extends cdktf.ComplexList {
-  public internalValue? : AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceOutputReference {
-    return new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
-  */
-  readonly addr?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4ToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4ToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._addr = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._addr = value.addr;
-    }
-  }
-
-  // addr - computed: false, optional: true, required: false
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  public resetAddr() {
-    this._addr = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
-  */
-  readonly addr?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6ToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6ToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._addr = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._addr = value.addr;
-    }
-  }
-
-  // addr - computed: false, optional: true, required: false
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  public resetAddr() {
-    this._addr = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress {
-  /**
-  * ipv4 block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
-  */
-  readonly ipv4?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4;
-  /**
-  * ipv6 block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
-  */
-  readonly ipv6?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ipv4: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4ToTerraform(struct!.ipv4),
-    ipv6: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6ToTerraform(struct!.ipv6),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ipv4: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4ToHclTerraform(struct!.ipv4),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4List",
-    },
-    ipv6: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6ToHclTerraform(struct!.ipv6),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6List",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ipv4?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4?.internalValue;
-    }
-    if (this._ipv6?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6 = this._ipv6?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._ipv4.internalValue = undefined;
-      this._ipv6.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._ipv4.internalValue = value.ipv4;
-      this._ipv6.internalValue = value.ipv6;
-    }
-  }
-
-  // ipv4 - computed: false, optional: true, required: false
-  private _ipv4 = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
-  }
-  public putIpv4(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4) {
-    this._ipv4.internalValue = value;
-  }
-  public resetIpv4() {
-    this._ipv4.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4.internalValue;
-  }
-
-  // ipv6 - computed: false, optional: true, required: false
-  private _ipv6 = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference(this, "ipv6");
-  public get ipv6() {
-    return this._ipv6;
-  }
-  public putIpv6(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6) {
-    this._ipv6.internalValue = value;
-  }
-  public resetIpv6() {
-    this._ipv6.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6Input() {
-    return this._ipv6.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#type AzureVnetSite#type}
-  */
-  readonly type?: string;
-  /**
-  * interface block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#interface AzureVnetSite#interface}
-  */
-  readonly interface?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable;
-  /**
-  * nexthop_address block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#nexthop_address AzureVnetSite#nexthop_address}
-  */
-  readonly nexthopAddress?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    type: cdktf.stringToTerraform(struct!.type),
-    interface: cdktf.listMapper(azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceToTerraform, true)(struct!.interface),
-    nexthop_address: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressToTerraform(struct!.nexthopAddress),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    interface: {
-      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceToHclTerraform, true)(struct!.interface),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceList",
-    },
-    nexthop_address: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressToHclTerraform(struct!.nexthopAddress),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    if (this._interface?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.interface = this._interface?.internalValue;
-    }
-    if (this._nexthopAddress?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nexthopAddress = this._nexthopAddress?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._type = undefined;
-      this._interface.internalValue = undefined;
-      this._nexthopAddress.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._type = value.type;
-      this._interface.internalValue = value.interface;
-      this._nexthopAddress.internalValue = value.nexthopAddress;
-    }
-  }
-
-  // type - computed: false, optional: true, required: false
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  public resetType() {
-    this._type = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
-  // interface - computed: false, optional: true, required: false
-  private _interface = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceList(this, "interface", false);
-  public get interface() {
-    return this._interface;
-  }
-  public putInterface(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable) {
-    this._interface.internalValue = value;
-  }
-  public resetInterface() {
-    this._interface.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get interfaceInput() {
-    return this._interface.internalValue;
-  }
-
-  // nexthop_address - computed: false, optional: true, required: false
-  private _nexthopAddress = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressOutputReference(this, "nexthop_address");
-  public get nexthopAddress() {
-    return this._nexthopAddress;
-  }
-  public putNexthopAddress(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddress) {
-    this._nexthopAddress.internalValue = value;
-  }
-  public resetNexthopAddress() {
-    this._nexthopAddress.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nexthopAddressInput() {
-    return this._nexthopAddress.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
-  */
-  readonly plen?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
-  */
-  readonly prefix?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4ToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    plen: cdktf.numberToTerraform(struct!.plen),
-    prefix: cdktf.stringToTerraform(struct!.prefix),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4ToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    plen: {
-      value: cdktf.numberToHclTerraform(struct!.plen),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    prefix: {
-      value: cdktf.stringToHclTerraform(struct!.prefix),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._plen !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.plen = this._plen;
-    }
-    if (this._prefix !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.prefix = this._prefix;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._plen = undefined;
-      this._prefix = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._plen = value.plen;
-      this._prefix = value.prefix;
-    }
-  }
-
-  // plen - computed: false, optional: true, required: false
-  private _plen?: number; 
-  public get plen() {
-    return this.getNumberAttribute('plen');
-  }
-  public set plen(value: number) {
-    this._plen = value;
-  }
-  public resetPlen() {
-    this._plen = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get plenInput() {
-    return this._plen;
-  }
-
-  // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
-  public get prefix() {
-    return this.getStringAttribute('prefix');
-  }
-  public set prefix(value: string) {
-    this._prefix = value;
-  }
-  public resetPrefix() {
-    this._prefix = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get prefixInput() {
-    return this._prefix;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#plen AzureVnetSite#plen}
-  */
-  readonly plen?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#prefix AzureVnetSite#prefix}
-  */
-  readonly prefix?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6ToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    plen: cdktf.numberToTerraform(struct!.plen),
-    prefix: cdktf.stringToTerraform(struct!.prefix),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6ToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6OutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    plen: {
-      value: cdktf.numberToHclTerraform(struct!.plen),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    prefix: {
-      value: cdktf.stringToHclTerraform(struct!.prefix),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._plen !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.plen = this._plen;
-    }
-    if (this._prefix !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.prefix = this._prefix;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._plen = undefined;
-      this._prefix = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._plen = value.plen;
-      this._prefix = value.prefix;
-    }
-  }
-
-  // plen - computed: false, optional: true, required: false
-  private _plen?: number; 
-  public get plen() {
-    return this.getNumberAttribute('plen');
-  }
-  public set plen(value: number) {
-    this._plen = value;
-  }
-  public resetPlen() {
-    this._plen = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get plenInput() {
-    return this._plen;
-  }
-
-  // prefix - computed: false, optional: true, required: false
-  private _prefix?: string; 
-  public get prefix() {
-    return this.getStringAttribute('prefix');
-  }
-  public set prefix(value: string) {
-    this._prefix = value;
-  }
-  public resetPrefix() {
-    this._prefix = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get prefixInput() {
-    return this._prefix;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets {
-  /**
-  * ipv4 block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
-  */
-  readonly ipv4?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4;
-  /**
-  * ipv6 block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
-  */
-  readonly ipv6?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ipv4: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4ToTerraform(struct!.ipv4),
-    ipv6: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6ToTerraform(struct!.ipv6),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ipv4: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4ToHclTerraform(struct!.ipv4),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4List",
-    },
-    ipv6: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6ToHclTerraform(struct!.ipv6),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6List",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ipv4?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4?.internalValue;
-    }
-    if (this._ipv6?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6 = this._ipv6?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._ipv4.internalValue = undefined;
-      this._ipv6.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._ipv4.internalValue = value.ipv4;
-      this._ipv6.internalValue = value.ipv6;
-    }
-  }
-
-  // ipv4 - computed: false, optional: true, required: false
-  private _ipv4 = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4OutputReference(this, "ipv4");
-  public get ipv4() {
-    return this._ipv4;
-  }
-  public putIpv4(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv4) {
-    this._ipv4.internalValue = value;
-  }
-  public resetIpv4() {
-    this._ipv4.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4.internalValue;
-  }
-
-  // ipv6 - computed: false, optional: true, required: false
-  private _ipv6 = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6OutputReference(this, "ipv6");
-  public get ipv6() {
-    return this._ipv6;
-  }
-  public putIpv6(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsIpv6) {
-    this._ipv6.internalValue = value;
-  }
-  public resetIpv6() {
-    this._ipv6.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6Input() {
-    return this._ipv6.internalValue;
-  }
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsList extends cdktf.ComplexList {
-  public internalValue? : AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsOutputReference {
-    return new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#attrs AzureVnetSite#attrs}
-  */
-  readonly attrs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#labels AzureVnetSite#labels}
-  */
-  readonly labels?: { [key: string]: string };
-  /**
-  * nexthop block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#nexthop AzureVnetSite#nexthop}
-  */
-  readonly nexthop?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop;
-  /**
-  * subnets block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnets AzureVnetSite#subnets}
-  */
-  readonly subnets: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    attrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.attrs),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    nexthop: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopToTerraform(struct!.nexthop),
-    subnets: cdktf.listMapper(azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsToTerraform, true)(struct!.subnets),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    attrs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.attrs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    nexthop: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopToHclTerraform(struct!.nexthop),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopList",
-    },
-    subnets: {
-      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsToHclTerraform, true)(struct!.subnets),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._attrs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.attrs = this._attrs;
-    }
-    if (this._labels !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.labels = this._labels;
-    }
-    if (this._nexthop?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nexthop = this._nexthop?.internalValue;
-    }
-    if (this._subnets?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnets = this._subnets?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._attrs = undefined;
-      this._labels = undefined;
-      this._nexthop.internalValue = undefined;
-      this._subnets.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._attrs = value.attrs;
-      this._labels = value.labels;
-      this._nexthop.internalValue = value.nexthop;
-      this._subnets.internalValue = value.subnets;
-    }
-  }
-
-  // attrs - computed: false, optional: true, required: false
-  private _attrs?: string[]; 
-  public get attrs() {
-    return this.getListAttribute('attrs');
-  }
-  public set attrs(value: string[]) {
-    this._attrs = value;
-  }
-  public resetAttrs() {
-    this._attrs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get attrsInput() {
-    return this._attrs;
-  }
-
-  // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string }; 
-  public get labels() {
-    return this.getStringMapAttribute('labels');
-  }
-  public set labels(value: { [key: string]: string }) {
-    this._labels = value;
-  }
-  public resetLabels() {
-    this._labels = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelsInput() {
-    return this._labels;
-  }
-
-  // nexthop - computed: false, optional: true, required: false
-  private _nexthop = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthopOutputReference(this, "nexthop");
-  public get nexthop() {
-    return this._nexthop;
-  }
-  public putNexthop(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteNexthop) {
-    this._nexthop.internalValue = value;
-  }
-  public resetNexthop() {
-    this._nexthop.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nexthopInput() {
-    return this._nexthop.internalValue;
-  }
-
-  // subnets - computed: false, optional: false, required: true
-  private _subnets = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnetsList(this, "subnets", false);
-  public get subnets() {
-    return this._subnets;
-  }
-  public putSubnets(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteSubnets[] | cdktf.IResolvable) {
-    this._subnets.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetsInput() {
-    return this._subnets.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#simple_static_route AzureVnetSite#simple_static_route}
-  */
-  readonly simpleStaticRoute?: string;
-  /**
-  * custom_static_route block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#custom_static_route AzureVnetSite#custom_static_route}
-  */
-  readonly customStaticRoute?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    simple_static_route: cdktf.stringToTerraform(struct!.simpleStaticRoute),
-    custom_static_route: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteToTerraform(struct!.customStaticRoute),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    simple_static_route: {
-      value: cdktf.stringToHclTerraform(struct!.simpleStaticRoute),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    custom_static_route: {
-      value: azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteToHclTerraform(struct!.customStaticRoute),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._simpleStaticRoute !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.simpleStaticRoute = this._simpleStaticRoute;
-    }
-    if (this._customStaticRoute?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.customStaticRoute = this._customStaticRoute?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._simpleStaticRoute = undefined;
-      this._customStaticRoute.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._simpleStaticRoute = value.simpleStaticRoute;
-      this._customStaticRoute.internalValue = value.customStaticRoute;
-    }
-  }
-
-  // simple_static_route - computed: false, optional: true, required: false
-  private _simpleStaticRoute?: string; 
-  public get simpleStaticRoute() {
-    return this.getStringAttribute('simple_static_route');
-  }
-  public set simpleStaticRoute(value: string) {
-    this._simpleStaticRoute = value;
-  }
-  public resetSimpleStaticRoute() {
-    this._simpleStaticRoute = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get simpleStaticRouteInput() {
-    return this._simpleStaticRoute;
-  }
-
-  // custom_static_route - computed: false, optional: true, required: false
-  private _customStaticRoute = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRouteOutputReference(this, "custom_static_route");
-  public get customStaticRoute() {
-    return this._customStaticRoute;
-  }
-  public putCustomStaticRoute(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListCustomStaticRoute) {
-    this._customStaticRoute.internalValue = value;
-  }
-  public resetCustomStaticRoute() {
-    this._customStaticRoute.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get customStaticRouteInput() {
-    return this._customStaticRoute.internalValue;
-  }
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructList extends cdktf.ComplexList {
-  public internalValue? : AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructOutputReference {
-    return new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArInsideStaticRoutes {
-  /**
-  * static_route_list block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#static_route_list AzureVnetSite#static_route_list}
-  */
-  readonly staticRouteList: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesToTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    static_route_list: cdktf.listMapper(azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructToTerraform, true)(struct!.staticRouteList),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArInsideStaticRoutesToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArInsideStaticRoutesOutputReference | AzureVnetSiteIngressEgressGwArInsideStaticRoutes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    static_route_list: {
-      value: cdktf.listMapperHcl(azureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructToHclTerraform, true)(struct!.staticRouteList),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArInsideStaticRoutesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArInsideStaticRoutes | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._staticRouteList?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.staticRouteList = this._staticRouteList?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutes | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._staticRouteList.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._staticRouteList.internalValue = value.staticRouteList;
-    }
-  }
-
-  // static_route_list - computed: false, optional: false, required: true
-  private _staticRouteList = new AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStructList(this, "static_route_list", false);
-  public get staticRouteList() {
-    return this._staticRouteList;
-  }
-  public putStaticRouteList(value: AzureVnetSiteIngressEgressGwArInsideStaticRoutesStaticRouteListStruct[] | cdktf.IResolvable) {
-    this._staticRouteList.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get staticRouteListInput() {
-    return this._staticRouteList.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
-  */
-  readonly subnetName: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
-  */
-  readonly subnetResourceGrp?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
-  */
-  readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    subnet_name: cdktf.stringToTerraform(struct!.subnetName),
-    subnet_resource_grp: cdktf.stringToTerraform(struct!.subnetResourceGrp),
-    vnet_resource_group: cdktf.booleanToTerraform(struct!.vnetResourceGroup),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    subnet_name: {
-      value: cdktf.stringToHclTerraform(struct!.subnetName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    subnet_resource_grp: {
-      value: cdktf.stringToHclTerraform(struct!.subnetResourceGrp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    vnet_resource_group: {
-      value: cdktf.booleanToHclTerraform(struct!.vnetResourceGroup),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._subnetName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetName = this._subnetName;
-    }
-    if (this._subnetResourceGrp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetResourceGrp = this._subnetResourceGrp;
-    }
-    if (this._vnetResourceGroup !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vnetResourceGroup = this._vnetResourceGroup;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._subnetName = undefined;
-      this._subnetResourceGrp = undefined;
-      this._vnetResourceGroup = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._subnetName = value.subnetName;
-      this._subnetResourceGrp = value.subnetResourceGrp;
-      this._vnetResourceGroup = value.vnetResourceGroup;
-    }
-  }
-
-  // subnet_name - computed: false, optional: false, required: true
-  private _subnetName?: string; 
-  public get subnetName() {
-    return this.getStringAttribute('subnet_name');
-  }
-  public set subnetName(value: string) {
-    this._subnetName = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetNameInput() {
-    return this._subnetName;
-  }
-
-  // subnet_resource_grp - computed: false, optional: true, required: false
-  private _subnetResourceGrp?: string; 
-  public get subnetResourceGrp() {
-    return this.getStringAttribute('subnet_resource_grp');
-  }
-  public set subnetResourceGrp(value: string) {
-    this._subnetResourceGrp = value;
-  }
-  public resetSubnetResourceGrp() {
-    this._subnetResourceGrp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetResourceGrpInput() {
-    return this._subnetResourceGrp;
-  }
-
-  // vnet_resource_group - computed: false, optional: true, required: false
-  private _vnetResourceGroup?: boolean | cdktf.IResolvable; 
-  public get vnetResourceGroup() {
-    return this.getBooleanAttribute('vnet_resource_group');
-  }
-  public set vnetResourceGroup(value: boolean | cdktf.IResolvable) {
-    this._vnetResourceGroup = value;
-  }
-  public resetVnetResourceGroup() {
-    this._vnetResourceGroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vnetResourceGroupInput() {
-    return this._vnetResourceGroup;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
-  */
-  readonly ipv4: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
-  */
-  readonly ipv6?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ipv4: cdktf.stringToTerraform(struct!.ipv4),
-    ipv6: cdktf.stringToTerraform(struct!.ipv6),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ipv4: {
-      value: cdktf.stringToHclTerraform(struct!.ipv4),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ipv6: {
-      value: cdktf.stringToHclTerraform(struct!.ipv6),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ipv4 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4;
-    }
-    if (this._ipv6 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6 = this._ipv6;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._ipv4 = undefined;
-      this._ipv6 = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._ipv4 = value.ipv4;
-      this._ipv6 = value.ipv6;
-    }
-  }
-
-  // ipv4 - computed: false, optional: false, required: true
-  private _ipv4?: string; 
-  public get ipv4() {
-    return this.getStringAttribute('ipv4');
-  }
-  public set ipv4(value: string) {
-    this._ipv4 = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4;
-  }
-
-  // ipv6 - computed: false, optional: true, required: false
-  private _ipv6?: string; 
-  public get ipv6() {
-    return this.getStringAttribute('ipv6');
-  }
-  public set ipv6(value: string) {
-    this._ipv6 = value;
-  }
-  public resetIpv6() {
-    this._ipv6 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6Input() {
-    return this._ipv6;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNodeInsideSubnet {
-  /**
-  * subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
-  */
-  readonly subnet?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet;
-  /**
-  * subnet_param block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
-  */
-  readonly subnetParam?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeInsideSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeInsideSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    subnet: azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetToTerraform(struct!.subnet),
-    subnet_param: azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamToTerraform(struct!.subnetParam),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeInsideSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeInsideSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeInsideSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    subnet: {
-      value: azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetToHclTerraform(struct!.subnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetList",
-    },
-    subnet_param: {
-      value: azureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamToHclTerraform(struct!.subnetParam),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeInsideSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNodeInsideSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._subnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnet = this._subnet?.internalValue;
-    }
-    if (this._subnetParam?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetParam = this._subnetParam?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNodeInsideSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._subnet.internalValue = undefined;
-      this._subnetParam.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._subnet.internalValue = value.subnet;
-      this._subnetParam.internalValue = value.subnetParam;
-    }
-  }
-
-  // subnet - computed: false, optional: true, required: false
-  private _subnet = new AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetOutputReference(this, "subnet");
-  public get subnet() {
-    return this._subnet;
-  }
-  public putSubnet(value: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnet) {
-    this._subnet.internalValue = value;
-  }
-  public resetSubnet() {
-    this._subnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetInput() {
-    return this._subnet.internalValue;
-  }
-
-  // subnet_param - computed: false, optional: true, required: false
-  private _subnetParam = new AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParamOutputReference(this, "subnet_param");
-  public get subnetParam() {
-    return this._subnetParam;
-  }
-  public putSubnetParam(value: AzureVnetSiteIngressEgressGwArNodeInsideSubnetSubnetParam) {
-    this._subnetParam.internalValue = value;
-  }
-  public resetSubnetParam() {
-    this._subnetParam.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetParamInput() {
-    return this._subnetParam.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_name AzureVnetSite#subnet_name}
-  */
-  readonly subnetName: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_resource_grp AzureVnetSite#subnet_resource_grp}
-  */
-  readonly subnetResourceGrp?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#vnet_resource_group AzureVnetSite#vnet_resource_group}
-  */
-  readonly vnetResourceGroup?: boolean | cdktf.IResolvable;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    subnet_name: cdktf.stringToTerraform(struct!.subnetName),
-    subnet_resource_grp: cdktf.stringToTerraform(struct!.subnetResourceGrp),
-    vnet_resource_group: cdktf.booleanToTerraform(struct!.vnetResourceGroup),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    subnet_name: {
-      value: cdktf.stringToHclTerraform(struct!.subnetName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    subnet_resource_grp: {
-      value: cdktf.stringToHclTerraform(struct!.subnetResourceGrp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    vnet_resource_group: {
-      value: cdktf.booleanToHclTerraform(struct!.vnetResourceGroup),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._subnetName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetName = this._subnetName;
-    }
-    if (this._subnetResourceGrp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetResourceGrp = this._subnetResourceGrp;
-    }
-    if (this._vnetResourceGroup !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vnetResourceGroup = this._vnetResourceGroup;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._subnetName = undefined;
-      this._subnetResourceGrp = undefined;
-      this._vnetResourceGroup = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._subnetName = value.subnetName;
-      this._subnetResourceGrp = value.subnetResourceGrp;
-      this._vnetResourceGroup = value.vnetResourceGroup;
-    }
-  }
-
-  // subnet_name - computed: false, optional: false, required: true
-  private _subnetName?: string; 
-  public get subnetName() {
-    return this.getStringAttribute('subnet_name');
-  }
-  public set subnetName(value: string) {
-    this._subnetName = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetNameInput() {
-    return this._subnetName;
-  }
-
-  // subnet_resource_grp - computed: false, optional: true, required: false
-  private _subnetResourceGrp?: string; 
-  public get subnetResourceGrp() {
-    return this.getStringAttribute('subnet_resource_grp');
-  }
-  public set subnetResourceGrp(value: string) {
-    this._subnetResourceGrp = value;
-  }
-  public resetSubnetResourceGrp() {
-    this._subnetResourceGrp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetResourceGrpInput() {
-    return this._subnetResourceGrp;
-  }
-
-  // vnet_resource_group - computed: false, optional: true, required: false
-  private _vnetResourceGroup?: boolean | cdktf.IResolvable; 
-  public get vnetResourceGroup() {
-    return this.getBooleanAttribute('vnet_resource_group');
-  }
-  public set vnetResourceGroup(value: boolean | cdktf.IResolvable) {
-    this._vnetResourceGroup = value;
-  }
-  public resetVnetResourceGroup() {
-    this._vnetResourceGroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vnetResourceGroupInput() {
-    return this._vnetResourceGroup;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv4 AzureVnetSite#ipv4}
-  */
-  readonly ipv4: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#ipv6 AzureVnetSite#ipv6}
-  */
-  readonly ipv6?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ipv4: cdktf.stringToTerraform(struct!.ipv4),
-    ipv6: cdktf.stringToTerraform(struct!.ipv6),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamOutputReference | AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ipv4: {
-      value: cdktf.stringToHclTerraform(struct!.ipv4),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ipv6: {
-      value: cdktf.stringToHclTerraform(struct!.ipv6),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ipv4 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv4 = this._ipv4;
-    }
-    if (this._ipv6 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6 = this._ipv6;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._ipv4 = undefined;
-      this._ipv6 = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._ipv4 = value.ipv4;
-      this._ipv6 = value.ipv6;
-    }
-  }
-
-  // ipv4 - computed: false, optional: false, required: true
-  private _ipv4?: string; 
-  public get ipv4() {
-    return this.getStringAttribute('ipv4');
-  }
-  public set ipv4(value: string) {
-    this._ipv4 = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv4Input() {
-    return this._ipv4;
-  }
-
-  // ipv6 - computed: false, optional: true, required: false
-  private _ipv6?: string; 
-  public get ipv6() {
-    return this.getStringAttribute('ipv6');
-  }
-  public set ipv6(value: string) {
-    this._ipv6 = value;
-  }
-  public resetIpv6() {
-    this._ipv6 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6Input() {
-    return this._ipv6;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNodeOutsideSubnet {
-  /**
-  * subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet AzureVnetSite#subnet}
-  */
-  readonly subnet?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet;
-  /**
-  * subnet_param block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#subnet_param AzureVnetSite#subnet_param}
-  */
-  readonly subnetParam?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeOutsideSubnetToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeOutsideSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    subnet: azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetToTerraform(struct!.subnet),
-    subnet_param: azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamToTerraform(struct!.subnetParam),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeOutsideSubnetToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetOutputReference | AzureVnetSiteIngressEgressGwArNodeOutsideSubnet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    subnet: {
-      value: azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetToHclTerraform(struct!.subnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetList",
-    },
-    subnet_param: {
-      value: azureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamToHclTerraform(struct!.subnetParam),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeOutsideSubnetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNodeOutsideSubnet | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._subnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnet = this._subnet?.internalValue;
-    }
-    if (this._subnetParam?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subnetParam = this._subnetParam?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNodeOutsideSubnet | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._subnet.internalValue = undefined;
-      this._subnetParam.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._subnet.internalValue = value.subnet;
-      this._subnetParam.internalValue = value.subnetParam;
-    }
-  }
-
-  // subnet - computed: false, optional: true, required: false
-  private _subnet = new AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetOutputReference(this, "subnet");
-  public get subnet() {
-    return this._subnet;
-  }
-  public putSubnet(value: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnet) {
-    this._subnet.internalValue = value;
-  }
-  public resetSubnet() {
-    this._subnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetInput() {
-    return this._subnet.internalValue;
-  }
-
-  // subnet_param - computed: false, optional: true, required: false
-  private _subnetParam = new AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParamOutputReference(this, "subnet_param");
-  public get subnetParam() {
-    return this._subnetParam;
-  }
-  public putSubnetParam(value: AzureVnetSiteIngressEgressGwArNodeOutsideSubnetSubnetParam) {
-    this._subnetParam.internalValue = value;
-  }
-  public resetSubnetParam() {
-    this._subnetParam.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subnetParamInput() {
-    return this._subnetParam.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArNode {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#fault_domain AzureVnetSite#fault_domain}
-  */
-  readonly faultDomain?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#node_number AzureVnetSite#node_number}
-  */
-  readonly nodeNumber: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#update_domain AzureVnetSite#update_domain}
-  */
-  readonly updateDomain?: number;
-  /**
-  * inside_subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#inside_subnet AzureVnetSite#inside_subnet}
-  */
-  readonly insideSubnet?: AzureVnetSiteIngressEgressGwArNodeInsideSubnet;
-  /**
-  * outside_subnet block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#outside_subnet AzureVnetSite#outside_subnet}
-  */
-  readonly outsideSubnet?: AzureVnetSiteIngressEgressGwArNodeOutsideSubnet;
-}
-
-export function azureVnetSiteIngressEgressGwArNodeToTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutputReference | AzureVnetSiteIngressEgressGwArNode): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    fault_domain: cdktf.numberToTerraform(struct!.faultDomain),
-    node_number: cdktf.numberToTerraform(struct!.nodeNumber),
-    update_domain: cdktf.numberToTerraform(struct!.updateDomain),
-    inside_subnet: azureVnetSiteIngressEgressGwArNodeInsideSubnetToTerraform(struct!.insideSubnet),
-    outside_subnet: azureVnetSiteIngressEgressGwArNodeOutsideSubnetToTerraform(struct!.outsideSubnet),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArNodeToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArNodeOutputReference | AzureVnetSiteIngressEgressGwArNode): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    fault_domain: {
-      value: cdktf.numberToHclTerraform(struct!.faultDomain),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    node_number: {
-      value: cdktf.numberToHclTerraform(struct!.nodeNumber),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    update_domain: {
-      value: cdktf.numberToHclTerraform(struct!.updateDomain),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    inside_subnet: {
-      value: azureVnetSiteIngressEgressGwArNodeInsideSubnetToHclTerraform(struct!.insideSubnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArNodeInsideSubnetList",
-    },
-    outside_subnet: {
-      value: azureVnetSiteIngressEgressGwArNodeOutsideSubnetToHclTerraform(struct!.outsideSubnet),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AzureVnetSiteIngressEgressGwArNodeOutsideSubnetList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArNodeOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArNode | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._faultDomain !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.faultDomain = this._faultDomain;
-    }
-    if (this._nodeNumber !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodeNumber = this._nodeNumber;
-    }
-    if (this._updateDomain !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.updateDomain = this._updateDomain;
-    }
-    if (this._insideSubnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.insideSubnet = this._insideSubnet?.internalValue;
-    }
-    if (this._outsideSubnet?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.outsideSubnet = this._outsideSubnet?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArNode | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._faultDomain = undefined;
-      this._nodeNumber = undefined;
-      this._updateDomain = undefined;
-      this._insideSubnet.internalValue = undefined;
-      this._outsideSubnet.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._faultDomain = value.faultDomain;
-      this._nodeNumber = value.nodeNumber;
-      this._updateDomain = value.updateDomain;
-      this._insideSubnet.internalValue = value.insideSubnet;
-      this._outsideSubnet.internalValue = value.outsideSubnet;
-    }
-  }
-
-  // fault_domain - computed: false, optional: true, required: false
-  private _faultDomain?: number; 
-  public get faultDomain() {
-    return this.getNumberAttribute('fault_domain');
-  }
-  public set faultDomain(value: number) {
-    this._faultDomain = value;
-  }
-  public resetFaultDomain() {
-    this._faultDomain = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get faultDomainInput() {
-    return this._faultDomain;
-  }
-
-  // node_number - computed: false, optional: false, required: true
-  private _nodeNumber?: number; 
-  public get nodeNumber() {
-    return this.getNumberAttribute('node_number');
-  }
-  public set nodeNumber(value: number) {
-    this._nodeNumber = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodeNumberInput() {
-    return this._nodeNumber;
-  }
-
-  // update_domain - computed: false, optional: true, required: false
-  private _updateDomain?: number; 
-  public get updateDomain() {
-    return this.getNumberAttribute('update_domain');
-  }
-  public set updateDomain(value: number) {
-    this._updateDomain = value;
-  }
-  public resetUpdateDomain() {
-    this._updateDomain = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get updateDomainInput() {
-    return this._updateDomain;
-  }
-
-  // inside_subnet - computed: false, optional: true, required: false
-  private _insideSubnet = new AzureVnetSiteIngressEgressGwArNodeInsideSubnetOutputReference(this, "inside_subnet");
-  public get insideSubnet() {
-    return this._insideSubnet;
-  }
-  public putInsideSubnet(value: AzureVnetSiteIngressEgressGwArNodeInsideSubnet) {
-    this._insideSubnet.internalValue = value;
-  }
-  public resetInsideSubnet() {
-    this._insideSubnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get insideSubnetInput() {
-    return this._insideSubnet.internalValue;
-  }
-
-  // outside_subnet - computed: false, optional: true, required: false
-  private _outsideSubnet = new AzureVnetSiteIngressEgressGwArNodeOutsideSubnetOutputReference(this, "outside_subnet");
-  public get outsideSubnet() {
-    return this._outsideSubnet;
-  }
-  public putOutsideSubnet(value: AzureVnetSiteIngressEgressGwArNodeOutsideSubnet) {
-    this._outsideSubnet.internalValue = value;
-  }
-  public resetOutsideSubnet() {
-    this._outsideSubnet.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get outsideSubnetInput() {
-    return this._outsideSubnet.internalValue;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#name AzureVnetSite#name}
-  */
-  readonly name?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#namespace AzureVnetSite#namespace}
-  */
-  readonly namespace?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#tenant AzureVnetSite#tenant}
-  */
-  readonly tenant?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceToTerraform(struct?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    namespace: cdktf.stringToTerraform(struct!.namespace),
-    tenant: cdktf.stringToTerraform(struct!.tenant),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    namespace: {
-      value: cdktf.stringToHclTerraform(struct!.namespace),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tenant: {
-      value: cdktf.stringToHclTerraform(struct!.tenant),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._namespace !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.namespace = this._namespace;
-    }
-    if (this._tenant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tenant = this._tenant;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._namespace = undefined;
-      this._tenant = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._namespace = value.namespace;
-      this._tenant = value.tenant;
-    }
-  }
-
-  // kind - computed: true, optional: false, required: false
-  public get kind() {
-    return this.getStringAttribute('kind');
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // namespace - computed: false, optional: true, required: false
-  private _namespace?: string; 
-  public get namespace() {
-    return this.getStringAttribute('namespace');
-  }
-  public set namespace(value: string) {
-    this._namespace = value;
-  }
-  public resetNamespace() {
-    this._namespace = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get namespaceInput() {
-    return this._namespace;
-  }
-
-  // tenant - computed: false, optional: true, required: false
-  private _tenant?: string; 
-  public get tenant() {
-    return this.getStringAttribute('tenant');
-  }
-  public set tenant(value: string) {
-    this._tenant = value;
-  }
-  public resetTenant() {
-    this._tenant = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tenantInput() {
-    return this._tenant;
-  }
-}
-
-export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceList extends cdktf.ComplexList {
-  public internalValue? : AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterface[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceOutputReference {
-    return new AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
-  */
-  readonly addr?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4ToTerraform(struct?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference | AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4ToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference | AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv4 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._addr = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._addr = value.addr;
-    }
-  }
-
-  // addr - computed: false, optional: true, required: false
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  public resetAddr() {
-    this._addr = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-}
-export interface AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/azure_vnet_site#addr AzureVnetSite#addr}
-  */
-  readonly addr?: string;
-}
-
-export function azureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6ToTerraform(struct?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference | AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-  }
-}
-
-
-export function azureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6ToHclTerraform(struct?: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference | AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AzureVnetSiteIngressEgressGwArOutsideStaticRoutesStaticRouteListCustomStaticRouteNexthopNexthopAddressIpv6 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._addr = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._addr = value.addr;
-    }
-  }
-
-  // addr - computed: false, optional: true, required: false
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  public resetAddr() {
-    this._addr = undefined;
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
+  public get storeProviderInput() {
+    return this._storeProvider;
   }
 }

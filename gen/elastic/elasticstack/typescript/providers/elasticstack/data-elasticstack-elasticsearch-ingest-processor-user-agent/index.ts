@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent
+// https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataElasticstackElasticsearchIngestProcessorUserAgentConfig ext
   /**
   * Extracts device type from the user agent string on a best-effort basis. Supported only starting from Elasticsearch version **8.0**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#extract_device_type DataElasticstackElasticsearchIngestProcessorUserAgent#extract_device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#extract_device_type DataElasticstackElasticsearchIngestProcessorUserAgent#extract_device_type}
   */
   readonly extractDeviceType?: boolean | cdktf.IResolvable;
   /**
   * The field containing the user agent string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#field DataElasticstackElasticsearchIngestProcessorUserAgent#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#field DataElasticstackElasticsearchIngestProcessorUserAgent#field}
   */
   readonly field: string;
   /**
   * If `true` and `field` does not exist or is `null`, the processor quietly exits without modifying the document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#ignore_missing DataElasticstackElasticsearchIngestProcessorUserAgent#ignore_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#ignore_missing DataElasticstackElasticsearchIngestProcessorUserAgent#ignore_missing}
   */
   readonly ignoreMissing?: boolean | cdktf.IResolvable;
   /**
   * Controls what properties are added to `target_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#properties DataElasticstackElasticsearchIngestProcessorUserAgent#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#properties DataElasticstackElasticsearchIngestProcessorUserAgent#properties}
   */
   readonly properties?: string[];
   /**
   * The name of the file in the `config/ingest-user-agent` directory containing the regular expressions for parsing the user agent string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#regex_file DataElasticstackElasticsearchIngestProcessorUserAgent#regex_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#regex_file DataElasticstackElasticsearchIngestProcessorUserAgent#regex_file}
   */
   readonly regexFile?: string;
   /**
   * The field that will be filled with the user agent details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#target_field DataElasticstackElasticsearchIngestProcessorUserAgent#target_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#target_field DataElasticstackElasticsearchIngestProcessorUserAgent#target_field}
   */
   readonly targetField?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent elasticstack_elasticsearch_ingest_processor_user_agent}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent elasticstack_elasticsearch_ingest_processor_user_agent}
 */
 export class DataElasticstackElasticsearchIngestProcessorUserAgent extends cdktf.TerraformDataSource {
 
@@ -62,7 +62,7 @@ export class DataElasticstackElasticsearchIngestProcessorUserAgent extends cdktf
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIngestProcessorUserAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIngestProcessorUserAgent to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorUserAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorUserAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIngestProcessorUserAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DataElasticstackElasticsearchIngestProcessorUserAgent extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.1/docs/data-sources/elasticsearch_ingest_processor_user_agent elasticstack_elasticsearch_ingest_processor_user_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.12.2/docs/data-sources/elasticsearch_ingest_processor_user_agent elasticstack_elasticsearch_ingest_processor_user_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DataElasticstackElasticsearchIngestProcessorUserAgent extends cdktf
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_user_agent',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1',
-        providerVersionConstraint: '0.12.1'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

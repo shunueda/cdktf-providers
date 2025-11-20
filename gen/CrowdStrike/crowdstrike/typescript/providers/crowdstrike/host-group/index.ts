@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface HostGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The assignment rule used for dynamic host groups. Required if `type` is `dynamic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#assignment_rule HostGroup#assignment_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#assignment_rule HostGroup#assignment_rule}
   */
   readonly assignmentRule?: string;
   /**
   * A description for the host group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#description HostGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#description HostGroup#description}
   */
   readonly description: string;
   /**
   * A set of host IDs to include in a staticByID host group. Required if `type` is `staticByID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#host_ids HostGroup#host_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#host_ids HostGroup#host_ids}
   */
   readonly hostIds?: string[];
   /**
   * A set of hostnames to include in a static host group. Required if `type` is `static`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#hostnames HostGroup#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#hostnames HostGroup#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * The display name for the host group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#name HostGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#name HostGroup#name}
   */
   readonly name: string;
   /**
   * The type of host group. Valid values: `dynamic`, `static`, `staticByID`. This value is case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#type HostGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#type HostGroup#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group crowdstrike_host_group}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group crowdstrike_host_group}
 */
 export class HostGroup extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class HostGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostGroup to import
-  * @param importFromId The id of the existing HostGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class HostGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/host_group crowdstrike_host_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.47/docs/resources/host_group crowdstrike_host_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class HostGroup extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_host_group',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.46',
-        providerVersionConstraint: '0.0.46'
+        providerVersion: '0.0.47',
+        providerVersionConstraint: '0.0.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer
+// https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface TcpLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#advertise_on_public_default_vip TcpLoadbalancer#advertise_on_public_default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#advertise_on_public_default_vip TcpLoadbalancer#advertise_on_public_default_vip}
   */
   readonly advertiseOnPublicDefaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#annotations TcpLoadbalancer#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#annotations TcpLoadbalancer#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#default_lb_with_sni TcpLoadbalancer#default_lb_with_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#default_lb_with_sni TcpLoadbalancer#default_lb_with_sni}
   */
   readonly defaultLbWithSni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#description TcpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#description TcpLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#disable TcpLoadbalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#disable TcpLoadbalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#dns_volterra_managed TcpLoadbalancer#dns_volterra_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#dns_volterra_managed TcpLoadbalancer#dns_volterra_managed}
   */
   readonly dnsVolterraManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#do_not_advertise TcpLoadbalancer#do_not_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#do_not_advertise TcpLoadbalancer#do_not_advertise}
   */
   readonly doNotAdvertise?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#do_not_retract_cluster TcpLoadbalancer#do_not_retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#do_not_retract_cluster TcpLoadbalancer#do_not_retract_cluster}
   */
   readonly doNotRetractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#domains TcpLoadbalancer#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#domains TcpLoadbalancer#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#hash_policy_choice_least_active TcpLoadbalancer#hash_policy_choice_least_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#hash_policy_choice_least_active TcpLoadbalancer#hash_policy_choice_least_active}
   */
   readonly hashPolicyChoiceLeastActive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#hash_policy_choice_random TcpLoadbalancer#hash_policy_choice_random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#hash_policy_choice_random TcpLoadbalancer#hash_policy_choice_random}
   */
   readonly hashPolicyChoiceRandom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#hash_policy_choice_round_robin TcpLoadbalancer#hash_policy_choice_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#hash_policy_choice_round_robin TcpLoadbalancer#hash_policy_choice_round_robin}
   */
   readonly hashPolicyChoiceRoundRobin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#hash_policy_choice_source_ip_stickiness TcpLoadbalancer#hash_policy_choice_source_ip_stickiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#hash_policy_choice_source_ip_stickiness TcpLoadbalancer#hash_policy_choice_source_ip_stickiness}
   */
   readonly hashPolicyChoiceSourceIpStickiness?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#id TcpLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#id TcpLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#idle_timeout TcpLoadbalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#idle_timeout TcpLoadbalancer#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#labels TcpLoadbalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#labels TcpLoadbalancer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#listen_port TcpLoadbalancer#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#listen_port TcpLoadbalancer#listen_port}
   */
   readonly listenPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_service_policies TcpLoadbalancer#no_service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_service_policies TcpLoadbalancer#no_service_policies}
   */
   readonly noServicePolicies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_sni TcpLoadbalancer#no_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_sni TcpLoadbalancer#no_sni}
   */
   readonly noSni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#port_ranges TcpLoadbalancer#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#port_ranges TcpLoadbalancer#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#retract_cluster TcpLoadbalancer#retract_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#retract_cluster TcpLoadbalancer#retract_cluster}
   */
   readonly retractCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#service_policies_from_namespace TcpLoadbalancer#service_policies_from_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#service_policies_from_namespace TcpLoadbalancer#service_policies_from_namespace}
   */
   readonly servicePoliciesFromNamespace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#sni TcpLoadbalancer#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#sni TcpLoadbalancer#sni}
   */
   readonly sni?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tcp TcpLoadbalancer#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tcp TcpLoadbalancer#tcp}
   */
   readonly tcp?: boolean | cdktf.IResolvable;
   /**
   * active_service_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#active_service_policies TcpLoadbalancer#active_service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#active_service_policies TcpLoadbalancer#active_service_policies}
   */
   readonly activeServicePolicies?: TcpLoadbalancerActiveServicePolicies;
   /**
   * advertise_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#advertise_custom TcpLoadbalancer#advertise_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#advertise_custom TcpLoadbalancer#advertise_custom}
   */
   readonly advertiseCustom?: TcpLoadbalancerAdvertiseCustom;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#advertise_on_public TcpLoadbalancer#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#advertise_on_public TcpLoadbalancer#advertise_on_public}
   */
   readonly advertiseOnPublic?: TcpLoadbalancerAdvertiseOnPublic;
   /**
   * origin_pools_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#origin_pools_weights TcpLoadbalancer#origin_pools_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#origin_pools_weights TcpLoadbalancer#origin_pools_weights}
   */
   readonly originPoolsWeights?: TcpLoadbalancerOriginPoolsWeights[] | cdktf.IResolvable;
   /**
   * tls_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_tcp TcpLoadbalancer#tls_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_tcp TcpLoadbalancer#tls_tcp}
   */
   readonly tlsTcp?: TcpLoadbalancerTlsTcp;
   /**
   * tls_tcp_auto_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_tcp_auto_cert TcpLoadbalancer#tls_tcp_auto_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_tcp_auto_cert TcpLoadbalancer#tls_tcp_auto_cert}
   */
   readonly tlsTcpAutoCert?: TcpLoadbalancerTlsTcpAutoCert;
 }
 export interface TcpLoadbalancerActiveServicePoliciesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -337,7 +337,7 @@ export interface TcpLoadbalancerActiveServicePolicies {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#policies TcpLoadbalancer#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#policies TcpLoadbalancer#policies}
   */
   readonly policies: TcpLoadbalancerActiveServicePoliciesPolicies[] | cdktf.IResolvable;
 }
@@ -418,15 +418,15 @@ export class TcpLoadbalancerActiveServicePoliciesOutputReference extends cdktf.C
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -575,7 +575,7 @@ export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#public_ip TcpLoadbalancer#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#public_ip TcpLoadbalancer#public_ip}
   */
   readonly publicIp: TcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicPublicIp;
 }
@@ -654,17 +654,806 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicOutput
     return this._publicIp.internalValue;
   }
 }
-export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSite {
+export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToHclTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToHclTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
+  */
+  readonly ip: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
+  */
+  readonly ipv6?: string;
+  /**
+  * cloud_edge block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#cloud_edge TcpLoadbalancer#cloud_edge}
+  */
+  readonly cloudEdge: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge;
+  /**
+  * segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
+  */
+  readonly segment: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment;
+}
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ip: cdktf.stringToTerraform(struct!.ip),
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
+    cloud_edge: tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToTerraform(struct!.cloudEdge),
+    segment: tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToTerraform(struct!.segment),
+  }
+}
+
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToHclTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ip: {
+      value: cdktf.stringToHclTerraform(struct!.ip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cloud_edge: {
+      value: tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeToHclTerraform(struct!.cloudEdge),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeList",
+    },
+    segment: {
+      value: tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentToHclTerraform(struct!.segment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ip = this._ip;
+    }
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    if (this._cloudEdge?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudEdge = this._cloudEdge?.internalValue;
+    }
+    if (this._segment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ip = undefined;
+      this._ipv6 = undefined;
+      this._cloudEdge.internalValue = undefined;
+      this._segment.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ip = value.ip;
+      this._ipv6 = value.ipv6;
+      this._cloudEdge.internalValue = value.cloudEdge;
+      this._segment.internalValue = value.segment;
+    }
+  }
+
+  // ip - computed: false, optional: false, required: true
+  private _ip?: string; 
+  public get ip() {
+    return this.getStringAttribute('ip');
+  }
+  public set ip(value: string) {
+    this._ip = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipInput() {
+    return this._ip;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+
+  // cloud_edge - computed: false, optional: false, required: true
+  private _cloudEdge = new TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdgeOutputReference(this, "cloud_edge");
+  public get cloudEdge() {
+    return this._cloudEdge;
+  }
+  public putCloudEdge(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentCloudEdge) {
+    this._cloudEdge.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudEdgeInput() {
+    return this._cloudEdge.internalValue;
+  }
+
+  // segment - computed: false, optional: false, required: true
+  private _segment = new TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegmentOutputReference(this, "segment");
+  public get segment() {
+    return this._segment;
+  }
+  public putSegment(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentSegment) {
+    this._segment.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment.internalValue;
+  }
+}
+export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  */
+  readonly tenant?: string;
+}
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentToTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+  }
+}
+
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentToHclTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._tenant = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._tenant = value.tenant;
+    }
+  }
+
+  // kind - computed: true, optional: false, required: false
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // tenant - computed: false, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+}
+export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv4_vip TcpLoadbalancer#ipv4_vip}
+  */
+  readonly ipv4Vip: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv6_vip TcpLoadbalancer#ipv6_vip}
+  */
+  readonly ipv6Vip?: string;
+  /**
+  * segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
+  */
+  readonly segment: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment;
+}
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentToTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv4_vip: cdktf.stringToTerraform(struct!.ipv4Vip),
+    ipv6_vip: cdktf.stringToTerraform(struct!.ipv6Vip),
+    segment: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentToTerraform(struct!.segment),
+  }
+}
+
+
+export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentToHclTerraform(struct?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentOutputReference | TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv4_vip: {
+      value: cdktf.stringToHclTerraform(struct!.ipv4Vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_vip: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    segment: {
+      value: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentToHclTerraform(struct!.segment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv4Vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4Vip = this._ipv4Vip;
+    }
+    if (this._ipv6Vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Vip = this._ipv6Vip;
+    }
+    if (this._segment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ipv4Vip = undefined;
+      this._ipv6Vip = undefined;
+      this._segment.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ipv4Vip = value.ipv4Vip;
+      this._ipv6Vip = value.ipv6Vip;
+      this._segment.internalValue = value.segment;
+    }
+  }
+
+  // ipv4_vip - computed: false, optional: false, required: true
+  private _ipv4Vip?: string; 
+  public get ipv4Vip() {
+    return this.getStringAttribute('ipv4_vip');
+  }
+  public set ipv4Vip(value: string) {
+    this._ipv4Vip = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4VipInput() {
+    return this._ipv4Vip;
+  }
+
+  // ipv6_vip - computed: false, optional: true, required: false
+  private _ipv6Vip?: string; 
+  public get ipv6Vip() {
+    return this.getStringAttribute('ipv6_vip');
+  }
+  public set ipv6Vip(value: string) {
+    this._ipv6Vip = value;
+  }
+  public resetIpv6Vip() {
+    this._ipv6Vip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6VipInput() {
+    return this._ipv6Vip;
+  }
+
+  // segment - computed: false, optional: false, required: true
+  private _segment = new TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegmentOutputReference(this, "segment");
+  public get segment() {
+    return this._segment;
+  }
+  public putSegment(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentSegment) {
+    this._segment.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment.internalValue;
+  }
+}
+export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSite {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -811,21 +1600,21 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSiteOutputReference
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#network TcpLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#network TcpLoadbalancer#network}
   */
   readonly network: string;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
   */
   readonly site: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSite;
 }
@@ -990,15 +1779,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteOutputReference ext
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1145,15 +1934,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSegmentOutpu
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1300,23 +2089,23 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSiteOutputRe
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
   */
   readonly segment: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSegment;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
   */
   readonly site: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentSite;
 }
@@ -1478,15 +2267,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentOutputRefere
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -1633,25 +2422,25 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNe
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#default_v6_vip TcpLoadbalancer#default_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#default_v6_vip TcpLoadbalancer#default_v6_vip}
   */
   readonly defaultV6Vip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#default_vip TcpLoadbalancer#default_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#default_vip TcpLoadbalancer#default_vip}
   */
   readonly defaultVip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#specific_v6_vip TcpLoadbalancer#specific_v6_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#specific_v6_vip TcpLoadbalancer#specific_v6_vip}
   */
   readonly specificV6Vip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#specific_vip TcpLoadbalancer#specific_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#specific_vip TcpLoadbalancer#specific_vip}
   */
   readonly specificVip?: string;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_network TcpLoadbalancer#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_network TcpLoadbalancer#virtual_network}
   */
   readonly virtualNetwork: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkVirtualNetwork;
 }
@@ -1848,15 +2637,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkOutputRef
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2003,13 +2792,13 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSiteO
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#network TcpLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#network TcpLoadbalancer#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
   */
   readonly virtualSite: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteVirtualSite;
 }
@@ -2116,15 +2905,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteOutputRefere
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2271,15 +3060,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegme
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2426,23 +3215,23 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtu
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
   */
   readonly segment: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentSegment;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
   */
   readonly virtualSite: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentVirtualSite;
 }
@@ -2604,15 +3393,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegmentOutpu
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -2759,21 +3548,21 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtu
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ip TcpLoadbalancer#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#ipv6 TcpLoadbalancer#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#network TcpLoadbalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#network TcpLoadbalancer#network}
   */
   readonly network: string;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
   */
   readonly virtualSite: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipVirtualSite;
 }
@@ -2938,15 +3727,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVipOutpu
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -3093,15 +3882,15 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceSiteOutputRe
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -3250,13 +4039,13 @@ export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SService {
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
   */
   readonly site?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceSite;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
   */
   readonly virtualSite?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceVirtualSite;
 }
@@ -3369,63 +4158,75 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SServiceOutputRefere
 }
 export interface TcpLoadbalancerAdvertiseCustomAdvertiseWhere {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#port TcpLoadbalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#port TcpLoadbalancer#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#port_ranges TcpLoadbalancer#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#port_ranges TcpLoadbalancer#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#use_default_port TcpLoadbalancer#use_default_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#use_default_port TcpLoadbalancer#use_default_port}
   */
   readonly useDefaultPort?: boolean | cdktf.IResolvable;
   /**
   * advertise_on_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#advertise_on_public TcpLoadbalancer#advertise_on_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#advertise_on_public TcpLoadbalancer#advertise_on_public}
   */
   readonly advertiseOnPublic?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublic;
   /**
+  * cloud_edge_segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#cloud_edge_segment TcpLoadbalancer#cloud_edge_segment}
+  */
+  readonly cloudEdgeSegment?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment;
+  /**
+  * segment block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#segment TcpLoadbalancer#segment}
+  */
+  readonly segment?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment;
+  /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#site TcpLoadbalancer#site}
   */
   readonly site?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSite;
   /**
   * site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#site_segment TcpLoadbalancer#site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#site_segment TcpLoadbalancer#site_segment}
   */
   readonly siteSegment?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegment;
   /**
   * virtual_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_network TcpLoadbalancer#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_network TcpLoadbalancer#virtual_network}
   */
   readonly virtualNetwork?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetwork;
   /**
   * virtual_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site TcpLoadbalancer#virtual_site}
   */
   readonly virtualSite?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSite;
   /**
   * virtual_site_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site_segment TcpLoadbalancer#virtual_site_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site_segment TcpLoadbalancer#virtual_site_segment}
   */
   readonly virtualSiteSegment?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteSegment;
   /**
   * virtual_site_with_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#virtual_site_with_vip TcpLoadbalancer#virtual_site_with_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#virtual_site_with_vip TcpLoadbalancer#virtual_site_with_vip}
   */
   readonly virtualSiteWithVip?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualSiteWithVip;
   /**
   * vk8s_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#vk8s_service TcpLoadbalancer#vk8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#vk8s_service TcpLoadbalancer#vk8s_service}
   */
   readonly vk8SService?: TcpLoadbalancerAdvertiseCustomAdvertiseWhereVk8SService;
 }
@@ -3440,6 +4241,8 @@ export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereToTerraform(struct?:
     port_ranges: cdktf.stringToTerraform(struct!.portRanges),
     use_default_port: cdktf.booleanToTerraform(struct!.useDefaultPort),
     advertise_on_public: tcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicToTerraform(struct!.advertiseOnPublic),
+    cloud_edge_segment: tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToTerraform(struct!.cloudEdgeSegment),
+    segment: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentToTerraform(struct!.segment),
     site: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteToTerraform(struct!.site),
     site_segment: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteSegmentToTerraform(struct!.siteSegment),
     virtual_network: tcpLoadbalancerAdvertiseCustomAdvertiseWhereVirtualNetworkToTerraform(struct!.virtualNetwork),
@@ -3480,6 +4283,18 @@ export function tcpLoadbalancerAdvertiseCustomAdvertiseWhereToHclTerraform(struc
       isBlock: true,
       type: "list",
       storageClassType: "TcpLoadbalancerAdvertiseCustomAdvertiseWhereAdvertiseOnPublicList",
+    },
+    cloud_edge_segment: {
+      value: tcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentToHclTerraform(struct!.cloudEdgeSegment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentList",
+    },
+    segment: {
+      value: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentToHclTerraform(struct!.segment),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentList",
     },
     site: {
       value: tcpLoadbalancerAdvertiseCustomAdvertiseWhereSiteToHclTerraform(struct!.site),
@@ -3565,6 +4380,14 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereOutputReference extends
       hasAnyValues = true;
       internalValueResult.advertiseOnPublic = this._advertiseOnPublic?.internalValue;
     }
+    if (this._cloudEdgeSegment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudEdgeSegment = this._cloudEdgeSegment?.internalValue;
+    }
+    if (this._segment?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment?.internalValue;
+    }
     if (this._site?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.site = this._site?.internalValue;
@@ -3604,6 +4427,8 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereOutputReference extends
       this._portRanges = undefined;
       this._useDefaultPort = undefined;
       this._advertiseOnPublic.internalValue = undefined;
+      this._cloudEdgeSegment.internalValue = undefined;
+      this._segment.internalValue = undefined;
       this._site.internalValue = undefined;
       this._siteSegment.internalValue = undefined;
       this._virtualNetwork.internalValue = undefined;
@@ -3623,6 +4448,8 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereOutputReference extends
       this._portRanges = value.portRanges;
       this._useDefaultPort = value.useDefaultPort;
       this._advertiseOnPublic.internalValue = value.advertiseOnPublic;
+      this._cloudEdgeSegment.internalValue = value.cloudEdgeSegment;
+      this._segment.internalValue = value.segment;
       this._site.internalValue = value.site;
       this._siteSegment.internalValue = value.siteSegment;
       this._virtualNetwork.internalValue = value.virtualNetwork;
@@ -3695,6 +4522,38 @@ export class TcpLoadbalancerAdvertiseCustomAdvertiseWhereOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get advertiseOnPublicInput() {
     return this._advertiseOnPublic.internalValue;
+  }
+
+  // cloud_edge_segment - computed: false, optional: true, required: false
+  private _cloudEdgeSegment = new TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegmentOutputReference(this, "cloud_edge_segment");
+  public get cloudEdgeSegment() {
+    return this._cloudEdgeSegment;
+  }
+  public putCloudEdgeSegment(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereCloudEdgeSegment) {
+    this._cloudEdgeSegment.internalValue = value;
+  }
+  public resetCloudEdgeSegment() {
+    this._cloudEdgeSegment.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudEdgeSegmentInput() {
+    return this._cloudEdgeSegment.internalValue;
+  }
+
+  // segment - computed: false, optional: true, required: false
+  private _segment = new TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegmentOutputReference(this, "segment");
+  public get segment() {
+    return this._segment;
+  }
+  public putSegment(value: TcpLoadbalancerAdvertiseCustomAdvertiseWhereSegment) {
+    this._segment.internalValue = value;
+  }
+  public resetSegment() {
+    this._segment.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment.internalValue;
   }
 
   // site - computed: false, optional: true, required: false
@@ -3833,7 +4692,7 @@ export interface TcpLoadbalancerAdvertiseCustom {
   /**
   * advertise_where block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#advertise_where TcpLoadbalancer#advertise_where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#advertise_where TcpLoadbalancer#advertise_where}
   */
   readonly advertiseWhere: TcpLoadbalancerAdvertiseCustomAdvertiseWhere[] | cdktf.IResolvable;
 }
@@ -3914,15 +4773,15 @@ export class TcpLoadbalancerAdvertiseCustomOutputReference extends cdktf.Complex
 }
 export interface TcpLoadbalancerAdvertiseOnPublicPublicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -4071,7 +4930,7 @@ export interface TcpLoadbalancerAdvertiseOnPublic {
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#public_ip TcpLoadbalancer#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#public_ip TcpLoadbalancer#public_ip}
   */
   readonly publicIp: TcpLoadbalancerAdvertiseOnPublicPublicIp;
 }
@@ -4152,15 +5011,15 @@ export class TcpLoadbalancerAdvertiseOnPublicOutputReference extends cdktf.Compl
 }
 export interface TcpLoadbalancerOriginPoolsWeightsCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -4307,15 +5166,15 @@ export class TcpLoadbalancerOriginPoolsWeightsClusterOutputReference extends cdk
 }
 export interface TcpLoadbalancerOriginPoolsWeightsPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -4462,27 +5321,27 @@ export class TcpLoadbalancerOriginPoolsWeightsPoolOutputReference extends cdktf.
 }
 export interface TcpLoadbalancerOriginPoolsWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#endpoint_subsets TcpLoadbalancer#endpoint_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#endpoint_subsets TcpLoadbalancer#endpoint_subsets}
   */
   readonly endpointSubsets?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#priority TcpLoadbalancer#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#priority TcpLoadbalancer#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#weight TcpLoadbalancer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#weight TcpLoadbalancer#weight}
   */
   readonly weight?: number;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#cluster TcpLoadbalancer#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#cluster TcpLoadbalancer#cluster}
   */
   readonly cluster?: TcpLoadbalancerOriginPoolsWeightsCluster;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#pool TcpLoadbalancer#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#pool TcpLoadbalancer#pool}
   */
   readonly pool?: TcpLoadbalancerOriginPoolsWeightsPool;
 }
@@ -4714,15 +5573,15 @@ export class TcpLoadbalancerOriginPoolsWeightsList extends cdktf.ComplexList {
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -4901,15 +5760,15 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsCertificatesList extends cdktf.Co
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#cipher_suites TcpLoadbalancer#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#cipher_suites TcpLoadbalancer#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#max_version TcpLoadbalancer#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#max_version TcpLoadbalancer#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#min_version TcpLoadbalancer#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#min_version TcpLoadbalancer#min_version}
   */
   readonly minVersion?: string;
 }
@@ -5048,21 +5907,21 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsTlsConfigCustomSecurityOutputRefe
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#default_security TcpLoadbalancer#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#default_security TcpLoadbalancer#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#low_security TcpLoadbalancer#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#low_security TcpLoadbalancer#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#medium_security TcpLoadbalancer#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#medium_security TcpLoadbalancer#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#custom_security TcpLoadbalancer#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#custom_security TcpLoadbalancer#custom_security}
   */
   readonly customSecurity?: TcpLoadbalancerTlsTcpTlsCertParamsTlsConfigCustomSecurity;
 }
@@ -5233,15 +6092,15 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsTlsConfigOutputReference extends 
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -5388,15 +6247,15 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsCrlOutputReference extends
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -5543,7 +6402,7 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsTrustedCaOutputReference e
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_header_elements TcpLoadbalancer#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_header_elements TcpLoadbalancer#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -5624,37 +6483,37 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsXfccOptionsOutputReference
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParamsUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#client_certificate_optional TcpLoadbalancer#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#client_certificate_optional TcpLoadbalancer#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_crl TcpLoadbalancer#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_crl TcpLoadbalancer#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#trusted_ca_url TcpLoadbalancer#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#trusted_ca_url TcpLoadbalancer#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_disabled TcpLoadbalancer#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_disabled TcpLoadbalancer#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#crl TcpLoadbalancer#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#crl TcpLoadbalancer#crl}
   */
   readonly crl?: TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#trusted_ca TcpLoadbalancer#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#trusted_ca TcpLoadbalancer#trusted_ca}
   */
   readonly trustedCa?: TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_options TcpLoadbalancer#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_options TcpLoadbalancer#xfcc_options}
   */
   readonly xfccOptions?: TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsXfccOptions;
 }
@@ -5912,25 +6771,25 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsUseMtlsOutputReference extends cd
 }
 export interface TcpLoadbalancerTlsTcpTlsCertParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_mtls TcpLoadbalancer#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_mtls TcpLoadbalancer#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#certificates TcpLoadbalancer#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#certificates TcpLoadbalancer#certificates}
   */
   readonly certificates: TcpLoadbalancerTlsTcpTlsCertParamsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_config TcpLoadbalancer#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_config TcpLoadbalancer#tls_config}
   */
   readonly tlsConfig?: TcpLoadbalancerTlsTcpTlsCertParamsTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#use_mtls TcpLoadbalancer#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#use_mtls TcpLoadbalancer#use_mtls}
   */
   readonly useMtls?: TcpLoadbalancerTlsTcpTlsCertParamsUseMtls;
 }
@@ -6098,7 +6957,7 @@ export class TcpLoadbalancerTlsTcpTlsCertParamsOutputReference extends cdktf.Com
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesCustomHashAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#hash_algorithms TcpLoadbalancer#hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#hash_algorithms TcpLoadbalancer#hash_algorithms}
   */
   readonly hashAlgorithms: string[];
 }
@@ -6228,15 +7087,15 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesDisableOcspStaplin
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#decryption_provider TcpLoadbalancer#decryption_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#decryption_provider TcpLoadbalancer#decryption_provider}
   */
   readonly decryptionProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#location TcpLoadbalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#location TcpLoadbalancer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#store_provider TcpLoadbalancer#store_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#store_provider TcpLoadbalancer#store_provider}
   */
   readonly storeProvider?: string;
 }
@@ -6373,13 +7232,160 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfol
     return this._storeProvider;
   }
 }
+export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#decryption_provider TcpLoadbalancer#decryption_provider}
+  */
+  readonly decryptionProvider?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#location TcpLoadbalancer#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#store_provider TcpLoadbalancer#store_provider}
+  */
+  readonly storeProvider?: string;
+}
+
+export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    decryption_provider: cdktf.stringToTerraform(struct!.decryptionProvider),
+    location: cdktf.stringToTerraform(struct!.location),
+    store_provider: cdktf.stringToTerraform(struct!.storeProvider),
+  }
+}
+
+
+export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    decryption_provider: {
+      value: cdktf.stringToHclTerraform(struct!.decryptionProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    store_provider: {
+      value: cdktf.stringToHclTerraform(struct!.storeProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionProvider = this._decryptionProvider;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._storeProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storeProvider = this._storeProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._decryptionProvider = undefined;
+      this._location = undefined;
+      this._storeProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._decryptionProvider = value.decryptionProvider;
+      this._location = value.location;
+      this._storeProvider = value.storeProvider;
+    }
+  }
+
+  // decryption_provider - computed: false, optional: true, required: false
+  private _decryptionProvider?: string; 
+  public get decryptionProvider() {
+    return this.getStringAttribute('decryption_provider');
+  }
+  public set decryptionProvider(value: string) {
+    this._decryptionProvider = value;
+  }
+  public resetDecryptionProvider() {
+    this._decryptionProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionProviderInput() {
+    return this._decryptionProvider;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // store_provider - computed: false, optional: true, required: false
+  private _storeProvider?: string; 
+  public get storeProvider() {
+    return this.getStringAttribute('store_provider');
+  }
+  public set storeProvider(value: string) {
+    this._storeProvider = value;
+  }
+  public resetStoreProvider() {
+    this._storeProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storeProviderInput() {
+    return this._storeProvider;
+  }
+}
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSecretInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#provider TcpLoadbalancer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#provider TcpLoadbalancer#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#url TcpLoadbalancer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#url TcpLoadbalancer#url}
   */
   readonly url: string;
 }
@@ -6487,19 +7493,332 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSec
     return this._url;
   }
 }
+export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#key TcpLoadbalancer#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#location TcpLoadbalancer#location}
+  */
+  readonly location: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#provider TcpLoadbalancer#provider}
+  */
+  readonly provider: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#secret_encoding TcpLoadbalancer#secret_encoding}
+  */
+  readonly secretEncoding?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#version TcpLoadbalancer#version}
+  */
+  readonly version?: number;
+}
+
+export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    location: cdktf.stringToTerraform(struct!.location),
+    provider: cdktf.stringToTerraform(struct!.provider),
+    secret_encoding: cdktf.stringToTerraform(struct!.secretEncoding),
+    version: cdktf.numberToTerraform(struct!.version),
+  }
+}
+
+
+export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    provider: {
+      value: cdktf.stringToHclTerraform(struct!.provider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_encoding: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.numberToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._provider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provider = this._provider;
+    }
+    if (this._secretEncoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncoding = this._secretEncoding;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._location = undefined;
+      this._provider = undefined;
+      this._secretEncoding = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._location = value.location;
+      this._provider = value.provider;
+      this._secretEncoding = value.secretEncoding;
+      this._version = value.version;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // location - computed: false, optional: false, required: true
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // provider - computed: false, optional: false, required: true
+  private _provider?: string; 
+  public get provider() {
+    return this.getStringAttribute('provider');
+  }
+  public set provider(value: string) {
+    this._provider = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get providerInput() {
+    return this._provider;
+  }
+
+  // secret_encoding - computed: false, optional: true, required: false
+  private _secretEncoding?: string; 
+  public get secretEncoding() {
+    return this.getStringAttribute('secret_encoding');
+  }
+  public set secretEncoding(value: string) {
+    this._secretEncoding = value;
+  }
+  public resetSecretEncoding() {
+    this._secretEncoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingInput() {
+    return this._secretEncoding;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  */
+  readonly name: string;
+}
+
+export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKey {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#secret_encoding_type TcpLoadbalancer#secret_encoding_type}
+  */
+  readonly secretEncodingType?: string;
   /**
   * blindfold_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#blindfold_secret_info TcpLoadbalancer#blindfold_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#blindfold_secret_info TcpLoadbalancer#blindfold_secret_info}
   */
   readonly blindfoldSecretInfo?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfo;
   /**
+  * blindfold_secret_info_internal block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#blindfold_secret_info_internal TcpLoadbalancer#blindfold_secret_info_internal}
+  */
+  readonly blindfoldSecretInfoInternal?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal;
+  /**
   * clear_secret_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#clear_secret_info TcpLoadbalancer#clear_secret_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#clear_secret_info TcpLoadbalancer#clear_secret_info}
   */
   readonly clearSecretInfo?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSecretInfo;
+  /**
+  * vault_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#vault_secret_info TcpLoadbalancer#vault_secret_info}
+  */
+  readonly vaultSecretInfo?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo;
+  /**
+  * wingman_secret_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#wingman_secret_info TcpLoadbalancer#wingman_secret_info}
+  */
+  readonly wingmanSecretInfo?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo;
 }
 
 export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyToTerraform(struct?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyOutputReference | TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKey): any {
@@ -6508,8 +7827,12 @@ export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyToTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    secret_encoding_type: cdktf.stringToTerraform(struct!.secretEncodingType),
     blindfold_secret_info: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoToTerraform(struct!.blindfoldSecretInfo),
+    blindfold_secret_info_internal: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToTerraform(struct!.blindfoldSecretInfoInternal),
     clear_secret_info: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSecretInfoToTerraform(struct!.clearSecretInfo),
+    vault_secret_info: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoToTerraform(struct!.vaultSecretInfo),
+    wingman_secret_info: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoToTerraform(struct!.wingmanSecretInfo),
   }
 }
 
@@ -6520,17 +7843,41 @@ export function tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyToHcl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    secret_encoding_type: {
+      value: cdktf.stringToHclTerraform(struct!.secretEncodingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     blindfold_secret_info: {
       value: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoToHclTerraform(struct!.blindfoldSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoList",
     },
+    blindfold_secret_info_internal: {
+      value: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalToHclTerraform(struct!.blindfoldSecretInfoInternal),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalList",
+    },
     clear_secret_info: {
       value: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSecretInfoToHclTerraform(struct!.clearSecretInfo),
       isBlock: true,
       type: "list",
       storageClassType: "TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSecretInfoList",
+    },
+    vault_secret_info: {
+      value: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoToHclTerraform(struct!.vaultSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoList",
+    },
+    wingman_secret_info: {
+      value: tcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoToHclTerraform(struct!.wingmanSecretInfo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoList",
     },
   };
 
@@ -6552,13 +7899,29 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyOutputRe
   public get internalValue(): TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKey | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._secretEncodingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretEncodingType = this._secretEncodingType;
+    }
     if (this._blindfoldSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.blindfoldSecretInfo = this._blindfoldSecretInfo?.internalValue;
     }
+    if (this._blindfoldSecretInfoInternal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blindfoldSecretInfoInternal = this._blindfoldSecretInfoInternal?.internalValue;
+    }
     if (this._clearSecretInfo?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.clearSecretInfo = this._clearSecretInfo?.internalValue;
+    }
+    if (this._vaultSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultSecretInfo = this._vaultSecretInfo?.internalValue;
+    }
+    if (this._wingmanSecretInfo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wingmanSecretInfo = this._wingmanSecretInfo?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -6566,14 +7929,38 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyOutputRe
   public set internalValue(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKey | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._secretEncodingType = undefined;
       this._blindfoldSecretInfo.internalValue = undefined;
+      this._blindfoldSecretInfoInternal.internalValue = undefined;
       this._clearSecretInfo.internalValue = undefined;
+      this._vaultSecretInfo.internalValue = undefined;
+      this._wingmanSecretInfo.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._secretEncodingType = value.secretEncodingType;
       this._blindfoldSecretInfo.internalValue = value.blindfoldSecretInfo;
+      this._blindfoldSecretInfoInternal.internalValue = value.blindfoldSecretInfoInternal;
       this._clearSecretInfo.internalValue = value.clearSecretInfo;
+      this._vaultSecretInfo.internalValue = value.vaultSecretInfo;
+      this._wingmanSecretInfo.internalValue = value.wingmanSecretInfo;
     }
+  }
+
+  // secret_encoding_type - computed: false, optional: true, required: false
+  private _secretEncodingType?: string; 
+  public get secretEncodingType() {
+    return this.getStringAttribute('secret_encoding_type');
+  }
+  public set secretEncodingType(value: string) {
+    this._secretEncodingType = value;
+  }
+  public resetSecretEncodingType() {
+    this._secretEncodingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretEncodingTypeInput() {
+    return this._secretEncodingType;
   }
 
   // blindfold_secret_info - computed: false, optional: true, required: false
@@ -6592,6 +7979,22 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyOutputRe
     return this._blindfoldSecretInfo.internalValue;
   }
 
+  // blindfold_secret_info_internal - computed: false, optional: true, required: false
+  private _blindfoldSecretInfoInternal = new TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternalOutputReference(this, "blindfold_secret_info_internal");
+  public get blindfoldSecretInfoInternal() {
+    return this._blindfoldSecretInfoInternal;
+  }
+  public putBlindfoldSecretInfoInternal(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyBlindfoldSecretInfoInternal) {
+    this._blindfoldSecretInfoInternal.internalValue = value;
+  }
+  public resetBlindfoldSecretInfoInternal() {
+    this._blindfoldSecretInfoInternal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blindfoldSecretInfoInternalInput() {
+    return this._blindfoldSecretInfoInternal.internalValue;
+  }
+
   // clear_secret_info - computed: false, optional: true, required: false
   private _clearSecretInfo = new TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyClearSecretInfoOutputReference(this, "clear_secret_info");
   public get clearSecretInfo() {
@@ -6606,6 +8009,38 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyOutputRe
   // Temporarily expose input value. Use with caution.
   public get clearSecretInfoInput() {
     return this._clearSecretInfo.internalValue;
+  }
+
+  // vault_secret_info - computed: false, optional: true, required: false
+  private _vaultSecretInfo = new TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfoOutputReference(this, "vault_secret_info");
+  public get vaultSecretInfo() {
+    return this._vaultSecretInfo;
+  }
+  public putVaultSecretInfo(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyVaultSecretInfo) {
+    this._vaultSecretInfo.internalValue = value;
+  }
+  public resetVaultSecretInfo() {
+    this._vaultSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultSecretInfoInput() {
+    return this._vaultSecretInfo.internalValue;
+  }
+
+  // wingman_secret_info - computed: false, optional: true, required: false
+  private _wingmanSecretInfo = new TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfoOutputReference(this, "wingman_secret_info");
+  public get wingmanSecretInfo() {
+    return this._wingmanSecretInfo;
+  }
+  public putWingmanSecretInfo(value: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKeyWingmanSecretInfo) {
+    this._wingmanSecretInfo.internalValue = value;
+  }
+  public resetWingmanSecretInfo() {
+    this._wingmanSecretInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wingmanSecretInfoInput() {
+    return this._wingmanSecretInfo.internalValue;
   }
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesUseSystemDefaults {
@@ -6659,35 +8094,35 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesUseSystemDefaultsO
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#certificate_url TcpLoadbalancer#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#certificate_url TcpLoadbalancer#certificate_url}
   */
   readonly certificateUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#description TcpLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#description TcpLoadbalancer#description}
   */
   readonly description?: string;
   /**
   * custom_hash_algorithms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#custom_hash_algorithms TcpLoadbalancer#custom_hash_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#custom_hash_algorithms TcpLoadbalancer#custom_hash_algorithms}
   */
   readonly customHashAlgorithms?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesCustomHashAlgorithms;
   /**
   * disable_ocsp_stapling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#disable_ocsp_stapling TcpLoadbalancer#disable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#disable_ocsp_stapling TcpLoadbalancer#disable_ocsp_stapling}
   */
   readonly disableOcspStapling?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesDisableOcspStapling;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#private_key TcpLoadbalancer#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#private_key TcpLoadbalancer#private_key}
   */
   readonly privateKey: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesPrivateKey;
   /**
   * use_system_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#use_system_defaults TcpLoadbalancer#use_system_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#use_system_defaults TcpLoadbalancer#use_system_defaults}
   */
   readonly useSystemDefaults?: TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesUseSystemDefaults;
 }
@@ -6942,15 +8377,15 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsCertificatesList extends cdktf
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#cipher_suites TcpLoadbalancer#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#cipher_suites TcpLoadbalancer#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#max_version TcpLoadbalancer#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#max_version TcpLoadbalancer#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#min_version TcpLoadbalancer#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#min_version TcpLoadbalancer#min_version}
   */
   readonly minVersion?: string;
 }
@@ -7089,21 +8524,21 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsConfigCustomSecurityOutputRefe
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#default_security TcpLoadbalancer#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#default_security TcpLoadbalancer#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#low_security TcpLoadbalancer#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#low_security TcpLoadbalancer#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#medium_security TcpLoadbalancer#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#medium_security TcpLoadbalancer#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#custom_security TcpLoadbalancer#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#custom_security TcpLoadbalancer#custom_security}
   */
   readonly customSecurity?: TcpLoadbalancerTlsTcpTlsParametersTlsConfigCustomSecurity;
 }
@@ -7274,15 +8709,15 @@ export class TcpLoadbalancerTlsTcpTlsParametersTlsConfigOutputReference extends 
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -7429,15 +8864,15 @@ export class TcpLoadbalancerTlsTcpTlsParametersUseMtlsCrlOutputReference extends
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -7584,7 +9019,7 @@ export class TcpLoadbalancerTlsTcpTlsParametersUseMtlsTrustedCaOutputReference e
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_header_elements TcpLoadbalancer#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_header_elements TcpLoadbalancer#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -7665,37 +9100,37 @@ export class TcpLoadbalancerTlsTcpTlsParametersUseMtlsXfccOptionsOutputReference
 }
 export interface TcpLoadbalancerTlsTcpTlsParametersUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#client_certificate_optional TcpLoadbalancer#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#client_certificate_optional TcpLoadbalancer#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_crl TcpLoadbalancer#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_crl TcpLoadbalancer#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#trusted_ca_url TcpLoadbalancer#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#trusted_ca_url TcpLoadbalancer#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_disabled TcpLoadbalancer#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_disabled TcpLoadbalancer#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#crl TcpLoadbalancer#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#crl TcpLoadbalancer#crl}
   */
   readonly crl?: TcpLoadbalancerTlsTcpTlsParametersUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#trusted_ca TcpLoadbalancer#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#trusted_ca TcpLoadbalancer#trusted_ca}
   */
   readonly trustedCa?: TcpLoadbalancerTlsTcpTlsParametersUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_options TcpLoadbalancer#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_options TcpLoadbalancer#xfcc_options}
   */
   readonly xfccOptions?: TcpLoadbalancerTlsTcpTlsParametersUseMtlsXfccOptions;
 }
@@ -7953,25 +9388,25 @@ export class TcpLoadbalancerTlsTcpTlsParametersUseMtlsOutputReference extends cd
 }
 export interface TcpLoadbalancerTlsTcpTlsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_mtls TcpLoadbalancer#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_mtls TcpLoadbalancer#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_certificates TcpLoadbalancer#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_certificates TcpLoadbalancer#tls_certificates}
   */
   readonly tlsCertificates: TcpLoadbalancerTlsTcpTlsParametersTlsCertificates[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_config TcpLoadbalancer#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_config TcpLoadbalancer#tls_config}
   */
   readonly tlsConfig?: TcpLoadbalancerTlsTcpTlsParametersTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#use_mtls TcpLoadbalancer#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#use_mtls TcpLoadbalancer#use_mtls}
   */
   readonly useMtls?: TcpLoadbalancerTlsTcpTlsParametersUseMtls;
 }
@@ -8141,13 +9576,13 @@ export interface TcpLoadbalancerTlsTcp {
   /**
   * tls_cert_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_cert_params TcpLoadbalancer#tls_cert_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_cert_params TcpLoadbalancer#tls_cert_params}
   */
   readonly tlsCertParams?: TcpLoadbalancerTlsTcpTlsCertParams;
   /**
   * tls_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_parameters TcpLoadbalancer#tls_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_parameters TcpLoadbalancer#tls_parameters}
   */
   readonly tlsParameters?: TcpLoadbalancerTlsTcpTlsParameters;
 }
@@ -8260,15 +9695,15 @@ export class TcpLoadbalancerTlsTcpOutputReference extends cdktf.ComplexObject {
 }
 export interface TcpLoadbalancerTlsTcpAutoCertTlsConfigCustomSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#cipher_suites TcpLoadbalancer#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#cipher_suites TcpLoadbalancer#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#max_version TcpLoadbalancer#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#max_version TcpLoadbalancer#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#min_version TcpLoadbalancer#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#min_version TcpLoadbalancer#min_version}
   */
   readonly minVersion?: string;
 }
@@ -8407,21 +9842,21 @@ export class TcpLoadbalancerTlsTcpAutoCertTlsConfigCustomSecurityOutputReference
 }
 export interface TcpLoadbalancerTlsTcpAutoCertTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#default_security TcpLoadbalancer#default_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#default_security TcpLoadbalancer#default_security}
   */
   readonly defaultSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#low_security TcpLoadbalancer#low_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#low_security TcpLoadbalancer#low_security}
   */
   readonly lowSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#medium_security TcpLoadbalancer#medium_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#medium_security TcpLoadbalancer#medium_security}
   */
   readonly mediumSecurity?: boolean | cdktf.IResolvable;
   /**
   * custom_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#custom_security TcpLoadbalancer#custom_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#custom_security TcpLoadbalancer#custom_security}
   */
   readonly customSecurity?: TcpLoadbalancerTlsTcpAutoCertTlsConfigCustomSecurity;
 }
@@ -8592,15 +10027,15 @@ export class TcpLoadbalancerTlsTcpAutoCertTlsConfigOutputReference extends cdktf
 }
 export interface TcpLoadbalancerTlsTcpAutoCertUseMtlsCrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -8747,15 +10182,15 @@ export class TcpLoadbalancerTlsTcpAutoCertUseMtlsCrlOutputReference extends cdkt
 }
 export interface TcpLoadbalancerTlsTcpAutoCertUseMtlsTrustedCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#name TcpLoadbalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#namespace TcpLoadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tenant TcpLoadbalancer#tenant}
   */
   readonly tenant?: string;
 }
@@ -8902,7 +10337,7 @@ export class TcpLoadbalancerTlsTcpAutoCertUseMtlsTrustedCaOutputReference extend
 }
 export interface TcpLoadbalancerTlsTcpAutoCertUseMtlsXfccOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_header_elements TcpLoadbalancer#xfcc_header_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_header_elements TcpLoadbalancer#xfcc_header_elements}
   */
   readonly xfccHeaderElements: string[];
 }
@@ -8983,37 +10418,37 @@ export class TcpLoadbalancerTlsTcpAutoCertUseMtlsXfccOptionsOutputReference exte
 }
 export interface TcpLoadbalancerTlsTcpAutoCertUseMtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#client_certificate_optional TcpLoadbalancer#client_certificate_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#client_certificate_optional TcpLoadbalancer#client_certificate_optional}
   */
   readonly clientCertificateOptional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_crl TcpLoadbalancer#no_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_crl TcpLoadbalancer#no_crl}
   */
   readonly noCrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#trusted_ca_url TcpLoadbalancer#trusted_ca_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#trusted_ca_url TcpLoadbalancer#trusted_ca_url}
   */
   readonly trustedCaUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_disabled TcpLoadbalancer#xfcc_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_disabled TcpLoadbalancer#xfcc_disabled}
   */
   readonly xfccDisabled?: boolean | cdktf.IResolvable;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#crl TcpLoadbalancer#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#crl TcpLoadbalancer#crl}
   */
   readonly crl?: TcpLoadbalancerTlsTcpAutoCertUseMtlsCrl;
   /**
   * trusted_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#trusted_ca TcpLoadbalancer#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#trusted_ca TcpLoadbalancer#trusted_ca}
   */
   readonly trustedCa?: TcpLoadbalancerTlsTcpAutoCertUseMtlsTrustedCa;
   /**
   * xfcc_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#xfcc_options TcpLoadbalancer#xfcc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#xfcc_options TcpLoadbalancer#xfcc_options}
   */
   readonly xfccOptions?: TcpLoadbalancerTlsTcpAutoCertUseMtlsXfccOptions;
 }
@@ -9271,19 +10706,19 @@ export class TcpLoadbalancerTlsTcpAutoCertUseMtlsOutputReference extends cdktf.C
 }
 export interface TcpLoadbalancerTlsTcpAutoCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#no_mtls TcpLoadbalancer#no_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#no_mtls TcpLoadbalancer#no_mtls}
   */
   readonly noMtls?: boolean | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#tls_config TcpLoadbalancer#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#tls_config TcpLoadbalancer#tls_config}
   */
   readonly tlsConfig?: TcpLoadbalancerTlsTcpAutoCertTlsConfig;
   /**
   * use_mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#use_mtls TcpLoadbalancer#use_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#use_mtls TcpLoadbalancer#use_mtls}
   */
   readonly useMtls?: TcpLoadbalancerTlsTcpAutoCertUseMtls;
 }
@@ -9425,7 +10860,7 @@ export class TcpLoadbalancerTlsTcpAutoCertOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer volterra_tcp_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer volterra_tcp_loadbalancer}
 */
 export class TcpLoadbalancer extends cdktf.TerraformResource {
 
@@ -9441,7 +10876,7 @@ export class TcpLoadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcpLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcpLoadbalancer to import
-  * @param importFromId The id of the existing TcpLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcpLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcpLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9453,7 +10888,7 @@ export class TcpLoadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.44/docs/resources/tcp_loadbalancer volterra_tcp_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/volterraedge/volterra/0.11.45/docs/resources/tcp_loadbalancer volterra_tcp_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9464,8 +10899,8 @@ export class TcpLoadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_tcp_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44',
-        providerVersionConstraint: '0.11.44'
+        providerVersion: '0.11.45',
+        providerVersionConstraint: '0.11.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
