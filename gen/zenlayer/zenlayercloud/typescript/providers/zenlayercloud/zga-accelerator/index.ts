@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ZgaAcceleratorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of accelerator. The max length of accelerator name is 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#accelerator_name ZgaAccelerator#accelerator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#accelerator_name ZgaAccelerator#accelerator_name}
   */
   readonly acceleratorName?: string;
   /**
   * Backup endpoint of the origin. Backup orgin only be configured when origin configured with IP. Only one back endpoint is allowed to be configured, when the back endpoint is CNAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#backup_origin ZgaAccelerator#backup_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#backup_origin ZgaAccelerator#backup_origin}
   */
   readonly backupOrigin?: string[];
   /**
   * The certificate of the accelerator. Required when exist https protocol accelerate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#certificate_id ZgaAccelerator#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#certificate_id ZgaAccelerator#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * The charge type of the accelerator. The default charge type of the account will be used. Modification is not supported. Valid values are `ByTrafficPackage`, `ByBandwidth95`, `ByBandwidth`, `ByTraffic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#charge_type ZgaAccelerator#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#charge_type ZgaAccelerator#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Main domain of the accelerator. Required when L7 http or https accelerate, globally unique and no duplication is allowed. Supports generic domain names, like: *.zenlayer.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#domain ZgaAccelerator#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#domain ZgaAccelerator#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#id ZgaAccelerator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#id ZgaAccelerator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface ZgaAcceleratorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Endpoints of the origin. Only one endpoint is allowed to be configured, when the endpoint is CNAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#origin ZgaAccelerator#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#origin ZgaAccelerator#origin}
   */
   readonly origin: string[];
   /**
   * ID of the orgin region. Modification is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#origin_region_id ZgaAccelerator#origin_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#origin_region_id ZgaAccelerator#origin_region_id}
   */
   readonly originRegionId: string;
   /**
   * Relate domains of the accelerator. Globally unique and no duplication is allowed. The max length of relate domains is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#relate_domains ZgaAccelerator#relate_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#relate_domains ZgaAccelerator#relate_domains}
   */
   readonly relateDomains?: string[];
   /**
   * The resource group id the accelerator belongs to, default to Default Resource Group. Modification is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#resource_group_id ZgaAccelerator#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#resource_group_id ZgaAccelerator#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * accelerate_regions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#accelerate_regions ZgaAccelerator#accelerate_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#accelerate_regions ZgaAccelerator#accelerate_regions}
   */
   readonly accelerateRegions: ZgaAcceleratorAccelerateRegions[] | cdktf.IResolvable;
   /**
   * access_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#access_control ZgaAccelerator#access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#access_control ZgaAccelerator#access_control}
   */
   readonly accessControl?: ZgaAcceleratorAccessControl;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#health_check ZgaAccelerator#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#health_check ZgaAccelerator#health_check}
   */
   readonly healthCheck?: ZgaAcceleratorHealthCheck;
   /**
   * l4_listeners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#l4_listeners ZgaAccelerator#l4_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#l4_listeners ZgaAccelerator#l4_listeners}
   */
   readonly l4Listeners?: ZgaAcceleratorL4Listeners[] | cdktf.IResolvable;
   /**
   * l7_listeners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#l7_listeners ZgaAccelerator#l7_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#l7_listeners ZgaAccelerator#l7_listeners}
   */
   readonly l7Listeners?: ZgaAcceleratorL7Listeners[] | cdktf.IResolvable;
   /**
   * protocol_opts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#protocol_opts ZgaAccelerator#protocol_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#protocol_opts ZgaAccelerator#protocol_opts}
   */
   readonly protocolOpts?: ZgaAcceleratorProtocolOpts;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#timeouts ZgaAccelerator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#timeouts ZgaAccelerator#timeouts}
   */
   readonly timeouts?: ZgaAcceleratorTimeouts;
 }
@@ -115,19 +115,19 @@ export interface ZgaAcceleratorAccelerateRegions {
   /**
   * ID of the accelerate region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#accelerate_region_id ZgaAccelerator#accelerate_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#accelerate_region_id ZgaAccelerator#accelerate_region_id}
   */
   readonly accelerateRegionId: string;
   /**
   * Bandwidth limit of the accelerate region. Exceeding the account speed limit is not allowed. Unit: Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#bandwidth ZgaAccelerator#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#bandwidth ZgaAccelerator#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Virtual IP the accelerate region. Modification is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#vip ZgaAccelerator#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#vip ZgaAccelerator#vip}
   */
   readonly vip?: string;
 }
@@ -300,31 +300,31 @@ export interface ZgaAcceleratorAccessControlRules {
   /**
   * The cidr ip of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#cidr_ip ZgaAccelerator#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#cidr_ip ZgaAccelerator#cidr_ip}
   */
   readonly cidrIp: string[];
   /**
   * The directory of the rule. Not configurable with L4 listener. Default is `/`. Wildcards supported: *.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#directory ZgaAccelerator#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#directory ZgaAccelerator#directory}
   */
   readonly directory?: string;
   /**
   * The listener of the rule. Valid values are `$protocol:$port`, `$protocol:$portRange`, `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#listener ZgaAccelerator#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#listener ZgaAccelerator#listener}
   */
   readonly listener: string;
   /**
   * The note of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#note ZgaAccelerator#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#note ZgaAccelerator#note}
   */
   readonly note?: string;
   /**
   * The policy of the rule. Valid values are `accept`, `deny`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#policy ZgaAccelerator#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#policy ZgaAccelerator#policy}
   */
   readonly policy: string;
 }
@@ -549,13 +549,13 @@ export interface ZgaAcceleratorAccessControl {
   /**
   * Whether to enable access control. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#enable ZgaAccelerator#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#enable ZgaAccelerator#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#rules ZgaAccelerator#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#rules ZgaAccelerator#rules}
   */
   readonly rules?: ZgaAcceleratorAccessControlRules[] | cdktf.IResolvable;
 }
@@ -667,19 +667,19 @@ export interface ZgaAcceleratorHealthCheck {
   /**
   * Whether to enable alarm. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#alarm ZgaAccelerator#alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#alarm ZgaAccelerator#alarm}
   */
   readonly alarm?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable health check. If the enable is `false`, the alarm will be set to `false` and the port will be cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#enable ZgaAccelerator#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#enable ZgaAccelerator#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * The port of health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#port ZgaAccelerator#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#port ZgaAccelerator#port}
   */
   readonly port?: number;
 }
@@ -820,31 +820,31 @@ export interface ZgaAcceleratorL4Listeners {
   /**
   * The Return-to-origin port of the l4 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#back_port ZgaAccelerator#back_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#back_port ZgaAccelerator#back_port}
   */
   readonly backPort?: number;
   /**
   * The Return-to-origin port range of the l4 listener. Use a slash (/) to separate the starting and ending ports, like: 1/200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#back_port_range ZgaAccelerator#back_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#back_port_range ZgaAccelerator#back_port_range}
   */
   readonly backPortRange?: string;
   /**
   * The port of the l4 listener. Only port or portRange can be configured, and duplicate ports are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#port ZgaAccelerator#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#port ZgaAccelerator#port}
   */
   readonly port?: number;
   /**
   * The port range of the l4 listener. Only port or portRange can be configured. Use a slash (/) to separate the starting and ending ports, like: 1/200. The max range: 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#port_range ZgaAccelerator#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#port_range ZgaAccelerator#port_range}
   */
   readonly portRange?: string;
   /**
   * The protocol of the l4 listener. Valid values: `tcp`, `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#protocol ZgaAccelerator#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#protocol ZgaAccelerator#protocol}
   */
   readonly protocol: string;
 }
@@ -1075,43 +1075,43 @@ export interface ZgaAcceleratorL7Listeners {
   /**
   * The Return-to-origin port of the l7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#back_port ZgaAccelerator#back_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#back_port ZgaAccelerator#back_port}
   */
   readonly backPort?: number;
   /**
   * The Return-to-origin port range of the l7 listener. Use a slash (/) to separate the starting and ending ports, like: 1/200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#back_port_range ZgaAccelerator#back_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#back_port_range ZgaAccelerator#back_port_range}
   */
   readonly backPortRange?: string;
   /**
   * The Return-to-origin protocol of the l7 listener. Valid values: http and https. The default is equal to protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#back_protocol ZgaAccelerator#back_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#back_protocol ZgaAccelerator#back_protocol}
   */
   readonly backProtocol: string;
   /**
   * The Return-to-origin host of the l7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#host ZgaAccelerator#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#host ZgaAccelerator#host}
   */
   readonly host?: string;
   /**
   * The port of the l7 listener. Only port or portRange can be configured, and duplicate ports are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#port ZgaAccelerator#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#port ZgaAccelerator#port}
   */
   readonly port?: number;
   /**
   * The port range of the l7 listener. Only port or portRange can be configured. Use a slash (/) to separate the starting and ending ports, like: 1/200. The max range: 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#port_range ZgaAccelerator#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#port_range ZgaAccelerator#port_range}
   */
   readonly portRange?: string;
   /**
   * The protocol of the l4 listener. Valid values: `http`, `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#protocol ZgaAccelerator#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#protocol ZgaAccelerator#protocol}
   */
   readonly protocol: string;
 }
@@ -1397,31 +1397,31 @@ export interface ZgaAcceleratorProtocolOpts {
   /**
   * Whether to enable gzip. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#gzip ZgaAccelerator#gzip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#gzip ZgaAccelerator#gzip}
   */
   readonly gzip?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable proxyProtocol. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#proxy_protocol ZgaAccelerator#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#proxy_protocol ZgaAccelerator#proxy_protocol}
   */
   readonly proxyProtocol?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable TOA. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#toa ZgaAccelerator#toa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#toa ZgaAccelerator#toa}
   */
   readonly toa?: boolean | cdktf.IResolvable;
   /**
   * TOA verison. Default is `253`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#toa_value ZgaAccelerator#toa_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#toa_value ZgaAccelerator#toa_value}
   */
   readonly toaValue?: number;
   /**
   * Whether to enable websocket. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#websocket ZgaAccelerator#websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#websocket ZgaAccelerator#websocket}
   */
   readonly websocket?: boolean | cdktf.IResolvable;
 }
@@ -1621,11 +1621,11 @@ export class ZgaAcceleratorProtocolOptsOutputReference extends cdktf.ComplexObje
 }
 export interface ZgaAcceleratorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#create ZgaAccelerator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#create ZgaAccelerator#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#update ZgaAccelerator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#update ZgaAccelerator#update}
   */
   readonly update?: string;
 }
@@ -1748,7 +1748,7 @@ export class ZgaAcceleratorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator zenlayercloud_zga_accelerator}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator zenlayercloud_zga_accelerator}
 */
 export class ZgaAccelerator extends cdktf.TerraformResource {
 
@@ -1764,7 +1764,7 @@ export class ZgaAccelerator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZgaAccelerator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZgaAccelerator to import
-  * @param importFromId The id of the existing ZgaAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZgaAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZgaAccelerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1776,7 +1776,7 @@ export class ZgaAccelerator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zga_accelerator zenlayercloud_zga_accelerator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zga_accelerator zenlayercloud_zga_accelerator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1787,8 +1787,8 @@ export class ZgaAccelerator extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zga_accelerator',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8',
-        providerVersionConstraint: '0.2.8'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

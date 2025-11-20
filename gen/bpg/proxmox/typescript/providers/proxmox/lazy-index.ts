@@ -27,6 +27,7 @@ Object.defineProperty(exports, 'virtualEnvironmentMetricsServer', { get: functio
 Object.defineProperty(exports, 'virtualEnvironmentNetworkLinuxBridge', { get: function () { return require('./virtual-environment-network-linux-bridge'); } });
 Object.defineProperty(exports, 'virtualEnvironmentNetworkLinuxVlan', { get: function () { return require('./virtual-environment-network-linux-vlan'); } });
 Object.defineProperty(exports, 'virtualEnvironmentPool', { get: function () { return require('./virtual-environment-pool'); } });
+Object.defineProperty(exports, 'virtualEnvironmentPoolMembership', { get: function () { return require('./virtual-environment-pool-membership'); } });
 Object.defineProperty(exports, 'virtualEnvironmentRole', { get: function () { return require('./virtual-environment-role'); } });
 Object.defineProperty(exports, 'virtualEnvironmentSdnApplier', { get: function () { return require('./virtual-environment-sdn-applier'); } });
 Object.defineProperty(exports, 'virtualEnvironmentSdnSubnet', { get: function () { return require('./virtual-environment-sdn-subnet'); } });
@@ -72,6 +73,7 @@ Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentRole', { get: funct
 Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentRoles', { get: function () { return require('./data-proxmox-virtual-environment-roles'); } });
 Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentSdnSubnet', { get: function () { return require('./data-proxmox-virtual-environment-sdn-subnet'); } });
 Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentSdnVnet', { get: function () { return require('./data-proxmox-virtual-environment-sdn-vnet'); } });
+Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentSdnVnets', { get: function () { return require('./data-proxmox-virtual-environment-sdn-vnets'); } });
 Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentSdnZoneEvpn', { get: function () { return require('./data-proxmox-virtual-environment-sdn-zone-evpn'); } });
 Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentSdnZoneQinq', { get: function () { return require('./data-proxmox-virtual-environment-sdn-zone-qinq'); } });
 Object.defineProperty(exports, 'dataProxmoxVirtualEnvironmentSdnZoneSimple', { get: function () { return require('./data-proxmox-virtual-environment-sdn-zone-simple'); } });

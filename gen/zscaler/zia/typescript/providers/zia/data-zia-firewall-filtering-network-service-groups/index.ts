@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_network_service_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_network_service_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaFirewallFilteringNetworkServiceGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_network_service_groups#id DataZiaFirewallFilteringNetworkServiceGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_network_service_groups#id DataZiaFirewallFilteringNetworkServiceGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_network_service_groups#name DataZiaFirewallFilteringNetworkServiceGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_network_service_groups#name DataZiaFirewallFilteringNetworkServiceGroups#name}
   */
   readonly name?: string;
 }
@@ -111,7 +111,7 @@ export class DataZiaFirewallFilteringNetworkServiceGroupsServicesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups}
 */
 export class DataZiaFirewallFilteringNetworkServiceGroups extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataZiaFirewallFilteringNetworkServiceGroups extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataZiaFirewallFilteringNetworkServiceGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaFirewallFilteringNetworkServiceGroups to import
-  * @param importFromId The id of the existing DataZiaFirewallFilteringNetworkServiceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_network_service_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaFirewallFilteringNetworkServiceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_network_service_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaFirewallFilteringNetworkServiceGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataZiaFirewallFilteringNetworkServiceGroups extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataZiaFirewallFilteringNetworkServiceGroups extends cdktf.Terrafor
       terraformResourceType: 'zia_firewall_filtering_network_service_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

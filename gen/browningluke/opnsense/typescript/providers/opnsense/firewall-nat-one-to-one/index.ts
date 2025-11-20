@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,63 @@ export interface FirewallNatOneToOneConfig extends cdktf.TerraformMetaArguments 
   /**
   * Set of category IDs to apply. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#categories FirewallNatOneToOne#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#categories FirewallNatOneToOne#categories}
   */
   readonly categories?: string[];
   /**
   * Optional description here for your reference (not parsed). Must be between 0 and 255 characters. Must be a character in set `[a-zA-Z0-9 .]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#description FirewallNatOneToOne#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#description FirewallNatOneToOne#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#destination FirewallNatOneToOne#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#destination FirewallNatOneToOne#destination}
   */
   readonly destination?: FirewallNatOneToOneDestination;
   /**
   * Enable this firewall NAT rule. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#enabled FirewallNatOneToOne#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#enabled FirewallNatOneToOne#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enter the external subnet's starting address for the 1:1 mapping or network. This is the address or network the traffic will translate to/from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#external_net FirewallNatOneToOne#external_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#external_net FirewallNatOneToOne#external_net}
   */
   readonly externalNet: string;
   /**
   * Choose which interface this rule applies to. Defaults to `wan`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#interface FirewallNatOneToOne#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#interface FirewallNatOneToOne#interface}
   */
   readonly interface?: string;
   /**
   * Log packets that are handled by this rule. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#log FirewallNatOneToOne#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#log FirewallNatOneToOne#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * NAT reflection mode. One of `default`, `enable`, or `disable`. `default` means OPNsense uses the global firewall NAT reflection setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#nat_reflection FirewallNatOneToOne#nat_reflection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#nat_reflection FirewallNatOneToOne#nat_reflection}
   */
   readonly natReflection?: string;
   /**
   * Specify the order of this NAT rule. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#sequence FirewallNatOneToOne#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#sequence FirewallNatOneToOne#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#source FirewallNatOneToOne#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#source FirewallNatOneToOne#source}
   */
   readonly source: FirewallNatOneToOneSource;
   /**
   * Select `binat` (default) or `nat` here, when nets are equally sized `binat` is usually the best option. Using `nat` we can also map unequal sized networks. A `binat` rule specifies a bidirectional mapping between an external and internal network and can be used from both ends, `nat` only applies in one direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#type FirewallNatOneToOne#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#type FirewallNatOneToOne#type}
   */
   readonly type?: string;
 }
@@ -74,13 +74,13 @@ export interface FirewallNatOneToOneDestination {
   /**
   * Use this option to invert the sense of the match. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#invert FirewallNatOneToOne#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#invert FirewallNatOneToOne#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The 1:1 mapping will only be used for connections to or from the specified destination. Hint: this is usually 'any'. Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#net FirewallNatOneToOne#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#net FirewallNatOneToOne#net}
   */
   readonly net?: string;
 }
@@ -205,13 +205,13 @@ export interface FirewallNatOneToOneSource {
   /**
   * Use this option to invert the sense of the match. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#invert FirewallNatOneToOne#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#invert FirewallNatOneToOne#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * Enter the internal IP address or CIDR for the 1:1 mapping. Aliases are only allowed in nat, not in binat type!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#net FirewallNatOneToOne#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#net FirewallNatOneToOne#net}
   */
   readonly net: string;
 }
@@ -331,7 +331,7 @@ export class FirewallNatOneToOneSourceOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one opnsense_firewall_nat_one_to_one}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one opnsense_firewall_nat_one_to_one}
 */
 export class FirewallNatOneToOne extends cdktf.TerraformResource {
 
@@ -347,7 +347,7 @@ export class FirewallNatOneToOne extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallNatOneToOne resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallNatOneToOne to import
-  * @param importFromId The id of the existing FirewallNatOneToOne that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallNatOneToOne that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallNatOneToOne to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -359,7 +359,7 @@ export class FirewallNatOneToOne extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat_one_to_one opnsense_firewall_nat_one_to_one} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat_one_to_one opnsense_firewall_nat_one_to_one} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,8 +370,8 @@ export class FirewallNatOneToOne extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_firewall_nat_one_to_one',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

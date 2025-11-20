@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSL certificate in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#certificate Secret#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#certificate Secret#certificate}
   */
   readonly certificate: string;
   /**
   * SSL certificate chain of intermediates and root certificates in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#certificate_chain Secret#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#certificate_chain Secret#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * Datetime when the secret will expire. The format is 2025-12-28T19:14:44
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#expiration Secret#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#expiration Secret#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#id Secret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#id Secret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#name Secret#name}
   */
   readonly name: string;
   /**
   * SSL private key in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#private_key Secret#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#private_key Secret#private_key}
   */
   readonly privateKey: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#project_id Secret#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#project_id Secret#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#project_name Secret#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#project_name Secret#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#region_id Secret#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#region_id Secret#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#region_name Secret#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#region_name Secret#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret edgecenter_secret}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret edgecenter_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/secret edgecenter_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/secret edgecenter_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_secret',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

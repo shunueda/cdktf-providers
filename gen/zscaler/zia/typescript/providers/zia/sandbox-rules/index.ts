@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface SandboxRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The threat categories to which the rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#ba_policy_categories SandboxRules#ba_policy_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#ba_policy_categories SandboxRules#ba_policy_categories}
   */
   readonly baPolicyCategories?: string[];
   /**
   * The action configured for the rule that must take place if the traffic matches the rule criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#ba_rule_action SandboxRules#ba_rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#ba_rule_action SandboxRules#ba_rule_action}
   */
   readonly baRuleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#by_threat_score SandboxRules#by_threat_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#by_threat_score SandboxRules#by_threat_score}
   */
   readonly byThreatScore?: number;
   /**
   * Additional information about the Sandbox rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#description SandboxRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#description SandboxRules#description}
   */
   readonly description?: string;
   /**
   * File type categories for which the policy is applied. If not set, the rule is applied across all file types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#file_types SandboxRules#file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#file_types SandboxRules#file_types}
   */
   readonly fileTypes: string[];
   /**
   * A Boolean value indicating whether a First-Time Action is specifically configured for the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#first_time_enable SandboxRules#first_time_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#first_time_enable SandboxRules#first_time_enable}
   */
   readonly firstTimeEnable?: boolean | cdktf.IResolvable;
   /**
   * The action that must take place when users download unknown files for the first time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#first_time_operation SandboxRules#first_time_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#first_time_operation SandboxRules#first_time_operation}
   */
   readonly firstTimeOperation?: string;
   /**
   * When set to true, this indicates that 'Machine Learning Intelligence Action' checkbox has been checked on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#ml_action_enabled SandboxRules#ml_action_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#ml_action_enabled SandboxRules#ml_action_enabled}
   */
   readonly mlActionEnabled?: boolean | cdktf.IResolvable;
   /**
   * The File Type Control policy rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#name SandboxRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#name SandboxRules#name}
   */
   readonly name: string;
   /**
   * The rule order of execution for the  sandbox rules with respect to other rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#order SandboxRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#order SandboxRules#order}
   */
   readonly order: number;
   /**
   * Protocol for the given rule. This field is not applicable to the Lite API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#protocols SandboxRules#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#protocols SandboxRules#protocols}
   */
   readonly protocols: string[];
   /**
   * Admin rank of the admin who creates this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#rank SandboxRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#rank SandboxRules#rank}
   */
   readonly rank?: number;
   /**
   * Enables or disables the sandbox rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#state SandboxRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#state SandboxRules#state}
   */
   readonly state?: string;
   /**
@@ -88,61 +88,61 @@ export interface SandboxRulesConfig extends cdktf.TerraformMetaArguments {
   * 				See the URL Categories API for the list of available categories:
   * 				https://help.zscaler.com/zia/url-categories#/urlCategories-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#url_categories SandboxRules#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#url_categories SandboxRules#url_categories}
   */
   readonly urlCategories?: string[];
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#departments SandboxRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#departments SandboxRules#departments}
   */
   readonly departments?: SandboxRulesDepartments;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#groups SandboxRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#groups SandboxRules#groups}
   */
   readonly groups?: SandboxRulesGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#labels SandboxRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#labels SandboxRules#labels}
   */
   readonly labels?: SandboxRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#location_groups SandboxRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#location_groups SandboxRules#location_groups}
   */
   readonly locationGroups?: SandboxRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#locations SandboxRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#locations SandboxRules#locations}
   */
   readonly locations?: SandboxRulesLocations;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#timeouts SandboxRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#timeouts SandboxRules#timeouts}
   */
   readonly timeouts?: SandboxRulesTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#users SandboxRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#users SandboxRules#users}
   */
   readonly users?: SandboxRulesUsers;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#zpa_app_segments SandboxRules#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#zpa_app_segments SandboxRules#zpa_app_segments}
   */
   readonly zpaAppSegments?: SandboxRulesZpaAppSegments[] | cdktf.IResolvable;
 }
 export interface SandboxRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#id SandboxRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#id SandboxRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -229,7 +229,7 @@ export class SandboxRulesDepartmentsOutputReference extends cdktf.ComplexObject 
 }
 export interface SandboxRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#id SandboxRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#id SandboxRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -316,7 +316,7 @@ export class SandboxRulesGroupsOutputReference extends cdktf.ComplexObject {
 }
 export interface SandboxRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#id SandboxRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#id SandboxRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -403,7 +403,7 @@ export class SandboxRulesLabelsOutputReference extends cdktf.ComplexObject {
 }
 export interface SandboxRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#id SandboxRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#id SandboxRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -490,7 +490,7 @@ export class SandboxRulesLocationGroupsOutputReference extends cdktf.ComplexObje
 }
 export interface SandboxRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#id SandboxRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#id SandboxRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -577,11 +577,11 @@ export class SandboxRulesLocationsOutputReference extends cdktf.ComplexObject {
 }
 export interface SandboxRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#create SandboxRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#create SandboxRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#update SandboxRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#update SandboxRules#update}
   */
   readonly update?: string;
 }
@@ -704,7 +704,7 @@ export class SandboxRulesTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface SandboxRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#id SandboxRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#id SandboxRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -793,13 +793,13 @@ export interface SandboxRulesZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#external_id SandboxRules#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#external_id SandboxRules#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#name SandboxRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#name SandboxRules#name}
   */
   readonly name: string;
 }
@@ -938,7 +938,7 @@ export class SandboxRulesZpaAppSegmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules zia_sandbox_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules zia_sandbox_rules}
 */
 export class SandboxRules extends cdktf.TerraformResource {
 
@@ -954,7 +954,7 @@ export class SandboxRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SandboxRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SandboxRules to import
-  * @param importFromId The id of the existing SandboxRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SandboxRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SandboxRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -966,7 +966,7 @@ export class SandboxRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_rules zia_sandbox_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_rules zia_sandbox_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -977,8 +977,8 @@ export class SandboxRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_sandbox_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

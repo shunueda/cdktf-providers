@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/compute_container_app_container
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_app_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBunnynetComputeContainerAppContainerConfig extends cdktf.Te
   /**
   * The application unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/compute_container_app_container#app DataBunnynetComputeContainerAppContainer#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_app_container#app DataBunnynetComputeContainerAppContainer#app}
   */
   readonly app: string;
   /**
   * The container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/compute_container_app_container#name DataBunnynetComputeContainerAppContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_app_container#name DataBunnynetComputeContainerAppContainer#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/compute_container_app_container bunnynet_compute_container_app_container}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_app_container bunnynet_compute_container_app_container}
 */
 export class DataBunnynetComputeContainerAppContainer extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataBunnynetComputeContainerAppContainer extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataBunnynetComputeContainerAppContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetComputeContainerAppContainer to import
-  * @param importFromId The id of the existing DataBunnynetComputeContainerAppContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/compute_container_app_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetComputeContainerAppContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_app_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetComputeContainerAppContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataBunnynetComputeContainerAppContainer extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/compute_container_app_container bunnynet_compute_container_app_container} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_app_container bunnynet_compute_container_app_container} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataBunnynetComputeContainerAppContainer extends cdktf.TerraformDat
       terraformResourceType: 'bunnynet_compute_container_app_container',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEdgecenterSecuritygroupConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the security group. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#id DataEdgecenterSecuritygroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#id DataEdgecenterSecuritygroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,43 +19,43 @@ export interface DataEdgecenterSecuritygroupConfig extends cdktf.TerraformMetaAr
   /**
   * Filtration query opts (only key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#metadata_k DataEdgecenterSecuritygroup#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#metadata_k DataEdgecenterSecuritygroup#metadata_k}
   */
   readonly metadataK?: string;
   /**
   * Filtration query opts, for example, {offset = "10", limit = "10"}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#metadata_kv DataEdgecenterSecuritygroup#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#metadata_kv DataEdgecenterSecuritygroup#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
   * The name of the security group. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#name DataEdgecenterSecuritygroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#name DataEdgecenterSecuritygroup#name}
   */
   readonly name?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#project_id DataEdgecenterSecuritygroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#project_id DataEdgecenterSecuritygroup#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#project_name DataEdgecenterSecuritygroup#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#project_name DataEdgecenterSecuritygroup#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#region_id DataEdgecenterSecuritygroup#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#region_id DataEdgecenterSecuritygroup#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#region_name DataEdgecenterSecuritygroup#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#region_name DataEdgecenterSecuritygroup#region_name}
   */
   readonly regionName?: string;
 }
@@ -266,7 +266,7 @@ export class DataEdgecenterSecuritygroupSecurityGroupRulesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup edgecenter_securitygroup}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup edgecenter_securitygroup}
 */
 export class DataEdgecenterSecuritygroup extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataEdgecenterSecuritygroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterSecuritygroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterSecuritygroup to import
-  * @param importFromId The id of the existing DataEdgecenterSecuritygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterSecuritygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterSecuritygroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataEdgecenterSecuritygroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/securitygroup edgecenter_securitygroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/securitygroup edgecenter_securitygroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DataEdgecenterSecuritygroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_securitygroup',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

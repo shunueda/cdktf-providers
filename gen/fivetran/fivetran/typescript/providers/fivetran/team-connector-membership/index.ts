@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface TeamConnectorMembershipConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the team within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership#team_id TeamConnectorMembership#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership#team_id TeamConnectorMembership#team_id}
   */
   readonly teamId: string;
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership#connector TeamConnectorMembership#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership#connector TeamConnectorMembership#connector}
   */
   readonly connector?: TeamConnectorMembershipConnector[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface TeamConnectorMembershipConnector {
   /**
   * The connector unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership#connector_id TeamConnectorMembership#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership#connector_id TeamConnectorMembership#connector_id}
   */
   readonly connectorId: string;
   /**
   * The team's role that links the team and the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership#role TeamConnectorMembership#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership#role TeamConnectorMembership#role}
   */
   readonly role: string;
 }
@@ -174,7 +174,7 @@ export class TeamConnectorMembershipConnectorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership fivetran_team_connector_membership}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership fivetran_team_connector_membership}
 */
 export class TeamConnectorMembership extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class TeamConnectorMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamConnectorMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamConnectorMembership to import
-  * @param importFromId The id of the existing TeamConnectorMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamConnectorMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamConnectorMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class TeamConnectorMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_connector_membership fivetran_team_connector_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_connector_membership fivetran_team_connector_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class TeamConnectorMembership extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_team_connector_membership',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

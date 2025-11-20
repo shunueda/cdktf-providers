@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CollectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#collection_name Collection#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#collection_name Collection#collection_name}
   */
   readonly collectionName: string;
   /**
@@ -23,13 +23,13 @@ export interface CollectionConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#connect_address Collection#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#connect_address Collection#connect_address}
   */
   readonly connectAddress: string;
   /**
   * The name of the database containing the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#db_name Collection#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#db_name Collection#db_name}
   */
   readonly dbName: string;
   /**
@@ -47,13 +47,13 @@ export interface CollectionConfig extends cdktf.TerraformMetaArguments {
   * 
   * > Supports string, integer, and boolean values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#params Collection#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#params Collection#params}
   */
   readonly params?: CollectionParams;
   /**
   * Defines the schema for the collection. Changing this block will force resource replacement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#schema Collection#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#schema Collection#schema}
   */
   readonly schema: CollectionSchema;
 }
@@ -62,19 +62,19 @@ export interface CollectionParams {
   * The consistency level for the collection. Possible values are (Bounded|Strong|Session|Eventually). Defaults to "Bounded".
   * Reference: https://github.com/milvus-io/milvus-proto/blob/2.5/go-api/commonpb/common.pb.go#L1001
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#consistency_level Collection#consistency_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#consistency_level Collection#consistency_level}
   */
   readonly consistencyLevel?: string;
   /**
   * Whether to enable memory-mapped files for the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#mmap_enabled Collection#mmap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#mmap_enabled Collection#mmap_enabled}
   */
   readonly mmapEnabled?: boolean | cdktf.IResolvable;
   /**
   * Time-to-live (TTL) in seconds for the collection. After this period, the collection will be automatically deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#ttl_seconds Collection#ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#ttl_seconds Collection#ttl_seconds}
   */
   readonly ttlSeconds?: number;
 }
@@ -228,25 +228,31 @@ export interface CollectionSchemaFields {
   /**
   * The data type of the field (e.g., "INT64", "FLOAT", "STRING", etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#data_type Collection#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#data_type Collection#data_type}
   */
   readonly dataType: string;
   /**
+  * The data type of array elements (required when data_type is "Array"). Examples: "VarChar", "Int64", "Float".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#element_data_type Collection#element_data_type}
+  */
+  readonly elementDataType?: string;
+  /**
   * Additional parameters for element type, if applicable (e.g., for array fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#element_type_params Collection#element_type_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#element_type_params Collection#element_type_params}
   */
   readonly elementTypeParams?: { [key: string]: string };
   /**
   * The name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#field_name Collection#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#field_name Collection#field_name}
   */
   readonly fieldName: string;
   /**
   * Whether this field is the primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#is_primary Collection#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#is_primary Collection#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
 }
@@ -258,6 +264,7 @@ export function collectionSchemaFieldsToTerraform(struct?: CollectionSchemaField
   }
   return {
     data_type: cdktf.stringToTerraform(struct!.dataType),
+    element_data_type: cdktf.stringToTerraform(struct!.elementDataType),
     element_type_params: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.elementTypeParams),
     field_name: cdktf.stringToTerraform(struct!.fieldName),
     is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
@@ -273,6 +280,12 @@ export function collectionSchemaFieldsToHclTerraform(struct?: CollectionSchemaFi
   const attrs = {
     data_type: {
       value: cdktf.stringToHclTerraform(struct!.dataType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    element_data_type: {
+      value: cdktf.stringToHclTerraform(struct!.elementDataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -325,6 +338,10 @@ export class CollectionSchemaFieldsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.dataType = this._dataType;
     }
+    if (this._elementDataType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.elementDataType = this._elementDataType;
+    }
     if (this._elementTypeParams !== undefined) {
       hasAnyValues = true;
       internalValueResult.elementTypeParams = this._elementTypeParams;
@@ -345,6 +362,7 @@ export class CollectionSchemaFieldsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._dataType = undefined;
+      this._elementDataType = undefined;
       this._elementTypeParams = undefined;
       this._fieldName = undefined;
       this._isPrimary = undefined;
@@ -357,6 +375,7 @@ export class CollectionSchemaFieldsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._dataType = value.dataType;
+      this._elementDataType = value.elementDataType;
       this._elementTypeParams = value.elementTypeParams;
       this._fieldName = value.fieldName;
       this._isPrimary = value.isPrimary;
@@ -374,6 +393,22 @@ export class CollectionSchemaFieldsOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get dataTypeInput() {
     return this._dataType;
+  }
+
+  // element_data_type - computed: false, optional: true, required: false
+  private _elementDataType?: string; 
+  public get elementDataType() {
+    return this.getStringAttribute('element_data_type');
+  }
+  public set elementDataType(value: string) {
+    this._elementDataType = value;
+  }
+  public resetElementDataType() {
+    this._elementDataType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get elementDataTypeInput() {
+    return this._elementDataType;
   }
 
   // element_type_params - computed: true, optional: true, required: false
@@ -445,19 +480,19 @@ export interface CollectionSchema {
   /**
   * Whether to enable automatic ID generation for the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#auto_id Collection#auto_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#auto_id Collection#auto_id}
   */
   readonly autoId?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable dynamic fields for the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#enabled_dynamic_field Collection#enabled_dynamic_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#enabled_dynamic_field Collection#enabled_dynamic_field}
   */
   readonly enabledDynamicField?: boolean | cdktf.IResolvable;
   /**
   * List of field definitions for the collection schema. Each field describes a column in the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#fields Collection#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#fields Collection#fields}
   */
   readonly fields: CollectionSchemaFields[] | cdktf.IResolvable;
 }
@@ -606,7 +641,7 @@ export class CollectionSchemaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection zillizcloud_collection}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection zillizcloud_collection}
 */
 export class Collection extends cdktf.TerraformResource {
 
@@ -622,7 +657,7 @@ export class Collection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Collection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Collection to import
-  * @param importFromId The id of the existing Collection that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Collection that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Collection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -634,7 +669,7 @@ export class Collection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/collection zillizcloud_collection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/collection zillizcloud_collection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -645,8 +680,8 @@ export class Collection extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_collection',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

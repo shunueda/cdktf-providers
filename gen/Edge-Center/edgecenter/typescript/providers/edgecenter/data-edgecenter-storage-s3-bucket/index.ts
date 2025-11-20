@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEdgecenterStorageS3BucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket#id DataEdgecenterStorageS3Bucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket#id DataEdgecenterStorageS3Bucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataEdgecenterStorageS3BucketConfig extends cdktf.TerraformMeta
   /**
   * A name of storage bucket resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket#name DataEdgecenterStorageS3Bucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket#name DataEdgecenterStorageS3Bucket#name}
   */
   readonly name: string;
   /**
   * An id of existing storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket#storage_id DataEdgecenterStorageS3Bucket#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket#storage_id DataEdgecenterStorageS3Bucket#storage_id}
   */
   readonly storageId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket edgecenter_storage_s3_bucket}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket edgecenter_storage_s3_bucket}
 */
 export class DataEdgecenterStorageS3Bucket extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataEdgecenterStorageS3Bucket extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterStorageS3Bucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterStorageS3Bucket to import
-  * @param importFromId The id of the existing DataEdgecenterStorageS3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterStorageS3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterStorageS3Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataEdgecenterStorageS3Bucket extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/storage_s3_bucket edgecenter_storage_s3_bucket} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/storage_s3_bucket edgecenter_storage_s3_bucket} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataEdgecenterStorageS3Bucket extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_storage_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

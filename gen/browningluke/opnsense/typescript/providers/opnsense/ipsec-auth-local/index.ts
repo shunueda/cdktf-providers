@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IpsecAuthLocalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication ID for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#auth_id IpsecAuthLocal#auth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#auth_id IpsecAuthLocal#auth_id}
   */
   readonly authId?: string;
   /**
   * Authentication method for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#authentication IpsecAuthLocal#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#authentication IpsecAuthLocal#authentication}
   */
   readonly authentication: string;
   /**
   * List of certificates for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#certificates IpsecAuthLocal#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#certificates IpsecAuthLocal#certificates}
   */
   readonly certificates?: string[];
   /**
   * Optional description for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#description IpsecAuthLocal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#description IpsecAuthLocal#description}
   */
   readonly description?: string;
   /**
   * EAP ID for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#eap_id IpsecAuthLocal#eap_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#eap_id IpsecAuthLocal#eap_id}
   */
   readonly eapId?: string;
   /**
   * Enable or disable the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#enabled IpsecAuthLocal#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#enabled IpsecAuthLocal#enabled}
   */
   readonly enabled?: string;
   /**
   * The parent connection UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#ipsec_connection IpsecAuthLocal#ipsec_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#ipsec_connection IpsecAuthLocal#ipsec_connection}
   */
   readonly ipsecConnection: string;
   /**
   * List of public keys for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#public_keys IpsecAuthLocal#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#public_keys IpsecAuthLocal#public_keys}
   */
   readonly publicKeys?: string[];
   /**
   * Authentication round for the AuthLocal Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#round IpsecAuthLocal#round}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#round IpsecAuthLocal#round}
   */
   readonly round?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local opnsense_ipsec_auth_local}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local opnsense_ipsec_auth_local}
 */
 export class IpsecAuthLocal extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class IpsecAuthLocal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecAuthLocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecAuthLocal to import
-  * @param importFromId The id of the existing IpsecAuthLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecAuthLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecAuthLocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class IpsecAuthLocal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_local opnsense_ipsec_auth_local} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_local opnsense_ipsec_auth_local} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class IpsecAuthLocal extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_auth_local',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

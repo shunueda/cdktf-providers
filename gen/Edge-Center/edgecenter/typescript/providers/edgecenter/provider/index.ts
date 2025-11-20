@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,87 +10,87 @@ export interface EdgecenterProviderConfig {
   /**
   * A single API endpoint for all products. Will be used when specific product API url is not defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#api_endpoint EdgecenterProvider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#api_endpoint EdgecenterProvider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * Region API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_api EdgecenterProvider#edgecenter_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_api EdgecenterProvider#edgecenter_api}
   */
   readonly edgecenterApi?: string;
   /**
   * CDN API (define only if you want to override CDN API endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_cdn_api EdgecenterProvider#edgecenter_cdn_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_cdn_api EdgecenterProvider#edgecenter_cdn_api}
   */
   readonly edgecenterCdnApi?: string;
   /**
   * Region API (define only if you want to override Region API endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_cloud_api EdgecenterProvider#edgecenter_cloud_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_cloud_api EdgecenterProvider#edgecenter_cloud_api}
   */
   readonly edgecenterCloudApi?: string;
   /**
   * DNS API (define only if you want to override DNS API endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_dns_api EdgecenterProvider#edgecenter_dns_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_dns_api EdgecenterProvider#edgecenter_dns_api}
   */
   readonly edgecenterDnsApi?: string;
   /**
   * Platform URL is used for generate JWT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_platform EdgecenterProvider#edgecenter_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_platform EdgecenterProvider#edgecenter_platform}
   */
   readonly edgecenterPlatform?: string;
   /**
   * Platform URL is used for generate JWT (define only if you want to override Platform API endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_platform_api EdgecenterProvider#edgecenter_platform_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_platform_api EdgecenterProvider#edgecenter_platform_api}
   */
   readonly edgecenterPlatformApi?: string;
   /**
   * Protection API (define only if you want to override Protection API endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_protection_api EdgecenterProvider#edgecenter_protection_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_protection_api EdgecenterProvider#edgecenter_protection_api}
   */
   readonly edgecenterProtectionApi?: string;
   /**
   * Storage API (define only if you want to override Storage API endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#edgecenter_storage_api EdgecenterProvider#edgecenter_storage_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#edgecenter_storage_api EdgecenterProvider#edgecenter_storage_api}
   */
   readonly edgecenterStorageApi?: string;
   /**
   * Should be set to true when you are gonna to use storage resource with permanent API-token only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#ignore_creds_auth_error EdgecenterProvider#ignore_creds_auth_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#ignore_creds_auth_error EdgecenterProvider#ignore_creds_auth_error}
   */
   readonly ignoreCredsAuthError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#password EdgecenterProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#password EdgecenterProvider#password}
   */
   readonly password?: string;
   /**
   * A permanent [API-token](https://support.edgecenter.ru/knowledge_base/item/257788)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#permanent_api_token EdgecenterProvider#permanent_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#permanent_api_token EdgecenterProvider#permanent_api_token}
   */
   readonly permanentApiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#user_name EdgecenterProvider#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#user_name EdgecenterProvider#user_name}
   */
   readonly userName?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#alias EdgecenterProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#alias EdgecenterProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs edgecenter}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs edgecenter}
 */
 export class EdgecenterProvider extends cdktf.TerraformProvider {
 
@@ -106,7 +106,7 @@ export class EdgecenterProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a EdgecenterProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgecenterProvider to import
-  * @param importFromId The id of the existing EdgecenterProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgecenterProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgecenterProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +118,7 @@ export class EdgecenterProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs edgecenter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs edgecenter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,8 +129,8 @@ export class EdgecenterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'edgecenter',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       terraformProviderSource: 'Edge-Center/edgecenter'
     });

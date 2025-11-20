@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UseractionsSubscriptionAmqpConfig extends cdktf.TerraformMetaAr
   /**
   * A connection string of the following structure "scheme://username:password@host:port/virtual_host".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp#connection_string UseractionsSubscriptionAmqp#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp#connection_string UseractionsSubscriptionAmqp#connection_string}
   */
   readonly connectionString: string;
   /**
   * Exchange name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp#exchange UseractionsSubscriptionAmqp#exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp#exchange UseractionsSubscriptionAmqp#exchange}
   */
   readonly exchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp#id UseractionsSubscriptionAmqp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp#id UseractionsSubscriptionAmqp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface UseractionsSubscriptionAmqpConfig extends cdktf.TerraformMetaAr
   /**
   * Set to true if you would like to receive user action logs of all clients with reseller_id matching the current client_id. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp#receive_child_client_events UseractionsSubscriptionAmqp#receive_child_client_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp#receive_child_client_events UseractionsSubscriptionAmqp#receive_child_client_events}
   */
   readonly receiveChildClientEvents?: boolean | cdktf.IResolvable;
   /**
   * Routing key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp#routing_key UseractionsSubscriptionAmqp#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp#routing_key UseractionsSubscriptionAmqp#routing_key}
   */
   readonly routingKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp edgecenter_useractions_subscription_amqp}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp edgecenter_useractions_subscription_amqp}
 */
 export class UseractionsSubscriptionAmqp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class UseractionsSubscriptionAmqp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UseractionsSubscriptionAmqp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UseractionsSubscriptionAmqp to import
-  * @param importFromId The id of the existing UseractionsSubscriptionAmqp that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UseractionsSubscriptionAmqp that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UseractionsSubscriptionAmqp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class UseractionsSubscriptionAmqp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_amqp edgecenter_useractions_subscription_amqp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_amqp edgecenter_useractions_subscription_amqp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class UseractionsSubscriptionAmqp extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_useractions_subscription_amqp',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

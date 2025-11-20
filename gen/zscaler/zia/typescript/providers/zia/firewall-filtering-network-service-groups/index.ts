@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface FirewallFilteringNetworkServiceGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups#description FirewallFilteringNetworkServiceGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups#description FirewallFilteringNetworkServiceGroups#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups#name FirewallFilteringNetworkServiceGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups#name FirewallFilteringNetworkServiceGroups#name}
   */
   readonly name: string;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups#services FirewallFilteringNetworkServiceGroups#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups#services FirewallFilteringNetworkServiceGroups#services}
   */
   readonly services?: FirewallFilteringNetworkServiceGroupsServices[] | cdktf.IResolvable;
 }
 export interface FirewallFilteringNetworkServiceGroupsServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups#id FirewallFilteringNetworkServiceGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups#id FirewallFilteringNetworkServiceGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +140,7 @@ export class FirewallFilteringNetworkServiceGroupsServicesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups}
 */
 export class FirewallFilteringNetworkServiceGroups extends cdktf.TerraformResource {
 
@@ -156,7 +156,7 @@ export class FirewallFilteringNetworkServiceGroups extends cdktf.TerraformResour
   * Generates CDKTF code for importing a FirewallFilteringNetworkServiceGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilteringNetworkServiceGroups to import
-  * @param importFromId The id of the existing FirewallFilteringNetworkServiceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilteringNetworkServiceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilteringNetworkServiceGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class FirewallFilteringNetworkServiceGroups extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_service_groups zia_firewall_filtering_network_service_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class FirewallFilteringNetworkServiceGroups extends cdktf.TerraformResour
       terraformResourceType: 'zia_firewall_filtering_network_service_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

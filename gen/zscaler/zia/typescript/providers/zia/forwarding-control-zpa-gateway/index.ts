@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ForwardingControlZpaGatewayConfig extends cdktf.TerraformMetaAr
   /**
   * Additional details about the ZPA gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#description ForwardingControlZpaGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#description ForwardingControlZpaGateway#description}
   */
   readonly description?: string;
   /**
   * The name of the ZPA gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#name ForwardingControlZpaGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#name ForwardingControlZpaGateway#name}
   */
   readonly name: string;
   /**
   * Indicates whether the ZPA gateway is configured for Zscaler Internet Access (using option ZPA) or Zscaler Cloud Connector (using option ECZPA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#type ForwardingControlZpaGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#type ForwardingControlZpaGateway#type}
   */
   readonly type?: string;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#zpa_app_segments ForwardingControlZpaGateway#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#zpa_app_segments ForwardingControlZpaGateway#zpa_app_segments}
   */
   readonly zpaAppSegments?: ForwardingControlZpaGatewayZpaAppSegments[] | cdktf.IResolvable;
   /**
   * zpa_server_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#zpa_server_group ForwardingControlZpaGateway#zpa_server_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#zpa_server_group ForwardingControlZpaGateway#zpa_server_group}
   */
   readonly zpaServerGroup: ForwardingControlZpaGatewayZpaServerGroup;
 }
@@ -42,13 +42,13 @@ export interface ForwardingControlZpaGatewayZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#external_id ForwardingControlZpaGateway#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#external_id ForwardingControlZpaGateway#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#name ForwardingControlZpaGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#name ForwardingControlZpaGateway#name}
   */
   readonly name: string;
 }
@@ -189,13 +189,13 @@ export interface ForwardingControlZpaGatewayZpaServerGroup {
   /**
   * ID of the ZPA Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#external_id ForwardingControlZpaGateway#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#external_id ForwardingControlZpaGateway#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the ZPA Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#name ForwardingControlZpaGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#name ForwardingControlZpaGateway#name}
   */
   readonly name: string;
 }
@@ -302,7 +302,7 @@ export class ForwardingControlZpaGatewayZpaServerGroupOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway zia_forwarding_control_zpa_gateway}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway zia_forwarding_control_zpa_gateway}
 */
 export class ForwardingControlZpaGateway extends cdktf.TerraformResource {
 
@@ -318,7 +318,7 @@ export class ForwardingControlZpaGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardingControlZpaGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingControlZpaGateway to import
-  * @param importFromId The id of the existing ForwardingControlZpaGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingControlZpaGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingControlZpaGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -330,7 +330,7 @@ export class ForwardingControlZpaGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/forwarding_control_zpa_gateway zia_forwarding_control_zpa_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/forwarding_control_zpa_gateway zia_forwarding_control_zpa_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -341,8 +341,8 @@ export class ForwardingControlZpaGateway extends cdktf.TerraformResource {
       terraformResourceType: 'zia_forwarding_control_zpa_gateway',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

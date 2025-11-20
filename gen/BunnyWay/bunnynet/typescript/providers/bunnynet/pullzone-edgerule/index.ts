@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,75 +10,75 @@ export interface PullzoneEdgeruleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Options: `BlockRequest`, `BypassAwsS3Authentication`, `BypassPermaCache`, `DisableOptimizer`, `DisableShield`, `DisableShieldAccessLists`, `DisableShieldBotDetection`, `DisableShieldChallenge`, `DisableShieldRateLimiting`, `DisableTokenAuthentication`, `DisableWAF`, `EnableTokenAuthentication`, `ForceCompression`, `ForceDownload`, `ForceSSL`, `IgnoreQueryString`, `OriginMagicContainers`, `OriginStorage`, `OriginUrl`, `OverrideBrowserCacheResponseHeader`, `OverrideBrowserCacheTime`, `OverrideCacheTime`, `OverrideCacheTimePublic`, `Redirect`, `RemoveBrowserCacheResponseHeader`, `RetryOrigin`, `RunEdgeScript`, `SetConnectionLimit`, `SetNetworkRateLimit`, `SetRequestHeader`, `SetRequestsPerSecondLimit`, `SetResponseHeader`, `SetStatusCode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#action PullzoneEdgerule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#action PullzoneEdgerule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#action_parameter1 PullzoneEdgerule#action_parameter1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#action_parameter1 PullzoneEdgerule#action_parameter1}
   */
   readonly actionParameter1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#action_parameter2 PullzoneEdgerule#action_parameter2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#action_parameter2 PullzoneEdgerule#action_parameter2}
   */
   readonly actionParameter2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#action_parameter3 PullzoneEdgerule#action_parameter3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#action_parameter3 PullzoneEdgerule#action_parameter3}
   */
   readonly actionParameter3?: string;
   /**
   * List of actions for the edge rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#actions PullzoneEdgerule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#actions PullzoneEdgerule#actions}
   */
   readonly actions?: PullzoneEdgeruleActions[] | cdktf.IResolvable;
   /**
   * The description of the edge rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#description PullzoneEdgerule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#description PullzoneEdgerule#description}
   */
   readonly description?: string;
   /**
   * Indicates whether the edge rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#enabled PullzoneEdgerule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#enabled PullzoneEdgerule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Options: `MatchAll`, `MatchAny`, `MatchNone`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#match_type PullzoneEdgerule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#match_type PullzoneEdgerule#match_type}
   */
   readonly matchType?: string;
   /**
   * The priority of the edge rule. The lower number is executed first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#priority PullzoneEdgerule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#priority PullzoneEdgerule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#pullzone PullzoneEdgerule#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#pullzone PullzoneEdgerule#pullzone}
   */
   readonly pullzone: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#triggers PullzoneEdgerule#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#triggers PullzoneEdgerule#triggers}
   */
   readonly triggers: PullzoneEdgeruleTriggers[] | cdktf.IResolvable;
 }
 export interface PullzoneEdgeruleActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#parameter1 PullzoneEdgerule#parameter1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#parameter1 PullzoneEdgerule#parameter1}
   */
   readonly parameter1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#parameter2 PullzoneEdgerule#parameter2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#parameter2 PullzoneEdgerule#parameter2}
   */
   readonly parameter2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#parameter3 PullzoneEdgerule#parameter3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#parameter3 PullzoneEdgerule#parameter3}
   */
   readonly parameter3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#type PullzoneEdgerule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#type PullzoneEdgerule#type}
   */
   readonly type?: string;
 }
@@ -281,23 +281,23 @@ export class PullzoneEdgeruleActionsList extends cdktf.ComplexList {
 }
 export interface PullzoneEdgeruleTriggers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#match_type PullzoneEdgerule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#match_type PullzoneEdgerule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#parameter1 PullzoneEdgerule#parameter1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#parameter1 PullzoneEdgerule#parameter1}
   */
   readonly parameter1: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#parameter2 PullzoneEdgerule#parameter2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#parameter2 PullzoneEdgerule#parameter2}
   */
   readonly parameter2: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#patterns PullzoneEdgerule#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#patterns PullzoneEdgerule#patterns}
   */
   readonly patterns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#type PullzoneEdgerule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#type PullzoneEdgerule#type}
   */
   readonly type: string;
 }
@@ -514,7 +514,7 @@ export class PullzoneEdgeruleTriggersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule bunnynet_pullzone_edgerule}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule bunnynet_pullzone_edgerule}
 */
 export class PullzoneEdgerule extends cdktf.TerraformResource {
 
@@ -530,7 +530,7 @@ export class PullzoneEdgerule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneEdgerule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneEdgerule to import
-  * @param importFromId The id of the existing PullzoneEdgerule that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneEdgerule that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneEdgerule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -542,7 +542,7 @@ export class PullzoneEdgerule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_edgerule bunnynet_pullzone_edgerule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_edgerule bunnynet_pullzone_edgerule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -553,8 +553,8 @@ export class PullzoneEdgerule extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_edgerule',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

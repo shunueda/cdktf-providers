@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFivetranTeamGroupMembershipsConfig extends cdktf.TerraformM
   /**
   * The unique identifier for the team within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships#team_id DataFivetranTeamGroupMemberships#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships#team_id DataFivetranTeamGroupMemberships#team_id}
   */
   readonly teamId: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships#group DataFivetranTeamGroupMemberships#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships#group DataFivetranTeamGroupMemberships#group}
   */
   readonly group?: DataFivetranTeamGroupMembershipsGroup[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface DataFivetranTeamGroupMembershipsGroup {
   /**
   * The group unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships#group_id DataFivetranTeamGroupMemberships#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships#group_id DataFivetranTeamGroupMemberships#group_id}
   */
   readonly groupId: string;
 }
@@ -147,7 +147,7 @@ export class DataFivetranTeamGroupMembershipsGroupList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships fivetran_team_group_memberships}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships fivetran_team_group_memberships}
 */
 export class DataFivetranTeamGroupMemberships extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataFivetranTeamGroupMemberships extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataFivetranTeamGroupMemberships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranTeamGroupMemberships to import
-  * @param importFromId The id of the existing DataFivetranTeamGroupMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranTeamGroupMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranTeamGroupMemberships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataFivetranTeamGroupMemberships extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/team_group_memberships fivetran_team_group_memberships} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/team_group_memberships fivetran_team_group_memberships} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataFivetranTeamGroupMemberships extends cdktf.TerraformDataSource 
       terraformResourceType: 'fivetran_team_group_memberships',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

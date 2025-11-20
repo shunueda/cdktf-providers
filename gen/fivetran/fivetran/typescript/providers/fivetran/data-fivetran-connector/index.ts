@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connector
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranConnectorConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique identifier for the connector within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connector#id DataFivetranConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connector#id DataFivetranConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3376,6 +3376,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getStringAttribute('external_id');
   }
 
+  // extraction_pattern - computed: true, optional: false, required: false
+  public get extractionPattern() {
+    return this.getStringAttribute('extraction_pattern');
+  }
+
   // facility_codes - computed: true, optional: false, required: false
   public get facilityCodes() {
     return this.getStringAttribute('facility_codes');
@@ -3389,6 +3394,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // file_handling - computed: true, optional: false, required: false
   public get fileHandling() {
     return this.getStringAttribute('file_handling');
+  }
+
+  // file_mapping_method - computed: true, optional: false, required: false
+  public get fileMappingMethod() {
+    return this.getStringAttribute('file_mapping_method');
   }
 
   // file_type - computed: true, optional: false, required: false
@@ -3827,6 +3837,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getStringAttribute('list_sync_mode');
   }
 
+  // location_ids - computed: true, optional: false, required: false
+  public get locationIds() {
+    return this.getStringAttribute('location_ids');
+  }
+
   // log_journal - computed: true, optional: false, required: false
   public get logJournal() {
     return this.getStringAttribute('log_journal');
@@ -4211,6 +4226,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // project_key - computed: true, optional: false, required: false
   public get projectKey() {
     return this.getStringAttribute('project_key');
+  }
+
+  // project_website_url - computed: true, optional: false, required: false
+  public get projectWebsiteUrl() {
+    return this.getStringAttribute('project_website_url');
   }
 
   // projects - computed: true, optional: false, required: false
@@ -5087,6 +5107,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getStringAttribute('tde_certificate');
   }
 
+  // tde_certificate_backup - computed: true, optional: false, required: false
+  public get tdeCertificateBackup() {
+    return this.getStringAttribute('tde_certificate_backup');
+  }
+
   // tde_certificate_name - computed: true, optional: false, required: false
   public get tdeCertificateName() {
     return this.getStringAttribute('tde_certificate_name');
@@ -5105,6 +5130,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // tde_private_key - computed: true, optional: false, required: false
   public get tdePrivateKey() {
     return this.getStringAttribute('tde_private_key');
+  }
+
+  // tde_private_key_backup - computed: true, optional: false, required: false
+  public get tdePrivateKeyBackup() {
+    return this.getStringAttribute('tde_private_key_backup');
   }
 
   // tde_private_key_path - computed: true, optional: false, required: false
@@ -5845,7 +5875,7 @@ export class DataFivetranConnectorStatusOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connector fivetran_connector}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connector fivetran_connector}
 */
 export class DataFivetranConnector extends cdktf.TerraformDataSource {
 
@@ -5861,7 +5891,7 @@ export class DataFivetranConnector extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranConnector to import
-  * @param importFromId The id of the existing DataFivetranConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5873,7 +5903,7 @@ export class DataFivetranConnector extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connector fivetran_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connector fivetran_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5884,8 +5914,8 @@ export class DataFivetranConnector extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_connector',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

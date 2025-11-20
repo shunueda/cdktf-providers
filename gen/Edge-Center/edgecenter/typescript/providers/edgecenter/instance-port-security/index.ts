@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InstancePortSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#id InstancePortSecurity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#id InstancePortSecurity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface InstancePortSecurityConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the instance to which the port is connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#instance_id InstancePortSecurity#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#instance_id InstancePortSecurity#instance_id}
   */
   readonly instanceId: string;
   /**
   * ID of the instance network port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#port_id InstancePortSecurity#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#port_id InstancePortSecurity#port_id}
   */
   readonly portId: string;
   /**
   * Is the port_security feature disabled. If this field has value "true", you can't use "security_groups" field. You can't change port security of a public network port. When this field has value "true" all security groups will be deleted. When this field switched back to value "false" or deleted, default security group will be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#port_security_disabled InstancePortSecurity#port_security_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#port_security_disabled InstancePortSecurity#port_security_disabled}
   */
   readonly portSecurityDisabled?: boolean | cdktf.IResolvable;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#project_id InstancePortSecurity#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#project_id InstancePortSecurity#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#project_name InstancePortSecurity#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#project_name InstancePortSecurity#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#region_id InstancePortSecurity#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#region_id InstancePortSecurity#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#region_name InstancePortSecurity#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#region_name InstancePortSecurity#region_name}
   */
   readonly regionName?: string;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#security_groups InstancePortSecurity#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#security_groups InstancePortSecurity#security_groups}
   */
   readonly securityGroups?: InstancePortSecuritySecurityGroups;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#timeouts InstancePortSecurity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#timeouts InstancePortSecurity#timeouts}
   */
   readonly timeouts?: InstancePortSecurityTimeouts;
 }
@@ -73,13 +73,13 @@ export interface InstancePortSecuritySecurityGroups {
   /**
   * Whether to overwrite all security groups. If this field has value "true", security groups that were created outside of this resource (the default security group and security groups created through UI or API will be deleted and attached security groups specified in the attribute "security_group_ids" only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#overwrite_existing InstancePortSecurity#overwrite_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#overwrite_existing InstancePortSecurity#overwrite_existing}
   */
   readonly overwriteExisting?: boolean | cdktf.IResolvable;
   /**
   * A set of security groups IDs that need to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#security_group_ids InstancePortSecurity#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#security_group_ids InstancePortSecurity#security_group_ids}
   */
   readonly securityGroupIds?: string[];
 }
@@ -197,19 +197,19 @@ export class InstancePortSecuritySecurityGroupsOutputReference extends cdktf.Com
 }
 export interface InstancePortSecurityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#create InstancePortSecurity#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#create InstancePortSecurity#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#delete InstancePortSecurity#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#delete InstancePortSecurity#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#read InstancePortSecurity#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#read InstancePortSecurity#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#update InstancePortSecurity#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#update InstancePortSecurity#update}
   */
   readonly update?: string;
 }
@@ -390,7 +390,7 @@ export class InstancePortSecurityTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security edgecenter_instance_port_security}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security edgecenter_instance_port_security}
 */
 export class InstancePortSecurity extends cdktf.TerraformResource {
 
@@ -406,7 +406,7 @@ export class InstancePortSecurity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstancePortSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstancePortSecurity to import
-  * @param importFromId The id of the existing InstancePortSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstancePortSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstancePortSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class InstancePortSecurity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/instance_port_security edgecenter_instance_port_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/instance_port_security edgecenter_instance_port_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class InstancePortSecurity extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_instance_port_security',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

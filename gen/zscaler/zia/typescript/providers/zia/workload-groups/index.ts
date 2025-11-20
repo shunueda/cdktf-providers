@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WorkloadGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the workload group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#description WorkloadGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#description WorkloadGroups#description}
   */
   readonly description?: string;
   /**
   * The name of the workload group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#name WorkloadGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#name WorkloadGroups#name}
   */
   readonly name?: string;
   /**
   * expression_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#expression_json WorkloadGroups#expression_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#expression_json WorkloadGroups#expression_json}
   */
   readonly expressionJson?: WorkloadGroupsExpressionJson[] | cdktf.IResolvable;
 }
 export interface WorkloadGroupsExpressionJsonExpressionContainersTagContainerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#key WorkloadGroups#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#key WorkloadGroups#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#value WorkloadGroups#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#value WorkloadGroups#value}
   */
   readonly value?: string;
 }
@@ -177,13 +177,13 @@ export class WorkloadGroupsExpressionJsonExpressionContainersTagContainerTagsLis
 }
 export interface WorkloadGroupsExpressionJsonExpressionContainersTagContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#operator WorkloadGroups#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#operator WorkloadGroups#operator}
   */
   readonly operator?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#tags WorkloadGroups#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#tags WorkloadGroups#tags}
   */
   readonly tags?: WorkloadGroupsExpressionJsonExpressionContainersTagContainerTags[] | cdktf.IResolvable;
 }
@@ -328,17 +328,17 @@ export class WorkloadGroupsExpressionJsonExpressionContainersTagContainerList ex
 }
 export interface WorkloadGroupsExpressionJsonExpressionContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#operator WorkloadGroups#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#operator WorkloadGroups#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#tag_type WorkloadGroups#tag_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#tag_type WorkloadGroups#tag_type}
   */
   readonly tagType?: string;
   /**
   * tag_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#tag_container WorkloadGroups#tag_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#tag_container WorkloadGroups#tag_container}
   */
   readonly tagContainer?: WorkloadGroupsExpressionJsonExpressionContainersTagContainer[] | cdktf.IResolvable;
 }
@@ -514,7 +514,7 @@ export interface WorkloadGroupsExpressionJson {
   /**
   * expression_containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#expression_containers WorkloadGroups#expression_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#expression_containers WorkloadGroups#expression_containers}
   */
   readonly expressionContainers?: WorkloadGroupsExpressionJsonExpressionContainers[] | cdktf.IResolvable;
 }
@@ -630,7 +630,7 @@ export class WorkloadGroupsExpressionJsonList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups zia_workload_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups zia_workload_groups}
 */
 export class WorkloadGroups extends cdktf.TerraformResource {
 
@@ -646,7 +646,7 @@ export class WorkloadGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkloadGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkloadGroups to import
-  * @param importFromId The id of the existing WorkloadGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkloadGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkloadGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -658,7 +658,7 @@ export class WorkloadGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/workload_groups zia_workload_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/workload_groups zia_workload_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -669,8 +669,8 @@ export class WorkloadGroups extends cdktf.TerraformResource {
       terraformResourceType: 'zia_workload_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

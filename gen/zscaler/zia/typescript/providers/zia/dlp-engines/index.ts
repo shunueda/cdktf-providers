@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DlpEnginesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether this is a custom DLP engine. If this value is set to true, the engine is custom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines#custom_dlp_engine DlpEngines#custom_dlp_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines#custom_dlp_engine DlpEngines#custom_dlp_engine}
   */
   readonly customDlpEngine?: boolean | cdktf.IResolvable;
   /**
   * The DLP engine's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines#description DlpEngines#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines#description DlpEngines#description}
   */
   readonly description?: string;
   /**
   * The boolean logical operator in which various DLP dictionaries are combined within a DLP engine's expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines#engine_expression DlpEngines#engine_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines#engine_expression DlpEngines#engine_expression}
   */
   readonly engineExpression?: string;
   /**
   * The DLP engine name as configured by the admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines#name DlpEngines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines#name DlpEngines#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines zia_dlp_engines}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines zia_dlp_engines}
 */
 export class DlpEngines extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DlpEngines extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlpEngines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlpEngines to import
-  * @param importFromId The id of the existing DlpEngines that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlpEngines that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlpEngines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DlpEngines extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_engines zia_dlp_engines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_engines zia_dlp_engines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DlpEngines extends cdktf.TerraformResource {
       terraformResourceType: 'zia_dlp_engines',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

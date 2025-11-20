@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FloatingipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The fixed (reserved) IP address that is associated with the floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#fixed_ip_address Floatingip#fixed_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#fixed_ip_address Floatingip#fixed_ip_address}
   */
   readonly fixedIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#id Floatingip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#id Floatingip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface FloatingipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#last_updated Floatingip#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#last_updated Floatingip#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * A map containing metadata, for example tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#metadata_map Floatingip#metadata_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#metadata_map Floatingip#metadata_map}
   */
   readonly metadataMap?: { [key: string]: string };
   /**
   * The ID (uuid) of the network port that the floating IP is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#port_id Floatingip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#port_id Floatingip#port_id}
   */
   readonly portId?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#project_id Floatingip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#project_id Floatingip#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#project_name Floatingip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#project_name Floatingip#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#region_id Floatingip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#region_id Floatingip#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#region_name Floatingip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#region_name Floatingip#region_name}
   */
   readonly regionName?: string;
 }
@@ -150,7 +150,7 @@ export class FloatingipMetadataReadOnlyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip edgecenter_floatingip}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip edgecenter_floatingip}
 */
 export class Floatingip extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class Floatingip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Floatingip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Floatingip to import
-  * @param importFromId The id of the existing Floatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Floatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Floatingip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class Floatingip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/floatingip edgecenter_floatingip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/floatingip edgecenter_floatingip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class Floatingip extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

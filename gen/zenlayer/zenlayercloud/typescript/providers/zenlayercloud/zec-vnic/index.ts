@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZecVnicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#id ZecVnic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#id ZecVnic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface ZecVnicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bandwidth of public IPv6. Measured in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#ipv6_bandwidth ZecVnic#ipv6_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#ipv6_bandwidth ZecVnic#ipv6_bandwidth}
   */
   readonly ipv6Bandwidth?: number;
   /**
   * Bandwidth cluster ID for public IPv6. Required when `ipv6_internet_charge_type` is `BandwidthCluster`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#ipv6_bandwidth_cluster_id ZecVnic#ipv6_bandwidth_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#ipv6_bandwidth_cluster_id ZecVnic#ipv6_bandwidth_cluster_id}
   */
   readonly ipv6BandwidthClusterId?: string;
   /**
   * Network billing methods for public IPv6. Valid values: `ByBandwidth`, `ByTrafficPackage`, `BandwidthCluster`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#ipv6_internet_charge_type ZecVnic#ipv6_internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#ipv6_internet_charge_type ZecVnic#ipv6_internet_charge_type}
   */
   readonly ipv6InternetChargeType?: string;
   /**
   * Traffic Package size for public IPv6. Measured in TB. Only valid when `ipv6_internet_charge_type` is `ByTrafficPackage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#ipv6_traffic_package_size ZecVnic#ipv6_traffic_package_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#ipv6_traffic_package_size ZecVnic#ipv6_traffic_package_size}
   */
   readonly ipv6TrafficPackageSize?: number;
   /**
   * The name of the vNIC. maximum length is 63.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#name ZecVnic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#name ZecVnic#name}
   */
   readonly name?: string;
   /**
   * The resource group id the vNIC belongs to, default to ID of Default Resource Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#resource_group_id ZecVnic#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#resource_group_id ZecVnic#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * The ID of a security group. If absent, the security group under VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#security_group_id ZecVnic#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#security_group_id ZecVnic#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * The stack type of the subnet. Valid values: `IPv4`, `IPv6`, `IPv4_IPv6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#stack_type ZecVnic#stack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#stack_type ZecVnic#stack_type}
   */
   readonly stackType?: string;
   /**
   * The ID of a VPC subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#subnet_id ZecVnic#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#subnet_id ZecVnic#subnet_id}
   */
   readonly subnetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic zenlayercloud_zec_vnic}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic zenlayercloud_zec_vnic}
 */
 export class ZecVnic extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ZecVnic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecVnic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecVnic to import
-  * @param importFromId The id of the existing ZecVnic that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecVnic that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecVnic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ZecVnic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_vnic zenlayercloud_zec_vnic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_vnic zenlayercloud_zec_vnic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ZecVnic extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_vnic',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8',
-        providerVersionConstraint: '0.2.8'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

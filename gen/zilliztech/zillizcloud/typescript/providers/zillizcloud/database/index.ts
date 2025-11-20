@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,13 +17,13 @@ export interface DatabaseConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database#connect_address Database#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database#connect_address Database#connect_address}
   */
   readonly connectAddress: string;
   /**
   * The name of the database to be managed. Must be unique within the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database#db_name Database#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database#db_name Database#db_name}
   */
   readonly dbName: string;
   /**
@@ -42,13 +42,13 @@ export interface DatabaseConfig extends cdktf.TerraformMetaArguments {
   * **Reference:** https://github.com/milvus-io/milvus/blob/v2.5.12/pkg/common/common.go#L186
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database#properties Database#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database#properties Database#properties}
   */
   readonly properties?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database zillizcloud_database}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database zillizcloud_database}
 */
 export class Database extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class Database extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Database resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Database to import
-  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Database to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class Database extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/database zillizcloud_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/database zillizcloud_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class Database extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_database',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

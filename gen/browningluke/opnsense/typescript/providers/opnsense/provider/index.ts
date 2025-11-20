@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface OpnsenseProviderConfig {
   /**
   * Allow insecure TLS connections. Alternatively, can be configured using the `OPNSENSE_ALLOW_INSECURE` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#allow_insecure OpnsenseProvider#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#allow_insecure OpnsenseProvider#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktf.IResolvable;
   /**
   * The API key for a user. Alternatively, can be configured using the `OPNSENSE_API_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#api_key OpnsenseProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#api_key OpnsenseProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The API secret for a user. Alternatively, can be configured using the `OPNSENSE_API_SECRET` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#api_secret OpnsenseProvider#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#api_secret OpnsenseProvider#api_secret}
   */
   readonly apiSecret?: string;
   /**
   * Maximum backoff period in seconds after failed API calls. Alternatively, can be configured using the `OPNSENSE_MAX_BACKOFF` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#max_backoff OpnsenseProvider#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#max_backoff OpnsenseProvider#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Minimum backoff period in seconds after failed API calls. Alternatively, can be configured using the `OPNSENSE_MIN_BACKOFF` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#min_backoff OpnsenseProvider#min_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#min_backoff OpnsenseProvider#min_backoff}
   */
   readonly minBackoff?: number;
   /**
   * Maximum number of retries to perform when an API request fails. Alternatively, can be configured using the `OPNSENSE_RETRIES` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#retries OpnsenseProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#retries OpnsenseProvider#retries}
   */
   readonly retries?: number;
   /**
   * The URI to an OPNsense host. Alternatively, can be configured using the `OPNSENSE_URI` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#uri OpnsenseProvider#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#uri OpnsenseProvider#uri}
   */
   readonly uri?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#alias OpnsenseProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#alias OpnsenseProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs opnsense}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs opnsense}
 */
 export class OpnsenseProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class OpnsenseProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OpnsenseProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpnsenseProvider to import
-  * @param importFromId The id of the existing OpnsenseProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpnsenseProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpnsenseProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class OpnsenseProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs opnsense} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs opnsense} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class OpnsenseProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'opnsense',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       terraformProviderSource: 'browningluke/opnsense'
     });

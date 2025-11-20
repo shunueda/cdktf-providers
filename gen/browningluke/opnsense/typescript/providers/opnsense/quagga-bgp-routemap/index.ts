@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface QuaggaBgpRoutemapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set permit for match or deny to negate the rule. Defaults to `"permit"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#action QuaggaBgpRoutemap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#action QuaggaBgpRoutemap#action}
   */
   readonly action?: string;
   /**
   * Set the AS Path list IDs to use. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#aspaths QuaggaBgpRoutemap#aspaths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#aspaths QuaggaBgpRoutemap#aspaths}
   */
   readonly aspaths?: string[];
   /**
   * Set the community list IDs to use. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#community_lists QuaggaBgpRoutemap#community_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#community_lists QuaggaBgpRoutemap#community_lists}
   */
   readonly communityLists?: string[];
   /**
   * An optional description for this route map. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#description QuaggaBgpRoutemap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#description QuaggaBgpRoutemap#description}
   */
   readonly description?: string;
   /**
   * Enable this route map. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#enabled QuaggaBgpRoutemap#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#enabled QuaggaBgpRoutemap#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this route map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#name QuaggaBgpRoutemap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#name QuaggaBgpRoutemap#name}
   */
   readonly name: string;
   /**
   * Set the prefix list IDs to use. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#prefix_lists QuaggaBgpRoutemap#prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#prefix_lists QuaggaBgpRoutemap#prefix_lists}
   */
   readonly prefixLists?: string[];
   /**
   * The Route-map ID between 1 and 65535. Be aware that the sorting will be done under the hood, so when you add an entry between it gets to the right position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#route_map_id QuaggaBgpRoutemap#route_map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#route_map_id QuaggaBgpRoutemap#route_map_id}
   */
   readonly routeMapId: number;
   /**
   * Free text field for your set, please be careful! You can set e.g. `local-preference 300` or `community 1:1` (http://www.nongnu.org/quagga/docs/docs-multi/Route-Map-Set-Command.html#Route-Map-Set-Command). Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#set QuaggaBgpRoutemap#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#set QuaggaBgpRoutemap#set}
   */
   readonly set?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap opnsense_quagga_bgp_routemap}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap opnsense_quagga_bgp_routemap}
 */
 export class QuaggaBgpRoutemap extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class QuaggaBgpRoutemap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuaggaBgpRoutemap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuaggaBgpRoutemap to import
-  * @param importFromId The id of the existing QuaggaBgpRoutemap that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuaggaBgpRoutemap that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuaggaBgpRoutemap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class QuaggaBgpRoutemap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_routemap opnsense_quagga_bgp_routemap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_routemap opnsense_quagga_bgp_routemap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class QuaggaBgpRoutemap extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_quagga_bgp_routemap',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

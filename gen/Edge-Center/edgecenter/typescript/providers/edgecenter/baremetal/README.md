@@ -1,3 +1,3 @@
 # `edgecenter_baremetal`
 
-Refer to the Terraform Registry for docs: [`edgecenter_baremetal`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/baremetal).
+Refer to the Terraform Registry for docs: [`edgecenter_baremetal`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/baremetal).

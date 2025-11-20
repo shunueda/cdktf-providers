@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface FirewallFilteringNetworkApplicationGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups#description FirewallFilteringNetworkApplicationGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups#description FirewallFilteringNetworkApplicationGroups#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups#name FirewallFilteringNetworkApplicationGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups#name FirewallFilteringNetworkApplicationGroups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups#network_applications FirewallFilteringNetworkApplicationGroups#network_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups#network_applications FirewallFilteringNetworkApplicationGroups#network_applications}
   */
   readonly networkApplications?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups zia_firewall_filtering_network_application_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups zia_firewall_filtering_network_application_groups}
 */
 export class FirewallFilteringNetworkApplicationGroups extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class FirewallFilteringNetworkApplicationGroups extends cdktf.TerraformRe
   * Generates CDKTF code for importing a FirewallFilteringNetworkApplicationGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilteringNetworkApplicationGroups to import
-  * @param importFromId The id of the existing FirewallFilteringNetworkApplicationGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilteringNetworkApplicationGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilteringNetworkApplicationGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class FirewallFilteringNetworkApplicationGroups extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_network_application_groups zia_firewall_filtering_network_application_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_network_application_groups zia_firewall_filtering_network_application_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class FirewallFilteringNetworkApplicationGroups extends cdktf.TerraformRe
       terraformResourceType: 'zia_firewall_filtering_network_application_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

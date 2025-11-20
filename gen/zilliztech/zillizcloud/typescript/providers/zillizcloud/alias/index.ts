@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface AliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias#alias_name Alias#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias#alias_name Alias#alias_name}
   */
   readonly aliasName: string;
   /**
   * The name of the collection to which the alias points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias#collection_name Alias#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias#collection_name Alias#collection_name}
   */
   readonly collectionName: string;
   /**
@@ -29,19 +29,19 @@ export interface AliasConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias#connect_address Alias#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias#connect_address Alias#connect_address}
   */
   readonly connectAddress: string;
   /**
   * The name of the database containing the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias#db_name Alias#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias#db_name Alias#db_name}
   */
   readonly dbName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias zillizcloud_alias}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias zillizcloud_alias}
 */
 export class Alias extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Alias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alias to import
-  * @param importFromId The id of the existing Alias that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alias that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Alias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/alias zillizcloud_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/alias zillizcloud_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Alias extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_alias',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

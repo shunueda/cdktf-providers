@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataProxmoxVirtualEnvironmentAptRepositoryConfig extends cdktf.
   /**
   * The absolute path of the source list file that contains this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository#file_path DataProxmoxVirtualEnvironmentAptRepository#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository#file_path DataProxmoxVirtualEnvironmentAptRepository#file_path}
   */
   readonly filePath: string;
   /**
   * The index within the defining source list file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository#index DataProxmoxVirtualEnvironmentAptRepository#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository#index DataProxmoxVirtualEnvironmentAptRepository#index}
   */
   readonly index: number;
   /**
   * The name of the target Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository#node DataProxmoxVirtualEnvironmentAptRepository#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository#node DataProxmoxVirtualEnvironmentAptRepository#node}
   */
   readonly nodeAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository}
 */
 export class DataProxmoxVirtualEnvironmentAptRepository extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataProxmoxVirtualEnvironmentAptRepository extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentAptRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentAptRepository to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentAptRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentAptRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentAptRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataProxmoxVirtualEnvironmentAptRepository extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataProxmoxVirtualEnvironmentAptRepository extends cdktf.TerraformD
       terraformResourceType: 'proxmox_virtual_environment_apt_repository',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

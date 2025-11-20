@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VirtualEnvironmentFileConfig extends cdktf.TerraformMetaArgumen
   /**
   * The content type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#content_type VirtualEnvironmentFile#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#content_type VirtualEnvironmentFile#content_type}
   */
   readonly contentType?: string;
   /**
   * The datastore id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#datastore_id VirtualEnvironmentFile#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#datastore_id VirtualEnvironmentFile#datastore_id}
   */
   readonly datastoreId: string;
   /**
   * The file mode in octal format, e.g. "0700" or "600".Note that the prefixes "0o" and "0x" are not supported!Setting this attribute is also only allowed for "root@pam" authenticated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#file_mode VirtualEnvironmentFile#file_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#file_mode VirtualEnvironmentFile#file_mode}
   */
   readonly fileMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#id VirtualEnvironmentFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#id VirtualEnvironmentFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface VirtualEnvironmentFileConfig extends cdktf.TerraformMetaArgumen
   /**
   * The node name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#node_name VirtualEnvironmentFile#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#node_name VirtualEnvironmentFile#node_name}
   */
   readonly nodeName: string;
   /**
   * Whether to overwrite the file if it already exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#overwrite VirtualEnvironmentFile#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#overwrite VirtualEnvironmentFile#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * Timeout for uploading ISO/VSTMPL files in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#timeout_upload VirtualEnvironmentFile#timeout_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#timeout_upload VirtualEnvironmentFile#timeout_upload}
   */
   readonly timeoutUpload?: number;
   /**
   * source_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#source_file VirtualEnvironmentFile#source_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#source_file VirtualEnvironmentFile#source_file}
   */
   readonly sourceFile?: VirtualEnvironmentFileSourceFile;
   /**
   * source_raw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#source_raw VirtualEnvironmentFile#source_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#source_raw VirtualEnvironmentFile#source_raw}
   */
   readonly sourceRaw?: VirtualEnvironmentFileSourceRaw;
 }
@@ -67,37 +67,37 @@ export interface VirtualEnvironmentFileSourceFile {
   /**
   * Whether the source file has changed since the last run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#changed VirtualEnvironmentFile#changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#changed VirtualEnvironmentFile#changed}
   */
   readonly changed?: boolean | cdktf.IResolvable;
   /**
   * The SHA256 checksum of the source file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#checksum VirtualEnvironmentFile#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#checksum VirtualEnvironmentFile#checksum}
   */
   readonly checksum?: string;
   /**
   * The file name to use instead of the source file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#file_name VirtualEnvironmentFile#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#file_name VirtualEnvironmentFile#file_name}
   */
   readonly fileName?: string;
   /**
   * Whether to skip the TLS verification step for HTTPS sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#insecure VirtualEnvironmentFile#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#insecure VirtualEnvironmentFile#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The minimum required TLS version for HTTPS sources.Supported values: `1.0|1.1|1.2|1.3`. Defaults to `1.3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#min_tls VirtualEnvironmentFile#min_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#min_tls VirtualEnvironmentFile#min_tls}
   */
   readonly minTls?: string;
   /**
   * A path to a local file or a URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#path VirtualEnvironmentFile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#path VirtualEnvironmentFile#path}
   */
   readonly path: string;
 }
@@ -325,19 +325,19 @@ export interface VirtualEnvironmentFileSourceRaw {
   /**
   * The raw data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#data VirtualEnvironmentFile#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#data VirtualEnvironmentFile#data}
   */
   readonly data: string;
   /**
   * The file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#file_name VirtualEnvironmentFile#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#file_name VirtualEnvironmentFile#file_name}
   */
   readonly fileName: string;
   /**
   * The number of bytes to resize the file to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#resize VirtualEnvironmentFile#resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#resize VirtualEnvironmentFile#resize}
   */
   readonly resize?: number;
 }
@@ -473,7 +473,7 @@ export class VirtualEnvironmentFileSourceRawOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file proxmox_virtual_environment_file}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file proxmox_virtual_environment_file}
 */
 export class VirtualEnvironmentFile extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class VirtualEnvironmentFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentFile to import
-  * @param importFromId The id of the existing VirtualEnvironmentFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class VirtualEnvironmentFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_file proxmox_virtual_environment_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_file proxmox_virtual_environment_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class VirtualEnvironmentFile extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_file',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

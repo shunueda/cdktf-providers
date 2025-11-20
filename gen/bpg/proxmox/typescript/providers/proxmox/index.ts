@@ -27,6 +27,7 @@ export * as virtualEnvironmentMetricsServer from './virtual-environment-metrics-
 export * as virtualEnvironmentNetworkLinuxBridge from './virtual-environment-network-linux-bridge';
 export * as virtualEnvironmentNetworkLinuxVlan from './virtual-environment-network-linux-vlan';
 export * as virtualEnvironmentPool from './virtual-environment-pool';
+export * as virtualEnvironmentPoolMembership from './virtual-environment-pool-membership';
 export * as virtualEnvironmentRole from './virtual-environment-role';
 export * as virtualEnvironmentSdnApplier from './virtual-environment-sdn-applier';
 export * as virtualEnvironmentSdnSubnet from './virtual-environment-sdn-subnet';
@@ -72,6 +73,7 @@ export * as dataProxmoxVirtualEnvironmentRole from './data-proxmox-virtual-envir
 export * as dataProxmoxVirtualEnvironmentRoles from './data-proxmox-virtual-environment-roles';
 export * as dataProxmoxVirtualEnvironmentSdnSubnet from './data-proxmox-virtual-environment-sdn-subnet';
 export * as dataProxmoxVirtualEnvironmentSdnVnet from './data-proxmox-virtual-environment-sdn-vnet';
+export * as dataProxmoxVirtualEnvironmentSdnVnets from './data-proxmox-virtual-environment-sdn-vnets';
 export * as dataProxmoxVirtualEnvironmentSdnZoneEvpn from './data-proxmox-virtual-environment-sdn-zone-evpn';
 export * as dataProxmoxVirtualEnvironmentSdnZoneQinq from './data-proxmox-virtual-environment-sdn-zone-qinq';
 export * as dataProxmoxVirtualEnvironmentSdnZoneSimple from './data-proxmox-virtual-environment-sdn-zone-simple';

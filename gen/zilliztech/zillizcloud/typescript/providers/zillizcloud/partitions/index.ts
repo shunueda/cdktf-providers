@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface PartitionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the collection containing the partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions#collection_name Partitions#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions#collection_name Partitions#collection_name}
   */
   readonly collectionName: string;
   /**
@@ -23,25 +23,25 @@ export interface PartitionsConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions#connect_address Partitions#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions#connect_address Partitions#connect_address}
   */
   readonly connectAddress: string;
   /**
   * The name of the database containing the partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions#db_name Partitions#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions#db_name Partitions#db_name}
   */
   readonly dbName: string;
   /**
   * The name of the partition. (Can be updated in-place)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions#partition_name Partitions#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions#partition_name Partitions#partition_name}
   */
   readonly partitionName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions zillizcloud_partitions}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions zillizcloud_partitions}
 */
 export class Partitions extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Partitions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Partitions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Partitions to import
-  * @param importFromId The id of the existing Partitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Partitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Partitions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Partitions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/partitions zillizcloud_partitions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/partitions zillizcloud_partitions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Partitions extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_partitions',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

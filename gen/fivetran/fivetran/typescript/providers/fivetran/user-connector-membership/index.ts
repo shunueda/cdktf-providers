@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface UserConnectorMembershipConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the user within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership#user_id UserConnectorMembership#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership#user_id UserConnectorMembership#user_id}
   */
   readonly userId: string;
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership#connector UserConnectorMembership#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership#connector UserConnectorMembership#connector}
   */
   readonly connector?: UserConnectorMembershipConnector[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface UserConnectorMembershipConnector {
   /**
   * The connector unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership#connector_id UserConnectorMembership#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership#connector_id UserConnectorMembership#connector_id}
   */
   readonly connectorId: string;
   /**
   * The user's role that links the user and the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership#role UserConnectorMembership#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership#role UserConnectorMembership#role}
   */
   readonly role: string;
 }
@@ -174,7 +174,7 @@ export class UserConnectorMembershipConnectorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership fivetran_user_connector_membership}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership fivetran_user_connector_membership}
 */
 export class UserConnectorMembership extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class UserConnectorMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserConnectorMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserConnectorMembership to import
-  * @param importFromId The id of the existing UserConnectorMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserConnectorMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserConnectorMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class UserConnectorMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/user_connector_membership fivetran_user_connector_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/user_connector_membership fivetran_user_connector_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class UserConnectorMembership extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_user_connector_membership',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

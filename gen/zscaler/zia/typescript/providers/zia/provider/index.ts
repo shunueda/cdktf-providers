@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,101 +8,101 @@ import * as cdktf from 'cdktf';
 
 export interface ZiaProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#api_key ZiaProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#api_key ZiaProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * zpa client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#client_id ZiaProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#client_id ZiaProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * zpa client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#client_secret ZiaProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#client_secret ZiaProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Alternate HTTP proxy of scheme://hostname or scheme://hostname:port format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#http_proxy ZiaProvider#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#http_proxy ZiaProvider#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * maximum number of retries to attempt before erroring out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#max_retries ZiaProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#max_retries ZiaProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Number of concurrent requests to make within a resource where bulk operations are not possible. Take note of https://help.zscaler.com/oneapi/understanding-rate-limiting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#parallelism ZiaProvider#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#parallelism ZiaProvider#parallelism}
   */
   readonly parallelism?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#password ZiaProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#password ZiaProvider#password}
   */
   readonly password?: string;
   /**
   * zpa private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#private_key ZiaProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#private_key ZiaProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * Timeout for single request (in seconds) which is made to Zscaler, the default is `0` (means no limit is set). The maximum value can be `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#request_timeout ZiaProvider#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#request_timeout ZiaProvider#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Zscaler Sandbox Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#sandbox_cloud ZiaProvider#sandbox_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#sandbox_cloud ZiaProvider#sandbox_cloud}
   */
   readonly sandboxCloud?: string;
   /**
   * Zscaler Sandbox Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#sandbox_token ZiaProvider#sandbox_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#sandbox_token ZiaProvider#sandbox_token}
   */
   readonly sandboxToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#use_legacy_client ZiaProvider#use_legacy_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#use_legacy_client ZiaProvider#use_legacy_client}
   */
   readonly useLegacyClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#username ZiaProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#username ZiaProvider#username}
   */
   readonly username?: string;
   /**
   * Zscaler Vanity Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#vanity_domain ZiaProvider#vanity_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#vanity_domain ZiaProvider#vanity_domain}
   */
   readonly vanityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#zia_cloud ZiaProvider#zia_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#zia_cloud ZiaProvider#zia_cloud}
   */
   readonly ziaCloud?: string;
   /**
   * Zscaler Cloud Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#zscaler_cloud ZiaProvider#zscaler_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#zscaler_cloud ZiaProvider#zscaler_cloud}
   */
   readonly zscalerCloud?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#alias ZiaProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#alias ZiaProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs zia}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs zia}
 */
 export class ZiaProvider extends cdktf.TerraformProvider {
 
@@ -118,7 +118,7 @@ export class ZiaProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ZiaProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZiaProvider to import
-  * @param importFromId The id of the existing ZiaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZiaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZiaProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class ZiaProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs zia} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs zia} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class ZiaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zia',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       terraformProviderSource: 'zscaler/zia'
     });

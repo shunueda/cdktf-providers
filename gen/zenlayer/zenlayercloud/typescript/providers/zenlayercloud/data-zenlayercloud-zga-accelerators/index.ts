@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataZenlayercloudZgaAcceleratorsConfig extends cdktf.TerraformM
   /**
   * Accelerate region of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#accelerate_region_id DataZenlayercloudZgaAccelerators#accelerate_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#accelerate_region_id DataZenlayercloudZgaAccelerators#accelerate_region_id}
   */
   readonly accelerateRegionId?: string;
   /**
   * IDs of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#accelerator_ids DataZenlayercloudZgaAccelerators#accelerator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#accelerator_ids DataZenlayercloudZgaAccelerators#accelerator_ids}
   */
   readonly acceleratorIds?: string[];
   /**
   * The name of accelerator. The max length of accelerator name is 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#accelerator_name DataZenlayercloudZgaAccelerators#accelerator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#accelerator_name DataZenlayercloudZgaAccelerators#accelerator_name}
   */
   readonly acceleratorName?: string;
   /**
   * Status of the accelerator to be queried. Valid values are `Accelerating`, `NotAccelerate`, `Deploying`, `StopAccelerate`, `AccelerateFailure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#accelerator_status DataZenlayercloudZgaAccelerators#accelerator_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#accelerator_status DataZenlayercloudZgaAccelerators#accelerator_status}
   */
   readonly acceleratorStatus?: string;
   /**
   * Cname of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#cname DataZenlayercloudZgaAccelerators#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#cname DataZenlayercloudZgaAccelerators#cname}
   */
   readonly cname?: string;
   /**
   * Domain of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#domain DataZenlayercloudZgaAccelerators#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#domain DataZenlayercloudZgaAccelerators#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#id DataZenlayercloudZgaAccelerators#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#id DataZenlayercloudZgaAccelerators#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,31 +53,31 @@ export interface DataZenlayercloudZgaAcceleratorsConfig extends cdktf.TerraformM
   /**
   * Origin of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#origin DataZenlayercloudZgaAccelerators#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#origin DataZenlayercloudZgaAccelerators#origin}
   */
   readonly origin?: string;
   /**
   * Origin region of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#origin_region_id DataZenlayercloudZgaAccelerators#origin_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#origin_region_id DataZenlayercloudZgaAccelerators#origin_region_id}
   */
   readonly originRegionId?: string;
   /**
   * The ID of resource group that the accelerator grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#resource_group_id DataZenlayercloudZgaAccelerators#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#resource_group_id DataZenlayercloudZgaAccelerators#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#result_output_file DataZenlayercloudZgaAccelerators#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#result_output_file DataZenlayercloudZgaAccelerators#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Virtual IP of the accelerator to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#vip DataZenlayercloudZgaAccelerators#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#vip DataZenlayercloudZgaAccelerators#vip}
   */
   readonly vip?: string;
 }
@@ -1046,7 +1046,7 @@ export class DataZenlayercloudZgaAcceleratorsAcceleratorsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators zenlayercloud_zga_accelerators}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators zenlayercloud_zga_accelerators}
 */
 export class DataZenlayercloudZgaAccelerators extends cdktf.TerraformDataSource {
 
@@ -1062,7 +1062,7 @@ export class DataZenlayercloudZgaAccelerators extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataZenlayercloudZgaAccelerators resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZenlayercloudZgaAccelerators to import
-  * @param importFromId The id of the existing DataZenlayercloudZgaAccelerators that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZenlayercloudZgaAccelerators that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZenlayercloudZgaAccelerators to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1074,7 +1074,7 @@ export class DataZenlayercloudZgaAccelerators extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/data-sources/zga_accelerators zenlayercloud_zga_accelerators} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/data-sources/zga_accelerators zenlayercloud_zga_accelerators} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1085,8 +1085,8 @@ export class DataZenlayercloudZgaAccelerators extends cdktf.TerraformDataSource 
       terraformResourceType: 'zenlayercloud_zga_accelerators',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8',
-        providerVersionConstraint: '0.2.8'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

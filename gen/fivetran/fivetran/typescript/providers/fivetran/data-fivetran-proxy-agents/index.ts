@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/proxy_agents
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/proxy_agents
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranProxyAgentsConfig extends cdktf.TerraformMetaArgume
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/proxy_agents#items DataFivetranProxyAgents#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/proxy_agents#items DataFivetranProxyAgents#items}
   */
   readonly items?: DataFivetranProxyAgentsItems[] | cdktf.IResolvable;
 }
@@ -18,7 +18,7 @@ export interface DataFivetranProxyAgentsItems {
   /**
   * The unique identifier for the proxy within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/proxy_agents#id DataFivetranProxyAgents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/proxy_agents#id DataFivetranProxyAgents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -154,7 +154,7 @@ export class DataFivetranProxyAgentsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/proxy_agents fivetran_proxy_agents}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/proxy_agents fivetran_proxy_agents}
 */
 export class DataFivetranProxyAgents extends cdktf.TerraformDataSource {
 
@@ -170,7 +170,7 @@ export class DataFivetranProxyAgents extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranProxyAgents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranProxyAgents to import
-  * @param importFromId The id of the existing DataFivetranProxyAgents that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/proxy_agents#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranProxyAgents that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/proxy_agents#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranProxyAgents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class DataFivetranProxyAgents extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/proxy_agents fivetran_proxy_agents} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/proxy_agents fivetran_proxy_agents} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class DataFivetranProxyAgents extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_proxy_agents',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

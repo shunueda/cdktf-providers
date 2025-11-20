@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DlpNotificationTemplatesConfig extends cdktf.TerraformMetaArgum
   /**
   * f set to true, the content that is violation is attached to the DLP notification email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#attach_content DlpNotificationTemplates#attach_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#attach_content DlpNotificationTemplates#attach_content}
   */
   readonly attachContent?: boolean | cdktf.IResolvable;
   /**
   * The template for the HTML message body that must be displayed in the DLP notification email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#html_message DlpNotificationTemplates#html_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#html_message DlpNotificationTemplates#html_message}
   */
   readonly htmlMessage: string;
   /**
   * The DLP notification template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#name DlpNotificationTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#name DlpNotificationTemplates#name}
   */
   readonly name: string;
   /**
   * The template for the plain text UTF-8 message body that must be displayed in the DLP notification email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#plain_text_message DlpNotificationTemplates#plain_text_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#plain_text_message DlpNotificationTemplates#plain_text_message}
   */
   readonly plainTextMessage: string;
   /**
   * The Subject line that is displayed within the DLP notification email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#subject DlpNotificationTemplates#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#subject DlpNotificationTemplates#subject}
   */
   readonly subject: string;
   /**
   * If set to true, TLS will be enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#tls_enabled DlpNotificationTemplates#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#tls_enabled DlpNotificationTemplates#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates zia_dlp_notification_templates}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates zia_dlp_notification_templates}
 */
 export class DlpNotificationTemplates extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class DlpNotificationTemplates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlpNotificationTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlpNotificationTemplates to import
-  * @param importFromId The id of the existing DlpNotificationTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlpNotificationTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlpNotificationTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DlpNotificationTemplates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/dlp_notification_templates zia_dlp_notification_templates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/dlp_notification_templates zia_dlp_notification_templates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DlpNotificationTemplates extends cdktf.TerraformResource {
       terraformResourceType: 'zia_dlp_notification_templates',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

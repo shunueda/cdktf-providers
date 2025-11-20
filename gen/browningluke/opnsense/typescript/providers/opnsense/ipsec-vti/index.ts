@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IpsecVtiConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#description IpsecVti#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#description IpsecVti#description}
   */
   readonly description?: string;
   /**
   * Enable or disable the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#enabled IpsecVti#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#enabled IpsecVti#enabled}
   */
   readonly enabled?: string;
   /**
   * Local IP address for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#local_ip IpsecVti#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#local_ip IpsecVti#local_ip}
   */
   readonly localIp: string;
   /**
   * Remote IP address for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#remote_ip IpsecVti#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#remote_ip IpsecVti#remote_ip}
   */
   readonly remoteIp: string;
   /**
   * Request ID for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#request_id IpsecVti#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#request_id IpsecVti#request_id}
   */
   readonly requestId: string;
   /**
   * Local tunnel IP address for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#tunnel_local_ip IpsecVti#tunnel_local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#tunnel_local_ip IpsecVti#tunnel_local_ip}
   */
   readonly tunnelLocalIp: string;
   /**
   * Second local tunnel IP address for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#tunnel_local_ip2 IpsecVti#tunnel_local_ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#tunnel_local_ip2 IpsecVti#tunnel_local_ip2}
   */
   readonly tunnelLocalIp2?: string;
   /**
   * Remote tunnel IP address for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#tunnel_remote_ip IpsecVti#tunnel_remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#tunnel_remote_ip IpsecVti#tunnel_remote_ip}
   */
   readonly tunnelRemoteIp: string;
   /**
   * Second remote tunnel IP address for the VTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#tunnel_remote_ip2 IpsecVti#tunnel_remote_ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#tunnel_remote_ip2 IpsecVti#tunnel_remote_ip2}
   */
   readonly tunnelRemoteIp2?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti opnsense_ipsec_vti}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti opnsense_ipsec_vti}
 */
 export class IpsecVti extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class IpsecVti extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecVti resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecVti to import
-  * @param importFromId The id of the existing IpsecVti that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecVti that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecVti to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class IpsecVti extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_vti opnsense_ipsec_vti} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_vti opnsense_ipsec_vti} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class IpsecVti extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_vti',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

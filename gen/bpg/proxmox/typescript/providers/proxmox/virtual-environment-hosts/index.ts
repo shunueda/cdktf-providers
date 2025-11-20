@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualEnvironmentHostsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts#id VirtualEnvironmentHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts#id VirtualEnvironmentHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface VirtualEnvironmentHostsConfig extends cdktf.TerraformMetaArgume
   /**
   * The node name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts#node_name VirtualEnvironmentHosts#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts#node_name VirtualEnvironmentHosts#node_name}
   */
   readonly nodeName: string;
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts#entry VirtualEnvironmentHosts#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts#entry VirtualEnvironmentHosts#entry}
   */
   readonly entry: VirtualEnvironmentHostsEntry[] | cdktf.IResolvable;
 }
@@ -111,13 +111,13 @@ export interface VirtualEnvironmentHostsEntry {
   /**
   * The address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts#address VirtualEnvironmentHosts#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts#address VirtualEnvironmentHosts#address}
   */
   readonly address: string;
   /**
   * The hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts#hostnames VirtualEnvironmentHosts#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts#hostnames VirtualEnvironmentHosts#hostnames}
   */
   readonly hostnames: string[];
 }
@@ -256,7 +256,7 @@ export class VirtualEnvironmentHostsEntryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts proxmox_virtual_environment_hosts}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts proxmox_virtual_environment_hosts}
 */
 export class VirtualEnvironmentHosts extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class VirtualEnvironmentHosts extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentHosts to import
-  * @param importFromId The id of the existing VirtualEnvironmentHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class VirtualEnvironmentHosts extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hosts proxmox_virtual_environment_hosts} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hosts proxmox_virtual_environment_hosts} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class VirtualEnvironmentHosts extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_hosts',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

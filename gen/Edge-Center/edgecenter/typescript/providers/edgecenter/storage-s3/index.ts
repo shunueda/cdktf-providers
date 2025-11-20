@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface StorageS3Config extends cdktf.TerraformMetaArguments {
   /**
   * An client id of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#client_id StorageS3#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#client_id StorageS3#client_id}
   */
   readonly clientId?: number;
   /**
   * A s3 access key for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#generated_access_key StorageS3#generated_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#generated_access_key StorageS3#generated_access_key}
   */
   readonly generatedAccessKey?: string;
   /**
   * A s3 entry point for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#generated_endpoint StorageS3#generated_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#generated_endpoint StorageS3#generated_endpoint}
   */
   readonly generatedEndpoint?: string;
   /**
   * A http s3 entry point for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#generated_http_endpoint StorageS3#generated_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#generated_http_endpoint StorageS3#generated_http_endpoint}
   */
   readonly generatedHttpEndpoint?: string;
   /**
   * A s3 endpoint for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#generated_s3_endpoint StorageS3#generated_s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#generated_s3_endpoint StorageS3#generated_s3_endpoint}
   */
   readonly generatedS3Endpoint?: string;
   /**
   * A s3 secret key for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#generated_secret_key StorageS3#generated_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#generated_secret_key StorageS3#generated_secret_key}
   */
   readonly generatedSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#id StorageS3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#id StorageS3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface StorageS3Config extends cdktf.TerraformMetaArguments {
   /**
   * A location of new storage resource. list of location allowed for you provided by https://apidocs.edgecenter.ru/storage#tag/Locations or  https://storage.edgecenter.ru/storage/list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#location StorageS3#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#location StorageS3#location}
   */
   readonly location: string;
   /**
   * A name of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#name StorageS3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#name StorageS3#name}
   */
   readonly name: string;
   /**
   * An id of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#storage_id StorageS3#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#storage_id StorageS3#storage_id}
   */
   readonly storageId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3 edgecenter_storage_s3}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3 edgecenter_storage_s3}
 */
 export class StorageS3 extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class StorageS3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageS3 to import
-  * @param importFromId The id of the existing StorageS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class StorageS3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/storage_s3 edgecenter_storage_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/storage_s3 edgecenter_storage_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class StorageS3 extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_storage_s3',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

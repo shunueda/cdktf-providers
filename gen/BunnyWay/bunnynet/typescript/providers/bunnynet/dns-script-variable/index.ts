@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DnsScriptVariableConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable#name DnsScriptVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable#name DnsScriptVariable#name}
   */
   readonly name: string;
   /**
   * The ID of the associated DNS script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable#script DnsScriptVariable#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable#script DnsScriptVariable#script}
   */
   readonly script: number;
   /**
   * The value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable#value DnsScriptVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable#value DnsScriptVariable#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable bunnynet_dns_script_variable}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable bunnynet_dns_script_variable}
 */
 export class DnsScriptVariable extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class DnsScriptVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsScriptVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsScriptVariable to import
-  * @param importFromId The id of the existing DnsScriptVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsScriptVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsScriptVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DnsScriptVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_script_variable bunnynet_dns_script_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_script_variable bunnynet_dns_script_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DnsScriptVariable extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_dns_script_variable',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

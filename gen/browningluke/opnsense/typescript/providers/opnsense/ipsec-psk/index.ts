@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IpsecPskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description for the PSK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk#description IpsecPsk#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk#description IpsecPsk#description}
   */
   readonly description?: string;
   /**
   * Local identity for the PSK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk#identity_local IpsecPsk#identity_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk#identity_local IpsecPsk#identity_local}
   */
   readonly identityLocal: string;
   /**
   * Remote identity for the PSK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk#identity_remote IpsecPsk#identity_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk#identity_remote IpsecPsk#identity_remote}
   */
   readonly identityRemote: string;
   /**
   * The pre-shared key used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk#pre_shared_key IpsecPsk#pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk#pre_shared_key IpsecPsk#pre_shared_key}
   */
   readonly preSharedKey: string;
   /**
   * Type of the pre-shared key. Valid values are 'PSK' (traditional pre-shared key) or 'EAP' (for EAP-MSCHAPv2 authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk#type IpsecPsk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk#type IpsecPsk#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk opnsense_ipsec_psk}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk opnsense_ipsec_psk}
 */
 export class IpsecPsk extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IpsecPsk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecPsk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecPsk to import
-  * @param importFromId The id of the existing IpsecPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecPsk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IpsecPsk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_psk opnsense_ipsec_psk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_psk opnsense_ipsec_psk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IpsecPsk extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_psk',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

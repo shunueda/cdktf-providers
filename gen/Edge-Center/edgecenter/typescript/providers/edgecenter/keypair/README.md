@@ -1,3 +1,3 @@
 # `edgecenter_keypair`
 
-Refer to the Terraform Registry for docs: [`edgecenter_keypair`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/keypair).
+Refer to the Terraform Registry for docs: [`edgecenter_keypair`](https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/keypair).

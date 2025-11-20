@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VirtualEnvironmentClusterFirewallSecurityGroupConfig extends cd
   /**
   * Security group comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#comment VirtualEnvironmentClusterFirewallSecurityGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#comment VirtualEnvironmentClusterFirewallSecurityGroup#comment}
   */
   readonly comment?: string;
   /**
   * The ID of the container to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#container_id VirtualEnvironmentClusterFirewallSecurityGroup#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#container_id VirtualEnvironmentClusterFirewallSecurityGroup#container_id}
   */
   readonly containerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#id VirtualEnvironmentClusterFirewallSecurityGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#id VirtualEnvironmentClusterFirewallSecurityGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,105 +29,105 @@ export interface VirtualEnvironmentClusterFirewallSecurityGroupConfig extends cd
   /**
   * Security group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#name VirtualEnvironmentClusterFirewallSecurityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#name VirtualEnvironmentClusterFirewallSecurityGroup#name}
   */
   readonly name: string;
   /**
   * The name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#node_name VirtualEnvironmentClusterFirewallSecurityGroup#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#node_name VirtualEnvironmentClusterFirewallSecurityGroup#node_name}
   */
   readonly nodeName?: string;
   /**
   * The ID of the VM to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#vm_id VirtualEnvironmentClusterFirewallSecurityGroup#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#vm_id VirtualEnvironmentClusterFirewallSecurityGroup#vm_id}
   */
   readonly vmId?: number;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#rule VirtualEnvironmentClusterFirewallSecurityGroup#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#rule VirtualEnvironmentClusterFirewallSecurityGroup#rule}
   */
-  readonly rule: VirtualEnvironmentClusterFirewallSecurityGroupRule[] | cdktf.IResolvable;
+  readonly rule?: VirtualEnvironmentClusterFirewallSecurityGroupRule[] | cdktf.IResolvable;
 }
 export interface VirtualEnvironmentClusterFirewallSecurityGroupRule {
   /**
   * Rules action ('ACCEPT', 'DROP', 'REJECT')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#action VirtualEnvironmentClusterFirewallSecurityGroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#action VirtualEnvironmentClusterFirewallSecurityGroup#action}
   */
   readonly action?: string;
   /**
   * Rules comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#comment VirtualEnvironmentClusterFirewallSecurityGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#comment VirtualEnvironmentClusterFirewallSecurityGroup#comment}
   */
   readonly comment?: string;
   /**
   * Restrict packet destination address. This can refer to a single IP address, an IP set ('+ipsetname') or an IP alias definition. You can also specify an address range like '20.34.101.207-201.3.9.99', or a list of IP addresses and networks (entries are separated by comma). Please do not mix IPv4 and IPv6 addresses inside such lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#dest VirtualEnvironmentClusterFirewallSecurityGroup#dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#dest VirtualEnvironmentClusterFirewallSecurityGroup#dest}
   */
   readonly dest?: string;
   /**
   * Restrict TCP/UDP destination port. You can use service names or simple numbers (0-65535), as defined in '/etc/services'. Port ranges can be specified with '\d+:\d+', for example '80:85', and you can use comma separated list to match several ports or ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#dport VirtualEnvironmentClusterFirewallSecurityGroup#dport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#dport VirtualEnvironmentClusterFirewallSecurityGroup#dport}
   */
   readonly dport?: string;
   /**
   * Enable rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#enabled VirtualEnvironmentClusterFirewallSecurityGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#enabled VirtualEnvironmentClusterFirewallSecurityGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Network interface name. You have to use network configuration key names for VMs and containers ('net\d+'). Host related rules can use arbitrary strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#iface VirtualEnvironmentClusterFirewallSecurityGroup#iface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#iface VirtualEnvironmentClusterFirewallSecurityGroup#iface}
   */
   readonly iface?: string;
   /**
   * Log level for this rule ('emerg', 'alert', 'crit', 'err', 'warning', 'notice', 'info', 'debug', 'nolog')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#log VirtualEnvironmentClusterFirewallSecurityGroup#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#log VirtualEnvironmentClusterFirewallSecurityGroup#log}
   */
   readonly log?: string;
   /**
   * Use predefined standard macro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#macro VirtualEnvironmentClusterFirewallSecurityGroup#macro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#macro VirtualEnvironmentClusterFirewallSecurityGroup#macro}
   */
   readonly macro?: string;
   /**
   * Restrict packet protocol. You can use protocol names or simple numbers (0-255), as defined in '/etc/protocols'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#proto VirtualEnvironmentClusterFirewallSecurityGroup#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#proto VirtualEnvironmentClusterFirewallSecurityGroup#proto}
   */
   readonly proto?: string;
   /**
   * Security group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#security_group VirtualEnvironmentClusterFirewallSecurityGroup#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#security_group VirtualEnvironmentClusterFirewallSecurityGroup#security_group}
   */
   readonly securityGroup?: string;
   /**
   * Restrict packet source address. This can refer to a single IP address, an IP set ('+ipsetname') or an IP alias definition. You can also specify an address range like '20.34.101.207-201.3.9.99', or a list of IP addresses and networks (entries are separated by comma). Please do not mix IPv4 and IPv6 addresses inside such lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#source VirtualEnvironmentClusterFirewallSecurityGroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#source VirtualEnvironmentClusterFirewallSecurityGroup#source}
   */
   readonly source?: string;
   /**
   * Restrict TCP/UDP source port. You can use service names or simple numbers (0-65535), as defined in '/etc/services'. Port ranges can be specified with '\d+:\d+', for example '80:85', and you can use comma separated list to match several ports or ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#sport VirtualEnvironmentClusterFirewallSecurityGroup#sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#sport VirtualEnvironmentClusterFirewallSecurityGroup#sport}
   */
   readonly sport?: string;
   /**
   * Rules type ('in', 'out', 'forward')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#type VirtualEnvironmentClusterFirewallSecurityGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#type VirtualEnvironmentClusterFirewallSecurityGroup#type}
   */
   readonly type?: string;
 }
@@ -596,7 +596,7 @@ export class VirtualEnvironmentClusterFirewallSecurityGroupRuleList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group proxmox_virtual_environment_cluster_firewall_security_group}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group proxmox_virtual_environment_cluster_firewall_security_group}
 */
 export class VirtualEnvironmentClusterFirewallSecurityGroup extends cdktf.TerraformResource {
 
@@ -612,7 +612,7 @@ export class VirtualEnvironmentClusterFirewallSecurityGroup extends cdktf.Terraf
   * Generates CDKTF code for importing a VirtualEnvironmentClusterFirewallSecurityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentClusterFirewallSecurityGroup to import
-  * @param importFromId The id of the existing VirtualEnvironmentClusterFirewallSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentClusterFirewallSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentClusterFirewallSecurityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +624,7 @@ export class VirtualEnvironmentClusterFirewallSecurityGroup extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall_security_group proxmox_virtual_environment_cluster_firewall_security_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall_security_group proxmox_virtual_environment_cluster_firewall_security_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,8 +635,8 @@ export class VirtualEnvironmentClusterFirewallSecurityGroup extends cdktf.Terraf
       terraformResourceType: 'proxmox_virtual_environment_cluster_firewall_security_group',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -752,13 +752,16 @@ export class VirtualEnvironmentClusterFirewallSecurityGroup extends cdktf.Terraf
     return this._vmId;
   }
 
-  // rule - computed: false, optional: false, required: true
+  // rule - computed: false, optional: true, required: false
   private _rule = new VirtualEnvironmentClusterFirewallSecurityGroupRuleList(this, "rule", false);
   public get rule() {
     return this._rule;
   }
   public putRule(value: VirtualEnvironmentClusterFirewallSecurityGroupRule[] | cdktf.IResolvable) {
     this._rule.internalValue = value;
+  }
+  public resetRule() {
+    this._rule.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get ruleInput() {

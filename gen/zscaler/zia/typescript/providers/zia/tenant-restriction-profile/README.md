@@ -1,3 +1,3 @@
 # `zia_tenant_restriction_profile`
 
-Refer to the Terraform Registry for docs: [`zia_tenant_restriction_profile`](https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/tenant_restriction_profile).
+Refer to the Terraform Registry for docs: [`zia_tenant_restriction_profile`](https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/tenant_restriction_profile).

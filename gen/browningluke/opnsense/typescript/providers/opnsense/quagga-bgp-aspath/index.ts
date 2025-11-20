@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface QuaggaBgpAspathConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set permit for match or deny to negate the rule. Defaults to `"permit"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath#action QuaggaBgpAspath#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath#action QuaggaBgpAspath#action}
   */
   readonly action?: string;
   /**
   * The AS pattern you want to match, regexp allowed (e.g. `.$` or `_1$`). It's not validated so please be careful!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath#as QuaggaBgpAspath#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath#as QuaggaBgpAspath#as}
   */
   readonly as: string;
   /**
   * An optional description for this AS path. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath#description QuaggaBgpAspath#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath#description QuaggaBgpAspath#description}
   */
   readonly description?: string;
   /**
   * Enable this AS path. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath#enabled QuaggaBgpAspath#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath#enabled QuaggaBgpAspath#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The ACL rule number (0-4294967294); keep in mind that there are no sequence numbers with AS-Path lists. When you want to add a new line between you have to completely remove the ACL!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath#number QuaggaBgpAspath#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath#number QuaggaBgpAspath#number}
   */
   readonly number: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath opnsense_quagga_bgp_aspath}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath opnsense_quagga_bgp_aspath}
 */
 export class QuaggaBgpAspath extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class QuaggaBgpAspath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuaggaBgpAspath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuaggaBgpAspath to import
-  * @param importFromId The id of the existing QuaggaBgpAspath that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuaggaBgpAspath that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuaggaBgpAspath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class QuaggaBgpAspath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_aspath opnsense_quagga_bgp_aspath} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_aspath opnsense_quagga_bgp_aspath} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class QuaggaBgpAspath extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_quagga_bgp_aspath',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ZecSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ipv4 cidr block. A network address block which should be a subnet of the three internal network segments (10.0.0.0/8, 172.16.0.0/12 and 192.168.0.0/16). Once the cidr_block is present, disable it will cause the resource to `ForceNew`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#cidr_block ZecSubnet#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#cidr_block ZecSubnet#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#id ZecSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#id ZecSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ZecSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv6 type. Valid values: `Public`, `Private`. Once the value is present, Change it between `Private` and `Public` will cause the resource to `ForceNew`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#ipv6_type ZecSubnet#ipv6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#ipv6_type ZecSubnet#ipv6_type}
   */
   readonly ipv6Type?: string;
   /**
   * The name of the subnet, the default value is 'Terraform-Subnet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#name ZecSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#name ZecSubnet#name}
   */
   readonly name?: string;
   /**
   * The region that the subnet locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#region_id ZecSubnet#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#region_id ZecSubnet#region_id}
   */
   readonly regionId: string;
   /**
   * ID of the VPC to be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#vpc_id ZecSubnet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#vpc_id ZecSubnet#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet zenlayercloud_zec_subnet}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet zenlayercloud_zec_subnet}
 */
 export class ZecSubnet extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ZecSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZecSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZecSubnet to import
-  * @param importFromId The id of the existing ZecSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZecSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZecSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ZecSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/zec_subnet zenlayercloud_zec_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/zec_subnet zenlayercloud_zec_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ZecSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_subnet',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8',
-        providerVersionConstraint: '0.2.8'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

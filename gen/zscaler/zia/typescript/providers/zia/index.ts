@@ -21,6 +21,7 @@ export * as casbMalwareRules from './casb-malware-rules';
 export * as cloudAppControlRule from './cloud-app-control-rule';
 export * as cloudApplicationInstance from './cloud-application-instance';
 export * as cloudNssFeed from './cloud-nss-feed';
+export * as customFileTypes from './custom-file-types';
 export * as dlpDictionaries from './dlp-dictionaries';
 export * as dlpEngines from './dlp-engines';
 export * as dlpNotificationTemplates from './dlp-notification-templates';
@@ -88,6 +89,7 @@ export * as dataZiaCloudApplicationInstance from './data-zia-cloud-application-i
 export * as dataZiaCloudApplications from './data-zia-cloud-applications';
 export * as dataZiaCloudBrowserIsolationProfile from './data-zia-cloud-browser-isolation-profile';
 export * as dataZiaCloudNssFeed from './data-zia-cloud-nss-feed';
+export * as dataZiaCustomFileTypes from './data-zia-custom-file-types';
 export * as dataZiaDepartmentManagement from './data-zia-department-management';
 export * as dataZiaDeviceGroups from './data-zia-device-groups';
 export * as dataZiaDevices from './data-zia-devices';
@@ -104,6 +106,7 @@ export * as dataZiaDlpNotificationTemplates from './data-zia-dlp-notification-te
 export * as dataZiaDlpWebRules from './data-zia-dlp-web-rules';
 export * as dataZiaDomainProfiles from './data-zia-domain-profiles';
 export * as dataZiaEndUserNotification from './data-zia-end-user-notification';
+export * as dataZiaFileTypeCategories from './data-zia-file-type-categories';
 export * as dataZiaFileTypeControlRules from './data-zia-file-type-control-rules';
 export * as dataZiaFirewallDnsRule from './data-zia-firewall-dns-rule';
 export * as dataZiaFirewallFilteringApplicationServices from './data-zia-firewall-filtering-application-services';

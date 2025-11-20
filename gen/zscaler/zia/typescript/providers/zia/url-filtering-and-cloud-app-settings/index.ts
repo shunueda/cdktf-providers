@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,125 +10,125 @@ export interface UrlFilteringAndCloudAppSettingsConfig extends cdktf.TerraformMe
   /**
   * A Boolean value indicating whether access to Skype is blocked or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#block_skype UrlFilteringAndCloudAppSettings#block_skype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#block_skype UrlFilteringAndCloudAppSettings#block_skype}
   */
   readonly blockSkype?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value that indicates if URL filtering rules must be applied to sites that are translated using translation services or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#consider_embedded_sites UrlFilteringAndCloudAppSettings#consider_embedded_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#consider_embedded_sites UrlFilteringAndCloudAppSettings#consider_embedded_sites}
   */
   readonly considerEmbeddedSites?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if authorized users can temporarily override block action on websites by providing their authentication information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_block_override_for_non_auth_user UrlFilteringAndCloudAppSettings#enable_block_override_for_non_auth_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_block_override_for_non_auth_user UrlFilteringAndCloudAppSettings#enable_block_override_for_non_auth_user}
   */
   readonly enableBlockOverrideForNonAuthUser?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the use of generative AI prompts with ChatGPT by users should be categorized and logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_chatgpt_prompt UrlFilteringAndCloudAppSettings#enable_chatgpt_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_chatgpt_prompt UrlFilteringAndCloudAppSettings#enable_chatgpt_prompt}
   */
   readonly enableChatgptPrompt?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the predefined CIPA Compliance Rule is enabled or not. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_cipa_compliance UrlFilteringAndCloudAppSettings#enable_cipa_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_cipa_compliance UrlFilteringAndCloudAppSettings#enable_cipa_compliance}
   */
   readonly enableCipaCompliance?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value that indicates if dynamic categorization of URLs by analyzing content of uncategorized websites using AI/ML tools is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_dynamic_content_cat UrlFilteringAndCloudAppSettings#enable_dynamic_content_cat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_dynamic_content_cat UrlFilteringAndCloudAppSettings#enable_dynamic_content_cat}
   */
   readonly enableDynamicContentCat?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the use of generative AI prompts with Google Gemini by users should be categorized and logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_gemini_prompt UrlFilteringAndCloudAppSettings#enable_gemini_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_gemini_prompt UrlFilteringAndCloudAppSettings#enable_gemini_prompt}
   */
   readonly enableGeminiPrompt?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the use of generative AI prompts with Meta AI by users should be categorized and logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_meta_prompt UrlFilteringAndCloudAppSettings#enable_meta_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_meta_prompt UrlFilteringAndCloudAppSettings#enable_meta_prompt}
   */
   readonly enableMetaPrompt?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the use of generative AI prompts with Microsoft Copilot by users should be categorized and logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_microsoft_copilot_prompt UrlFilteringAndCloudAppSettings#enable_microsoft_copilot_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_microsoft_copilot_prompt UrlFilteringAndCloudAppSettings#enable_microsoft_copilot_prompt}
   */
   readonly enableMicrosoftCopilotPrompt?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the Zscaler service is allowed to permit secure local breakout for Office 365 traffic automatically without any manual configuration needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_msft_o365 UrlFilteringAndCloudAppSettings#enable_msft_o365}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_msft_o365 UrlFilteringAndCloudAppSettings#enable_msft_o365}
   */
   readonly enableMsftO365?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating whether newly registered and observed domains that are identified within hours of going live are allowed or blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_newly_registered_domains UrlFilteringAndCloudAppSettings#enable_newly_registered_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_newly_registered_domains UrlFilteringAndCloudAppSettings#enable_newly_registered_domains}
   */
   readonly enableNewlyRegisteredDomains?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value that enables or disables Microsoft Office 365 configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_office365 UrlFilteringAndCloudAppSettings#enable_office365}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_office365 UrlFilteringAndCloudAppSettings#enable_office365}
   */
   readonly enableOffice365?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the use of generative AI prompts with Perplexity by users should be categorized and logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_per_plexity_prompt UrlFilteringAndCloudAppSettings#enable_per_plexity_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_per_plexity_prompt UrlFilteringAndCloudAppSettings#enable_per_plexity_prompt}
   */
   readonly enablePerPlexityPrompt?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the use of generative AI prompts with Poe by users should be categorized and logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_poep_prompt UrlFilteringAndCloudAppSettings#enable_poep_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_poep_prompt UrlFilteringAndCloudAppSettings#enable_poep_prompt}
   */
   readonly enablePoepPrompt?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the Zscaler service is allowed to automatically permit secure local breakout for GoTo traffic, without any manual configuration needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_logmein UrlFilteringAndCloudAppSettings#enable_ucaas_logmein}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_logmein UrlFilteringAndCloudAppSettings#enable_ucaas_logmein}
   */
   readonly enableUcaasLogmein?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the Zscaler service is allowed to automatically permit secure local breakout for RingCentral traffic, without any manual configuration needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_ring_central UrlFilteringAndCloudAppSettings#enable_ucaas_ring_central}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_ring_central UrlFilteringAndCloudAppSettings#enable_ucaas_ring_central}
   */
   readonly enableUcaasRingCentral?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the Zscaler service is allowed to automatically permit secure local breakout for Talkdesk traffic, with minimal or no manual configuration needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_talkdesk UrlFilteringAndCloudAppSettings#enable_ucaas_talkdesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_talkdesk UrlFilteringAndCloudAppSettings#enable_ucaas_talkdesk}
   */
   readonly enableUcaasTalkdesk?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the Zscaler service is allowed to automatically permit secure local breakout for Webex traffic, without any manual configuration needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_webex UrlFilteringAndCloudAppSettings#enable_ucaas_webex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_webex UrlFilteringAndCloudAppSettings#enable_ucaas_webex}
   */
   readonly enableUcaasWebex?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value indicating if the Zscaler service is allowed to automatically permit secure local breakout for Zoom traffic, without any manual configuration needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_zoom UrlFilteringAndCloudAppSettings#enable_ucaas_zoom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enable_ucaas_zoom UrlFilteringAndCloudAppSettings#enable_ucaas_zoom}
   */
   readonly enableUcaasZoom?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value that indicates whether only safe content must be returned for web, image, and video search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#enforce_safe_search UrlFilteringAndCloudAppSettings#enforce_safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#enforce_safe_search UrlFilteringAndCloudAppSettings#enforce_safe_search}
   */
   readonly enforceSafeSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#id UrlFilteringAndCloudAppSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#id UrlFilteringAndCloudAppSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,13 +139,13 @@ export interface UrlFilteringAndCloudAppSettingsConfig extends cdktf.TerraformMe
   * 				See the URL & Cloud App Control Policy Settings for the list of available apps:
   * 				https://help.zscaler.com/zia/url-cloud-app-control-policy-settings#/advancedUrlFilterAndCloudAppSettings-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#safe_search_apps UrlFilteringAndCloudAppSettings#safe_search_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#safe_search_apps UrlFilteringAndCloudAppSettings#safe_search_apps}
   */
   readonly safeSearchApps?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings zia_url_filtering_and_cloud_app_settings}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings zia_url_filtering_and_cloud_app_settings}
 */
 export class UrlFilteringAndCloudAppSettings extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class UrlFilteringAndCloudAppSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlFilteringAndCloudAppSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlFilteringAndCloudAppSettings to import
-  * @param importFromId The id of the existing UrlFilteringAndCloudAppSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlFilteringAndCloudAppSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlFilteringAndCloudAppSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class UrlFilteringAndCloudAppSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/url_filtering_and_cloud_app_settings zia_url_filtering_and_cloud_app_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/url_filtering_and_cloud_app_settings zia_url_filtering_and_cloud_app_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class UrlFilteringAndCloudAppSettings extends cdktf.TerraformResource {
       terraformResourceType: 'zia_url_filtering_and_cloud_app_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

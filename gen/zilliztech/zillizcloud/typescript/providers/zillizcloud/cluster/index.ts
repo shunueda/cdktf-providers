@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the cluster to be created. It is a string of no more than 32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#cluster_name Cluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#cluster_name Cluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The size of the CU to be used for the created cluster. It is an integer from 1 to 256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#cu_size Cluster#cu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#cu_size Cluster#cu_size}
   */
   readonly cuSize?: number;
   /**
   * The type of the CU used for the Zilliz Cloud cluster to be created. A compute unit (CU) is the physical resource unit for cluster deployment. Different CU types comprise varying combinations of CPU, memory, and storage. Available options are Performance-optimized, Capacity-optimized, and Extended-capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#cu_type Cluster#cu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#cu_type Cluster#cu_type}
   */
   readonly cuType?: string;
   /**
   * The desired status of the cluster. Possible values are RUNNING and SUSPENDED. Defaults to RUNNING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#desired_status Cluster#desired_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#desired_status Cluster#desired_status}
   */
   readonly desiredStatus?: string;
   /**
   * A map of labels to assign to the cluster. Labels are key-value pairs that can be used to organize and categorize clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A set of security group IDs to associate with the load balancer of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#load_balancer_security_groups Cluster#load_balancer_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#load_balancer_security_groups Cluster#load_balancer_security_groups}
   */
   readonly loadBalancerSecurityGroups?: string[];
   /**
   * The plan tier of the Zilliz Cloud service. Available options are Serverless, Standard and Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#plan Cluster#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#plan Cluster#plan}
   */
   readonly plan?: string;
   /**
   * The ID of the project where the cluster is to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#project_id Cluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#project_id Cluster#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the region where the cluster exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#region_id Cluster#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#region_id Cluster#region_id}
   */
   readonly regionId?: string;
   /**
   * The number of replicas for the cluster. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#replica Cluster#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#replica Cluster#replica}
   */
   readonly replica?: number;
   /**
   * The current status of the cluster. Possible values are RUNNING, SUSPENDING, SUSPENDED, and RESUMING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#status Cluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#status Cluster#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#timeouts Cluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#timeouts Cluster#timeouts}
   */
   readonly timeouts?: ClusterTimeouts;
 }
@@ -84,13 +84,13 @@ export interface ClusterTimeouts {
   /**
   * Timeout defaults to 45 mins. Accepts a string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#create Cluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#create Cluster#create}
   */
   readonly create?: string;
   /**
   * Timeout defaults to 30 mins. Accepts a string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#update Cluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#update Cluster#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class ClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster zillizcloud_cluster}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster zillizcloud_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/cluster zillizcloud_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/cluster zillizcloud_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_cluster',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

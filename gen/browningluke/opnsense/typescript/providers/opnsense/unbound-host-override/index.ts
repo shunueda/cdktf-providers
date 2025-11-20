@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface UnboundHostOverrideConfig extends cdktf.TerraformMetaArguments 
   /**
   * Optional description here for your reference (not parsed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#description UnboundHostOverride#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#description UnboundHostOverride#description}
   */
   readonly description?: string;
   /**
   * Domain of the host, e.g. example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#domain UnboundHostOverride#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#domain UnboundHostOverride#domain}
   */
   readonly domain: string;
   /**
   * Enable the override for this host. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#enabled UnboundHostOverride#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#enabled UnboundHostOverride#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the host, without the domain part. Use `*` to create a wildcard entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#hostname UnboundHostOverride#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#hostname UnboundHostOverride#hostname}
   */
   readonly hostname: string;
   /**
   * Host name of MX host, e.g. mail.example.com. Must be set when `type` is `MX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#mx_host UnboundHostOverride#mx_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#mx_host UnboundHostOverride#mx_host}
   */
   readonly mxHost?: string;
   /**
   * Priority of MX record, e.g. 10. Must be set when `type` is `MX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#mx_priority UnboundHostOverride#mx_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#mx_priority UnboundHostOverride#mx_priority}
   */
   readonly mxPriority?: number;
   /**
   * IP address of the host, e.g. 192.168.100.100 or fd00:abcd::1. Must be set when `type` is `A` or `AAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#server UnboundHostOverride#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#server UnboundHostOverride#server}
   */
   readonly server?: string;
   /**
   * Type of resource record. Available values: `A`, `AAAA`, `MX`. Defaults to `A`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#type UnboundHostOverride#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#type UnboundHostOverride#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override opnsense_unbound_host_override}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override opnsense_unbound_host_override}
 */
 export class UnboundHostOverride extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class UnboundHostOverride extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UnboundHostOverride resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UnboundHostOverride to import
-  * @param importFromId The id of the existing UnboundHostOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UnboundHostOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UnboundHostOverride to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class UnboundHostOverride extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_override opnsense_unbound_host_override} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_override opnsense_unbound_host_override} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class UnboundHostOverride extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_unbound_host_override',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

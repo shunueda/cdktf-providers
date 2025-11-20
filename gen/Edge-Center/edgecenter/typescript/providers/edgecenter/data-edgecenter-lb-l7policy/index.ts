@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEdgecenterLbL7PolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * The uuid of l7policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#id DataEdgecenterLbL7Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#id DataEdgecenterLbL7Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,37 +19,37 @@ export interface DataEdgecenterLbL7PolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * The human-readable name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#name DataEdgecenterLbL7Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#name DataEdgecenterLbL7Policy#name}
   */
   readonly name?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#project_id DataEdgecenterLbL7Policy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#project_id DataEdgecenterLbL7Policy#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#project_name DataEdgecenterLbL7Policy#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#project_name DataEdgecenterLbL7Policy#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#region_id DataEdgecenterLbL7Policy#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#region_id DataEdgecenterLbL7Policy#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#region_name DataEdgecenterLbL7Policy#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#region_name DataEdgecenterLbL7Policy#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy edgecenter_lb_l7policy}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy edgecenter_lb_l7policy}
 */
 export class DataEdgecenterLbL7Policy extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataEdgecenterLbL7Policy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterLbL7Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterLbL7Policy to import
-  * @param importFromId The id of the existing DataEdgecenterLbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterLbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterLbL7Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataEdgecenterLbL7Policy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/lb_l7policy edgecenter_lb_l7policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/lb_l7policy edgecenter_lb_l7policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataEdgecenterLbL7Policy extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_lb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

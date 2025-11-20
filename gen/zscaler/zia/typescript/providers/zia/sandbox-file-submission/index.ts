@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface SandboxFileSubmissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission#file_path SandboxFileSubmission#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission#file_path SandboxFileSubmission#file_path}
   */
   readonly filePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission#force SandboxFileSubmission#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission#force SandboxFileSubmission#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission#id SandboxFileSubmission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission#id SandboxFileSubmission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission#submission_method SandboxFileSubmission#submission_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission#submission_method SandboxFileSubmission#submission_method}
   */
   readonly submissionMethod: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission zia_sandbox_file_submission}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission zia_sandbox_file_submission}
 */
 export class SandboxFileSubmission extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SandboxFileSubmission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SandboxFileSubmission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SandboxFileSubmission to import
-  * @param importFromId The id of the existing SandboxFileSubmission that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SandboxFileSubmission that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SandboxFileSubmission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SandboxFileSubmission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/sandbox_file_submission zia_sandbox_file_submission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/sandbox_file_submission zia_sandbox_file_submission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SandboxFileSubmission extends cdktf.TerraformResource {
       terraformResourceType: 'zia_sandbox_file_submission',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,211 +10,211 @@ export interface FirewallFilteringRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * The action the Firewall Filtering policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#action FirewallFilteringRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#action FirewallFilteringRule#action}
   */
   readonly action?: string;
   /**
   * If set to true, the default rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#default_rule FirewallFilteringRule#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#default_rule FirewallFilteringRule#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * Additional information about the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#description FirewallFilteringRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#description FirewallFilteringRule#description}
   */
   readonly description?: string;
   /**
   * Destination addresses. Supports IPv4, FQDNs, or wildcard FQDNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#dest_addresses FirewallFilteringRule#dest_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#dest_addresses FirewallFilteringRule#dest_addresses}
   */
   readonly destAddresses?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#dest_countries FirewallFilteringRule#dest_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#dest_countries FirewallFilteringRule#dest_countries}
   */
   readonly destCountries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#dest_ip_categories FirewallFilteringRule#dest_ip_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#dest_ip_categories FirewallFilteringRule#dest_ip_categories}
   */
   readonly destIpCategories?: string[];
   /**
   * List of device trust levels for which the rule must be applied. This field is applicable for devices that are managed using Zscaler Client Connector. The trust levels are assigned to the devices based on your posture configurations in the Zscaler Client Connector Portal. If no value is set, this field is ignored during the policy evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#device_trust_levels FirewallFilteringRule#device_trust_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#device_trust_levels FirewallFilteringRule#device_trust_levels}
   */
   readonly deviceTrustLevels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#enable_full_logging FirewallFilteringRule#enable_full_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#enable_full_logging FirewallFilteringRule#enable_full_logging}
   */
   readonly enableFullLogging?: boolean | cdktf.IResolvable;
   /**
   * Name of the Firewall Filtering policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#name FirewallFilteringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#name FirewallFilteringRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#nw_applications FirewallFilteringRule#nw_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#nw_applications FirewallFilteringRule#nw_applications}
   */
   readonly nwApplications?: string[];
   /**
   * Rule order number. If omitted, the rule will be added to the end of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#order FirewallFilteringRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#order FirewallFilteringRule#order}
   */
   readonly order: number;
   /**
   * If set to true, a predefined rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#predefined FirewallFilteringRule#predefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#predefined FirewallFilteringRule#predefined}
   */
   readonly predefined?: boolean | cdktf.IResolvable;
   /**
   * Admin rank of the Firewall Filtering policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#rank FirewallFilteringRule#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#rank FirewallFilteringRule#rank}
   */
   readonly rank?: number;
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#source_countries FirewallFilteringRule#source_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#source_countries FirewallFilteringRule#source_countries}
   */
   readonly sourceCountries?: string[];
   /**
   * User-defined source IP addresses for which the rule is applicable. If not set, the rule is not restricted to a specific source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#src_ips FirewallFilteringRule#src_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#src_ips FirewallFilteringRule#src_ips}
   */
   readonly srcIps?: string[];
   /**
   * Determines whether the Firewall Filtering policy rule is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#state FirewallFilteringRule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#state FirewallFilteringRule#state}
   */
   readonly state?: string;
   /**
   * app_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#app_service_groups FirewallFilteringRule#app_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#app_service_groups FirewallFilteringRule#app_service_groups}
   */
   readonly appServiceGroups?: FirewallFilteringRuleAppServiceGroups;
   /**
   * app_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#app_services FirewallFilteringRule#app_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#app_services FirewallFilteringRule#app_services}
   */
   readonly appServices?: FirewallFilteringRuleAppServices;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#departments FirewallFilteringRule#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#departments FirewallFilteringRule#departments}
   */
   readonly departments?: FirewallFilteringRuleDepartments;
   /**
   * dest_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#dest_ip_groups FirewallFilteringRule#dest_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#dest_ip_groups FirewallFilteringRule#dest_ip_groups}
   */
   readonly destIpGroups?: FirewallFilteringRuleDestIpGroups;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#device_groups FirewallFilteringRule#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#device_groups FirewallFilteringRule#device_groups}
   */
   readonly deviceGroups?: FirewallFilteringRuleDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#devices FirewallFilteringRule#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#devices FirewallFilteringRule#devices}
   */
   readonly devices?: FirewallFilteringRuleDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#groups FirewallFilteringRule#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#groups FirewallFilteringRule#groups}
   */
   readonly groups?: FirewallFilteringRuleGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#labels FirewallFilteringRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#labels FirewallFilteringRule#labels}
   */
   readonly labels?: FirewallFilteringRuleLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#location_groups FirewallFilteringRule#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#location_groups FirewallFilteringRule#location_groups}
   */
   readonly locationGroups?: FirewallFilteringRuleLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#locations FirewallFilteringRule#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#locations FirewallFilteringRule#locations}
   */
   readonly locations?: FirewallFilteringRuleLocations;
   /**
   * nw_application_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#nw_application_groups FirewallFilteringRule#nw_application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#nw_application_groups FirewallFilteringRule#nw_application_groups}
   */
   readonly nwApplicationGroups?: FirewallFilteringRuleNwApplicationGroups;
   /**
   * nw_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#nw_service_groups FirewallFilteringRule#nw_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#nw_service_groups FirewallFilteringRule#nw_service_groups}
   */
   readonly nwServiceGroups?: FirewallFilteringRuleNwServiceGroups;
   /**
   * nw_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#nw_services FirewallFilteringRule#nw_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#nw_services FirewallFilteringRule#nw_services}
   */
   readonly nwServices?: FirewallFilteringRuleNwServices;
   /**
   * src_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#src_ip_groups FirewallFilteringRule#src_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#src_ip_groups FirewallFilteringRule#src_ip_groups}
   */
   readonly srcIpGroups?: FirewallFilteringRuleSrcIpGroups;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#time_windows FirewallFilteringRule#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#time_windows FirewallFilteringRule#time_windows}
   */
   readonly timeWindows?: FirewallFilteringRuleTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#timeouts FirewallFilteringRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#timeouts FirewallFilteringRule#timeouts}
   */
   readonly timeouts?: FirewallFilteringRuleTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#users FirewallFilteringRule#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#users FirewallFilteringRule#users}
   */
   readonly users?: FirewallFilteringRuleUsers;
   /**
   * workload_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#workload_groups FirewallFilteringRule#workload_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#workload_groups FirewallFilteringRule#workload_groups}
   */
   readonly workloadGroups?: FirewallFilteringRuleWorkloadGroups[] | cdktf.IResolvable;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#zpa_app_segments FirewallFilteringRule#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#zpa_app_segments FirewallFilteringRule#zpa_app_segments}
   */
   readonly zpaAppSegments?: FirewallFilteringRuleZpaAppSegments[] | cdktf.IResolvable;
 }
 export interface FirewallFilteringRuleAppServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -301,7 +301,7 @@ export class FirewallFilteringRuleAppServiceGroupsOutputReference extends cdktf.
 }
 export interface FirewallFilteringRuleAppServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -388,7 +388,7 @@ export class FirewallFilteringRuleAppServicesOutputReference extends cdktf.Compl
 }
 export interface FirewallFilteringRuleDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -475,7 +475,7 @@ export class FirewallFilteringRuleDepartmentsOutputReference extends cdktf.Compl
 }
 export interface FirewallFilteringRuleDestIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -562,7 +562,7 @@ export class FirewallFilteringRuleDestIpGroupsOutputReference extends cdktf.Comp
 }
 export interface FirewallFilteringRuleDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -649,7 +649,7 @@ export class FirewallFilteringRuleDeviceGroupsOutputReference extends cdktf.Comp
 }
 export interface FirewallFilteringRuleDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -736,7 +736,7 @@ export class FirewallFilteringRuleDevicesOutputReference extends cdktf.ComplexOb
 }
 export interface FirewallFilteringRuleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -823,7 +823,7 @@ export class FirewallFilteringRuleGroupsOutputReference extends cdktf.ComplexObj
 }
 export interface FirewallFilteringRuleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -910,7 +910,7 @@ export class FirewallFilteringRuleLabelsOutputReference extends cdktf.ComplexObj
 }
 export interface FirewallFilteringRuleLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -997,7 +997,7 @@ export class FirewallFilteringRuleLocationGroupsOutputReference extends cdktf.Co
 }
 export interface FirewallFilteringRuleLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1084,7 +1084,7 @@ export class FirewallFilteringRuleLocationsOutputReference extends cdktf.Complex
 }
 export interface FirewallFilteringRuleNwApplicationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1171,7 +1171,7 @@ export class FirewallFilteringRuleNwApplicationGroupsOutputReference extends cdk
 }
 export interface FirewallFilteringRuleNwServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1258,7 +1258,7 @@ export class FirewallFilteringRuleNwServiceGroupsOutputReference extends cdktf.C
 }
 export interface FirewallFilteringRuleNwServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1345,7 +1345,7 @@ export class FirewallFilteringRuleNwServicesOutputReference extends cdktf.Comple
 }
 export interface FirewallFilteringRuleSrcIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1432,7 +1432,7 @@ export class FirewallFilteringRuleSrcIpGroupsOutputReference extends cdktf.Compl
 }
 export interface FirewallFilteringRuleTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1519,11 +1519,11 @@ export class FirewallFilteringRuleTimeWindowsOutputReference extends cdktf.Compl
 }
 export interface FirewallFilteringRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#create FirewallFilteringRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#create FirewallFilteringRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#update FirewallFilteringRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#update FirewallFilteringRule#update}
   */
   readonly update?: string;
 }
@@ -1646,7 +1646,7 @@ export class FirewallFilteringRuleTimeoutsOutputReference extends cdktf.ComplexO
 }
 export interface FirewallFilteringRuleUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1735,7 +1735,7 @@ export interface FirewallFilteringRuleWorkloadGroups {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#id FirewallFilteringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1744,7 +1744,7 @@ export interface FirewallFilteringRuleWorkloadGroups {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#name FirewallFilteringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#name FirewallFilteringRule#name}
   */
   readonly name?: string;
 }
@@ -1888,13 +1888,13 @@ export interface FirewallFilteringRuleZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#external_id FirewallFilteringRule#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#external_id FirewallFilteringRule#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#name FirewallFilteringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#name FirewallFilteringRule#name}
   */
   readonly name: string;
 }
@@ -2033,7 +2033,7 @@ export class FirewallFilteringRuleZpaAppSegmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule zia_firewall_filtering_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule zia_firewall_filtering_rule}
 */
 export class FirewallFilteringRule extends cdktf.TerraformResource {
 
@@ -2049,7 +2049,7 @@ export class FirewallFilteringRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallFilteringRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilteringRule to import
-  * @param importFromId The id of the existing FirewallFilteringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilteringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilteringRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2061,7 +2061,7 @@ export class FirewallFilteringRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_rule zia_firewall_filtering_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_rule zia_firewall_filtering_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2072,8 +2072,8 @@ export class FirewallFilteringRule extends cdktf.TerraformResource {
       terraformResourceType: 'zia_firewall_filtering_rule',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

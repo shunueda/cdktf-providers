@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IpsecAuthRemoteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication ID for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#auth_id IpsecAuthRemote#auth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#auth_id IpsecAuthRemote#auth_id}
   */
   readonly authId?: string;
   /**
   * Authentication method for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#authentication IpsecAuthRemote#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#authentication IpsecAuthRemote#authentication}
   */
   readonly authentication: string;
   /**
   * List of certificates for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#certificates IpsecAuthRemote#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#certificates IpsecAuthRemote#certificates}
   */
   readonly certificates?: string[];
   /**
   * Optional description for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#description IpsecAuthRemote#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#description IpsecAuthRemote#description}
   */
   readonly description?: string;
   /**
   * EAP ID for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#eap_id IpsecAuthRemote#eap_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#eap_id IpsecAuthRemote#eap_id}
   */
   readonly eapId?: string;
   /**
   * Enable or disable the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#enabled IpsecAuthRemote#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#enabled IpsecAuthRemote#enabled}
   */
   readonly enabled?: string;
   /**
   * The parent connection UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#ipsec_connection IpsecAuthRemote#ipsec_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#ipsec_connection IpsecAuthRemote#ipsec_connection}
   */
   readonly ipsecConnection: string;
   /**
   * List of public keys for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#public_keys IpsecAuthRemote#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#public_keys IpsecAuthRemote#public_keys}
   */
   readonly publicKeys?: string[];
   /**
   * Authentication round for the AuthRemote Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#round IpsecAuthRemote#round}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#round IpsecAuthRemote#round}
   */
   readonly round?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote opnsense_ipsec_auth_remote}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote opnsense_ipsec_auth_remote}
 */
 export class IpsecAuthRemote extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class IpsecAuthRemote extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecAuthRemote resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecAuthRemote to import
-  * @param importFromId The id of the existing IpsecAuthRemote that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecAuthRemote that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecAuthRemote to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class IpsecAuthRemote extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_auth_remote opnsense_ipsec_auth_remote} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_auth_remote opnsense_ipsec_auth_remote} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class IpsecAuthRemote extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_auth_remote',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

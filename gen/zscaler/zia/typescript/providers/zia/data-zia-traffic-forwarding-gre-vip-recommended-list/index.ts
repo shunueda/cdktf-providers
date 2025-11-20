@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaTrafficForwardingGreVipRecommendedListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#id DataZiaTrafficForwardingGreVipRecommendedList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#id DataZiaTrafficForwardingGreVipRecommendedList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#include_current_vips DataZiaTrafficForwardingGreVipRecommendedList#include_current_vips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#include_current_vips DataZiaTrafficForwardingGreVipRecommendedList#include_current_vips}
   */
   readonly includeCurrentVips?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#include_private_service_edge DataZiaTrafficForwardingGreVipRecommendedList#include_private_service_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#include_private_service_edge DataZiaTrafficForwardingGreVipRecommendedList#include_private_service_edge}
   */
   readonly includePrivateServiceEdge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#latitude DataZiaTrafficForwardingGreVipRecommendedList#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#latitude DataZiaTrafficForwardingGreVipRecommendedList#latitude}
   */
   readonly latitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#longitude DataZiaTrafficForwardingGreVipRecommendedList#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#longitude DataZiaTrafficForwardingGreVipRecommendedList#longitude}
   */
   readonly longitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#required_count DataZiaTrafficForwardingGreVipRecommendedList#required_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#required_count DataZiaTrafficForwardingGreVipRecommendedList#required_count}
   */
   readonly requiredCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#routable_ip DataZiaTrafficForwardingGreVipRecommendedList#routable_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#routable_ip DataZiaTrafficForwardingGreVipRecommendedList#routable_ip}
   */
   readonly routableIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#source_ip DataZiaTrafficForwardingGreVipRecommendedList#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#source_ip DataZiaTrafficForwardingGreVipRecommendedList#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#subcloud DataZiaTrafficForwardingGreVipRecommendedList#subcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#subcloud DataZiaTrafficForwardingGreVipRecommendedList#subcloud}
   */
   readonly subcloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#within_country_only DataZiaTrafficForwardingGreVipRecommendedList#within_country_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#within_country_only DataZiaTrafficForwardingGreVipRecommendedList#within_country_only}
   */
   readonly withinCountryOnly?: boolean | cdktf.IResolvable;
 }
@@ -163,7 +163,7 @@ export class DataZiaTrafficForwardingGreVipRecommendedListListStructList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list zia_traffic_forwarding_gre_vip_recommended_list}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list zia_traffic_forwarding_gre_vip_recommended_list}
 */
 export class DataZiaTrafficForwardingGreVipRecommendedList extends cdktf.TerraformDataSource {
 
@@ -179,7 +179,7 @@ export class DataZiaTrafficForwardingGreVipRecommendedList extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataZiaTrafficForwardingGreVipRecommendedList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaTrafficForwardingGreVipRecommendedList to import
-  * @param importFromId The id of the existing DataZiaTrafficForwardingGreVipRecommendedList that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaTrafficForwardingGreVipRecommendedList that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaTrafficForwardingGreVipRecommendedList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class DataZiaTrafficForwardingGreVipRecommendedList extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/traffic_forwarding_gre_vip_recommended_list zia_traffic_forwarding_gre_vip_recommended_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/traffic_forwarding_gre_vip_recommended_list zia_traffic_forwarding_gre_vip_recommended_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class DataZiaTrafficForwardingGreVipRecommendedList extends cdktf.Terrafo
       terraformResourceType: 'zia_traffic_forwarding_gre_vip_recommended_list',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

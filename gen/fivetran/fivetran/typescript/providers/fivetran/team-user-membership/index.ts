@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface TeamUserMembershipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique identifier for the team within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership#team_id TeamUserMembership#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership#team_id TeamUserMembership#team_id}
   */
   readonly teamId: string;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership#user TeamUserMembership#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership#user TeamUserMembership#user}
   */
   readonly user?: TeamUserMembershipUser[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface TeamUserMembershipUser {
   /**
   * The team's role that links the team and the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership#role TeamUserMembership#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership#role TeamUserMembership#role}
   */
   readonly role: string;
   /**
   * The user unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership#user_id TeamUserMembership#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership#user_id TeamUserMembership#user_id}
   */
   readonly userId: string;
 }
@@ -169,7 +169,7 @@ export class TeamUserMembershipUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership fivetran_team_user_membership}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership fivetran_team_user_membership}
 */
 export class TeamUserMembership extends cdktf.TerraformResource {
 
@@ -185,7 +185,7 @@ export class TeamUserMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamUserMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamUserMembership to import
-  * @param importFromId The id of the existing TeamUserMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamUserMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamUserMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class TeamUserMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/team_user_membership fivetran_team_user_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/team_user_membership fivetran_team_user_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class TeamUserMembership extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_team_user_membership',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

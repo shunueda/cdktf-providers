@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_sdn_vnet
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_sdn_vnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataProxmoxVirtualEnvironmentSdnVnetConfig extends cdktf.Terraf
   /**
   * The unique identifier of the SDN VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_sdn_vnet#id DataProxmoxVirtualEnvironmentSdnVnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_sdn_vnet#id DataProxmoxVirtualEnvironmentSdnVnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataProxmoxVirtualEnvironmentSdnVnetConfig extends cdktf.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet}
 */
 export class DataProxmoxVirtualEnvironmentSdnVnet extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataProxmoxVirtualEnvironmentSdnVnet extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentSdnVnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentSdnVnet to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentSdnVnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_sdn_vnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentSdnVnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_sdn_vnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentSdnVnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataProxmoxVirtualEnvironmentSdnVnet extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataProxmoxVirtualEnvironmentSdnVnet extends cdktf.TerraformDataSou
       terraformResourceType: 'proxmox_virtual_environment_sdn_vnet',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

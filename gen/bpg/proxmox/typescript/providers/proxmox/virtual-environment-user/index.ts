@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface VirtualEnvironmentUserConfig extends cdktf.TerraformMetaArgumen
   /**
   * The user comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#comment VirtualEnvironmentUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#comment VirtualEnvironmentUser#comment}
   */
   readonly comment?: string;
   /**
   * The user's email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#email VirtualEnvironmentUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#email VirtualEnvironmentUser#email}
   */
   readonly email?: string;
   /**
   * Whether the user account is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#enabled VirtualEnvironmentUser#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#enabled VirtualEnvironmentUser#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The user account's expiration date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#expiration_date VirtualEnvironmentUser#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#expiration_date VirtualEnvironmentUser#expiration_date}
   */
   readonly expirationDate?: string;
   /**
   * The user's first name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#first_name VirtualEnvironmentUser#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#first_name VirtualEnvironmentUser#first_name}
   */
   readonly firstName?: string;
   /**
   * The user's groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#groups VirtualEnvironmentUser#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#groups VirtualEnvironmentUser#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#id VirtualEnvironmentUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#id VirtualEnvironmentUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,31 +53,31 @@ export interface VirtualEnvironmentUserConfig extends cdktf.TerraformMetaArgumen
   /**
   * The user's keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#keys VirtualEnvironmentUser#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#keys VirtualEnvironmentUser#keys}
   */
   readonly keys?: string;
   /**
   * The user's last name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#last_name VirtualEnvironmentUser#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#last_name VirtualEnvironmentUser#last_name}
   */
   readonly lastName?: string;
   /**
   * The user's password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#password VirtualEnvironmentUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#password VirtualEnvironmentUser#password}
   */
   readonly password?: string;
   /**
   * The user id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#user_id VirtualEnvironmentUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#user_id VirtualEnvironmentUser#user_id}
   */
   readonly userId: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#acl VirtualEnvironmentUser#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#acl VirtualEnvironmentUser#acl}
   */
   readonly acl?: VirtualEnvironmentUserAcl[] | cdktf.IResolvable;
 }
@@ -85,19 +85,19 @@ export interface VirtualEnvironmentUserAcl {
   /**
   * The path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#path VirtualEnvironmentUser#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#path VirtualEnvironmentUser#path}
   */
   readonly path: string;
   /**
   * Whether to propagate to child paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#propagate VirtualEnvironmentUser#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#propagate VirtualEnvironmentUser#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
   /**
   * The role id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#role_id VirtualEnvironmentUser#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#role_id VirtualEnvironmentUser#role_id}
   */
   readonly roleId: string;
 }
@@ -265,7 +265,7 @@ export class VirtualEnvironmentUserAclList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user proxmox_virtual_environment_user}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user proxmox_virtual_environment_user}
 */
 export class VirtualEnvironmentUser extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class VirtualEnvironmentUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentUser to import
-  * @param importFromId The id of the existing VirtualEnvironmentUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class VirtualEnvironmentUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_user proxmox_virtual_environment_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_user proxmox_virtual_environment_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class VirtualEnvironmentUser extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_user',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

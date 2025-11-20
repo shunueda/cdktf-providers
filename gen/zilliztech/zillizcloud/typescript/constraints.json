@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "zillizcloud": "0.6.23"
+    "zillizcloud": "0.6.24"
   }
 }

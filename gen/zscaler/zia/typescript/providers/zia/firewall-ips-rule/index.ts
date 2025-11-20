@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,209 +10,209 @@ export interface FirewallIpsRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action configured for the rule that must take place if the traffic matches the rule criteria, such as allowing or blocking the traffic or bypassing the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#action FirewallIpsRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#action FirewallIpsRule#action}
   */
   readonly action?: string;
   /**
   * A Boolean value that indicates whether packet capture (PCAP) is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#capture_pcap FirewallIpsRule#capture_pcap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#capture_pcap FirewallIpsRule#capture_pcap}
   */
   readonly capturePcap?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the default rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#default_rule FirewallIpsRule#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#default_rule FirewallIpsRule#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * Additional information about the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#description FirewallIpsRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#description FirewallIpsRule#description}
   */
   readonly description?: string;
   /**
   * Destination addresses. Supports IPv4, FQDNs, or wildcard FQDNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#dest_addresses FirewallIpsRule#dest_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#dest_addresses FirewallIpsRule#dest_addresses}
   */
   readonly destAddresses?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#dest_countries FirewallIpsRule#dest_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#dest_countries FirewallIpsRule#dest_countries}
   */
   readonly destCountries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#dest_ip_categories FirewallIpsRule#dest_ip_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#dest_ip_categories FirewallIpsRule#dest_ip_categories}
   */
   readonly destIpCategories?: string[];
   /**
   * A Boolean value that indicates whether full logging is enabled. A true value indicates that full logging is enabled, whereas a false value indicates that aggregate logging is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#enable_full_logging FirewallIpsRule#enable_full_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#enable_full_logging FirewallIpsRule#enable_full_logging}
   */
   readonly enableFullLogging?: boolean | cdktf.IResolvable;
   /**
   * The name of the IPS Control rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#name FirewallIpsRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#name FirewallIpsRule#name}
   */
   readonly name: string;
   /**
   * Rule order number. If omitted, the rule will be added to the end of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#order FirewallIpsRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#order FirewallIpsRule#order}
   */
   readonly order: number;
   /**
   * If set to true, a predefined rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#predefined FirewallIpsRule#predefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#predefined FirewallIpsRule#predefined}
   */
   readonly predefined?: boolean | cdktf.IResolvable;
   /**
   * The admin rank specified for the rule based on your assigned admin rank. Admin rank determines the rule order that can be specified for the rule. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#rank FirewallIpsRule#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#rank FirewallIpsRule#rank}
   */
   readonly rank?: number;
   /**
   * URL categories associated with resolved IP addresses to which the rule applies. If not set, the rule is not restricted to a specific URL category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#res_categories FirewallIpsRule#res_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#res_categories FirewallIpsRule#res_categories}
   */
   readonly resCategories?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#source_countries FirewallIpsRule#source_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#source_countries FirewallIpsRule#source_countries}
   */
   readonly sourceCountries?: string[];
   /**
   * User-defined source IP addresses for which the rule is applicable. If not set, the rule is not restricted to a specific source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#src_ips FirewallIpsRule#src_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#src_ips FirewallIpsRule#src_ips}
   */
   readonly srcIps?: string[];
   /**
   * The state of the rule indicating whether it is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#state FirewallIpsRule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#state FirewallIpsRule#state}
   */
   readonly state?: string;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#departments FirewallIpsRule#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#departments FirewallIpsRule#departments}
   */
   readonly departments?: FirewallIpsRuleDepartments;
   /**
   * dest_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#dest_ip_groups FirewallIpsRule#dest_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#dest_ip_groups FirewallIpsRule#dest_ip_groups}
   */
   readonly destIpGroups?: FirewallIpsRuleDestIpGroups;
   /**
   * dest_ipv6_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#dest_ipv6_groups FirewallIpsRule#dest_ipv6_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#dest_ipv6_groups FirewallIpsRule#dest_ipv6_groups}
   */
   readonly destIpv6Groups?: FirewallIpsRuleDestIpv6Groups;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#device_groups FirewallIpsRule#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#device_groups FirewallIpsRule#device_groups}
   */
   readonly deviceGroups?: FirewallIpsRuleDeviceGroups;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#devices FirewallIpsRule#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#devices FirewallIpsRule#devices}
   */
   readonly devices?: FirewallIpsRuleDevices;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#groups FirewallIpsRule#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#groups FirewallIpsRule#groups}
   */
   readonly groups?: FirewallIpsRuleGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#labels FirewallIpsRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#labels FirewallIpsRule#labels}
   */
   readonly labels?: FirewallIpsRuleLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#location_groups FirewallIpsRule#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#location_groups FirewallIpsRule#location_groups}
   */
   readonly locationGroups?: FirewallIpsRuleLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#locations FirewallIpsRule#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#locations FirewallIpsRule#locations}
   */
   readonly locations?: FirewallIpsRuleLocations;
   /**
   * nw_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#nw_service_groups FirewallIpsRule#nw_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#nw_service_groups FirewallIpsRule#nw_service_groups}
   */
   readonly nwServiceGroups?: FirewallIpsRuleNwServiceGroups;
   /**
   * nw_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#nw_services FirewallIpsRule#nw_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#nw_services FirewallIpsRule#nw_services}
   */
   readonly nwServices?: FirewallIpsRuleNwServices;
   /**
   * src_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#src_ip_groups FirewallIpsRule#src_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#src_ip_groups FirewallIpsRule#src_ip_groups}
   */
   readonly srcIpGroups?: FirewallIpsRuleSrcIpGroups;
   /**
   * src_ipv6_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#src_ipv6_groups FirewallIpsRule#src_ipv6_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#src_ipv6_groups FirewallIpsRule#src_ipv6_groups}
   */
   readonly srcIpv6Groups?: FirewallIpsRuleSrcIpv6Groups;
   /**
   * threat_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#threat_categories FirewallIpsRule#threat_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#threat_categories FirewallIpsRule#threat_categories}
   */
   readonly threatCategories?: FirewallIpsRuleThreatCategories;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#time_windows FirewallIpsRule#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#time_windows FirewallIpsRule#time_windows}
   */
   readonly timeWindows?: FirewallIpsRuleTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#timeouts FirewallIpsRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#timeouts FirewallIpsRule#timeouts}
   */
   readonly timeouts?: FirewallIpsRuleTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#users FirewallIpsRule#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#users FirewallIpsRule#users}
   */
   readonly users?: FirewallIpsRuleUsers;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#zpa_app_segments FirewallIpsRule#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#zpa_app_segments FirewallIpsRule#zpa_app_segments}
   */
   readonly zpaAppSegments?: FirewallIpsRuleZpaAppSegments[] | cdktf.IResolvable;
 }
 export interface FirewallIpsRuleDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -299,7 +299,7 @@ export class FirewallIpsRuleDepartmentsOutputReference extends cdktf.ComplexObje
 }
 export interface FirewallIpsRuleDestIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -386,7 +386,7 @@ export class FirewallIpsRuleDestIpGroupsOutputReference extends cdktf.ComplexObj
 }
 export interface FirewallIpsRuleDestIpv6Groups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -473,7 +473,7 @@ export class FirewallIpsRuleDestIpv6GroupsOutputReference extends cdktf.ComplexO
 }
 export interface FirewallIpsRuleDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -560,7 +560,7 @@ export class FirewallIpsRuleDeviceGroupsOutputReference extends cdktf.ComplexObj
 }
 export interface FirewallIpsRuleDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -647,7 +647,7 @@ export class FirewallIpsRuleDevicesOutputReference extends cdktf.ComplexObject {
 }
 export interface FirewallIpsRuleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -734,7 +734,7 @@ export class FirewallIpsRuleGroupsOutputReference extends cdktf.ComplexObject {
 }
 export interface FirewallIpsRuleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -821,7 +821,7 @@ export class FirewallIpsRuleLabelsOutputReference extends cdktf.ComplexObject {
 }
 export interface FirewallIpsRuleLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -908,7 +908,7 @@ export class FirewallIpsRuleLocationGroupsOutputReference extends cdktf.ComplexO
 }
 export interface FirewallIpsRuleLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -995,7 +995,7 @@ export class FirewallIpsRuleLocationsOutputReference extends cdktf.ComplexObject
 }
 export interface FirewallIpsRuleNwServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1082,7 +1082,7 @@ export class FirewallIpsRuleNwServiceGroupsOutputReference extends cdktf.Complex
 }
 export interface FirewallIpsRuleNwServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1169,7 +1169,7 @@ export class FirewallIpsRuleNwServicesOutputReference extends cdktf.ComplexObjec
 }
 export interface FirewallIpsRuleSrcIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1256,7 +1256,7 @@ export class FirewallIpsRuleSrcIpGroupsOutputReference extends cdktf.ComplexObje
 }
 export interface FirewallIpsRuleSrcIpv6Groups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1343,7 +1343,7 @@ export class FirewallIpsRuleSrcIpv6GroupsOutputReference extends cdktf.ComplexOb
 }
 export interface FirewallIpsRuleThreatCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1430,7 +1430,7 @@ export class FirewallIpsRuleThreatCategoriesOutputReference extends cdktf.Comple
 }
 export interface FirewallIpsRuleTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1517,11 +1517,11 @@ export class FirewallIpsRuleTimeWindowsOutputReference extends cdktf.ComplexObje
 }
 export interface FirewallIpsRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#create FirewallIpsRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#create FirewallIpsRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#update FirewallIpsRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#update FirewallIpsRule#update}
   */
   readonly update?: string;
 }
@@ -1644,7 +1644,7 @@ export class FirewallIpsRuleTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 export interface FirewallIpsRuleUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#id FirewallIpsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1733,13 +1733,13 @@ export interface FirewallIpsRuleZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#external_id FirewallIpsRule#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#external_id FirewallIpsRule#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#name FirewallIpsRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#name FirewallIpsRule#name}
   */
   readonly name: string;
 }
@@ -1878,7 +1878,7 @@ export class FirewallIpsRuleZpaAppSegmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule zia_firewall_ips_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule zia_firewall_ips_rule}
 */
 export class FirewallIpsRule extends cdktf.TerraformResource {
 
@@ -1894,7 +1894,7 @@ export class FirewallIpsRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallIpsRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallIpsRule to import
-  * @param importFromId The id of the existing FirewallIpsRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallIpsRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallIpsRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1906,7 +1906,7 @@ export class FirewallIpsRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_ips_rule zia_firewall_ips_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_ips_rule zia_firewall_ips_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1917,8 +1917,8 @@ export class FirewallIpsRule extends cdktf.TerraformResource {
       terraformResourceType: 'zia_firewall_ips_rule',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

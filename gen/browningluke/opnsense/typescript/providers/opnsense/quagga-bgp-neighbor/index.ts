@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,163 @@ export interface QuaggaBgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
   * Override AS number of the originating router with the local AS number. This command is only allowed for eBGP peers. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#as_override QuaggaBgpNeighbor#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#as_override QuaggaBgpNeighbor#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Specify attribute to be left unchanged when sending advertisements to a peer. Read more at FRR documentation. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#attribute_unchanged QuaggaBgpNeighbor#attribute_unchanged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#attribute_unchanged QuaggaBgpNeighbor#attribute_unchanged}
   */
   readonly attributeUnchanged?: string;
   /**
   * Enable BFD support for this neighbor. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#bfd QuaggaBgpNeighbor#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#bfd QuaggaBgpNeighbor#bfd}
   */
   readonly bfd?: boolean | cdktf.IResolvable;
   /**
   * The time in seconds how fast a neighbor tries to reconnect. Defaults to `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#connect_timer QuaggaBgpNeighbor#connect_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#connect_timer QuaggaBgpNeighbor#connect_timer}
   */
   readonly connectTimer?: number;
   /**
   * Enable to send Defaultroute. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#default_route QuaggaBgpNeighbor#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#default_route QuaggaBgpNeighbor#default_route}
   */
   readonly defaultRoute?: boolean | cdktf.IResolvable;
   /**
   * An optional description for this neighbor. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#description QuaggaBgpNeighbor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#description QuaggaBgpNeighbor#description}
   */
   readonly description?: string;
   /**
   * Enable to allow peerings between directly connected eBGP peers using loopback addresses. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#disable_connected_check QuaggaBgpNeighbor#disable_connected_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#disable_connected_check QuaggaBgpNeighbor#disable_connected_check}
   */
   readonly disableConnectedCheck?: boolean | cdktf.IResolvable;
   /**
   * Enable this neighbor. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#enabled QuaggaBgpNeighbor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#enabled QuaggaBgpNeighbor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The time in seconds when a neighbor is considered dead. This is usually 3 times the keepalive timer. Defaults to `180`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#hold_down QuaggaBgpNeighbor#hold_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#hold_down QuaggaBgpNeighbor#hold_down}
   */
   readonly holdDown?: number;
   /**
   * Enable Keepalive timer to check if the neighbor is still up. Defaults to `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#keep_alive QuaggaBgpNeighbor#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#keep_alive QuaggaBgpNeighbor#keep_alive}
   */
   readonly keepAlive?: number;
   /**
   * Interface to use for IPv6 link-local neighbours. Must be a valid OPNsense interface in lowercase (e.g. `wan`). Please refer to the FRR documentation for more information. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#link_local_interface QuaggaBgpNeighbor#link_local_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#link_local_interface QuaggaBgpNeighbor#link_local_interface}
   */
   readonly linkLocalInterface?: string;
   /**
   * The local IP connecting to the neighbor. This is only required for BGP authentication. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#local_ip QuaggaBgpNeighbor#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#local_ip QuaggaBgpNeighbor#local_ip}
   */
   readonly localIp?: string;
   /**
   * The password for BGP authentication. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#md5_password QuaggaBgpNeighbor#md5_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#md5_password QuaggaBgpNeighbor#md5_password}
   */
   readonly md5Password?: string;
   /**
   * Enable multi-hop. Specifying ebgp-multihop allows sessions with eBGP neighbors to establish when they are multiple hops away. When the neighbor is not directly connected and this knob is not enabled, the session will not establish. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#multi_hop QuaggaBgpNeighbor#multi_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#multi_hop QuaggaBgpNeighbor#multi_hop}
   */
   readonly multiHop?: boolean | cdktf.IResolvable;
   /**
   * Mark this neighbor as multiprotocol capable per RFC 2283. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#multi_protocol QuaggaBgpNeighbor#multi_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#multi_protocol QuaggaBgpNeighbor#multi_protocol}
   */
   readonly multiProtocol?: boolean | cdktf.IResolvable;
   /**
   * Enable the next-hop-self command. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#next_hop_self QuaggaBgpNeighbor#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#next_hop_self QuaggaBgpNeighbor#next_hop_self}
   */
   readonly nextHopSelf?: boolean | cdktf.IResolvable;
   /**
   * Add the parameter "all" after next-hop-self command. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#next_hop_self_all QuaggaBgpNeighbor#next_hop_self_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#next_hop_self_all QuaggaBgpNeighbor#next_hop_self_all}
   */
   readonly nextHopSelfAll?: boolean | cdktf.IResolvable;
   /**
   * The IP of your neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#peer_ip QuaggaBgpNeighbor#peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#peer_ip QuaggaBgpNeighbor#peer_ip}
   */
   readonly peerIp: string;
   /**
   * The prefix list ID for inbound direction. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#prefix_list_in QuaggaBgpNeighbor#prefix_list_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#prefix_list_in QuaggaBgpNeighbor#prefix_list_in}
   */
   readonly prefixListIn?: string;
   /**
   * The prefix list ID for outbound direction. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#prefix_list_out QuaggaBgpNeighbor#prefix_list_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#prefix_list_out QuaggaBgpNeighbor#prefix_list_out}
   */
   readonly prefixListOut?: string;
   /**
   * The neighbor AS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#remote_as QuaggaBgpNeighbor#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#remote_as QuaggaBgpNeighbor#remote_as}
   */
   readonly remoteAs: number;
   /**
   * The route map ID for inbound direction. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#route_map_in QuaggaBgpNeighbor#route_map_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#route_map_in QuaggaBgpNeighbor#route_map_in}
   */
   readonly routeMapIn?: string;
   /**
   * The route map ID for outbound direction. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#route_map_out QuaggaBgpNeighbor#route_map_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#route_map_out QuaggaBgpNeighbor#route_map_out}
   */
   readonly routeMapOut?: string;
   /**
   * Enable route reflector client. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#rr_client QuaggaBgpNeighbor#rr_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#rr_client QuaggaBgpNeighbor#rr_client}
   */
   readonly rrClient?: boolean | cdktf.IResolvable;
   /**
   * Physical name of the IPv4 interface facing the peer. Must be a valid OPNsense interface in lowercase (e.g. `wan`). Please refer to the FRR documentation for more information. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#update_source QuaggaBgpNeighbor#update_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#update_source QuaggaBgpNeighbor#update_source}
   */
   readonly updateSource?: string;
   /**
   * Specify a default weight value for the neighbor’s routes. Defaults to `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#weight QuaggaBgpNeighbor#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#weight QuaggaBgpNeighbor#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor opnsense_quagga_bgp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor opnsense_quagga_bgp_neighbor}
 */
 export class QuaggaBgpNeighbor extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class QuaggaBgpNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuaggaBgpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuaggaBgpNeighbor to import
-  * @param importFromId The id of the existing QuaggaBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuaggaBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuaggaBgpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class QuaggaBgpNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_neighbor opnsense_quagga_bgp_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_neighbor opnsense_quagga_bgp_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class QuaggaBgpNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_quagga_bgp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

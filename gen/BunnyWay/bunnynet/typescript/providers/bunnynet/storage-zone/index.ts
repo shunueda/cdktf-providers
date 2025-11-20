@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface StorageZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The file path for a custom 404 error page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#custom_404_file_path StorageZone#custom_404_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#custom_404_file_path StorageZone#custom_404_file_path}
   */
   readonly custom404FilePath?: string;
   /**
   * The name of the storage zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#name StorageZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#name StorageZone#name}
   */
   readonly name: string;
   /**
   * The region where the storage zone is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#region StorageZone#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#region StorageZone#region}
   */
   readonly region: string;
   /**
   * A set of regions for data replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#replication_regions StorageZone#replication_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#replication_regions StorageZone#replication_regions}
   */
   readonly replicationRegions?: string[];
   /**
   * Indicates whether to rewrite 404 errors to 200 status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#rewrite_404_to_200 StorageZone#rewrite_404_to_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#rewrite_404_to_200 StorageZone#rewrite_404_to_200}
   */
   readonly rewrite404To200?: boolean | cdktf.IResolvable;
   /**
   * Options: `Edge`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#zone_tier StorageZone#zone_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#zone_tier StorageZone#zone_tier}
   */
   readonly zoneTier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone bunnynet_storage_zone}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone bunnynet_storage_zone}
 */
 export class StorageZone extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class StorageZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageZone to import
-  * @param importFromId The id of the existing StorageZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class StorageZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/storage_zone bunnynet_storage_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/storage_zone bunnynet_storage_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class StorageZone extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_storage_zone',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

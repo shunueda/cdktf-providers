@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface UnboundHostAliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description here for your reference (not parsed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias#description UnboundHostAlias#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias#description UnboundHostAlias#description}
   */
   readonly description?: string;
   /**
   * Domain of the host, e.g. example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias#domain UnboundHostAlias#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias#domain UnboundHostAlias#domain}
   */
   readonly domain: string;
   /**
   * Enable this alias for the selected host. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias#enabled UnboundHostAlias#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias#enabled UnboundHostAlias#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the host, without the domain part. Use `*` to create a wildcard entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias#hostname UnboundHostAlias#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias#hostname UnboundHostAlias#hostname}
   */
   readonly hostname: string;
   /**
   * The associated host override to apply this alias on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias#override UnboundHostAlias#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias#override UnboundHostAlias#override}
   */
   readonly override: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias opnsense_unbound_host_alias}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias opnsense_unbound_host_alias}
 */
 export class UnboundHostAlias extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class UnboundHostAlias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UnboundHostAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UnboundHostAlias to import
-  * @param importFromId The id of the existing UnboundHostAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UnboundHostAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UnboundHostAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class UnboundHostAlias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_host_alias opnsense_unbound_host_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_host_alias opnsense_unbound_host_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class UnboundHostAlias extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_unbound_host_alias',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

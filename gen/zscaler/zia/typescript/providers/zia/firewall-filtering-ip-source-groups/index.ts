@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface FirewallFilteringIpSourceGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups#description FirewallFilteringIpSourceGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups#description FirewallFilteringIpSourceGroups#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups#ip_addresses FirewallFilteringIpSourceGroups#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups#ip_addresses FirewallFilteringIpSourceGroups#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups#name FirewallFilteringIpSourceGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups#name FirewallFilteringIpSourceGroups#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups zia_firewall_filtering_ip_source_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups zia_firewall_filtering_ip_source_groups}
 */
 export class FirewallFilteringIpSourceGroups extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class FirewallFilteringIpSourceGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallFilteringIpSourceGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilteringIpSourceGroups to import
-  * @param importFromId The id of the existing FirewallFilteringIpSourceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilteringIpSourceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilteringIpSourceGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class FirewallFilteringIpSourceGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/firewall_filtering_ip_source_groups zia_firewall_filtering_ip_source_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/firewall_filtering_ip_source_groups zia_firewall_filtering_ip_source_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class FirewallFilteringIpSourceGroups extends cdktf.TerraformResource {
       terraformResourceType: 'zia_firewall_filtering_ip_source_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

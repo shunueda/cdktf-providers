@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ActivationStatusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status#id ActivationStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status#id ActivationStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ActivationStatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * Organization Policy Edit/Update Activation status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status#status ActivationStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status#status ActivationStatus#status}
   */
   readonly status: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status#timeouts ActivationStatus#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status#timeouts ActivationStatus#timeouts}
   */
   readonly timeouts?: ActivationStatusTimeouts;
 }
 export interface ActivationStatusTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status#create ActivationStatus#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status#create ActivationStatus#create}
   */
   readonly create?: string;
 }
@@ -123,7 +123,7 @@ export class ActivationStatusTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status zia_activation_status}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status zia_activation_status}
 */
 export class ActivationStatus extends cdktf.TerraformResource {
 
@@ -139,7 +139,7 @@ export class ActivationStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActivationStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActivationStatus to import
-  * @param importFromId The id of the existing ActivationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActivationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActivationStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class ActivationStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/resources/activation_status zia_activation_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/resources/activation_status zia_activation_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class ActivationStatus extends cdktf.TerraformResource {
       terraformResourceType: 'zia_activation_status',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

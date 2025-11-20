@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_lite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaLocationLiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite#digest_auth_enabled DataZiaLocationLite#digest_auth_enabled}
-  */
-  readonly digestAuthEnabled?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite#id DataZiaLocationLite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_lite#id DataZiaLocationLite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite#kerberos_auth DataZiaLocationLite#kerberos_auth}
-  */
-  readonly kerberosAuth?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite#name DataZiaLocationLite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_lite#name DataZiaLocationLite#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite zia_location_lite}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_lite zia_location_lite}
 */
 export class DataZiaLocationLite extends cdktf.TerraformDataSource {
 
@@ -45,7 +37,7 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaLocationLite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaLocationLite to import
-  * @param importFromId The id of the existing DataZiaLocationLite that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaLocationLite that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_lite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaLocationLite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +49,7 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_lite zia_location_lite} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_lite zia_location_lite} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +60,8 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_location_lite',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,9 +71,7 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._digestAuthEnabled = config.digestAuthEnabled;
     this._id = config.id;
-    this._kerberosAuth = config.kerberosAuth;
     this._name = config.name;
   }
 
@@ -109,27 +99,6 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('caution_enabled');
   }
 
-  // digest_auth_enabled - computed: false, optional: true, required: false
-  private _digestAuthEnabled?: boolean | cdktf.IResolvable; 
-  public get digestAuthEnabled() {
-    return this.getBooleanAttribute('digest_auth_enabled');
-  }
-  public set digestAuthEnabled(value: boolean | cdktf.IResolvable) {
-    this._digestAuthEnabled = value;
-  }
-  public resetDigestAuthEnabled() {
-    this._digestAuthEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get digestAuthEnabledInput() {
-    return this._digestAuthEnabled;
-  }
-
-  // ec_location - computed: true, optional: false, required: false
-  public get ecLocation() {
-    return this.getBooleanAttribute('ec_location');
-  }
-
   // id - computed: true, optional: true, required: false
   private _id?: number; 
   public get id() {
@@ -154,22 +123,6 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
   // ipv6_enabled - computed: true, optional: false, required: false
   public get ipv6Enabled() {
     return this.getBooleanAttribute('ipv6_enabled');
-  }
-
-  // kerberos_auth - computed: false, optional: true, required: false
-  private _kerberosAuth?: boolean | cdktf.IResolvable; 
-  public get kerberosAuth() {
-    return this.getBooleanAttribute('kerberos_auth');
-  }
-  public set kerberosAuth(value: boolean | cdktf.IResolvable) {
-    this._kerberosAuth = value;
-  }
-  public resetKerberosAuth() {
-    this._kerberosAuth = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get kerberosAuthInput() {
-    return this._kerberosAuth;
   }
 
   // name - computed: false, optional: true, required: false
@@ -208,6 +161,26 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('parent_id');
   }
 
+  // sub_loc_acc_ids - computed: true, optional: false, required: false
+  public get subLocAccIds() {
+    return this.getListAttribute('sub_loc_acc_ids');
+  }
+
+  // sub_loc_scope - computed: true, optional: false, required: false
+  public get subLocScope() {
+    return this.getStringAttribute('sub_loc_scope');
+  }
+
+  // sub_loc_scope_enabled - computed: true, optional: false, required: false
+  public get subLocScopeEnabled() {
+    return this.getBooleanAttribute('sub_loc_scope_enabled');
+  }
+
+  // sub_loc_scope_values - computed: true, optional: false, required: false
+  public get subLocScopeValues() {
+    return this.getListAttribute('sub_loc_scope_values');
+  }
+
   // surrogate_ip - computed: true, optional: false, required: false
   public get surrogateIp() {
     return this.getBooleanAttribute('surrogate_ip');
@@ -239,32 +212,18 @@ export class DataZiaLocationLite extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      digest_auth_enabled: cdktf.booleanToTerraform(this._digestAuthEnabled),
       id: cdktf.numberToTerraform(this._id),
-      kerberos_auth: cdktf.booleanToTerraform(this._kerberosAuth),
       name: cdktf.stringToTerraform(this._name),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      digest_auth_enabled: {
-        value: cdktf.booleanToHclTerraform(this._digestAuthEnabled),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
       id: {
         value: cdktf.numberToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      kerberos_auth: {
-        value: cdktf.booleanToHclTerraform(this._kerberosAuth),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

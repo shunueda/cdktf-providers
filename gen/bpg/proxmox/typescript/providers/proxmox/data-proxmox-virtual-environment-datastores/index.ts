@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataProxmoxVirtualEnvironmentDatastoresConfig extends cdktf.Ter
   /**
   * The list of datastores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#datastores DataProxmoxVirtualEnvironmentDatastores#datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#datastores DataProxmoxVirtualEnvironmentDatastores#datastores}
   */
   readonly datastores?: DataProxmoxVirtualEnvironmentDatastoresDatastores[] | cdktf.IResolvable;
   /**
   * The filters to apply to the stores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#filters DataProxmoxVirtualEnvironmentDatastores#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#filters DataProxmoxVirtualEnvironmentDatastores#filters}
   */
   readonly filters?: DataProxmoxVirtualEnvironmentDatastoresFilters;
   /**
   * The name of the node to retrieve the stores from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#node_name DataProxmoxVirtualEnvironmentDatastores#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#node_name DataProxmoxVirtualEnvironmentDatastores#node_name}
   */
   readonly nodeName: string;
 }
@@ -30,25 +30,25 @@ export interface DataProxmoxVirtualEnvironmentDatastoresDatastores {
   /**
   * Whether the store is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#active DataProxmoxVirtualEnvironmentDatastores#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#active DataProxmoxVirtualEnvironmentDatastores#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Allowed store content types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#content_types DataProxmoxVirtualEnvironmentDatastores#content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#content_types DataProxmoxVirtualEnvironmentDatastores#content_types}
   */
   readonly contentTypes: string[];
   /**
   * Whether the store is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#enabled DataProxmoxVirtualEnvironmentDatastores#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#enabled DataProxmoxVirtualEnvironmentDatastores#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#id DataProxmoxVirtualEnvironmentDatastores#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#id DataProxmoxVirtualEnvironmentDatastores#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,43 +57,43 @@ export interface DataProxmoxVirtualEnvironmentDatastoresDatastores {
   /**
   * The name of the node the store is on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#node_name DataProxmoxVirtualEnvironmentDatastores#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#node_name DataProxmoxVirtualEnvironmentDatastores#node_name}
   */
   readonly nodeName: string;
   /**
   * Shared flag from store configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#shared DataProxmoxVirtualEnvironmentDatastores#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#shared DataProxmoxVirtualEnvironmentDatastores#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
   * Available store space in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#space_available DataProxmoxVirtualEnvironmentDatastores#space_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#space_available DataProxmoxVirtualEnvironmentDatastores#space_available}
   */
   readonly spaceAvailable?: number;
   /**
   * Total store space in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#space_total DataProxmoxVirtualEnvironmentDatastores#space_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#space_total DataProxmoxVirtualEnvironmentDatastores#space_total}
   */
   readonly spaceTotal?: number;
   /**
   * Used store space in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#space_used DataProxmoxVirtualEnvironmentDatastores#space_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#space_used DataProxmoxVirtualEnvironmentDatastores#space_used}
   */
   readonly spaceUsed?: number;
   /**
   * Used fraction (used/total).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#space_used_fraction DataProxmoxVirtualEnvironmentDatastores#space_used_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#space_used_fraction DataProxmoxVirtualEnvironmentDatastores#space_used_fraction}
   */
   readonly spaceUsedFraction?: number;
   /**
   * Store type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#type DataProxmoxVirtualEnvironmentDatastores#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#type DataProxmoxVirtualEnvironmentDatastores#type}
   */
   readonly type: string;
 }
@@ -489,13 +489,13 @@ export interface DataProxmoxVirtualEnvironmentDatastoresFilters {
   /**
   * Only list stores with the given content types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#content_types DataProxmoxVirtualEnvironmentDatastores#content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#content_types DataProxmoxVirtualEnvironmentDatastores#content_types}
   */
   readonly contentTypes?: string[];
   /**
   * Only list stores with the given ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#id DataProxmoxVirtualEnvironmentDatastores#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#id DataProxmoxVirtualEnvironmentDatastores#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -504,7 +504,7 @@ export interface DataProxmoxVirtualEnvironmentDatastoresFilters {
   /**
   * If `target` is different to `node_name`, then only lists shared stores which content is accessible on this node and the specified `target` node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#target DataProxmoxVirtualEnvironmentDatastores#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#target DataProxmoxVirtualEnvironmentDatastores#target}
   */
   readonly target?: string;
 }
@@ -656,7 +656,7 @@ export class DataProxmoxVirtualEnvironmentDatastoresFiltersOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores proxmox_virtual_environment_datastores}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores proxmox_virtual_environment_datastores}
 */
 export class DataProxmoxVirtualEnvironmentDatastores extends cdktf.TerraformDataSource {
 
@@ -672,7 +672,7 @@ export class DataProxmoxVirtualEnvironmentDatastores extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentDatastores resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentDatastores to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentDatastores that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentDatastores that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentDatastores to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class DataProxmoxVirtualEnvironmentDatastores extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_datastores proxmox_virtual_environment_datastores} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_datastores proxmox_virtual_environment_datastores} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,8 +695,8 @@ export class DataProxmoxVirtualEnvironmentDatastores extends cdktf.TerraformData
       terraformResourceType: 'proxmox_virtual_environment_datastores',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "fivetran": "1.9.13"
+    "fivetran": "1.9.15"
   }
 }

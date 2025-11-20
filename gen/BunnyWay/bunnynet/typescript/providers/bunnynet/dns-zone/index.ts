@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Indicates whether DNSSEC is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#dnssec_enabled DnsZone#dnssec_enabled}
+  */
+  readonly dnssecEnabled?: boolean | cdktf.IResolvable;
+  /**
   * The domain name for the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#domain DnsZone#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#domain DnsZone#domain}
   */
   readonly domain: string;
   /**
   * Indicates whether DNS logs are anonymized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#log_anonymized DnsZone#log_anonymized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#log_anonymized DnsZone#log_anonymized}
   */
   readonly logAnonymized?: boolean | cdktf.IResolvable;
   /**
   * Options: `Drop`, `OneDigit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#log_anonymized_style DnsZone#log_anonymized_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#log_anonymized_style DnsZone#log_anonymized_style}
   */
   readonly logAnonymizedStyle?: string;
   /**
   * Indicates whether permanent logging for DNS queries is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#log_enabled DnsZone#log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#log_enabled DnsZone#log_enabled}
   */
   readonly logEnabled?: boolean | cdktf.IResolvable;
   /**
   * The primary nameserver for the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#nameserver1 DnsZone#nameserver1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#nameserver1 DnsZone#nameserver1}
   */
   readonly nameserver1?: string;
   /**
   * The secondary nameserver for the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#nameserver2 DnsZone#nameserver2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#nameserver2 DnsZone#nameserver2}
   */
   readonly nameserver2?: string;
   /**
   * Indicates whether custom nameservers are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#nameserver_custom DnsZone#nameserver_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#nameserver_custom DnsZone#nameserver_custom}
   */
   readonly nameserverCustom?: boolean | cdktf.IResolvable;
   /**
   * The email address used in the Start of Authority (SOA) record for the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#soa_email DnsZone#soa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#soa_email DnsZone#soa_email}
   */
   readonly soaEmail?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone bunnynet_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone bunnynet_dns_zone}
 */
 export class DnsZone extends cdktf.TerraformResource {
 
@@ -74,7 +80,7 @@ export class DnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZone to import
-  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +92,7 @@ export class DnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_zone bunnynet_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/dns_zone bunnynet_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +103,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,6 +114,7 @@ export class DnsZone extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnssecEnabled = config.dnssecEnabled;
     this._domain = config.domain;
     this._logAnonymized = config.logAnonymized;
     this._logAnonymizedStyle = config.logAnonymizedStyle;
@@ -121,6 +128,47 @@ export class DnsZone extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dnssec_algorithm - computed: true, optional: false, required: false
+  public get dnssecAlgorithm() {
+    return this.getNumberAttribute('dnssec_algorithm');
+  }
+
+  // dnssec_digest - computed: true, optional: false, required: false
+  public get dnssecDigest() {
+    return this.getStringAttribute('dnssec_digest');
+  }
+
+  // dnssec_digest_type - computed: true, optional: false, required: false
+  public get dnssecDigestType() {
+    return this.getNumberAttribute('dnssec_digest_type');
+  }
+
+  // dnssec_enabled - computed: true, optional: true, required: false
+  private _dnssecEnabled?: boolean | cdktf.IResolvable; 
+  public get dnssecEnabled() {
+    return this.getBooleanAttribute('dnssec_enabled');
+  }
+  public set dnssecEnabled(value: boolean | cdktf.IResolvable) {
+    this._dnssecEnabled = value;
+  }
+  public resetDnssecEnabled() {
+    this._dnssecEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnssecEnabledInput() {
+    return this._dnssecEnabled;
+  }
+
+  // dnssec_flags - computed: true, optional: false, required: false
+  public get dnssecFlags() {
+    return this.getNumberAttribute('dnssec_flags');
+  }
+
+  // dnssec_keytag - computed: true, optional: false, required: false
+  public get dnssecKeytag() {
+    return this.getNumberAttribute('dnssec_keytag');
+  }
 
   // domain - computed: false, optional: false, required: true
   private _domain?: string; 
@@ -258,6 +306,7 @@ export class DnsZone extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dnssec_enabled: cdktf.booleanToTerraform(this._dnssecEnabled),
       domain: cdktf.stringToTerraform(this._domain),
       log_anonymized: cdktf.booleanToTerraform(this._logAnonymized),
       log_anonymized_style: cdktf.stringToTerraform(this._logAnonymizedStyle),
@@ -271,6 +320,12 @@ export class DnsZone extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      dnssec_enabled: {
+        value: cdktf.booleanToHclTerraform(this._dnssecEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       domain: {
         value: cdktf.stringToHclTerraform(this._domain),
         isBlock: false,

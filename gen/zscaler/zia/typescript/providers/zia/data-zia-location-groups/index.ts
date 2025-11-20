@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaLocationGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#id DataZiaLocationGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#id DataZiaLocationGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#name DataZiaLocationGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#name DataZiaLocationGroups#name}
   */
   readonly name?: string;
   /**
   * dynamic_location_group_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#dynamic_location_group_criteria DataZiaLocationGroups#dynamic_location_group_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#dynamic_location_group_criteria DataZiaLocationGroups#dynamic_location_group_criteria}
   */
   readonly dynamicLocationGroupCriteria?: DataZiaLocationGroupsDynamicLocationGroupCriteria[] | cdktf.IResolvable;
 }
@@ -285,11 +285,11 @@ export class DataZiaLocationGroupsDynamicLocationGroupCriteriaManagedByList exte
 }
 export interface DataZiaLocationGroupsDynamicLocationGroupCriteriaCity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#match_string DataZiaLocationGroups#match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#match_string DataZiaLocationGroups#match_string}
   */
   readonly matchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#match_type DataZiaLocationGroups#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#match_type DataZiaLocationGroups#match_type}
   */
   readonly matchType?: string;
 }
@@ -434,11 +434,11 @@ export class DataZiaLocationGroupsDynamicLocationGroupCriteriaCityList extends c
 }
 export interface DataZiaLocationGroupsDynamicLocationGroupCriteriaName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#match_string DataZiaLocationGroups#match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#match_string DataZiaLocationGroups#match_string}
   */
   readonly matchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#match_type DataZiaLocationGroups#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#match_type DataZiaLocationGroups#match_type}
   */
   readonly matchType?: string;
 }
@@ -583,23 +583,23 @@ export class DataZiaLocationGroupsDynamicLocationGroupCriteriaNameList extends c
 }
 export interface DataZiaLocationGroupsDynamicLocationGroupCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#countries DataZiaLocationGroups#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#countries DataZiaLocationGroups#countries}
   */
   readonly countries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#profiles DataZiaLocationGroups#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#profiles DataZiaLocationGroups#profiles}
   */
   readonly profiles?: string[];
   /**
   * city block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#city DataZiaLocationGroups#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#city DataZiaLocationGroups#city}
   */
   readonly city?: DataZiaLocationGroupsDynamicLocationGroupCriteriaCity[] | cdktf.IResolvable;
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#name DataZiaLocationGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#name DataZiaLocationGroups#name}
   */
   readonly name?: DataZiaLocationGroupsDynamicLocationGroupCriteriaName[] | cdktf.IResolvable;
 }
@@ -838,7 +838,7 @@ export class DataZiaLocationGroupsDynamicLocationGroupCriteriaList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups zia_location_groups}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups zia_location_groups}
 */
 export class DataZiaLocationGroups extends cdktf.TerraformDataSource {
 
@@ -854,7 +854,7 @@ export class DataZiaLocationGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaLocationGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaLocationGroups to import
-  * @param importFromId The id of the existing DataZiaLocationGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaLocationGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaLocationGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -866,7 +866,7 @@ export class DataZiaLocationGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/location_groups zia_location_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/location_groups zia_location_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -877,8 +877,8 @@ export class DataZiaLocationGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_location_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

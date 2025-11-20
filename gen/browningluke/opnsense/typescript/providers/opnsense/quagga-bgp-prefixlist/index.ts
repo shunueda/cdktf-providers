@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface QuaggaBgpPrefixlistConfig extends cdktf.TerraformMetaArguments 
   /**
   * Set permit for match or deny to negate the rule. Defaults to `"permit"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#action QuaggaBgpPrefixlist#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#action QuaggaBgpPrefixlist#action}
   */
   readonly action?: string;
   /**
   * An optional description for this prefix list. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#description QuaggaBgpPrefixlist#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#description QuaggaBgpPrefixlist#description}
   */
   readonly description?: string;
   /**
   * Enable this prefix list. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#enabled QuaggaBgpPrefixlist#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#enabled QuaggaBgpPrefixlist#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the IP version to use. Defaults to `"IPv4"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#ip_version QuaggaBgpPrefixlist#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#ip_version QuaggaBgpPrefixlist#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The name of this prefix list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#name QuaggaBgpPrefixlist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#name QuaggaBgpPrefixlist#name}
   */
   readonly name: string;
   /**
   * The network pattern you want to match. You can also add "ge" or "le" additions after the network statement. It's not validated so please be careful!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#network QuaggaBgpPrefixlist#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#network QuaggaBgpPrefixlist#network}
   */
   readonly network: string;
   /**
   * The ACL sequence number (1-4294967294).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#number QuaggaBgpPrefixlist#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#number QuaggaBgpPrefixlist#number}
   */
   readonly number: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist opnsense_quagga_bgp_prefixlist}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist opnsense_quagga_bgp_prefixlist}
 */
 export class QuaggaBgpPrefixlist extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class QuaggaBgpPrefixlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuaggaBgpPrefixlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuaggaBgpPrefixlist to import
-  * @param importFromId The id of the existing QuaggaBgpPrefixlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuaggaBgpPrefixlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuaggaBgpPrefixlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class QuaggaBgpPrefixlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_prefixlist opnsense_quagga_bgp_prefixlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_prefixlist opnsense_quagga_bgp_prefixlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class QuaggaBgpPrefixlist extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_quagga_bgp_prefixlist',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

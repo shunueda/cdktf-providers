@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface KeaReservationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description here for your reference (not parsed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation#description KeaReservation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation#description KeaReservation#description}
   */
   readonly description?: string;
   /**
   * Hostname to offer to the client. Defaults to `""`..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation#hostname KeaReservation#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation#hostname KeaReservation#hostname}
   */
   readonly hostname?: string;
   /**
   * IP address to offer to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation#ip_address KeaReservation#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation#ip_address KeaReservation#ip_address}
   */
   readonly ipAddress: string;
   /**
   * MAC/Ether address of the client in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation#mac_address KeaReservation#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation#mac_address KeaReservation#mac_address}
   */
   readonly macAddress: string;
   /**
   * Subnet ID the reservation belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation#subnet_id KeaReservation#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation#subnet_id KeaReservation#subnet_id}
   */
   readonly subnetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation opnsense_kea_reservation}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation opnsense_kea_reservation}
 */
 export class KeaReservation extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class KeaReservation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeaReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeaReservation to import
-  * @param importFromId The id of the existing KeaReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeaReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeaReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class KeaReservation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_reservation opnsense_kea_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_reservation opnsense_kea_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class KeaReservation extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_kea_reservation',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

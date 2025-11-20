@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ComputeContainerAppConfig extends cdktf.TerraformMetaArguments 
   /**
   * The maximum number of instances that will be provisioned per active region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#autoscaling_max ComputeContainerApp#autoscaling_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#autoscaling_max ComputeContainerApp#autoscaling_max}
   */
   readonly autoscalingMax?: number;
   /**
   * The minimum number of instances that will be provisioned per active region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#autoscaling_min ComputeContainerApp#autoscaling_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#autoscaling_min ComputeContainerApp#autoscaling_min}
   */
   readonly autoscalingMin?: number;
   /**
   * The name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#name ComputeContainerApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#name ComputeContainerApp#name}
   */
   readonly name: string;
   /**
   * The regions that will be dynamically provisionable based on the user latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#regions_allowed ComputeContainerApp#regions_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#regions_allowed ComputeContainerApp#regions_allowed}
   */
   readonly regionsAllowed: string[];
   /**
   * The maximum amount of regions to be deployed at any given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#regions_max_allowed ComputeContainerApp#regions_max_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#regions_max_allowed ComputeContainerApp#regions_max_allowed}
   */
   readonly regionsMaxAllowed?: number;
   /**
   * The regions that will be statically provisioned and will always be running and available to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#regions_required ComputeContainerApp#regions_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#regions_required ComputeContainerApp#regions_required}
   */
   readonly regionsRequired: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#version ComputeContainerApp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#version ComputeContainerApp#version}
   */
   readonly version?: number;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#container ComputeContainerApp#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#container ComputeContainerApp#container}
   */
   readonly container?: ComputeContainerAppContainer[] | cdktf.IResolvable;
 }
@@ -58,7 +58,7 @@ export interface ComputeContainerAppContainerEndpointCdnStickySessions {
   /**
   * Incoming request headers used to select a pod for sticky sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#headers ComputeContainerApp#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#headers ComputeContainerApp#headers}
   */
   readonly headers: string[];
 }
@@ -173,13 +173,13 @@ export interface ComputeContainerAppContainerEndpointCdn {
   /**
   * Indicates whether the container will handle TLS termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#origin_ssl ComputeContainerApp#origin_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#origin_ssl ComputeContainerApp#origin_ssl}
   */
   readonly originSsl?: boolean | cdktf.IResolvable;
   /**
   * sticky_sessions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#sticky_sessions ComputeContainerApp#sticky_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#sticky_sessions ComputeContainerApp#sticky_sessions}
   */
   readonly stickySessions?: ComputeContainerAppContainerEndpointCdnStickySessions[] | cdktf.IResolvable;
 }
@@ -331,19 +331,19 @@ export interface ComputeContainerAppContainerEndpointPort {
   /**
   * The container port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#container ComputeContainerApp#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#container ComputeContainerApp#container}
   */
   readonly container: number;
   /**
   * The exposed port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#exposed ComputeContainerApp#exposed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#exposed ComputeContainerApp#exposed}
   */
   readonly exposed?: number;
   /**
   * Options: `Tcp`, `Udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#protocols ComputeContainerApp#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#protocols ComputeContainerApp#protocols}
   */
   readonly protocols?: string[];
 }
@@ -516,25 +516,25 @@ export interface ComputeContainerAppContainerEndpoint {
   /**
   * The name of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#name ComputeContainerApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#name ComputeContainerApp#name}
   */
   readonly name: string;
   /**
   * Options: `Anycast`, `CDN`, `InternalIP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#type ComputeContainerApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#type ComputeContainerApp#type}
   */
   readonly type: string;
   /**
   * cdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#cdn ComputeContainerApp#cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#cdn ComputeContainerApp#cdn}
   */
   readonly cdn?: ComputeContainerAppContainerEndpointCdn[] | cdktf.IResolvable;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#port ComputeContainerApp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#port ComputeContainerApp#port}
   */
   readonly port?: ComputeContainerAppContainerEndpointPort[] | cdktf.IResolvable;
 }
@@ -733,13 +733,13 @@ export interface ComputeContainerAppContainerEnv {
   /**
   * The name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#name ComputeContainerApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#name ComputeContainerApp#name}
   */
   readonly name: string;
   /**
   * The value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#value ComputeContainerApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#value ComputeContainerApp#value}
   */
   readonly value: string;
 }
@@ -880,7 +880,7 @@ export interface ComputeContainerAppContainerLivenessProbeGrpc {
   /**
   * The gRPC service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#service ComputeContainerApp#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#service ComputeContainerApp#service}
   */
   readonly service: string;
 }
@@ -995,13 +995,13 @@ export interface ComputeContainerAppContainerLivenessProbeHttp {
   /**
   * The expected HTTP response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#expected_status ComputeContainerApp#expected_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#expected_status ComputeContainerApp#expected_status}
   */
   readonly expectedStatus?: number;
   /**
   * The HTTP path to be requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#path ComputeContainerApp#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#path ComputeContainerApp#path}
   */
   readonly path: string;
 }
@@ -1145,55 +1145,55 @@ export interface ComputeContainerAppContainerLivenessProbe {
   /**
   * The number of failed probes to consider the container unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#failure_threshold ComputeContainerApp#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#failure_threshold ComputeContainerApp#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The amount of time in seconds after the container is started to wait before the first probe is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#initial_delay ComputeContainerApp#initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#initial_delay ComputeContainerApp#initial_delay}
   */
   readonly initialDelay?: number;
   /**
   * The amount of time in seconds between each probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#period ComputeContainerApp#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#period ComputeContainerApp#period}
   */
   readonly period?: number;
   /**
   * The port within the container the probe will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#port ComputeContainerApp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#port ComputeContainerApp#port}
   */
   readonly port: number;
   /**
   * The number of successful probes to consider the container healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#success_threshold ComputeContainerApp#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#success_threshold ComputeContainerApp#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The amount of time in seconds the probe will wait for a response before considering it a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#timeout ComputeContainerApp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#timeout ComputeContainerApp#timeout}
   */
   readonly timeout?: number;
   /**
   * Options: `grpc`, `http`, `tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#type ComputeContainerApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#type ComputeContainerApp#type}
   */
   readonly type: string;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#grpc ComputeContainerApp#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#grpc ComputeContainerApp#grpc}
   */
   readonly grpc?: ComputeContainerAppContainerLivenessProbeGrpc[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#http ComputeContainerApp#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#http ComputeContainerApp#http}
   */
   readonly http?: ComputeContainerAppContainerLivenessProbeHttp[] | cdktf.IResolvable;
 }
@@ -1537,7 +1537,7 @@ export interface ComputeContainerAppContainerReadinessProbeGrpc {
   /**
   * The gRPC service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#service ComputeContainerApp#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#service ComputeContainerApp#service}
   */
   readonly service: string;
 }
@@ -1652,13 +1652,13 @@ export interface ComputeContainerAppContainerReadinessProbeHttp {
   /**
   * The expected HTTP response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#expected_status ComputeContainerApp#expected_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#expected_status ComputeContainerApp#expected_status}
   */
   readonly expectedStatus?: number;
   /**
   * The HTTP path to be requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#path ComputeContainerApp#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#path ComputeContainerApp#path}
   */
   readonly path: string;
 }
@@ -1802,55 +1802,55 @@ export interface ComputeContainerAppContainerReadinessProbe {
   /**
   * The number of failed probes to consider the container unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#failure_threshold ComputeContainerApp#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#failure_threshold ComputeContainerApp#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The amount of time in seconds after the container is started to wait before the first probe is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#initial_delay ComputeContainerApp#initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#initial_delay ComputeContainerApp#initial_delay}
   */
   readonly initialDelay?: number;
   /**
   * The amount of time in seconds between each probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#period ComputeContainerApp#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#period ComputeContainerApp#period}
   */
   readonly period?: number;
   /**
   * The port within the container the probe will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#port ComputeContainerApp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#port ComputeContainerApp#port}
   */
   readonly port: number;
   /**
   * The number of successful probes to consider the container healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#success_threshold ComputeContainerApp#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#success_threshold ComputeContainerApp#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The amount of time in seconds the probe will wait for a response before considering it a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#timeout ComputeContainerApp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#timeout ComputeContainerApp#timeout}
   */
   readonly timeout?: number;
   /**
   * Options: `grpc`, `http`, `tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#type ComputeContainerApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#type ComputeContainerApp#type}
   */
   readonly type: string;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#grpc ComputeContainerApp#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#grpc ComputeContainerApp#grpc}
   */
   readonly grpc?: ComputeContainerAppContainerReadinessProbeGrpc[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#http ComputeContainerApp#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#http ComputeContainerApp#http}
   */
   readonly http?: ComputeContainerAppContainerReadinessProbeHttp[] | cdktf.IResolvable;
 }
@@ -2194,7 +2194,7 @@ export interface ComputeContainerAppContainerStartupProbeGrpc {
   /**
   * The gRPC service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#service ComputeContainerApp#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#service ComputeContainerApp#service}
   */
   readonly service: string;
 }
@@ -2309,13 +2309,13 @@ export interface ComputeContainerAppContainerStartupProbeHttp {
   /**
   * The expected HTTP response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#expected_status ComputeContainerApp#expected_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#expected_status ComputeContainerApp#expected_status}
   */
   readonly expectedStatus?: number;
   /**
   * The HTTP path to be requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#path ComputeContainerApp#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#path ComputeContainerApp#path}
   */
   readonly path: string;
 }
@@ -2459,55 +2459,55 @@ export interface ComputeContainerAppContainerStartupProbe {
   /**
   * The number of failed probes to consider the container unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#failure_threshold ComputeContainerApp#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#failure_threshold ComputeContainerApp#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The amount of time in seconds after the container is started to wait before the first probe is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#initial_delay ComputeContainerApp#initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#initial_delay ComputeContainerApp#initial_delay}
   */
   readonly initialDelay?: number;
   /**
   * The amount of time in seconds between each probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#period ComputeContainerApp#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#period ComputeContainerApp#period}
   */
   readonly period?: number;
   /**
   * The port within the container the probe will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#port ComputeContainerApp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#port ComputeContainerApp#port}
   */
   readonly port: number;
   /**
   * The number of successful probes to consider the container healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#success_threshold ComputeContainerApp#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#success_threshold ComputeContainerApp#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The amount of time in seconds the probe will wait for a response before considering it a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#timeout ComputeContainerApp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#timeout ComputeContainerApp#timeout}
   */
   readonly timeout?: number;
   /**
   * Options: `grpc`, `http`, `tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#type ComputeContainerApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#type ComputeContainerApp#type}
   */
   readonly type: string;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#grpc ComputeContainerApp#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#grpc ComputeContainerApp#grpc}
   */
   readonly grpc?: ComputeContainerAppContainerStartupProbeGrpc[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#http ComputeContainerApp#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#http ComputeContainerApp#http}
   */
   readonly http?: ComputeContainerAppContainerStartupProbeHttp[] | cdktf.IResolvable;
 }
@@ -2851,85 +2851,85 @@ export interface ComputeContainerAppContainer {
   /**
   * The arguments that will be added to the container entry point when starting the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#arguments ComputeContainerApp#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#arguments ComputeContainerApp#arguments}
   */
   readonly arguments?: string;
   /**
   * A custom startup command that will execute once the container is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#command ComputeContainerApp#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#command ComputeContainerApp#command}
   */
   readonly command?: string;
   /**
   * The image name within the registry, without the domain prefix (i.e.: `my-app`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#image_name ComputeContainerApp#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#image_name ComputeContainerApp#image_name}
   */
   readonly imageName: string;
   /**
   * The image namespace within the registry, without the domain prefix (i.e.: `my-org`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#image_namespace ComputeContainerApp#image_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#image_namespace ComputeContainerApp#image_namespace}
   */
   readonly imageNamespace: string;
   /**
   * Options: `Always`, `IfNotPresent`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#image_pull_policy ComputeContainerApp#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#image_pull_policy ComputeContainerApp#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * The image registry for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#image_registry ComputeContainerApp#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#image_registry ComputeContainerApp#image_registry}
   */
   readonly imageRegistry: number;
   /**
   * The image tag (i.e.: `2.9-alpine`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#image_tag ComputeContainerApp#image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#image_tag ComputeContainerApp#image_tag}
   */
   readonly imageTag: string;
   /**
   * The name of the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#name ComputeContainerApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#name ComputeContainerApp#name}
   */
   readonly name: string;
   /**
   * The working directory of the container runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#working_dir ComputeContainerApp#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#working_dir ComputeContainerApp#working_dir}
   */
   readonly workingDir?: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#endpoint ComputeContainerApp#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#endpoint ComputeContainerApp#endpoint}
   */
   readonly endpoint?: ComputeContainerAppContainerEndpoint[] | cdktf.IResolvable;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#env ComputeContainerApp#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#env ComputeContainerApp#env}
   */
   readonly env?: ComputeContainerAppContainerEnv[] | cdktf.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#liveness_probe ComputeContainerApp#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#liveness_probe ComputeContainerApp#liveness_probe}
   */
   readonly livenessProbe?: ComputeContainerAppContainerLivenessProbe[] | cdktf.IResolvable;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#readiness_probe ComputeContainerApp#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#readiness_probe ComputeContainerApp#readiness_probe}
   */
   readonly readinessProbe?: ComputeContainerAppContainerReadinessProbe[] | cdktf.IResolvable;
   /**
   * startup_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#startup_probe ComputeContainerApp#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#startup_probe ComputeContainerApp#startup_probe}
   */
   readonly startupProbe?: ComputeContainerAppContainerStartupProbe[] | cdktf.IResolvable;
 }
@@ -3412,7 +3412,7 @@ export class ComputeContainerAppContainerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app bunnynet_compute_container_app}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app bunnynet_compute_container_app}
 */
 export class ComputeContainerApp extends cdktf.TerraformResource {
 
@@ -3428,7 +3428,7 @@ export class ComputeContainerApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeContainerApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeContainerApp to import
-  * @param importFromId The id of the existing ComputeContainerApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeContainerApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeContainerApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3440,7 +3440,7 @@ export class ComputeContainerApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_container_app bunnynet_compute_container_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_container_app bunnynet_compute_container_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3451,8 +3451,8 @@ export class ComputeContainerApp extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_compute_container_app',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

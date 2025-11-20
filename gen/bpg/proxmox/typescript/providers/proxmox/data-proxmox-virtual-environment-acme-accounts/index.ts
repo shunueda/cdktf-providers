@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_acme_accounts
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_acme_accounts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataProxmoxVirtualEnvironmentAcmeAccountsConfig extends cdktf.T
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_acme_accounts proxmox_virtual_environment_acme_accounts}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_acme_accounts proxmox_virtual_environment_acme_accounts}
 */
 export class DataProxmoxVirtualEnvironmentAcmeAccounts extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataProxmoxVirtualEnvironmentAcmeAccounts extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentAcmeAccounts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentAcmeAccounts to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentAcmeAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_acme_accounts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentAcmeAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_acme_accounts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentAcmeAccounts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataProxmoxVirtualEnvironmentAcmeAccounts extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/data-sources/virtual_environment_acme_accounts proxmox_virtual_environment_acme_accounts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_acme_accounts proxmox_virtual_environment_acme_accounts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataProxmoxVirtualEnvironmentAcmeAccounts extends cdktf.TerraformDa
       terraformResourceType: 'proxmox_virtual_environment_acme_accounts',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/cloud_providers
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/cloud_providers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -90,7 +90,7 @@ export class DataZillizcloudCloudProvidersCloudProvidersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/cloud_providers zillizcloud_cloud_providers}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/cloud_providers zillizcloud_cloud_providers}
 */
 export class DataZillizcloudCloudProviders extends cdktf.TerraformDataSource {
 
@@ -106,7 +106,7 @@ export class DataZillizcloudCloudProviders extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZillizcloudCloudProviders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZillizcloudCloudProviders to import
-  * @param importFromId The id of the existing DataZillizcloudCloudProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/cloud_providers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZillizcloudCloudProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/cloud_providers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZillizcloudCloudProviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +118,7 @@ export class DataZillizcloudCloudProviders extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/cloud_providers zillizcloud_cloud_providers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/cloud_providers zillizcloud_cloud_providers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,8 +129,8 @@ export class DataZillizcloudCloudProviders extends cdktf.TerraformDataSource {
       terraformResourceType: 'zillizcloud_cloud_providers',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

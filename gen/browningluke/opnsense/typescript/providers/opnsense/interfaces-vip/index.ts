@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InterfacesVipConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description here for your reference (not parsed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip#description InterfacesVip#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip#description InterfacesVip#description}
   */
   readonly description?: string;
   /**
   * For some interface types a gateway is required to configure an IP Alias (ppp/pppoe/tun), leave this field empty for all other interface types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip#gateway InterfacesVip#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip#gateway InterfacesVip#gateway}
   */
   readonly gateway?: string;
   /**
   * Choose which interface this VIP applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip#interface InterfacesVip#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip#interface InterfacesVip#interface}
   */
   readonly interface?: string;
   /**
   * Mode of the VIP. One of `ipalias` or `proxyarp`. `proxyarp` cannot be bound to by anything running on the firewall, such as IPsec, OpenVPN, etc. In most cases an `ipalias` should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip#mode InterfacesVip#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip#mode InterfacesVip#mode}
   */
   readonly mode?: string;
   /**
   * Provide an address and subnet to use. (e.g 192.168.0.1/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip#network InterfacesVip#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip#network InterfacesVip#network}
   */
   readonly network: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip opnsense_interfaces_vip}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip opnsense_interfaces_vip}
 */
 export class InterfacesVip extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class InterfacesVip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacesVip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacesVip to import
-  * @param importFromId The id of the existing InterfacesVip that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacesVip that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacesVip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class InterfacesVip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vip opnsense_interfaces_vip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vip opnsense_interfaces_vip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class InterfacesVip extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_interfaces_vip',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_application_services_group
+// https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_application_services_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataZiaFirewallFilteringApplicationServicesGroupConfig extends 
   /**
   * The name of the application service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_application_services_group#name DataZiaFirewallFilteringApplicationServicesGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_application_services_group#name DataZiaFirewallFilteringApplicationServicesGroup#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_application_services_group zia_firewall_filtering_application_services_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_application_services_group zia_firewall_filtering_application_services_group}
 */
 export class DataZiaFirewallFilteringApplicationServicesGroup extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataZiaFirewallFilteringApplicationServicesGroup extends cdktf.Terr
   * Generates CDKTF code for importing a DataZiaFirewallFilteringApplicationServicesGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaFirewallFilteringApplicationServicesGroup to import
-  * @param importFromId The id of the existing DataZiaFirewallFilteringApplicationServicesGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_application_services_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaFirewallFilteringApplicationServicesGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_application_services_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaFirewallFilteringApplicationServicesGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataZiaFirewallFilteringApplicationServicesGroup extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.5.3/docs/data-sources/firewall_filtering_application_services_group zia_firewall_filtering_application_services_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.0/docs/data-sources/firewall_filtering_application_services_group zia_firewall_filtering_application_services_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataZiaFirewallFilteringApplicationServicesGroup extends cdktf.Terr
       terraformResourceType: 'zia_firewall_filtering_application_services_group',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3',
-        providerVersionConstraint: '4.5.3'
+        providerVersion: '4.6.0',
+        providerVersionConstraint: '4.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

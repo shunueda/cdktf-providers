@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/byoc_i_project_settings
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/byoc_i_project_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataZillizcloudByocIProjectSettingsConfig extends cdktf.Terrafo
   /**
   * The ID of the data plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/byoc_i_project_settings#data_plane_id DataZillizcloudByocIProjectSettings#data_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/byoc_i_project_settings#data_plane_id DataZillizcloudByocIProjectSettings#data_plane_id}
   */
   readonly dataPlaneId: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/byoc_i_project_settings#project_id DataZillizcloudByocIProjectSettings#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/byoc_i_project_settings#project_id DataZillizcloudByocIProjectSettings#project_id}
   */
   readonly projectId: string;
 }
@@ -470,7 +470,7 @@ export class DataZillizcloudByocIProjectSettingsOpConfigOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/byoc_i_project_settings zillizcloud_byoc_i_project_settings}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/byoc_i_project_settings zillizcloud_byoc_i_project_settings}
 */
 export class DataZillizcloudByocIProjectSettings extends cdktf.TerraformDataSource {
 
@@ -486,7 +486,7 @@ export class DataZillizcloudByocIProjectSettings extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataZillizcloudByocIProjectSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZillizcloudByocIProjectSettings to import
-  * @param importFromId The id of the existing DataZillizcloudByocIProjectSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/byoc_i_project_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZillizcloudByocIProjectSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/byoc_i_project_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZillizcloudByocIProjectSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -498,7 +498,7 @@ export class DataZillizcloudByocIProjectSettings extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/byoc_i_project_settings zillizcloud_byoc_i_project_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/byoc_i_project_settings zillizcloud_byoc_i_project_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,8 +509,8 @@ export class DataZillizcloudByocIProjectSettings extends cdktf.TerraformDataSour
       terraformResourceType: 'zillizcloud_byoc_i_project_settings',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

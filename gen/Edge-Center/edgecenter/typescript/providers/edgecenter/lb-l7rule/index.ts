@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LbL7RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The comparison type for the L7 rule. Available comparison types: "CONTAINS", "STARTS_WITH", "ENDS_WITH", "EQUAL_TO", "REGEX".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#compare_type LbL7Rule#compare_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#compare_type LbL7Rule#compare_type}
   */
   readonly compareType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#id LbL7Rule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#id LbL7Rule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,81 +25,81 @@ export interface LbL7RuleConfig extends cdktf.TerraformMetaArguments {
   * 
   * For example, with `true`, equal to would become not equal to. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#invert LbL7Rule#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#invert LbL7Rule#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The key to use for the comparison. For example, the name of the cookie to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#key LbL7Rule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#key LbL7Rule#key}
   */
   readonly key?: string;
   /**
   * The ID of the L7 policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#l7policy_id LbL7Rule#l7policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#l7policy_id LbL7Rule#l7policy_id}
   */
   readonly l7PolicyId: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#project_id LbL7Rule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#project_id LbL7Rule#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#project_name LbL7Rule#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#project_name LbL7Rule#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#region_id LbL7Rule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#region_id LbL7Rule#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#region_name LbL7Rule#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#region_name LbL7Rule#region_name}
   */
   readonly regionName?: string;
   /**
   * A list of simple strings assigned to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#tags LbL7Rule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#tags LbL7Rule#tags}
   */
   readonly tags?: string[];
   /**
   * The type of the L7 rule. Available types: "COOKIE", "FILE_TYPE", "HEADER", "HOST_NAME", "PATH", "SSL_CONN_HAS_CERT", "SSL_VERIFY_RESULT", "SSL_DN_FIELD".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#type LbL7Rule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#type LbL7Rule#type}
   */
   readonly type: string;
   /**
   * The value to use for the comparison. For example, the file type to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#value LbL7Rule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#value LbL7Rule#value}
   */
   readonly value: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#timeouts LbL7Rule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#timeouts LbL7Rule#timeouts}
   */
   readonly timeouts?: LbL7RuleTimeouts;
 }
 export interface LbL7RuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#create LbL7Rule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#create LbL7Rule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#delete LbL7Rule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#delete LbL7Rule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#update LbL7Rule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#update LbL7Rule#update}
   */
   readonly update?: string;
 }
@@ -251,7 +251,7 @@ export class LbL7RuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule edgecenter_lb_l7rule}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule edgecenter_lb_l7rule}
 */
 export class LbL7Rule extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class LbL7Rule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbL7Rule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbL7Rule to import
-  * @param importFromId The id of the existing LbL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbL7Rule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class LbL7Rule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/lb_l7rule edgecenter_lb_l7rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/lb_l7rule edgecenter_lb_l7rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class LbL7Rule extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_lb_l7rule',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

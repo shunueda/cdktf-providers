@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface IpsecConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable aggressive mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#aggressive IpsecConnection#aggressive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#aggressive IpsecConnection#aggressive}
   */
   readonly aggressive: string;
   /**
   * Description for the IPsec connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#description IpsecConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#description IpsecConnection#description}
   */
   readonly description: string;
   /**
   * Dead Peer Detection (DPD) delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#dpd_delay IpsecConnection#dpd_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#dpd_delay IpsecConnection#dpd_delay}
   */
   readonly dpdDelay: string;
   /**
   * Dead Peer Detection (DPD) timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#dpd_timeout IpsecConnection#dpd_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#dpd_timeout IpsecConnection#dpd_timeout}
   */
   readonly dpdTimeout: string;
   /**
   * Enable or disable the IPsec connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#enabled IpsecConnection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#enabled IpsecConnection#enabled}
   */
   readonly enabled: string;
   /**
   * IKE lifetime duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#ike_lifetime IpsecConnection#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#ike_lifetime IpsecConnection#ike_lifetime}
   */
   readonly ikeLifetime: string;
   /**
   * List of IP pools for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#ip_pools IpsecConnection#ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#ip_pools IpsecConnection#ip_pools}
   */
   readonly ipPools?: string[];
   /**
   * Number of keying tries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#keying_tries IpsecConnection#keying_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#keying_tries IpsecConnection#keying_tries}
   */
   readonly keyingTries: string;
   /**
   * List of local addresses for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#local_addresses IpsecConnection#local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#local_addresses IpsecConnection#local_addresses}
   */
   readonly localAddresses: string[];
   /**
   * Local port for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#local_port IpsecConnection#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#local_port IpsecConnection#local_port}
   */
   readonly localPort: string;
   /**
   * Enable or disable MOBIKE support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#mobike IpsecConnection#mobike}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#mobike IpsecConnection#mobike}
   */
   readonly mobike: string;
   /**
   * List of encryption proposals for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#proposals IpsecConnection#proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#proposals IpsecConnection#proposals}
   */
   readonly proposals: string[];
   /**
   * Time interval for reauthentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#reauthentication_time IpsecConnection#reauthentication_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#reauthentication_time IpsecConnection#reauthentication_time}
   */
   readonly reauthenticationTime: string;
   /**
   * Time interval for rekeying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#rekey_time IpsecConnection#rekey_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#rekey_time IpsecConnection#rekey_time}
   */
   readonly rekeyTime: string;
   /**
   * List of remote addresses for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#remote_addresses IpsecConnection#remote_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#remote_addresses IpsecConnection#remote_addresses}
   */
   readonly remoteAddresses: string[];
   /**
   * Remote port for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#remote_port IpsecConnection#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#remote_port IpsecConnection#remote_port}
   */
   readonly remotePort: string;
   /**
   * Whether to send a certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#send_certificate IpsecConnection#send_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#send_certificate IpsecConnection#send_certificate}
   */
   readonly sendCertificate: string;
   /**
   * Whether to send a certificate request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#send_certificate_request IpsecConnection#send_certificate_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#send_certificate_request IpsecConnection#send_certificate_request}
   */
   readonly sendCertificateRequest: string;
   /**
   * Enable or disable UDP encapsulation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#udp_encapsulation IpsecConnection#udp_encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#udp_encapsulation IpsecConnection#udp_encapsulation}
   */
   readonly udpEncapsulation: string;
   /**
   * Whether the connection should use unique IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#unique IpsecConnection#unique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#unique IpsecConnection#unique}
   */
   readonly unique: string;
   /**
   * IKE version to use (e.g., '1', '2').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#version IpsecConnection#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#version IpsecConnection#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection opnsense_ipsec_connection}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection opnsense_ipsec_connection}
 */
 export class IpsecConnection extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class IpsecConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecConnection to import
-  * @param importFromId The id of the existing IpsecConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class IpsecConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_connection opnsense_ipsec_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_connection opnsense_ipsec_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class IpsecConnection extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_connection',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

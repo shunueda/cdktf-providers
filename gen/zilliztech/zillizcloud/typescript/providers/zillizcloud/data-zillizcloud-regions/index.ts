@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/regions
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZillizcloudRegionsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Cloud ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/regions#cloud_id DataZillizcloudRegions#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/regions#cloud_id DataZillizcloudRegions#cloud_id}
   */
   readonly cloudId: string;
 }
@@ -101,7 +101,7 @@ export class DataZillizcloudRegionsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/regions zillizcloud_regions}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/regions zillizcloud_regions}
 */
 export class DataZillizcloudRegions extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataZillizcloudRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZillizcloudRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZillizcloudRegions to import
-  * @param importFromId The id of the existing DataZillizcloudRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZillizcloudRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZillizcloudRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataZillizcloudRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/regions zillizcloud_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/regions zillizcloud_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataZillizcloudRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'zillizcloud_regions',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

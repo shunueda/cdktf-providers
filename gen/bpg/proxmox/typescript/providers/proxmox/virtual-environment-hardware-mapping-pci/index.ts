@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VirtualEnvironmentHardwareMappingPciConfig extends cdktf.Terraf
   /**
   * The comment of this PCI hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#comment VirtualEnvironmentHardwareMappingPci#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#comment VirtualEnvironmentHardwareMappingPci#comment}
   */
   readonly comment?: string;
   /**
   * The actual map of devices for the PCI hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#map VirtualEnvironmentHardwareMappingPci#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#map VirtualEnvironmentHardwareMappingPci#map}
   */
   readonly map: VirtualEnvironmentHardwareMappingPciMap[] | cdktf.IResolvable;
   /**
   * Indicates whether to enable mediated devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#mediated_devices VirtualEnvironmentHardwareMappingPci#mediated_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#mediated_devices VirtualEnvironmentHardwareMappingPci#mediated_devices}
   */
   readonly mediatedDevices?: boolean | cdktf.IResolvable;
   /**
   * The name of this PCI hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#name VirtualEnvironmentHardwareMappingPci#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#name VirtualEnvironmentHardwareMappingPci#name}
   */
   readonly name: string;
 }
@@ -36,13 +36,13 @@ export interface VirtualEnvironmentHardwareMappingPciMap {
   /**
   * The comment of the mapped PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#comment VirtualEnvironmentHardwareMappingPci#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#comment VirtualEnvironmentHardwareMappingPci#comment}
   */
   readonly comment?: string;
   /**
   * The ID of the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#id VirtualEnvironmentHardwareMappingPci#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#id VirtualEnvironmentHardwareMappingPci#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,25 +51,25 @@ export interface VirtualEnvironmentHardwareMappingPciMap {
   /**
   * The IOMMU group of the map. Not mandatory for the Proxmox VE API call, but causes a PCI hardware mapping to be incomplete when not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#iommu_group VirtualEnvironmentHardwareMappingPci#iommu_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#iommu_group VirtualEnvironmentHardwareMappingPci#iommu_group}
   */
   readonly iommuGroup?: number;
   /**
   * The node name of the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#node VirtualEnvironmentHardwareMappingPci#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#node VirtualEnvironmentHardwareMappingPci#node}
   */
   readonly nodeAttribute: string;
   /**
   * The path of the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#path VirtualEnvironmentHardwareMappingPci#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#path VirtualEnvironmentHardwareMappingPci#path}
   */
   readonly path: string;
   /**
   * The subsystem ID group of the map. Not mandatory for the Proxmox VE API call, but causes a PCI hardware mapping to be incomplete when not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#subsystem_id VirtualEnvironmentHardwareMappingPci#subsystem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#subsystem_id VirtualEnvironmentHardwareMappingPci#subsystem_id}
   */
   readonly subsystemId?: string;
 }
@@ -321,7 +321,7 @@ export class VirtualEnvironmentHardwareMappingPciMapList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci proxmox_virtual_environment_hardware_mapping_pci}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci proxmox_virtual_environment_hardware_mapping_pci}
 */
 export class VirtualEnvironmentHardwareMappingPci extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class VirtualEnvironmentHardwareMappingPci extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a VirtualEnvironmentHardwareMappingPci resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentHardwareMappingPci to import
-  * @param importFromId The id of the existing VirtualEnvironmentHardwareMappingPci that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentHardwareMappingPci that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentHardwareMappingPci to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class VirtualEnvironmentHardwareMappingPci extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_hardware_mapping_pci proxmox_virtual_environment_hardware_mapping_pci} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_hardware_mapping_pci proxmox_virtual_environment_hardware_mapping_pci} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class VirtualEnvironmentHardwareMappingPci extends cdktf.TerraformResourc
       terraformResourceType: 'proxmox_virtual_environment_hardware_mapping_pci',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

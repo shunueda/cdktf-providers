@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface UnboundForwardConfig extends cdktf.TerraformMetaArguments {
   /**
   * If a domain is entered here, queries for this specific domain will be forwarded to the specified server. Set to `""` to forward all queries to the specified server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward#domain UnboundForward#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward#domain UnboundForward#domain}
   */
   readonly domain: string;
   /**
   * Enable this query forward.  Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward#enabled UnboundForward#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward#enabled UnboundForward#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP address of DNS server to forward all requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward#server_ip UnboundForward#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward#server_ip UnboundForward#server_ip}
   */
   readonly serverIp: string;
   /**
   * Port of DNS server, for usual DNS use `53`, if you use DoT set it to `853`. Defaults to `53`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward#server_port UnboundForward#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward#server_port UnboundForward#server_port}
   */
   readonly serverPort?: number;
   /**
   * The Common Name of the DNS server (e.g. `dns.example.com`). This field is required to verify its TLS certificate. DNS-over-TLS is susceptible to man-in-the-middle attacks unless certificates can be verified. Set to `""` to accept self-signed yet also potentially fraudulent certificates. Must be set when `type` is `dot`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward#verify_cn UnboundForward#verify_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward#verify_cn UnboundForward#verify_cn}
   */
   readonly verifyCn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward opnsense_unbound_forward}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward opnsense_unbound_forward}
 */
 export class UnboundForward extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class UnboundForward extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UnboundForward resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UnboundForward to import
-  * @param importFromId The id of the existing UnboundForward that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UnboundForward that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UnboundForward to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class UnboundForward extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/unbound_forward opnsense_unbound_forward} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/unbound_forward opnsense_unbound_forward} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class UnboundForward extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_unbound_forward',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

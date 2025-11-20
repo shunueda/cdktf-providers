@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface QuaggaBgpCommunitylistConfig extends cdktf.TerraformMetaArgumen
   /**
   * Set permit for match or deny to negate the rule. Defaults to `"permit"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#action QuaggaBgpCommunitylist#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#action QuaggaBgpCommunitylist#action}
   */
   readonly action?: string;
   /**
   * The community you want to match. You can also regex and it is not validated so please be careful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#community QuaggaBgpCommunitylist#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#community QuaggaBgpCommunitylist#community}
   */
   readonly community: string;
   /**
   * An optional description for this prefix list. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#description QuaggaBgpCommunitylist#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#description QuaggaBgpCommunitylist#description}
   */
   readonly description?: string;
   /**
   * Enable this community list. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#enabled QuaggaBgpCommunitylist#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#enabled QuaggaBgpCommunitylist#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the number of your Community-List. 1-99 are standard lists while 100-500 are expanded lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#number QuaggaBgpCommunitylist#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#number QuaggaBgpCommunitylist#number}
   */
   readonly number: number;
   /**
   * The ACL sequence number (10-99).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#seq_number QuaggaBgpCommunitylist#seq_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#seq_number QuaggaBgpCommunitylist#seq_number}
   */
   readonly seqNumber: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist opnsense_quagga_bgp_communitylist}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist opnsense_quagga_bgp_communitylist}
 */
 export class QuaggaBgpCommunitylist extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class QuaggaBgpCommunitylist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuaggaBgpCommunitylist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuaggaBgpCommunitylist to import
-  * @param importFromId The id of the existing QuaggaBgpCommunitylist that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuaggaBgpCommunitylist that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuaggaBgpCommunitylist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class QuaggaBgpCommunitylist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/quagga_bgp_communitylist opnsense_quagga_bgp_communitylist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/quagga_bgp_communitylist opnsense_quagga_bgp_communitylist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class QuaggaBgpCommunitylist extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_quagga_bgp_communitylist',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

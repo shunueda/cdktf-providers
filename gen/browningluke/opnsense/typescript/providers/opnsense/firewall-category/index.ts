@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FirewallCategoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set, this category will be removed when unused. This is included for completeness, but will result in constant recreations if not attached to any rules, and thus it is advised to leave it as default. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category#auto FirewallCategory#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category#auto FirewallCategory#auto}
   */
   readonly auto?: boolean | cdktf.IResolvable;
   /**
   * Pick a color to use. Must be a hex color in format `rrggbb` (e.g. `ff0000`). Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category#color FirewallCategory#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category#color FirewallCategory#color}
   */
   readonly color?: string;
   /**
   * Enter a name for this category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category#name FirewallCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category#name FirewallCategory#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category opnsense_firewall_category}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category opnsense_firewall_category}
 */
 export class FirewallCategory extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class FirewallCategory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallCategory to import
-  * @param importFromId The id of the existing FirewallCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FirewallCategory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_category opnsense_firewall_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_category opnsense_firewall_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class FirewallCategory extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_firewall_category',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KeaPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Peer name, there should be one entry matching this machine's "This server name".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer#name KeaPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer#name KeaPeer#name}
   */
   readonly name: string;
   /**
   * Peer's role. Defaults to `"primary"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer#role KeaPeer#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer#role KeaPeer#role}
   */
   readonly role?: string;
   /**
   * URL of the server instance, which should use a different port than the control agent (e.g. `http://192.0.2.1:8001/`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer#url KeaPeer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer#url KeaPeer#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer opnsense_kea_peer}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer opnsense_kea_peer}
 */
 export class KeaPeer extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class KeaPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeaPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeaPeer to import
-  * @param importFromId The id of the existing KeaPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeaPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeaPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class KeaPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_peer opnsense_kea_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_peer opnsense_kea_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class KeaPeer extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_kea_peer',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

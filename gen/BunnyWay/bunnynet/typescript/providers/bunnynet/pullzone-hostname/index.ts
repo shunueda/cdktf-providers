@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PullzoneHostnameConfig extends cdktf.TerraformMetaArguments {
   /**
   * The certificate for the hostname, in PEM format. ***Important***: the Bunny API will not return the certificate data, so you'll have to make sure you're importing the correct certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#certificate PullzoneHostname#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#certificate PullzoneHostname#certificate}
   */
   readonly certificate?: string;
   /**
   * The certificate private key for the hostname, in PEM format. ***Important***: the Bunny API will not return the certificate key, so you'll have to make sure you're importing the correct certificate key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#certificate_key PullzoneHostname#certificate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#certificate_key PullzoneHostname#certificate_key}
   */
   readonly certificateKey?: string;
   /**
   * Indicates whether SSL should be enforced for the hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#force_ssl PullzoneHostname#force_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#force_ssl PullzoneHostname#force_ssl}
   */
   readonly forceSsl?: boolean | cdktf.IResolvable;
   /**
   * The hostname value for the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#name PullzoneHostname#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#name PullzoneHostname#name}
   */
   readonly name: string;
   /**
   * The ID of the linked pull zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#pullzone PullzoneHostname#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#pullzone PullzoneHostname#pullzone}
   */
   readonly pullzone: number;
   /**
   * Indicates whether the hostname should support HTTPS. If a custom certificate is not provided via the <code>certificate</code> attribute, a Domain-validated TLS certificate will be automatically obtained and managed by Bunny. ***Important***: it is not possible to tell managed and custom certificates apart for imported resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#tls_enabled PullzoneHostname#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#tls_enabled PullzoneHostname#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname bunnynet_pullzone_hostname}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname bunnynet_pullzone_hostname}
 */
 export class PullzoneHostname extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PullzoneHostname extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneHostname resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneHostname to import
-  * @param importFromId The id of the existing PullzoneHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneHostname to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PullzoneHostname extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_hostname bunnynet_pullzone_hostname} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone_hostname bunnynet_pullzone_hostname} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PullzoneHostname extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_hostname',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

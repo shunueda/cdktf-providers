@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/pullzone_access_lists
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone_access_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBunnynetPullzoneAccessListsConfig extends cdktf.TerraformMe
   /**
   * Select custom or curated Access Lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/pullzone_access_lists#custom DataBunnynetPullzoneAccessLists#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone_access_lists#custom DataBunnynetPullzoneAccessLists#custom}
   */
   readonly custom: boolean | cdktf.IResolvable;
   /**
   * The ID of the linked pullzone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/pullzone_access_lists#pullzone DataBunnynetPullzoneAccessLists#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone_access_lists#pullzone DataBunnynetPullzoneAccessLists#pullzone}
   */
   readonly pullzone: number;
 }
@@ -105,7 +105,7 @@ export class DataBunnynetPullzoneAccessListsDataMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/pullzone_access_lists bunnynet_pullzone_access_lists}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone_access_lists bunnynet_pullzone_access_lists}
 */
 export class DataBunnynetPullzoneAccessLists extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataBunnynetPullzoneAccessLists extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBunnynetPullzoneAccessLists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetPullzoneAccessLists to import
-  * @param importFromId The id of the existing DataBunnynetPullzoneAccessLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/pullzone_access_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetPullzoneAccessLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone_access_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetPullzoneAccessLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataBunnynetPullzoneAccessLists extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/pullzone_access_lists bunnynet_pullzone_access_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone_access_lists bunnynet_pullzone_access_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class DataBunnynetPullzoneAccessLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'bunnynet_pullzone_access_lists',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

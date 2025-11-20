@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ConnectorScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique identifier for the connector within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#connector_id ConnectorSchedule#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#connector_id ConnectorSchedule#connector_id}
   */
   readonly connectorId?: string;
   /**
   * The name used both as the connection's name within the Fivetran system and as the source schema's name within your destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#connector_name ConnectorSchedule#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#connector_name ConnectorSchedule#connector_name}
   */
   readonly connectorName?: string;
   /**
   * The optional parameter that defines the sync start time when the sync frequency is already set or being set by the current request to 1440. It can be specified in one hour increments starting from 00:00 to 23:00. If not specified, we will use [the baseline sync start time](https://fivetran.com/docs/getting-started/syncoverview#syncfrequencyandscheduling). This parameter has no effect on the [0 to 60 minutes offset](https://fivetran.com/docs/getting-started/syncoverview#syncstarttimesandoffsets) used to determine the actual sync start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#daily_sync_time ConnectorSchedule#daily_sync_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#daily_sync_time ConnectorSchedule#daily_sync_time}
   */
   readonly dailySyncTime?: string;
   /**
   * The unique identifier for the Group (Destination) within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#group_id ConnectorSchedule#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#group_id ConnectorSchedule#group_id}
   */
   readonly groupId?: string;
   /**
   * Specifies whether the connector should be paused after the free trial period has ended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#pause_after_trial ConnectorSchedule#pause_after_trial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#pause_after_trial ConnectorSchedule#pause_after_trial}
   */
   readonly pauseAfterTrial?: string;
   /**
   * Specifies whether the connector is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#paused ConnectorSchedule#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#paused ConnectorSchedule#paused}
   */
   readonly paused?: string;
   /**
   * The connector schedule configuration type. Supported values: auto, manual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#schedule_type ConnectorSchedule#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#schedule_type ConnectorSchedule#schedule_type}
   */
   readonly scheduleType?: string;
   /**
   * The connector sync frequency in minutes. Supported values: 1, 5, 15, 30, 60, 120, 180, 360, 480, 720, 1440.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#sync_frequency ConnectorSchedule#sync_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#sync_frequency ConnectorSchedule#sync_frequency}
   */
   readonly syncFrequency?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule fivetran_connector_schedule}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule fivetran_connector_schedule}
 */
 export class ConnectorSchedule extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class ConnectorSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorSchedule to import
-  * @param importFromId The id of the existing ConnectorSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class ConnectorSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_schedule fivetran_connector_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schedule fivetran_connector_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class ConnectorSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_connector_schedule',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

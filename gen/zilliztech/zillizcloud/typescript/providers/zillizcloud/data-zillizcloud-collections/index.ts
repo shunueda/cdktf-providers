@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/collections
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/collections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,13 +17,13 @@ export interface DataZillizcloudCollectionsConfig extends cdktf.TerraformMetaArg
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/collections#connect_address DataZillizcloudCollections#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/collections#connect_address DataZillizcloudCollections#connect_address}
   */
   readonly connectAddress: string;
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/collections#db_name DataZillizcloudCollections#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/collections#db_name DataZillizcloudCollections#db_name}
   */
   readonly dbName: string;
 }
@@ -104,7 +104,7 @@ export class DataZillizcloudCollectionsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/collections zillizcloud_collections}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/collections zillizcloud_collections}
 */
 export class DataZillizcloudCollections extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataZillizcloudCollections extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZillizcloudCollections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZillizcloudCollections to import
-  * @param importFromId The id of the existing DataZillizcloudCollections that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/collections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZillizcloudCollections that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/collections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZillizcloudCollections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataZillizcloudCollections extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/data-sources/collections zillizcloud_collections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/data-sources/collections zillizcloud_collections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataZillizcloudCollections extends cdktf.TerraformDataSource {
       terraformResourceType: 'zillizcloud_collections',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

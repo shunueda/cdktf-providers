@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface FirewallNatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description here for your reference (not parsed). Must be between 1 and 255 characters. Must be a character in set `[a-zA-Z0-9 .]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#description FirewallNat#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#description FirewallNat#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#destination FirewallNat#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#destination FirewallNat#destination}
   */
   readonly destination?: FirewallNatDestination;
   /**
   * Enabling this option will disable NAT for traffic matching this rule and stop processing Outbound NAT rules. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#disable_nat FirewallNat#disable_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#disable_nat FirewallNat#disable_nat}
   */
   readonly disableNat?: boolean | cdktf.IResolvable;
   /**
   * Enable this firewall NAT rule. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#enabled FirewallNat#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#enabled FirewallNat#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Choose on which interface(s) packets must come in to match this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#interface FirewallNat#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#interface FirewallNat#interface}
   */
   readonly interface: string;
   /**
   * Select the Internet Protocol version this rule applies to. Available values: `inet`, `inet6`. Defaults to `inet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#ip_protocol FirewallNat#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#ip_protocol FirewallNat#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * Log packets that are handled by this rule. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#log FirewallNat#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#log FirewallNat#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Choose which IP protocol this rule should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#protocol FirewallNat#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#protocol FirewallNat#protocol}
   */
   readonly protocol: string;
   /**
   * Specify the order of this NAT rule. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#sequence FirewallNat#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#sequence FirewallNat#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#source FirewallNat#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#source FirewallNat#source}
   */
   readonly source?: FirewallNatSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#target FirewallNat#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#target FirewallNat#target}
   */
   readonly target: FirewallNatTarget;
 }
@@ -72,19 +72,19 @@ export interface FirewallNatDestination {
   /**
   * Use this option to invert the sense of the match. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#invert FirewallNat#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#invert FirewallNat#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * Specify the IP address, CIDR or alias for the destination of the packet for this mapping. For `<INT> net`, enter `<int>` (e.g. `lan`). For `<INT> address`, enter `<int>ip` (e.g. `lanip`). Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#net FirewallNat#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#net FirewallNat#net}
   */
   readonly net?: string;
   /**
   * Destination port number or well known name (imap, imaps, http, https, ...), for ranges use a dash. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#port FirewallNat#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#port FirewallNat#port}
   */
   readonly port?: string;
 }
@@ -238,19 +238,19 @@ export interface FirewallNatSource {
   /**
   * Use this option to invert the sense of the match. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#invert FirewallNat#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#invert FirewallNat#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * Specify the IP address, CIDR or alias for the source of the packet for this mapping. For `<INT> net`, enter `<int>` (e.g. `lan`). For `<INT> address`, enter `<int>ip` (e.g. `lanip`). Defaults to `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#net FirewallNat#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#net FirewallNat#net}
   */
   readonly net?: string;
   /**
   * Specify the source port for this rule. This is usually random and almost never equal to the destination port range (and should usually be `""`). Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#port FirewallNat#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#port FirewallNat#port}
   */
   readonly port?: string;
 }
@@ -404,13 +404,13 @@ export interface FirewallNatTarget {
   /**
   * Specify the IP address or alias for the packets to be mapped to. For `<INT> address`, enter `<int>ip` (e.g. `lanip`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#ip FirewallNat#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#ip FirewallNat#ip}
   */
   readonly ip: string;
   /**
   * Destination port number or well known name (imap, imaps, http, https, ...), for ranges use a dash. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#port FirewallNat#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#port FirewallNat#port}
   */
   readonly port?: string;
 }
@@ -530,7 +530,7 @@ export class FirewallNatTargetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat opnsense_firewall_nat}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat opnsense_firewall_nat}
 */
 export class FirewallNat extends cdktf.TerraformResource {
 
@@ -546,7 +546,7 @@ export class FirewallNat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallNat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallNat to import
-  * @param importFromId The id of the existing FirewallNat that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallNat that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallNat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -558,7 +558,7 @@ export class FirewallNat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/firewall_nat opnsense_firewall_nat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/firewall_nat opnsense_firewall_nat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -569,8 +569,8 @@ export class FirewallNat extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_firewall_nat',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

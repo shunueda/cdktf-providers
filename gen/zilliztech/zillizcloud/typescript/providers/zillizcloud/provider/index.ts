@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ZillizcloudProviderConfig {
   /**
   * Zilliz Cloud API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#api_key ZillizcloudProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#api_key ZillizcloudProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The maximum burst for throttle. Defaults to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#burst ZillizcloudProvider#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#burst ZillizcloudProvider#burst}
   */
   readonly burst?: number;
   /**
   * Zilliz Cloud Host Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#host_address ZillizcloudProvider#host_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#host_address ZillizcloudProvider#host_address}
   */
   readonly hostAddress?: string;
   /**
   * The maximum queries per second (QPS) to the Zilliz Cloud API for each resource. Defaults to 10.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#qps ZillizcloudProvider#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#qps ZillizcloudProvider#qps}
   */
   readonly qps?: number;
   /**
   * Zilliz Cloud Region Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#region_id ZillizcloudProvider#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#region_id ZillizcloudProvider#region_id}
   */
   readonly regionId?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#alias ZillizcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#alias ZillizcloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs zillizcloud}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs zillizcloud}
 */
 export class ZillizcloudProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class ZillizcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ZillizcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZillizcloudProvider to import
-  * @param importFromId The id of the existing ZillizcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZillizcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZillizcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ZillizcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs zillizcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs zillizcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ZillizcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zillizcloud',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       terraformProviderSource: 'zilliztech/zillizcloud'
     });

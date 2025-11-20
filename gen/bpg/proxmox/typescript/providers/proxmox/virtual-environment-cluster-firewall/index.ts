@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VirtualEnvironmentClusterFirewallConfig extends cdktf.Terraform
   /**
   * Enable ebtables cluster-wide
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#ebtables VirtualEnvironmentClusterFirewall#ebtables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#ebtables VirtualEnvironmentClusterFirewall#ebtables}
   */
   readonly ebtables?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the firewall cluster-wide
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#enabled VirtualEnvironmentClusterFirewall#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#enabled VirtualEnvironmentClusterFirewall#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Default policy for forwarded traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#forward_policy VirtualEnvironmentClusterFirewall#forward_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#forward_policy VirtualEnvironmentClusterFirewall#forward_policy}
   */
   readonly forwardPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#id VirtualEnvironmentClusterFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#id VirtualEnvironmentClusterFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface VirtualEnvironmentClusterFirewallConfig extends cdktf.Terraform
   /**
   * Default policy for incoming traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#input_policy VirtualEnvironmentClusterFirewall#input_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#input_policy VirtualEnvironmentClusterFirewall#input_policy}
   */
   readonly inputPolicy?: string;
   /**
   * Default policy for outgoing traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#output_policy VirtualEnvironmentClusterFirewall#output_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#output_policy VirtualEnvironmentClusterFirewall#output_policy}
   */
   readonly outputPolicy?: string;
   /**
   * log_ratelimit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#log_ratelimit VirtualEnvironmentClusterFirewall#log_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#log_ratelimit VirtualEnvironmentClusterFirewall#log_ratelimit}
   */
   readonly logRatelimit?: VirtualEnvironmentClusterFirewallLogRatelimit;
 }
@@ -55,19 +55,19 @@ export interface VirtualEnvironmentClusterFirewallLogRatelimit {
   /**
   * Initial burst of packages which will always get logged before the rate is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#burst VirtualEnvironmentClusterFirewall#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#burst VirtualEnvironmentClusterFirewall#burst}
   */
   readonly burst?: number;
   /**
   * Enable or disable log ratelimiting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#enabled VirtualEnvironmentClusterFirewall#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#enabled VirtualEnvironmentClusterFirewall#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency with which the burst bucket gets refilled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#rate VirtualEnvironmentClusterFirewall#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#rate VirtualEnvironmentClusterFirewall#rate}
   */
   readonly rate?: string;
 }
@@ -209,7 +209,7 @@ export class VirtualEnvironmentClusterFirewallLogRatelimitOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall proxmox_virtual_environment_cluster_firewall}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall proxmox_virtual_environment_cluster_firewall}
 */
 export class VirtualEnvironmentClusterFirewall extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class VirtualEnvironmentClusterFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentClusterFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentClusterFirewall to import
-  * @param importFromId The id of the existing VirtualEnvironmentClusterFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentClusterFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentClusterFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class VirtualEnvironmentClusterFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_firewall proxmox_virtual_environment_cluster_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_firewall proxmox_virtual_environment_cluster_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class VirtualEnvironmentClusterFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_cluster_firewall',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

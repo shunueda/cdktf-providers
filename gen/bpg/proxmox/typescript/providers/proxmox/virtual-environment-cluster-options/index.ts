@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface VirtualEnvironmentClusterOptionsConfig extends cdktf.TerraformM
   /**
   * Clone I/O bandwidth limit in KiB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_clone VirtualEnvironmentClusterOptions#bandwidth_limit_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_clone VirtualEnvironmentClusterOptions#bandwidth_limit_clone}
   */
   readonly bandwidthLimitClone?: number;
   /**
   * Default I/O bandwidth limit in KiB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_default VirtualEnvironmentClusterOptions#bandwidth_limit_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_default VirtualEnvironmentClusterOptions#bandwidth_limit_default}
   */
   readonly bandwidthLimitDefault?: number;
   /**
   * Migration I/O bandwidth limit in KiB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_migration VirtualEnvironmentClusterOptions#bandwidth_limit_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_migration VirtualEnvironmentClusterOptions#bandwidth_limit_migration}
   */
   readonly bandwidthLimitMigration?: number;
   /**
   * Move I/O bandwidth limit in KiB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_move VirtualEnvironmentClusterOptions#bandwidth_limit_move}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_move VirtualEnvironmentClusterOptions#bandwidth_limit_move}
   */
   readonly bandwidthLimitMove?: number;
   /**
   * Restore I/O bandwidth limit in KiB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_restore VirtualEnvironmentClusterOptions#bandwidth_limit_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#bandwidth_limit_restore VirtualEnvironmentClusterOptions#bandwidth_limit_restore}
   */
   readonly bandwidthLimitRestore?: number;
   /**
   * Select the default Console viewer. Must be `applet` | `vv`| `html5` | `xtermjs`. You can either use the builtin java applet (VNC; deprecated and maps to html5), an external virt-viewer compatible application (SPICE), an HTML5 based vnc viewer (noVNC), or an HTML5 based console client (xtermjs). If the selected viewer is not available (e.g. SPICE not activated for the VM), the fallback is noVNC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#console VirtualEnvironmentClusterOptions#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#console VirtualEnvironmentClusterOptions#console}
   */
   readonly console?: string;
   /**
   * Cluster resource scheduling setting for HA. Must be `static` | `basic` (default is `basic`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#crs_ha VirtualEnvironmentClusterOptions#crs_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#crs_ha VirtualEnvironmentClusterOptions#crs_ha}
   */
   readonly crsHa?: string;
   /**
   * Cluster resource scheduling setting for HA rebalance on start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#crs_ha_rebalance_on_start VirtualEnvironmentClusterOptions#crs_ha_rebalance_on_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#crs_ha_rebalance_on_start VirtualEnvironmentClusterOptions#crs_ha_rebalance_on_start}
   */
   readonly crsHaRebalanceOnStart?: boolean | cdktf.IResolvable;
   /**
   * Datacenter description. Shown in the web-interface datacenter notes panel. This is saved as comment inside the configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#description VirtualEnvironmentClusterOptions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#description VirtualEnvironmentClusterOptions#description}
   */
   readonly description?: string;
   /**
   * email address to send notification from (default is root@$hostname).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#email_from VirtualEnvironmentClusterOptions#email_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#email_from VirtualEnvironmentClusterOptions#email_from}
   */
   readonly emailFrom?: string;
   /**
   * Cluster wide HA shutdown policy (). Must be `freeze` | `failover` | `migrate` | `conditional` (default is `conditional`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#ha_shutdown_policy VirtualEnvironmentClusterOptions#ha_shutdown_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#ha_shutdown_policy VirtualEnvironmentClusterOptions#ha_shutdown_policy}
   */
   readonly haShutdownPolicy?: string;
   /**
   * Specify external http proxy which is used for downloads (example: `http://username:password@host:port/`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#http_proxy VirtualEnvironmentClusterOptions#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#http_proxy VirtualEnvironmentClusterOptions#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * Default keyboard layout for vnc server. Must be `de` | `de-ch` | `da` | `en-gb` | `en-us` | `es` | `fi` | `fr` | `fr-be` | `fr-ca` | `fr-ch` | `hu` | `is` | `it` | `ja` | `lt` | `mk` | `nl` | `no` | `pl` | `pt` | `pt-br` | `sv` | `sl` | `tr`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#keyboard VirtualEnvironmentClusterOptions#keyboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#keyboard VirtualEnvironmentClusterOptions#keyboard}
   */
   readonly keyboard?: string;
   /**
   * Default GUI language. Must be `ca` | `da` | `de` | `en` | `es` | `eu` | `fa` | `fr` | `he` | `it` | `ja` | `nb` | `nn` | `pl` | `pt_BR` | `ru` | `sl` | `sv` | `tr` | `zh_CN` | `zh_TW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#language VirtualEnvironmentClusterOptions#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#language VirtualEnvironmentClusterOptions#language}
   */
   readonly language?: string;
   /**
   * Prefix for autogenerated MAC addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#mac_prefix VirtualEnvironmentClusterOptions#mac_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#mac_prefix VirtualEnvironmentClusterOptions#mac_prefix}
   */
   readonly macPrefix?: string;
   /**
   * Defines how many workers (per node) are maximal started on actions like 'stopall VMs' or task from the ha-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#max_workers VirtualEnvironmentClusterOptions#max_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#max_workers VirtualEnvironmentClusterOptions#max_workers}
   */
   readonly maxWorkers?: number;
   /**
   * Cluster wide migration network CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#migration_cidr VirtualEnvironmentClusterOptions#migration_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#migration_cidr VirtualEnvironmentClusterOptions#migration_cidr}
   */
   readonly migrationCidr?: string;
   /**
   * Cluster wide migration type. Must be `secure` | `insecure` (default is `secure`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#migration_type VirtualEnvironmentClusterOptions#migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#migration_type VirtualEnvironmentClusterOptions#migration_type}
   */
   readonly migrationType?: string;
   /**
   * The ranges for the next free VM ID auto-selection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#next_id VirtualEnvironmentClusterOptions#next_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#next_id VirtualEnvironmentClusterOptions#next_id}
   */
   readonly nextId?: VirtualEnvironmentClusterOptionsNextId;
   /**
   * Cluster-wide notification settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#notify VirtualEnvironmentClusterOptions#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#notify VirtualEnvironmentClusterOptions#notify}
   */
   readonly notify?: VirtualEnvironmentClusterOptionsNotify;
 }
@@ -132,13 +132,13 @@ export interface VirtualEnvironmentClusterOptionsNextId {
   /**
   * The minimum number for the next free VM ID. Must be higher or equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#lower VirtualEnvironmentClusterOptions#lower}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#lower VirtualEnvironmentClusterOptions#lower}
   */
   readonly lower?: number;
   /**
   * The maximum number for the next free VM ID. Must be less or equal to 999999999
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#upper VirtualEnvironmentClusterOptions#upper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#upper VirtualEnvironmentClusterOptions#upper}
   */
   readonly upper?: number;
 }
@@ -263,37 +263,37 @@ export interface VirtualEnvironmentClusterOptionsNotify {
   /**
   * Cluster-wide notification settings for the HA fencing mode. Must be `always` | `never`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#ha_fencing_mode VirtualEnvironmentClusterOptions#ha_fencing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#ha_fencing_mode VirtualEnvironmentClusterOptions#ha_fencing_mode}
   */
   readonly haFencingMode?: string;
   /**
   * Cluster-wide notification settings for the HA fencing target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#ha_fencing_target VirtualEnvironmentClusterOptions#ha_fencing_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#ha_fencing_target VirtualEnvironmentClusterOptions#ha_fencing_target}
   */
   readonly haFencingTarget?: string;
   /**
   * Cluster-wide notification settings for package updates. Must be `auto` | `always` | `never`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#package_updates VirtualEnvironmentClusterOptions#package_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#package_updates VirtualEnvironmentClusterOptions#package_updates}
   */
   readonly packageUpdates?: string;
   /**
   * Cluster-wide notification settings for the package updates target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#package_updates_target VirtualEnvironmentClusterOptions#package_updates_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#package_updates_target VirtualEnvironmentClusterOptions#package_updates_target}
   */
   readonly packageUpdatesTarget?: string;
   /**
   * Cluster-wide notification settings for replication. Must be `always` | `never`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#replication VirtualEnvironmentClusterOptions#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#replication VirtualEnvironmentClusterOptions#replication}
   */
   readonly replication?: string;
   /**
   * Cluster-wide notification settings for the replication target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#replication_target VirtualEnvironmentClusterOptions#replication_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#replication_target VirtualEnvironmentClusterOptions#replication_target}
   */
   readonly replicationTarget?: string;
 }
@@ -532,7 +532,7 @@ export class VirtualEnvironmentClusterOptionsNotifyOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options proxmox_virtual_environment_cluster_options}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options proxmox_virtual_environment_cluster_options}
 */
 export class VirtualEnvironmentClusterOptions extends cdktf.TerraformResource {
 
@@ -548,7 +548,7 @@ export class VirtualEnvironmentClusterOptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentClusterOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentClusterOptions to import
-  * @param importFromId The id of the existing VirtualEnvironmentClusterOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentClusterOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentClusterOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -560,7 +560,7 @@ export class VirtualEnvironmentClusterOptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs/resources/virtual_environment_cluster_options proxmox_virtual_environment_cluster_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_cluster_options proxmox_virtual_environment_cluster_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -571,8 +571,8 @@ export class VirtualEnvironmentClusterOptions extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_cluster_options',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InterfacesVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description here for your reference (not parsed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan#description InterfacesVlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan#description InterfacesVlan#description}
   */
   readonly description?: string;
   /**
   * Custom VLAN name. Custom names are possible, but only if the start of the name matches the required prefix and contains numeric characters or dots, e.g. `vlan0.1.2` or `qinq0.3.4`. Set to `""` to generate a device name. Defaults to `""`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan#device InterfacesVlan#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan#device InterfacesVlan#device}
   */
   readonly device?: string;
   /**
   * VLAN capable interface to attach the VLAN to, e.g. `vtnet0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan#parent InterfacesVlan#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan#parent InterfacesVlan#parent}
   */
   readonly parent: string;
   /**
   * 802.1Q VLAN PCP (priority code point). Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan#priority InterfacesVlan#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan#priority InterfacesVlan#priority}
   */
   readonly priority?: number;
   /**
   * 802.1Q VLAN tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan#tag InterfacesVlan#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan#tag InterfacesVlan#tag}
   */
   readonly tag: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan opnsense_interfaces_vlan}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan opnsense_interfaces_vlan}
 */
 export class InterfacesVlan extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class InterfacesVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacesVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacesVlan to import
-  * @param importFromId The id of the existing InterfacesVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacesVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacesVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class InterfacesVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/interfaces_vlan opnsense_interfaces_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/interfaces_vlan opnsense_interfaces_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class InterfacesVlan extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_interfaces_vlan',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

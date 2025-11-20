@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs
+// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ProxmoxProviderConfig {
   /**
   * The API token for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#api_token ProxmoxProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#api_token ProxmoxProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * The pre-authenticated Ticket for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#auth_ticket ProxmoxProvider#auth_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#auth_ticket ProxmoxProvider#auth_ticket}
   */
   readonly authTicket?: string;
   /**
   * The pre-authenticated CSRF Prevention Token for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#csrf_prevention_token ProxmoxProvider#csrf_prevention_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#csrf_prevention_token ProxmoxProvider#csrf_prevention_token}
   */
   readonly csrfPreventionToken?: string;
   /**
   * The endpoint for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#endpoint ProxmoxProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#endpoint ProxmoxProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to skip the TLS verification step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#insecure ProxmoxProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#insecure ProxmoxProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The minimum required TLS version for API calls.Supported values: `1.0|1.1|1.2|1.3`. Defaults to `1.3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#min_tls ProxmoxProvider#min_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#min_tls ProxmoxProvider#min_tls}
   */
   readonly minTls?: string;
   /**
   * The one-time password for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#otp ProxmoxProvider#otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#otp ProxmoxProvider#otp}
   */
   readonly otp?: string;
   /**
   * The password for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#password ProxmoxProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#password ProxmoxProvider#password}
   */
   readonly password?: string;
   /**
   * The ending number for random VM / Container IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#random_vm_id_end ProxmoxProvider#random_vm_id_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#random_vm_id_end ProxmoxProvider#random_vm_id_end}
   */
   readonly randomVmIdEnd?: number;
   /**
   * The starting number for random VM / Container IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#random_vm_id_start ProxmoxProvider#random_vm_id_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#random_vm_id_start ProxmoxProvider#random_vm_id_start}
   */
   readonly randomVmIdStart?: number;
   /**
   * Whether to generate random VM / Container IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#random_vm_ids ProxmoxProvider#random_vm_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#random_vm_ids ProxmoxProvider#random_vm_ids}
   */
   readonly randomVmIds?: boolean | cdktf.IResolvable;
   /**
   * The alternative temporary directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#tmp_dir ProxmoxProvider#tmp_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#tmp_dir ProxmoxProvider#tmp_dir}
   */
   readonly tmpDir?: string;
   /**
   * The username for the Proxmox VE API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#username ProxmoxProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#username ProxmoxProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#alias ProxmoxProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#alias ProxmoxProvider#alias}
   */
   readonly alias?: string;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#ssh ProxmoxProvider#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#ssh ProxmoxProvider#ssh}
   */
   readonly ssh?: ProxmoxProviderSsh;
 }
@@ -102,19 +102,19 @@ export interface ProxmoxProviderSshNode {
   /**
   * The address of the Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#address ProxmoxProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#address ProxmoxProvider#address}
   */
   readonly address: string;
   /**
   * The name of the Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#name ProxmoxProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#name ProxmoxProvider#name}
   */
   readonly name: string;
   /**
   * The port of the Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#port ProxmoxProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#port ProxmoxProvider#port}
   */
   readonly port?: number;
 }
@@ -166,61 +166,61 @@ export interface ProxmoxProviderSsh {
   /**
   * Whether to use the SSH agent for authentication. Takes precedence over the `private_key` and `password` fields. Defaults to the value of the `PROXMOX_VE_SSH_AGENT` environment variable, or `false` if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#agent ProxmoxProvider#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#agent ProxmoxProvider#agent}
   */
   readonly agent?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable SSH agent forwarding. Defaults to the value of the `PROXMOX_VE_SSH_AGENT_FORWARDING` environment variable, or `false` if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#agent_forwarding ProxmoxProvider#agent_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#agent_forwarding ProxmoxProvider#agent_forwarding}
   */
   readonly agentForwarding?: boolean | cdktf.IResolvable;
   /**
   * The path to the SSH agent socket. Defaults to the value of the `SSH_AUTH_SOCK` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#agent_socket ProxmoxProvider#agent_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#agent_socket ProxmoxProvider#agent_socket}
   */
   readonly agentSocket?: string;
   /**
   * The password used for the SSH connection. Defaults to the value of the `password` field of the `provider` block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#password ProxmoxProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#password ProxmoxProvider#password}
   */
   readonly password?: string;
   /**
   * The unencrypted private key (in PEM format) used for the SSH connection. Defaults to the value of the `PROXMOX_VE_SSH_PRIVATE_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#private_key ProxmoxProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#private_key ProxmoxProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * The password for the SOCKS5 proxy server. Defaults to the value of the `PROXMOX_VE_SSH_SOCKS5_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#socks5_password ProxmoxProvider#socks5_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#socks5_password ProxmoxProvider#socks5_password}
   */
   readonly socks5Password?: string;
   /**
   * The address:port of the SOCKS5 proxy server. Defaults to the value of the `PROXMOX_VE_SSH_SOCKS5_SERVER` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#socks5_server ProxmoxProvider#socks5_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#socks5_server ProxmoxProvider#socks5_server}
   */
   readonly socks5Server?: string;
   /**
   * The username for the SOCKS5 proxy server. Defaults to the value of the `PROXMOX_VE_SSH_SOCKS5_USERNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#socks5_username ProxmoxProvider#socks5_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#socks5_username ProxmoxProvider#socks5_username}
   */
   readonly socks5Username?: string;
   /**
   * The username used for the SSH connection. Defaults to the value of the `username` field of the `provider` block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#username ProxmoxProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#username ProxmoxProvider#username}
   */
   readonly username?: string;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#node ProxmoxProvider#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#node ProxmoxProvider#node}
   */
   readonly nodeAttribute?: ProxmoxProviderSshNode[] | cdktf.IResolvable;
 }
@@ -319,7 +319,7 @@ export function proxmoxProviderSshToHclTerraform(struct?: ProxmoxProviderSsh): a
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs proxmox}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs proxmox}
 */
 export class ProxmoxProvider extends cdktf.TerraformProvider {
 
@@ -335,7 +335,7 @@ export class ProxmoxProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ProxmoxProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProxmoxProvider to import
-  * @param importFromId The id of the existing ProxmoxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProxmoxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProxmoxProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class ProxmoxProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.86.0/docs proxmox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs proxmox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class ProxmoxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'proxmox',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0',
-        providerVersionConstraint: '0.86.0'
+        providerVersion: '0.87.0',
+        providerVersionConstraint: '0.87.0'
       },
       terraformProviderSource: 'bpg/proxmox'
     });

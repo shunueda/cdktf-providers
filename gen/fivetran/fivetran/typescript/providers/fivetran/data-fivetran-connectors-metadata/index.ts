@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connectors_metadata
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connectors_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranConnectorsMetadataConfig extends cdktf.TerraformMet
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connectors_metadata#sources DataFivetranConnectorsMetadata#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connectors_metadata#sources DataFivetranConnectorsMetadata#sources}
   */
   readonly sources?: DataFivetranConnectorsMetadataSources[] | cdktf.IResolvable;
 }
@@ -132,7 +132,7 @@ export class DataFivetranConnectorsMetadataSourcesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connectors_metadata fivetran_connectors_metadata}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connectors_metadata fivetran_connectors_metadata}
 */
 export class DataFivetranConnectorsMetadata extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataFivetranConnectorsMetadata extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranConnectorsMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranConnectorsMetadata to import
-  * @param importFromId The id of the existing DataFivetranConnectorsMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connectors_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranConnectorsMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connectors_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranConnectorsMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataFivetranConnectorsMetadata extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/data-sources/connectors_metadata fivetran_connectors_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connectors_metadata fivetran_connectors_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataFivetranConnectorsMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_connectors_metadata',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "opnsense": "0.16.0"
+    "opnsense": "0.16.1"
   }
 }

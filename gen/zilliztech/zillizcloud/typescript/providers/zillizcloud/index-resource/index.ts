@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface IndexConfig extends cdktf.TerraformMetaArguments {
   /**
   * Required. The name of the collection to which the index belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#collection_name Index#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#collection_name Index#collection_name}
   */
   readonly collectionName: string;
   /**
@@ -23,43 +23,43 @@ export interface IndexConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#connect_address Index#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#connect_address Index#connect_address}
   */
   readonly connectAddress: string;
   /**
   * Required. The name of the database containing the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#db_name Index#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#db_name Index#db_name}
   */
   readonly dbName: string;
   /**
   * Required. The name of the field to be indexed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#field_name Index#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#field_name Index#field_name}
   */
   readonly fieldName: string;
   /**
   * Required. The name of the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#index_name Index#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#index_name Index#index_name}
   */
   readonly indexName: string;
   /**
   * Required. The type of the index (e.g., "IVF_FLAT", "HNSW", etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#index_type Index#index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#index_type Index#index_type}
   */
   readonly indexType: string;
   /**
   * Optional. The metric type for the index (e.g., "L2", "IP", etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#metric_type Index#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#metric_type Index#metric_type}
   */
   readonly metricType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index zillizcloud_index}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index zillizcloud_index}
 */
 export class Index extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Index extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Index resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Index to import
-  * @param importFromId The id of the existing Index that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Index that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Index to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Index extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/index zillizcloud_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/index zillizcloud_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Index extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_index',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

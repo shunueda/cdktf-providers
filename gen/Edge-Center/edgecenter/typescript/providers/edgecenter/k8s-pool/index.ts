@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface K8SPoolAConfig extends cdktf.TerraformMetaArguments {
   /**
   * The uuid of the Kubernetes cluster this pool belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#cluster_id K8SPoolA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#cluster_id K8SPoolA#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The size of the volume used for Docker containers, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#docker_volume_size K8SPoolA#docker_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#docker_volume_size K8SPoolA#docker_volume_size}
   */
   readonly dockerVolumeSize?: number;
   /**
   * The type of volume used for the Docker containers. Available values are 'standard', 'ssd_hiiops', 'cold', and 'ultra'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#docker_volume_type K8SPoolA#docker_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#docker_volume_type K8SPoolA#docker_volume_type}
   */
   readonly dockerVolumeType?: string;
   /**
   * The identifier of the flavor used for nodes in this pool, e.g. g1-standard-2-4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#flavor_id K8SPoolA#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#flavor_id K8SPoolA#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#id K8SPoolA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#id K8SPoolA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,71 +41,71 @@ export interface K8SPoolAConfig extends cdktf.TerraformMetaArguments {
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#last_updated K8SPoolA#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#last_updated K8SPoolA#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The maximum number of nodes the pool can scale to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#max_node_count K8SPoolA#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#max_node_count K8SPoolA#max_node_count}
   */
   readonly maxNodeCount: number;
   /**
   * The minimum number of nodes in the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#min_node_count K8SPoolA#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#min_node_count K8SPoolA#min_node_count}
   */
   readonly minNodeCount: number;
   /**
   * The name of the Kubernetes pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#name K8SPoolA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#name K8SPoolA#name}
   */
   readonly name: string;
   /**
   * The current number of nodes in the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#node_count K8SPoolA#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#node_count K8SPoolA#node_count}
   */
   readonly nodeCount: number;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#project_id K8SPoolA#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#project_id K8SPoolA#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#project_name K8SPoolA#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#project_name K8SPoolA#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#region_id K8SPoolA#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#region_id K8SPoolA#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#region_name K8SPoolA#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#region_name K8SPoolA#region_name}
   */
   readonly regionName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#timeouts K8SPoolA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#timeouts K8SPoolA#timeouts}
   */
   readonly timeouts?: K8SPoolTimeouts;
 }
 export interface K8SPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#create K8SPoolA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#create K8SPoolA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#update K8SPoolA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#update K8SPoolA#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class K8SPoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool edgecenter_k8s_pool}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool edgecenter_k8s_pool}
 */
 export class K8SPoolA extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class K8SPoolA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SPoolA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SPoolA to import
-  * @param importFromId The id of the existing K8SPoolA that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SPoolA that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SPoolA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class K8SPoolA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/k8s_pool edgecenter_k8s_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/k8s_pool edgecenter_k8s_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class K8SPoolA extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_k8s_pool',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

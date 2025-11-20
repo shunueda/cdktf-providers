@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface KeaSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically update option data from the GUI for relevant attributes. When set, values for `routers`, `dns_servers` and `ntp_servers` will be ignored. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#auto_collect KeaSubnet#auto_collect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#auto_collect KeaSubnet#auto_collect}
   */
   readonly autoCollect?: boolean | cdktf.IResolvable;
   /**
   * Optional description here for your reference (not parsed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#description KeaSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#description KeaSubnet#description}
   */
   readonly description?: string;
   /**
   * DNS servers to offer to the clients. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#dns_servers KeaSubnet#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#dns_servers KeaSubnet#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Domain name to offer to the client, set to this firewall's domain name when left empty. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#domain_name KeaSubnet#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#domain_name KeaSubnet#domain_name}
   */
   readonly domainName?: string;
   /**
   * Set of Domain Names to be used by the client to locate not-fully-qualified domain names. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#domain_search KeaSubnet#domain_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#domain_search KeaSubnet#domain_search}
   */
   readonly domainSearch?: string[];
   /**
   * By default, KEA uses client-identifiers instead of MAC addresses to locate clients, disabling this option changes back to matching on MAC address which is used by most dhcp implementations. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#match_client_id KeaSubnet#match_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#match_client_id KeaSubnet#match_client_id}
   */
   readonly matchClientId?: boolean | cdktf.IResolvable;
   /**
   * Next server IP address. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#next_server KeaSubnet#next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#next_server KeaSubnet#next_server}
   */
   readonly nextServer?: string;
   /**
   * Set of IP addresses indicating NTP (RFC 5905) servers available to the client. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#ntp_servers KeaSubnet#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#ntp_servers KeaSubnet#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * Set of pools in range or subnet format (e.g. `"192.168.0.100 - 192.168.0.200"` , `"192.0.2.64/26"`). Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#pools KeaSubnet#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#pools KeaSubnet#pools}
   */
   readonly pools?: string[];
   /**
   * Default gateways to offer to the clients. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#routers KeaSubnet#routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#routers KeaSubnet#routers}
   */
   readonly routers?: string[];
   /**
   * Static routes that the client should install in its routing cache. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#static_routes KeaSubnet#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#static_routes KeaSubnet#static_routes}
   */
   readonly staticRoutes?: KeaSubnetStaticRoutes[] | cdktf.IResolvable;
   /**
   * Subnet to use (e.g. `"192.0.2.64/26"`), should be large enough to hold the specified pools and reservations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#subnet KeaSubnet#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#subnet KeaSubnet#subnet}
   */
   readonly subnet: string;
   /**
-  * TFTP server address or fqdn. Defaults to `""`.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#tfpt_server KeaSubnet#tfpt_server}
-  */
-  readonly tfptServer?: string;
-  /**
   * Boot filename to request. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#tftp_bootfile KeaSubnet#tftp_bootfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#tftp_bootfile KeaSubnet#tftp_bootfile}
   */
   readonly tftpBootfile?: string;
   /**
+  * TFTP server address or fqdn. Defaults to `""`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#tftp_server KeaSubnet#tftp_server}
+  */
+  readonly tftpServer?: string;
+  /**
   * Set of RFC 868 time servers available to the client. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#time_servers KeaSubnet#time_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#time_servers KeaSubnet#time_servers}
   */
   readonly timeServers?: string[];
 }
@@ -102,13 +102,13 @@ export interface KeaSubnetStaticRoutes {
   /**
   * Destination IP address for static route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#destination_ip KeaSubnet#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#destination_ip KeaSubnet#destination_ip}
   */
   readonly destinationIp: string;
   /**
   * Gateway IP for static route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#router_ip KeaSubnet#router_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#router_ip KeaSubnet#router_ip}
   */
   readonly routerIp: string;
 }
@@ -247,7 +247,7 @@ export class KeaSubnetStaticRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet opnsense_kea_subnet}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet opnsense_kea_subnet}
 */
 export class KeaSubnet extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class KeaSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeaSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeaSubnet to import
-  * @param importFromId The id of the existing KeaSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeaSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeaSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class KeaSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/kea_subnet opnsense_kea_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/kea_subnet opnsense_kea_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class KeaSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_kea_subnet',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -309,8 +309,8 @@ export class KeaSubnet extends cdktf.TerraformResource {
     this._routers = config.routers;
     this._staticRoutes.internalValue = config.staticRoutes;
     this._subnet = config.subnet;
-    this._tfptServer = config.tfptServer;
     this._tftpBootfile = config.tftpBootfile;
+    this._tftpServer = config.tftpServer;
     this._timeServers = config.timeServers;
   }
 
@@ -512,22 +512,6 @@ export class KeaSubnet extends cdktf.TerraformResource {
     return this._subnet;
   }
 
-  // tfpt_server - computed: true, optional: true, required: false
-  private _tfptServer?: string; 
-  public get tfptServer() {
-    return this.getStringAttribute('tfpt_server');
-  }
-  public set tfptServer(value: string) {
-    this._tfptServer = value;
-  }
-  public resetTfptServer() {
-    this._tfptServer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tfptServerInput() {
-    return this._tfptServer;
-  }
-
   // tftp_bootfile - computed: true, optional: true, required: false
   private _tftpBootfile?: string; 
   public get tftpBootfile() {
@@ -542,6 +526,22 @@ export class KeaSubnet extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get tftpBootfileInput() {
     return this._tftpBootfile;
+  }
+
+  // tftp_server - computed: true, optional: true, required: false
+  private _tftpServer?: string; 
+  public get tftpServer() {
+    return this.getStringAttribute('tftp_server');
+  }
+  public set tftpServer(value: string) {
+    this._tftpServer = value;
+  }
+  public resetTftpServer() {
+    this._tftpServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tftpServerInput() {
+    return this._tftpServer;
   }
 
   // time_servers - computed: true, optional: true, required: false
@@ -578,8 +578,8 @@ export class KeaSubnet extends cdktf.TerraformResource {
       routers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._routers),
       static_routes: cdktf.listMapper(keaSubnetStaticRoutesToTerraform, false)(this._staticRoutes.internalValue),
       subnet: cdktf.stringToTerraform(this._subnet),
-      tfpt_server: cdktf.stringToTerraform(this._tfptServer),
       tftp_bootfile: cdktf.stringToTerraform(this._tftpBootfile),
+      tftp_server: cdktf.stringToTerraform(this._tftpServer),
       time_servers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._timeServers),
     };
   }
@@ -658,14 +658,14 @@ export class KeaSubnet extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      tfpt_server: {
-        value: cdktf.stringToHclTerraform(this._tfptServer),
+      tftp_bootfile: {
+        value: cdktf.stringToHclTerraform(this._tftpBootfile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      tftp_bootfile: {
-        value: cdktf.stringToHclTerraform(this._tftpBootfile),
+      tftp_server: {
+        value: cdktf.stringToHclTerraform(this._tftpServer),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

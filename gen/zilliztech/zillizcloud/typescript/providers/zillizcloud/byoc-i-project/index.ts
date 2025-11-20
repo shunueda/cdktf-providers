@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ByocIProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS configuration for the BYOC project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#aws ByocIProject#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#aws ByocIProject#aws}
   */
   readonly aws?: ByocIProjectAws;
   /**
   * The ID of the data plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#data_plane_id ByocIProject#data_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#data_plane_id ByocIProject#data_plane_id}
   */
   readonly dataPlaneId: string;
   /**
   * External configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#ext_config ByocIProject#ext_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#ext_config ByocIProject#ext_config}
   */
   readonly extConfig?: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#project_id ByocIProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#project_id ByocIProject#project_id}
   */
   readonly projectId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#timeouts ByocIProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#timeouts ByocIProject#timeouts}
   */
   readonly timeouts?: ByocIProjectTimeouts;
 }
@@ -42,25 +42,25 @@ export interface ByocIProjectAwsNetwork {
   /**
   * List of security group IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#security_group_ids ByocIProject#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#security_group_ids ByocIProject#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * List of subnet IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#subnet_ids ByocIProject#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#subnet_ids ByocIProject#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * VPC endpoint ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#vpc_endpoint_id ByocIProject#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#vpc_endpoint_id ByocIProject#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
   /**
   * VPC ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#vpc_id ByocIProject#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#vpc_id ByocIProject#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -234,19 +234,19 @@ export interface ByocIProjectAwsRoleArn {
   /**
   * Cross account role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#cross_account ByocIProject#cross_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#cross_account ByocIProject#cross_account}
   */
   readonly crossAccount: string;
   /**
   * EKS role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#eks ByocIProject#eks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#eks ByocIProject#eks}
   */
   readonly eks: string;
   /**
   * Storage role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#storage ByocIProject#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#storage ByocIProject#storage}
   */
   readonly storage: string;
 }
@@ -391,7 +391,7 @@ export interface ByocIProjectAwsStorage {
   /**
   * Storage bucket ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#bucket_id ByocIProject#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#bucket_id ByocIProject#bucket_id}
   */
   readonly bucketId: string;
 }
@@ -484,25 +484,25 @@ export interface ByocIProjectAws {
   /**
   * Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#network ByocIProject#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#network ByocIProject#network}
   */
   readonly network: ByocIProjectAwsNetwork;
   /**
   * AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#region ByocIProject#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#region ByocIProject#region}
   */
   readonly region: string;
   /**
   * Role ARN configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#role_arn ByocIProject#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#role_arn ByocIProject#role_arn}
   */
   readonly roleArn: ByocIProjectAwsRoleArn;
   /**
   * Storage configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#storage ByocIProject#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#storage ByocIProject#storage}
   */
   readonly storage: ByocIProjectAwsStorage;
 }
@@ -673,19 +673,19 @@ export interface ByocIProjectTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#create ByocIProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#create ByocIProject#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#delete ByocIProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#delete ByocIProject#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#update ByocIProject#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#update ByocIProject#update}
   */
   readonly update?: string;
 }
@@ -837,7 +837,7 @@ export class ByocIProjectTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project zillizcloud_byoc_i_project}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project zillizcloud_byoc_i_project}
 */
 export class ByocIProject extends cdktf.TerraformResource {
 
@@ -853,7 +853,7 @@ export class ByocIProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ByocIProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ByocIProject to import
-  * @param importFromId The id of the existing ByocIProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ByocIProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ByocIProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -865,7 +865,7 @@ export class ByocIProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project zillizcloud_byoc_i_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project zillizcloud_byoc_i_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -876,8 +876,8 @@ export class ByocIProject extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_byoc_i_project',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

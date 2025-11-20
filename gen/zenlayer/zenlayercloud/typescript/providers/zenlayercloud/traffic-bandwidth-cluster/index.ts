@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster
+// https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TrafficBandwidthClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * The code of area where the bandwidth located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#area_code TrafficBandwidthCluster#area_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#area_code TrafficBandwidthCluster#area_code}
   */
   readonly areaCode: string;
   /**
   * Bandwidth commitment. Measured in Mbps. Default value: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#commit_bandwidth_mbps TrafficBandwidthCluster#commit_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#commit_bandwidth_mbps TrafficBandwidthCluster#commit_bandwidth_mbps}
   */
   readonly commitBandwidthMbps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#id TrafficBandwidthCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#id TrafficBandwidthCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface TrafficBandwidthClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * Network billing method. valid values: `MonthlyPercent95Bandwidth`(for Monthly Burstable 95th billing method), `DayPeakBandwidth`(for Daily Peak billing method).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#internet_charge_type TrafficBandwidthCluster#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#internet_charge_type TrafficBandwidthCluster#internet_charge_type}
   */
   readonly internetChargeType: string;
   /**
   * The name of the bandwidth cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#name TrafficBandwidthCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#name TrafficBandwidthCluster#name}
   */
   readonly name: string;
   /**
   * IP network type. The value is required when the billing area for bandwidth cluster is by city. valid values: `BGP`(for BGP network), `Cogent`(for Cogent network),`CN2`(for China Telecom Next Carrier Network), `CMI`(for China Mobile network), `CUG`(for China Unicom network), `CTG`(for China Telecom network).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#network_type TrafficBandwidthCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#network_type TrafficBandwidthCluster#network_type}
   */
   readonly networkType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster zenlayercloud_traffic_bandwidth_cluster}
+* Represents a {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster zenlayercloud_traffic_bandwidth_cluster}
 */
 export class TrafficBandwidthCluster extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TrafficBandwidthCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficBandwidthCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficBandwidthCluster to import
-  * @param importFromId The id of the existing TrafficBandwidthCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficBandwidthCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficBandwidthCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TrafficBandwidthCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.8/docs/resources/traffic_bandwidth_cluster zenlayercloud_traffic_bandwidth_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zenlayer/zenlayercloud/0.2.9/docs/resources/traffic_bandwidth_cluster zenlayercloud_traffic_bandwidth_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TrafficBandwidthCluster extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_traffic_bandwidth_cluster',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8',
-        providerVersionConstraint: '0.2.8'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

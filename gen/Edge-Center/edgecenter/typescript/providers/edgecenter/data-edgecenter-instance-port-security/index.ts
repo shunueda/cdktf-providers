@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEdgecenterInstancePortSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#id DataEdgecenterInstancePortSecurity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#id DataEdgecenterInstancePortSecurity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataEdgecenterInstancePortSecurityConfig extends cdktf.Terrafor
   /**
   * ID of the instance to which the port is connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#instance_id DataEdgecenterInstancePortSecurity#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#instance_id DataEdgecenterInstancePortSecurity#instance_id}
   */
   readonly instanceId: string;
   /**
   * ID of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#port_id DataEdgecenterInstancePortSecurity#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#port_id DataEdgecenterInstancePortSecurity#port_id}
   */
   readonly portId: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#project_id DataEdgecenterInstancePortSecurity#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#project_id DataEdgecenterInstancePortSecurity#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#project_name DataEdgecenterInstancePortSecurity#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#project_name DataEdgecenterInstancePortSecurity#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#region_id DataEdgecenterInstancePortSecurity#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#region_id DataEdgecenterInstancePortSecurity#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#region_name DataEdgecenterInstancePortSecurity#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#region_name DataEdgecenterInstancePortSecurity#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security edgecenter_instance_port_security}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security edgecenter_instance_port_security}
 */
 export class DataEdgecenterInstancePortSecurity extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataEdgecenterInstancePortSecurity extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataEdgecenterInstancePortSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterInstancePortSecurity to import
-  * @param importFromId The id of the existing DataEdgecenterInstancePortSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterInstancePortSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterInstancePortSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataEdgecenterInstancePortSecurity extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/data-sources/instance_port_security edgecenter_instance_port_security} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/data-sources/instance_port_security edgecenter_instance_port_security} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataEdgecenterInstancePortSecurity extends cdktf.TerraformDataSourc
       terraformResourceType: 'edgecenter_instance_port_security',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UseractionsSubscriptionLogConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the authorization header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log#auth_header_name UseractionsSubscriptionLog#auth_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log#auth_header_name UseractionsSubscriptionLog#auth_header_name}
   */
   readonly authHeaderName: string;
   /**
   * The value of the authorization header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log#auth_header_value UseractionsSubscriptionLog#auth_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log#auth_header_value UseractionsSubscriptionLog#auth_header_value}
   */
   readonly authHeaderValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log#id UseractionsSubscriptionLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log#id UseractionsSubscriptionLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface UseractionsSubscriptionLogConfig extends cdktf.TerraformMetaArg
   /**
   * The URL to send user action logs for the specified client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log#url UseractionsSubscriptionLog#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log#url UseractionsSubscriptionLog#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log edgecenter_useractions_subscription_log}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log edgecenter_useractions_subscription_log}
 */
 export class UseractionsSubscriptionLog extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class UseractionsSubscriptionLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UseractionsSubscriptionLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UseractionsSubscriptionLog to import
-  * @param importFromId The id of the existing UseractionsSubscriptionLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UseractionsSubscriptionLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UseractionsSubscriptionLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class UseractionsSubscriptionLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/useractions_subscription_log edgecenter_useractions_subscription_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/useractions_subscription_log edgecenter_useractions_subscription_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class UseractionsSubscriptionLog extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_useractions_subscription_log',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

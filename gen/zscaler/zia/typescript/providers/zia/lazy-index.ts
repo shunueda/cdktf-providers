@@ -21,6 +21,7 @@ Object.defineProperty(exports, 'casbMalwareRules', { get: function () { return r
 Object.defineProperty(exports, 'cloudAppControlRule', { get: function () { return require('./cloud-app-control-rule'); } });
 Object.defineProperty(exports, 'cloudApplicationInstance', { get: function () { return require('./cloud-application-instance'); } });
 Object.defineProperty(exports, 'cloudNssFeed', { get: function () { return require('./cloud-nss-feed'); } });
+Object.defineProperty(exports, 'customFileTypes', { get: function () { return require('./custom-file-types'); } });
 Object.defineProperty(exports, 'dlpDictionaries', { get: function () { return require('./dlp-dictionaries'); } });
 Object.defineProperty(exports, 'dlpEngines', { get: function () { return require('./dlp-engines'); } });
 Object.defineProperty(exports, 'dlpNotificationTemplates', { get: function () { return require('./dlp-notification-templates'); } });
@@ -88,6 +89,7 @@ Object.defineProperty(exports, 'dataZiaCloudApplicationInstance', { get: functio
 Object.defineProperty(exports, 'dataZiaCloudApplications', { get: function () { return require('./data-zia-cloud-applications'); } });
 Object.defineProperty(exports, 'dataZiaCloudBrowserIsolationProfile', { get: function () { return require('./data-zia-cloud-browser-isolation-profile'); } });
 Object.defineProperty(exports, 'dataZiaCloudNssFeed', { get: function () { return require('./data-zia-cloud-nss-feed'); } });
+Object.defineProperty(exports, 'dataZiaCustomFileTypes', { get: function () { return require('./data-zia-custom-file-types'); } });
 Object.defineProperty(exports, 'dataZiaDepartmentManagement', { get: function () { return require('./data-zia-department-management'); } });
 Object.defineProperty(exports, 'dataZiaDeviceGroups', { get: function () { return require('./data-zia-device-groups'); } });
 Object.defineProperty(exports, 'dataZiaDevices', { get: function () { return require('./data-zia-devices'); } });
@@ -104,6 +106,7 @@ Object.defineProperty(exports, 'dataZiaDlpNotificationTemplates', { get: functio
 Object.defineProperty(exports, 'dataZiaDlpWebRules', { get: function () { return require('./data-zia-dlp-web-rules'); } });
 Object.defineProperty(exports, 'dataZiaDomainProfiles', { get: function () { return require('./data-zia-domain-profiles'); } });
 Object.defineProperty(exports, 'dataZiaEndUserNotification', { get: function () { return require('./data-zia-end-user-notification'); } });
+Object.defineProperty(exports, 'dataZiaFileTypeCategories', { get: function () { return require('./data-zia-file-type-categories'); } });
 Object.defineProperty(exports, 'dataZiaFileTypeControlRules', { get: function () { return require('./data-zia-file-type-control-rules'); } });
 Object.defineProperty(exports, 'dataZiaFirewallDnsRule', { get: function () { return require('./data-zia-firewall-dns-rule'); } });
 Object.defineProperty(exports, 'dataZiaFirewallFilteringApplicationServices', { get: function () { return require('./data-zia-firewall-filtering-application-services'); } });

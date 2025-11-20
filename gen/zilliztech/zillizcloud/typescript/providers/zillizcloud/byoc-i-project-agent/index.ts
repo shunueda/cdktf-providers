@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ByocIProjectAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the data plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent#data_plane_id ByocIProjectAgent#data_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent#data_plane_id ByocIProjectAgent#data_plane_id}
   */
   readonly dataPlaneId: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent#project_id ByocIProjectAgent#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent#project_id ByocIProjectAgent#project_id}
   */
   readonly projectId: string;
   /**
   * Wait until the BYOC agent is ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent#wait_until_ready ByocIProjectAgent#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent#wait_until_ready ByocIProjectAgent#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent#timeouts ByocIProjectAgent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent#timeouts ByocIProjectAgent#timeouts}
   */
   readonly timeouts?: ByocIProjectAgentTimeouts;
 }
@@ -36,7 +36,7 @@ export interface ByocIProjectAgentTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent#create ByocIProjectAgent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent#create ByocIProjectAgent#create}
   */
   readonly create?: string;
 }
@@ -130,7 +130,7 @@ export class ByocIProjectAgentTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent zillizcloud_byoc_i_project_agent}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent zillizcloud_byoc_i_project_agent}
 */
 export class ByocIProjectAgent extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class ByocIProjectAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ByocIProjectAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ByocIProjectAgent to import
-  * @param importFromId The id of the existing ByocIProjectAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ByocIProjectAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ByocIProjectAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class ByocIProjectAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/byoc_i_project_agent zillizcloud_byoc_i_project_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/byoc_i_project_agent zillizcloud_byoc_i_project_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class ByocIProjectAgent extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_byoc_i_project_agent',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

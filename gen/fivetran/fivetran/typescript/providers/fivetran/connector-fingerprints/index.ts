@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ConnectorFingerprintsConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique identifier for the target connection within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints#connector_id ConnectorFingerprints#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints#connector_id ConnectorFingerprints#connector_id}
   */
   readonly connectorId: string;
   /**
   * fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints#fingerprint ConnectorFingerprints#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints#fingerprint ConnectorFingerprints#fingerprint}
   */
   readonly fingerprint?: ConnectorFingerprintsFingerprint[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface ConnectorFingerprintsFingerprint {
   /**
   * Hash of the fingerprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints#hash ConnectorFingerprints#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints#hash ConnectorFingerprints#hash}
   */
   readonly hash: string;
   /**
   * The SSH public key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints#public_key ConnectorFingerprints#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints#public_key ConnectorFingerprints#public_key}
   */
   readonly publicKey: string;
 }
@@ -179,7 +179,7 @@ export class ConnectorFingerprintsFingerprintList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints fivetran_connector_fingerprints}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints fivetran_connector_fingerprints}
 */
 export class ConnectorFingerprints extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class ConnectorFingerprints extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorFingerprints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorFingerprints to import
-  * @param importFromId The id of the existing ConnectorFingerprints that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorFingerprints that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorFingerprints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class ConnectorFingerprints extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/connector_fingerprints fivetran_connector_fingerprints} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_fingerprints fivetran_connector_fingerprints} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class ConnectorFingerprints extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_connector_fingerprints',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

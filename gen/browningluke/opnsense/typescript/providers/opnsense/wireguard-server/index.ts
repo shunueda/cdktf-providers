@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface WireguardServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disables installation of routes. Usually you only enable this to do own routing decisions via a local gateway and gateway rules. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#disable_routes WireguardServer#disable_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#disable_routes WireguardServer#disable_routes}
   */
   readonly disableRoutes?: boolean | cdktf.IResolvable;
   /**
   * The interface specific DNS servers. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#dns WireguardServer#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#dns WireguardServer#dns}
   */
   readonly dns?: string[];
   /**
   * Enable this server. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#enabled WireguardServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#enabled WireguardServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The gateway IP here when using Disable Routes feature. You also have to add this as a gateway in OPNsense. Must be set when `disable_routes` is `true`. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#gateway WireguardServer#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#gateway WireguardServer#gateway}
   */
   readonly gateway?: string;
   /**
   * The interface MTU for this interface. Set to `-1` to use the MTU from main interface. Defaults to `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#mtu WireguardServer#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#mtu WireguardServer#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#name WireguardServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#name WireguardServer#name}
   */
   readonly name: string;
   /**
   * List of peer IDs for this server. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#peers WireguardServer#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#peers WireguardServer#peers}
   */
   readonly peers?: string[];
   /**
   * The fixed port for this instance to listen on. The standard port range starts at 51820. Defaults to `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#port WireguardServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#port WireguardServer#port}
   */
   readonly port?: number;
   /**
   * Private key of this server. Must be a 256-bit base64 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#private_key WireguardServer#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#private_key WireguardServer#private_key}
   */
   readonly privateKey: string;
   /**
   * Public key of this server. Must be a 256-bit base64 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#public_key WireguardServer#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#public_key WireguardServer#public_key}
   */
   readonly publicKey: string;
   /**
   * List of addresses to configure on the tunnel adapter. Please use CIDR notation like `"10.0.0.1/24"`. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#tunnel_address WireguardServer#tunnel_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#tunnel_address WireguardServer#tunnel_address}
   */
   readonly tunnelAddress?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server opnsense_wireguard_server}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server opnsense_wireguard_server}
 */
 export class WireguardServer extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class WireguardServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WireguardServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WireguardServer to import
-  * @param importFromId The id of the existing WireguardServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WireguardServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WireguardServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class WireguardServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_server opnsense_wireguard_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_server opnsense_wireguard_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class WireguardServer extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_wireguard_server',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface WireguardClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable this client config. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#enabled WireguardClient#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#enabled WireguardClient#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The persistent keepalive interval in seconds. Defaults to `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#keep_alive WireguardClient#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#keep_alive WireguardClient#keep_alive}
   */
   readonly keepAlive?: number;
   /**
   * Name of the client config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#name WireguardClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#name WireguardClient#name}
   */
   readonly name: string;
   /**
   * Shared secret (PSK) for this peer. You can generate a key using `wg genpsk` on a client with WireGuard installed. Must be a 256-bit base64 string. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#psk WireguardClient#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#psk WireguardClient#psk}
   */
   readonly psk?: string;
   /**
   * Public key of this client config. Must be a 256-bit base64 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#public_key WireguardClient#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#public_key WireguardClient#public_key}
   */
   readonly publicKey: string;
   /**
   * The public IP address the endpoint listens to. Defaults to `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#server_address WireguardClient#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#server_address WireguardClient#server_address}
   */
   readonly serverAddress?: string;
   /**
   * The port the endpoint listens to. Defaults to `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#server_port WireguardClient#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#server_port WireguardClient#server_port}
   */
   readonly serverPort?: number;
   /**
   * List of addresses allowed to pass trough the tunnel adapter. Please use CIDR notation like `"10.0.0.1/24"`. Defaults to `[]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#tunnel_address WireguardClient#tunnel_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#tunnel_address WireguardClient#tunnel_address}
   */
   readonly tunnelAddress: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client opnsense_wireguard_client}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client opnsense_wireguard_client}
 */
 export class WireguardClient extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class WireguardClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WireguardClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WireguardClient to import
-  * @param importFromId The id of the existing WireguardClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WireguardClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WireguardClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class WireguardClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/wireguard_client opnsense_wireguard_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/wireguard_client opnsense_wireguard_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class WireguardClient extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_wireguard_client',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

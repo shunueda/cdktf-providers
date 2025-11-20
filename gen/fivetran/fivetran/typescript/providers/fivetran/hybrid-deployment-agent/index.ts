@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface HybridDeploymentAgentConfig extends cdktf.TerraformMetaArgument
   /**
   * Type of authentification. Possible values `AUTO`,`MANUAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent#auth_type HybridDeploymentAgent#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent#auth_type HybridDeploymentAgent#auth_type}
   */
   readonly authType: string;
   /**
   * Determines whether re-authentication needs to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent#authentication_counter HybridDeploymentAgent#authentication_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent#authentication_counter HybridDeploymentAgent#authentication_counter}
   */
   readonly authenticationCounter?: number;
   /**
   * The unique name for the hybrid deployment agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent#display_name HybridDeploymentAgent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent#display_name HybridDeploymentAgent#display_name}
   */
   readonly displayName: string;
   /**
   * Environment type. Possible values `DOCKER`,`PODMAN`,`KUBERNETES`,`SNOWPARK`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent#env_type HybridDeploymentAgent#env_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent#env_type HybridDeploymentAgent#env_type}
   */
   readonly envType: string;
   /**
   * The unique identifier for the Group within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent#group_id HybridDeploymentAgent#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent#group_id HybridDeploymentAgent#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent fivetran_hybrid_deployment_agent}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent fivetran_hybrid_deployment_agent}
 */
 export class HybridDeploymentAgent extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class HybridDeploymentAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HybridDeploymentAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HybridDeploymentAgent to import
-  * @param importFromId The id of the existing HybridDeploymentAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HybridDeploymentAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HybridDeploymentAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class HybridDeploymentAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.13/docs/resources/hybrid_deployment_agent fivetran_hybrid_deployment_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/hybrid_deployment_agent fivetran_hybrid_deployment_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class HybridDeploymentAgent extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_hybrid_deployment_agent',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13',
-        providerVersionConstraint: '1.9.13'
+        providerVersion: '1.9.15',
+        providerVersionConstraint: '1.9.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

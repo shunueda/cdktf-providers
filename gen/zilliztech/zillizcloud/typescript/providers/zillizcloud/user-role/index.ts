@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role
+// https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,7 +17,7 @@ export interface UserRoleConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** The address must include the protocol (e.g., `https://`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role#connect_address UserRole#connect_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role#connect_address UserRole#connect_address}
   */
   readonly connectAddress: string;
   /**
@@ -28,7 +28,7 @@ export interface UserRoleConfig extends cdktf.TerraformMetaArguments {
   * 
   * > **Note:** Only valid roles supported by the cluster can be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role#roles UserRole#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role#roles UserRole#roles}
   */
   readonly roles: string[];
   /**
@@ -38,13 +38,13 @@ export interface UserRoleConfig extends cdktf.TerraformMetaArguments {
   * - Must be an existing user in the cluster.
   * - Should follow your organization's naming conventions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role#username UserRole#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role#username UserRole#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role zillizcloud_user_role}
+* Represents a {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role zillizcloud_user_role}
 */
 export class UserRole extends cdktf.TerraformResource {
 
@@ -60,7 +60,7 @@ export class UserRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserRole to import
-  * @param importFromId The id of the existing UserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,7 +72,7 @@ export class UserRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.23/docs/resources/user_role zillizcloud_user_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zilliztech/zillizcloud/0.6.24/docs/resources/user_role zillizcloud_user_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,8 +83,8 @@ export class UserRole extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_user_role',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23',
-        providerVersionConstraint: '0.6.23'
+        providerVersion: '0.6.24',
+        providerVersionConstraint: '0.6.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

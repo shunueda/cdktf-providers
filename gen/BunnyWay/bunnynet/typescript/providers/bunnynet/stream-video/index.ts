@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface StreamVideoConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of chapters available in the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#chapters StreamVideo#chapters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#chapters StreamVideo#chapters}
   */
   readonly chapters?: StreamVideoChapters[] | cdktf.IResolvable;
   /**
   * The ID of the collection to which the video belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#collection StreamVideo#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#collection StreamVideo#collection}
   */
   readonly collection?: string;
   /**
   * The description of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#description StreamVideo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#description StreamVideo#description}
   */
   readonly description?: string;
   /**
   * The ID of the stream library to which the video belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#library StreamVideo#library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#library StreamVideo#library}
   */
   readonly library: number;
   /**
   * The list of moments available in the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#moments StreamVideo#moments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#moments StreamVideo#moments}
   */
   readonly moments?: StreamVideoMoments[] | cdktf.IResolvable;
   /**
   * The title of the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#title StreamVideo#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#title StreamVideo#title}
   */
   readonly title: string;
 }
 export interface StreamVideoChapters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#end StreamVideo#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#end StreamVideo#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#start StreamVideo#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#start StreamVideo#start}
   */
   readonly start?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#title StreamVideo#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#title StreamVideo#title}
   */
   readonly title?: string;
 }
@@ -228,11 +228,11 @@ export class StreamVideoChaptersList extends cdktf.ComplexList {
 }
 export interface StreamVideoMoments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#label StreamVideo#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#label StreamVideo#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#timestamp StreamVideo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#timestamp StreamVideo#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -377,7 +377,7 @@ export class StreamVideoMomentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video bunnynet_stream_video}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video bunnynet_stream_video}
 */
 export class StreamVideo extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class StreamVideo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamVideo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamVideo to import
-  * @param importFromId The id of the existing StreamVideo that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamVideo that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamVideo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class StreamVideo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/stream_video bunnynet_stream_video} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_video bunnynet_stream_video} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class StreamVideo extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_stream_video',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.1',
-        providerVersionConstraint: '0.11.1'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

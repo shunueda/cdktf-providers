@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CdnResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable the CDN resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#active CdnResource#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#active CdnResource#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Specify a custom domain that will be used to deliver content via CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#cname CdnResource#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#cname CdnResource#cname}
   */
   readonly cname: string;
   /**
   * Leave an optional comment that describes this CDN resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#description CdnResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#description CdnResource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#id CdnResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#id CdnResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface CdnResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Generate LE certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#issue_le_cert CdnResource#issue_le_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#issue_le_cert CdnResource#issue_le_cert}
   */
   readonly issueLeCert?: boolean | cdktf.IResolvable;
   /**
   * Enter a domain name or the IP address of your source. Specify a port if custom. You can use either "origin" or "origin_group" field in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#origin CdnResource#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#origin CdnResource#origin}
   */
   readonly origin?: string;
   /**
   * Enter the source group ID. Use one of your source groups or create a new one. You can use either "origin" or "origin_group" field in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#origin_group CdnResource#origin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#origin_group CdnResource#origin_group}
   */
   readonly originGroup?: number;
   /**
   * Choose the protocol that will be used by CDN servers to request content from the source. If not specified, the HTTP protocol will be used. Allowed values are "HTTPS", "HTTP", or "MATCH". If "MATCH" is chosen, content on the source should be available over both HTTP and HTTPS protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#origin_protocol CdnResource#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#origin_protocol CdnResource#origin_protocol}
   */
   readonly originProtocol?: string;
   /**
   * Specify up to 10 additional custom domains that will be used to deliver content via the CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#secondary_hostnames CdnResource#secondary_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#secondary_hostnames CdnResource#secondary_hostnames}
   */
   readonly secondaryHostnames?: string[];
   /**
   * generate LE certificate automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#ssl_automated CdnResource#ssl_automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#ssl_automated CdnResource#ssl_automated}
   */
   readonly sslAutomated?: boolean | cdktf.IResolvable;
   /**
   * Specify the SSL certificate ID which will be used for the CDN resource. The field must be used only with "ssl_enabled": true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#ssl_data CdnResource#ssl_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#ssl_data CdnResource#ssl_data}
   */
   readonly sslData?: number;
   /**
   * Enable or disable the HTTPS protocol for content delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#ssl_enabled CdnResource#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#ssl_enabled CdnResource#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#options CdnResource#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#options CdnResource#options}
   */
   readonly options?: CdnResourceOptions;
 }
@@ -91,13 +91,13 @@ export interface CdnResourceOptionsAllowedHttpMethods {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Allowed values are "GET", "HEAD", "POST", "PUT", "PATCH", "DELETE", and "OPTIONS".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -209,13 +209,13 @@ export interface CdnResourceOptionsBrotliCompression {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Allowed values are "application/javascript", "application/json", "application/vnd.ms-fontobject", "application/x-font-ttf", "application/x-javascript", "application/xml", "application/xml+rss", "image/svg+xml", "image/x-icon", "text/css", "text/html", "text/javascript", "text/plain", "text/xml".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -327,13 +327,13 @@ export interface CdnResourceOptionsBrowserCacheSettings {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the cache lifetime if the CDN controlled option is chosen. If the value is empty, the Origin controlled option will be enabled and the cache lifetime will be inherited from the source. Set to "0s" to disable browser caching. The value only applies for the HTTP 200, 201, 204, 206, 301, 302, 303, 304, 307, 308 response status codes. Responses with other HTTP status codes will not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string;
 }
@@ -448,19 +448,19 @@ export interface CdnResourceOptionsCors {
   /**
   * Add the Access-Control-Allow-Origin header to the response regardless of the HTTP response status code. Allowed values are "true" or "false". If set to "false", the header is only added to the responses with HTTP 200, 201, 204, 206, 301, 302, 303, 304, 307, or 308 response status codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#always CdnResource#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#always CdnResource#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add the value of the Access-Control-Allow-Origin header. Allowed values are "*", "domain.com" or other domain name, or "$http_origin".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -601,13 +601,13 @@ export interface CdnResourceOptionsDisableProxyForceRanges {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -719,25 +719,25 @@ export interface CdnResourceOptionsEdgeCacheSettings {
   /**
   * Set the caching time in seconds for certain HTTP status codes. Use "any" to specify the caching time for all HTTP response status codes. Use "0s" to disable caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#custom_values CdnResource#custom_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#custom_values CdnResource#custom_values}
   */
   readonly customValues?: { [key: string]: string };
   /**
   * Set the caching time in seconds. Use the field if you want your source to control the caching time of the HTTP 200, 201, 204, 206, 301, 302, 303, 304, 307, 308 response status codes, and if a source server does not have any caching HTTP headers. Responses with other HTTP status codes will not be cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#default CdnResource#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#default CdnResource#default}
   */
   readonly default?: string;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the caching time in seconds. Use the field if you want CDN to control the caching time of the HTTP 200, 206, 301, and 302 response status codes. Responses with HTTP 4xx, 5xx status codes will not be cached. Use the "custom_values" field to specify the custom caching time for responses with specific HTTP status codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string;
 }
@@ -910,13 +910,13 @@ export interface CdnResourceOptionsFetchCompressed {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -1028,19 +1028,19 @@ export interface CdnResourceOptionsFollowOriginRedirect {
   /**
   * Add the redirect HTTP status codes returned by the source. Allowed values are "301", "302", "303", "307", "308".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#codes CdnResource#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#codes CdnResource#codes}
   */
   readonly codes: number[];
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Use the redirect target domain as a Host header, or leave it the same as the value of the Change Host header option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#use_host CdnResource#use_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#use_host CdnResource#use_host}
   */
   readonly useHost?: boolean | cdktf.IResolvable;
 }
@@ -1181,19 +1181,19 @@ export interface CdnResourceOptionsForceReturn {
   /**
   * Add the URL for redirection or the text message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#body CdnResource#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#body CdnResource#body}
   */
   readonly body?: string;
   /**
   * Set the HTTP status code that should be returned by the CDN. Allowed values are from "100" to "599".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#code CdnResource#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#code CdnResource#code}
   */
   readonly code: number;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1334,13 +1334,13 @@ export interface CdnResourceOptionsForwardHostHeader {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -1452,13 +1452,13 @@ export interface CdnResourceOptionsGeoAclExceptedValues {
   /**
   * Two-letter country code as defined by ISO 3166-1 alpha-2 (e.g., 'US' for United States, 'RU' for Russia).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#key CdnResource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#key CdnResource#key}
   */
   readonly key: string;
   /**
   * List of region codes for the specified country, using short English names from ISO 3166-2 (e.g., 'CA' for California in 'US', 'MOW' for Moscow in 'RU').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#values CdnResource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#values CdnResource#values}
   */
   readonly values: string[];
 }
@@ -1599,19 +1599,19 @@ export interface CdnResourceOptionsGeoAcl {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Shows the chosen policy type. Has either "allow" or "deny" value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType?: string;
   /**
   * excepted_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues: CdnResourceOptionsGeoAclExceptedValues[] | cdktf.IResolvable;
 }
@@ -1752,13 +1752,13 @@ export interface CdnResourceOptionsGzipCompression {
   /**
   * Enable or disable the option. Allowed values are "true" or "false". 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Allowed values are "application/dash+xml", "application/javascript", "application/javascript", "application/vnd.apple.mpegurl", "application/vnd.ms-fontobject", "application/wasm", "application/x-font-opentype", "application/x-font-ttf", "application/x-javascript", "application/x-mpegURL", "application/x-subrip", "application/xml", "application/xml+rss", "font/woff", "font/woff2", "image/svg+xml", "text/css", "text/html", "text/javascript", "text/plain", "text/vtt", "text/xml".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -1870,13 +1870,13 @@ export interface CdnResourceOptionsHostHeader {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the Host header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string;
 }
@@ -1988,13 +1988,13 @@ export interface CdnResourceOptionsHttp3Enabled {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2106,13 +2106,13 @@ export interface CdnResourceOptionsIgnoreCookie {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2224,13 +2224,13 @@ export interface CdnResourceOptionsIgnoreQueryString {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false". If set to "true", Ignore all setting is selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2342,31 +2342,31 @@ export interface CdnResourceOptionsImageStack {
   /**
   * Allow to convert the JPG and PNG images into AVIF format when supported by the end user's browser. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#avif_enabled CdnResource#avif_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#avif_enabled CdnResource#avif_enabled}
   */
   readonly avifEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify if the PNG images should be compressed without the quality loss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#png_lossless CdnResource#png_lossless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#png_lossless CdnResource#png_lossless}
   */
   readonly pngLossless?: boolean | cdktf.IResolvable;
   /**
   * Set the quality of the JPG and PNG images after conversion. The higher the value, the better the image quality and the larger the file size after conversion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#quality CdnResource#quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#quality CdnResource#quality}
   */
   readonly quality: number;
   /**
   * Allow to convert the JPG and PNG images into WebP format when supported by the end user's browser. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#webp_enabled CdnResource#webp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#webp_enabled CdnResource#webp_enabled}
   */
   readonly webpEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2565,19 +2565,19 @@ export interface CdnResourceOptionsIpAddressAcl {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add the list of IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Set the policy type. Allowed values are "allow" or "deny". The policy allows or denies access to content from all IP addresses except those specified in the "excepted_values" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType: string;
 }
@@ -2715,25 +2715,25 @@ export interface CdnResourceOptionsLimitBandwidth {
   /**
   * Specify the amount of downloaded data in KB after which the user will be rate limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#buffer CdnResource#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#buffer CdnResource#buffer}
   */
   readonly buffer?: number;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the speed limit type. Allowed values are "static" or "dynamic". If set to "static", use the "speed" and "buffer" fields. If set to "dynamic", the speed is limited according to the "?speed" and "?buffer" query parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#limit_type CdnResource#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#limit_type CdnResource#limit_type}
   */
   readonly limitType: string;
   /**
   * Set the maximum download speed per connection in KB/s. Must be greater than "0".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#speed CdnResource#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#speed CdnResource#speed}
   */
   readonly speed?: number;
 }
@@ -2903,13 +2903,13 @@ export interface CdnResourceOptionsProxyCacheMethodsSet {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -3021,13 +3021,13 @@ export interface CdnResourceOptionsQueryParamsBlacklistStruct {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add the list of params that should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -3139,13 +3139,13 @@ export interface CdnResourceOptionsQueryParamsWhitelistStruct {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add the list of params that should not be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -3257,13 +3257,13 @@ export interface CdnResourceOptionsRedirectHttpToHttps {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -3375,13 +3375,13 @@ export interface CdnResourceOptionsRedirectHttpsToHttp {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -3493,19 +3493,19 @@ export interface CdnResourceOptionsRefererAcl {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add a list of domain names. To allow a direct link access, add an empty value "". You cannot enter just the empty value because at least one valid referer is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Set the policy type. Allowed values are "allow" or "deny". The policy allows or denies access to content from all domain names except those specified in the "excepted_values" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType: string;
 }
@@ -3643,19 +3643,19 @@ export interface CdnResourceOptionsResponseHeadersHidingPolicy {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Depending on the value of the "mode" field, list the HTTP headers that will be either shown or hidden in the response. HTTP headers, that can't be hidden from the response: Connection, Content-Length, Content-Type, Date, Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#excepted CdnResource#excepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#excepted CdnResource#excepted}
   */
   readonly excepted: string[];
   /**
   * Set the way the HTTP headers are displayed. Allowed values are "hide" or "show". If set to "hide", all the HTTP headers from the response except those listed in the "excepted" field. If set to "show", the HTTP headers listed in the "excepted" field are hidden from the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#mode CdnResource#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#mode CdnResource#mode}
   */
   readonly mode: string;
 }
@@ -3793,19 +3793,19 @@ export interface CdnResourceOptionsRewrite {
   /**
   * Specify the rewrite pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#body CdnResource#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#body CdnResource#body}
   */
   readonly body: string;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify a rewrite flag type. Allowed values are "last", "break", "redirect", or "permanent".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#flag CdnResource#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#flag CdnResource#flag}
   */
   readonly flag?: string;
 }
@@ -3946,19 +3946,19 @@ export interface CdnResourceOptionsSecureKey {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add the key generated on your side which will be used for the URL signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#key CdnResource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#key CdnResource#key}
   */
   readonly key: string;
   /**
   * Set the type of the URL signing. Allowed values are "0" or "2". If set to "0", the end user's IP address is inclded to secure token generation. If set to "2", the end user's IP address is excluded from the secure token generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#type CdnResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#type CdnResource#type}
   */
   readonly type: number;
 }
@@ -4096,13 +4096,13 @@ export interface CdnResourceOptionsSlice {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -4214,19 +4214,19 @@ export interface CdnResourceOptionsSni {
   /**
   * Specify the custom SNI hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#custom_hostname CdnResource#custom_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#custom_hostname CdnResource#custom_hostname}
   */
   readonly customHostname?: string;
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the SNI type. Allowed values are "dynamic" or "custom". If set to "dynamic", the hostname matches the value of the "host_header" or "forward_host_header" field. If set to "custom", the hostname matches the value of the "custom_hostname" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#sni_type CdnResource#sni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#sni_type CdnResource#sni_type}
   */
   readonly sniType?: string;
 }
@@ -4370,13 +4370,13 @@ export interface CdnResourceOptionsStale {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add a list of errors. Allowed values are "error", "http_403", "http_404", "http_429", "http_500", "http_502", "http_503", "http_504", "invalid_header", "timeout", "updating".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -4488,14 +4488,14 @@ export interface CdnResourceOptionsStaticRequestHeaders {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add the list of custom HTTP request headers in the "name: value" format. Header name is restricted to 255 symbols and can contain Latin letters (A-Z, a-z), numbers (0-9), dashes, and underscores
   * Header value is restricted to 512 symbols and must start with a letter, a number, an asterisk or {. It can contain only Latin letters (A-Z, a-z), numbers (0-9), spaces and symbols (`~!@#%^&*()-_=+ /|";:?.><{}[]). Space can be used only between the words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -4607,19 +4607,19 @@ export interface CdnResourceOptionsStaticResponseHeadersValue {
   /**
   * Specify if the custom header should be added to the responses from CDN regardless of the HTTP response status code. Allowed values are "true" or "false". If set to "false", the header will only be added to the responses with HTTP 200, 201, 204, 206, 301, 302, 303, 304, 307, or 308 status codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#always CdnResource#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#always CdnResource#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
   * Add the header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#name CdnResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#name CdnResource#name}
   */
   readonly name: string;
   /**
   * Add the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -4789,13 +4789,13 @@ export interface CdnResourceOptionsStaticResponseHeaders {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: CdnResourceOptionsStaticResponseHeadersValue[] | cdktf.IResolvable;
 }
@@ -4907,13 +4907,13 @@ export interface CdnResourceOptionsTlsVersions {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the list of TLS versions. Allowed values are "SSLv3", "TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: string[];
 }
@@ -5025,13 +5025,13 @@ export interface CdnResourceOptionsUseDefaultLeChain {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Choose the certificate chain type. Allowed values are "true" or "false". If set to "true", a default chain is chosen. Use it for Android devices 7.1.1 or lower. If set to "false", an alternative certificate chain is chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -5143,19 +5143,19 @@ export interface CdnResourceOptionsUserAgentAcl {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Add a list of user agents. Enter the values in [""]. You can specify a user agent string, an empty value using "", or a regular expression that starts with "~".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues: string[];
   /**
   * Set the policy type. Allowed values are "allow" or "deny". The policy allows or denies access to content from all user agents except those specified in the "excepted_values" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType: string;
 }
@@ -5293,13 +5293,13 @@ export interface CdnResourceOptionsWebsockets {
   /**
   * Enable or disable the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the option. Allowed values are "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -5411,223 +5411,223 @@ export interface CdnResourceOptions {
   /**
   * allowed_http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#allowed_http_methods CdnResource#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#allowed_http_methods CdnResource#allowed_http_methods}
   */
   readonly allowedHttpMethods?: CdnResourceOptionsAllowedHttpMethods;
   /**
   * brotli_compression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#brotli_compression CdnResource#brotli_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#brotli_compression CdnResource#brotli_compression}
   */
   readonly brotliCompression?: CdnResourceOptionsBrotliCompression;
   /**
   * browser_cache_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#browser_cache_settings CdnResource#browser_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#browser_cache_settings CdnResource#browser_cache_settings}
   */
   readonly browserCacheSettings?: CdnResourceOptionsBrowserCacheSettings;
   /**
   * cors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#cors CdnResource#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#cors CdnResource#cors}
   */
   readonly cors?: CdnResourceOptionsCors;
   /**
   * disable_proxy_force_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#disable_proxy_force_ranges CdnResource#disable_proxy_force_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#disable_proxy_force_ranges CdnResource#disable_proxy_force_ranges}
   */
   readonly disableProxyForceRanges?: CdnResourceOptionsDisableProxyForceRanges;
   /**
   * edge_cache_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#edge_cache_settings CdnResource#edge_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#edge_cache_settings CdnResource#edge_cache_settings}
   */
   readonly edgeCacheSettings?: CdnResourceOptionsEdgeCacheSettings;
   /**
   * fetch_compressed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#fetch_compressed CdnResource#fetch_compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#fetch_compressed CdnResource#fetch_compressed}
   */
   readonly fetchCompressed?: CdnResourceOptionsFetchCompressed;
   /**
   * follow_origin_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#follow_origin_redirect CdnResource#follow_origin_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#follow_origin_redirect CdnResource#follow_origin_redirect}
   */
   readonly followOriginRedirect?: CdnResourceOptionsFollowOriginRedirect;
   /**
   * force_return block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#force_return CdnResource#force_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#force_return CdnResource#force_return}
   */
   readonly forceReturn?: CdnResourceOptionsForceReturn;
   /**
   * forward_host_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#forward_host_header CdnResource#forward_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#forward_host_header CdnResource#forward_host_header}
   */
   readonly forwardHostHeader?: CdnResourceOptionsForwardHostHeader;
   /**
   * geo_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#geo_acl CdnResource#geo_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#geo_acl CdnResource#geo_acl}
   */
   readonly geoAcl?: CdnResourceOptionsGeoAcl;
   /**
   * gzip_compression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#gzip_compression CdnResource#gzip_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#gzip_compression CdnResource#gzip_compression}
   */
   readonly gzipCompression?: CdnResourceOptionsGzipCompression;
   /**
   * host_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#host_header CdnResource#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#host_header CdnResource#host_header}
   */
   readonly hostHeader?: CdnResourceOptionsHostHeader;
   /**
   * http3_enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#http3_enabled CdnResource#http3_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#http3_enabled CdnResource#http3_enabled}
   */
   readonly http3Enabled?: CdnResourceOptionsHttp3Enabled;
   /**
   * ignore_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#ignore_cookie CdnResource#ignore_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#ignore_cookie CdnResource#ignore_cookie}
   */
   readonly ignoreCookie?: CdnResourceOptionsIgnoreCookie;
   /**
   * ignore_query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#ignore_query_string CdnResource#ignore_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#ignore_query_string CdnResource#ignore_query_string}
   */
   readonly ignoreQueryString?: CdnResourceOptionsIgnoreQueryString;
   /**
   * image_stack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#image_stack CdnResource#image_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#image_stack CdnResource#image_stack}
   */
   readonly imageStack?: CdnResourceOptionsImageStack;
   /**
   * ip_address_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#ip_address_acl CdnResource#ip_address_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#ip_address_acl CdnResource#ip_address_acl}
   */
   readonly ipAddressAcl?: CdnResourceOptionsIpAddressAcl;
   /**
   * limit_bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#limit_bandwidth CdnResource#limit_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#limit_bandwidth CdnResource#limit_bandwidth}
   */
   readonly limitBandwidth?: CdnResourceOptionsLimitBandwidth;
   /**
   * proxy_cache_methods_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#proxy_cache_methods_set CdnResource#proxy_cache_methods_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#proxy_cache_methods_set CdnResource#proxy_cache_methods_set}
   */
   readonly proxyCacheMethodsSet?: CdnResourceOptionsProxyCacheMethodsSet;
   /**
   * query_params_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#query_params_blacklist CdnResource#query_params_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#query_params_blacklist CdnResource#query_params_blacklist}
   */
   readonly queryParamsBlacklist?: CdnResourceOptionsQueryParamsBlacklistStruct;
   /**
   * query_params_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#query_params_whitelist CdnResource#query_params_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#query_params_whitelist CdnResource#query_params_whitelist}
   */
   readonly queryParamsWhitelist?: CdnResourceOptionsQueryParamsWhitelistStruct;
   /**
   * redirect_http_to_https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#redirect_http_to_https CdnResource#redirect_http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#redirect_http_to_https CdnResource#redirect_http_to_https}
   */
   readonly redirectHttpToHttps?: CdnResourceOptionsRedirectHttpToHttps;
   /**
   * redirect_https_to_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#redirect_https_to_http CdnResource#redirect_https_to_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#redirect_https_to_http CdnResource#redirect_https_to_http}
   */
   readonly redirectHttpsToHttp?: CdnResourceOptionsRedirectHttpsToHttp;
   /**
   * referer_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#referer_acl CdnResource#referer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#referer_acl CdnResource#referer_acl}
   */
   readonly refererAcl?: CdnResourceOptionsRefererAcl;
   /**
   * response_headers_hiding_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#response_headers_hiding_policy CdnResource#response_headers_hiding_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#response_headers_hiding_policy CdnResource#response_headers_hiding_policy}
   */
   readonly responseHeadersHidingPolicy?: CdnResourceOptionsResponseHeadersHidingPolicy;
   /**
   * rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#rewrite CdnResource#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#rewrite CdnResource#rewrite}
   */
   readonly rewrite?: CdnResourceOptionsRewrite;
   /**
   * secure_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#secure_key CdnResource#secure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#secure_key CdnResource#secure_key}
   */
   readonly secureKey?: CdnResourceOptionsSecureKey;
   /**
   * slice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#slice CdnResource#slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#slice CdnResource#slice}
   */
   readonly slice?: CdnResourceOptionsSlice;
   /**
   * sni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#sni CdnResource#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#sni CdnResource#sni}
   */
   readonly sni?: CdnResourceOptionsSni;
   /**
   * stale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#stale CdnResource#stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#stale CdnResource#stale}
   */
   readonly stale?: CdnResourceOptionsStale;
   /**
   * static_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#static_request_headers CdnResource#static_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#static_request_headers CdnResource#static_request_headers}
   */
   readonly staticRequestHeaders?: CdnResourceOptionsStaticRequestHeaders;
   /**
   * static_response_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#static_response_headers CdnResource#static_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#static_response_headers CdnResource#static_response_headers}
   */
   readonly staticResponseHeaders?: CdnResourceOptionsStaticResponseHeaders;
   /**
   * tls_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#tls_versions CdnResource#tls_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#tls_versions CdnResource#tls_versions}
   */
   readonly tlsVersions?: CdnResourceOptionsTlsVersions;
   /**
   * use_default_le_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#use_default_le_chain CdnResource#use_default_le_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#use_default_le_chain CdnResource#use_default_le_chain}
   */
   readonly useDefaultLeChain?: CdnResourceOptionsUseDefaultLeChain;
   /**
   * user_agent_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#user_agent_acl CdnResource#user_agent_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#user_agent_acl CdnResource#user_agent_acl}
   */
   readonly userAgentAcl?: CdnResourceOptionsUserAgentAcl;
   /**
   * websockets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#websockets CdnResource#websockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#websockets CdnResource#websockets}
   */
   readonly websockets?: CdnResourceOptionsWebsockets;
 }
@@ -6755,7 +6755,7 @@ export class CdnResourceOptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource edgecenter_cdn_resource}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource edgecenter_cdn_resource}
 */
 export class CdnResource extends cdktf.TerraformResource {
 
@@ -6771,7 +6771,7 @@ export class CdnResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnResource to import
-  * @param importFromId The id of the existing CdnResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6783,7 +6783,7 @@ export class CdnResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.4/docs/resources/cdn_resource edgecenter_cdn_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.5/docs/resources/cdn_resource edgecenter_cdn_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6794,8 +6794,8 @@ export class CdnResource extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_cdn_resource',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4',
-        providerVersionConstraint: '0.10.4'
+        providerVersion: '0.10.5',
+        providerVersionConstraint: '0.10.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

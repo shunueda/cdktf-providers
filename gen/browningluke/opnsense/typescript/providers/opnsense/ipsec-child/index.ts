@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child
+// https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface IpsecChildConfig extends cdktf.TerraformMetaArguments {
   /**
   * Close action for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#close_action IpsecChild#close_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#close_action IpsecChild#close_action}
   */
   readonly closeAction?: string;
   /**
   * Optional description for the PSK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#description IpsecChild#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#description IpsecChild#description}
   */
   readonly description?: string;
   /**
   * DPD action for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#dpd_action IpsecChild#dpd_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#dpd_action IpsecChild#dpd_action}
   */
   readonly dpdAction?: string;
   /**
   * Enable or disable the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#enabled IpsecChild#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#enabled IpsecChild#enabled}
   */
   readonly enabled?: string;
   /**
   * Install policies for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#install_policies IpsecChild#install_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#install_policies IpsecChild#install_policies}
   */
   readonly installPolicies?: string;
   /**
   * The parent connection UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#ipsec_connection IpsecChild#ipsec_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#ipsec_connection IpsecChild#ipsec_connection}
   */
   readonly ipsecConnection: string;
   /**
   * List of local networks for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#local_networks IpsecChild#local_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#local_networks IpsecChild#local_networks}
   */
   readonly localNetworks: string[];
   /**
   * Mode for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#mode IpsecChild#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#mode IpsecChild#mode}
   */
   readonly mode?: string;
   /**
   * List of proposals for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#proposals IpsecChild#proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#proposals IpsecChild#proposals}
   */
   readonly proposals: string[];
   /**
   * Rekey time for the Child Resource in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#rekey_time IpsecChild#rekey_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#rekey_time IpsecChild#rekey_time}
   */
   readonly rekeyTime?: string;
   /**
   * List of remote networks for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#remote_networks IpsecChild#remote_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#remote_networks IpsecChild#remote_networks}
   */
   readonly remoteNetworks: string[];
   /**
   * Request ID for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#request_id IpsecChild#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#request_id IpsecChild#request_id}
   */
   readonly requestId?: string;
   /**
   * Enable or disable SHA256_96.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#sha256_96 IpsecChild#sha256_96}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#sha256_96 IpsecChild#sha256_96}
   */
   readonly sha25696?: string;
   /**
   * Start action for the Child Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#start_action IpsecChild#start_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#start_action IpsecChild#start_action}
   */
   readonly startAction?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child opnsense_ipsec_child}
+* Represents a {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child opnsense_ipsec_child}
 */
 export class IpsecChild extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class IpsecChild extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpsecChild resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpsecChild to import
-  * @param importFromId The id of the existing IpsecChild that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpsecChild that should be imported. Refer to the {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpsecChild to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class IpsecChild extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.0/docs/resources/ipsec_child opnsense_ipsec_child} Resource
+  * Create a new {@link https://registry.terraform.io/providers/browningluke/opnsense/0.16.1/docs/resources/ipsec_child opnsense_ipsec_child} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class IpsecChild extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_child',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0',
-        providerVersionConstraint: '0.16.0'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
